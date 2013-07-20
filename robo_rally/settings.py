@@ -1,5 +1,9 @@
 # Django settings for robo_rally project.
 
+import os
+def absolute(*args):
+    return [os.path.join(os.path.dirname(os.path.abspath(__file__)), a) for a in args]
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -29,7 +33,7 @@ ALLOWED_HOSTS = []
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
 # In a Windows environment this must be set to your system time zone.
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'Australia/Sydney'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
@@ -68,10 +72,11 @@ STATIC_ROOT = ''
 STATIC_URL = '/static/'
 
 # Additional locations of static files
-STATICFILES_DIRS = (
+STATICFILES_DIRS = absolute(
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    'static'
 )
 
 # List of finder classes that know how to find static files in
@@ -107,7 +112,7 @@ ROOT_URLCONF = 'robo_rally.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'robo_rally.wsgi.application'
 
-TEMPLATE_DIRS = ('/home/matt/Documents/schoolwork/software/robo_rally/templates',)
+TEMPLATE_DIRS = ('/home/matt/Documents/schoolwork/software/robo_rally/robo_rally/templates',)
 
 INSTALLED_APPS = (
     'django.contrib.auth',
@@ -120,7 +125,8 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-    'courses',
+    'robo_rally.courses',
+    'robo_rally.auth',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -152,3 +158,4 @@ LOGGING = {
     }
 }
 
+AUTH_PROFILE_MODULE = 'auth.UserProfile'

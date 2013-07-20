@@ -2,7 +2,10 @@ from django.conf.urls import patterns, include, url
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
+from robo_rally.auth.admin import *
 admin.autodiscover()
+
+from robo_rally.auth.views import *
 
 urlpatterns = patterns('',
     # Examples:
@@ -14,5 +17,6 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
-)
 
+    url(r'^register/', RegisterView.as_view(), name='register')
+)
