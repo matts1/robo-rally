@@ -3,12 +3,23 @@
 <head>
     <meta charset="utf-8">
     <title>{% block title %}ADD A TITLE{% endblock %}</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/static/css/style.css">
     <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
 <body>
+    <nav>
+        <ul>
+            {% if user.is_authenticated %}
+                <li>Welcome, <a href="/TODO_PROFILE">{{ user }}</a></li>
+                <li><a href="{% url 'logout' %}">Logout</a></li>
+            {% else %}
+                <li><a href="{% url 'register' %}">Register</a></li>
+                <li><a href="{% url 'login' %}">Login</a></li>
+            {% endif %}
+        </ul>
+    </nav>
     {% block content %}ADD SOME CONTENT{% endblock %}
 </body>
 </html>

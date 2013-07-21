@@ -105,6 +105,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     # Uncomment the next line for simple clickjacking protection:
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'robo_rally.middleware.loginredirect.LoginRequiredMiddleware'
 )
 
 ROOT_URLCONF = 'robo_rally.urls'
@@ -159,3 +160,14 @@ LOGGING = {
 }
 
 AUTH_PROFILE_MODULE = 'auth.UserProfile'
+
+HOME_URL = '/lobbies'
+LOGIN_URL = '/'
+
+LOGIN_REQUIRED_URLS = [
+    'lobbies'
+]
+NO_LOGIN_REQUIRED_URLS = set([
+    'login',
+    'register'
+])

@@ -8,15 +8,20 @@ admin.autodiscover()
 from robo_rally.auth.views import *
 
 urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'robo_rally.views.home', name='home'),
-    # url(r'^robo_rally/', include('robo_rally.foo.urls')),
-
-    # Uncomment the admin/doc line below to enable admin documentation:
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-
-    # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
 
-    url(r'^register/', RegisterView.as_view(), name='register')
+    ### AUTH MODULE ###
+    # in the login page, next page is provided by a hidden input field in the template
+    url(r'^$', 'django.contrib.auth.views.login',
+        dict(template_name='auth/login.html'), name='login'
+    ),
+    url(r'^logout/$', 'django.contrib.auth.views.logout',
+        dict(next_page= '/'), name='logout'
+    ),
+    url(r'^register/$', RegisterView.as_view(), name='register'),
+
+    ### GAME MODULE ###
+    # TODO: registerView is a temporary view so I can get redirects working
+    url(r'^lobbies/$', RegisterView.as_view(), name='lobbies'),
 )
