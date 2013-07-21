@@ -113,7 +113,7 @@ ROOT_URLCONF = 'robo_rally.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'robo_rally.wsgi.application'
 
-TEMPLATE_DIRS = ('/home/matt/Documents/schoolwork/software/robo_rally/robo_rally/templates',)
+TEMPLATE_DIRS = absolute('templates',)
 
 INSTALLED_APPS = (
     'django.contrib.auth',
