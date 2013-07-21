@@ -5,10 +5,12 @@ from django.contrib.auth.models import User
 from robo_rally.auth.models import UserProfile
 
 def is_valid_username(username):
-    return #TODO: after users are working, get this working
+    if User.objects.filter(username=username):
+        raise ValidationError('The username is already taken')
 
 def is_valid_email(email):
-    return #TODO: after users are working, get this working
+    if User.objects.filter(email=email):
+        raise ValidationError('The email is already taken')
 
 class RegisterForm(Form):
     user = CharField(
@@ -16,14 +18,15 @@ class RegisterForm(Form):
         validators=[
             RegexValidator(regex=r'^[a-zA-Z0-9]*$',
                 message='Username must be Alphanumeric',
+                code='invalid_username'
             ),
             is_valid_username
         ]
     )
-    email = EmailField(max_length=30)
+    email = EmailField(max_length=30, validators=[is_valid_email])
     password = CharField(
         widget=PasswordInput(),
-        max_length=60
+        max_length=60,
     )
     confirm_password = CharField(
         widget=PasswordInput(),

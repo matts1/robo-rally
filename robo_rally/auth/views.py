@@ -4,7 +4,7 @@ from django.views.generic.edit import FormView
 class RegisterView(FormView):
     template_name = 'auth/register.html'
     form_class = RegisterForm
-    success_url = '/register' #TODO: should be /, but first get this working
+    success_url = '/'
 
     def form_valid(self, form):
         form.save()
