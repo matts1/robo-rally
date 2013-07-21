@@ -20,6 +20,7 @@ urlpatterns = patterns('',
         dict(next_page= '/'), name='logout'
     ),
     url(r'^register/$', RegisterView.as_view(), name='register'),
+    url(r'^chgpwd/$', ChgPwdView.as_view(), name='chgpwd'),
 
     ### GAME MODULE ###
     # TODO: registerView is a temporary view so I can get redirects working

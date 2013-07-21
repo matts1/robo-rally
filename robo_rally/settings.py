@@ -166,8 +166,9 @@ LOGIN_URL = '/'
 
 LOGIN_REQUIRED_URLS = [
     'lobbies'
+    'chgpwd',
 ]
 NO_LOGIN_REQUIRED_URLS = set([
     'login',
-    'register'
+    'register',
 ])
