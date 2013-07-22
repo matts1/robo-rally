@@ -1,9 +1,2 @@
-{% extends 'base.html' %}
-{% block title %}Login{% endblock %}
-{% block content %}
-    <form action="{% url 'login' %}" method="post">{% csrf_token %}
-        <input type="hidden" name="next" value="{% url 'lobbies' %}"
-        {{ form.as_p }}
-        <input type="submit" value="Login" />
-    </form>
-{% endblock %}
+{% load xextends %}
+{% xextends 'common/form.html' with title='Login' %}

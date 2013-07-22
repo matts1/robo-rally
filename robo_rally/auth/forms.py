@@ -1,8 +1,16 @@
 from django.forms import *
 from django.core.validators import *
 from django.contrib.auth.models import User
+from django.contrib import messages
+from django.core.mail import send_mail
 
 from robo_rally.auth.models import UserProfile
+
+class Form(Form):
+    def __init__(self, request, user, *args, **kwargs):
+        super(Form, self).__init__(*args, **kwargs)
+        self.request = request
+        self.user = user
 
 def is_valid_username(username):
     if User.objects.filter(username=username):
@@ -11,6 +19,16 @@ def is_valid_username(username):
 def is_valid_email(email):
     if User.objects.filter(email=email):
         raise ValidationError('The email is already taken')
+
+def email_exists(email):
+    if not User.objects.filter(email=email):
+        raise ValidationError("The email does not exist")
+
+def password_field():
+    return CharField(
+        widget=PasswordInput(),
+        max_length=60,
+    )
 
 class RegisterForm(Form):
     user = CharField(
@@ -24,21 +42,15 @@ class RegisterForm(Form):
         ]
     )
     email = EmailField(max_length=30, validators=[is_valid_email])
-    password = CharField(
-        widget=PasswordInput(),
-        max_length=60,
-    )
-    confirm_password = CharField(
-        widget=PasswordInput(),
-        max_length=60,
-    )
+    password = password_field()
+    confirm_password = password_field()
 
     def clean(self):
         data = self.cleaned_data
         same = data.get('password', '') == data.get('confirm_password', '')
         if not same:
             for field in ['password', 'confirm_password']:
-                self._errors[field] = self.error_class(['Passwords must Match'])
+                self._errors[field] = self.error_class(['Passwords Must Match'])
         return super(RegisterForm, self).clean()
 
     def save(self):
@@ -54,3 +66,36 @@ class RegisterForm(Form):
         )
         user.save()
         return user
+
+
+class ChgPwdForm(Form):
+    old_password = password_field()
+    new_password = password_field()
+    confirm_password = password_field()
+
+    def clean(self):
+        data = self.cleaned_data
+        same = data.get('new_password', '') == data.get('confirm_password', '')
+        if not same:
+            for field in ['new_password', 'confirm_password']:
+                self._errors[field] = self.error_class(['New Passwords Must Match'])
+
+        old = data.get('old_password', '')
+        if not self.user.check_password(old):
+            raise ValidationError("Old Password is incorrect")
+
+        return super(ChgPwdForm, self).clean()
+
+    def save(self):
+        self.user.set_password(self.cleaned_data['new_password'])
+        self.user.save()
+
+class ResetPwdForm(Form):
+    email = EmailField(max_length=30, validators=[email_exists])
+
+    def save(self):
+        send_mail(subject='Password Reset for Robo Rally Website',
+            message='testing',
+            from_email='roborallywebsite@gmail.com',
+            recipient_list=[self.cleaned_data['email']],
+        )

@@ -20,6 +20,14 @@ urlpatterns = patterns('',
         dict(next_page= '/'), name='logout'
     ),
     url(r'^register/$', RegisterView.as_view(), name='register'),
+    url(r'^chgpwd/$', ChgPwdView.as_view(), name='chgpwd'),
+    url(r'^resetpwd/$', 'django.contrib.auth.views.password_reset',
+        dict(template_name='auth/resetpwd.html', post_reset_redirect='/'), name='resetpwd'
+    ),
+    url(r'^resetpwd/reset/(?P<uidb36>[0-9A-Za-z]+)-(?P<token>.+)/$',
+        'django.contrib.auth.views.password_reset_confirm',
+        {'post_reset_redirect' : '/resetpwd/complete/'}
+    ),
 
     ### GAME MODULE ###
     # TODO: registerView is a temporary view so I can get redirects working

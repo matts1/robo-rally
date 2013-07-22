@@ -1,4 +1,8 @@
 # Django settings for robo_rally project.
+from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
+TEMPLATE_CONTEXT_PROCESSORS = TCP + (
+    'django.core.context_processors.request',
+)
 
 import os
 def absolute(*args):
@@ -10,6 +14,12 @@ TEMPLATE_DEBUG = DEBUG
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
 )
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = '???@gmail.com'
+EMAIL_HOST_PASSWORD = ''
 
 MANAGERS = ADMINS
 
@@ -113,7 +123,7 @@ ROOT_URLCONF = 'robo_rally.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'robo_rally.wsgi.application'
 
-TEMPLATE_DIRS = ('/home/matt/Documents/schoolwork/software/robo_rally/robo_rally/templates',)
+TEMPLATE_DIRS = absolute('templates',)
 
 INSTALLED_APPS = (
     'django.contrib.auth',
@@ -166,8 +176,9 @@ LOGIN_URL = '/'
 
 LOGIN_REQUIRED_URLS = [
     'lobbies'
+    'chgpwd',
 ]
 NO_LOGIN_REQUIRED_URLS = set([
     'login',
-    'register'
+    'register',
 ])

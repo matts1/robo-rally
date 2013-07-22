@@ -13,8 +13,10 @@
         <ul>
             {% if user.is_authenticated %}
                 <li>Welcome, <a href="/TODO_PROFILE">{{ user }}</a></li>
+                <li><a href="{% url 'chgpwd' %}">Change Password</a></li>
                 <li><a href="{% url 'logout' %}">Logout</a></li>
             {% else %}
+                <li><a href="{% url 'resetpwd' %}">Reset Password</a></li>
                 <li><a href="{% url 'register' %}">Register</a></li>
                 <li><a href="{% url 'login' %}">Login</a></li>
             {% endif %}

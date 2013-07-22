@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %}{{ title|title }}{% endblock %}
+{% block content %}
+    <form action="" method="post">{% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="{% if button %}{{ button|title }}{% else %}{{ title|title }}{% endif %}" />
+    </form>
+    {% include 'common/message.html' %}
+{% endblock %}
