@@ -1,8 +1,9 @@
 from django.conf.urls import patterns, include, url
+from django.views.generic import RedirectView
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
-from robo_rally.auth.admin import *
+from robo_rally.auth.admin import * # create admin view
 admin.autodiscover()
 
 from robo_rally.auth.views import *
@@ -10,6 +11,9 @@ from robo_rally.auth.views import *
 urlpatterns = patterns('',
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r'^admin/', include(admin.site.urls)),
+
+    # favicon
+    url(r'^favicon\.ico$', RedirectView.as_view(url='/static/images/favicon.ico')),
 
     ### AUTH MODULE ###
     # in the login page, next page is provided by a hidden input field in the template
