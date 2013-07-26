@@ -11,7 +11,7 @@
             </div>
         {% endfor %}
         <input type="submit" value="{% if button %}{{ button|title }}{% else %}{{ title|title }}{% endif %}" />
+        {% include 'common/message.html' %}
+        {{ extra_content }}
     </form>
-    {% include 'common/message.html' %}
-    {{ extra_content }}
 {% endblock %}

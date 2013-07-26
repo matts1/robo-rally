@@ -115,7 +115,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     # Uncomment the next line for simple clickjacking protection:
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'robo_rally.middleware.loginredirect.LoginRequiredMiddleware'
+    'robo_rally.middleware.loginredirect.LoginRequiredMiddleware',
 )
 
 ROOT_URLCONF = 'robo_rally.urls'

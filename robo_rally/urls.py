@@ -1,5 +1,6 @@
 from django.conf.urls import patterns, include, url
 from django.views.generic import RedirectView
+from django.contrib.auth.forms import SetPasswordForm
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
@@ -12,8 +13,10 @@ urlpatterns = patterns('',
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r'^admin/', include(admin.site.urls)),
 
+    url(r'^showmsg/(?P<msg>.+)/(?P<redirect>.+)', MsgView.as_view(), name='msg'),
+
     # favicon
-    url(r'^favicon\.ico$', RedirectView.as_view(url='/static/images/favicon.ico')),
+    url(r'^favicon.ico$', RedirectView.as_view(url='/static/images/favicon.ico')),
 
     ### AUTH MODULE ###
     # in the login page, next page is provided by a hidden input field in the template
@@ -23,17 +26,22 @@ urlpatterns = patterns('',
     url(r'^logout/$', 'django.contrib.auth.views.logout',
         dict(next_page= '/'), name='logout'
     ),
+    url(r'^resetpwd/$', ResetPwdView.as_view(), name='resetpwd'),
     url(r'^register/$', RegisterView.as_view(), name='register'),
     url(r'^chgpwd/$', ChgPwdView.as_view(), name='chgpwd'),
-    url(r'^resetpwd/$', 'django.contrib.auth.views.password_reset',
-        dict(template_name='auth/resetpwd.html', post_reset_redirect='/'), name='resetpwd'
-    ),
+
     url(r'^resetpwd/reset/(?P<uidb36>[0-9A-Za-z]+)-(?P<token>.+)/$',
         'django.contrib.auth.views.password_reset_confirm',
-        {'post_reset_redirect' : '/resetpwd/complete/'}
+        dict(
+            template_name='auth/resetpwd.html',
+            post_reset_redirect=reverse_lazy(
+                'msg', kwargs=dict(msg='doreset', redirect='login')),
+            set_password_form=SetPasswordForm
+        ), name='doreset'
     ),
+    url('^resetpwd/doreset/$', 'django.contrib.auth.views.password_reset_complete', name='completereset'),
 
     ### GAME MODULE ###
-    # TODO: registerView is a temporary view so I can get redirects working
+    # TODO: registerView is a temporary view so I can test getting redirects working
     url(r'^lobbies/$', RegisterView.as_view(), name='lobbies'),
 )

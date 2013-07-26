@@ -3,6 +3,7 @@ from django.core.validators import *
 from django.contrib.auth.models import User
 from django.contrib import messages
 from django.core.mail import send_mail
+from django.contrib.auth.forms import SetPasswordForm
 
 from robo_rally.auth.models import UserProfile
 
@@ -90,12 +91,7 @@ class ChgPwdForm(Form):
         self.user.set_password(self.cleaned_data['new_password'])
         self.user.save()
 
-class ResetPwdForm(Form):
-    email = EmailField(max_length=30, validators=[email_exists])
-
+class DoResetPwdForm(SetPasswordForm):
     def save(self):
-        send_mail(subject='Password Reset for Robo Rally Website',
-            message='testing',
-            from_email='roborallywebsite@gmail.com',
-            recipient_list=[self.cleaned_data['email']],
-        )
+        super(DoResetPwdForm, self).save()
+
