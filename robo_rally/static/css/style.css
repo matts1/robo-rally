@@ -1,0 +1,35 @@
+/*
+ https://kuler.adobe.com/create/color-wheel/?base=2&rule=Analogous&selected=1&name=My%20Kuler%20Theme&mode=rgb&rgbvalues=0.54,0.07574046678257211,0.5214192501177083,0.1411764705882353,0.5019607843137255,0.9803921568627451,0.14719671437105217,0.76,0.20258007391251204,0.92,0.7683701087286746,0.23452887922212104,0.98,0.21829229990295232,0.1507359734005666
+*/
+
+#content {
+    margin: 0 auto;
+    background-color: #26C234;
+    width: 960px;
+}
+
+label {
+    color: #2480FA;
+    display: block;
+    text-shadow: #000000 0px 0px 7px;
+}
+
+input {
+    border-radius: 3.5px;
+}
+
+ul.errorlist {
+    color: #FA3826;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-shadow: #000000 0px 0px 7px;
+}
+
+form {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #646464;
+    width: 600px;
+    border-radius: 10px;
+}

@@ -2,8 +2,16 @@
 {% block title %}{{ title|title }}{% endblock %}
 {% block content %}
     <form action="" method="post">{% csrf_token %}
-        {{ form.as_p }}
+        {% for field in form %}
+            <div class="fieldwrapper">
+                <p>
+                    {{ field.label_tag }} {{ field }}
+                </p>
+                {{ field.errors }}
+            </div>
+        {% endfor %}
         <input type="submit" value="{% if button %}{{ button|title }}{% else %}{{ title|title }}{% endif %}" />
     </form>
     {% include 'common/message.html' %}
+    {{ extra_content }}
 {% endblock %}
