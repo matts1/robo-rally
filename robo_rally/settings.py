@@ -1,10 +1,11 @@
 # Django settings for robo_rally project.
+import os
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
+
 TEMPLATE_CONTEXT_PROCESSORS = TCP + (
     'django.core.context_processors.request',
 )
 
-import os
 def absolute(*args):
     return [os.path.join(os.path.dirname(os.path.abspath(__file__)), a) for a in args]
 
@@ -178,6 +179,7 @@ LOGIN_REQUIRED_URLS = [
     'lobbies'
     'chgpwd',
 ]
+
 NO_LOGIN_REQUIRED_URLS = set([
     'login',
     'register',

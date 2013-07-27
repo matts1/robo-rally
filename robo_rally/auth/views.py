@@ -1,4 +1,3 @@
-from twisted.internet.test._posixifaces import in6_addr
 from robo_rally.auth.forms import *
 from django.views.generic.edit import FormView
 from django.views.generic import RedirectView
