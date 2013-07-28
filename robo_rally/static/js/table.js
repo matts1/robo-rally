@@ -7,20 +7,31 @@ document.ready = function () {
 
 function setupTable (table) {
     thead = $("thead", table);
-    needFilterRow = 0;
+    needFilterRow = false;
     filterRow = $("<tr></tr>");
     row = $("tr th", thead);
     for (var i = 0; i < row.length; i++) {
         filter = $(row[i]).attr("data-filter");
         col = $("<th></th>")
         if (filter != undefined) {
-            needFilterRow = 1;
+            needFilterRow = true;
         }
         if (filter == "text") {
             col.append("<input>");
             col.on('keyup', 'input', textFilter);
+        } else if (filter == "select") {
+            col.append("<select><option value=''>All</option></select>");
+            rows = $("tbody tr", table);
+            vals = {};
+            for (var j = 0; j < rows.length; j++) {
+                vals[$($(rows[j]).children()[i]).text()] = true;
+            }
+            select = $("select", col);
+            for (var key in vals) {
+                select.append("<option>" + key + "</option>")
+            }
+            col.on("change", "select", textFilter);
         }
-        // TODO: Make a filter for a select element
         filterRow.append(col);
     }
     if (needFilterRow) {
