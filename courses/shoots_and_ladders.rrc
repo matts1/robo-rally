@@ -1,0 +1,43 @@
+name: Shoots and Ladders
+description: 4 Flags, 3 Options, 3 Repairs
+Work Your Way Up the Maze
+But  Don't Fall Down the Ladders
+Created By Mongo441
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+8,1 11,1 9,1 10,1 7,2 12,2 7,4 12,4 
+fbbbb xesbbbb xewwbbb xewbbbb
+fbbbv xnsbbbb fbbbb pbbwb
+pbbwb cnebbwb xsebbbb cwelbbb
+owbbw fwbbb xsnbbbb pbbbb
+fbbbw fbbbb xsnbbbb fbbwb
+gbbww fbbwb xenbbbb xewwbwb
+fwbbw fwbbb xnwbwbb fwbbw
+fbbbw fbbbb fbbbb xewbbbb
+fbbww fbbbb xewbbwb xewbbwb
+fwbbw fbbbb fwbbb fwbbb
+fbbbw fbbbb xewbbbb xewbbbb
+fbbww fbbwb xnwbwwb fbbww
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewbbbb xewbbbb xewpbbb cewbbbb cewbbbb cewpbbb cewbbbb cewbbbb cewvbbb cewbbbb cewbbbb cswbbbb
+gbbbb fbbwb xsnbbbb rbbbb fbbbb xnsbbbb fbbbb hbbbb xsnbbbb obbbb xsnbbbb fbpbb
+cwebbbb cwepbbb xsenbbbb cwebbbb cwebbbb xnsebbbb cwebbbb cwebbbb xsenbbbb cwebbbb cwebbbb xwsbbbb
+fbbbb fbbbb xsnbbbb gbbbb rbbbb xnsbbbb fbbbb gbbbb xsnbbbb fbbbb fbbbb cnsbwbb
+fbbbb fbbbb xsnbbbb hbbbb obbbb xnsbbbb obbbb fbbwb xsnbbbb xwebbbb xwsbbbb cnsbwbb
+xewsbbbb cewbbbb xswbbbb cewbbbb cewbbbb xnwbbbb cewbbbb cewlbbb xswbbbb cewbbbb xnwsbbbb cnwbbbb
+cnsbbbb fbbbb xsnbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb xsnbbbb fbbbb xnsbbbb pbbbb
+cnsbbbb fbbbb xsnbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb xsnbbbb fbbbb xnsbbbb pbbbb
+cnebbbb cwebbbb xsenbbbb cwebbbb cwebbbb xnsebbbb cwebbbb cwebbwb xsenbbbb cwebbbb cwebbbb xwsbbbb
+gbbbb obbbb xsnbbbb fbbbb gbbbb xnsbbbb fbbbb gwbbb xsnbbbb hbbbb fbbbb cnsbwbb
+cewbbbb obbbb xsnbbbb obbbb fbbbb xnsbbbb obbbb fbbbb xsnbbbb fbbbb rbbbb cnsbwbb
+xnwbbwb cewbbwb xenbbbb cewbbwb cewbbbb xnwbbwb cewbbwb cewbbwb xenbbwb cewbbbb cewbbbb xnwbwbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,9,12 3,0,5,1 3,1,2,12 3,0,2,1 

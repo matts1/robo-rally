@@ -1,0 +1,55 @@
+name: Option Queen
+description: A vision of psychopathic genius
+length: medium
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb hbbbb hbbbb flbbb hbbbb hbbbb flbbb hbbbb hbbbb flbbb fbbbb fbbbb
+fbbbb hbbbb hbbbb fbbwb hbbbb hbbbb fbbwb hbbbb hbbbb fbbwb fbbbb fbbbb
+fbbbb cewbbbb cewbbbb xewwbwb cewbbbb cewbbbb xewwbwb cewbbbb cewbbbb xewwbwb cewbbbb cewbbbb
+fbbbb hbbbb hbbbb flbwb hbbbb hbbbb flbwb hbbbb hbbbb flbwb fbbbb fbbbb
+fbbbb xewbbbb cewbbbb xewwbwb cewbbbb xewbbbb cewwbwb xewbbbb cewbbbb xewwbwb cewbbbb xewbbbb
+fbbbb hbbbb hbbbb flbbb hbbbb hbbbb flbbb hbbbb hbbbb flbbb fbbbb fbbbb
+fbbbb hbbbb hbbbb fbbwb hbbbb hbbbb fbbwb hbbbb hbbbb fbbwb fbbbb fbbbb
+fbbbb xewbbbb xewbbbb cewwbwb xewbbbb xewbbbb cewwbwb xewbbbb xewbbbb cewwbwb xewbbbb xewbbbb
+fbbbb hbbbb hbbbb flbwb hbbbb hbbbb flbwb hbbbb hbbbb flbwb fbbbb fbbbb
+fbbbb xewbbbb xewbbbb xewwbwb xewbbbb xewbbbb xewwbwb xewbbbb xewbbbb xewwbwb xewbbbb xewbbbb
+fbbbb hbbbb hbbbb flbbb hbbbb hbbbb flbbb hbbbb hbbbb flbbb fbbbb fbbbb
+fbbbb hbbbb hbbbb fbbwb hbbbb hbbbb fbbwb hbbbb hbbbb fbbwb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+fbbbb fbwbb plwbw cwebbbw cwebbbb cwebbbb cwewbbb cwebbbb cwewbbb cwebbbb cwebbbb cnsbbbb
+fbbbb fbwbb pbwww csnbbbw fbbbb fbbbb fbbbb xsnbwbb fbbbw cnsbbbb fbbbb cnsbbbb
+xewbbbb fbbbb rwbwb csnbbbb fbbbb fbbbb fbbbb xsnbwbb fbbbw cwebbbb cwebbbb cnsbbbb
+fbbbb fbwbb plwww csnbbbw fbbbb fbbbb fbbbb xsnbwbb fbbbw fbbbb fbbbb cnsbbbb
+cewbbbb fbbbb rwbwb csnbbbb fbbbb fbbbb fbbbb xsnbwbb fbbll fbbwb fbbwb cnsbwbb
+fbbbb fbwbb plwbw csnbbbw fbbbb fbbbb fbblb xewbbwb xewwbwb xewwbbb xewwbbb cnsbbbb
+fbbbb fbwbb pbwww csnbbbw fbbbb fblbb ptbdd ftbdb ptldb fbbbl fbbbb cnsbwbb
+cewbbbb fbbbb rwbwb csnbbbb xewbbwb xewbbwb xewwbwb xsnwbbb flbbb fbbbb fbbbb cnsbbbb
+fbbbb fbwbb plwww csnbbbw fwbbb fwbbb fllbb xsnbbbw fbbbb fbbbb fbbbb cnsbbbb
+xewbbbb fbbbb rwbwb csnbbbb cwebbbb cnsbbbb fbwbb xsnbbbw fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbwbb plwbw csnbbbw fbbbb cnsbbbb fbwbb xsnbbbw fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbwbb pbwww csnbbbw cewbbbb cewbbbb cewbbwb cewbbbb cewbbwb cewbbbb cewbbbb cewbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,11,11 3,2,2,11 3,2,2,5 3,2,11,5 3,1,4,2 3,1,9,2 

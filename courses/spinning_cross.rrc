@@ -1,0 +1,25 @@
+name: Spinning Cross
+description: Four Flags -- Plus all the extra snags --
+2011 RoboRally Map Editing Contest entry
+Designed by Bolo_MK_XL
+length: medium
+difficulty: hard
+players: 2 8
+newboard:
+blank board
+pbbbb fbbbb gbbbb fbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb obbbb fbbbb pbbbb
+fbbbb fbwwb fbwbw fbbww fbbbb fbbbb cnsbbbb fbbbb fblwb fbwbw fbbww fbbbb
+obbbb fwbwb fbbbb fwbwb obbbb fbbbb xnsbbbb gbbbb fwbwb fbbbb fwbwb gbbbb
+fbbbb fwwbb fbwbw fwbbw fbbbb fbbbb xnsbbbb fbbbb flwbb fbwbw fwbbw fbbbb
+fbbbb fbbbb gbbbb fbbbb fbbbb hbbbb cnsbbbb fbbbb fbbbb obbbb fbbbb fbbbb
+xwebbbb cwebbbb xwebbbb xwebbbb cwebbbb pbbbb pbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb pbbbb pbbbb cewbbbb xewbbbb xewbbbb cewbbbb xewbbbb
+fbbbb fbbbb obbbb fbbbb fbbbb csnbbbb hbbbb fbbbb fbbbb gbbbb fbbbb fbbbb
+fbbbb fbwlb fbwbw fbbww fbbbb xsnbbbb fbbbb fbbbb fbwwb fbwbw fbbww fbbbb
+gbbbb fwbwb fbbbb fwbwb gbbbb xsnbbbb fbbbb obbbb fwbwb fbbbb fwbwb obbbb
+fbbbb fwwbb fbwbw fwbbl fbbbb csnbbbb fbbbb fbbbb fwwbb fbwbw fwbbw fbbbb
+pbbbb fbbbb obbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb fbbbb gbbbb fbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,3 3,1,10,10 3,1,10,3 3,1,3,10 
+start: 3,1,2,11 3,1,11,11 3,1,9,10 3,1,4,10 3,1,9,11 3,1,4,11 3,1,3,9 3,1,10,9 

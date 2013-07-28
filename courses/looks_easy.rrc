@@ -1,0 +1,39 @@
+name: Looks Easy
+description: Well, looks ain't everything!
+length: medium
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbwbb fbwbt
+fbbbb fbbbb fbwbb fbwbt
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbwb
+fbbbb fbbbb fbbbb fwbbb
+fbbbb fbbbb fbbbb fbbwb
+fbbbb fbbbb fbbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb fbwbt
+fbbbb fbbbb fbwbb fbwbt
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb ftbbb
+fbbww fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fwbbb fbbbb fbbbb fbbbb fbllb fbbbw fbbbb fbbbb fbwbb fbbll fbbbb fbbtb
+fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb ftbbb
+fbbbb fbbbb fbbbb fbllb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbwbb fbbll fbbbb fbbbb fbbtb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb ftbbb
+fbbbb fbbbb fbllb fbbbw fbbbb fbbbb fbwbb fbbll fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbbtb
+fbbwb fbllb fbbbw fbbbb fbbbb fbwbb fbbll fbbbb fbbbb fbbbb fbbbb ftbbb
+fwbbw fwbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbtb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,6 3,1,11,9 3,1,7,3 3,1,2,8 

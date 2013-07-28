@@ -1,0 +1,55 @@
+name: Earthquake
+description: Two boards. Four flags. A shaky beginning. Designed by Alienbrain.
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+xesbbbb fbbbb fpbbb xsnbwbb
+xnsbbbb fbbbb csnbbbb cnsbwbb
+xnsbbbb fbbbb cnsbwbb xsnbbbp
+xnsbbbb fbbbb csnbbbb cnsbwbb
+xnsbbbb fbbbb cnsbwbb xsnbbbp
+xnsbbbb fbbbb csnbbbb cnsbwbb
+xsnbbbb fbbbb cnsbbbb csnbwbb
+xsnbbbb fbbbb csnbwbb xnsbbbp
+xsnbbbb fbbbb cnsbbbb csnbwbb
+xsnbbbb fbbbb csnbwbb xnsbbbp
+xsnbbbb fbbbb cnsbbbb csnbwbb
+xenbbbb fbbbb fbbpb xnsbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbw xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb rbbbb
+pbbbw xnsbbbb fbbwb fbbwb fbbbb fbbbb fbbbb fbbwb fbbbb rbbbb xsnbbbb fbbbb
+hbbbb xnwbbbb cewvbbb cewpbbb cewbbbb xewbbbb xewbbbb xewwbbb xswbbbb fbbbb xsnbbbb fbbbb
+pbbbw fbbbb rbbbb fbbbb fbwbb fbbbw fbbbb fbbbb xsnbbbb fbbbb xsnblbb pbbbw
+hbbbb xewbbbb xewbbbb xewbbbb gbbwb fbwbb fbbbw obwbb xsnbbbw fbbbb xsnbbbb hbbvb
+pbbbw fbpbb csebbbw cwebbbb cwedbwb cwebbbb cwsbbbb xnebbbb xwnbbbb fbbbb xenbbbb xewwbbb
+pbbbw fbvbb xenbbbw xewbbbb xewwbdb xewbbbb xnwbbbb csebbbb cwsbbbb fbbbb xesbbbb xewbbwb
+hbbbb xewbbbb xewbbbb xewbbbb owbbb fbbbb fbbbb fbwbb cnsbbbw fbbbb xnsbbbb hvbbb
+pbbbw fbbbb rbbbb fbbbb fbwbb fbbbw fbbwb fbbbb cnsbbbb fbbbb xnsblbb pbbbw
+hbbbb xswbbbb cewbbvb cewbbpb cewbbbb cewbbbb cewwbbb cewbbwb cnwbbbb fbbbb xnsbbbb fbbbb
+pbbbw xsnbbbb fwbbb fwbbb fbbbb fbbbb fbbbb fwbbb fbbbb rbbbb xnsbbbb fbbbb
+pbbbw xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb rbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+Spin Zone
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb xsebbbb xwsbbbb fbbbb gbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb csnbwbb xsnbwbw xnsbbbw pbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb csnbwbb xsnbtbw xnsbbbw fbbbb fbbbb
+xwebbbb xwsbbbb cesbbbb cswbbbb fbbbb fbbbb fbbbb csnbwbb xsnbwbw xnsbbbw fbbbb fbbbb
+fbbbb xnsbbbb cnebbbb cwnbbbb fbbbb fbbbb fbbbb csnbbbb xenbbbb xnwbbbb pbbbb fbbbb
+xewbbbb xnwbwbb fbbbw fbbbb fbbbb fbbbb fbbbb cwnbbbb fbbbb pbbbb hbbbb fbbbb
+xewbbbb xswbwbb hbbbw fbbbb fbbbb fbbbb fbbbb cwsbbbb fbbbb pbbbb fbbbb fbbbb
+fbbbb xsnbbbb csebbbb cwsbbbb fbbbb fbbbb fbbbb cnsbbbb xsebbbb xwsbbbb pbbbb fbbbb
+xwebbbb xwnbbbb cenbbbb cnwbbbb fbbbb fbbbb fbbbb cnsbwbb xsnbwbw xnsbbbw fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cnsbwbb xsnbtbw xnsbbbw fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb cnsbwbb xsnbwbw xnsbbbw pbbbb fbbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb xenbbbb xnwbbbb fbbbb obbbb
+endboard
+board: 3,2 0 Spin Zone
+flags: 3,1,8,8 3,1,4,5 3,2,7,11 3,2,6,3 

@@ -1,0 +1,40 @@
+name: Gordian Knot
+description: Patience is prudent, at least at first. And it's really not that hard, if you think outside the knot.  4 Moving Flags; Recommend 4 player minimum, 90 sec turns.  (Designed for the 2013 GTO Robo Rally Board Design Contest, by Prefecta)
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+Patience Starting Board
+4,2 9,2 3,2 10,2 2,2 11,2 1,2 12,2 
+csnwbbw fwbwb xsnwwbb fbbbw
+csnbbbw fwbwb xsnbwbb fbbbw
+csnbbbw fwbwb xsnbwbb fbbbw
+csnbbbw fwbwb xsnbwbb fbbbv
+cenbbbw cewwbwb xewbbbb fbbbb
+fbbwb hwbbb fbwwb fbbbw
+fwbbb hbbwb fwwbb fbbbw
+cesbbbw cewwbwb xewbbbb fbbbb
+cnsbbbw fwbwb xnsbwbb fbbbv
+cnsbbbw fwbwb xnsbwbb fbbbw
+cnsbbbw fwbwb xnsbwbb fbbbw
+cnsbbww fwbwb xnsbwwb fbbbw
+endboard
+sboard: Patience Starting Board
+newboard:
+Gordian Knot
+fpbbb csebbbb cwebbbb cwebbbb cwsbbbb fbbbb csnbbbb xesbbbb xewbbbb xewbbbb xswbbbb fwbbb
+gbbbb csnbbbb fbwbb rbbbw cnsbbbb fbbbb csnbwbb xnsbbbw fbbbb fbbbb xsnbbbb fbpbb
+fbbbb csnblbb csebbbw cwebbbb cnwebbwb cwebbbb cwsnbbbb xnsbbbb fbbwb fbwwb xsnbbbw fbbbb
+fbbbb cenbbbb csnwbbbb xesbbbb xewlbbb xewbbbb xewbbbb xnwebbbb xwsewbbb xwevbbb xwnbbbb obwbb
+fbbbb fbwbb csnbbbw xnsbbbb fbbbb fbbbb cnsbbbb fbbwb xsnbbbb pbbbb fbbbb fbbbb
+fbbbb rbwbb csnbbbw xnsbbbb hbbbb csebbbb cnsebbbb cwewbbb xsnbbbb cwsbwbb rbbbw fbbbb
+fbbbb rbwbb csenbbbw cewbbbb cewbbwb csnwbbbb cnwbbbb hbbbb xsnbbbb cnsbwbb rbbbw fbbbb
+fbbbb fbwbb pbbbw xnsbbbb fwbbb csnbbbb fbbbb fbbbb xsnbbbb cnsbbbb fbbbb fbbbb
+fbbbb xesbbbb xewbbvb xenwbbwb xsewbbbb csnbbbb xwebbbb xwebblb xwnbbbb cnsebbbb cwsbbbb gbwbb
+fbbbb xnsblbb fwbbw fwbbb xsnbbbb censbbbb cewbbbb csewwbbb cewbbbb cnwbwbb cnsbbbw fbbbb
+obbbb xnsbbbb fbbbb fbbbb xsnbwbb cnsbbbw fbbbb csnbbbb fbwbb rbbbw cnsbbbb fbpbb
+fbbpb xnebbbb xwebbbb xwebbbb xwnbbbb cnsbbbb fbbbb cenbbbb cewbbbb cewbbbb cnwbbbb fbbwb
+endboard
+board: 3,1 0 Gordian Knot
+flags: 3,1,1,7 3,1,12,2 3,1,1,11 3,1,12,6 

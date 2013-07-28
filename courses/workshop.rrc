@@ -1,0 +1,42 @@
+name: Workshop
+description: 4 non-moving flags, 2 option card spaces
+Based on board by Martin Carlsson at
+boardgamegeek.com/image/434067/roborally
+("lifted" by timmonte)
+length: long
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+gbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb cnsbbbb fbbbb fbbbb fbbbb fbbwb obbbb
+fbbbb rbbbb cewbbbb cswbwbb fbbbw xsnbbbb cnsbbbb fbwbb fbbbw fbbbb fwbbb fbbbb
+fbbbw fbbbb pbwwb csnbbbw fbbbb xsnbbbb cnebbbb cwebbbb cwsbbbb pbbwb hbbbb fbwbb
+fbbbb fbbwb fwbbb cenbbbb pbbbb xsnbbbb fbbbb pbwbb cnebbww cwswbbb fbbwb fbbbb
+fbbbw fwbbb fbbbb pbbbb obbbb xsnbbbb fbbbb gbbbb pwbbb cnsbbbb fwbbb fbwbb
+fbbbb fbbbb fbblb fbbbb fbwbb xsnbbbw fbbbb fbbbb fbbbb cnebbbb cwebbbb cwebbbb
+cewbbbb cewbbwb cswwbbb fbbbb fbbbb xenbbbb xewbbwb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+fbbbw fwbbb csnbbbb pbbwb gbbbb fbbbb fwbbb obbbb pbbbb fbbbb fbblb fbwbb
+fbbbb fbblb cenbbwb cswwwbb pbbbw fbbbb fbbbb pbbbb cesbbbb cewbbwb cswwbbb fbbbb
+fbbbw hwbbb pwwbb cenbbbw cewbbbb cswbbbb fbbbb fbbbb cnsbwbb pwbbw cwnbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb csebbbw cwenbbwb cwsbbbb fbwbb cnebbbw cwebbbb rbbbb fbbbb
+obbbb fbbwb fbbbb fbbbb cenbbbb cswwbbb cnsbbbb fbbwb fbbbb fbbwb fbbbb gbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,6 3,1,2,10 3,1,11,3 3,1,6,7 

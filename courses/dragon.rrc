@@ -1,0 +1,39 @@
+name: Mindrod's Dragon
+description: One board, four flags.
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+Starting Board 2
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: Starting Board 2
+newboard:
+blank board
+fbbbb fwwbb xsnbbbw fbbbb fbbbb fbbbb xsebbbb xwebbbb xwebbbb xwsebbbb cwsbbbb pbbbb
+fbbbb rbwbb xsnbbwp cnsbbbb xsnbbbb fbbbb xsnbbbb fbbbb fbbbb xnsbbbb hbbbb pbbbb
+cewbbbw cewbbbb fwbbb fbbbb xsnbbbb pbbbb xsnbbbb fbbbb obwbb xnsbbbp csebbbb cwsbbbb
+fbbbb fbwbb cewbbbw cewbbbb fbbbb fbbbb xsnbbbb pbbbb fbbbb xnsebbbb cwnbbbb cnsbbbb
+cewbbbb cewbbbb fbbbb fbbbb xsnbwbb rbbbw xensbbbb xewbbbb xewbbbb xnwbbbb pbbbb fbbbb
+fbbbb rbwbb cewbbbw cewbbbb fbbbb fbbbb xnsbbwb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb rbwbb cewbbbw cewbbbb fbbbb fbbbb xsnwbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+cewbbbb cewbbbb fbbbb fbbbb xnsbwbb rbbbw xensbbbb xewbbbb xewbbbb xswbbbb pbbbb fbbbb
+fbbbb fbwbb cewbbbw cewbbbb fbbbb fbbbb xnsbbbb pbbbb fbbbb xsenbbbb cwsbbbb csnbbbb
+cewbbbw cewbbbb fbbwb fbbbb xnsbbbb pbbbb xnsbbbb fbbbb gbwbb xsnbbbp cnebbbb cwnbbbb
+fbbbb rbwbb xnswbbp csnbbbb xnsbbbb fbbbb xnsbbbb fbbbb fbbbb xsnbbbb hbbbb pbbbb
+fbbbb fbwwb xnsbbbw fbbbb fbbbb fbbbb xnebbbb xwebbbb xwebbbb xwenbbbb cwnbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,12 3,1,1,4 3,1,8,12 3,1,12,4 

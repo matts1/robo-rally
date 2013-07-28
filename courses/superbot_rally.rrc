@@ -1,0 +1,42 @@
+name: Super Bot Rally
+description: Can you become the
+Superbot and get to
+all the flags
+length: long
+difficulty: mid
+players: 4 8
+rules: dayofthesuperbot
+newsboard:
+blank starting board
+1,1 1,4 2,4 3,4 4,4 5,4 6,4 7,4 
+csnwwbw ceswbbw cswwwbb hwbwv
+csnbwbw cnsbwbw csnbwbw hwbwv
+csnbtbw cnsbtbw csnbtbw hwbwv
+csnbwbw cnsbwbw csnbwbw hwbwv
+csnbtbw cnsbtbw csnbtbw hwbwv
+csnbwbw cnsbwbw csnbwbw hwbwv
+csnbtbw cnsbtbw csnbtbw hwbwv
+csnbwbw cnsbwbw csnbwbw ceswbbw
+csnbtbw cnsbtbw csnbtbw cnsbtbw
+csnbwbw cnsbwbw csnbwbw cnsbwbw
+csnbtbw cnsbtbw csnbtbw cnsbtbw
+cenbbww cnwbwwb cenbbww cnwbwwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb pbbbb hbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb fbbbb fbbbb hbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb hbbbb fbbbb fbbbb pbbbb pbbbb fbbbb fbbbb hbbbb fbbbb fbbbb
+fbbbb hbbbb pbbbb hbbbb fbbbb fbbbb fbbbb fbbbb hbbbb pbbbb hbbbb fbbbb
+fbbbw fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,1,12 3,1,6,7 3,1,12,12 3,1,7,7 

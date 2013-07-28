@@ -1,0 +1,39 @@
+name: Centerpoint spiral
+description: 4 flags, conveyers lead to a spiral in middle, 4 other spirals surround 4 flags.
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+line start blank
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb cswbbbb fbwbb
+fbbbb fbbbb csnbbbb fbbbb
+fbbbb fbbbb csnbbbb fbwbb
+fbbbb fbbbb cwebbbb fbbbb
+fbbbb fbbbb cwebbbb fbbbb
+fbbbb fbbbb cnsbbbb fbwbb
+fbbbb fbbbb cnsbbbb fbbbb
+fbbbb fbbbb cnwbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: line start blank
+newboard:
+Centerpoint
+hwbbw cnsbbbb fwbbb fbbbb fwbbb xenbbbb xsnwbbbb gwbbb fbbbb fwbbb csnbbbb hwwbb
+cewbbbb cnwbbbb fbblb fbbbb obbbb fbbbb xsnbbbb fbbbb fbbbb fbblb cenbbbb cewbbbb
+fbbbw fblbb csewbbw cwebbbb cwebbbb cwsbbbb xsnbbbb csebbbb cwebbbb cwswwbb fbbbl fbwbb
+fbbbb fbbbb csnbbbb fbbbb fbbwb cnsbwbb xsnbbbp csnbbbb fbbbb cnsbbbb fbbbb fbbbb
+gbbbw fbbbb cenbbbb cewbbbb cewvbbb cnwbbbb xsnbbbb csnbvbb fbbbw cnsbbbb obbbb fbwbb
+xewsbbbb xewbbbb xewbbbb xewbbpb xewbbbb xewsbbbb xsnwbbbb cenbbbb cewbbwb cnwbbbb fbbbb xsebbbb
+xnwbbbb fbbbb csebbbb cwewbbb cwsbbbb xnsebbbb xwenbbbb xwebbbb xwepbbb xwebbbb xwebbbb xwenbbbb
+fbbbw obbbb csnbbbb fbwbb cnsbbbv xnsbbbb csebbbb cwebbvb cwebbbb cwsbbbb fbbbb gbwbb
+fbbbb fbbbb csnbbbb fbbbb cnsbbbb xnsbpbb csnbbbw fwbbb fbbbb cnsbbbb fbbbb fbbbb
+fbbbw fblbb cenbbww cewbbbb cnwbbbb xnsbbbb cenbbbb cewbbbb cewbbbb cnwbwwb fbbbl fbwbb
+cwebbbb cwsbbbb flbbb fbbbb fbbbb xnsbbbb fbbbb obbbb fbbbb flbbb csebbbb cwebbbb
+hbbww cnsbbbb fbbwb fbbbb gbbwb xnsebbbb xwsbbbb fbbwb fbbbb fbbwb csnbbbb hbwwb
+endboard
+board: 3,1 0 Centerpoint
+flags: 3,1,4,9 3,1,4,4 3,1,9,4 3,1,9,9 

@@ -1,0 +1,39 @@
+name: Don't Fall Off
+description: Navigate the to the 2 flags but don't fall off!
+length: short
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+pbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+pbbbb fbbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+pbbbb fwbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+pbbbb fwbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsebbbb xsewbbbb xswbbbb pbbbb xesbbbb xewbbbb xswbbbb hblbb xesbbbw xswbbbb pbbbb fbbbb
+xsnbbbb pbbbb xsnbbbb pbbbb xnsbbbb pbbbb xsnbbbb pbbbb xnsbwbb fbbbw fbbbb fbwbb
+xsnbbbb pbbbb xsnbbbb pbbbb xnsbbbb pbbbb xsnbbbb pbbbb xnsbwbb fbbbw fbbbb fbwbb
+xsnbbbb pbbbb xsnbbbb pbbbb xnsbbbb pbbbb xsnbbbb pbbbb xnsbbbb pbwbb fbbbv pbbbb
+xenbbbb xsewbbbb xwnbbbb pbbbb xnsbbbb pbbbb xsnbbbb pbbbb xnsbbbb pbbbb fbpbb pbbbw
+pbbbb xenbbbb cewbbbb cewbbbb cnwebbbb cewbwbb cewbbbw cewbbbb cnwebbbb gbbbb fbbwb pbbbb
+pbbbb xesbbbb cewbbbb cewbbbb csewbbbb cewbwbb cewbbbw cewbbbb csewbbbb obbbb fwbbb pbbbb
+xesbbbb xnwebbbb xwsbbbb pbbbb xsnbbbb pbbbb xnsbbbb pbbbb xsnbbbb pbbbb fbpbb pbbbw
+xnsbbbb pbbbb xnsbbbb pbbbb xsnbbbb pbbbb xnsbbbb pbbbb xsnbbbb pbwbb fbbbv pbbbb
+xnsbbbb pbbbb xnsbbbb pbbbb xsnbbbb pbbbb xnsbbbb pbbbb xsnbwbb fbbbw fbbbb fbwbb
+xnsbbbb pbbbb xnsbbbb pbbbb xsnbbbb pbbbb xnsbbbb pbbbb xsnbwbb fbbbw fbbbb fbwbb
+xnebbbb xnwebbbb xnwbbbb pbbbb xenbbbb xewbbbb xnwbbbb hblbb xenbbbw xnwbbbb pbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,12,12 3,1,1,12 

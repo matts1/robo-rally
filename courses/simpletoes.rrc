@@ -1,0 +1,39 @@
+name: Simpletoes
+description: Is it the easiest map ever? Or just the best excuse ever for people to complain about their cards?
+length: short
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,10 3,1,5,8 3,1,7,11 3,1,8,9 3,1,10,6 3,1,2,7 

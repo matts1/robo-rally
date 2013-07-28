@@ -1,0 +1,40 @@
+name: Option World on Drugs
+description: It's the same old Option World you are used to... not!  By Wiggfield.
+length: medium
+difficulty: expert
+players: 2 8
+rules: wrenchtooption
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb xsnbbbb fbbwb fbbbb
+fbbbb xsnbbbb fwbwb fbbbb
+xsebbbb xwnbbbb fwbbb fbwbb
+xsnbbbb fbbbb fbbbb fbbwb
+xsnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+xnsbbbb fbbbb fbbbb fbwwb
+xnsbbbb fbbbb fbbbb fwbbb
+xnebbbb xwsbbbb fbbwb fbwbb
+fbbbb xnsbbbb fwbwb fbbbb
+fbbbb xnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+Vault
+rbbbb fbbbb fwbbb fbbbb fwbbb xsnbbbb fbbbb fwbbb fbbbb fdbbb xnsbbbb fbbbb
+fbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwnbbbb fbbbb fbbbb fbbbb fbbbb xnebbbb xwebbbb
+fbbbw xsnbbbb fbbbb pbbbb fbbbb fbbpb fbbwb fbbbb pbbbb fbbbb fbbbb fbwbb
+fbbbb xsnbbbb fbbbb fbbbb fbbwb fwbbb fwbbb fbbwb fbbbb fbbwb gbbbb xewbbbb
+fbbbd xsnbbbb fbbbb fbwbb fwbbw fbbbb fbbbb fwwbb fbbbw fwbbb xnsbbbb fbdbb
+xwebbbb xwnbbbb fbvbb fbbbw fbbbb hbbbb hbbbb fbbbb fbwbb fbbbp xnsbbbb fbbbb
+fbbbb fbbbb fbpbb fbbbw fbbbb hbbbb hbbbb fbbbb fbwbb fbbbw xnsbbbb fbbbb
+fbbbd fbbbb fbbbb fbwbb fbbww fbbbb fbbbb fbwwb fbbbw fbbbb xnsbbbb fbdbb
+fbbbb xsnbbbb fbbbb fbbbb fwbbb fbbwb fbbwb fwbbb fbbbb fbbbb xnebbbb xwsebbbb
+fbbbw xsnbbbb fbbbb pbbbb fbbbb fpbbb fwbbb fbbbb pbbbb fbbbb fbbbb xnsbwbb
+fbbbb xsnbbbb fbbbb fbbbb fbbbb xsnbbbb fbvbb fbbbw xsebbbb xwebbbb xwebbbb gbbbb
+fbbbb xsnbbbb fbbwb fbbbb fbbwb xsnbbbb fbbbb fbbwb xsnbbbb fbbwb fbbbb rbbbb
+endboard
+board: 3,1 0 Vault
+flags: 3,1,4,7 3,1,10,11 3,1,6,4 3,1,3,12 

@@ -1,0 +1,56 @@
+name: Galapagos
+description: In a sea of conveyors, can you make it to the small islands where the 5 flags await? 4 pits, but no inner walls, options, pushers, gears, nor lasers.
+designed by ssgames
+length: short
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw fwbbb csnbbbb csnbbbb
+fbbbw fbbbb csnbbbb csnbbbb
+fbbbw fbbbb csnbbbb csnbbbb
+fbbbw csnbbbb csnbbbb csnbbbb
+fbbbw fbbbb xewbbbb xewbbbb
+fbbbw csnbbbb csnbbbb csnbbbb
+fbbbw cnsbbbb cnsbbbb cnsbbbb
+fbbbw fbbbb xewbbbb xewbbbb
+fbbbw cnsbbbb cnsbbbb cnsbbbb
+fbbbw fbbbb cnsbbbb cnsbbbb
+fbbbw fbbbb cnsbbbb cnsbbbb
+fbbww fbbwb cnsbbbb cnsbbbb
+endboard
+sboard: blank starting board
+newboard:
+galapagos 1
+xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb xesbbbb xswbbbb cwebbbb cwebbbb xnsbbbb
+xnsbbbb xesbbbb xewbbbb xewbbbb xewbbbb xswbbbb xsnbbbb xnsbbbb xsnbbbb fbbbb fbbbb xnsbbbb
+xnsbbbb xnsbbbb rbbbb fbbbb fbbbb xsnbbbb xsnbbbb xnsbbbb xsnbbbb cwebbbb cwebbbb xnsbbbb
+xnsbbbb xnsbbbb fbbbb fbbbb rbbbb xsnbbbb xsnbbbb xnsbbbb xenbbbb xewbbbb xewbbbb xnwbbbb
+xnwbbbb xnsebbbb xwebbbb xwebbbb xwebbbb xsnwbbbb xenbbbb xnwbbbb cnsbbbb rbbbb fbbbb fbbbb
+cnsbbbb xnwbbbb cwebbbb cwebbbb cwebbbb xenbbbb xewbbbb xewbbbb xewbbbb xswbbbb pbbbb fbbbb
+csnbbbb xswbbbb cwebbbb cwebbbb cwebbbb xesbbbb xewbbbb xewbbbb xewbbbb xnwbbbb pbbbb fbbbb
+xswbbbb xsenbbbb xwebbbb xwebbbb xwebbbb xnwsbbbb xesbbbb xswbbbb csnbbbb rbbbb fbbbb fbbbb
+xsnbbbb xsnbbbb fbbbb fbbbb rbbbb xnsbbbb xnsbbbb xsnbbbb xesbbbb xewbbbb xewbbbb xswbbbb
+xsnbbbb xsnbbbb rbbbb fbbbb fbbbb xnsbbbb xnsbbbb xsnbbbb xnsbbbb cwebbbb cwebbbb xsnbbbb
+xsnbbbb xenbbbb xewbbbb xewbbbb xewbbbb xnwbbbb xnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb xsnbbbb
+xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb xenbbbb xnwbbbb cwebbbb cwebbbb xsnbbbb
+endboard
+board: 3,1 0 galapagos 1
+newboard:
+galapagos 2
+csnbbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwswwbb
+csnbbbb xsnbbbb xesbbbb xswbbbb xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb xnsbwbb
+xsnbbbb xenbbbb xnwbbbb xsnbbbb xnsbbbb xsebbbb xwsbbbb rbbbb fbbbb pbbbb xsnbbbb xnsbwbb
+xenbbbb xswbbbb xsebbbb xwnbbbb xnsbbbb xsnbbbb xnsbbbb pbbbb fbbbb fbbbb xsnbbbb xnsbwbb
+fbbbb xsnbbbb xsnbbbb xesbbbb xnwbbbb xsnbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwnbbbb xnsbwbb
+fbbbb xsnbbbb xsnbbbb xnsbbbb csnbbbb xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb xnsbwbb
+fbbbb xsnbbbb xsnbbbb xnsbbbb csnbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb xnsbwbb
+csebbbb xwnbbbb xenbbbb xnwbbbb csnbbbb xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewsbbbb xnwsbwbb
+csnbbbb xwebbbb xwebbbb xwsbbbb cenbbbb cewbbbb cswbbbb fbbbb fbbbb fbbbb xnsbbbb xnsbwbb
+xsnbbbb xesbbbb xswbbbb xnebbbb xwebbbb xwebbbb xwsbbbb rbbbb fbbbb pbbbb xnsbbbb xnsbwbb
+xsnbbbb xnsbbbb xenbbbb xewbbbb xewbbbb xewbbbb xnwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb xnsbwbb
+xsnbbbb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xnwbwwb
+endboard
+board: 3,2 0 galapagos 2
+flags: 3,2,6,1 3,2,9,10 3,1,11,10 3,1,2,11 3,2,4,10 

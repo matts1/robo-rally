@@ -1,0 +1,26 @@
+name: SpinCycle
+description: Mad dash thru four washing
+machines - everyone starts at
+one end of the laundry room and 
+tries to avoid getting bleached!
+length: medium
+difficulty: mid
+players: 2 8
+newboard:
+blank board
+fbbbb cwsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+rbbbb cwsnbbbb fbbbb xsebbbb xwebbbb xwsbbbb fbbbb fbbbb xsebbbb xwebbbb xwsbbbb fbbbb
+fbbbb cwsnbbbb fbbbb xsnbbbb fbbbb xnsbbbb fbbbb fbbbb xsnbbbb fbbbb xnsbbbb fbbbb
+rbbbb cwsnbbbb fbbbb xenbbbb xewbbbb xnwbbbb fbbbb fbbbb xenbbbb xewbbbb xnwbbbb fbbbb
+fbbbb cwsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb cwsnbbbb hbvbb fbbbt fbbbb fbtbb gbbbl oblbb fbbbt fbbbb fbtbb fbbbw
+fbbbb cwsnbbbb fbwbb fbbbt fbbbb fbtbb obbbl gblbb fbbbt fbbbb fbtbb hbbbv
+fbbbb cwsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+rbbbb cwsnbbbb fbbbb xsebbbb xwebbbb xwsbbbb fbbbb fbbbb xsebbbb xwebbbb xwsbbbb fbbbb
+fbbbb cwsnbbbb fbbbb xsnbbbb fbbbb xnsbbbb fbbbb fbbbb xsnbbbb fbbbb xnsbbbb fbbbb
+rbbbb cwsnbbbb fbbbb xenbbbb xewbbbb xnwbbbb fbbbb fbbbb xenbbbb xewbbbb xnwbbbb fbbbb
+fbbbb cwsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,10 3,1,10,5 3,1,3,5 3,1,10,10 
+start: 3,1,12,1 3,1,8,1 3,1,12,5 3,1,10,1 3,1,10,3 3,1,12,7 3,1,12,3 3,1,6,1 

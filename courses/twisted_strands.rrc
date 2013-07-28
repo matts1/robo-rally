@@ -1,0 +1,43 @@
+name: Twisted Strands
+description: Flags: 4
+Special Rules: Flags move
+Course designed by Spacebug
+for the first ever map editing contest
+length: medium
+difficulty: mid
+players: 2 6
+rules: flagsmove
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbwbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbwwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbwbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+fbbbb fbbbb flbbb fbbbb flbbb fbbbb cnsbbbb fwbbb cesbbbb cswwbbb fbbwb hbbbb
+fbbbb gbbbb fbbwb gbbbb fbbwb csebbbb cnsbbbb cwebbbb cwebbbb cwnbbbb fwwbb fbbbw
+fbbbl fbwbb fwbbw fbbbb fwbbb cenbbbb cnwbbbb fbbbb cnsbbbb rbbbb cesbbbb cswbwbb
+fbbbb gbbbb fbbbb csebbbb cwebbbb cwsbbbb csebbbb cwebbbb cnsbbbb cwebbbb cwebbbb cwnbbbb
+fbbbl fbwbb fbbbw csnbbbb fbbbb cnsbbbb csnbbbb fbbbb cnsbbbb fbbbb cnsbbbb fbwbb
+fbbbb csebbbb cwsbbbb cenbbbb cewbbbb cewbbbb csnbbbb cewbbbb cnwbbbb csebbbb cnsbbbb cwebbbb
+cewbbbb csnbbbb cnwbbbb csebbbb cwebbbb cnsbbbb cwebbbb cwebbbb cwsbbbb cenbbbb cnwbbbb fbbbb
+fbbbw csnbbbb fbbbb csnbbbb fbbbb cnsbbbb csnbbbb fbbbb cnsbbbb fbwbb fbbbw fblbb
+cesbbbb cewbbbb cewbbbb csnbbbb cewbbbb cnwbbbb cenbbbb cewbbbb cnwbbbb fbbbb obbbb fbbbb
+cnebbbw cwnbbbb rbbbb csnbbbb fbbbb csebbbb cwsbbbb fbbwb fbbbb fbwwb fbbbw fblbb
+fbwbb fbbww cesbbbb cewbbbb cewbbbb csnbbbb cnwbbbb fwbbb obbbb fwbbb obbbb fbbbb
+fbbbb fwbbb cnebbwb cwnbbbb fbbwb csnbbbb fbbbb fbblb fbbbb fbblb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,10 3,1,7,1 3,1,2,1 3,1,6,12 

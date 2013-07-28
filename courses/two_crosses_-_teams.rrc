@@ -1,0 +1,43 @@
+name: Two Crosses - Teams
+description: 6 Flags - 3 in lasers
+Uses Tandem Carnage rules
+Designed by timmonte
+length: long
+difficulty: mid
+players: 4 8
+team: true
+rules: teamonetouchalltouch
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsebbbb xwewbbb xwebbbb xwebbbb xwsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xsnbbbb fbbbb rbbbb fbbbb xnsbbbb fbbbb fbbwb csebbbb cwebbbb cwsbbbb fbbbb fbbbb
+xenbbbb xewbblb xewbbbb xewsbbbb xnwbbbb fbwbb csewbbw cwnbbbb pbbbb cnebbbb cwsbbbb fbbbb
+fbbbb fwbbb fbbbb cnsbbbb fbbbb fbbbb csnbbbb pbbbb pbbbb pbbbb cnebbbb cwebbbb
+fbbbb pbbbb fbbbb cnsebbbb cwebbbb cwebbbb cwnbbbb hbbbb pbbbb cesbbbb cewbbwb cewbbbb
+fbbbb fbbbb fbbbb cnsbbbb obbbb fbbbb fbbbb cesbbbb cewbbbb cnwbbbb fwbbb fbbbb
+fbbbb fbbbb cesbbbb cnwbbbb fbbbb fbbbb gbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb cesbbbb cnwbbbb pbbbb hbbbb cesbbbb cewbbbb cnwbbbb fbbbb pbbbb fbbbb fbbbb
+fbbbb cnsbbbb pbbbb pbbbb pbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb cnebbbb cwsbbbb pbbbb cesbbbb cnwbwwb fbbbw fbbbb xsebbbb xwebbbb xwebbbb xwsbbbb
+fbbbb fbbbb cnsbbbb cesbbbb cnwbbbb fwbbb fbbbb fbbbb xsnbbbb rbbbb fbbbb xnsbbbb
+fbbbb fbbbb cnsbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb xenbbbb xewbbbb xewbblb xnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,11,11 3,1,2,2 3,1,2,11 3,1,11,2 3,1,7,11 3,1,6,6 

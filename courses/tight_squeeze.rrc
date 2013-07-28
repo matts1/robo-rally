@@ -1,0 +1,40 @@
+name: Tight Squeeze
+description: Dont get caught up! 
+Try not to get stuck!
+length: short
+difficulty: hard
+players: 2 8
+newsboard:
+Starting Board 2
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw fwbwb fwbbb cewwbbb
+fbbbw fwbbb fbbbb cewbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbw fwbbb fbbbb cewbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbw fwbwb fbbbb cewbbbb
+fbbbw fwbwb fbbbb cewbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbw fbbwb fbbbb cewbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbw fbbwb fbbbb cewbbbb
+fbbww fwbwb fbbwb cewbbwb
+endboard
+sboard: Starting Board 2
+newboard:
+blank board
+xwewbbb fwbbb fwbbb flbbb fwbbb xesbbbb xewbbbb xewbbbb xewbbbb xswbbbb olwbb csnbwbw
+xwebbbb fbbbb fbbbb fbbwb fbbbb xnsbbbb cesbbbb cewbbbb cswbbbb xsnbbbb gbwbb fbwbw
+xwebbbb fbbbb gbwbb rwbbw obbbb xnsbbbb cnsbbbb xwebblb csnbbbb xsnbbbb obwtb fbwbw
+xwebbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb cnsbbbb ovbbb csnbbbb xsnbbbb cewvbbb fbwbb
+xwebbbb fbbbb gbwbb hbbww obbbb xnsbbbb cnsbbbb hbbwb csnbbbb xsnbbbb cewbbpb fbwbb
+xwebbbb fbbbb fbbbb flbbb fbbbb xnsbbbb cnsbbbb xewwbbb csnbbbb xsnbbbb gtwbb fbwbw
+xwebbbb fbbbb fbbbb fbbwb fbbbb xnsbbbb cnsbbbb xwebbwb csnbbbb xsnbbbb obwbb fbwbw
+xwebbbb fbbbb gbwbb hwbbw obbbb xnsbbbb cnsbbbb hvbbb csnbbbb xsnbbbb gbwlb fbwbw
+xwebbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb cnsbbbb gbbwb csnbbbb xsnbbbb cewwbbb fbwbb
+xwebbbb fbbbb gbwbb rbbww obbbb xnsbbbb cnsbbbb xewlbbb csnbbbb xsnbbbb cewbbwb fbwbb
+xwebbbb fbbbb fbbbb flbbb fbbbb xnsbbbb cenbbbb cwebbbb cwnbbbb xsnbbbb glwbb fbwbw
+xwebbwb fbbwb fbbwb fbbwb fbbwb xnebbbb xwebbbb xwebbbb xwebbbb xwnbbbb obwtb cnsbwbw
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,8 3,1,8,8 3,1,2,12 3,1,11,12 

@@ -1,0 +1,39 @@
+name: Curled up
+description: 3 flags
+length: medium
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbwbb fbbbw
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb fbbbw
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbwbb fbbbw
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb fbbbw
+fbbbb fbbbb fbbbb fbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbw fwbbb cesbbbb cewwbbb cewsbbbb cwsbbbb owbbb pwbbb fwbbb fwbbb xnsbbbb fwwbb
+fbbbb cesbbbb cnwebbbb cewbbbb cnwebbbb cnwsbbbb fbbbb fbbbb fbbbb pbwbb xnsbbbw fbbbb
+fbbbb cnwebbbb cswbbbb hbbbb hbbbb cnsbwbb fbbbw pbbbb fbbbb fbbbb xnsbbbb hbwbb
+fbbbb cewbbbb cnwebbbb cewbbwb cewbbbb cnwbbwb obbbb gbbbb rbbbb pbwbb xnsbbbw fbbbb
+fbbbw fbbbb xnsbbbb owbbb gbbbb fwbbb fbbbb fbbbb xewbbbb xewbbbb fbbbb fbwbb
+fbbbw fbbbb xnsbbbb pbbbb fbwbb fbbbw fbbbb fbbbb xewbbbb xewbbbb fbbbb fbbbb
+fbbbw fbbbb xnsbbbb pbbbb hbwbb fbbbw pbbbb hbbwb fbbwb fbbwb pbbwb fbwbb
+xesbbbw xewsbbbb xewbbbb xsewbbbb xwsbbbb obbbb fbbbb fwbbb fwbbb fwbbb fwbbb fbbbb
+xnsbbbb hbbbb xnsbwbb fbdbd xnsbbbw gbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbwbb
+xnebbbb xenwbbbb xnwbbbb fbbbb xnsbbbb fbbbb fbbbb xesbbbb xewbbbb xswbbbb fbbbb fbbbb
+fbbbb fbbbb xewbbbb xewbbbb xnwebbbb xewbbbb xewbbbb xnwbwbb fblbl xsnbbbw hbbbb fbwbb
+fbbbw fbbwb pbbbb fbbwb fbbbb fbbwb hbbbb fbbwb xnebbbb xwnbbwb fbbbb fbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,5 3,1,12,11 3,1,1,2 

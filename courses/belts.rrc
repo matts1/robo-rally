@@ -1,0 +1,42 @@
+name: Belts
+description: Four strings of belts.  Four flags.
+Four pits.  Four repair sites.  Four gears.
+Best with 6 to 8 bots.
+Designed by timmonte
+length: medium
+difficulty: hard
+players: 4 8
+newsboard:
+blank starting board
+4,2 5,2 7,2 8,2 2,2 10,2 1,2 11,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+csebbbb cwnbbbb fbbbb fbbbb csnbbbb pbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb fbbbb
+cenbbbb cswbbbb pbbbb fbbbb csnbbbb fbbbb xesbbbb xewbbbb xewbbbb xewbbbb xnwbbbb fbbbb
+gbbbb csnbbbb fbbbb fbbbb csnbbbb fbbbb xnsbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+csebbbb cwnbbbb fbbbb fbbbb csnbbbb rbbbb xnsbbbb fbbbb csebbbb cwsbbbb fbbbb fbbbb
+cenbbbb cswbbbb pbbbb cesbbbb csnbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb fbbbb fbbbb
+gbbbb csnbbbb fbbbb cnebbbb cwnbbbb fbbbb xnsbbbb fbbbb csnbbbb fbbbb fbbbb fbbbb
+csebbbb cwnbbbb fbbbb fbbbb fbbbb fbbbb xnebbbb xwebbbb csnbbbb xwebbbb xwsbbbb fbbbb
+cenbbbb cswbbbb pbbbb csebbbb cwsbbbb fbbbb fbbbb fbbbb csnbbbb fbbbb xnsbbbb fbbbb
+gbbbb csnbbbb fbbbb cenbbbb cnwbbbb rbbbb fbbbb cesbbbb csnbbbb cewbbbb cewbbbb cewbbbb
+csebbbb cwnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cnebbbb cwnbbbb fbbbb xnsbbbb fbbbb
+cenbbbb cswbbbb fbbbb cesbbbb cewbbbb cswbbbb cesbbbb cewbbbb cswbbbb fbbbb xnsbbbb hbbbb
+gbbbb cenbbbb cewbbbb cnwbbbb obbbb cenbbbb cnwbbbb obbbb cenbbbb cswbbbb xnsbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,10 3,1,6,1 3,1,1,10 3,1,12,5 

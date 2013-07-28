@@ -1,0 +1,43 @@
+name: Reichenbach Falls
+description: High atop a raging waterfall  the skills and wills of Moriarty (Red) and Holmes (Blue) struggle for final victory! Games start is EAST.
+A team toggle course by 
+Pushbutton
+length: long
+difficulty: hard
+players: 4 8
+team: true
+rules: teamflagtoggle flagsmove
+newboard:
+blank board
+pbbbb pbbbb fbbbb fbbbb fbbbb fwbbb fwbbb fwbbb fwbbb owbbb fwbbb fwbbb
+pbbbb pbbbb pbbbb fbbbb csebbbb cwebbbb cwebbbb csnbbbb csnbbbb csnbbbb csnbbbb cesbbbb
+pbbbb pbbbb xwebbbb cwebbbb cwenbbbb cwebbbb csnbbbb cwebbbb csnbbbb cwebbbb csnbbbb cnebbbb
+pbbbb pbbbb pbbbb xwebbbb cwebbbb cwebbbb cwenbbbb cwebbbb cwenbbbb cwebbbb cwenbbbb cwebbbb
+pbbbb pbbbb xwebbbb xwebbbb xwenbbbb xwebbbb xwebbbb xwebbbb xwebbwb xwebbwb xwebbbb fbbbb
+pbbbb pbbbb pbbbb xwebbbb hbbbb xwebbbb xwenbbbb xwebbbb xwewbbb fwbbb fbbwb fbbwb
+pbbbb pbbbb pbbbb pbbbb xwebbbb xwebbbb xwsebbbb xwsbbbb xwebbbb xwsbwbb xeswbbw xswwbbb
+pbbbb pbbbb pbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsnbbbb xwebbbb xwsnbbbb xnebbbb xwenbbbb
+pbbbb pbbbb pbbbb pbbbb xwebbbb xwebbbb xwebbbb xwenbbbb xwsbbbb xnebbbb xwebbbb xwebbbb
+pbbbb pbbbb xwebbbb cwebbbb cwsebbbb cwsebbbb cwsnbbbb rbbbb cnebbbb csebbbb cwsebbbb cwebbbb
+pbbbb pbbbb xwebbbb cwebbbb cnsebbbb cnsebbbb cnebbbb cwebbbb cwnbbbb cenbbbb cnwbbbb fbbbb
+pbbbb pbbbb pbbbb fbbbb fbbbb fbbwb fbbwb fbbwb obbwb fbbwb fbbwb fbbwb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb owbbb fwbbb fwbbb fwbbb fwwbb
+cswbbbb gbbbb fbbbb fbbbb csnbbbb cwebbbb csnbbbb cwebbbb cwebbbb fbbbb csebbbb cwebwbb
+cwnbbbb cwsbbbb cwsbbbb gbbbb cwenbbbb csnbbbb cwenbbbb csnbbbb csebbbb cwebbbb cwsbbbb cwebwbb
+cwebbbb cwsbbbb cnebbbb cwebbbb cwsebbbb cwenbbbb cwebbbb cwenbbbb cwsnbbbb rbbbb cnebbbb cwebwbb
+fbbbb xnebbbb xwebbbb xwsbbbb xnsbbbb xsnbbbb xsnbbbb xwebbbb xnebbbb xwebbbb xwenbbbb xwebwbb
+fbbbb fbwbb pbbbw xnwbbbb xnebbbb xwenbbbb xwenbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebwbb
+fbbbb fbbbb pbbbb xswbbbb xwsebbbb xwsebbbb xwebbbb xwebbbb xwsbbbb xwebbbb xwebbbb xwebwbb
+xsebbbb xwsbbbb fbbbb xsnbbbb xwebbbb xwsnbbbb hbbbb xensbbbb xwsnbbbb xwebbbb xwsebbbb xwebwbb
+xwnbbbb xnebbbb xwebbbb xwsnbbbb xwebbbb xnebbbb xwebbbb xwebbbb xwnbbbb csebbbb cwebbbb cwebwbb
+cwebbbb cwsbbbb cwsbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb csebbbb cwebwbb
+obbbb cnebbbb cnsebbbb cnebbbb cwebbbb cwebbbb cnsbbbb cnsbbbb cwebbbb cwebbbb cwnbbbb gbwbb
+fbbwb fbbwb gbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb obbwb fbbwb fbwwb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,5,12 3,2,9,10 3,2,6,4 3,2,7,4 
+start: 3,2,1,10 3,2,12,11 3,2,9,12 3,2,3,9 3,2,5,8 3,2,8,9 3,2,6,11 3,2,7,8 

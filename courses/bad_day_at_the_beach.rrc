@@ -1,0 +1,23 @@
+name: Bad Day at the Beach
+description: You and your robot family were enjoying a day at the motorized beach. Did it have to be TODAY that the sun exploded? On your way to save your stuff from the beach, have as many options as you want. The sun exploded--options cannot save you now.
+length: short
+difficulty: expert
+players: 2 4
+newboard:
+blank board
+xewbbbb xewbbbb xewbbbb xewbbbb fwbbb rwbbb fwbbb fwbbb xewbbbb xewbbbb xewbbbb xsnbbbb
+fbbbb hbbbb fbbwb fbbwb fbbbb fbwbb fbbbw fbbbb fbbwb fbbwb hbbbb fbbbb
+fbbbb cnsbwbb fwbbw xwewbwb xwebtbb fbbbw fbwbb xewbbbl xewwbwb fwwbb csnbbbw fbbbb
+fbbbb cnsbwbb xsnbwbw rwbbw fbbwb fbbbb fbbbb fbbwb rwwbb xsnbwbw csnbbbw fbbbb
+fbbbw cnsbbbb xwebwtb csnbbbw xwedwbb fbbbw fbwbb xewtbbw csnbwbb xewbbdw csnbbbb fbwbb
+fbbbw fbbbb fwbbb csnbwbb gbwbd hbbbw hbwbb obdbl csnbbbw fwbbb fbbbb rbwbb
+rbbbw fbbbb fbbwb csnbwbb xnsbwbw rbbbw rbwbb xnsbwbw csnbbbw fbbwb fbbbb fbwbb
+fbbbw cnsbbbb xwedwbb csnbwbw xnsbbtw fbbbb fbbbb xnsbwdb csnbwbw xewtbbw csnbbbb fbwbb
+fbbbb cnsbwbb xnsbwbw cenbbww cewwbbb fbbbb fbbbb cwewbbb cwnbwwb xnsbwbw csnbbbw fbbbb
+fbbbb cnsbwbb fbbww xwewbwb xwebdbb fbbbw fbwbb xewbbbd xewwbwb fbwwb csnbbbw fbbbb
+fbbbb hbbbb fwbbb fwbbb fbbbb fbwbb fbbbw fbbbb fwbbb fwbbb hbbbb fbbbb
+xnsbbbb xwebbbb xwebbbb xwebbbb fbbwb fbbwb rbbwb fbbwb xwebbbb xwebbbb xwebbbb xwebbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,8 3,1,6,5 3,1,3,10 3,1,10,3 3,1,10,10 3,1,3,3 3,1,6,7 
+start: 3,1,2,11 3,1,11,2 3,1,2,2 3,1,11,11 3,1,1,8 3,1,12,5 3,1,8,12 3,1,5,1 

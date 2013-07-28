@@ -1,0 +1,41 @@
+name: Slow Train
+description: Fight it out in the middle or take the slow train?  5 flags, 2 move, 4 lasers, 1 hidden
+designed by ssgames.
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+csnbbbb fbbbb fbbbb fbwbb
+csnbbbb fbbbb fbbbb fbwbb
+csnbbbb fbbbb fbbbb fbbbb
+csnbbbb fbbbb fbbbb fbwbb
+csnbbbb fbbbb fbbbb fbbbb
+csnbbbb fbbbb fbbbb fbwbb
+csnbbbb fbbbb fbbbb fbwbb
+csnbbbb fbbbb fbbbb fbbbb
+csnbbbb fbbbb fbbbb fbwbb
+csnbbbb fbbbb fbbbb fbbbb
+csnbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb cewbbbb cewbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+rbbbw xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbbbb csebbbb cwebbbb cwebbbb cwebbbb cwsbbbb
+fbbbw xsnbbbb fbbbb pbbbb fbbbb fbbbb xnsblbb csnbbbw fbbbb fbwbb fbbwp cnsbbbb
+obbbb xsnbbbb fbbbb pbbbb fbbbb hbbbb xnsbwbb csnbbbw fbbbb rbbbb fvbbb cnsbbbb
+fbbbv xenbbbb xewbbwb xewbbwb xewbbbb xewbbwb xnwbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb
+gbbbb xsebbbb xwewbbb xwewbbb xwebbbb xwewbbb xwsbwbb csnbbbl fbbbb fbbbb fbbbb fbbbb
+pbbbw xsnbbbb fbbbb fbbbb pbbbb fbbbb xnsbbbb csnbbbb fbbbb fbbbb pbbbb pbbbb
+pbbbw xsnbbbb fbbbb fbbbb pbbbb fbbbb xnsblbb csnbbbw fbbbb fbbbb fbbbb hbwbb
+obbbb xenbbbb xewbbbb xewbbwb xewbbbb xewbbwb xnwbbpb fbbbb fbbwb fbbwb fbbbb cnsbwbb
+fbbbv xesbbbb xewbbbb xewwbwb xewbbbb xewwbwb xewwbwb pbbbb xewwbbb xswwbbb fbbbb cnsbwbb
+obbbb xnsbbbb fbbbb fwbbb fbbbb fwbbb flbbb hbbbb fbbbb xsnbbbb fbbbb cnsbwbb
+rbbbw xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb fbbbb cnsbwbb
+cewbbbb cewbbbb cewbbwb cewbbwb cewbbwb cewbbwb cewbbwb cewbbwb cewbbwb cewbbwb cewbbwb cnwbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,11 3,1,6,3 3,1,1,3 3,1,2,11 3,1,9,9 

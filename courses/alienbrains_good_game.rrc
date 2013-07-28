@@ -1,0 +1,40 @@
+name: Alienbrain's Good Game
+description: 8 flags, most of them moving.
+length: long
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+csnwbbw fwbbb xeswbbb xewbbbb
+csnbbbw fbbbb xnsbbbb csebbbb
+csnbbbw fbbbb xnsbbbb csnbbbb
+csnbbbw fbbbb xnsbbbb csnbbbb
+csnbbbw fbbbb xnsbbbb cenbbbb
+cenbbbw fbbbb xnebbbb xwebbbb
+cesbbbw fbbbb xsebbbb xwebbbb
+cnsbbbw fbbbb xsnbbbb cesbbbb
+cnsbbbw fbbbb xsnbbbb cnsbbbb
+cnsbbbw fbbbb xsnbbbb cnsbbbb
+cnsbbbw fbbbb xsnbbbb cnebbbb
+cnsbbww fbbwb xenbbwb xewbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswwwbb
+cwebbbb cwsbbbb cesbbbb cewbbwb cswbbbb cesbbbb cewbbwb cswbbbb cewbbbb cewbbbb cswbbbb xsnbbbb
+xewbbbb xnsbbbb cnsbbbb hvbbb csnbbbb cnsbbbb hvbbb csnbbbb cnsbbbb rbbbb csnbbbb xsnbbbb
+xnsbbbb cwsebbbb cnsbwbb obbbl csnbbbb cnsbbbb gbwbb csnbbbw cnsbbbb fbbbb csnbbbb xsnbbbb
+cewbbbb cnwbbbb cnebbbb cwebbbb cwnbbbb cnebbbb cwebbbb cwnbbbb cnsbbbb cwebbbb cwnbbbb xsnbbbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbwbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbwb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbwbb
+cewbbbb cswbbbb csebbbb cwebbbb cwslbbb cesbbbb cswbbbb cesbbbb cswbbbb cesbbbb cewbbbb xnsbbbb
+xsnbbbb xwebbbb csnbbbb obbbb cnsbbbb cnsbbbb cenbbbb cnwbbbb csnbbbb censbbbb cewbbwb xnsbbbb
+xewbbbb cswbbbb censbbbb cewbbbb cnwsbbbb cnsbbbb obbbb rbbbb csnbbbb cnsbbbb hvbbb xnsbbbb
+cwebbbb cwnbwbb cnsbwbw hbbbv cnsbbbb cnsbbbb fbbbb fbbbb csnbwbb cnebbbl cwebbbb xnsbvbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbvb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,11,11 3,1,5,9 3,1,11,3 3,1,5,6 3,1,3,1 3,1,9,2 3,1,5,3 3,1,11,6 

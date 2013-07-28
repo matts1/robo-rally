@@ -1,0 +1,41 @@
+name: Alienbrain's 2013 Year of the Snake
+description: 4 flags, one of them moving. Attractive and timely. :)
+(Designed for the 2013 GTO Robo Rally Board Design Contest.)
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+hbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbwbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbwwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbwbb
+fbbbb cnsbbbb fwbwb fbbbb
+hbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+Alienbrain's 2013 Year of the Snake
+xeswbbb csebbbb cwsbbbb xswbbbb csnbbbb ceswbbb csewbbb cwsbbbb csebbbb cwsbbbb cewswbbb cwsbwbb
+xnsbbbb csebbbb cwnbbbb xsnbbbb cenbbbb cnwsbbbb csnbbbb cnwbbbb csebbbb cnwsbbbb cnsbbbb fbbbb
+xnsbbbb cenwbbbb cewbbbb xsnbbbb rbbbb cnsbbbb cenbbbb cnwbbbb cenbbbb csnwbbbb cnsbbbb rbvbb
+xnsbbbb csebbbb cwsbbbb xsnbbbb csebbbb cwsbbbb cesbbbb xesbbbb cnsbbbb xewbbbb xewbbbb xswbwbb
+xnsbbbb csnbbbb cnsbbbb xsnbbbb cenbbbb cnwbbbb cnsebbbb xnsbbbb cnwebbbb cnsbbbb xsebbbb xwnbbbb
+xnsbbbb cenbbbb cnwbbbb xenbbbb xewbbbb xswbbbb cnsbbbb xnsbbbb cnebbbb cnsbbbb cswbbbb cesbwbb
+xnsbbbb cnwsbbbb fbbbb cesbbbb cswbbbb xenbbbb xewbbbb xnwbbbb xsebbbb cnsbbbb csnbbbb censbpbb
+xnsbbbb cnsbbbb rbbbb cnebbbb cwsbbbb cewsbbbb cswbbbb fbbbb xenbbbb xewbbbb xswbbbb cenbwbb
+xnsbbbb cwenbbbb fbbbb cenbbbb cnwbbwb cnsbbbb csnbbbb cesbbbb cswbbbb xsebbbb xwnbbbb rbbbb
+xnsbbbb csebbbb cwsbbbb fbbbb pdbbb cnsbbbb csnbbbb cesbbbb csnwbbbb csnbbbb cnwbbbb cesbwbb
+xnebbbb xwebbbb cwsnbbbb obbbb xnwebbbb obbbb rbbbb cnebbbb cwenbbbb csnbbbb cwsbbbb censbpbb
+rbbwb cnebbbb cwnbbbb cwebbbb xwenbbpb xwebbbb xwebbwb xwebbbb xwebbvb cwnbbbb cnsbbbb cenbwbb
+endboard
+board: 3,1 0 Alienbrain's 2013 Year of the Snake
+flags: 3,1,8,8 3,1,2,12 3,1,10,4 3,1,11,2 

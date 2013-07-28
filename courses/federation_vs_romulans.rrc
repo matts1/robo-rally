@@ -1,0 +1,55 @@
+name: Federation vs Romulan
+description: The USS Enterprises faces a de-cloaking Romulan Warbird.  Two boards. Four flags. Last revised on stardate. Nov. 02, 2008
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb cnsbbbb
+csnbbbb fbbbb fbbbb cnwbbbb
+csnbbbb fbbbb cnsbbbb fbwbb
+fbbwb fbbwb cnwbbbb fbbbb
+fwbbb fwbbb cswbbbb fbbbb
+cnsbbbb fbbbb csnbbbb fbwbb
+cnsbbbb fbbbb fbbbb cswbbbb
+cnebbbb cwsbbbb fbbwb csnbbbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb cesbbbb cewbbbb
+cesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb cswbwbb fbbbw fbbbb obbbb fbbbb
+cnebbbb cwebbbb cwebbbb cwebbbb cwsbbbb xsebbbb xwebbbb cwnbbbb fbbbb fbbbb fbbbb xesbbbb
+fbbbb fbbbb fbbbb fbbbb cnsbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb xesbbbb xnwbbbb
+fbbbw fbdbb rbbbp gbbbb cnsbbbb xsnbbbb fbbbb fbbbb fbbbb xesbbbb xnwbbbb csebbbb
+fbwbb hbbbv xewbbbb xewbbbb xnwbwbb xenbbbw xewbbbb cewbbbb cewbbbb cnwbwwb csebbbw cwnbwbb
+fbwbb gbbbp xwebbbb xwebbbb xwsbwbb xsebbbw xwebbbb cwebbbb cwebbbb cwswbbb cenbbbb cswbbbb
+fbbbw fbdbb rbbbp obbbb xnsbbbb xsnbbbb fbbbb fbbbb fbbbb xnebbbb xwsbbbb cenbbbb
+fbbbb fbbbb fbbbb fbbbb xnsbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb xnebbbb xwsbbbb
+cesbbbb xewbbbb xewbbbb xewbbbb xnwbbbb xenbbbb xewbbbb cswbbbb fbbbb fbbbb fbbbb xnebbbb
+cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbwbb fbbbw fbbbb obbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb cnebbbb cwebbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+cewbbbb cewbbbb cewbbbb cewbbbb rbbbb xsebbbb xwewbbb xwebbbb xwewbbb xwebbbb xwewbbb xwsbbbb
+obbbb fbbbb fbbbb obbbb fblbb xenbbbw cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb xnsbwbb
+xewbbbb xewbbbb xswbbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbbwb fbbbb csnbbbb xnsbwbb
+csebbbb cwsbbbb xenbbbb xswvbbb fbbbb fbbbb fbbbb fbbbb hvbbb csebbbb cwnbbbb xnsbwbb
+cwnbbbb cnebbbb cwsbwbb xenbbbl xswbwbb fbbbd hbbbb cnsbwwb fbbbt csnbwbb fbbbt xnsbdbb
+xesbbbp xewbbwb fbbbb obbvb csnbbbb fbpbb obbbv fwbbb gbbbb csnbbbb fbbbb xnsbvbb
+hbbvb fwpbb cesbbbw gvbbb csnbbbb fbwbb gbbbw fbbwb obvbb csnbbbp fbbbb xnsbbbb
+cswwbbb cesbbbb cnwbwbb xsebbbl xwnbwbb fbbbd hbbbb csnwwbb fbbbt csnbwbb fbbbt xnsbdbb
+cenbbbb cnwbbbb xsebbbb xwnbbvb fbbbb fbbbb fbbbb fbbbb hbbvb cenbbbb cswbbbb xnsbwbb
+xwebbbb xwebbbb xwnbbbb fwbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb csnbbbb xnsbwbb
+obbbb fbbbb fbbbb obbbb fblbb csebbbw cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb xnsbwbb
+cwebbbb cwebbbb cwebbbb cwebbbb rbbbb cenbbbb xewbbwb xewbbbb xewbbwb xewbbbb xewbbwb xnwbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,6,3 3,2,6,8 3,2,8,11 3,1,10,11 

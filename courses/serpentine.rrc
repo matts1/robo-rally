@@ -1,0 +1,39 @@
+name: Serpentine
+description: Stay on the belt or take a shortcut?
+length: short
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,3 9,3 2,4 11,4 1,4 12,4 
+pbbbb pbbbb csnbbbb fwbwb
+pbbbb pbbbb csnbbbb fwbwb
+pbbbb csebbbb cwnbbwb fwbbb
+pbbbb csnbbbb fwbwb xewbbbb
+csebbbb cwnbbwb fwbbb fbbbb
+obbbb fwbwb xewbbbb xewbbbb
+gbbbb fwbwb xewbbbb xewbbbb
+cnebbbb cwswbbb fbbwb fbbbb
+pbbbb cnsbbbb fwbwb xewbbbb
+pbbbb cnebbbb cwswbbb fbbwb
+pbbbb pbbbb cnsbbbb fwbwb
+pbbbb pbbbb cnsbbbb fwbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewbbbb xsewbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbbbb
+xewbbbb xsnwbbbb pbbbb xesbbbb xewbbbb xswbbbb pbbbb xesbbbb xewbbbb xswbbbb pbbbb xnsbbbb
+fbbbb xsnbbbb pbbbb xnsbbbb gbbbb xsnbbbb pbbbb xnsbbbb gbbbb xsnbbbb pbbbb xnsbbbb
+xewbbbb xsnwbbbb pbbbb xnsbbbb fbbbb xsnbbbb pbbbb xnsbbbb fbbbb xsnbbbb pbbbb xnsbbbb
+fbbbb xsnbbbb pbbbb xnsbbbb fbbbb xsnbbbb pbbbb xnsbbbb fbbbb xsnbbbb pbbbb xnsbbbb
+xewbbbb xsnwbbbb pbbwb xnsbbbb obbwb xsnbbbb pbbwb xnsbbbb obbwb xsnbbbb pbbwb xnsbbbb
+xewbbbb xsnwbbbb rwbwb xnsbbbb hwbwb xsnbbbb rwbwb xnsbbbb hwbwb xsnbbbb rwbwb xnsbbbb
+fbbbb xsnbbbb gwbbb xnsbbbb pwbbb xsnbbbb gwbbb xnsbbbb pwbbb xsnbbbb gwbbb xnsbbbb
+xewbbbb xsnwbbbb fbbbb xnsbbbb pbbbb xsnbbbb fbbbb xnsbbbb pbbbb xsnbbbb fbbbb xnsbbbb
+fbbbb xsnbbbb fbbbb xnsbbbb pbbbb xsnbbbb fbbbb xnsbbbb pbbbb xsnbbbb fbbbb xnsbbbb
+xewbbbb xsnwbbbb obbbb xnsbbbb pbbbb xsnbbbb obbwb xnsbbbb pbbbb xsnbbbb obbbb xnsbbbb
+xewbbbb xenwbbbb xewbbbb xnwbbbb pbbbb xenbbbb xewwbbb xnwbbbb pbbbb xenbbbb xewbbbb xnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,9,11 3,1,9,3 3,1,5,9 3,1,5,5 

@@ -1,0 +1,87 @@
+name: Derelict Marathon
+description: 4 boards with multiple ways to get to each flag
+length: long
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbb fwbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cewbbbb
+fbbbb fbbbb fbbbb cewbbbb
+fbbbb fbbbb fbbbb cewbbbb
+fbbbb fbbbb fbbbb cewbbbb
+fbbbb fbbbb fbbbb cewbbbb
+fbbbb fbbbb fbbbb cewbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbwb fbbwb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xesbbbb xewbbbb xewbbbb cewbbbb cewbbbb cewbbbb xewbbbb xewbbbb xewbbbb cewbbbb cewbbbb cswbbbb
+cnsbbbb fbbbb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbbb xsnbbbb
+cnsbbbb gbbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb gbbbb xsnbbbb
+cnsbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbwb fbbbb fbbbb rbbbb fbbbb xsnbbbb
+xnsbbbb gbbbb fbbbb obbbb pbbbb fbbbb fwbbb pbbbb obbbb fbbbb gbbbb csnbbbb
+xnsbbbb fbbbb rbbbb fbbbb pbbbb fbbwb fbbbb pbbbb fbbbb rbbbb fbbbb csnbbbb
+xnsbbbb gbbbb fbbbb obbbb pbbbb hwbbb fbbbb pbbbb obbbb fbbbb gbbbb csnbbbb
+cnsbbbb fbbbb xnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb xsnbbbb
+cnsbbbb fbbbb xnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb xsnbbbb
+cnsbbbb fbbbb xnsbbbb pbbbb gbbbb fbbbb obbbb pbbbb pbbbb xsnbbbb fbbbb xsnbbbb
+xnsbbbb fbbbb xnebbbb xwebbbb fbbbb pbbbb fbbbb pbbbb pbbbb xsnbbbb fbbbb csnbbbb
+xnsbbbb fbbbb fbbbb pbbbb pbbbb pbbbb fbbbb fbbbb xwebbbb xwnbbbb fbbbb csnbbbb
+endboard
+board: 2,1 0 blank board
+newboard:
+blank board Copy
+xnwbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb cenbbbb
+fbbbb fbbbb fbbwb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb hwbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb hbwbb fbbbw fbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb fbbbb hbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+pbbbb fbbbb fbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbwbb hbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb hbbwb fbbbb fbbbb
+fbbbb fbbbb fbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb fwbbb fbbbb fbbbb
+cwsbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb csebbbb
+endboard
+board: 3,1 0 blank board Copy
+newboard:
+blank board Copy Copy
+xewbbbb xewbbbb xewbbbb cewbbbb cewbbbb cewbbbb xewbbbb xewbbbb xewbbbb cewbbbb cewbbbb cswbbbb
+fbbbb rbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb obbbb xsnbbbb
+fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb rbbbb fbbbb obbbb fbbbb xsnbbbb
+cnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb csnbbbb pbbbb fbbbb fbbbb xsnbbbb
+cnsbbbb pbbbb fbbbb fbbwb hbbbb pbbbb pbbbb csnbbbb pbbbb fbbbb fbbbb csnbbbb
+cnsbbbb fbbbb fbbbb fwbbb gbbbb csebbbb cwebbbb obbbb pbbbb fbbbb fbbbb csnbbbb
+cnsbbbb fbwbb fbbbt fbwbb cnsbbbw csnbbbb pbbbb pbbbb pbbbb fbbbb fbbbb csnbbbb
+cnsbbbb pbwbb fbbbd fbwbb cnsbbbw csnbbbb pbbbb pbbbb pbbwb fbbwb fbbbb xsnbbbb
+cnsbbbb pbwwb fbbbl fbwbb cnsbbbw csnbbbb pbbbb pbwwb hwbbw fwbbb fbbbb xsnbbbb
+fbbbb flbbb obbbb csnbbbb obbbb csnbbbb obbbb flwbb fbbbw obbbb fbbbb xsnbbbb
+fbbbb fbbbb csnbbbb obbbb fbbbb obbbb csnbbbb fbbbb fbbbb fbbbb obbbb csnbbbb
+cwebbbb xwebbwb xwebbbb xwebbbb cwebbbb cwebbbb cwebbbb xwebbwb xwebbbb xwebbbb cwebbbb cwnbbbb
+endboard
+board: 3,2 0 blank board Copy Copy
+newboard:
+blank board Copy Copy Copy
+xnsbbbb fbbbb fbbbb pbbbb fbbbb hbbbb pbbbb pbbwb pbbbb rbbbb fbbbb csnbbbb
+xnsbbbb fbbbb obbbb fbbbb fbbbb pbbbb xsebbbb xwetbdb xwebbbb fbbbb fbbbb xsnbbbb
+xnsbbbb obbbb fbbbb pbbbb rbbbb pbbbb xsnbbbb pwbbb pbbbb fbbbb rbbbb xsnbbbb
+cnsbbbb fbbbb fbbbb pbbbb pbwbb xsebbbd xwnbwbb hbbbw pbbbb fbbbb fbbbb xsnbbbb
+cnsbbbb fbbbb fbbbb pbbbb xsebbbb xwnbbbb pbbbb fbbbb pbbbb rbbbb fbbbb csnbbbb
+cnsbbbb fbbbb obbbb pbbbb xsnbbbb pbbbb pbbwb fbbbb fbbbb fbbbb fbbbb csnbbbb
+xnsbbbb obbbb fbbbb pbbbb xenbbbb xewbbbb xswdbbb pbbbb pbbbb fbbbb rbbbb csnbbbb
+xnsbbbb fbbbb fbbbb fbpbb pbbww pbbwb xenbbwb xswbbbb pbbbb fbbbb fbbbb xsnbbbb
+xnsbbbb fbbbb fbbbb fbbbb fpbbb fpbbb pwbbb xsnbbbb pbbbb rbbbb fbbbb xsnbbbb
+cnsbbbb fbbbb obbbb cwsbbbb csebbbb cwsbbbb csebbbb cwsnbbbb csebbbb obbbb fbbbb xsnbbbb
+cnsbbbb obbbb fbbbb cnebbbb cwnbbbb cnebbbb cwnbbbb cnebbbb cwnbbbb fbbbb obbbb csnbbbb
+cnebbbb xwebbbb xwebbbb xwebbbb cwebbbb cwebbbb cwebbbb xwebbbb xwebbbb xwebbbb cwebbbb cwnbbbb
+endboard
+board: 4,1 0 blank board Copy Copy Copy
+flags: 2,1,9,11 3,2,11,10 3,1,6,2 3,2,5,4 3,1,11,11 4,1,9,4 2,1,7,10 

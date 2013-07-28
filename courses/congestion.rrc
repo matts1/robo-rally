@@ -1,0 +1,39 @@
+name: Congestion
+description: 1 Board, 8 Flags.  Wait for traffic to clear?  Designed by CaptainColeslaw
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+5,2 8,2 6,3 7,3 6,2 7,2 5,3 8,3 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbwb fbbwb fbbbb
+fbbbb fwbbb fwbbb fbbbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbb fbbwb fbbwb fbbbb
+fbbbb fwbbb fwbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+Congestion Board
+cewbbbb csewbbbb cwebbbb cwebbbb cwebbbb cwebbbb rbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb
+xswbbbb csnbbbb xesbbbb xewbbbb xewbbbb xewbbbb xsewbbbb xwebbbb xwebbbb xwebbbb xwsbbbb csnbbbb
+xsnbbbb csnbbbb xnsbbbb fbbbb rbbwb fbwbb pbtwt fbbbw rbbwb fbbbb xnsbbbb csnbbbb
+xsnbbbb csnbbbb xnsbbbb rbwbb pwbbw fbbbb fwbbb fbbbb pllbb rbbbw xnsbbbb csnbbbb
+xsnbbbb csnbbbb xnsbbbb fbbbb pbbbb fbbbb rbbbb fbbbb pbbbb xnsbbbb xnsbbbb csnbbbb
+xenbbbb csnwbbbb xnsbbbb xsebbbb fbbbb rbbbb fbbbb rbbbb fbbbb xnwbbbb xnsbbbb csnbbbb
+xesbbbb csnwbbbb xnsbbbb xsnbbbb pbbbb fbbbb rbbbb fbbbb pbbbb fbbbb xnsbbbb csnbbbb
+xnsbbbb csnbbbb xnsbbbb rbwbb pbbll fbbbb fbbbb fbbbb pbwwb rbbbw xnsbbbb csnbbbb
+xnsbbbb csnbbbb xnsbbbb fbbbb rwbbb fbbbb fbbbb fbbbb rwbbb fbbbb xnsbbbb csnbbbb
+xnsbbbb csnbbbb xnsbbbb fbbbb pbwbb fbbbw fbbwb fbwbb pbbbw fbbbb xnsbbbb csnbbbb
+xnwbbbb csnbbbb xnebbbb xwebbbb xwebbbb xwebbbb pwbbb xewbbbb xewbbbb xewbbbb xnwbbbb csnbbbb
+cewbbbb cenwbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb
+endboard
+board: 3,1 0 Congestion Board
+flags: 3,1,6,7 3,1,7,8 3,1,5,8 3,1,7,6 3,1,5,6 3,1,6,9 3,1,6,5 3,1,8,7 

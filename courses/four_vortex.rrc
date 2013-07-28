@@ -1,0 +1,42 @@
+name: Four vortex 
+description: 4 moving flags on tiny
+rotaters. Center is option
+world.
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+9,2 4,2 12,2 1,2 10,2 3,2 11,2 2,2 
+cewtbbw fwbbb csewbbb cwewbbb
+cewbbbw fbbbb csnbbbb fbbbb
+cewbbbw fbbbb csnbbbb fbbbb
+cewbbbw fbbbb csnbbbb fbbbb
+cewbbbw fbbbb csnbbbb fbbbb
+cewbbbw fbbbb xsebbbb xwsbbbb
+cewbbbw fbbbb xenbbbb xnwbbbb
+cewbbbw fbbbb csnbbbb fbbbb
+cewbbbw fbbbb csnbbbb fbbbb
+cewbbbw fbbbb csnbbbb fbbbb
+cewbbbw fbbbb csnbbbb fbbbb
+cewbbtw fbbwb cenbbwb cewbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cwewbbb cwewbbb cwewbbb xsebbbb xwsbbbb cwewbbb cwewbbb cwewbbb cwewbbb cwswbbb fwbbb cwetwbb
+fbbbb fbbbb fbbbb xenbbbb xnwbbbb fbbbb fbbbb fbbbb fbbbb cnsbbbb fbbbb cwebwbb
+rbbbb rbbbb rbbbb rbbbb rbbbb rbbwb rbbbb rbbbb fbbbb cnsbbbb fbbbb cwebwbb
+rbbbb xesbbbb xewbbbb xewbbbb xewbbbb xewlbbb xswbbbb rbbbb fbbbb cnsbbbb fbbbb cwebwbb
+rbwbb xnsbbbl hbbbb gbwbb obbbw hbbbb xsnbbbb rbbbb fbbbb cnsbbbb fbbbb cwebwbb
+rbbbb xnsbbbb obbwb hbbbb hbbbb gbbwb xsnbbbb rbbbb xsebbbb xwsbbbb fbbbb cwebwbb
+rbbbb xnsbbbb gwbbb hbbbb hbbbb owbbb xsnbbbb rbbbb xenbbbb xnwbbbb fbbbb cwebwbb
+rbbbb xnsbbbb hbbbb obwbb gbbbw hbbbb xsnblbb rbbbw fbbbb cnsbbbb fbbbb cwebwbb
+rbbbb xnebbbb xwebblb xwebbbb xwebbbb xwebbbb xwnbbbb rbbbb fbbbb cnsbbbb fbbbb cwebwbb
+rbbbb rbbbb rwbbb rbbbb rbbbb rbbbb rbbbb rbbbb fbbbb cnsbbbb fbbbb cwebwbb
+fbbbb fbbbb fbbbb xsebbbb xwsbbbb fbbbb fbbbb fbbbb fbbbb cnsbbbb fbbbb cwebwbb
+cewbbwb cewbbwb cewbbwb xenbbbb xnwbbbb cewbbwb cewbbwb cewbbwb cewbbwb cnwbbwb fbbwb cwebwtb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,10 3,1,12,4 3,0,6,3 3,1,1,5 

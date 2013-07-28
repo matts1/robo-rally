@@ -1,0 +1,41 @@
+name: Locked Room Mystery
+description: Team game, 4 flags, 4 seemingly locked rooms, working together you can solve the mystery
+length: medium
+difficulty: expert
+players: 4 8
+team: true
+rules: teamonetouchalltouch boardrotate50t1 flagsmove
+newsboard:
+blank starting board
+9,1 4,1 11,1 2,1 10,1 3,1 12,1 1,1 
+fwbbw fwbbb fwbbb fwbbb
+fbbww fbbbb fbbbb fbbbb
+fwbbw fbbbb fbbbb fbbbb
+fbbww fbbbb fbbbb fbbbb
+fwbbw cewbbbb cwebbbb fbbbb
+hbbbw fbbbb fbbbb xsnbbbb
+hbbbw fbbbb fbbbb xnsbbbb
+fbbww cewbbbb cwebbbb fbbbb
+fwbbw fbbbb fbbbb fbbbb
+fbbww fbbbb fbbbb fbbbb
+fwbbw fbbbb fbbbb fbbbb
+fbbww fbbwb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+rbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwsbwbb fbbbp xnsbbbb fbbbb fbbbb fbbbb rbbbb
+fbbbb xsnbbbb cesbbbb cewbbbb cswbbbb xnsbwbb fbbbp xnsbbbb fbbbb fbbbb pbbbb fbbbb
+fbbbb xsnbbbb cnsbbbb pbbbb csnbbbb xnsbwbb fbbbp xnsbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb xsnbbbb cnsbbbb pbbbb cenbbbb xnwsbwbb fbbbp xnsbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb xsnbbbb cnebbbb cwebbbb cwsebbbb xnsbwbb fbbbp xnebbbb xewbbbb xewbbbb xewbbbb xewbbbb
+fbbwb xenbbwb xewbbwb xewbbwb xnwbbwb pbwwb fbbvw fbbvb fbbvb fbbvb fbbvb fbbvb
+fwbbb fwbbb fwbbb csewbbb cwswbbb fwwbb csewbbw xwswbbb gwbbb gwbbb gwbbb gwbbb
+fbbbb xesbbbb xswbbbb cenbbbb cnwbbbb fbwbb xenbbbw cnwbbbb gbbbb gbbbb gbbbb fbbbb
+fbbbb xnebbbb csebbbb cwsbbbb xesbbbb xswbwbb obbbw obbbb obbbb gbbbb gbbbb fbbbb
+fbbbb xsebbbb cenbbbb cnwbbbb xnebbbb xwnbwbb obbbw obbbb obbbb gbbbb fbbbb fbbbb
+fbbbb xenbbbb xnwbbbb fbbbb csebbbb cwsbwbb obbbw obbbb obbbb fbbbb fbbbb fbbbb
+rbbbb fbbbb fbbbb fbbbb cenbbbb cnwbwbb obbbw fbbbb fbbbb fbbbb fbbbb rbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,6 3,1,5,6 3,1,6,7 3,1,7,8 

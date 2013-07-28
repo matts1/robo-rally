@@ -1,0 +1,39 @@
+name: Diver!
+description: Be Careful But Not Too Careful!
+length: short
+difficulty: mid
+players: 2 8
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbwbb fwwbw fbbww fbbbb
+fbwwb fbbbw fwbwb fbbbb
+fwbbw fbbbb fwbbb fbwbb
+fbbbw fbbbb xewbbbb fbbwb
+fbbbw fbbbb fbbbb fwwbb
+fbbww xewbbwb xewbbbb fbbbb
+fwbbw xewwbbb xewbbbb fbbbb
+fbbbw fbbbb fbbbb fbwwb
+fbbbw fbbbb xewbbbb fwbbb
+fbbww fbbbb fbbwb fbwbb
+fwwbb fbbbw fwbwb fbbbb
+fbwbb fbwww fwbbw fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+xeslbbb xewbbbb xewwbbb xewbbbb xewwbbb rbbbb xwewbbb xwebbbb xwewbbb xwebbbb xwswbbb fbpbb
+xnsbbbb pbbbb fbbbb fbbbb fbbbb obbbb fbbbb fbbbb fbbbb pbbbb xnsbbbb hbbbb
+xnsbbbb fbbbb fbbbb cesbbbb cewbbbb cewbbbb cewbbbb cswbbbb fbbbb fbbbb xnsbbbb cnsbbbb
+xnsbbbb fbbbb fbbbb cnsbbbb xesbbbb xewbbbb xswbbbb csnbbbb fbbbb fbbbb xnsbbbb cnsbbbb
+xnsbbbb fbbbb fbbbb cnsbbbb xnsbbbb hbbwb xsnbbbb csnbbbb fbbbb fbbbb xnsbbbb cnsbbbb
+rbbwb gbbbb fbbbb cnsbbbb xnsbbbb fwbwb xsnbbbb csnbbbb fbbbb obbbb rbbwb obbbb
+rwbbb gbbbb fbbbb cnsbbbb xnsbbbb fwbwb xsnbbbb csnbbbb fbbbb gbbbb rwbbb gbbbb
+xsnbbbb fbbbb fbbbb cnsbbbb xnsbbbb hwbbb xsnbbbb csnbbbb fbbbb fbbbb xsnbbbb csnbbbb
+xsnbbbb fbbbb fbbbb cnsbbbb xnebbbb xwebbbb xwnbbbb csnbbbb fbbbb fbbbb xsnbbbb csnbbbb
+xsnbbbb fbbbb fbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwnbbbb fbbbb fbbbb xsnbbbb csnbbbb
+xsnbbbb pbbbb fbbbb fbbbb fbbbb obbbb fbbbb fbbbb fbbbb pbbbb xsnbbbb hbbbb
+xenbblb xewbbbb xewbbwb xewbbbb xewbbwb rbbbb xwebbwb xwebbbb xwebbwb xwebbbb xwnbbwb fbpbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,6 3,1,12,12 3,1,7,6 3,1,1,12 

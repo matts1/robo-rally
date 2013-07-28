@@ -1,0 +1,39 @@
+name: Diamond in the Rough
+description: Buff the giant daimond, beware rough edges!
+length: short
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+fbbbb fbbbb fbbbb pbbbb xesbbbb xewbbbb xewbbbb xswbbbb pbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb pbbbb xesbbbb xnwbwwb fbbbw fbwbb xenbbww xswbbbb pbbbb fbbbb fbbbb
+fbbbb pbbbb xesbbbb xnwbwwb gwbbw fbbbb fbbbb gwwbb xenbbww xswbbbb pbbbb fbbbb
+xewbbbb xewbbbb xnwbwwb owbbw fbbbb fbbbb fbbbb fbbbb owwbb xenbbww xewbbbb xewbbbb
+fbbbb hbwbb fwbbw fbbbb fbbbb fblwb fbblw fbbbb fbbbb fwbbb fbbbb fbbbb
+fbbbb fbwbb fbbww fbbbb fbbbb flwbb fwbbl fbbbb fbbbb fbbwb fbbbb fbbbb
+xewbbbb xewbbbb xswwwbb obbww fbbbb fbbbb fbbbb fbbbb obwwb xeswbbw xewbbbb xewbbbb
+fbbbb pbbbb xenbbbb xswwwbb gbbww fbbbb fbbbb gbwwb xeswbbw xnwbbbb pbbbb fbbbb
+fbbbb fbbbb pbbbb xenbbbb xswwwbb fbbbw fbwbb xeswbbw xnwbbbb pbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb pbbbb xenbbbb xewbbbb xewbbbb xnwbbbb pbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 3,1,7,3 3,1,1,8 3,1,12,5 

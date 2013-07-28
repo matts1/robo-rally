@@ -1,0 +1,42 @@
+name: WeaveWorks
+description: 4 Moving Flags
+2012 Contest Entry
+By 2455ybob
+length: long
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+pbbbb pbbbb pbbbb pbbbb
+pbbwb pbbwb pbbwb pbbwb
+fwbwb fwbwb fwbwb flbbb
+fwbwb fwbwb fwbbb fbbwb
+fwbwb fwbwb fbbwb flbbb
+fwbwb fwbwb fwbbb fbbwb
+fwbwb fwbwb fbbwb fwbbb
+fwbwb fwbwb fwbbb fbblb
+fwbwb fwbwb fbbwb fwbbb
+fwbwb fwbwb fwbwb fbblb
+pwbbb pwbbb pwbbb pwbbb
+pbbbb pbbbb pbbbb pbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+obbbb xewbbbb csnbbbb xewbbbb csnbbbb xewbbbb csnbbbb xewbbbb csnbbbb xewbbbb csnbbbb gbbbb
+xwebbbb cnsbbbb xewbbbb cnsbbbb xewbbbb cnsbbbb xewbbbb cnsbbbb xewbbbb csnbbbb xwebbbb cnsbbbb
+csnbbbb xewbbbb cnsbbbb xewbbbb csnbbbb xewbbbb csnbbbb xewbbbb csnbbbb xewbbbb csnbbbb xewbbbb
+xwebbbb cnsbbbb xwebbbb rbbbb xwebbbb cnsbbbb xwebbbb cnsbbbb rbbbb csnbbbb xwebbbb cnsbbbb
+csnbbbb xewbbbb cnsbbbb xewbbbb csnbbbb xewbbbb csnbbwb xewbbbb csnbbbb xewbbbb csnbbbb xewbbbb
+xwebbbb cnsbbbb xwebbbb cnsbbbb xwebbbb pbblb hwbdb cnsbbbb xwebbbb csnbbbb xwebbbb cnsbbbb
+csnbbbb xewbbbb cnsbbbb xewbbbb csnbbbb hdbwb plbbb xewbbbb csnbbbb xewbbbb csnbbbb xewbbbb
+xwebbbb cnsbbbb xwebbbb cnsbbbb xwebbbb cnswbbb xwebbbb cnsbbbb xwebbbb csnbbbb xwebbbb cnsbbbb
+csnbbbb xewbbbb cnsbbbb rbbbb csnbbbb xewbbbb csnbbbb xewbbbb rbbbb xewbbbb csnbbbb xewbbbb
+xwebbbb cnsbbbb xwebbbb cnsbbbb xwebbbb cnsbbbb xwebbbb cnsbbbb xwebbbb csnbbbb xwebbbb cnsbbbb
+csnbbbb xwebbbb cnsbbbb xwebbbb csnbbbb xwebbbb csnbbbb xwebbbb csnbbbb xwebbbb csnbbbb xewbbbb
+gbbbb cnsbbbb xwebbbb cnsbbbb xwebbbb cnsbbbb xwebbbb cnsbbbb xwebbbb cnsbbbb xwebbbb obbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,10,10 3,1,3,3 3,1,10,3 3,1,3,10 

@@ -1,0 +1,55 @@
+name: Pardon Me 2
+description: Pay attention and you'll get through realatively unscathed
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb pbbbb pbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb pbbbb pbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb pbbbb pbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb pbbbb pbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb gwbbb fwbbb fbbvb fwbbb fbbbb rbbbb fdbbb fbbpb fwbbb fbbbb fbbbb
+fbbbb fbbbb obbbb fwbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb rbbbb
+fbbbb cewsbbbb cewbbbb cewbbbb cewbblb cewbbbb cewbbwb cewbbwb cewbbbb cewbbbb cswbbbb fbbbb
+fbbbb cnsbbbb xsebbbb xwebbbb xwedbbb xwebbbb xwewbbb xwewbbb xwebbbb xwsbwbb csnbbbw fbbbb
+fbbbb cnsbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb obbbb fbbbb xnsbbbb csnbbbb fbbbb
+fbbbb cnsbwbb xsnblbw fbbbw fbbbb hbbbb pbbbb fbbbb fbbbb xnsbwbb csnbbbw fbbbb
+fbbbb cnsbwbb xsnbbbw fbbbb fbbbb pbbbb hbbbb fbbbb fbwbb xnsbwbl csnbbbw fbbbb
+fbbbb cnsbbbb xsnbbbb fbbbb obbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb csnbbbb fbbbb
+fbbbb cnsbwbb xenbbbw xewbbbb xewbbwb xewbbwb xewbbbb xewbbdb xewbbbb xnwbbbb csnbbbb fbbbb
+fbbbb cnwebbbb cwebbbb cwebbbb cwelbbb cwewbbb cwebbbb cwewbbb cwebbbb cwebbbb cwnbbbb fbbbb
+fbbbb fbbbb gbbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbbwb fbbbb fbbbb rbbbb
+fbbbb obbwb fbbwb fpbbb fbbwb rbbbb fbbbb fbbdb fvbbb fbbwb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+fbbbb csnbbbb rbbbb flwbb fwbbw fwbbb cnsbbbb fwbbb fwbbb fbbbb fwbbb fbbbb
+fbbbb csnbbbb fbbbb fbpbb fbbbw fbbbb cnsbbbb fbbbb fbbbb fbbbb xsebbbb xwebbbb
+fbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbwb fbwbb obbbt fbbbb gbwbb fbbbw xsnbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb fdbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbvbb
+cwebbbb cwelbbb cwebbbb cwebbbb obbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb
+cewbbbb cewbblb cewbbbb cewbbbb obbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb
+fbbbb fwbbb fbbbb fbbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbvbb
+fbbbb fbbbb fbbbb fbbbb fwbbb fbwbb gbbbw fbbbb obtbb fbbbw xnsbbbb fbbbb
+fbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb fbbbb
+fbbbb cnsbbbb fbbbb fbpbb fbbbw fbbbb csnbbbb fbbbb fbbbb fbbbb xnebbbb xwebbbb
+fbbbb cnsbbbb rbbbb fbwbb fbbww fbbwb csnbbbb fbbwb fbbwb fbbbb fbbwb fbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,1,9 3,1,8,6 3,2,12,9 3,1,5,7 

@@ -1,0 +1,42 @@
+name: Triad
+description: No special rules, just 3 flags. 
+Short and sweet. 
+Deceptively Dangerous.
+designed by i8flesh
+length: short
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fwbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbtb fbbbb fbbbb gbbbb xsnbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbdbb
+pbbbb cwewbbb cwebbbb cwebbbb cwebbbb xenbbbb cewbbbb cewbbbb cewbbbb pbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb xsnbbbw xsnbbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb gbbbb xsnbbbb xsnbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbdbb
+pbbbb cwebbbb cwebbbb cwebbbb xwnbbbb xenbbbb cewbbbb cewbbbb cewbbbb pbbbb fbbbb fbbbb
+pbbbb cwebbbb cwebbbb cwebbbb xwsbbbb xesbbbb cewbbbb cewbbbb cewbbbb pbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb xnsbbbb xnsbbbb gbbbb fbbbb fbbbb fbwbb fbbbw fbdbb
+fbbbb fbbbb fbbbb rbwbb xnsbbbw xnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+pbbbb cwebbwb cwebbbb cwebbbb xwsbbbb cewbbbb cewbbbb cewbbbb cewbbbb pbbbb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb xnsbbbb gbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbdbb
+fbbbb fbbtb fbbbb fbbbb xnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,11 3,1,8,3 3,1,2,7 

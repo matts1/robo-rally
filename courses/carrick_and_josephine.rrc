@@ -1,0 +1,42 @@
+name: Carrick and Josephine
+description: Conveyors and lasers.  Flags: 3
+Special Rules: Flags move
+Course designed by Spacebug
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb hbwbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbwwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb hbwbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+cesbbbb cewbbwb cewwbbb cnsbbbb cewwbwb cewbbbb cewbbbb cewwbwb cswbwbb fwbbw fbbbb fbbbb
+cnsbwbb flbbw fbbbb cnsbbbb fwbbb cnsbbbb fbbbb fwlbb csnbbbw fbbbb gbbbb fbbbb
+cnsbbbw fbbbb cesbbbb cewbbbb cewbbbb cnsbbbb cswbbbb fbbbb csnbwbb fbbww fbbbb fbwwb
+cnsbbbb cewbbbb cewbbbb cnsbbbb cewbbbb cewbbbb csnbbbb cewbbbb cewbbbb cewwbbb cewbbwb cswwbbb
+cnsbwbw fbbbw cnsbbbb cnsbbbb fbllb cnsbbbw csnbwbb fbblw csnbbbb fbbbb fwlbb csnbwbw
+cewbbbb cewbbbb cnsbbbb cewbbbb cewwbbb cnsbbbb cewbbbb cewwbbb csnbbbb cswbbbb fbbbb csnbbbb
+cnsbbbb fbbbb cnebbbb cnsbbbb cwebbwb cwebbbb csnbbbb cwebbwb cwebbbb csnbbbb cwebbbb cwebbbb
+cnsbwbw fbbwl fbbbb cnsbbbb flwbb cnsbbbw csnbwbb flbbl csnbbbb csnbbbb fbwbb csnbwbw
+cnebbwb cwewbbb cwebbwb cwebbbb cwebbbb cnsbbbb cwebbbb cwebbbb csnbbbb cwebbbb cwebbbb csnbbbb
+fwbbw fbbbb fwwbb cnsbbbw fbbbb cnebbbb csnbbbb cwebbbb cwebbbb cwnbbbb fbbbb csnbwbb
+fbbbb gbbbb fbbbb cnsbwbb fbbwl fbbbb csnbbbb fbbwb csnbbbb fbbbb fbwlb csnbbbw
+fbbbb fbbbb fbwwb cnebbbw cwewbwb cwebbbb cwebbbb cwewbwb csnbbbb cwebbwb cwewbbb cwnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,11 3,1,6,10 3,1,7,6 

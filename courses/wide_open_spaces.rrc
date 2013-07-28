@@ -1,0 +1,39 @@
+name: Wide Open Spaces
+description: No walls, just a lot of flags.
+length: long
+difficulty: mid
+players: 4 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+pbbbb fbbwb fwbbb fwbbb
+pbbbb fwbwb fbbbb fbbbb
+fbbbb xewwbbb xewbbbb xewbbbb
+pbbbb fbbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+pbbbb fwbwb fbbbb fbbbb
+pbbbb fwbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb rbbbb
+fbbbb fbbwb fbbbb fbbbb
+pbbbb fwbwb fbbbb fbbbb
+pbbbb fwbbb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fdbbb fwbbb fwbbb fdbbb fwbbb fwbbb fwbbb csnwbbb fwbbb fwbbb fwbbb fwwbb
+rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb csnbbbb fbbbb hbbbb fbbbb fbwbb
+xewbbbb xewbbbb xewbbbb xewbbbb hbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb rbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb gbbbb fbbbb csnbbbb fbbbb obbbb fbbbb fbwbb
+fbbbb cnsbbbb fbbbb rbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbwbb
+gbbbb cnsbbbb rbbbb fbbbb fbbbb obbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbwbb
+fbbbb cnsbbbb fbbbb obbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xewbbbb xewbbbb xewbwbb
+fbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb hbbbb fbbbb fbbbb fbwbb
+fbbbb cnsbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbwbb
+rbbbb cnsbbbb gbbbb fbbbb rbbbb fbbbb fbbbb fbbbb obbbb fbbbb rbbbb fbwbb
+fbbwb cnsbbwb fbbwb fbbwb fbbwb gbbwb fbblb fbbwb fbbwb fbbwb fbblb fbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,1,11 3,1,11,7 3,1,6,1 3,1,4,7 3,1,9,4 3,1,2,4 3,1,7,11 3,1,12,1 

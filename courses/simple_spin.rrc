@@ -1,0 +1,40 @@
+name: Simple Spin
+description: Sit and spin,  or try and
+get to the flags and win
+length: medium
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,11 3,1,11,11 3,1,2,2 3,1,11,2 

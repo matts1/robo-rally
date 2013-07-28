@@ -1,0 +1,87 @@
+name: Slot Car Small Oval
+description: 3 Laps (flags). Be careful when cornering. No options.
+length: medium
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+3,3 2,3 1,3 3,2 2,2 1,2 3,1 2,1 
+fwbbw fwbbb fwbbb xsnwbbb
+fbbbw fbbbb fbbbb xewbbbb
+fbbww fbbwb fbbwb rbbwb
+pwbbb pwbbb pwbbb pwbbb
+pbbbb pbbbb pbbbb pbwbb
+pbbbb pbbbb pbbbb pbwbb
+pbbbb pbbbb pbbbb pbwbb
+pbbbb pbbbb pbbbb pbwbb
+pbbbb pbbbb pbbbb pbwbb
+pbbbb pbbbb pbbbb pbwbb
+pbbbb pbbbb pbbbb pbwbb
+pbbbb pbbbb pbbbb pbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+rwbbb xewwbbb xewwbbb rwbbb xewwbbb xewwbbb rwbbb xewwbbb xsnwbbb rwbbb cewwbbb xewwbbb
+xsnbbbb rbbbb xewbbbb xewbbbb rbbbb xnsbbbb xewbbbb rbbbb xewbbbb xewbbbb rbbbb cewbbbb
+xewbbwb xnsbbwb rbbwb xewbbwb xewbbwb rbbwb xewbbwb xewbbwb rbbwb xnsbbwb xewbbwb rbbwb
+pwbbb pwbwb pwbwb pwbwb pwbwb pwbwb pwbwb pwbwb pwbwb pwbwb pwbwb pwbwb
+cesbbbw cewwbwb cewwbwb xewwbwb xewwbwb xewwbwb xewwbwb rwbwb fwbwb xewwbwb xewwbwb xewwbwb
+cnsbbbw pwbbb pwbwb pwbwb pwbwb pwbwb pwbwb pwbwb pwbwb pwbwb pwbwb pwbwb
+cnsbbbw gbbbb fwbwb xewwbwb xewwbwb xewwbwb xewwbwb rwbwb fwbwb xewwbwb xewwbwb xewwbwb
+fbbbp fbbbb gwbbb pwbwb pwbwb pwbwb pwbwb pwbbb pwbbb pwbbb pwbbb pwbbb
+fbbbw gbbbb gbbbb xewwbwb xewwbwb xewwbwb xewwbwb hbbbb fbbbb pbbbb pbbbb pbbbb
+fbbbv obbbb gbbbb pwbbb pwbwb pwbwb pwbwb pbbwb pbbwb pbbwb pbbwb pbbwb
+cnsbbbw xnsbbbb gbbbb gbbbb xwepbbb xwewbbb xwewbbb rwbbb rwbbb fwbbb csnwbbb fwbbb
+cnsbbbw gbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb rbbbb rbbbb fbbbb cnsbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+xewwbbb xewwbbb xewwbbb xewwbbb xswwwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+xewbbbb xewbbbb xewbbbb xswbbbb xsnbwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+cewbbwb xewbbbb xswbbbb xsnbbbb xsnbwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pwbwb pbwwb xsnbbbp xsnbbbb xsnbpbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+xewwbwb gwbbb xsnwbbbb xsnbbbb xsnbwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pwbwb pbwwb xsnbbbw xsnbbbb xsnbwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+xewwbwb gwbbb xsnwbbbb xsnbbbb xsnbvbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pwbbb pbwbb xsnbbbw xsnbbbb xsnbwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbwbb xsnbbbp xsnbbbb xsnbwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbwb pbbbb gbbbb xsnbbbb xsnbvbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+owbbb gbbbb xwnbbbb xsnbbbb xsnbwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb xwebbbb gbbbb csnbwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,2 0 blank board Copy
+newboard:
+blank board Copy Copy
+cnebbwb cwebbwb xwebbwb xwebbwb xwebbwb xwebbpb xwebbwb xwebbvb xwebbwb rbbpb rbbwb fbbvb
+pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 4,1 0 blank board Copy Copy
+newboard:
+blank board Copy Copy Copy
+fbbwb fbbwb cwebbwb cwebbwb cwnbwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pwbbb pwbbb pwbbb pwbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 4,2 0 blank board Copy Copy Copy
+flags: 3,1,5,8 3,1,7,8 3,1,9,8 

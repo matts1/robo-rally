@@ -1,0 +1,23 @@
+name: Playing in Traffic
+description: Out for a lovely afternoon shopping trip. Please DO remember not to walk in the street, though.
+length: medium
+difficulty: hard
+players: 2 4
+newboard:
+blank board
+fwbbw fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb pbwbb pbbbw fwbbb fwbbb fwwbb
+fbbbw rbbbb fbbbb fbbbb fbbbb fbbbb rbbbb cewbbbb cewbbbb rbbbb fbbbb fbwbb
+pbbwb xsnbbbb pbbbb pbbwb pbbbb pbbwb cnsbbbb pbbbb pbbwb csnbbbb pbbbb pbbwb
+pwbbb xsnbbbb pbbbb pwbbb pbbwb pwbwb cnsbbbb pbbbb pwbbb csnbbbb pbbbb pwbbb
+fbbbw rbbbb pbwbb pbwbw rwbbw fwbbb rbbpb cwebbbb cwebbbb rbbbb fbbbb fbwbb
+fbbbw fbbbb xewbbbb xewbbbb fbbbb fbbbb fwwbb pbwbw pbbbw rbbbb fbbbb fbwbb
+fbbbw fbbbb pbbbb pbwbb fbbbw fbbbb fbwwb pbbbw pbbbb xnsbbbb pbbbb pbbwb
+fbbbw rbbbb pbwbb pbwbw fbbww fbbwb rpbbb pbwbb pbbbw xnsbbbb pbbbb pwbbb
+pbbwb xnsbbbb pbbbb pbbwb pwbbb pwbwb xsnbbbb pbbwb pbbbb rbbbb fbbbb xewbbbb
+pwbbb xnsbbbb pbbbb pwbbb pbbbb pwbbb xsnbbbb pwbbb pbbbb fbbbb fbwbb pbwbw
+fbbbw rbbbb xwebbbb xwebbbb rbbbb fbbbb rbbbb xewbbbb xewbbbb rbbbb fbwbb pbbbw
+fbbww fbbwb pbwbb pbbbw fbbwb fbbwb fbbwb pbwbb pbbbw fbbwb fbwwb pbwbw
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,6 3,1,6,11 3,1,12,6 3,1,6,1 3,1,2,5 
+start: 3,1,12,1 3,1,11,11 3,1,1,6 3,1,2,12 

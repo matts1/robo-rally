@@ -1,0 +1,41 @@
+name: Peninsula Panic
+description: The path is narrow, and conflicts are sure to ensue.
+Plan  your moves carefully!
+-This board was created by rcpete22
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,1 7,1 4,1 9,1 3,1 10,1 2,1 11,1 
+fbbbb fbbbb xsebbbb xwebbbb
+fbbbb fbbbb xsnbbbb fbbbb
+fbbbb fbbbb xsnbbbb fbbbb
+fbbbb fbbbb xsnbbbb fbbbb
+fbbbb fbbbb xsnbbbb fbbbb
+fbbbb fbbbb xsnbbbb fbbbb
+fbbbb fbbbb xsnbbbb fbbbb
+fbbbb fbbbb xsnbbbb fbbbb
+fbbbb fbbbb xsnbbbb fbbbb
+fbbbb fbbbb xsnbbbb fbbbb
+fbbbb fbbbb xsnbbbb fbbbb
+fbbbb fbbbb xenbbbb xewbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbbbb
+pbbbb pbbwb pbbbb pbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb xnsbbbb
+pbbbb fwbbb obbbb pbbbb cnsbbbb pbbbb obbbb fbbbb fbbbb pbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb pbbbb fbbbb pbwbb fbbbw fbbbb gbbwb pbbbb fbbbb xnsbbbb
+pbwbb gbbbw fbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pwbbb pbbbb fbbbb xnsbbbb
+pbbbb pbbbb pbbbb pbbbb fbbbb hbbbb fbbbb fbbbb cewbbbb fbbbb fbbbb xnsbbbb
+fbbbb cwebbbb fbbbb fbbbb hbbbb fbbbb pbbbb pbbbb pbbbb pbbbb fbbbb xnsbbbb
+pbbbb pbbwb fbbbb pbbbb pbbbb fbbbb pbbbb fbbbb gbwbb pbbbw fbbbb xnsbbbb
+pbbbb gwbbb fbbbb fbwbb pbbbw fbbbb pbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb
+pbbbb fbbbb fbbbb obbbb pbbbb csnbbbb pbbbb obbbb fbbwb pbbbb fbbbb xnsbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb pbbbb pwbbb pbbbb fbbbb xnsbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,8 3,1,10,2 3,1,3,9 3,1,5,3 

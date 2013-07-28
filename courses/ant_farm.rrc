@@ -1,0 +1,87 @@
+name: Ant Farm
+description: Just Ant Bots in a race to the 4 flags
+length: long
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw fwbbb fwbbb fwbbb
+fbbbw fbbbb fbbbb fbbbb
+pbbbw fbbbb fbbbb pbbbb
+fbbbw fbbbb fbbbb fbbbb
+pbbbw fbbbb fbbbb pbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+pbbbw fbbbb fbbbb pbbbb
+fbbbw fbbbb fbbbb fbbbb
+pbbbw fbbbb fbbbb pbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbww fbbwb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb pbbbb pbbbb
+fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb pbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb fbbbb pbbbb fbbbb pbbbb pbbbb hbbbb fbbbb fbbbb pbbbb pbbbb pbbbb
+pbbbb fbbbb pbbbb fbbbb pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb pbbbb pbbbb
+pbbbb fbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb
+fbbbb pbbbb pbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb
+fbbbb pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+fbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb
+endboard
+board: 3,2 0 blank board Copy
+newboard:
+blank board Copy Copy
+pbbbb fbbbb pbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+pbbbb hbbbb pbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+pbbbb fbbbb pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+pbbbb fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+pbbbb fbbbb pbbbb fbbbb fbbbb pbbbb fbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+pbbbb fbbbb pbbbb fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb pbbbb fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 4,1 0 blank board Copy Copy
+newboard:
+blank board Copy Copy Copy
+pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb pbbbb pbbbb hbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb fbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb fbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb fbbbb pbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 4,2 0 blank board Copy Copy Copy
+flags: 3,1,3,10 3,2,8,10 4,2,11,6 4,1,8,4 

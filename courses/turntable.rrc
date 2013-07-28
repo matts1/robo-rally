@@ -1,0 +1,59 @@
+name: Turntable
+description: Flags: 4
+Board will rotate 180 degrees with a 50% chance when flags are touched.
+Hop off at a platform and hope to catch it next time it spins, or stay on board!
+Course designed by Spacebug.
+length: medium
+difficulty: mid
+players: 2 8
+rules: boardrotate50t2
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb rbbbb
+fbbbb csnbbbb rwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbwbb
+csnbbbb rbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+rbbwb fbbwb fbbbb fbbbb
+rwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbwwb
+cnsbbbb rbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbwbb
+fbbbb cnsbbbb rwbwb fbbbb
+fbbbb cnsbbbb fwbbb rbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+fbbbb csnbbbb fwbbb fbbbb fwbbb xsnbbbb cnsbbbb fwbbb fbbbb fwbbb fbbbb fbbbb
+cwebbbb cwnbbbb fbbbb fbwbb fbbbw xsnbbbb cnsbbbb fbbbb fbbbb fbblb fbbwb fbbbb
+fbbbw fbbbb fbbbb fbwbb fbbbw xsnbbbb cnsbbbb fbwbb fbbbw fwbbb pwbbb pbwbb
+fbbbb fbbbb pbbbb fbbwb fbbbb xsnbbbb cnsbbbb fbwbb fbbbw fbbbb fbbbb fbbbb
+fbbww fbbwb fbbbb fwbbb xsebbbb xwnbbbb cnebbbb cwsbbbb fbbbb fbbbb fbbbb fbwbb
+xwewbbb xwewbbb xwebbbb xwebbbb xwnbbbb pbbbb pbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb pbbbb pbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+fbbbw fbbbb fbbbb fbbbb cenbbbb cswbwbb gbbbv fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbb xesbbbb xewbbbb xswbbbb fbbbb csnbbbb xnsbwbb fbbbw fbdbb fbbbw fbbbb fbbbb
+fbbbw xnsbwbb fbwbl xsnbbbw fbbbb csnbbbb xnsbbbb fbbbb fbbbb pbbbb fbbbb fbwbb
+fbbbb xnebbbb xwebbvb xwnbbbb fbbbb csnbbbb xnsebbbb xwebbbb xwebbbb xwebbbb xwsebbbb xwebbbb
+fbbbb fbbbb fwbwb fbbbb fbbwb csnbbbb xnsbbbb fbbwb fbbbb fbbwb xnsbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+rbbbb fbbwb csnbbbb fbbbb pbbbb pbbbb pbbwb pbbwb pbbbb pbbbb pbbwb pbbbb
+fbbbb rwbwb csnbbbb fbbbb pbbbb pbwbb pwwww pwbbw pbwbb pbwww pwwbw pbbbw
+fbbbw fwbbb cenbbbb cswbbbb pbbbb pbbbb pwbwb pbbbb pbbbb pwbwb pbbwb pbbbb
+fbbwb fbbbb rbbbb csnbbbb pbbbb pbwbb pwbww pbbbb pbbbb pwwbb pwwww pbbbw
+fwbbw fbbbb fbbbb csnbbbb pbbbb pbbbb pwbwb pbbbb pbbbb pbbwb pwbwb pbbbb
+fbbbb fbbbb fbbwb rbbwb pbwbb pbwww pwwww pbbbw pbbbb pwwwb pwwww pbbbw
+fbbbb fbbbb fwbbb rwbbb pbbbb pwbbb pwbbb pbbbb pbbbb pwbwb pwbwb pbbbb
+fbbww fbbbb fbbbb cnsbbbb pbbbb pbbbb pbbbb pbbbb pbwbb pwbbw pwwbb pbbbw
+fwbbb fbbbb rbbbb cnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbwb pbbwb pbbbb
+fbbbw fbbwb cesbbbb cnwbbbb pbbbb pbwbb pbwbw pbbbw pbwbb pwwbw pwwbw pbbbw
+fbbbb rwbwb cnsbbbb fbbbb pbwbb pbbww pbbwb pbwwb pbbbw pbbbb pbbbb pbbbb
+rbbbb fwbbb cnsbbbb fbbbb pbbbb pwbbb pwbbb pwbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,1,5,11 3,1,9,1 3,1,9,12 3,1,10,3 

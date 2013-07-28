@@ -1,0 +1,40 @@
+name: No Rest for the weary
+description: Always on a belt or in a laser.  Moving flags.
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+flbbb flbbb flbbb flbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbblb fbblb fbblb fbblb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+csebbbb cwebbbb cwewbbb cwewbbb cwebbbb cwebbbb cwewbbb cwewbbb cwebbbb cwebbbb cwewbbb cwebbbb
+csnbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbwbb
+csnbbbb xsnbbbb csebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwsbbbb xnsbwbb
+csnbbbb xsnbbbb csnbbbb xsebbbb xwebbbb xwebbwb xwebbbb xwebbbb xwebbbb xwsbbbb cnsbbbb xnsbbbb
+csnbbbb xsnbbbb csnbbbb xsnbbbb csebbbb cwewbbb cwebbbb cwebbbb cwsbbbb xnsbbbb cnsbbbb xnsbwbb
+csnbbbb xsnbbbb csnbbbb xsnbbbb csnbbbb pbbtb xwebbwb xwsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb
+csnbbbb xsnbbbb csnbbbb xsnbbbb cenbbbb cewwbbb ptbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbwbb
+csnbbbb xsnbbbb csnbbbb xenbbbb xewbbbb xewbbbb xewbbwb xnwbbbb cnsbbbb xnsbbbb cnsbbbb xnsbwbb
+csnbbbb xsnbbbb cenbbbb cewbbbb cewbbbb cewbbbb cewwbbb cewbbbb cnwbbbb xnsbbbb cnsbbbb xnsbbbb
+csnbbbb xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb cnsbbbb xnsbwbb
+cenbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb xnsbwbb
+xewbbwb xewbbbb xewbbwb xewbbbb xewbbwb xewbbwb xewbbbb xewbbwb xewbbwb xewbbbb xewbbwb xnwbbwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,1,12 3,1,12,12 3,1,10,10 3,1,3,3 

@@ -1,0 +1,39 @@
+name: Sexual Harrassment
+description: I knew that would get you.
+length: short
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cwebbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cwebbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb xesbbbb xewbbbb xewbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb xesbbbb xnwbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xesbbbb xnwbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xnsbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbwbb fbbbw
+xnebbbb xwsbbbb hbbbb fbwbb fbbbw fbbwb fbbbb fbwbb fbwbw fwbwp fbwbb fbbbw
+fbbbb xnebbbb xwsbbbb fbwbb fbwbw pwwww fbbbw fbwbb fbbbw fwwwb fbwbw fbbbw
+fbbbb xsebbbb xwnbbbb fbwbb fbbww fwbbb fbbwb fbwbb fbbww fwbbb fbbbb fbbbb
+xsebbbb xwnbbbb hbbbb fbwbb fwwww fbwbw pwwww fbwbw fwwww fbbbw fbwbb fbbbw
+xsnbbbb hbbbb fbbbb fbbbb fwbbb fbbbb fwbbb fbbbb fwbbb fbbbb fbbbb fbbbb
+xenbbbb xswbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb xenbbbb xswbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb xenbbbb xewbbbb xewbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,10 3,1,7,6 3,1,7,1 3,1,5,12 

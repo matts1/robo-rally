@@ -1,0 +1,43 @@
+name: Fort Knox
+description: 4 Flags, 2 of which are moving; Pushers; Gears and Conveyors.
+Start with 1 option.
+
+Created By: PopeScooby
+length: long
+difficulty: hard
+players: 2 8
+rules: flagsmove startoptions1c1
+newsboard:
+blank starting board
+5,2 8,2 4,2 9,2 3,3 10,3 1,1 12,1 
+fwbbw fbbbb cesbbbb cewbbbb
+xsnbbbb fbbbb cnsbbbb fbbbb
+xsnbbbb fbwwb fbbbw fbbbb
+xsnbwbb fwbbw fbbbb fbbbb
+xsnbwbb fbbbw fbbbb fbbbb
+xenbbbb cewbbbb cewbbbb cnwbbbb
+xesbbbb cewbbbb cewbbbb cswbbbb
+xnsbwbb fbbbw fbbbb fbbbb
+xnsbwbb fbbww fbbbb fbbbb
+xnsbbbb fwwbb fbbbw fbbbb
+xnsbbbb fbbbb csnbbbb fbbbb
+fbbww fbbbb cenbbbb cewbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fwbbb fwbbb fbbbb fbbwb xeswbbb xswwbbb fbbwb fbbbb fwbbb fwbbb fbbbb
+fbbbw xesbbbb xewbbbb xewbbbb xewwbbb xnwbbbb xenbbbb xewlbbb xewbbbb xewbbbb xswbbbb fbwbb
+fbbbw xnsbbbb gbbbb fbbbb fbbbb hbbbb rbbbb fbbbb fbbbb obbbb xsnbbbb fbwbb
+fbwbb xnsbbbp fbbbb csebbbb cwebbbb cwsbbbb csebbbb cwebbbb cwsbbbb fbbbb xsnbpbb fbbbw
+fbwbb xnsbbbv rbbbb csnbbbb pbbbb cnsbbbb csnbbbb pbbbb cnsbbbb hbbbb xsnbvbb fbbbw
+xesbbbw xnwbbbb obbbb gbbbb cwebbbb fbbbb cenbbbb cewbbbb obbbb gbbbb xenbbbb xswbwbb
+xnebbbw xwsbbbb gbbbb obbbb cwebbbb cwsbbbb fbbbb cewbbbb gbbbb obbbb xsebbbb xwnbwbb
+fbwbb xnsbbbv hbbbb csnbbbb pbbbb cnsbbbb csnbbbb pbbbb cnsbbbb rbbbb xsnbvbb fbbbw
+fbwbb xnsbbbp fbbbb cenbbbb cewbbbb cnwbbbb cenbbbb cewbbbb cnwbbbb fbbbb xsnbpbb fbbbw
+fbbbw xnsbbbb obbbb fbbbb fbbbb rbbbb hbbbb fbbbb fbbbb gbbbb xsnbbbb fbwbb
+fbbbw xnebbbb xwebbbb xwebbbb xwebblb xwsbbbb xsebbbb xwebbwb xwebbbb xwebbbb xwnbbbb fbwbb
+fbbbb fbbwb fbbwb fbbbb fwbbb xnebbwb xwnbbwb fwbbb fbbbb fbbwb fbbwb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,6 3,1,11,11 3,1,7,7 3,1,2,2 

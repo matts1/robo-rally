@@ -1,0 +1,42 @@
+name: Escape
+description: Escape is the hard part...or is it??
+2011 RoboRally Map Editing Contest Entry
+Designed by Feanor
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,3 7,3 4,3 9,3 3,3 10,3 1,3 12,3 
+xsewbbw xwswbbb fwwwb rwbbw
+xsnbbbw xnsbbbb fwbwb fbbbb
+xsnbbbw cnsbbbb fwwwb rbbww
+xsnbbbw xnsbbbb fwwwb rwbbw
+xsnbbbw xnsbbbb fwbwb fbbbb
+xenbbbw cnwbbbb fwwwb rbbww
+xesbbbw cswbbbb fwwwb rwbbw
+xnsbbbw xsnbbbb fwbwb fbbbb
+xnsbbbw xsnbbbb fwwwb rbbww
+xnsbbbw csnbbbb fwwwb rwbbw
+xnsbbbw xsnbbbb fwbwb fbbbb
+xnebbww xwnbbwb fwwwb rbbww
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbwb xewlbbb xewbbwb xewbbbb xewbbwb xewbbbb xswbbbb
+xnsbbbb fbbbb fbbbb pbbbb pbbbb csewbbb cwebbbb cwewbbb cwebbbb cwewbbb cwsbbbb xsnbbbb
+xnsbbbb fbbbb fbbbb pbbbb pbbbb csnbbbb fbbbb gbbbb fbbbb fbbbb cnsbwbb xsnbbbw
+xnsbwbb fbbbw fbbbb fbbbb fblbb csnbbbw fbbbb fbbbb fbbbb fbbbb cnsbbbb xsnbbbb
+xnsbbbb pbbbb pbbbb csebbbb cwebbbb cwnbbbb fbbbb fbbbb cesbbbb cewbbbb cnwbwbb xsnbbbw
+xnsbbbb pbbbb pbwbb csnbbbl fbbbb fbbbb hbbbb fbbbb cnsbbbb pbbbb pbbbb xsnbwbb
+xnsbbbb pbbbb pbbbb csnbbbb obbbb fbbbb fbbbb obbbb cnsbbbb pbbbb pbbbb xsnbbbb
+xnsbwbb csebbbw cwebbbb cwnbbbb fbbbb fbbbb fbbbb fbbbb cnsbbbb pbbbb pbbbb xsnbbbb
+xnsbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb cesbbbb cewbbbb cnwbbbb pbbbb pbbbb xsnbbbb
+xnsbwbb csnbbbw fbbbb fbbbb gbbbb fbbbb cnsbbbb pbbbb pbbbb rbbbb fbbbb xsnbbbb
+xnsbbbb cenbbbb cewbbwb cewbbbb cewbbwb cewbbbb cnwbbbb pbbbb pbbbb fbbbb fbbbb xsnbbbb
+xnebbbb xwebbbb xwewbbb xwebbbb xwewbbb xwebbbb xwebbwb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,10 3,1,5,5 3,1,10,12 3,1,4,2 

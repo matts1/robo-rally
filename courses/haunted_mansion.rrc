@@ -1,0 +1,39 @@
+name: Haunted Mansion
+description: A dizzying merry-go-round of death is your first encounter. Then scurry down the spider-covered walls of the Chamber of Hideous Special Effects, sneak through the Hall of Warped Mirrors and rush out into the Spooky Graveyard to seek your freedom from the Haunted Mansion
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+gbbbb fwbwb fdbbb fbbbb
+obbbb fwbwb fbbbb fbbbb
+fbbwb hwbwb fbbdb fbbbb
+gwbbb fwbwb fdbbb fbbbb
+fbbbb hwbwb fbbbb fbbbb
+obbwb fwbwb fbbdb fbbbb
+gwbbb fwbwb fdbbb fbbbb
+fbbbb hwbwb fbbbb fbbbb
+obbwb fwbwb fbbdb fbbbb
+fwbbb hwbwb fdbbb fbbbb
+gbbbb fwbwb fbbbb fbbbb
+obbbb fwbwb fbbdb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsnbbbb xewbbbb hbwbb xewbbbw xewbbbb xswbbbb fbbbb fbbbb gwwbb fbwbw gbbbw gbbbb
+csnbbbb xewbbbb hbwbb cewbbbw cewbbbb csnwbbbb fbbbb fbbbb fbwbb hbwbw fbbbv xsnbbbb
+csnbbbb fbbwb hbwbb xesbbbw xsewbbbb cwnbbbb fbblb fbbbb fbwbb fbbbw fbwbb xsnbbbw
+fbbbb xsnwwbb xnebbww xnsbwbb xsnbbbw fbbbb fwbbb xsnbbbb xwebwbb pbbbw fbpbb xsnbbbw
+rbbbb fbbbb fwbbb xnsbwbb xsnbbbw fbbbb fbbbb xsnbbbb fbwbb pbwbw fbbbv xsnbbbb
+fbbbb xewbbwb fbbbb xnsbwbb xensbbbw xewbbwb xewbbbb xewbbwb xsnbbbb pbwbb rbwbw xsnbbbw
+fbbbb fwbbb fbbbb cnsbwbb xnsbwbw flbbw xnsbbbb xwelbbb xweblbb hbwbw fbbbv xsnbbbb
+rbbbb fbbbb pbbbb hbbwb xnsbbbb fbbbb rbbbb fbbbb fbbbb fbwbb fbbbp xsnbbbb
+fbbbb xewbbwb fbbbb xsnwwbb xnsbwbw fbbwl fbbbb fbbwb fbwbb pbwbw fbwbl xsnbbbw
+rbbbb fwbbb fbbbb xensbbbb xnwbbbb fwbbb xnsbbbb fwbbb rbbbb gbbbb fbvbb xsnbbbw
+fbbbb xewbbbb fbbbb xnsbbbb fbbbb fbbbb xnsbbbb fbbbb obbbb fbbbb fbvbb xsnbbbw
+fbbbb xewbbbb fbbbb xnsbbbb fbbbb fbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,9 3,1,1,11 3,1,2,8 3,1,12,5 3,1,3,2 

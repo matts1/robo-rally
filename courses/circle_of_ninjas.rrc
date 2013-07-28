@@ -1,0 +1,39 @@
+name: Circle of Ninjas
+description: ...
+length: medium
+difficulty: mid
+players: 4 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+ftbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbwb fbbwb fbbwb fbbwb fbbwb cewbbwb csnwbbbb fbbbb fbbbb fbbbb
+fbbbb xnsbwbb fpbbw rvbbb fpbbb fvbbb fpbbb rvbbb fbbbb obbbb fbbbb fbbbb
+fbbbb xnsbwbb fbbbv fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb gbpbb fbbbw fbbbb
+fbbbb xnwbwbb fbbbp fbbbb fbbbb pbbbb pbbbb fbbbb cwenbbbb fbvbb fbbbw fbbbb
+fbbbb xswbwbb fbbbv fbbbb fbbbb pbbbb pbbbb fbbbb cwsebbbb fbvbb fbbbw fbbbb
+fbbbb xsnbwbb fbbbp fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb obpbb fbbbw fbbbb
+fbbbb xsnbwbb rbbvw fbbpb fbbvb fbbpb rbbvb fbbpb fbbbb gbbbb fbbbb fbbbb
+fbbbb fbbbb fwbbb fwbbb fwbbb fwbbb fwbbb cewwbbb cnwsbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbtb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,5 3,1,6,12 3,1,6,5 3,1,7,1 

@@ -1,0 +1,39 @@
+name: New Course
+description: Enter description
+length: short
+difficulty: easy
+players: 2 8
+newsboard:
+line start blank
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: line start blank
+newboard:
+River Crossing
+fbbbb cnsbbbb fpbbb fbbbb fwbbb fbbbb fbbbb flbbb xenbbbb xsewbbbb xwnbwbb xselbbw
+cwebbbb fbbbb cewbbbb fbbwb cnsbbbb gbbbb fbbwb fbbbb xsebbbb xwnbbbb xsebbbb xwsnbbbb
+fbbbp csnbbbb rbbbb cwewbbb fbbbb cewbbbb fpbbb fbbbb xsnbwbb pbwbw xsnbbbw xnebbbb
+fbbbb fbwbb cnsbbbw obbbb csnbbbb fbbbb xsebbbb xwebbwb xwnbbbb xsebbbb xwnbbbb fbvbb
+fbbbw cwebbbb fbbbb cewbbbb fbbbb xsebbbb xwnbbbb pwwbb xsebbbw xwnbbbb fbbbb fblbb
+fbbbb gbbbb csnbbbb fbbbb xesbbbb pbwwb hbbww xsebbbb xwnbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb xesbbbb xnwbbbb hwwbb pwbbw xwnbbbb fbbbb cnsbbbb obbbb fbbbb
+fbbbl fbbbb xesbbbb xnwbwbb pbbww xesbbbb xnwbbbb fbbbb cwebbbb fbbbb cewbbbb fbwbb
+fbbbv xesbbbb xnwbbbb xesbbbb xewwbbb xnwbbbb fbbbb cnsbbbb gbbbb csnbwbb fbbbw fbbbb
+xswbbbb xnsbwbb pbwbw xnsbbbw fbbbb fbbpb cwebbbb fbbbb cewbbwb rbbbb cnsbbbb fbpbb
+xensbbbb xnwbbbb xesbbbb xnwbbbb fbbbb fwbbb obbbb csnbbbb fwbbb cwebbbb fbbbb cewbbbb
+xnwbwlb xesbbbw xnwebbbb xwsbbbb fbblb fbbbb fbbbb fbbwb fbbbb fbbpb csnbbbb fbbbb
+endboard
+board: 3,1 0 River Crossing
+flags: 3,1,6,12 3,1,7,1 3,1,8,10 3,1,5,3 3,1,10,8 3,1,3,5 3,1,11,11 3,1,2,2 

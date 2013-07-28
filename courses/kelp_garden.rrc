@@ -1,0 +1,39 @@
+name: Kelp Garden
+description: The Kelp will drag you to the bottom to drown...and watch out for the Morays in the Kelp
+length: medium
+difficulty: mid
+players: 3 7
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb fbbbb xesbbbb xswbbbb fbbbb fbbbb fbbbb xesbbbb xswbbbb fbbbb fbbbb fwbbb
+fbbbb pbbbb xenbbbb xsnwbbbb rbbbb fbbbb fbbbb xenbbbb xenwbbbb xswbbbb fbbbb fbwbb
+fbbbb fbbbb pbbbb xenbbbb xswbbbb fbbbb fbbbb fbbbb pbbbb xenbbbb xswbwbb hbbbw
+fbbbb fbbbb fbbbb pbbbb xenbbbb xswbbbb fbbbb fbbbb fbbbb pbbbb xenbbbb xswbbbb
+fbbbb xesbbbb xswbbbb fbbbb pbbbb xenbbbb xswbbbb fbbbb fbbbb fbbbb pbbbb xenbbbb
+fbbbb xenbbbb xsnwbbbb fbbbb fbbbb pbbbb xenbbbb xswbbbb fbbbb fbbbb fbbbb pbbbb
+fbbbb fbbbb xenbbbb xswbbbb fbbbb fbbbb pbbbb xenbbbb xswbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb pbbbb xenbbbb xswbbbb fbbbb fbbbb pbbbb xenbbbb xswbbbb fbbbb fbbbb
+fbbbb xesbbbb xswbbbb pbbbb xenbbbb xswbbbb fbbbb fbbbb pbbbb xenbbbb xswbbbb fbbbb
+fbbbb xenbbbb xsnwbbbb fbbbb pbbbb xenbbbb xswbbbb fbbbb fbbbb pbbbb xenbbbb xswbbbb
+fbbbb pbbbb xenbbbb xswbbbb fbbbb pbbbb xenbbwb xswbbbb fbbbb fbbbb rbbbb xenbbbb
+fbbbb fbbbb pbbbb xenbbwb xswbbbb hbbbb fwbbb xenbbwb xswbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,12 3,1,11,5 

@@ -1,0 +1,40 @@
+name: Killing Floor
+description: Special Rules: Deathmatch, no power downs, 30 second timer.
+Course by Spacebug, based on Bumper Pool by bmrr
+length: long
+difficulty: mid
+players: 2 8
+rules: maxfilltime30 nopowerdown
+newboard:
+blank board
+pbbbb pbbbb pbbwb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbwb pbbbb pbbbb
+pbbbb hbbbb fpbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fpbbb hbbbb pbbbb
+pbwbb fbbbp pbbbb pbwbb pbbbl fbbbb fbbbb pblbb pbbbw pbbbb fbpbb pbbbw
+pbbbb fbbbb pbbwb hbbbb obbbb fbwbb fbbbw gbbbb hbbbb pbbwb fbbbb pbbbb
+pbbbb fbbbb plbbb gbbbb fbbbb fbbbb fbbbb fbbbb obbbb plbbb fbbbb pbbbb
+pbbbb fbbwb fbbbb fbbwb fbbbb rbbbb rbbbb fbbbb fbbwb fbbbb fbbwb pbbbb
+pbbbb fwbbb fbbbb fwbbb fbbbb rbbbb rbbbb fbbbb fwbbb fbbbb fwbbb pbbbb
+pbbbb fbbbb pbblb obbbb fbbbb fbbbb fbbbb fbbbb gbbbb pbblb fbbbb pbbbb
+pbbbb fbbbb pwbbb hbbbb gbbbb fbwbb fbbbw obbbb hbbbb pwbbb fbbbb pbbbb
+pbwbb fbbbp pbbbb pbwbb pbbbl fbbbb fbbbb pblbb pbbbw pbbbb fbpbb pbbbw
+pbbbb hbbbb fbbpb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbpb hbbbb pbbbb
+pbbbb pbbbb pwbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pwbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbwb pbbbb pbbwb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbwbb pwwww pbwbw pwbww pbwbb pbbbw pbwbb pbbbw
+pbbbb pbbbb pbbbb pbbbb pbwbb pwbbw pbwbb pwbww pbwbb pbwww pbwww pbbbw
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbwb pbbbb pwbwb pbbbb pwbbb pwbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbwbb pwwww pbwbw pwbww pbwbb pbbbw pbwbb pbbbw
+pbbbb pbbbb pbbbb pbbbb pbwbb pwbbw pbwbb pwbww pbwbb pbwww pbwww pbbbw
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pwbbb pbbbb pwbbb pwbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbwb pbbbb pbbwb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbwbb pwwww pbwbw pwwww pbbbw pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pwbbb pbbbb pwbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbwb pbbwb pbbwb pbbwb pbbwb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pwbbb pwbbb pwbbb pwbbb pwbbb pbbbb pbbbb
+endboard
+board: 3,2 0 blank board Copy
+start: 3,1,4,11 3,1,9,2 3,1,11,9 3,1,2,4 3,1,2,9 3,1,11,4 3,1,9,11 3,1,4,2 

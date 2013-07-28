@@ -1,0 +1,43 @@
+name: Rip Tide
+description: Surivive the currents and shoals
+to reach the Island and the
+Treasure
+By Work_Bane
+2010 Map Editing Contest Entry
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbb fdbbb fwbbb xsnbbbb
+fbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbbbb fbbbb xenbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb xesbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbtb fbbwb fbblb xnsbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+csenbbbb xwsbbbb xsebbbb xwsbbbb xsebbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+csnbbbb xnebbbb xwnbbbb xnebbbb xwnbbbb csebbbb pbbbb pbbbb pbbbb pbbwb pbbbb pbbbb
+csnbbbb obbbb csebbbb cwsbbbb csebbbb cwenbbbb cwsebbbb cwsbbbb xesbbbb xewwbbb xewbbbb xswbbbb
+csnbbbb rbbbb cwnbbbb cnebbbb cwnbbbb gbbbb cnebbbb cnwsbwbb xnsbbbw fbbbb fbbwb gbbbb
+csnbbbb obbbb csebbbb cwsbbbb csebbbb cwsebbbb obbbb cwebbbb xnsbwbb obbbw rwbbb pbbbb
+cwsnbbbb csenbbbb cwnbbbb cnsbbbb obbbb cnsbbbb cnebbbb cwebbbb obwbb fbbbw fbbwb pbbbb
+cwsnbbbb cnsebbbb cwebbbb gbbbb csnbbbb cnsbbbb csebbbb cwebbbb xsnbwbb gbbbw rwbbb pbbbb
+cnsbbbb cnebbbb cwsbbbb cnebbbb cwnbbbb cnsebbbb gbbbb cwebbbb xsnbbbb fbbbb fbbwb obbbb
+cnsbbbb rbbbb cnsbbbb csebbbb cwsbbbb obbbb csebbbb csnwbwbb xenbbbw xewbbwb xewwbbb xnwbbbb
+cnsbbbb gbbbb cnebbbb cwnbbbb cnebbbb cwsebbbb cwenbbbb cwnbbbb pbbbb pwbbb pbbbb pbbbb
+cnsbbbb xsebbbb xwsbbbb xsebbbb xwsbbbb cnebbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+cnsebbbb xwnbbbb xnebbbb xwnbbbb xnebbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,10 

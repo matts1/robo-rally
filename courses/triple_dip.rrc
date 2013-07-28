@@ -1,0 +1,44 @@
+name: Triple Dip
+description: Three flags, which move.
+No other special rules
+And, yes, the walls on the belts are on PURPOSE!
+2012 RoboRally Map Editing Contest entry
+Designed by i8flesh
+length: short
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb cesbbbb cewbbbb cewbbbb cewlbbb cewlbbb cewlbbb cewbbbb cswbbbb fbbbb fbbbb
+fbbbb fbbbb cnsbbbb xsebbbb xwebbbb xwebbwb xwebbwb xwebbwb xwsbbbb csnbbwb fbbbb fbbbb
+fbbbb fbbbb cnsbbbb xsnbbbb xesbbbb xewwbbb xewwbbb xewwbbb xnwbbbb csnwbbb fbbbb fbbbb
+fbbbb fbbbb cnsbbbb xsnbwbb xnsbbbw csebbbb cwebbbb cwebbbb cwebbbb cwnbbbb fbbbb fbbbb
+fbbbb fbbbb cnsbbbb xsnbwbb xnsbbbw csnbbbb csebbbb cwebbbb cwebbbb cwsbbbb fbbbb fblbb
+fbbbb fbbbb cnsbbbb xsnbwbb xnsbbbw csnbbbb csnbbbb xsebwbb xwsbbbw cnsbbbb fbbbb fbbbb
+fbbbb fbbbb cnsbbbb xenbbbb xnwbbbb csnbbbb csnbbbb xsnbbbb xnsbbbb cnsbbbb fbbbb fbbbb
+fbbbb fbbbb cnebbbb cwebwbb cwebbbw cwnbbbb csnbbbb xsnbwbb xnsbbbw cnsbbbb fbbbb fblbb
+fbbbb fbbbb csebbbb cwebbbb cwebbbb cwebbbb cwnbbbb xsnbwbb xnsbbbw cnsbbbb fbbbb fblbb
+fbbbb fbbbb csnbbbb xsebbbb xwebbwb xwebbwb xwebbwb xwnbbbb xnsbbbb cnsbbbb fbbbb fbbbb
+fbbbb fbbbb csnbbbb xenbbbb xewwbbb xewwbbb xewwbbb xewbbbb xnwbbbb cnsbbbb fbbbb fbbbb
+fbbbb fbbbb cenbbbb cewbbbb cewbblb cewbblb cewbblb cewbbbb cewbbbb cnwbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,12,10 3,1,2,8 3,1,9,7 

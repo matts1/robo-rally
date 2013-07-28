@@ -1,0 +1,43 @@
+name: Sit and Spin
+description: Sit and spin,  or try to
+get to the flags to win.
+3 Flags.
+No special rules
+designed by i8flesh
+length: long
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbwb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb
+gbbbb obbbb glbbb obbbb gbbbb obbbb gbbbb obbwb gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gwbbb obbbb gbbbb obbbb gbbbb
+gbwbb obbbw gbbbb obbbb gbbbb obbbb gbbbb obbbb gblbb obbbw gbbbb obbbb
+obwbb gbbbl obbbb gbbbb obbbb gbbbb obbbb gbbbb obwbb gbbbw obbbb gbbbb
+gbbbb obbbb gbbwb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb
+obbbb gbbbb owbbb gbbbb obbbb gbbbb obbbb gbblb obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb owbbb gbbbb obbbb gbbbb obbbb
+obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb
+gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb gbbbb obbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,7 3,1,6,2 3,1,6,11 

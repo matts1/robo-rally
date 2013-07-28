@@ -1,0 +1,40 @@
+name: Mosaic Hound Dog
+description: 1 Board, 3 Flags.  The Hound smells blood! Try not to lose your sense of direction!  Special rule: board rotates.  Designed by CaptainColeslaw
+length: long
+difficulty: expert
+players: 2 8
+rules: boardrotate50t1
+newsboard:
+Congestion start
+5,4 8,4 6,3 7,3 8,3 7,4 6,4 5,3 
+fwbbb fwbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbwb fbbwb
+xewbbbw xewbbbb xewwbbb owwbb
+xsebbbw xwebbbb xwebbbb xwsbwbb
+xsnbbbw xesbbbb xswbbbb xnsbwbb
+xsnbbbw xnebbbb xwnbbbb xnsbwbb
+xenbbbw xewbbbb xewbbbb xnwbwbb
+xewbbbw xewbbbb xewbbwb gbwwb
+fbbbb fbbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbwb fbbwb fbbwb fbbwb
+endboard
+sboard: Congestion start
+newboard:
+Mosaic Hound board
+cnebbbb cnebbbb cnebbbb cnebbbb fbbbb fbbbb fbbbb cnwbbbb cnwbbbb cnwbbbb cnwbbbb fbbbb
+cnebbbb cnsbbbb cnsbbbb cnsbbbb xsnbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb cwsbbbb cnwbbbb fbbbb
+cnsbbbb cnsbbbb pbbbb cnsbbbb xsnbbbb cnebbbb pbbbb pbbbb cnebbbb cnebbbb cnwbbbb fbbbb
+cnsbbbb pbbbb pbbbb xnsbbbb xnwbbbb xsnbbbb pbbbb pbbbb pbbbb cnebbbb cwsbbbb fbbbb
+cnsebbbb cnsebbbb cnsebbbb xsebbbb xnwbbbb xswbbbb cnebbbb csnbbbb csnbbbb cnebbbb cnebbbb fbbbb
+cnebbbb cnebbbb xesbbbb xwnbbbb xnsbbbb xswbbbb xnwbbbb cnebbbb cnebbbb cnebbbb cnsbbbb fbbbb
+xnebbbb xnebbbb xnsbbbb pbbbb pbbbb xsnbbbb xnwbbbb xnwbbbb xewbbbb xswbbbb cnsbbbb cwsbbbb
+xnebbbb xnebbbb cnebbbb cnebbbb cnebbbb xnwbbbb xnwbbbb xnwbbbb xewbbbb xswbbbb cnsbbbb cnsbbbb
+xnebbbb xnebbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb xnwbbbb xenbbbb cnwbbbb cnwbbbb
+cnsebbbb xnebbbb xnebbbb pbbbb pbbbb pbbbb pbbbb xnwbbbb xnwbbbb xenbbbb cnwbbbb cnwbbbb
+cnebbbb xnebbbb xnebbbb xnebbbb xnebbbb xnwbbbb xnwbbbb xnwbbbb xnwbbbb cewbbbb cnwbbbb cnwbbbb
+fbbbb cnebbbb cnebbbb xnebbbb xnebbbb xnwbbbb xnwbbbb xnwbbbb xnwbbbb cewbbbb cnwbbbb cnwbbbb
+endboard
+board: 3,1 0 Mosaic Hound board
+flags: 3,1,6,12 3,0,3,2 3,0,10,2 

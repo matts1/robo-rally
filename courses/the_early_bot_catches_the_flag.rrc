@@ -1,0 +1,39 @@
+name: The early bot catches the flag
+description: Fight for the only flag.
+length: short
+difficulty: easy
+players: 6 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+pbwbb fwbbw fbbbb fbpbb
+pbwbb fbbbw fbbbb fbvbb
+pbbbb fbbbb gbbbb obbbb
+pbwbb fbbbw fbbbb fbpbb
+pbbbb fbbbb gbbbb obbbb
+pbwbb fbbbw fbbbb fbpbb
+pbwbb fbbbw fbbbb fbvbb
+pbbbb fbbbb gbbbb obbbb
+pbwbb fbbbw fbbbb fbpbb
+pbbbb fbbbb gbbbb obbbb
+pbwbb fbbbw fbbbb fbvbb
+pbwbb fbbww fbbbb fbpbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbw fbbbb rvbbb fbbbb fbwbb hbbbt hbbbb hbbbb hbbbb hbbbb hbtbb pbbbw
+fbbww fbbbb rbwbb fbbbw fbwbb xewbbbw xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb pbbbb
+fwvwb fbbbw rbwbb fbbbw fbwbb xewbbbw xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb pbbbb
+fwbbw fbbbb rbwbb fbbbw fbwbb xewbbbw xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb pbbbb
+fbbbb fbbbb rbwbb pbbbw fbwbb xewbbbw xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb pbbbb
+fbbbw fbbbb rbwbb pbbbw fbbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb fbbbb
+fbbbw fbbbb rbwbb pbbbw fbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb pbbbb
+fbbbb fbbbb rbwbb fbbbw fbwbb xewbbbw xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb pbbbb
+fbbww fbbbb rbwbb fbbbw fbwbb xewbbbw xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb pbbbb
+fwvwb fbbbw rbwbb fbbbw fbwbb xewbbbw xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb pbbbb
+fwbbw fbbbb rbwbb fbbbw fbwbb xewbbbw xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb pbbbb
+fbbbw fbbbb rbbvb fbbbb fbwbb hbbbt hbbbb hbbbb hbbbb hbbbb hbtbb pbbbw
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 

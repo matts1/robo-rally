@@ -1,0 +1,39 @@
+name: Factory Approved
+description: The official Factory Rejects course, but without the special rules.
+length: short
+difficulty: hard
+players: 5 8
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbwbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbwwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbwbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+Chop Shop
+rbbbb fbbbb fwbbb cnsbbbb fwbbb fbbbb fbbbb fwbbb csnbbbb fwbbb cnsbbbb fbbbb
+fbbbb fbwbb fbbbw cnsbbbb fblbb fbbbw fbbbb fbbbb csnbbbb fbwbb fbwbt fbbbw
+fbbbw fbbbb pbbbb cnsbbbb fbbbb fbbbb pbbbb fbbbb csnbbbb hbbbb cnsbbbb fbwbb
+cewbbbb cewbbbb cewbbbb obbbb fbwbb fbbbd obbbb gbbbb fbwbb fbbww cnsbbbb fbbbb
+fbbbw fbbwb fbbbb fbbwb fbbbb cnsbbbb fbbbb fbbbb xsnbbbb flbbb cnsbbbb fbwbb
+fbbbb fwbbb fbbbb flbbb pbbbb cnsbbbb fbbbb fbbbb xsnbbbb obbbb cnebbbb cwebbbb
+cewbbbb cewbbbb cewbbbb gbbbb cewbbbb cnwbwbb hbbbw fbbbb xsnbbbb gbbbb cewbbbb cewbbbb
+fbbbw fbbbb hbbbb fbbwb fbbbb obbbb cwebbwb fbbbb xsnbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb pbbbb fwbbb fbbbb csnbbbb fwwbb fbbbw xsnbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb cnsbbbb cnsbbbb fbbbb csnbbbb xesbbbb xewbbbb xswnbbbb fbbwb fbbbb fbwbb
+cewbbbb cewbbbb cnwbbbb cnsbbbb fbbbb csnbwbb xnsbbbl fbbbb xsnbwbb fwbbw pbbbb fbbbb
+fbbbb fbbbb fbbwb cnsbbbb fbbwb csnbbbb xnsbbbb fbbwb xsnbbbb fbbwb fbbbb rbbbb
+endboard
+board: 3,1 0 Chop Shop
+flags: 3,1,8,11 3,1,5,1 3,1,3,8 

@@ -1,0 +1,40 @@
+name: Ovals
+description: 5 Moving Flags, lots of belts, 2 punishing Option spots, 6 single wrenches Designed by chaz56 27 Nov 2010
+length: medium
+difficulty: mid
+players: 2 6
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw fwbbb fwbbb fwbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbww fbbwb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb xeswbbb cswwbbb fbbbb fwbbb fbbbb xesbbbb cswbbbb fbbbb fbbbb hlwbb
+fbbbb fbbbb xnsbbbb xsnbbbb fbbbb fbbbb fbbbb xnsbbbb xsnbbbb fbbbb fbbbb fbwbb
+fbwbb fbbbw xnsbbbb xsnbbbb fbbbb rbbbb fbbbb xnsbbbb xsnbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb cnebbbb xwnbbbb fbbwb fbbbb fbbwb cnebbbb xwnbbbb fbbbb rbbbb fbwbb
+rbwbb fbbbw fbbwb fbbbb fwbbb fbbwb fwbbb fbbbb fbbwb fbbbb fbbbb fbwbb
+fbbbb xesbbbb xewvbbb cewbbbb xewbbbb cewwbbb xewbbbb cewbbbb cewwbbb xswbbbb fbbbb fbwbb
+fbbbb xnebbbb cwebbwb cwebbbb xwebbbb cwebbwb xwebbbb cwebbbb xwebbvb xwnbbbb fbbbb fbwbb
+rbwbb fbbbw fwbbb fbbbb fbbwb fwbbb fbbwb fbbbb fwbbb fbbbb rbbbb fbwbb
+fbbbb fbbbb xesbbbb cswbbbb fwbbb fbbbb fwbbb xesbbbb cswbbbb fbbbb fbbbb fbwbb
+fbwbb fbbbw xnsbbbb xsnbbbb fbbbb rbbbb fbbbb xnsbbbb xsnbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb xnsbbbb xsnbbbb fbbbb fbbbb fbbbb xnsbbbb xsnbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb cnebbbb xwnbbbb fbbbb fbbwb fbbbb cnebbwb xwnbbwb fbbbb fbbbb hbwlb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,10,9 3,1,2,4 3,1,10,4 3,1,2,9 3,1,7,6 

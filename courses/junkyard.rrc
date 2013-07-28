@@ -1,0 +1,39 @@
+name: Junkyard
+description: One board, four flags.
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+Chop Shop
+fbbbb fwbbb fwwbb fwbbw fwbbb fbbbb fbbbb fwbbb csebbbb cwewbbb cwebbbb cwebbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw csnbbbb fbbbb fbbwb fbbbb
+fbbbw fbbbb fbbbb pbbbb hbbbb cwebbbb cwebbbb cwebbbb cwnbbbb pbbbb cwewbbb cwsbwbb
+fbbbb fbbbb fbbbb fbwbb gbbbw obbbb fblbb fbbbw obbbb fbbbb fbbbb cnsbbbb
+fbbbw fbbbb fbbbb fbbbb xewbbbb xnwbbbb pbbbb fbbbb fbbwb fbbbb fbblb cnsbwbb
+fbbbb fbbbb fbbbb fbbbb obbbb fbbwb cnsbbbb fbbbb glbbb fbbbb fwbbb cnsbbbb
+fbbbb fbbbb xewbbbb xnwbwwb fbbbw hwbbb cnsbbbb fbbbb obbbb pbbbb cewbbbb cnwbbbb
+fbbbw xewbbbb xnwbbbb fwbbb fbbbb fbbbb cnsbbbb fbbbb gbbbb fbbbb fbbbb fbwbb
+xenbbbb xewbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb obbwb fbbbb fbbbb xsnbbbb
+fbbbw fbwbb fbbbw fbbbb fbbbb gbbbb obbbb fbtbb fwbbw hbbbb fbbwb xsnbwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cnsbbbb fbbbb cwetbwb xsnbvbb
+fbbbb fbbwb cewbbwb cewbbwb cewbbwb cewbbbb cewbbbb cewbbwb cnwbbwb xnebbwb xwewbwb xwnbbbb
+endboard
+board: 3,1 0 Chop Shop
+flags: 3,1,2,10 3,1,5,1 3,1,5,8 3,1,10,2 

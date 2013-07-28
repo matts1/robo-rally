@@ -1,0 +1,40 @@
+name: Chemistry
+description: 5 flags 3 moving
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw fwbwb fwbbb fwbbb
+fbbbw fwbwb fbbbb fbbbb
+fbbbw pwbwb fbbbb fbwbb
+fbbbw fwbwb fbbbb fbbbb
+fbbbw pwbwb fbbbb fbbbb
+fbbbw fwbwb fbbbb fbbbb
+fbbbw fwbwb fbbbb fbbbb
+fbbbw pwbwb fbbbb fbbbb
+fbbbw fwbwb fbbbb fbbbb
+fbbbw pwbwb fbbbb fbwbb
+fbbbw fwbwb fbbbb fbbbb
+fbbww fwbwb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbbb fwbbb fwbbb flbbb fwbbb xesbbbb xswbbbb fwbbb xsebbbb xwebbbb xwsebbbb xwebbbb
+fbbbb fbbbb xesbbbb xewbbvb xewbbbb xnwbwbb pbbww hbvbb xsnbbbt pbbbb xnsbbbb pbwbb
+fbbbl fbbbb xnsbbbb fwbbb gbwbb fbbbw fwbbb fbbbb xsnbbbb hbbvb xnsbbbb fbwbb
+fbbbb fbbbb xnsbbbb obbbb rbbbb obbbb xsebbbb xwebbbb xwnbbbb fwbbb xnsbbbb fbwbb
+fbbbb fbbbb xnsbbbb fbbbb gbbbb fbbwb xsnbbbb csebbbb cwebbbb cwebbbb cwebbbb cwsbwbb
+fbbbb fbbbb xnebbwb xwebbbb xwebbwb xwepbbb xwnbbwb csnbbbb fbbbb gbbbb rbbbb cnsbwbb
+fbbbb fbbbb xsewbbb xwebbpb xwewbbb xwebbbb xwswbbb csnbbbb rbbbb obbbb fbbbb cnsbwbb
+fbbbb fbbbb xsnbbbb fwbbb gbbbb fbbbb xnsbbbb cenbbbb cewbbbb cewbbbb cewbbbb cnwbwbb
+fbbbb fbbbb xsnbbbb obbbb rbbbb obbbb xnebbbb xwebbbb xwsbbbb fbbwb xsnbbbb fbwbb
+fbbbl fbbbb xsnbbbb fbbwb gbwbb fbbbw fbbwb fbbbb xnsbbbb hvbbb xsnbbbb fbwbb
+fbbbb fbbbb xenbbbb xewvbbb xewbbbb xswbwbb pwbbw hbvbb xnsbbbt pbbbb xsnbbbb pbwbb
+fbbwb fbbwb fbbwb fbblb fbbwb xenbbbb xnwbbbb fbbwb xnebbbb xwebbbb xwenbbbb xwebbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,12 3,1,3,6 3,1,9,11 3,1,4,11 3,1,10,6 

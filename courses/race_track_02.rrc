@@ -1,0 +1,42 @@
+name: Race Course 02
+description: Round and round the
+tracks they go. Is the
+middle safe?
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+ftbbw rwbbb xewwbwb xewwbbb
+fbbbw rbbbb xswwbbb fbbwb
+fbbbw rbbbb xensbbbb xewwbbb
+fbbbw rbbbb xnsbwbb fbbww
+fbbbw rbbbb xnsbwbb flbbw
+fbbbw rbbbb xnebbbb xwebbwb
+fbbbw rbbbb xsebbbb xwewbbb
+fbbbw rbbbb xsnbwbb fbblw
+fbbbw rbbbb xsnbwbb fwbbw
+fbbbw rbbbb xensbbbb xewbbwb
+fbbbw rbbbb xnwbbwb fwbbb
+fbbtw rbbwb xewwbwb xewbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbwb xswwwbb
+fbbwb fbbwb fbbwb fbbwb fbbbb fbbwb fbbwb fbbwb fbbwb fbbwb fwbbb xsnbwbb
+xewwbbb xewwbbb xewwbbb xewwbbb xenwbbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb cswbbbb xsnbwbb
+rbbbb fbbwb rbbbb fbbwb hbbbb fbbwb rbbbb fbbwb rbbbb fbwwb csnbwbw xsnbwbw
+gbbbb fdbbb fbbbb ftbbb hbbbb ftbbb fbbbb fdbbb gbbbb flwbb csnbwbw xsnbwbw
+xwebbbb xwebbwb xwebbbb xwebbwb xwebbwb xwebbwb xwebbbb xwebbwb xwebbbb xwebbwb xwnbbbb rbwbb
+xwebbbb xwewbbb xwebbbb xwewbbb xwewbbb xwewbbb xwebbbb xwewbbb xwebbbb xwewbbb xwsbbbb rbwbb
+gbbbb fbbdb fbbbb fbbtb hbbbb fbbtb fbbbb fbbdb gbbbb fbwlb cnsbwbw xnsbwbw
+rbbbb fwbbb rbbbb fwbbb hbbbb fwbbb rbbbb fwbbb rbbbb fwwbb cnsbwbw xnsbwbw
+xewbbwb xewbbwb xewbbwb xewbbwb xewsbbbb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb cnwbbbb xnsbwbb
+fwbbb fwbbb fwbbb fwbbb fbbbb fwbbb fwbbb fwbbb fwbbb fwbbb fbbwb xnsbwbb
+xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewwbwb xnwbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,9,11 3,0,4,3 3,0,9,3 3,1,4,11 

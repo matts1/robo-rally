@@ -1,0 +1,39 @@
+name: Venus Fly Trap
+description: The flags lure you in, but can you get out?
+length: medium
+difficulty: hard
+players: 5 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xwebbbb xwebbbb xwebbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb flbbb
+xwebbbb xwebbbb xwebbbb fbbbb fbbpb fbbpb fbbpb fbbwb fbbwb fbbwb gbbbb fbbbb
+fbbbb hbbbb pbbbb pbbbb flbbb fwbbb fwbbb fwbbb fwbbb fwwbb fbbbw fbbbb
+fbbbb fbwbb fbbbw fbbbb fbbbb fbbwb fbbwb fbbwb rbbbb fbwbb fbbbw fbbbb
+fbbbb fbwbb fbbbw fbbbb fbbbb fwbbb fwbbb fwlbb fbbbw fbwbb fbbbw fbbbb
+fbbbb fbwbb fbbbw fbwbb fbbbw fbbbb pbbbb fbwbb fbbbw fbwbb fbbbp fbbbb
+fbbbb fbwbb fbbbw fbwbb fbbbw fbbbb pbbbb fbwbb fbbbw fbwbb fbbbp fbbbb
+fbbbb fbwbb fbbbl fbbbb fbbwb fbbvb fbbbb fbwbb fbbbw fbwbb csebbbw cwsbbbb
+fbbbb fbwbb fbbbw hbbbb fwbbb fwbbb fbbbb fbwbb fbbbw csebbbb cwnbbbb cnsbbbb
+fbbbb fbwbb fbbww fbbwb fbbwb fbbwb fbbwb fbwlb fbbbw cenbbbb cewbbbb cnwbbbb
+fbbbb obbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb obbbb fbbbb fbbbb fbbbb
+obbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb obbbb fbbbb hbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,6 3,1,2,4 

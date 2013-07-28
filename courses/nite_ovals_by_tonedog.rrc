@@ -1,0 +1,39 @@
+name: Nite Ovals - by ToneDog
+description: A trip around the track?
+length: medium
+difficulty: hard
+players: 2 8
+newboard:
+blank board
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb csebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+pbbbb csnbbbb pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb
+pbbbb csnbbbb pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb
+pbbbb csnbbbb pbbbb pbbbb xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb
+pbbbb csnbbbb pbbbb pbbbb xnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb xsnbbbb
+pbbbb csnbbbb fbbbb fbbbb xnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb xsnbbbb
+pbbbb csnbbbb pbbbb pbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb
+pbbbb csnbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb csnbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb cenbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+pbbbb pbwbb fbwww fbwww fbwww fbwww fbwww fbwww fbwww fbwww hbwbw hbwbw
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+cwebbbb cwebbbb cwsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb cnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb cnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb cnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb cnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb cnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb cnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb cnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb cnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+cewbbbb cewbbbb cnwbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+hbwbw hbwbw pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,1,2,2 3,2,2,3 3,2,11,3 3,1,11,2 
+start: 3,1,12,3 3,1,12,4 3,1,12,5 3,1,12,6 3,1,12,7 3,1,12,8 3,1,12,9 3,1,12,10 

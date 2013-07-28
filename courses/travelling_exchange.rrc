@@ -1,0 +1,41 @@
+name: Travelling Exchange
+description: Exchange map like Set to Kill with moving checkpoints.  All laser fire is doubled.  By Wiggfield.
+length: medium
+difficulty: expert
+players: 2 8
+rules: flagsmove lasermultiplier2
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbwbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbwwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbwbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+Exchange
+fbbbb cnsbbbb flbbb xnsbbbb fwbbb csnbbbb xnsbbbb fwbbb cnsbbbb fwbbb cnsbbbb rbbbb
+cewbbbb cnwsbbbb fbbbb xnsbbbb fbbbb csnbbbb xnsbbbb fbbbb cnsbwbb fbbbw gbbbb cwebbbb
+fbbbw fbbbb fbbwb xnsbbbb fbbbb csnbbbb xnsbbbb fbbbb cnsbbbb fbbbb fbbbb fbwbb
+cewbbbb cewbbbb cewwbbb cewbbbb fbbbb csnbbbb xnsbbbb fbbbb obbbb cewbbbb cewbbbb cewbbbb
+fbbbw fbbbb fbbbb fbbbb fbwwb csnbbbw xnsbwbb hbbww fbbbb fbbbb fbbbb fbwbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwewbbb fbbbb fbbbb cwewbbb cwebbbb cwebbbb cwebbbb fbbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbwb fbbbb fbbbb xewbbwb xewbbbb xewbbbb xewbbbb xewbbbb
+fbbbw fbbbb fbbbb fbbbb fwwbb csnbbbw cnsbwbb fwbbw fbbbb fbbbb fbbbb fbwbb
+cwebbbb cwebbbb cwebbbb obbbb fbbbb csnbbbb cnsbbbb fbbbb obbbb cwebbbb cwebbbb cwebbbb
+fbbbw pbbbb fbbbb csnbbbb fbbbb csnbbbb cnsbbbb fbbbb csnbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb csnbbbb fbbbb csnbbbb cnsbbbb fbbbb csnbbbb fbbbb fbwbb fbbbw
+rbbbb csnbbbb fbbwb csnbbbb fbbwb csnbbbb fbbbb fbbwb csnbbbb fbbwb pbbbb fbbbb
+endboard
+board: 3,1 0 Exchange
+flags: 3,1,7,8 3,1,2,2 3,1,10,4 3,1,3,9 
+

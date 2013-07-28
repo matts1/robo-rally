@@ -1,0 +1,39 @@
+name: Ken Tweaky's House of Mirrors
+description: A Laser to your eyeball
+length: short
+difficulty: easy
+players: 2 4
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbwb
+fbbbb fbbbb fbbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbwb
+fbbbb fbbbb fbbbb fwbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbwbb fbbbw fbbwb fbbwb fbbwb fbbwb cewbbbb obbbb fbbbb fbwbb fbbbw fbbbb
+fbbbw fbbbb fwbbb owbbb fwpbb fwbbw cewbbbb gbbbb fbbbb fbwbb fbwbw fbbbw
+fbbbb fbbbb fbbbb fbblb xnsbbbb fbbbb cewbbbb obbbb fbbbb fbwbb fbwbw xnsbbbw
+fbbwb fbwbb hbbww flbbb xnsbbwb fbbwb cewbbbb gbbbb fbwbb fbbbw fbwbb xnsbbbw
+fwbbb fbbbb fwbbb fbbbb csnwbbb fwbbb cewbbbb obbbb fbwbb xnsbwbw hbwww xnsbbbw
+pbbbw fbbbb fbbwb obbwb fbpwb fbbww cewbbbb gbbbb fbwbb hbbbl xwewbwb fbbbb
+pbbbw fbbbb fwbbb owbbb fwpbb fwbbw cewbbbb obbbb fbwbb xsnbwbw hwwbw xsnbbbw
+fbbwb fbbbb fbbwb fbbbb cnsbbwb fbbwb cewbbbb gbbbb fbwbb fbbbw fbwbb xsnbbbw
+fwbbb fbwbb hwbbw fbblb xsnwbbb fwbbb cewbbbb obbbb fbbbb fbwbb fbwbw xsnbbbw
+fbbbb fbbbb fbbbb flbbb xsnbbbb fbbbb cewbbbb gbbbb fbbbb fbwbb fbwbw fbbbw
+fbbbw fbbbb fbbwb obbwb fbpwb fbbww cewbbbb obbbb fbbbb fbwbb fbbbw fbbbb
+fbwbb fbbbw fwbbb fwbbb fwbbb fwbbb cewbbbb gbbbb fbbbb fbwbb fbbbw fbtbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 3,1,6,9 3,1,12,1 

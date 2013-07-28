@@ -1,0 +1,43 @@
+name: Toggle Boggle Too
+description: Flags: 3.  Board: Chop Shop
+Special rules: as in Toggle Boggle (Team game, win when your team controls all flags at once).
+Course by Spacebug.
+length: medium
+difficulty: mid
+players: 4 8
+team: true
+rules: teamflagtoggle
+newsboard:
+Starting Board 2
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: Starting Board 2
+newboard:
+Chop Shop
+rbbbb fbbbb fwbbb xnsbbbb fwbbb xsnbbbb cnsbbbb fwbbb csnbbbb fwbbb fbbbb fbbbb
+fbbbb pbbbb fbwwb xnsbbbw fbbbb xsnblbb cnsbbbw fbbbb csnbbbb csebbbb cwebbbb cwebbbb
+fbbbw fbbbb fwbbb xnesbbbb xwebbbb xwnbbbb cnsbbbb fbbbb csnbbbb csnbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb xnsbbbb fbwbb fbbww cnsbbbb fbbbb fbbwb pbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb xnsbbbb fbbbb cewwbbb obbbb fbbbb fwbbb hbbbb fbbbb fbwbb
+cwebbbb cwebbbb gbbbb xnsbbbb fbbbb hbwbb csebbbw cwebbbb gbbbb cwebbbb cwebbbb cwebbbb
+cewbbbb cswbbbb obbbb xnsbbbb fbbbb fbbbb csnbbbb pbbbb fbblb fbbbb fbbwb fbbbb
+fbbbw csnbbbb fbblb xnsbbbb fbbbb fbbbb csnbbbb fbbbb fwbbb fbbbb fwbbb fbwbb
+fbbbb csnbbbb fwwbb fbbbw gbbbb obbbb fbdbb fbbbw obbbb cwebbbb cwebbbb cwebbbb
+fbbbw csnbbbb hbbbb cnsbbbb fbbbb pbbbb fbbbb fbbbb csnbbbb pbbbb fbbbb fbwbb
+fbwbb fbtbw fbbbw cnsbbbb fbbbb fbbbb fbwbb fbbbl csnbbbb fbwbb fbbbw fbbbb
+fbbbb csnbbbb fbbwb cnsbbbb fbbwb fbbbb fbbbb fbbwb csnbbbb fbbwb fbbbb rbbbb
+endboard
+board: 3,1 0 Chop Shop
+flags: 3,1,3,8 3,1,9,4 3,1,8,9 

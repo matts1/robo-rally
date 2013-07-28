@@ -1,0 +1,39 @@
+name: Laser Maze Challenge
+description: Can you survive the challenge?	
+length: medium
+difficulty: mid
+players: 2 4
+newsboard:
+Starting Board 2
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: Starting Board 2
+newboard:
+blank board
+fbbbb fbbbb fbbbb rbbbb fdwbb fbbbv fdbbb fwbbb fbbbb pbbbb pbbbb pbbbb
+fbbbb pbbbb fbpbb fbbbp fbbwb fbbwb fbwwb fbbtw fbbbb fbbpb fbbbb pbbbb
+fbbbb fbbvb fbbbb fbbbb fwbtb fwbwb fwblb fwbwb fbbbb hwvbb fbbbv pbbbb
+fbbbb fwbwb fbbbb csebbbb cwewbbb cwewbbb cwetbbb cwelbbb obbbb fbbbb fbbbb fbbbb
+rbbbv fdbbb fbbbb censbbbb cewbbbb cewbbbb cewbbbb cswbbbb csnbbbb fbwbb fbbbw fblbb
+fbbwb fbbbb fbwbb cnsbbbw cesbbbb pbbbb pbbbb csnbbbb csnbtbb fblbw fbbvw fbbbb
+ftbwb fbbbb fbwbb cnsbbbt cnsbbbb pbbbb pbbbb csnbbbb csnbwbb fbdbw fwbbw fblbb
+fwbbb fbbwb fbwbb cnsbbbw cnebbbb cwebbbb cwebbbb cwnbbbb csnblbb fbwbl fbbbw rbbwb
+fbbbb fpbbb fbbbb cnebbwb cwebblb cwebbtb cwebbwb cwebbwb cwnbbbb fbpbb fbbbw fvbbb
+fbbbv pbbbb fbvbb hwbwv fwbbb flbwb fwbtb fwbwb fbbbb fbwbb fbbwd fblbb
+fbbbb pbbbb fbbbb fpbbb fbbbb ftwbb fwbbw fwbbb fbbbb fbbbb fwbbb fbbbb
+fbbbb pbbbb pbbbb pbbbb fbbbb fbbwb rbbbb fbbtb fbpbb fbbbv fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,11 3,1,11,3 

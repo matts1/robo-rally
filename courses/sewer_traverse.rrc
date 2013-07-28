@@ -1,0 +1,39 @@
+name: Sewer Traverse (45 min)
+description: Pick a sewer pipe and don't get drained
+length: short
+difficulty: mid
+players: 4 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fpbbb fbbwb fbbwb fvbbb fpbbb fbbwb fbbwb fvbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fvbbb rpbbb fbbbb fbbbb fvbbb fpbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+pbbwb pbbbb pbbbb pbbwb pbbwb pbbbb pbbbb pbbwb fbbbb fbbbb fbbbb xsnbbbb
+fpbbb fbbwb fbbwb fvbbb fpbbb fbbwb fbbwb fvbbb fbbbb fbbbb xsnbbbb xwenbbbb
+fbbbb fvbbb rpbbb fbbbb fbbbb fvbbb fpbbb fbbbb fbbbb xsnbbbb xwenbbbb fbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb xwenbbbb xwenbbbb hbwbb fbbbw
+fbbwb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb xwsebbbb xwsebbbb hbwbb fbbbw
+fwbbb fbbvb rbbpb fbbbb fbbbb fbbvb fbbpb fbbbb fbbbb xnsbbbb xwsebbbb fbbbb
+fbbpb fwbbb fwbbb fbbvb fbbpb fwbbb fwbbb fbbvb fbbbb fbbbb xnsbbbb xwsebbbb
+pwbbb pbbbb pbbbb pwbbb pwbbb pbbbb pbbbb pwbbb fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbvb rbbpb fbbbb fbbbb fbbvb fbbpb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbpb fwbbb fwbbb fbbvb fbbpb fwbbb fwbbb fbbvb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 3,1,7,1 

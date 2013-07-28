@@ -1,0 +1,23 @@
+name: Jail Break
+description: In the all-female robot prison, who's a guard? Who's a prisoner? Why does this whole scenario scream "Ramming Gear" to me? Is that bad? Am I bad?
+length: short
+difficulty: mid
+players: 2 8
+newboard:
+blank board
+ptbbd xsnlbbb xsnwbbb xsnwbbb xsnwbbb xsnwbbb xsnwbbb xsnwbbb xsnwbbb xsnwbbb xsnlbbb pdtbb
+xewbbbl pbbbb csnbbbb csnbbbb csnbbbb csnbbbb csnbbbb csnbbbb csnbbbb csnbbbb pbbbb xweblbb
+xewbbbw cewbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb cwebbbb xwebwbb
+xewbbbw cewbbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb cwebbbb xwebwbb
+xewbbbw cewbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cwebbbb xwebwbb
+xewbbbw cewbbbb fbbbb fbbbb hbbbb csebbbb cwsbbbb fbbbb fbbbb fbbbb cwebbbb xwebwbb
+xewbbbw cewbbbb fbbbb fbbbb fbbbb cenbbbb cnwbbbb hbbbb fbbbb fbbbb cwebbbb xwebwbb
+xewbbbw cewbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cwebbbb xwebwbb
+xewbbbw cewbbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb cwebbbb xwebwbb
+xewbbbw cewbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb cwebbbb xwebwbb
+xewbbbl pbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb pbbbb xweblbb
+pbbdt xnsbblb xnsbbwb xnsbbwb xnsbbwb xnsbbwb xnsbbwb xnsbbwb xnsbbwb xnsbbwb xnsbblb pbdtb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,6 3,1,5,7 3,1,9,9 3,1,4,4 3,1,7,5 3,1,6,8 3,1,9,4 3,1,4,9 
+start: 3,1,5,3 3,1,3,8 3,1,8,10 3,1,10,5 3,1,7,4 3,1,4,6 3,1,6,9 3,1,9,7 

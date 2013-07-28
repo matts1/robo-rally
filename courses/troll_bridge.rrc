@@ -1,0 +1,55 @@
+name: Troll Bridge
+description: Can you avoid paying the Troll under the bridges?  Or the other players?
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+5,2 8,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb pbbbb pbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb pbbbb pbbbb fbbbb
+fbbbb pbbbb pbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb pbbbb pbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fpbbb ftbbb fbbbb
+fbbbb fbwbb fbbbw fbbbb rbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbwb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbbbb fbbbb rbbbb pbbbb pwbbb pbbbb
+fbbbb fbwbb fbbbw fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cwebbbb cwebbbb fbbbb
+fbbbb fbbbb fbwbb fbbbl fbbbb fbbbb fbbbb fbwbb fbbbw hbbbb pbbbb hbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cewbbbb cewbbbb fbbbb
+fbbbb fbwbb fbbbw fbbbb fbbbb fbblb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+fbbbb fbwbb fbbbw fbbbb fbbbb fwbbb fbbbb fbbbb rbbbb pbbbb pbbdb pbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb pbbwb pbbbb pwbbb pbbbb
+fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fvbbb fbbbb fbbtb gbbbb
+fbbbb fbwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pwbbb pbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+obbbb ftbbb fbbbb fbbvb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+pbbbb pbbwb pbbbb pwbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb pbbbb pbbbb
+pbbbb pdbbb pbbbb rbbbb fbbbb fbbbb fbbwb fbbbb fbbbb fbbbb pbbbb pbbbb
+pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+fbbbb cwebbbb cwebbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+hbbbb pbbbb hbbbb fblbb fbbbw fbbbb fbbbb fbbbb fblbb fbbbw pbbbb pbbbb
+fbbbb cewbbbb cewbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbblb fbbbb fbbbb fbbbb pbbbb pbbbb
+pbbbb pbbwb pbbbb rbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+pbbbb pwbbb pbbbb pbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb pbbbb pbbbb
+fbbbb fbbtb fbbpb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+pbbbb pwbbb pwbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,6,7 3,1,6,6 

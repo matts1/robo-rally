@@ -1,0 +1,40 @@
+name: Alienbrain's Light Work
+description: Four flags, one that moves. Four double wrenches--risky bonuses for extra effort.
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+csnbbbb fbbbb fbbbb fbbbb
+csnbbbb fbbbb fbbbb xsebbbb
+csnbbbb fbbbb fbbbb xsnbwbb
+csnbbbb fbbbb fbbbb xsnbbbb
+csnbbbb fbbbb fbbbb xsnbwbb
+cenbbbb fbbbb fbbbb xsnbbbb
+cesbbbb fbbbb fbbbb xsnbbbb
+cnsbbbb fbbbb fbbbb xenbbbb
+cnsbbbb fbbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cesbbbb cewbbbb cswbbbb rwbbb owblb csewbbb cwewbbb cwewbbb cwswbbb owblb rwbbb fwwbb
+xwebbbb xwebbbb xwebbbb xwebbbb cwsepbbb cwnbbbb fbbbb fbbbb cnebbbb cwsewbbb xwebbbb xwsbwbb
+cnsbbbw fbbbb oblbb csebbbw cwnbbbb xesbbbb xewbbbb xewbbbb xswbbbb cnebbbb cwsbwbb xnsbwbl
+cnsbbbb fbbbb rbbbb csnbbbb fbbbb xnsbbbb rbwbb rbbbw xsnbbbb fbbbb cnsbbbb xnsbwbb
+cnsbbbw fbbbb oblbb csnbbbw fbbbb xnsbbbb obbbb obbbb xsnbbbb fbbbb cnsbwbb xnsbwbl
+cnsbbbb fbbbb fbbbb cenbbwb cswbbbb xnebbbb csebbbb cwsbbbb xwnbbbb cesbbbb cnwbbwb xnsbwbb
+cnsbbbb fbwbb hbbbv olbbb cenbbwb cswbbbb csnbbbb cnsbbbb cesbbbb cnwbbwb olbbb xnsbwbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewwbbb cenwbbwb csnwbwbb censbbbv cenwbbpb xewwbbb xewbbbb xnwbwbb
+cnsbbbb fbbbb fbbbb xesbbbb xewbbbb olwbb xsewbbbw xnwebwbb olbbw xwebbbb xwsbbbb fbpbb
+cnsbbbb fbbbb rbbbb xnsbwbb fbbbv fbwbb xsewbwbw xnwebwbw fbbbw fbvbb xnsbbbl rbwbb
+cnsbbbb fbwbb fbbbv xnebbbb xwebbbb gbbbb xsewbwbb xnwebbbw gbbbb cewbbbb hbbvb obwbb
+cnebbwb xwebbwb xwebbwb xwebbwb xwebbwb hbvwb xenbbww xnwbwwb hbbwv xewbbwb xewwbwb xnwbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,7 3,1,10,5 3,1,8,9 3,1,10,10 

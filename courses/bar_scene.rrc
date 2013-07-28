@@ -1,0 +1,41 @@
+name: Bar Scene
+description: Perfect for picking up a beer!
+Created by chaz56
+2010 Roborally Map Editing Contest
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb cwebbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb cwebbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+gbbbb cnsbbbb hvbbb obbbb fbbbb fwbbb rwbbb fbbbb gbbbb rlbbb csnbbbb gbbbb
+fbbbb cnebbbb cwebbbb cwebbbb cwsbbbb fbvbb fbbbw csebbbb cwebbbb cwebbbb cwnbbbb fbbbb
+fbbbb gbbbb fbbbb gbbbb cnebbbb cwebbbb cwebbbb cwnbbbb gbbbb fbbbb gbbbb fbbbb
+cwebbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbwb xwebbbb xwebbbb xwebbbb xwebbbb xwsbbbb fbbbb
+xwebbbb xwnbbwb fbbvb fbbbb fbbbb hvbbb gbbbb fbwbb fbbbw fbbwb xnsbbwb fbbbb
+xwebbbb xwswbbb fwbbb fbwbb fbbbw obbbb hbbvb fbbbb fbbbb fvbbb xsnwbbb fbbbb
+fbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwewbbb xwebbbb xwebbbb xwebbbb xwnbbbb fbbbb
+cwebbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb obbbb fbbbb obbbb csebbbb cwebbbb cwebbbb cwsbbbb obbbb fbbbb obbbb fbbbb
+fbbbb csebbbb cwebbbb cwebbbb cwnbbbb fbwbb fbbbv cnebbbb cwebbbb cwebbbb cwsbbbb fbbbb
+obbbb csnbbbb rbblb gbbbb fbbbb rbbwb fbbwb fbbbb obbbb hbbvb cnsbbbb obbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,10 3,1,6,3 3,1,11,7 3,1,2,6 

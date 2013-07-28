@@ -1,0 +1,39 @@
+name: Battle Area
+description: Options, Space, Flags.
+length: medium
+difficulty: easy
+players: 5 8
+newsboard:
+blank starting board
+3,1 10,1 4,2 9,2 5,1 8,1 2,2 11,2 
+htttt rwbbw hbwbb hltbt
+rwbbw fbwbb fbwbw pbtbw
+fbbbw rbwbb fbwbw fbbbw
+rbbbw fbwbb csnbwbw fbbww
+fbbww rbwwb cenbbbw cswwwbb
+httbt httbt fbwbl xenbbbw
+hbttt hbttt fbwbl xesbbbw
+fwbbw rwwbb xesbbbw xnwbwwb
+rbbbw fbwbb fbwbw fwbbw
+fbbbw rbwbb fbwbw fbbbw
+rbbww fbwbb fbwbw pbtbw
+htttt rbbww hbwbb hbtlt
+endboard
+sboard: blank starting board
+newboard:
+blank board
+hvbbw hpbbb hvbbb pwbbb hvbbb hpbbb hvbbb pwbbb hvbbb hpbbb hvbbb hpwbb
+hbbbw hbbbb hbbbb hbbbb hbbbb gbbbb hbbbb hbbbb hbbbb hbbbb hbbbb hbpbb
+hbbbb hbbbb hbbbb hbbbb obbbb hbbbb hbbbb hbbbb hbbbb hbbbb xnsbbbb hbvbb
+hbbbb hbbbb hbbbb hbbbb hbbbb gbbbb hbbbb hbbbb hbbbb hbbbb xnsbbbb hbpbb
+hbbbw hbbbb hbbbb hbbbb obbbb hbbbb hbbbb hbbbb hbbbb pbbbb xnsbbbb hbvbb
+xewbbbb xewbbbb xewbbbb xewbbbb hbwbb pbbbw xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb pbwbb
+xewbbbb xewbbbb xewbbbb xewbbbb hbwbb pbbbw xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb pbwbb
+hbbbw hbbbb hbbbb hbbbb gbbbb hbbbb hbbbb hbbbb hbbbb pbbbb xsnbbbb hbpbb
+hbbbb hbbbb hbbbb hbbbb hbbbb obbbb hbbbb fbbbb hbbbb hbbbb xsnbbbb hbvbb
+hbbbb hbbbb hbbbb hbbbb gbbbb hbbbb hbbbb hbbbb hbbbb hbbbb xsnbbbb hbpbb
+hbbbw hbbbb hbbbb hbbbb hbbbb obbbb hbbbb hbbbb hbbbb hbbbb hbbbb hbvbb
+hbbpw hbbvb hbbpb pbbwb hbbpb hbbvb hbbpb pbbwb hbbpb hbbvb hbbpb hbwvb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,11 3,1,11,11 3,1,11,2 3,1,2,2 3,1,8,7 3,1,5,4 3,1,8,4 3,1,5,7 

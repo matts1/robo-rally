@@ -1,0 +1,27 @@
+name: Shoots and Ladders
+description: Okay, so evidently not an original title.
+At least it's an original design.
+4 Flags.
+No special rules.
+designed by i8flesh
+length: medium
+difficulty: easy
+players: 2 8
+newboard:
+blank board
+fbbbw fbbbb fbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb fbwbb
+fbbbw fbbbb cwebbbb cwebbbb cwebbbb xnsbbbb fbbbb fbbbb xnsbbbb cewbbbb cewbbbb cewbwbb
+fbbbw fbbbb fbbbb fbbbb obbbb xnsbwbb fbbbw fbwbb xnsbbbw gbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbbbb obbbb xnsbwbb fbbbw fbwbb xnsbbbw gbbbb fbbbb fbwbb
+fbbbw fbbbb cwebbbb cwebbbb cwebbbb obbbb fbbbb fbbbb gbbbb cewbbbb cewbbbb cewbwbb
+fbbbw fbbbb fbbbb fbwbb rbbbw fbbbb fbbbb fbbbb fbbbb rbwbb fbbbw fbwbb
+fbbbw fbbbb fbbbb fbwbb rbbbw fbbbb fbbbb fbbbb fbbbb rbwbb fbbbw fbwbb
+fbbbw fbbbb cwebbbb cwebbbb cwebbbb gbbbb fbbbb fbbbb obbbb cewbbbb cewbbbb cewbwbb
+fbbbw fbbbb fbbbb fbbbb gbbbb xsnbwbb fbbbw fbwbb xsnbbbw obbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbbbb gbbbb xsnbwbb fbbbw fbwbb xsnbbbw obbbb fbbbb fbwbb
+fbbbw fbbbb cwebbbb cwebbbb cwebbbb xsnbbbb fbbbb fbbbb xsnbbbb cewbbbb cewbbbb cewbwbb
+fbbbw fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb fbwbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,8 3,1,7,4 3,1,9,10 3,1,4,4 
+start: 3,1,6,1 3,1,7,1 3,1,4,1 3,1,9,1 3,1,3,1 3,1,10,1 3,1,1,1 3,1,12,1 

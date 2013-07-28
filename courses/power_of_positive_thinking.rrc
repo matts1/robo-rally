@@ -1,0 +1,39 @@
+name: The Power of Positive Thinking
+description: ...will do very little for you here
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsebbbb xwsbbbb cwebbbb rbbbb fbbbb xesbbbb xswbbbb cwebbbb rbbwb fbbbb fbbbb fbbbb
+xenbbbb xnwbbbb cwebbbb fbbwb fbbbb xnebbbb xwnbbbb cwebbbb fwbbb pbbbb fbbbb fbbbb
+xsebbbb xwsbbbb cwebbbb rwbbb fbbbb xesbbbb xswbbbb cwebbbb rbbwb fbbbb fbbwb fbbwb
+xenbbbb xnwbbbb cwebbbb fbbwb fbbbb xnebbbb xwnbbbb cwebbbb fwbbb pbbbb fwbbb fwbbb
+xsebbbb xwsbbbb cwebbbb rwbbb fbbbb xesbbbb xswbbbb cwebbbb rbbwb fbbbb fbbbb fbbbb
+xenbbbb xnwbbbb cwebbbb fbbwb fbbbb xnebbbb xwnbbbb cwebbbb fwbbb pbbbb fbbwb fbbwb
+xsebbbb xwsbbbb cwebbbb rwbbb fbbbb xesbbbb xswbbbb cwebbbb rbbwb fbbbb fwbbb fwbbb
+xenbbbb xnwbbbb cwebbbb fbbwb fbbbb xnebbbb xwnbbbb cwebbbb fwbbb pbbbb fbbbb fbbbb
+xsebbbb xwsbbbb cwebbbb rwbbb fbbbb xesbbbb xswbbbb cwebbbb rbbwb fbbbb fbbwb fbbwb
+xenbbbb xnwbbbb cwebbbb fbbwb fbbbb xnebbbb xwnbbbb cwebbbb fwbbb pbbbb fwbbb fwbbb
+xsebbbb xwsbbbb cwebbbb rwbbb fbbbb xesbbbb xswbbbb cwebbbb rbbwb fbbbb fbbbb fbbbb
+xenbbbb xnwbbbb cwebbbb fbbwb fbbbb xnebbbb xwnbbbb cwebbbb fwbbb pbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 3,1,10,12 3,1,2,12 3,1,8,12 

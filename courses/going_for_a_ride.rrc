@@ -1,0 +1,40 @@
+name: Going for a Ride
+description: 2010 Map Editing Contest Entry
+Created by: TDK_001
+length: medium
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+cnsbbbb fbbbb csnbbbb xesbbbb
+cnsbbbb fbbbb csnbbbb xnsbwbb
+cnsbbbb fbbbb csnbbbb xnsbbbb
+cnsbbbb fbbbb csnbbbb xnsbbbb
+cnsbbbb fbbbb csnbbbb xnsbwbb
+cnsbbbb fbbbb csnbbbb xnsbbbb
+xnsbbbb fbbbb csnbbbb xnsbwbb
+xnsbbbb fbbbb csnbbbb xnsbbbb
+xnsbbbb fbbbb csnbbbb xnsbbbb
+xnsbbbb fbbbb csnbbbb xnsbwbb
+xnsbbbb fbbbb csnbbbb xnsbbbb
+xnsbbbb fbbbb cenbbbb xnwbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbwbb xsebbbw xwebbbb xwebbbb xwebbwb xwebbwb xwsbbbb
+fbbbw fbwbb pbbbw fbbbb fbdbb csnbwbw xsnbbbw pbbbb pbbbb fwbbb hwwbb xnsbbbl
+pbwbb fbbbl cnsbbbb fbwbb fbbbw csnbwbb xsnbbbw pbbbb pbbbb xwsbbbb fbwbb xnsbbbw
+obbbb fbbwb cnsbbbb fbbbb fbwbb csnbwbw xenbbbw xewbbbb xewbbbb xnwbbbb fbwbb xnsbbbw
+hbbbw fwbbb cnsbbbb fbbbb fbwbb csnbwbw fbbbw fbbbb fbbbb fbbbb pbbbb xnsbvbb
+pbbbb fbbbb cnsbbbb fbwbb fbbbl csnbbbb fbbbb fbwwb fbbbw fbbbb pbbbb xnsbbbb
+rbbbw fbbbb xnsbbbb fbbbb rbwbb csnbbbw fbbbb flbbb obbbb fbbbb fbbbb xnsbpbb
+gbbbb fbbbb xnsbbbb fbwbb fbbbd csnbbbb fbwbb gbbbw fbbbb gbbbb fbbbb xnsbbbb
+pbbbb fbbbb xnsbbbb fbbbb fbwbb csnbbbw hbwbb fbbbw obbbb fbbbb fbdbb xnsbbbw
+hbbbw fbbbb xnsbbwb fbwbb fbbbt csnbwbb fbbbw fbbbb hbbbb pbbbb fbbbb xnsbvbb
+gbbbb fbbbb ftbbb fbbbb fbbbb csnbbbb fbwbb fbbww fbbbb fbtbb fbbbw xnsbbbb
+pbbbb fbbbb fbbwb fbbbb fbbbb cenbbbb cewbbbb cewwbbb cewbbbb cewbbbb cewbbbb cnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,4 3,1,4,11 3,1,12,2 3,1,8,9 

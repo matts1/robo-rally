@@ -1,0 +1,40 @@
+name: Team Elimination Chamber
+description: 2-4 two bot teams battle for survival in a laser bound arena. Special weapons may be had, but they are costly.
+length: medium
+difficulty: easy
+players: 4 8
+team: true
+rules: teamonetouchalltouch
+newsboard:
+blank starting board
+3,1 10,1 4,1 9,1 5,1 8,1 6,1 7,1 
+pbbbb pbbbb pbbbb pbbbb
+pbbwb pbbwb pbbwb pbwwb
+xewwbww xewwbwb xewwbwb xewwbwb
+xewwbww xewwbwb xewwbwb xewwbwb
+xewwbww xewwbwb xewwbwb xewwbwb
+xewwbww xewwbwb xewwbwb xewwbwb
+xewwbww xewwbwb xewwbwb xewwbwb
+xewwbww xewwbwb xewwbwb xewwbwb
+xewwbww xewwbwb xewwbwb xewwbwb
+xewwbww xewwbwb xewwbwb xewwbwb
+pwbbb pwbbb pwbbb pwwbb
+pbbbb pbbbb pbbbb pbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbwb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbwb pbbbb pbbbb
+pdbbd fbbbb fbbbb hbbbb fbbbb fbbbb hbbbb fbbbb fbbbb pddbb pbbbw pbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb hbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb rbbbb rbbbb rbbbb fbbbb fbbbb rbbbb fbbbb pbbbb pbbbb
+fbbbb rbbbb fbbbb fbbbb rbbbb rbbbb rbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb hbbbb pbbbb pbbbb
+fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+pbbdd fbbbb fbbbb hbbbb fbbbb fbbbb hbbbb fbbbb fbbbb pbddb pbbbw pbbbb
+pwbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pwbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board

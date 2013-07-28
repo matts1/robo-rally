@@ -1,0 +1,41 @@
+name: Team Mayhem
+description: Nutty team course.
+length: medium
+difficulty: hard
+players: 4 8
+team: true
+rules: teamflagtoggle
+newsboard:
+blank starting board
+12,4 1,3 12,2 1,1 12,3 12,1 1,4 1,2 
+fwbbb xewwbwb xewwbwb xewwbwb
+cwebbbb cwewbwb cwewbwb cwewbwb
+fbbwb fwbwb fwbbb rwbwb
+fwbbb xwewbwb xwebbvb xwewbbb
+fbbbb fwbwb fwbbb fbbpb
+csebbbb cwewbbb cwebbbb cwewbbb
+cenbbbb cewbbwb cewbbbb cewbbwb
+fbbbb fwbwb fbbwb fpbbb
+fbbwb xwewbwb xwevbbb xwebbwb
+fwbbb fwbwb fbbwb rwbwb
+cwebbbb cwewbwb cwewbwb cwewbwb
+fbbwb xewwbwb xewwbwb xewwbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewbbwb fbbwb cewbbbb cewbbwb cewbbbb cewbbwb fbbwb gbbbb fbbwb cewbbwb cewbbwb rbwbb
+fwbbb owbwb cwebbwb fwbwb cwebbbb fwbwb fwbtb cwebbbb cwewbwb fwbwb cwewbbb cwebbbb
+fbbwb fwbwb fwbwb fwbbb fbbpb fwbwb fwbbb fbbwb owbwb fwbbb fbbwb fbbbb
+fwbwb gwbbb fwbwb xwebbwb xwewbbb fwbwb xwebbbb xwewbwb fwbwb xwebbvb xwewbwb xweblbb
+fwbwb fbbbb fwbwb fwbwb fbbbb fwbwb fbbvb fwbbb fwbwb fwbbb fwbwb fbbbb
+cwewbwb cwebbbb cwewbbb hwbbb pbbbb hwbbb cwewbbb cwebbbb cwewbwb cwebbbb cwewbbb cwsbbbb
+cewwbwb cewbbbb cewbbwb hbbwb pbbbb hbbwb cewbbwb cewbbbb cewwbwb cewbbbb cewbbwb cnwbbbb
+fwbwb fbbbb fwbwb fwbwb fbbbb fwbwb fvbbb fbbwb fwbwb fbbwb fwbwb fbbbb
+fwbwb gbbwb fwbwb xwewbbb xwebbwb fwbwb xwebbbb xwewbwb fwbwb xwevbbb xwewbwb xweblbb
+fwbbb fwbwb fwbwb fbbwb fpbbb fwbwb fbbwb fwbbb owbwb fbbwb fwbbb fbbbb
+fbbwb owbwb cwewbbb fwbwb cwebbbb fwbwb ftbwb cwebbbb cwewbwb fwbwb cwebbwb cwebbbb
+xewwbbb fwbbb cewbbbb cewwbbb cewbbbb cewwbbb fwbbb gbbbb fwbbb cewwbbb cewwbbb rbwbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,1 3,1,6,9 3,1,1,1 3,1,12,1 

@@ -1,0 +1,55 @@
+name: Pick A Lane, Jackass
+description: This is worse than any traffic jam...
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb cnebbbb cwebbbb cwebbbb cewbbbb cewbbbb cewbbbb gbbbb cewbbbb cewbbbb cswbbbb hbbbb
+xsewbbbb xewsbbbb xsewbbbb xwebbbb xwebbbb xwebbbb xewbbbb xewbbbb xewbbbb obbbb xenbbbb xewsbbbb
+xenwbbbb xenwbbbb xenwbbbb xswbbbb rbbbb xesbbbb xewbbbb csnwbbbb fbbbb cwebbbb cwebbbb xnsbbbb
+fbbbb csnbbbb fbbbb xenbbbb xewsbbbb xnwbbbb cewbbbb csnwbbbb rbbbb xewbbbb xewbbbb xnwbbbb
+cewbbbb csnwbbbb hbbbb fbbbb cnebbbb cwebbbb cwebbbb cenwbbbb cewsbbbb cewbbbb gbbbb cewbbbb
+xewbbbb xenwbbbb xewbbbb obbbb xewbbbb xewbbbb xswbbbb fbbbb xnebbbb xwebbbb xwebbbb xwebbbb
+obbbb xewbbbb xewbbbb xswbbbb fbbbb xsebbbb xwenbbbb xwebbbb xwebbbb xewbbbb xewbbbb csnwbbbb
+fbbbb csnbbbb cewbbbb xenwbbbb rbbbb xenbbbb xewbbbb xewsbbbb xewsbbbb cewbbbb cewbbbb cewbbbb
+cewbbbb cenwbbbb gbbbb cewbbbb cewbbbb cswbbbb hbbbb xnsbbbb cnebbbb cwebbbb cwebbbb cewbbbb
+xwebbbb xwebbbb xwebbbb xewbbbb xewbbbb xenwbbbb obbbb xewbbbb xewbbbb xswbbbb fbbbb xnebbbb
+cswbbbb hbbbb cewbbbb csewbbbb cwebbbb cwebbbb cewbbbb cewbbbb cewbbbb gbbbb cewbbbb cewbbbb
+xenwbbbb xewbbbb xewbbbb xenwbbbb cewbbbb cewbbbb fbbbb rbbbb xewbbbb xnwbbbb cwebbbb cwebbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+cewbbbb cewbbbb xsebbbb xwebbbb rbbbb fbbbb cwebbbb cwebbbb xwsebbbb xwebbbb xwebbbb xwsebbbb
+cwebbbb cwebbbb gbbbb cwebbbb cwebbbb cwebbbb cewbbbb cewbbbb cnwebbbb cwebbbb hbbbb cnebbbb
+xswbbbb fbbbb xnebbbb xwebbbb xwebbbb obbbb xwsebbbb xwebbbb xwebbbb xewbbbb xewbbbb xewbbbb
+cwebbbb cewbbbb cewbbbb cswbbbb xsnbbbb hbbbb cnebbbb cwebbbb cwebbbb gbbbb cwsebbbb cwebbbb
+cwebbbb cwebbbb cwebbbb xwenbbbb xwenbbbb xwebbbb xwsbbbb rbbbb xwsebbbb cwebbbb cnsbbbb fbbbb
+cnsebbbb xwebbbb xwebbbb xewbbbb xewbbbb xewsbbbb xnwbbbb fbbbb xnebbbb xwebbbb xwebbbb obbbb
+xewbbbb xewbbbb xewbbbb xswbbbb fbbbb xnebbbb xwebbbb xwebbbb obbbb xwebbbb xwsebbbb xwebbbb
+cwebbbb gbbbb cwebbbb cwenbbbb cwsebbbb cewbbbb cewbbbb cswbbbb fbbbb hbbbb cnsebbbb cwebbbb
+xsebbbb xwebbbb xwebbbb rbbbb cnsebbbb cwebbbb xsebbbb xwenbbbb xwsbbbb fbbbb cnsbbbb fbbbb
+xsnbbbb cewbbbb cewbbbb fbbbb cnsebbbb xwebbbb xwnbbbb rbbbb xnebbbb xwsebbbb xwsebbbb xwsebbbb
+xwenbbbb xwsbbbb obbbb xwebbbb xwebbbb xwebbbb xewbbbb xewbbbb xewbbbb xnwebbbb xwenbbbb xnwebbbb
+hbbbb cnebbbb cwebbbb cwebbbb gbbbb cwebbbb cwebbbb cwebbbb cewbbbb cewbbbb cswbbbb fbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,9,10 3,2,7,5 3,1,7,5 

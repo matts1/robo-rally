@@ -1,0 +1,39 @@
+name: The Pits
+description: A potential death trap for all players. Difficult pit navigation + options.
+length: medium
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+csnbbbb fwbbb fwbbb fbbbb
+csnbbbb fbbbb fbbbb fbwbb
+csnbbbb obbbb fbbbb cesbbbb
+csnbbbb fbbbb fbbbb cnsbbbb
+cenbbbb cewbbbb cewbbbb cnwsbbbb
+fbbbv fbbbb fbbbb cnsbbbb
+fbbbp fbbbb fbbbb csnbbbb
+cesbbbb cewbbbb cewbbbb csnwbbbb
+cnsbbbb fbbbb fbbbb cenbbbb
+cnsbbbb gbbbb fbbbb pbbbb
+cnsbbbb fbbbb fbbbb fbwbb
+cnsbbbb fbbwb fbbwb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+rvbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rvbbb fbbbb rpbbb fwwbb
+fbbbw fbdbb fbbbw fbbbb fbbwb fbbbb fbwbb fbbbw fbdbb fbbbw fbbbb fbwbb
+cewbbbb cewbbvb cewbbbb gbbbb cewpbbb cewbbbb cewbbbb cewbbpb cewbbbb cewbbbb cewbbbb gbbbb
+pbbbb pwbbb pbbbb fbbbb pbbbb hbbbb pbbbb pwbbb pbbbb xsebbbb xwebbbb xwebbbb
+pbbbb fbbbb pbwbb fbbbw fbbbb fbbbb fblbb pbwbw fbbbp xsnbbbb fbbbb fbwbb
+pbbbb pbbbb pbbbb hbbbb pbbbb fbbbb fbbbb pbbbb hbbbb xenbbbb xewbbbb xswbwbb
+pbwbb fbbbw fbbbb fbbbb pbbbb fbbbb fbbbb pbbbb fbbbb fbbbb fbbbb xsnbwbb
+pbbbb fbbbb fbwbb fbtbw pbbbw fbbbb fbbbb pbbbb xwebbbb xwebbwb xwebbbb xwnbwbb
+cewbbbb cewbbwb cewbbbb obbbb cewbbbb cewbbwb cewbbbb cewbbbb cewbbwb cewpbbb cewbbwb obbbb
+fbvbb fpbbw gbbbb xwebbvb xwebbbb xwevbbb xwebbbb gbbbb xwevbbb xwebbbb xwepbbb xwebbbb
+fbbbd fbwbb fbbbw fwbbb fbbbb fbbbb fbwbb fbbbw fbdbb fbwbw fbbbt fbwbb
+rbbpb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbpb fbbbb fbbvb hbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,7 3,1,5,12 3,1,7,2 

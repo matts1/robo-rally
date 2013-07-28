@@ -1,0 +1,71 @@
+name: Seasick
+description: Only one flag to achieve -- but good luck getting there. Seriously -- good luck.
+length: long
+difficulty: mid
+players: 5 8
+newsboard:
+blank starting board
+12,4 11,3 10,2 9,1 12,2 11,1 9,3 10,4 
+cnetbbw csetbwb rdbwb cwelbwb
+gbbbb gwbbb owbbb owbbb
+gbbbb obbbb gbbbb obbbb
+obbbb hbbbb gbbbb obbbb
+gbbbb obbbb rbbbb gbbbb
+obbbb gbbbb obbbb gbbbb
+obbdb obbwb gbbwb gbbwb
+pwbbb pwbbb pwbbb pwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb fbbbb hbwwb fbbbw rbwbb fbbbw csebbbb cwsbbbb fbbbb fbbbb fbbbb pbbbb
+fbbpb fbvbb fpbbw fbwbb fbbbw fbwbb cenbbbw cnwbbbb csebbbb cwsbbbb csebbbb cwsbbbb
+fwbbb fbbpb fbvbb fbbww fbwwb fbbww fbbwb rbbwb cenbbbb cnwbbbb cenbbbb cnwbbbb
+fbbbv fvbbb fbwbb fwbbl fwwbb fwbbw fwbbb fwbbb fbbbb fbwbb fbbbl fbbbb
+fbwbb fbbbv fbwpb fbbbl fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb
+rbbbb fbbpb fwwbb fbbbw fbwbb fbbbl fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb
+fbbwv pwbwb fbpwb rbbww xesbbbb xewbbbb xswbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xeswbbb xewwbbb xwewbbb xewwbbb xnwbbbb rbbbb xensbbbb xswbbbb fbbwb fbbwb fbbbb fbbbb
+xsnbbbb xesbbbb xewbbbb xwebbbb xewbbbb xewbbbb xnwbbbb xensbbbb xewwbwb xewwbwb xewbbbb pbbbb
+xnsbbbb xsnbbbb xesbbbb xewbbwb xwebbwb xewbbwb xewbbwb xnwbbwb fwbwb fwbwb hbbwb fbbwb
+xnsbbbb xnsbbbb xsnbwbb hwwbw ceswwbw csewbbw cwsewbbb cwewbbb cwewbbb cwewbbb cwewbbb cwswbbb
+xnsbbbb xnsbbbb xnsbwbb rbwbw cnsbbbw csnbbbb cnsbbbb rbbbb csebbbb cwebbbb cwsbbbb fbbbb
+endboard
+board: 1,1 0 blank board
+newboard:
+blank board Copy
+csebbbb cwebbbb cwsbbbb fbbbb cnebbbb cwnbbbb cnebbbb cwebbbb cwnbbbb gbbbb xesbbbb xnwbbbb
+csnbbbb pbbbb cnsbbbb csebbbb cwebbbb cwsbbbb fbbbb fbbbb gbbbb xesbbbb xnwbbwb fbbbb
+csnbbbb pbbbb cnsbbbb csnbbbb rbbbb cnsbbbb fbwwb gbbbw xesbbbb xnwbbbb fwbbb fbbbb
+cenbbbb cewbbbb cnwbbwb cenbbbb cewbbbb cnwbwwb gwbbw xesbbbb xnwbbbb fbbbb fbbbb fbbbb
+fbbbb hbwbb flbbl fbbbb fbwwb gwbbw xesbbbb xnwbbwb rbbbb fbbbb fbbdb xnsbbbb
+fbbbb fbbbb fbbbb rbwwb gwbbw xesbbbb xnwbwwb fwbbw fbbbb fbtlb xeswbbw xnwsbbbb
+csebbbb cwsbbbb fbwwb gwbbw xesbbbb xnwbwbb fwbbw fbbbb fbdbb xeswbbw xnwbbbb xnsbbbb
+cenbbbb cnwbwwb gwbbw xesbbbb xnwbbwb fbbbb fbbbb fbltb xesbbbw xnwbbbb hbbbb xnsbbbb
+fbwwb gwbbw xesbbbb xnwbwwb fwbbw fbbbb fbtdb xeswbbw xnwbbbb fbbbb fbbbb xnsbbbb
+rwbbb xesbbbb xnwbwbb fwbbw fbbbb fbdlb xeswbbw xnwbbbb fbbbb fbbbb fbbbb xnsbbbb
+xesbbbb xnwbbbb fbblb fbbdb fbbtb xeswbbb xnwbbbb fbbbb fbbbb fbbbb xesbbbb xnwbbbb
+csnbbbb fbbbb xewwbbb xewwbbb xewwbbb xnwbbbb rbbbb xesbbbb xewbbbb xewbbbb xnwbwbb hbbbw
+endboard
+board: 2,1 0 blank board Copy
+newboard:
+blank board Copy Copy
+cwenbbbb cwebbbb cwebbwb xewbbwb xewbbwb xewbbwb xewbbwb xnwbbwb fbbwb pbbbb pbbbb pbbbb
+gbbbb obbbb gwbbb ceswbbb cewwbbb cswwbbb fwbbb fwbbb fwbbb rbbbb pbbbb pbbbb
+obbbb gbbbb obbbb cnsbbbb pbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb hbbbb pbbbb
+gbbbb gbbbb obbbb cnsbbbb pbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb
+gbbbb obbbb gbbbb cnebbbb cwebbbb cwnbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+obbbb gbbbb gbbbb fbbbb fbbbb pbbbb rbbbb cewbbbb cnwbbbb fbbbb fbbbb fbbbb
+obbwb obbwb rbbwb fbbbb pbbbb fbbbb fbbbb cewbbbb cewbbbb cnwbbbb fbbbb fbbbb
+rwbbb fwbbb fwbbb pbbbb fbbbb fbbbb fbbbb cewbbbb cewbbbb cewbbbb cnwbbbb fbbbb
+cewbbbb cnwbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb
+cewbbbb cewbbbb cnwbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb xwsbbbb
+cewbbbb cewbbbb cewbbbb cnwbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb xwsbbbb xnsbbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb xnsbbbb xnsbbbb
+endboard
+board: 3,1 0 blank board Copy Copy
+flags: 2,1,12,2 1,1,12,12 1,1,6,2 

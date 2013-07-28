@@ -1,0 +1,40 @@
+name: Recycling
+description: Down the hatch! One moving flag. All roads lead to the drop off.
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewbbwb xewbbwb xewbbwb xswbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fdbbb fbbbb fbbbb
+fwbbb fwbbb fwbbb xenbbbb xswbbbb fbbbb fbwbb fbbww fbbbb fbbbb fbbbb fblbb
+cewbbwb cewbbwb cewbbwb cewbbwb xenbbwb xswbbbb fbbbb fwwbb fbbpw fbbwb fbbbb fbbbb
+fwbbb gwbbb gwbbb fwbbb owbbb xenbbbb xswbbbb fbbbb pwbbb pwbbb fbbbb fbbbb
+fbbbb gbbbb gbbbb rbbbb obbbb obbbb xenbbbb xswbbbb rbbbb pbbbb fbbbb fbbbb
+fbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xensbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+fbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xensbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+fbbbb obbbb obbbb rbbbb gbbbb gbbbb xesbbbb xnwbbbb rbbbb pbbbb fbbbb fbbbb
+fbbwb obbwb obbwb fbbwb gbbwb xesbbbb xnwbbbb fbbbb pbbwb pbbwb fbbbb fbbbb
+cewwbbb cewwbbb cewwbbb cewwbbb xeswbbb xnwbbbb fbbbb fbwwb fwbbp fwbbb fbbbb fbbbb
+fbbwb fbbwb fbbwb xesbbbb xnwbbbb fbbbb fbwbb fwbbw fbbbb fbbbb fbbbb fblbb
+xewwbwb xewwbbb xewwbbb xnwbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbdb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,2 3,1,3,9 3,1,5,7 3,1,10,9 

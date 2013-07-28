@@ -1,0 +1,76 @@
+name: MT. ROBO
+description: 3 Flags,
+Do you have what it takes to climb Mt. ROBO?
+Rest at the Mid Way Cave before you Conquer
+the Mountain.  Then head back to camp to 
+brag about it. No Options. 
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newboard:
+blank board
+pbbbb pbbwb pbbwb pbbwb pbbwb pbbwb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbwbb pwbbw pwbbb pwbbb pwbbb pwwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb
+pbwbb pbbbw pbbwb pbbbb pbbwb pbwbb pbbbw pbbbb pbbbb pbbbb pbwbb cwebbbw
+pbwbb pbwww pwwbw pbwww pwwbw pbwww pbbbw pbbbb pbbbb pbbbb pbwbb cewbbbw
+pbbbb pwbwb pbbwb pwbwb pbbwb pwbwb pbbbb pbbbb pbbbb pbwbb cwebbbw cewbbbb
+pbwbb pwbww pwbwb pwbwb pwbwb pwwwb pbbbw pbbbb pbbbb pbbbb cewbbbb cwebbbb
+pbbbb pwbbb pwwbb pwwbw pwbbw pwbbb pbbbb pbbbb pbwbb cwebbbw cewbbbb cwebbbb
+pbbbb pbbbb pbwbb pbwbw pbbbw pbbbb pbbbb pbbbb cewbbbb cwebbbb rbbbb cwebbbb
+pbbbb pbbbb pbwbb pbwbw pbbbw pbbbb pbbbb pbwbb cwebbbw cewbbbb cwebbbb cewbbbb
+pbbbb pbbbb pbwbb pbwbw pbbbw pbbbb pbwbb cewbbbw cwebbbb cewbbbb cwebbbb cewbbwb
+pbbbb pbbbb pbwbb pbwww pbbbw pbbbb pbwbb cwebbbw cewbbbb cwebbbb cewbwbb pwbbw
+pbbbb pbbbb pbbbb pwbbb pbbbb pbwbb cwebbbw cewbbbb cwebbbb cewbbbb xsnbwbb pbbbw
+endboard
+board: 2,1 0 blank board
+newboard:
+blank board Copy
+pbbbb fbbbb pbbbb pbbbb pbwbb pwbww pwwwb pbbbw pbbbb pbbbb pbbbb pbbbb
+cewbbbb xsnbbbb cwebbbb pbbbb pbwbb pwwbw pwbbw pbbbb pbbbb pbbbb pbbbb pbbbb
+cewbbbb xsnbbbb cwebbbb cewbwbb pbwbw pbwbw pbbbw pbbwb pbbbb pbbbb pbbbb pbbbb
+cwebbbb xsnbbbb cewbbbb cwebwbb pbbbw pbbbb pbwbb pwwbw pbbbw pbbbb pbbbb pbbbb
+cwebbbb xsnbbbb cwebbbb cewbbbb cwebbbb pbbbb pbwbb pbwww pbwbw pbbbw pbbbb pbbbb
+cewbbbb xsnbbbb cewbbbb cwebbbb cewbwbb pbbbw pbbbb pwbbb pbwbb pbbww pbbbb pbbbb
+cewbbbb xsnbbbb cewbbbb cwebbbb cewbbbb cwebbbb pbbbb pbbbb pbwbb pwwww pbbbw pbbbb
+cewbbbb xsnbbbb cwebbbb cewbbbb rbbbb cwebbbb cewbwbb pbbbw pbbbb pwbbb pbbwb pbbbb
+cwebbbb xsnbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb pbbbb pbbbb pbwbb pwwbw pbbbw
+cwebbwb xsnbbbb cewbbwb cwebbwb cewbbbb cwebbbb cewbbbb cwebwbb pbbbw pbwbb pbwww pbbbw
+pwbbb pbbbb pwbbb pwwbb cwebbbw cewbbbb cwebbbb cewbwbb pbbbw pbbbb pwbbb pbbbb
+fbbbb fbbbb fbbbb pbwbb xsnbbbw cewbbbb cwebbbb cewbbbb cwebwbb pbbbw pbbbb pbbbb
+endboard
+board: 2,2 0 blank board Copy
+newboard:
+blank board Copy Copy
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb xswbbbb cwebbbb rbbbb cwebbbb xsnbwbb pbbbw
+pbbbb pbbbb pbbbb pbbbb pbwbb cewbbbw xsnbbbb cewbbbb cwebbbb cewbbbb cwebbbb fbbbb
+pbbbb pbbbb pbbbb pbbbb pbwbb cwebbbw xsnbbbb cwebbbb cewbbbb cwebbbb cewbbbb fbbwb
+pbbbb pbbbb pbbbb pbwbb cwebbbw cewbbbb xsnbbbb cewbbbb cwebbbb cewbbbb xsnbbbb cewwbbb
+pbbbb pbbbb pbbbb pbbwb cewbbbb cwebbbb xsnbbbb cwebbbb cewbbbb cwebbbb xsnbbbb cwebbbb
+pbbbb pbbbb pbwbb cwewbbw cwebbbb cewbbbb xsnbbbb cewbbbb cwebbbb cewbbbb xsnbbbb cewbbbb
+pbbbb pbbbb pbwbb cewbbbw rbbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb xsnbbbb cwebbbb
+pbbbb pbbbb pbwbb cwebbbw cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb xsnbbbb cwebbbb
+pbbbb pbbbb pbwbb cewbbbw cwebbbb cewbbbb cewbbbb cewbbbb cwebbbb cewbbbb xsnbbbb cewbbbb
+pbbbb pbbbb pbwbb cwebbbw cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb
+pbbbb pbbbb pbwbb cewbbbw cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb
+pbbbb pbbbb pbwbb fbbww fbbwb fbwwb fbbww fbwwb fbbww fbbwb fbwwb fbbww
+endboard
+board: 3,1 0 blank board Copy Copy
+newboard:
+blank board Copy Copy Copy
+fbbbb fbbbb fbbbb pbwbb xsnbbbw cewbbbb rbbbb cewbbbb xsebbbb pbbbb pbbbb pbbbb
+fbbbb fbbvb fbbbb fbbbb cwebbbb cewbbbb cwebbbb cewbbbb xsnbbbb cwebwbb pbbbw pbbbb
+fbbwb fvbbb fbbwb fbbwb cewbbbb cwebbbb cewbbbb cwebbbb xsnbbbb cewbbbb pbbbb pbbbb
+cwewbbb cewbbbb cwewbbb xsnwbbb cwebbbb cewbbbb cwebbbb cewbbbb xsnbbbb cewbwbb pbbbw pbbbb
+cewbbbb cwebbbb cewbbbb xsnbbbb cewbbbb cwebbbb cewbbbb cwebbbb xsnbbbb cwebbbb pbbwb pbbwb
+cwebbbb cewbbbb cwebbbb xsnbbbb cwebbbb cewbbbb cwebbbb cewbbbb xsnbbbb cewbbbb cwewbbb cwewwbb
+cewbbbb cwebbbb cewbbbb xsnbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb rbbbb cewbwbb
+rbbbb cwebbbb cewbbbb xsnbbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebwbb
+cwebbbb cewbbbb cwebbbb xsnbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbwbb
+cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebwbb
+cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbwbb
+fbwwb fbbww fbwwb fbbww fbbwb fbwwb fbbww fbwwb fbbww fbbwb fbbwb fbwwb
+endboard
+board: 3,2 0 blank board Copy Copy Copy
+flags: 3,2,2,2 2,2,1,2 3,2,3,2 
+start: 3,2,12,1 3,2,12,2 3,1,12,10 3,2,12,5 3,1,12,7 3,2,12,8 3,2,12,9 3,1,12,6 

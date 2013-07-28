@@ -1,0 +1,42 @@
+name: Love Knot 2
+description: Flags: 4
+Special Rules: Flags move
+Course designed by Spacebug
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+Starting Board 2
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: Starting Board 2
+newboard:
+blank board
+rbbbb fbbbb csewbbb cwebbbb cwewbwb cwsbbbb csebbbb cwewbwb cwebbbb cwewbbb cwsbbbb rbbbb
+csebbbb cwebbbb cwebbbb cwsbbbb flbbb cnsbbbb csnbbbb flbbb csebbbb cwsbbbb cnsbbbb fbbbb
+csnbbbb csebbbb csnbbbb cwebbbb cwebbbb cnsbbbb cwebbbb cwebbbb csnbbbb cwebbbb cnsbbbb cwsbwbb
+csnbbbb cenbbbb cewbbbb cnwbbbb fbbbb cnsbbbb csnbbbb fbbbb cenbbbb cnsbbbb cnwbbbb cnsbbbb
+csnbwbb fbbbl csnbbbb fbbbb fbwwb cnsbbbw csnbwbb fbbww fbbbb cnsbbbb fblbb cnsbwbw
+cenbbbb cewbbbb csnbbbb cewbbbb cewwbbb cnwbbbb cenbbbb cewwbbb cewbbbb cewbbbb cewbbbb cnwbbbb
+csebbbb cwebbbb cwebbbb cwebbbb cwebbwb cwsbbbb csebbbb cwebbwb cwebbbb cnsbbbb cwebbbb cwsbbbb
+csnbwbb fbbbl csnbbbb fbbbb fwwbb cnsbbbw csnbwbb fwbbw fbbbb cnsbbbb fblbb cnsbwbw
+csnbbbb csebbbb csnbbbb cwsbbbb fbbbb cnsbbbb csnbbbb fbbbb csebbbb cwebbbb cwsbbbb cnsbbbb
+cenbbbb csnbbbb cewbbbb cnsbbbb cewbbbb cewbbbb csnbbbb cewbbbb cewbbbb cnsbbbb cnwbbbb cnsbwbb
+fbbbb csnbbbb cenbbbb cnwbbbb fbblb cnsbbbb csnbbbb fbblb cenbbbb cewbbbb cewbbbb cnwbbbb
+rbbbb cenbbbb cewbbwb cewbbbb cewwbwb cnwbbbb cenbbbb cewwbwb cewbbbb cnwbbwb fbbbb rbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,7 3,1,9,6 3,1,6,4 3,1,7,9 

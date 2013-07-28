@@ -1,0 +1,47 @@
+name: Inspir8ion
+description: Inspired by the legends of old.
+Get on the belt and take the long way around, or can you take the short cut, and save some time?
+4 flags.
+No special rules.
+Hidden lasers.
+Flag 3 and last Flag both have two lasers.
+8 Hammer spots.
+
+designed by i8flesh
+length: short
+difficulty: easy
+players: 2 8
+newboard:
+blank board
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb csebbbb cwebbbb cwsbbbb
+csebbbb cwnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb obbbb fbbbb csnbbbb pbbbb cnsbbbb
+csnbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbl fbbbb fbwlb xsnbbbw fbbbb xnsbwbb
+csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb csebbbb cwebbbb xwewbbb xwnbbbb pbbbb xnebbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb csnbbbb pbbbb fbbbb pbbbb pbbbb pbbbb
+cnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cenbbbb cewbbbb xewbbwb xswbbbb pbbbb xesbbbb
+cnsbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbl fbbbb flwbb xsnbbbw fbbbb xnsbwbb
+cnebbbb cwsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb gbbbb fbbbb csnbbbb pbbbb cnsbbbb
+fbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cenbbbb cewbbbb cnwbbbb
+fbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+fbbbb obbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+fbblw fbbbb fblbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+xwewbbb cwebbbb cwsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+fbbbb pbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+xewbbwb cewbbbb cnwbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+flbbw fbbbb fblbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+fbbbb gbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,7,4 3,1,7,9 3,2,5,1 3,1,9,9 
+start: 3,1,6,2 3,1,8,2 3,1,5,2 3,1,9,2 3,1,4,3 3,1,10,3 3,1,3,3 3,1,11,3 

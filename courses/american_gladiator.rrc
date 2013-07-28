@@ -1,0 +1,91 @@
+name: American Gladiators
+description: Over The Treadmill, Thru the Gears, Into the
+Lasers,Thru the Pushers, Climb Mt. Robo, 
+Down the Waterfalland Back Again. (6 flags),
+ Many repairs,2 Option Worlds but will take
+ Time to Get out 4Boards
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw fwbbb cwewbbb cwewbbb
+fbbbw fbbbb cwebbbb cwebbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb cwebbbb cwebbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb cwebbbb cwebbbb
+fbbbw fbbbb cwebbbb cwebbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbb fbbbb cwebbbb cwebbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb cwebbbb cwebbbb
+fbbww fbbwb cwebbwb cwebbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb pbbbb pbbbb cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb
+pbbbb pbbbb pbbbb cnsbbbb pbbbb hbbbb hbbbb hbbbb pbbbb pbbbb pbbbb csnbbbb
+pbbbb pbbbb pbbbb cnsbbbb pbbbb hbbbb hbbbb hbbbb pbbbb csebbbb cwebbbb cwnbbbb
+pbbbb pbbbb pbbbb cnsbbbb pbbbb hbbbb hbbbb hbbbb pbbbb csnbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb cnsbbbb pbbbb pbbbb pbbbb pbbbb csebbbb cwnbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb cnsbbbb csebbbb cwebbbb cwebbbb cwebbbb cwnbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb cnsbbbb csnbbbb pbbwb pbbwb pbbbb pbbbb pbbbb pbbbb pbbbb
+xesbbbb xewbbbb xewbbpb xewbbbb xewbbbb xewvbbb xewvbbb xewbbbb xewbbbb xewbbpb xewbbbb xswbbbb
+xnsbbbb fbbbb fwbbb fbbbb fbbbb pbbbb pbbbb fbbbb fbbbb fwbbb fbbbb xsnbbbb
+xnsbpbb fbbbw fbbbb fbbbb fbbbb rbbbb rbbbb fbbbb fbbbb fbbbb fbwbb xsnbbbp
+xnsbbbb fbbbb fbbbb fbbbb fbbbb rbbbb rbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 2,1 0 blank board
+newboard:
+blank board Copy
+fbbbb obbbb gbbbb xsnbbbb csnbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb gbbbb obbbb xsnbbbb csnbbbb pbbbb pbwbb fbbbl fbbbb fbbbb fbwbb fbbbw
+fbbbb rbbbb gbbbb xsnbbbb csnbbbb pbbbb pbbwb fbbbb fbbbb fbbwb fbbwb fbbbb
+fbbbb gbbbb obbbb xenbbbb cenbbbb rbbbb rwbbb fbbbb obbbb flbbb flbbb fbbbb
+fbbbb rbbbb gbbbb xesbbbb cesbbbb rbbwb rbbbb fbbbb gbbbb fbbwb fbbwb fbbbb
+fbbbb gbbbb obbbb xnsbbbb cnsbbbb pwbbb pbbbb fbbbb fbbbb fwbbb fwbbb cwebbbb
+fbbbb obbbb gbbbb xsnbbbb csnbbbb pbbwb pbbbb fbbbb fbbbb fbbwb fbbwb cwebbbb
+fbbbb rbbbb obbbb xenbbbb cenbbbb rwbbb rbbbb fbbbb obbbb flbbb flbbb fbbbb
+fbbbb gbbbb obbbb xesbbbb cesbbbb rbbbb rbbwb fbbbb gbbbb fbbwb fbbwb fbbbb
+fbbbb rbbbb gbbbb xnsbbbb cnsbbbb pbbbb pwbbb fbbbb fbbbb fwbbb fwbbb fbbbb
+fbbbb obbbb obbbb xnsbbbb cnsbbbb pbbbb pbwbb fbbbl fbbbb fbbbb fbwbb fbbbw
+fbbbb gbbbb obbbb xnsbbbb cnsbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board Copy
+newboard:
+blank board Copy Copy
+flbbb fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fwbbb fwbbb fwbbb fbbbb pbbbb
+fbbbb fbbbb fbbpb fbbbb fbbbb fbbbb fbbbb cewbbbb cewbbbb cwebbbb fbbbb fbwbb
+cesbbbb fbbbb fpbbb fbbbb fbvbb fbbbw cewbbbb cewbbbb cwebbbb cewbbbb cwebbbb fbwbb
+cnsbwbb rbbbw fbbbb fbwbb fbbbv cewbbbb cewbbbb cwebbbb cewbbbb cwebbbb cewbbbb cwebwbb
+fbwbb rbbbw fbbbb fbwbb fbbbv fbbbb rbbbb rbbbb fbbbb fbbbb rbbbb rbwbb
+cnwbbbb fbbbb gbbbb fbbbb fbbbb fbvbb fbbbw fbbbb fbbbb fbbbb fbbbb fbwbb
+cswbbbb fbbbb obbbb fbbbb fbbbb fbvbb fbbbw xsnbbbb xsnbbbb xsnbbbb xsnbbbb xsnbwbb
+fbwbb rbbbw fbbbb fbwbb fbbbv fbbbb fbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb xsnbwbb
+csnbwbb rbbbw fbbbb fbwbb fbbbv fbbbb fbbbb xsnbbbb xsnbbbb xenbbbb xewbbbb fbwbb
+cenbbbb fbbbb fbbpb fbbbb fbvbb fbbbv fbbbb xsnbbbb xenbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fpbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb fbbbb fbwbb
+fbblb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xenbbwb fbbwb fbbwb fbbwb fbwwb
+endboard
+board: 3,2 0 blank board Copy Copy
+newboard:
+blank board Copy Copy Copy
+fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xsnbbbb fbbbb fbbbb fbbbb fbbbb rbbbb rbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb
+xsnbpbb fbbbw fbbbb fbbbb fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbwbb xnsbbbp
+xsnbbbb fbbbb fbbwb fbbbb fbbbb pbbbb pbbbb fbbbb fbbbb fbbwb fbbbb xnsbbbb
+xenbbbb xewbbbb xewpbbb xewbbbb xewbbbb xewbbvb xewbbvb xewbbbb xewbbbb xewpbbb xewbbbb xnwbbbb
+pbbbb pbbbb pbbbb csnbbbb cnsbbbb pwbbb pwbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb csnbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwsbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb csnbbbb pbbbb pbbbb pbbbb pbbbb cnebbbb cwsbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb csnbbbb pbbbb hbbbb hbbbb hbbbb pbbbb cnsbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb csnbbbb pbbbb hbbbb hbbbb hbbbb pbbbb cnebbbb cwebbbb cwsbbbb
+pbbbb pbbbb pbbbb csnbbbb pbbbb hbbbb hbbbb hbbbb pbbbb pbbbb pbbbb cnsbbbb
+pbbbb pbbbb pbbbb cenbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb
+endboard
+board: 4,1 0 blank board Copy Copy Copy
+flags: 3,2,6,3 3,2,1,9 3,2,11,11 3,1,7,10 3,2,6,9 3,2,7,3 

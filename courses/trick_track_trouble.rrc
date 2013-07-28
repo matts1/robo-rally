@@ -1,0 +1,39 @@
+name: Trick Track Trouble
+description: Four flags.  Three-dimensional thinking required. Watch out for the fire pit .
+length: medium
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb xewbbbb
+fbbbb fwbbb cesbbbb cewbbbb
+cesbbbb cewbbwb cnwbbbb rbbbb
+cnsbbbb fwbbb fbbbb cewbbbb
+cnebbbb cwebbwb cwebbbb cwebbbb
+fbbbb fwbwb fbbbb cewbbbb
+fbbbb fwbwb fbbbb cewbbbb
+csebbbb cwewbbb cwebbbb cwebbbb
+csnbbbb fbbwb fbbbb cewbbbb
+cenbbbb cewwbbb cswbbbb rbbbb
+fbbbb fbbwb cenbbbb cewbbbb
+fbbbb fwbbb fbbbb xewbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewbbbb fbbbb fbbbb fbbbb cesvbbb fbbbb cewbbbb gbbbb flbbb fbbbb fbbbb rbbbb
+cswbbbb xsnbbbb fbbbb fbwbb cnsbbbw fbtbb pbwbw hbbbv pbbbb fbbbb gbbbb csnbbbb
+cenbbbb xenwbbwb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb fbbbb csnbbbb
+fbbbb cswwbbb cnsbbbb fbbbb cnsbbbb fbbbb pbwwb rbbbw obbbb xsnbwbb fbbbw csnbbbb
+cwebbbb cwenbbbb xwebbpb xwebbbb xwebbbb cwebbbb hvbbb cwebbbb cwebblb xwsnbbbb fbbwb fbbbb
+cewbbbb cewbbbb cewlbbb cewbbbb cnwbwbb csebbbd cwsbwbb hbbbv xewwbbb xnwbbbb owbbb cwnbwbb
+cewbbbb cewbbbb cewbblb cewbbbb cswbwbb cenbbbw cnwbdbb hbbbv xewbbwb xswbbbb gbbwb cwsbwbb
+cwebbbb cwsebbbb xwepbbb xwebbbb xwebbbb cwebbbb hbbvb cwebbbb cwelbbb xwsnbbbb fwbbb fbbbb
+fbbbb cnwbbwb csnbbbb fbbbb csnbbbb fbbbb pwwbb rbbbw gbbbb xnsbwbb fbbbw cnsbbbb
+cesbbbb xewswbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb fbbbb cnsbbbb
+cnwbbbb xnsbbbb fbbbb fbwbb csnbbbw fbtbb pbwbw hbbbv pbbbb fbbbb obbbb cnsbbbb
+xewbbbb fbbbb fbbbb fbbbb cenbbvb fbbbb cewbbbb obbbb fbblb fbbbb fbbbb rbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,11 3,1,9,11 3,1,4,6 3,1,9,6 

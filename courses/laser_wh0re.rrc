@@ -1,0 +1,39 @@
+name: Laser Wh0re
+description: B!tch can take three, four, more lasers all at the same time...Laser Wh0re
+length: short
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbwbb fbbbw
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbwbb fbbbw
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbwbb fbbbw
+endboard
+sboard: blank starting board
+newboard:
+blank board
+ftbbt fdbbb flwbb fbbbw ftbbb fdbbb flbbb fbbbb ftbbb fdbbb flbbb fbbbb
+fbbbd fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb
+fbbbl fbbbb fbbwb fbbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbwbb
+fbbbb fbbbb fwbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb
+fbbbt fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbd fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb
+fbbbl fbbwb fbwbb fbbbw fbbbb fbbwb fbbbb fbbbb fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb
+fbbbt fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbd fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb
+fbbbl fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbwb fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbbbb fbbwb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,1,4 3,1,12,8 3,1,4,12 3,1,8,2 

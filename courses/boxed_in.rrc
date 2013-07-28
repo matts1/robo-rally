@@ -1,0 +1,30 @@
+name: Boxed In
+description: Feeling boxed-in? Drawn out?
+Only 3 flags, should be quick. 
+Should be.
+
+Flags move.
+
+designed by i8flesh
+length: short
+difficulty: easy
+players: 2 4
+rules: flagsmove
+newboard:
+blank board
+xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbbbb
+xsnbbbb pbbbb rbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fblbb rbbbw pbbbb xnsbbbb
+xsnbbbb rbbwb pbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb pbbbb rbbwb xnsbbbb
+xsnbbbb flbbb cnsbbbb obbbb fbbbb fbbbb fbbbb fbbbb obbbb csnbbbb fwbbb xnsbbbb
+xsnbbbb fbbbb cnsbbbb fbbbb xsebbbb xwebbbb xwebbbb xwsbbbb fbbbb csnbbbb fbbbb xnsbbbb
+xsnbbbb fbbbb cnsbbbb fbbbb xsnbwbb fbwww fbwww xnsbbbw fbbbb csnbbbb fbbbb xnsbbbb
+xsnbbbb fbbbb cnsbbbb fbbbb xsnbwbb fwwbw fwwbw xnsbbbw fbbbb csnbbbb fbbbb xnsbbbb
+xsnbbbb fbbbb cnsbbbb fbbbb xenbbbb xewbbbb xewbbbb xnwbbbb fbbbb csnbbbb fbbbb xnsbbbb
+xsnbbbb fbbwb cnsbbbb obbbb fbbbb fbbbb fbbbb fbbbb obbbb csnbbbb fbblb xnsbbbb
+xsnbbbb rwbbb pbbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb pbbbb rwbbb xnsbbbb
+xsnbbbb pbbbb rbwbb fbbbl fbbbb fbbbb fbbbb fbbbb fbwbb rbbbw pbbbb xnsbbbb
+xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,1 3,1,8,8 3,1,10,12 
+start: 3,1,6,6 3,1,7,6 3,1,6,7 3,1,7,7 

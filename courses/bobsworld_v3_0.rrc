@@ -1,0 +1,60 @@
+name: Bob's World v3.0
+description: 2 Boards, 6 Moving Flags.
+Tough Placement.
+Plenty of Conveyors to
+speed things up.
+by 2455ybob
+length: long
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+cwebbbb fwbwb fbbbb fbbbb
+cwebbbb fwbwb fbbbb fbbbb
+cwebbbb fwbwb fbbbb fbbbb
+cwebbbb fwbwb fbbbb xsebbbb
+cwebbbb fwbwb fbbbb xenbbbb
+cwebbbb fwbwb fbbbb fbbbb
+cwebbbb fwbwb fbbbb fbbbb
+cwebbbb fwbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+csnbbbl fbbbb fwbbb cnebbbb cwswbbb fbbbb fbbbb fwbbb fbbbb fwwbb fbbbw csnbbbb
+cenbbbb cswbbbb pbbbb fbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwenbbbb
+hbbbw cenbbbb cewbbbb cswbbbb fbbbb fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb cenbbbb cewbbbb cswbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb rbbbb cenbbbb cewsbbbb pbbbb xsebbbb xwebbwb xwsbbbb rbwbb
+xwebbwb xwsbbbb pbbbb fbbbb fbbbb cesbbbb cnwbwwb fbwbt xsnbbbw hwwbb xnebbbw xwebbbb
+xewlbbb xnwbbbb fbbbb fbbbb cesbbbb cnwbbbb fwbbb fbbbb xsnbbbb gbwwb xesbbbw xewbbbb
+fbbbw hbwbb fbbbw cesbbbb cnwbbbb fbbbb fbbbb fbbbb xenbbwb xewwbbb xnwbbwb fbwbb
+fbbbb fbwbb cesbbbw cnwbbbb fbbbb fbbbb fbbbb csebbbb cwewbbb cwebbwb cwswbbb fbbbb
+fbbww cesbbbb cnwbbbb fbbbb gbbbb cwebbbb fbbbb csnbwbb gbbbw gwbbb cnsbbbb fbwbb
+cewwbbb cnwbbbb fbbbb fbbbb hbwbb fbbbw fbbbb csnbbbb gbbbb gbwbb cnsbbbw fbbbb
+rbbbb fbbbb fbbwb pbbbb fbbwb fbbbb csebbbb cwnbwwb gbbbw obbwb cnsbbbb rbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+pbbbb csnbbbb fwbwb fbbbb fwbwb fbbbb cnsbbbb fwbbb fbbwb fwbbb fbbbb pbbbb
+cwebbbb cwnbbbb fwwbb fbbbw fwwbb fbbbw cnsbbbb fbbbb pwbbb fbbbb fbbwb fbbbb
+fbbbw pbbbb fbwbb pbbbw fbbbb pbbbb cnsbbbb fbbbb fbbwb rbbbb fwbbb fbwbb
+fbwbb pbbww fbbbb fbbbb fbwbb fbbbw cnebbbb cwsbbbb pwwbb fbwbw pbbbw fbbbb
+csebbbw cwewbbb cwsbwbb pbbbw fbbbb fbbbb fbbwb cnebbbb cwebbbb cwsbbbb fbbbb fbwbb
+cwnbbbb pbbbb cnsbbbb hbbbb fbwbb fbbww hwwbb fbbbw pbbbb cnebbbb cwebbbb cwebbbb
+cewbbbb cewbbwb cnwbwbb pbbbl fbbbb pwwbb fbbbw fbbbb fblbb fbbbw pbbbb cesbbbb
+fbbbw pwbwb fbbbb fbbbb fbwbb pbbbw cesbbbb cewbbbb cewbbbb cewbbwb cewbbbb cnwbwbb
+fbbbb fwbbb fbbbb pbbbb cesbbbb cewbbbb cnwbbwb pbbwb hbwbb fwbbw fbbbb fbbbb
+fbwbw cesbbbw cewbbbb cewbbbb cnwbwbb pbbbw pwbbb ceswbbb cewbbbb cswbbbb pbwbb fbwbw
+cewbbbb cnwbbbb fbbbb pbbbb fbbbb fbbbb cesbbbb cnwbbbb pbbwb cenbbbb cewsbbbb cewbbbb
+rbbbb fbbbb fbbwb fbbbb fbbwb csnbbbb cnsbbbb fbbwb fwbbb fbbwb cnsbbbb pbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,12,7 3,1,1,1 3,2,6,12 3,1,11,1 3,2,1,2 3,1,12,11 

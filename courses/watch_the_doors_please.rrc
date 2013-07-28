@@ -1,0 +1,39 @@
+name: Watch the Doors Please
+description: Pay attention to the flying conveyors
+length: short
+difficulty: mid
+players: 2 4
+newsboard:
+Starting Board 2
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbvbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbpbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbvbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbpbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: Starting Board 2
+newboard:
+blank board
+rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb xesbbbb xewbbwb xewbbbb xewbbwb xewbbwb xewbbbb xewbbwb xewbbwb xewbbwb xswbbbb fbbbb
+fbbbw xnsbwbb xsewbbw xwebbwb xwewbwb xwewbbb xwebbwb xwewbwb xwewblb xwswwbb xsnbbbw fblbb
+fbbbb xnsbwbb xsnbwbw fwbbw fwbbb fbbbb fdbbb fwbbb fwwbb xnsbbbw xsnbbbb fbbbb
+fbbbw xnsbbbb xsnbwbb fbbbw fbbbb fbbbb hbbbb fbbbb fbwbb xnsbwbw xsnbbbw fbbbb
+fbbbb xnsbwbb xsnbbbw fbbbb fbbbb pbbbb pbbbb obbbb fbbbb xnsbwbb xsnbbbw fbbbb
+fbbbb xnsbwbb xsnbwbw fbbbd hbbbb pbbbb pbbbb fbbbb fbwbb xnsbbbw xsnbbbb fbbbb
+fbbbw xnsbbbb xsnbwbb fbbbw fbbbb gbbbb fbbbb fbbbb fbwbb xnsbwbw xsnbbbw fbbbb
+fbbbb xnsbwbb xsnblbw fbbww fbbwb fbbbb fbbwb fbbwb fbwwb xnsbwbw xsnbbbw fbbbb
+fbbbl xnsbwbb xenbbww xewwbwb xewwbbb xewbbwb xewwbwb xewwbbb xewwbwb xnwbwwb xsnbbbw fbbbb
+fbbbb xnebbbb xwewbbb xwewbbb xwebbbb xwewbbb xwewbbb xwebbbb xwewbbb xwewbbb xwnbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,8 3,1,12,1 3,1,8,5 3,1,1,12 

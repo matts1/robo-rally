@@ -1,0 +1,39 @@
+name: Row row row your bot...
+description: The belts flow like water. You just may not fall aboard.
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fwbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb obbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb gbbwb
+fbbbb fbbbb fbbbb pwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbblb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xeswbbb cewbbbb cewbbbb xswbbbb xesbbbb cewbbbb cewbbbb xswbbbb pwbbb pbbbb hbbbb fbbbb
+xnsbbbb pbbbb pbbwb xsnbbbb xnsbbbb rbbbb pbbbb xsnbbbb pbbbb pbbbb fbbbb fbwbb
+xnebbbb xwebbbb xwevbbb xwnbbbb xnebbwb xwebbbb xwebbbb xwnbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb hbbbb fbbbb fwbbb xnsbbbb pbblb pbbbb fbbbb fbbbb fbbbb pbbbb
+fbbbb xewbbbb xewbbbb xewbbvb xswbbbb xnebbbb xwswbbb fbbbb fbbbb cnsbbbb fbbbb fbwbb
+fbblb pbbbb pbbbb pwwbb xenbbbw cewbbbb obbbb fbbbb cewbblb cnwbbbb gbbbb fbbbb
+plbbb pbbbb pbbbb pbwwb xesbbbw cewbbbb xnwbbbb fbbbb cewlbbb cswbbbb obbbb fbbbb
+xesbbbb xewbbbb xewbbbb xewvbbb xnwbbbb pbbbb pbwbb fbbbw fbbbb csnbbbb fbbbb fbbbb
+xnsbbbb fbbbb pbbbb pbbbb pbblb pbbbb pbbbb fbwbb fbbbl rbbbb fbbbb fbwbb
+xnebbbb xwebbbb xwebbvb xwebbbb xwewbbb xwebbbb fbbbb xwebbbb xwebbbb xwnbbbb fbbbb fbbbb
+pbbbb pbwbb pwbbl pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbwb cewbbbb cewbbbb fbbbb fbbbb cewbbbb cewbbbb fbbbb fbbwb fbbbb hbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,10 3,1,10,7 3,1,1,8 

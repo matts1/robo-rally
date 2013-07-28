@@ -1,0 +1,41 @@
+name: Super Deathmatch
+description: Can you survive the
+Rampage of the
+Superbot
+length: long
+difficulty: mid
+players: 2 8
+rules: dayofthesuperbot
+newsboard:
+blank starting board
+9,1 4,1 3,2 10,2 11,3 2,3 1,4 12,4 
+csnbwbw csnbwbw csnbwbw csnbwbw
+csnbwbw csnbwbw csnbwbw csnbwbw
+csnbwbw csnbwbw csnbwbw csnbwbw
+csnbwbw csnbwbw csnbwbw csnbwbw
+cenbbww cenwbbwb cenwbbwb cenwbbwb
+hwbbl hwbbb rwbbb rwbbb
+hbbwl hbbwb rbbwb rbbwb
+ceswbbw cewswbbb cewswbbb cewswbbb
+cnsbwbw cnsbwbw cnsbwbw cnsbwbw
+cnsbwbw cnsbwbw cnsbwbw cnsbwbw
+cnsbwbw cnsbwbw cnsbwbw cnsbwbw
+cnsbwbw cnsbwbw cnsbwbw cnsbwbw
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbw fbbbb fbbbb fbbbb fbbbb rlbbb rlbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb pbbbb hbbbb hbbbb pbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb hbbbb pbwwb pbbww hbbbb fbbbb fbbbb fbbbb rblbb
+fbbbb fbbbb fbbbb fbbbb hbbbb pwwbb pwbbw hbbbb fbbbb fbbbb fbbbb rblbb
+fbbbb fbbbb fbbbb fbbbb pbbbb hbbbb hbbbb pbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb fbbbb rbblb rbblb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board

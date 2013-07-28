@@ -1,0 +1,39 @@
+name: The Circulatory System
+description: Gain entry into the bloodstream and eliminate the four viruses. Virusses. Virii. Virumblereno. Whatever. You know what I'm trying to say
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb fbbbb
+fbbbb xnsbbbb fbbbb fbbbb fbbbb xsnbbbb csebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwsbbbb
+fbbbb xnsbbbb rbbbb fbbbb fbbbb xsnbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb cnsbbbb
+fbbbb xnsbbbb xewbbbb xewbbbb xewbbbb xsnwbbbb csnbbbb cwebbbb cwebbbb cwebbbb cwebbbb cnsbbbb
+fbbbb xnsbbbb fbbbb fbbbb fbbbb xsnbbbb csnbbbb fbbbb fbbbb hbbbb fbbbb cnsbbbb
+fbbbb pbbbb xwebbbb xwebbbb xwebbbb xwsnbbbb csenbbbb cwebbbb cwebbbb cwebbbb cwebbbb cnsbbbb
+fbbbb xsnbbbb fbbbb fbbbb fbbbb xnsbbbb cwsnbbbb cwebbbb cwebbbb cwebbbb cwebbbb cwsnbbbb
+fbbbb xsnbbbb xewbbbb xewbbbb xewbbbb xnwsbbbb cnsebbbb cwebbbb cwebbbb cwebbbb cwebbbb csnbbbb
+fbbbb xsnbbbb rbbbb fbbbb fbbbb xnsbbbb cnsbbbb fbbbb fbbbb fbbbb hbbbb csnbbbb
+fbbbb xsnbbbb xewbbbb xewbbbb xewbbbb xnwsbbbb cnsbbbb cwebbbb cwebbbb cwebbbb cwebbbb csnbbbb
+fbbbb xsnbbbb fbbbb fbbbb fbbbb xnsbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb csnbbbb
+fbbbb xenbbbb xewbbbb xewbbbb xewbbbb xnwbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,9,10 3,1,5,3 3,1,1,12 3,1,7,3 

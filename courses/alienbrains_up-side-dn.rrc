@@ -1,0 +1,72 @@
+name: Alienbrain's Up-Side-Dn
+description: What goes up, must come down.Four moving flags on a board that flips.
+length: long
+difficulty: hard
+players: 2 8
+rules: boardrotate99t2 flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+ceswbbw xewwbbb ceswbbb cswwwbb
+cnebbbw cwebbbb cwnbbbb csnbbbb
+xewbbbw xewbbbb xewbbbb xewbbbb
+censbbbw cewbbbb cewbbbb gbbbb
+xewbbbw xewbbbb xewbbbb xewbbbb
+csebbbw cwebbbb cwsbbbb xewbbbb
+csnbbbw xewbbbb cnsbbbb xewbbbb
+cenwbbbw cewbbbb cewbbbb cewbbbb
+xewbbbw xewbbbb xewbbbb xewbbbb
+cesbbbw cewbbbb cewbbbb cswbbbb
+cnsbbbw xewbbbb cnsbbbb csnbbbb
+cnebbww xewbbwb cnebbwb cwnbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb
+xsewbbw xwevbbb xwepbbb xwelbbb xwevbbb xwepbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbwb xwswwbb
+xsnbbbw xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb xesbbbb xswbwbb gbbbp obbbb hvbbb xnsbwbb
+endboard
+board: 2,1 0 blank board
+newboard:
+blank board Copy
+xsnbbbv xewbbbb xewbbbb xewbbbb xswbbbb xsnbwbb xnsbbbw xenbbwb xewbbbb xewbbbb xewbbbb xnsbwbb
+xsnbbbb cnsbbbb fbbbb csnbbbb xwnbbwb xsnbwbb xnsbbbw rwbbb cewsbbbb cewbbbb cswbbbb xnsbbbb
+xsnbbbb cnsbbbb rbbbb csnbbbb fwpbb xsnbbbl xnsbwbb fbbbw cnsbbbb pbbbb csnbwbb xnsbbbw
+xsnbbbb cnebbbb cwebbbb cwenbbbb fbbbb xsnbwbb xnsbbbw fbbbb cnsbbbb cwebbbb cwnbbbb xnsbbbb
+xsnbbbb fbbpb fbbbb fbbwb fbbbb xsnbwbb xnsbbbw fbbbb cnsbbbb fbbbb fbbvb cwebbbb
+xsnbbbb fwbbb fbbbb csnwbbb rbwbb xsnbbbl xnsbbbb obwbb cnsbbbw fbbbb fwbbb xnsbbbb
+xsnbbbb fbbwb fbbbb csnbbbb fbbbb xsnbwbb xnsbbbw fbbbb cnsbbbb fbbbb fbbwb xnsbbbb
+cewbbbb fpbbb fbbbb csnbbbb fbbbb xsnbwbb xnsbbbw fbbbb rbbbb fbbbb fvbbb xnsbbbb
+xsnbbbb cesbbbb cewbbwb csnbwbb obbbw xsnbbbb xnsblbb fbbbw cewsbbbb cewbbbb cswbbbb xnsbbbb
+xsnbbbb cnsbbbb plbbb csnbbbb fbbbb xsnbwbb xnsbbbw fbbbb cnsbbbb rbbwb csnbbbb xnsbbbb
+xsnbbbb cnebbbb cwebbbb cwenbbbb rbbbb xsnbwbb xnsbbbw xesbbbb cnsbbbb fwbbb csnbbbb xnsbbbb
+xsnbbbb fbbbb fbbbb fbbbb fbwbb xsnbbbw xnsblbb xnebbbw xwebbbb xwebbbb xwebbbb xnsbpbb
+endboard
+board: 3,1 0 blank board Copy
+newboard:
+blank board Copy Copy
+xsnbbbw csebbbb cwebbbb cwsbbbb fbbbb xsnbwbb xnsbbbv cswbwbb hbbbv pbbbb cesbbbb xnsbwbb
+xsnbbbw csnbbbb hbbbb cnsbbbb fbbbb xsnbbbb xnsbbbb csnbbbb cesbbbb cswbbbb cnsbbbb xnsbwbb
+xenbbww cenbbwb cewbbwb cnwbbwb fbbwb xenbbwb xnwbbwb cenbbwb cnwbbwb cenbbwb cnwbblb xnwbwwb
+pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 4,1 0 blank board Copy Copy
+flags: 3,1,7,9 3,1,6,4 3,1,12,11 3,1,1,2 

@@ -1,0 +1,45 @@
+name: Iron Snowflake
+description: If you thought the Iron Cross was difficult, this is it's older nastier brother.
+Amateurs need not apply.
+4 flags, two moving.
+Two flags in front of pushers, last in front of pusher.
+SHORT TIMER.
+Designed by i8flesh
+length: long
+difficulty: expert
+players: 2 5
+rules: flagsmove maxfilltime30
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb csebbbb cwsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb csebbbb cwsbbbb csebbbb cwnbbbb cnebbbb cwsbbbb csebbbb cwsbbbb fbbbb fbbbb
+fbbbb csebbbb cwnbbbb cnebbbb cwnbbbb fbvbb fbbbv cnebbbb cwnbbbb cnebbbb cwsbbbb fbbbb
+fbbbb cenbbbb cswbbbb rbwwb fbbbl fbpbb fbbbp fblbb rbbww cesbbbb cnwbbbb fbbbb
+fbbbb csebbbb cwnbbbb flbbb obbbb xesbbbb xswbbbb obbbb flbbb cnebbbb cwsbbbb fbbbb
+csebbbb cwnbbbb fbbpb fbbvb xesbbbb xnwbbbb xenbbbb xswbbbb fbbvb fbbpb cnebbbb cwsbbbb
+cenbbbb cswbbbb fpbbb fvbbb xnebbbb xwsbbbb xsebbbb xwnbbbb fvbbb fpbbb cesbbbb cnwbbbb
+fbbbb cenbbbb cswbbbb fbblb gbbbb xnebbbb xwnbbbb gbbbb fbblb cesbbbb cnwbbbb fbbbb
+fbbbb csebbbb cwnbbbb rwwbb fbbbl fbpbb fbbbp fblbb rwbbw cnebbbb cwsbbbb fbbbb
+fbbbb cenbbbb cswbbbb cesbbbb cswbbbb fbvbb fbbbv cesbbbb cswbbbb cesbbbb cnwbbbb fbbbb
+fbbbb fbbbb cenbbbb cnwbbbb cenbbbb cswbbbb cesbbbb cnwbbbb cenbbbb cnwbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb cenbbbb cnwbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,9,11 3,1,7,5 3,1,7,10 3,1,6,4 

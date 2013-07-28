@@ -1,0 +1,39 @@
+name: RoboVac
+description: Getting in is easy...but the RoboVac sucks pretty hard...and watch those corners! "Ferociously strategic."
+length: long
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbwbb gbbbw cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb gbbbb
+fbbbb fbbbb fbwbb cnsbbbw gbbbb fbbwb fbbwb fbbwb fbbwb fbbwb gbbbb fbbbb
+fbbbp fbbbb fbwbb cnsbbbw fbwbb fwbbw fwwbb fwbbp fwbbb fwbbb gbbbb fbbbb
+fbbbb fbwbb fbwbw cnsbbbw hbwbb fbbbw fbvbb fbbbw pblbb hbbbw fbbwb gbbwb
+fbbbw fbbbb fbbbb fbbbb obwbb fbbbw fbbbb obbbb fbbbb fbbbb fwbbb owbbb
+fbwwb fbbww fbbbb obbbb fbwbb fbbww fbbwb fbbwb gbbwb fbbwb obbbb fbbbb
+fwwbb fwbbw fbbbb gbbbb fbwbb fwbbw fwbbb fwbbb owbbb fwbbb gbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb gbwbb fbbbw fbbbb gbbbb fbbbb fbbbb fbbwb gbbwb
+fbbbb fbwbb fbwbw csnbbbw hbwbb fbbbw fbvbb fbbbw fblbb hbbbw fwbbb owbbb
+fbbbp pbbbb fbwbb csnbbbw fbwbb fbbww fbwwb fbbwp fbbwb fbbwb obbbb fbbbb
+fbbbb fbbbb fbwbb csnbbbw obbbb fwbbb fwbbb fwbbb fwbbb fwbbb obbbb fbbbb
+fbbbb fbbbb fbwbb obbbw cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb obbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,9,7 3,1,4,7 3,1,10,1 

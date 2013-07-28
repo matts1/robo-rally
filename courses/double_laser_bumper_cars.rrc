@@ -1,0 +1,42 @@
+name: Double Laser Bumper Cars
+description: 8 Double Options,8 Repairs, 4 Flags
+Go for the Flags, You May Pay.
+2 Ways to Win: Flags or Conqure
+length: medium
+difficulty: hard
+players: 2 8
+rules: lasermultiplier2 wrenchtooption
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbwbb fwbbv xewwbbb xewvbbb
+fbwbb fbbbv xewbbbb xewbbbb
+fbwbb fbbbv xewbbbb xewbbbb
+fbwbb fbbbv fbbbb cewbbbb
+fbwbb fbbbv fbbbb fbbbb
+fbwbb fbbbv fbbbb cewbbbb
+fbwbb fbbbv fbbbb cewbbbb
+fbwbb fbbbv fbbbb fbbbb
+fbwbb fbbbv fbbbb cewbbbb
+fbwbb fbbbv xewbbbb xewbbbb
+fbwbb fbbbv xewbbbb xewbbbb
+fbwbb fbbwv xewbbwb xewbbvb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewvbbb xewvbbb xswvbbb fvbbb fbbbb fvbbb rbbbb fvbbb rbbbb fvbbb fbbbb fvbbb
+xewbbbb xewbbbb xsnwbwbb fbbbl fbbbb fbbbb fbbbb fbblb fbbbb fbbbb fbbbb fbvbb
+xewbbbb xewbbbb xsnbwbb fbbbl fbwbb pbbbw pbbbb pwbbb pbbbb fbbbb fbbbb fbbbb
+cewbbbb cewbbbb xenbbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbvbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb
+cewbbbb cewbbbb fbbbb fbbbb fbbbb hbbbb hbbbb hbbbb hbbbb fbbbb fbbbb fbvbb
+cewbbbb cewbbbb fbbbb fbbbb fbbbb hbbbb hbbbb hbbbb hbbbb fbbbb fbbbb fbvbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb
+cewbbbb cewbbbb xesbbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbvbb
+xewbbbb xewbbbb xnsbwbb fbbbl fbwbb pbbbw pbbbb pbbwb pbbbb fbbbb fbbbb fbbbb
+xewbbbb xewbbbb xnwsbwbb fbbbl fbbbb fbbbb fbbbb flbbb fbbbb fbbbb fbbbb fbvbb
+xewbbvb xewbbvb xnwbbvb fbbvb fbbbb fbbvb rbbbb fbbvb rbbbb fbbvb fbbbb fbbvb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,12,12 3,1,1,4 3,1,1,12 3,1,12,4 

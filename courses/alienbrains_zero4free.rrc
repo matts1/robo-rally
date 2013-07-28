@@ -1,0 +1,39 @@
+name: Alienbrain's ZeroFourFree
+description: Four flags. Six double wrenches. None of them Free.
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb cewwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb cewbbbb cewbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb cewbbbb cewbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb cewbbbb cewbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb cewbbbb cewbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cewbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cewbbbb cewwbbb cewbbbb gwbbb cewbbbb cewwbbb cewbbbb gwbbb cewbbbb cewwbbb cewbbbb cswwbbb
+xesbbbb xewbbbb xswbbbb fbbbb cesbbbb cewbbbb cswbbbb fbbbb xesbbbb xewbbbb xswbbbb gbwbb
+xnsbbbb rbbbb xsnbbbb fbbbb cnsbbbb gbbbb csnbbbb fbbbb xnsbbbb cewbbbb xsnbbbb rbbbb
+xnsbbbb gbbbb xsnbwbb fbbbl cnsbwbb hbbbv csnbbbb fbbbb xnsbbbb fbbwb xsnbbbb fbbbb
+xnsbbbb cewbbbb xsnbbbb cnsbbbb cnebbwb cwebbwb cwnbbbb csnbbbb xnsbbbb hvbbb xsnbbbb obwbb
+xnsbbbb hbbvb xsnbwbb fbbbp olbbb hwbbb fbbbb oblbb xnsbbbw gbbbb xsnbbbb fbbbb
+xnsbbbb fwbbb xsnbbbb xsnbbbb gbbwb hbvbb gbbbw fbbbb xnsbbbb fbbbb xsnbbbb fbpbb
+xnsbbbb cewbbbb xsnbpbb xsnbbbw ceswbbb cewbbbb cswbbbb fbbbb xnsbbbb fbbvb xsnbbbb gbbbb
+xnsbbbb obbbb xsnbbbb xsnbbbb cnsbbbb hbvbb csnbbbw csnbbbb xnsbbbb fwbbb xsnbbbb fbwbb
+xnsbbbb rbbbb xsnbbbb fbbbb cnsbbbb obbbb csnbbbb fbbbb xnsbbbb cewbbbb xsnbbbb rbbbb
+xnebbbb xwebbbb xwnbbbb fbbbb cnebbbb cwebbbb cwnbbbb fbbbb xnebbbb xwebbbb xwnbbbb obwbb
+cewbbbb cewbbwb cewbbbb obbwb cewbbbb cewbbwb cewbbbb obbwb cewbbbb cewbbwb cewbbbb cnwbbwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,10 3,1,7,2 3,1,6,12 3,1,6,4 3,1,7,12 

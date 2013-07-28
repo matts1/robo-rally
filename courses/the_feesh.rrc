@@ -1,0 +1,39 @@
+name: The Feesh
+description: Don't get reeled in
+length: long
+difficulty: expert
+players: 3 7
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbbwb fbbbb obwbb fbbbw rbbbb
+csnbbbb fbbbb fbbbb fbwbb fbbbw fbbbb gwbbb gwwbb obbbw fbwbb fbbbv csnbbbb
+csnbbbb fbbbb fbbbb fbwbb rbbww fbbwb fbbbb fbwbb fbbww fbwwb fbbbv csnbbbb
+csnbbbb fbbbb fbbbb fbwbb owbbw olbbb fbbbb fbbbb fwbbb fwbbb fbbbb csnbbbb
+csnbbbb fbbbb fbbtb fbwbb fbbbw fbbbb fbbbb fbbwb fbbwb fbbbb rbbbb csnbbbb
+cenbwbb cewbbbw cewwbbb cewbbbb cewbbbb cewbbbb cewbbbb cewwbbb cewwbbb cewbbbb cewbbbb pbbbb
+cesbwbb cewbbbw cewbbwb cewbbbb cewbbwb cewbbbb cewbbbb cewbbbb cewbbwb cewbbbb cewbbwb pbbbb
+cnsbbbb fbbbb fvbbb csnbbbb fvbbb fbbbb fbbbb fbwbb csewbbw fbblb cewwbbb cswbbbb
+cnsbbbb fbwbb obwbw csnbwbw obwbw fbbbw fbdbb fbwbw cenbbbw csewwbbb csewbbbb cwnbbbb
+cnsbbbb fbbbb cnsbwbb gbwbw cnsbbbw fbbbb fbwbb fbbbw cesbbbb csnwbwbb csnbbbw fbbbb
+cnsbbbb fbbbb cnsbbwb fbbvb cnsbbwb fbbbb fbwbb fbbbw cnsebbbb cwnbbbb cenbbbb cnwsbbbb
+cnsbbbb fbbbb fwblb fwblb fwblb fbbbb fbwbb fbbbw cnwbwbb hbbbw cewbbbb cnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,1,11 3,1,10,12 3,1,2,10 3,1,12,6 3,1,3,3 3,1,8,5 3,1,11,4 3,1,8,3 

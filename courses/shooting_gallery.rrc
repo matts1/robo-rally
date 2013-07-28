@@ -1,0 +1,39 @@
+name: Shooting Gallery
+description: The prize is surviving!
+length: short
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+flbbb fwbbb fwbbb fwbbb flbbb fwbbb fpbbb fwbbb flbbb cewwbbb cewwbbb cswwwbb
+fbbwb fbbwb fbbvb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbbb fbbbb csnbwbb
+fwbbw fwbbb fwbbb fwbbb fpbbb fwbbb fwbbb fwbbb fwbbb fbbbb rbbbb csnbwbb
+fbbbw fbbbb hbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb fbbbb gbbbb cwnblbb
+fbbww fbbwb fbbwb fbbwb fbbwb fbbwb fbbvb fbbwb fbbwb fbbbb fbbbb fbwbb
+flbbb fwbbb fvbbb fwbbb fwbbb fwbbb fwbbb fwbbb flbbb fbbbb fbbbb fbwbb
+fbbwb fbbwb fbbwb fbbwb fbblb fbbwb fbbpb fbbwb fbbwb fbbbb fbbbb fbwbb
+fwbbw fwbbb fwbbb fwbbb fpbbb fwbbb fwbbb fwbbb fwbbb fbbbb fbbbb fbwbb
+fbbbw fbbbb hbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb fbbbb obbbb cwsblbb
+fbbww fbbwb fbbwb fbbwb fbbwb fbbwb fbbvb fbbwb fbbwb fbbbb rbbbb cnsbwbb
+fwbbb fwbbb fvbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fbbbb fbbbb cnsbwbb
+fbblb fbbwb fbbwb fbbwb fbblb fbbwb fbbpb fbbwb fbblb cewbbwb cewbbwb cnwbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 3,1,9,2 3,1,4,2 3,0,7,1 

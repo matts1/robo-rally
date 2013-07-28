@@ -1,0 +1,41 @@
+name: Bob's World v5.0
+description: 1 Board, 4 flags (2 moving)
+by 2455ybob
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb csnbbbb
+fbbbb fwbwb fbbbb csnbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb cnsbwbb
+fbbbb fwbwb fbbbb cnsbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb xsebbbb xwsvbbb fbwbb fpbbw fbbbb fbbbb fpbbb fbbbb fvbbb fbbbb fbbbb
+fbwbb xsnbwbl xnebbww xwsbbbb fbbwb fbbbb csebbbb cwebbbb pbbbb cwebbbb cwsbbbb fbbbb
+fbbbb xenbbbb xewwblb xnwbbbb hvbbb fbpbb csnbbbw gbbbb fbbbb gbbbb cnsbbbb fbpbb
+rbbbv fbbbb fwbbb fbbbb pbwwb fbbbw pbbbb fblbb hbwbw fbbbl pbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb csnbbbb gbbbb fbbbb gbbbb cnsbbbb fbvbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cenbbbb cewbbbb pbbbb cewbbwb cnwbbbb fbbbb
+fbbbb cesbbbb cewbbbb pbbbb cewbbbb cswbbbb fbwbb fbbbw xsebbbb xwswwbb xsebbbw xwsbbbb
+fbbbb cnsbbbb obbbb fbbbb obbbb csnbbbb fbbbb fbbbb xsnbwbb xnebbbw xwnbbwb xnsbvbb
+rbbbv pbbbb fblbb hbwbw fbbbl pbbbb fbwbb fbbbw xenbbwb xswbwbb xeswbbw xnwbbwb
+fbbbb cnsbbbb obbbb fbbbb obbbb csnbbbb fbbbb fbbbb xsewbbb xwnbwbb xnebbbw xwswpbb
+fbbbb cnebbbb cwebbbb pbbbb cwebbbb cwnbbbb fbwbb fbbbw xsnbwbb xesbbbw xswbwbb xnsbbbw
+fbbbb fbbbb fbbpb fbbbb fbbvb fbbbb csebbbb cwebwvb xenbbbw xnwbwpb xenbbbw xnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,10 3,1,9,3 3,1,12,10 3,1,3,3 

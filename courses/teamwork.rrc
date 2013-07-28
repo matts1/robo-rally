@@ -1,0 +1,60 @@
+name: Teamwork
+description: Team One Touch All Touch
+Recommend:  90 or 120 second timer, Disallow Arm
+5 Flags, Several Options
+Created by Cloister for 2013 Map Contest
+length: long
+difficulty: hard
+players: 4 8
+team: true
+rules: teamonetouchalltouch
+newsboard:
+blank starting board
+1,3 1,2 4,3 4,2 3,3 3,2 2,3 2,2 
+hwbwv fwbbb fwbbb xewwbbb
+hwbwv fbbbb fbbbb xewbbbb
+hwbwv fbbbb fbbbb xewbbbb
+hwbwv fbbwb fbbwb xewbbwb
+fwbbw fwbbb fwbbb rwbbb
+hbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb rbbwb
+fbbbw fbbbb xsebbbb xwelbbb
+hbbbb fbbbb xsnbbbb gbbbb
+fbbbw fbbbb xsnbbbb obbbb
+fbbbw fbbbb xsnbbbb gbbbb
+fbbww fbbwb xsnbbbb obbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewwbbb xewpbbb xewwbbb xewwbbb xewlbbb xewwbbb xewwbbb xewvbbb xewwbwb xewwbbb xewwbbb fwbbb
+xewbbbb xewbbbb xewbbwb xewbbpb xewbbbb xewbbbb xewbbbb xewbbbb xewvbbb xewbbbb xewbbbb fbbbb
+xewbbbb xewbbbb xewpbbb xewwbbb xewbbbb xewbbvb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb fbbbb
+xewbbwb xewbbpb xewbbwb xewbbwb xewbbwb xewwbwb xewbblb xewbbvb xewbbwb xewbbwb xewbbwb fbbwb
+fwbbb fwbbb fwbbb csewbbb cwewbbb cwewbbb cwewbbb cwswbbb fwbbb xeswbbb xewwbbb xewlbbb
+fbbbb fbbbb fbbbb csnbbbb obbbb fbbbb gbbbb cnsbbbb fbbbb xnsbbbb obbbb fbbbb
+fbbbb fbbwb fbbbb csnbbbb fbbbb gbbbb fbbbb cnsbbbb fbbbb xnsbbbb gbbbb rbbbb
+xwebbbb xwewbbb xwsbbbb csnbbbb fbbbb cwebbbb fbbbb cnsbbbb fbbbb xnebbbb xwebbbb xwebbwb
+obbbb gbbbb xnsbbbb csnbbbb fbbbb rbbbb fbbbb cnsbbbb fbbbb xesbbbb xewbbbb xewwbbb
+rbbbb obbbb xnsbbbb csnbbbb fbbbb obbbb fbbbb cnsbbbb fbbbb xnsbbbb gbbbb rbbbb
+fbbbb gbbbb xnsbbbb csnbbbb obbbb fbbbb gbbbb cnsbbbb fbbbb xnsbbbb obbbb fbbbb
+gbbbb obblb xnsbbbb cenbbwb cewbbbb cewbbwb cewbbbb cnwbbwb fbbbb xnebbwb xwebbwb xwebblb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+fpbbb fwbbb fwbbb xwewbbb xwewbbb xwewbbb xwewbbb rwbbb rwbbb hlbbb xewwbbb xswwwbb
+fbbbb fbbbb fbbbb xwebbbb xwebbbb xwebbbb xwebbbb rbbbb rbbbb hbbbb cewbbbb xsnwbwbb
+fbbbb fbbbb fbbbb xwebbbb xwebbbb xwebbbb xwebbbb rbbbb rbbbb hbbbb fbbbb xsnbwbb
+fbbvb fbbbb fbbbb xwebbwb xwebbwb xwebbwb xwebbbb rbbbb rbbbb hbbwb fbbbb xsnbwbb
+xewwbbb xswbbbb fbbbb ftbdb plwbb fwbbw cesbbbb cewbbbb cewbbbb cewwbbb cswbbbb xsnbwbb
+gbbbb xsnbbbb fbbbb gwbbb hbwbb fbbbw cnsbbbb xsebbbb xwebbbb xwsbbbb csnbbbb xsnbwbb
+obbbb xsnbbbb fbbbb fbbbb obwbb fbbbw cnsbbbb xsnbbbb obbbb xnsbbbb csnbbbb xsnbwbb
+xwebbbb xwnbbbb fbbbb fbbbb fbwbb fbbbl cnsbbbb xsnbbbb rbbbb xnsbbbb csnbbbb xsnbwbb
+xewbbbb xswbbbb fbbbb fbbbb fbwbb fbbbw cnsbbbb xsnbbbb fbbbb xnsbbbb csnbbbb xsnbwbb
+obbbb xsnbbbb fbbbb fbbbb fbwwb fbbbw cnsbbbb xsnbbbb gbbbb xnsbbbb csnbbbb xsnbwbb
+gbbbb xsnbbbb fbbbb cwebbbb cwewbbb rbbbb cnsbbbb xenbbbb xewbbbb xnwbbbb csnbbbb xsnbwbb
+xwebbwb xwnbbwb fbbbb cwebbwb cwebbwb rbblb cnebbwb cwebbwb cwebbwb cwebbwb cwnbbwb xwnbwwb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,9,9 3,1,11,1 3,1,6,12 3,1,11,12 3,1,8,6 

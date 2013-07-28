@@ -1,0 +1,41 @@
+name: 007
+description: Tricksy danger room
+7 Flags
+Designed by okgo
+length: medium
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+5,2 4,2 6,2 3,2 7,2 2,2 1,2 8,2 
+fbbbb fbbbb fbbbb cesbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb obbbb
+fbbbb fbbbb fbbbb gbbbb
+fbbbb fbbbb fbbbb obbbb
+fbbbb fbbbb fbbbb gbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsnwbbbb csnbbbb xsnbbbb fwbbb flbbb gwbbb flbbb pwbbb flbbb flbbb fbbbb pwwbb
+xsnbbbb csnbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+xsnbbbb csnbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbbwb fbbbb obbwb
+xsnbbbb csnbbbb xensbbbb fbbbb fbbbb fbbbb fbbwb fbbbb csnwbbb fwbbb fbwbb fwwbw
+xsnbbbb csnbbbb xnsbbbb fbbwb fbbbb obbbb fwbbb fbwbb csnbwbt fbbbw fbwbb fbwbw
+xsnbbbb csnbbbb xnsbbbb fwbbb obbbb pbbbb cnsbwbb rbbbw csnbbbb fbbbb fbbbb fbwlb
+xenbbbb xenwbbbb xnwbbbb fbbbb fbbbb cwebbbb fbbbb xwebbbb xwebbbb xwebbbb fbbbb fwwbb
+obbbb gbbbb obbbb gbbbb hbbbb pbbbb csnbbbb pbbbb fbvbb fbbbv fbbbb fbvbb
+gbbbb obbbb gbbbb obbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+obbbb fbbbb obbbb gbbbb fbbbb xsebbbb xwebbwb xwsbbbb fbbbb fbbbb csnbbbb fbvbb
+gbbbb obbbb gbbbb obbbb fbwbb xsnbbbv fwbwb xnsbwbb fbbbw hbbbb pbbbb fbpbb
+obbwb hbbbb obbwb gbbbb fbbwb xenbbbb xewwbbb xnwbbbb fbbbb xnebbbb xwebbbb xwebbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,8 3,1,9,12 3,1,10,2 3,1,1,11 3,1,11,7 3,1,7,7 3,1,4,12 

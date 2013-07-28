@@ -1,0 +1,43 @@
+name: Vaccuum Effect
+description: Don't cross the streams.
+Or, something like that.
+4 flags that move.
+designed by i8flesh.
+length: long
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbwbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbwwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbwbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+cwsbbbb fbbbb flbbb fbbbb flbbb csnbbbb fbbbb fbbbb fbbbb fbbbb cesbbbb cnwbbbb
+cnebbbb cwsbbbb fbbwb fbbbb fbbbb csnbbbb fbbbb fbbbb fbbbb cesbbbb cnwbbbb fbbbb
+fbbbb cnebbbb cwswbbb fbbbb fbbbb csnbbbb rbbbb fbbbb cesbbbb cnwbwbb fbbbw fblbb
+fbbbb fbbbb cnebbbb cwsbbbb fbbwb csnbbbb fbbbb cesbbbb cnwbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cnebbbb csewbbb cwnbbbb csebbbb cwsbwbb fbbbw fbbbb fbbbb fblbb
+fbbbb fbbbb rbbbb fbbbb cenbbbb pbbbb pbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb pbbbb pbbbb cwsbbbb fbbbb rbbbb fbbbb fbbbb
+fbbbl fbbbb fbbbb fbwbb cenbbbw cnwbbbb cesbbbb cnwbbwb cswbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb csebbbb cwnbbbb fbbbb cnsbbbb fwbbb cenbbbb cswbbbb fbbbb fbbbb
+fbbbl fbwbb csebbbw cwnbbbb fbbbb rbbbb cnsbbbb fbbbb fbbbb cenbbwb cswbbbb fbbbb
+fbbbb csebbbb cwnbbbb fbbbb fbbbb fbbbb cnsbbbb fbbbb fbbbb fwbbb cenbbbb cswbbbb
+csebbbb cwnbbbb fbbbb fbbbb fbbbb fbbbb cnsbbbb fbblb fbbbb fbblb fbbbb cenbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 3,1,7,1 3,1,4,8 3,1,9,5 

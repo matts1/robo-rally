@@ -1,0 +1,39 @@
+name: Thunder Dome
+description: Cage match to the death...watch out for hidden lasers!
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbwb fbbwb fbbwb fbbwb fbbbb fbbwb fbbwb fbbwb fbbbb pbbbb fbbbb fbbbb
+fwbbb fwbbb fwwbb fwbbw hbbbb fwbbb fwbbb fwbbb fbbbb fbbbb pbbbb fbbbb
+fbbbl fbbbb fbbbb obbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb fbbbw fbbbb gbbbb cnsbbbb obbbb fbbbb fbwbb fbbbw fbbbb
+fbbbw fbbbb fbbbb fbbbb fbbbb cwebbbb fbbbb cewbbbb fbbbb fbwbb fbbbw fbbbb
+fbbbw fbbbb fbbbb fbbbb fbbbb obbbb csnbbbb gbbbb fbbbb fbwbb fbbbw fbbbb
+fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb
+fbbbl fbbbb fbbbb gbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbwb fbbwb fbwwb fbbww fbbbb fbbwb fbbwb fbbwb hbbbb fbbbb pbbbb fbbbb
+fwbbb fwbbb fwbbb fwbbb fbbbb fwbbb fwbbb fwbbb fbbbb pbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,10 3,1,10,10 3,1,10,4 3,1,3,4 3,1,6,2 3,1,6,7 3,1,11,11 3,1,2,11 

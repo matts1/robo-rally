@@ -1,0 +1,60 @@
+name: Twisted Strands - Teams
+description: 5 flags, 3 moving
+Original course designed by Spacebug
+Adapted for team use by timmonte
+Uses Tandem Carnage rules
+length: long
+difficulty: hard
+players: 4 8
+team: true
+rules: teamonetouchalltouch flagsmove
+newsboard:
+blank starting board
+6,1 11,3 7,1 2,3 4,2 12,4 9,2 1,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbbbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwbbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbbwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbbbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb flbbb fbbbb flbbb fbbbb cnsbbbb fwbbb cesbbbb cswwbbb fbbwb rbbbb
+fbbbb gbbbb fbbwb gbbbb fbbwb csebbbb cnsbbbb cwebbbb cwebbbb cwnbbbb fwwbb fbbbw
+fbbbl fbwbb fwbbw fbbbb fwbbb cenbbbb cnwbbbb fbbbb cnsbbbb rbbbb cesbbbb cswbbbb
+fbbbb gbbbb fbbbb csebbbb cwebbbb cwsbbbb csebbbb cwebbbb cnsbbbb cwebbbb cwebbbb cwnbbbb
+fbbbl fbwbb fbbbw csnbbbb fbbbb cnsbbbb csnbbbb fbbbb cnsbbbb fbbbb cnsbbbb fbwbb
+fbbbb csebbbb cwsbbbb cenbbbb cewbbbb cewbbbb csnbbbb cewbbbb cnwbbbb csebbbb cnsbbbb cwebbbb
+cewbbbb csnbbbb cnwbbbb csebbbb cwebbbb cnsbbbb cwebbbb cwebbbb cwsbbbb cenbbbb cnwbbbb fbbbb
+fbbbw csnbbbb fbbbb csnbbbb fbbbb cnsbbbb csnbbbb fbbbb cnsbbbb fbwbb fbbbl fbwbb
+cesbbbb cewbbbb cewbbbb csnbbbb cewbbbb cnwbbbb cenbbbb cewbbbb cnwbbbb fbbbb obbbb fbbbb
+cnebbbw cwnbbbb hbbbb csnbbbb fbbbb csebbbb cwsbbbb fbbwb fbbbb fbwwb fbbbl fbwbb
+fbwbb fbbww cesbbbb cewbbbb cewbbbb csnbbbb cnwbbbb fwbbb obbbb fwbbb obbbb fbbbb
+fbbbb fwbbb cnebbwb cwnbbbb fbbwb csnbbbb fbbbb fbblb fbbbb fbblb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+rbbbb fbbwb cesbbbb cswbbbb fbbbb csnbbbb fbbbb flbbb fbbbb flbbb fbbbb fbbbb
+fbwbb fwbbw cnebbbb csnbbbb cwebbbb cwebbbb cwsbbbb fbbwb obbbb fbbwb obbbb fbbbb
+cesbbbb cswbbbb fbbbb csnbbbb rbbbb cenbbbb cnwbbbb fwbbb fbbbb fwwbb fbbbw fblbb
+cnebbbb csnbbbb cwebbbb cwebbbb cwebbbb cwsbbbb csebbbb cwebbbb cwsbbbb fbbbb obbbb fbbbb
+fbbbb csnbbbb fbbbb csnbbbb fbbbb cnsbbbb csnbbbb fbbbb cnsbbbb fbwbb fbbbw fblbb
+cwebbbb cwebbbb cwsbbbb cenbbbb cewbbbb cewbbbb csnbbbb cewbbbb cnwbbbb csebbbb cwsbbbb fbbbb
+fbbbb cenbbbb cnwbbbb csebbbb cwebbbb cnsbbbb cwebbbb cwebbbb cwsbbbb cenbbbb cewbbbb cewbbbb
+fbbbw fblbb fbbbw csnbbbb fbbbb cnsbbbb csnbbbb fbbbb cnsbbbb fbbbb cnsbbbb fbbbb
+fbbbb fbbbb gbbbb cenbbbb cewbbbb cnwbbbb cenbbbb cewbbbb cewbbbb cewbbbb cnsbbbb cswbbbb
+fbbbw fblwb fbbbw fbbwb fbbbb csebbbb cwsbbbb hbbbb cnsbbbb fbbbb cnebbbb cwnbbbb
+fbbbb fwbbb gbbbb fwbbb gbbbb cenbbbb cewbbbb cewbbbb cnsbbbb cswbbbb fbbbb fbbbb
+fbbbb fbblb fbbbb fbblb fbbbb fbbbb cnsbbbb fbbbb cnebbbb cwnbbbb fbbbb fbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,1,5,10 3,2,11,1 3,1,7,1 3,2,12,7 3,2,1,6 

@@ -1,0 +1,45 @@
+name: Danger Zone
+description: 4 Flags (1 moving)
+2 Options, 3 Repairs.
+Let the Conveyors Take you
+Through the Fun Zone
+Created By: Mongo441
+2010 Map Editing Contest Submission
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xesbbbb xewbbbb xesbbbb xewbbbb xewbbwb xswbbbb xewbbwb xesbbbb xewbbwb xswbbbb xewbbbb xswbbbb
+xnsbbbb fbbbb xnsbbbb fbbbb fwbbb xsnbbbb hlbbb xnsbbbb fwbbb xsnbbbb rbbbb xsnbbbb
+xesbbbb xewbbbb xnwbbbb fbbbb fbbbb xenbbbb xewbbbb xnwbbbb fbbbb xenbbbb xewbbbb xswbbbb
+xnsbwbb fbbbv fbbbb xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb fbbbb fbwbb xsnbbbw
+xnsbbbb obbbb fbbbb xnsbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb obbbb xsnbbbb
+xnsbwbb cnsbbbw fbbbb xnsbbbb rbwbb pbbbw pbwbb fbbbw xsnbbbb fbbbb cnsbwbb xsnbbbw
+xnsbwbb csnbbbw fbbbb xnsbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb csnbwbb xsnbbbw
+xnsbbbb gbbbb fbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb fbbbb gbbbb xsnbbbb
+xnsbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbvbb xsnbbbw
+xnebbbb xwebbbb xwsbbbb fbbbb fbbbb xsebbbb xwebbbb xwsbbbb fbbbb xsebbbb xwebbbb xwnbbbb
+xnsbbbb rbbbb xnsbbbb fbbbb fbbwb xsnbbbb hbbwb xnsbbbb fbbwb xsnbbbb fbbbb xsnbbbb
+xnebbbb xwebbbb xnebbbb xwebbbb xwewbbb xwnbbbb xwewbbb xnebbbb xwewbbb xwnbbbb xwebbbb xwnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,8 3,1,1,11 3,1,11,11 3,1,2,2 

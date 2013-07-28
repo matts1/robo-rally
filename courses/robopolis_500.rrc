@@ -1,0 +1,55 @@
+name: Robopolis 500
+description: Drag racing on a three tier track
+length: long
+difficulty: mid
+players: 2 8
+newsboard:
+Racetrack start
+11,4 12,4 12,3 11,3 11,2 12,2 12,1 11,1 
+flbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbblb fbbwb fbbbb fbbbb
+fwbbb fdbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbdb fbbwb fbbbb
+fbbbb fwbbb ftbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbtb fbbbb
+fbbwb fbbwb fwbwb fbbwb
+fwbbw fwbbb fwbbb fwbbb
+fbbww fbbwb fbbwb fbbwb
+endboard
+sboard: Racetrack start
+newboard:
+racetrack left
+fpwbw fwbbw xsewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb
+obbbw xsebbbb xwenbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+hbwbw xsnbbbw xsnbbbb csebbbb cwebbwb cwebbwb cwebbwb cwebbwb cwebbwb cwebbwb cwebbwb cwebbwb
+rbwbw xsnbbbw xsnbbbb csnbwbb fwbbw pwbbb pwbbb fwbbb fwbbb fwbbb fwbbb fwbbb
+hbwbw xsnbbbw xsnbbbb csnbwbb pbbbw fbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+obbbw xsnbbbb xsnbbbb csnbwbb pbbbw pbbbb fbbbb fbbbb pbbbb pbbbb pbbbb fbbbb
+fbwbw xsnbbbw xsnbbbb csnbwbb pbbbw fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb
+fbwbw xsnbbbw xsnbbbb csnbwbb pbbww fbbwb pbbwb fbbwb pbbwb pbbwb pbbwb fbbwb
+fbwbw xsnbbbw xsnbbbb cenbbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb
+fbwpw xenbbww xenwbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+cewwbbb cewwbbb cewsbbbb xewbbwb xewbbwb xewbbbb xewbbwb xewbbwb xewbbwb xewbbbb xewbbwb xewbbwb
+cewbbwb cewbbwb cnwbwwb fwbwp fwbwb obbwb hwbwb rwbwb hwbwb obbwb fwbwb fwbwb
+endboard
+board: 3,1 0 racetrack left
+newboard:
+racetrack right
+xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwswbbb fwwbb fpwbw
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xnsebbbb xwsbwbb fbwbw
+cwebbwb cwebbwb cwebbbb cwebbwb cwebbwb cwebbwb cwebbbb cwebbwb cwsbbbb xnsbbbb xnsbwbb fbwbw
+pwwbb fwbwp gbbwb hwbwb rwbwb hwbwb gbbwb fwpwb cnsbbbw xnsbbbb xnsbwbb fbwbw
+pbbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwwbb cnsbbbw xnsbbbb xnsbwbb fbwbw
+pbbbb pbbbb pbbbb fbbbb pbbbb pbbbb pbbbb fbwbb cnsbbbw xnsbbbb xnsbbbb obwbb
+pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbwbb cnsbbbw xnsbbbb xnsbwbb hbwbw
+pbbwb pbbwb pbbwb fbbwb pbbwb pbbwb pbbwb fbwwb cnsbbbw xnsbbbb xnsbwbb rbwbw
+cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cnwbbbb xnsbbbb xnsbwbb hbwbw
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb xnsbbbb obwbb
+xewbbwb xewbbwb xewbbwb xewbbwb xewbbbb xewbbwb xewbbwb xewbbwb xewbbbb xewbbwb xnwbwwb fbwbw
+fwpwb fwbwp fwbwb fwbwb obbwb hwbwb rwbwb hwbwb obbwb fwbwb fwpwb fbwpw
+endboard
+board: 3,2 0 racetrack right
+flags: 3,2,9,11 3,1,2,10 3,1,10,7 3,2,4,5 3,2,9,7 3,1,8,1 

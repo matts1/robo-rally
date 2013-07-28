@@ -1,0 +1,39 @@
+name: Volcanic Cavern
+description: Some of them ledges ain't got any edges
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb pwbbb pwbbb fbbbb fbbbb fbbbb fbbbb fbbwb hbbbb
+fbbwb fbbbb fbbbb fbwbb pbbtw pbbdb pbbbb pbbbb pbbbb pbbbb pllbb fbwbw
+ptbbd pbwbb fbbbw fbbbb fwbbb fwbbb fbbbb fbbbb fbbbb fbbbb pbbbb fbwbb
+pbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb fbwbb
+pbbwl pbwbb fbbbw fbbbb xesbbbb xewbbwb xswbbbb fbbbb fbwbb fbbbl fbbwb fbwbb
+fwbbb fbbbb fbbbb fbbbb pbbbb pdbbb xwnbbwb fbbbb fbbbb fbbbb pdbbb fbwbb
+fbbwb fbbbb fbbbb fbbbb pbbbb pbbtb xwswbbb fbbbb fbbbb fbbbb pbblb fbwbb
+pwbbl pbwbb fbbbw fbbbb xenbbbb xewwbbb xnwbbbb fbbbb fbbbb fbbbb fwbbb fbbbb
+pbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbbbb
+pbbld pbwbb fbbbw fbbbb fbbwb fbbwb fbbbb fbbbb fbbbb fbbbb pwbbb fbwbb
+fwbbb fbbbb fbbbb fbwbb ptbbw pdbbb pbbbb pbbbb pbbbb pbbbb pbllb fbwbw
+fbbbb fbbbb fbbbb fbbbb pbbwb pbbwb fbbwb fbbwb fbbwb fbbwb fwbwb hbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,7 3,1,12,7 3,1,1,7 3,1,7,7 

@@ -1,0 +1,41 @@
+name: Obstacle course
+description: Be the first robot to complete the obstacle course and reach flag 1!
+WARNING: This course should only be played with an even number of bots.
+Course designed by Spacebug.
+length: short
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,1 4,1 7,1 9,1 3,4 1,4 10,4 12,4 
+pbbbb pbbbb pbwbb fwbbw
+pbbbb pbbbb pbwbb fbbbw
+pbbwb pbbwb pbwwb fbbww
+fwbbw fdbbb gwbbb fwbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbww fbbwb obbwb fbbdb
+fwbbw fdbbb gwbbb fwbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbww fbbwb obbwb fbbdb
+pwbbb pwbbb pwwbb fwbbw
+pbbbb pbbbb pbwbb fbbbw
+pbbbb pbbbb pbwbb fbbww
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fdbbb gwbbb fwbbb fwbbb fpbbb fwbbb pwbbb fwbbb fpbbb fvbbb owwbb pbbww
+fbbbb fbbbb fbbbb fbbbb pbbbb rbbbb fbbbb fbbbb pbbbb pbwbb xewbbbw xswwwbb
+fbbwb obbwb fbbdb fbbwb fbbpb fbbwb pbbwb fbbwb fbbpb fbbvb gbwwb xsnbwbw
+fwbbb fpbbb fwbbb pwbbb fwbbb fpbbb fvbbb owwbb pwbww pwbwb pwwwb xsnbwbw
+fbbbb pbbbb rbbbb fbbbb fbbbb pbbbb pbwbb xewbbbw xewwbwb xewwbwb xewwbwb xsnwbwbb
+fbbwb fbbpb fbbwb pbbwb fbbwb fbbpb fbbvb gbwwb pwbww pwbwb pwwwb fbwbw
+fwbbb fpbbb fwbbb pwbbb fwbbb fpbbb fvbbb owwbb pwbww pwbwb pwwwb xnsbwbw
+fbbbb pbbbb rbbbb fbbbb fbbbb pbbbb pbwbb xewbbbw xewwbwb xewwbwb xewwbwb xnwsbwbb
+fbbwb fbbpb fbbwb pbbwb fbbwb fbbpb fbbvb gbwwb pwbww pwbwb pwwwb xnsbwbw
+fdbbb gwbbb fwbbb fwbbb fpbbb fwbbb pwbbb fwbbb fpbbb fvbbb owwbb xnsbwbw
+fbbbb fbbbb fbbbb fbbbb pbbbb rbbbb fbbbb fbbbb pbbbb pbwbb xewbbbw xnwbwwb
+fbbwb obbwb fbbdb fbbwb fbbpb fbbwb pbbwb fbbwb fbbpb fbbvb gbwwb pwbbw
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 

@@ -1,0 +1,43 @@
+name: A fishy knot
+description: Flags: 4
+Special rules: Flags move
+Number of boards: 1
+Course by spacebug	
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbwbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbwwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbwbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+rbbbb fbbbb fwbbb fbbbb csewbbb cwebbbb cwebbbb cwewbbb cwsbbbb fwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb cesbbbb cnsbbbb cewbbbb cswbbbb fbbbb
+fbbbb fbbbb csebbbb cwebbbb cwebbbb cwebbbb cwsbbbb cnsbbbb cnsbwbb fbbdd csnbbbb fbwbb
+fbbbb fbbbb csnbbbb fbbbb csnbbbb hbbbb cnsbbbb cnebbbb cwebbbb cwewbbb csnbbbb cwsbbbb
+cesbbbb cewbbbb cewbbbb cewbbbb csnbbbb cewbbbb cnwbbbb pbbbb cnebbbb cwebbbb cwnbbbb cnsbwbb
+cnsbbbb fbbbb csnbbbb rbbbb csnbbbb fbbbb fbbbb csebbbb cwebbbb cwsbbbb fbbbb cnsbbbb
+cnebbbb cwebbbb csnbbbb cwebbbb cwnbbbb fbbbb fbbbb csnbbbb hbbbb cnsbbbb fbbbb cnsbbbb
+fbbbb fbbbb csnbbbb fbbbb fbbbb cesbbbb cewbbbb csnbbbb cewbbbb cewbbbb cewbbbb cnwbwbb
+csebbbb cwebbbb cwebbbb cwsbbbb fbbbb cnsbbbb rbbbb csnbbbb fbbbb cnsbbbb fbbbb xsebbbb
+cenbbbb cewbbbb csnbbbb cewbbbb cewbbbb cnsbbbb cewbbbb cewbbbb cewbbbb cnwbbbb xesbbbb xesbwbb
+fbbbb fbbbb csnbbbb cnsbbbb fbbbb cnsbbbb fbbbb csnbbbb fbbbb xsebbbb xesbbbb xsebbbb
+rbbbb fbbbb cenbbwb cnwbbbb fbbwb cnebbbb cwebbbb cwnbbwb xesbbbb xesbbwb xsebbbb xwnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,7 3,1,10,3 3,1,4,9 3,1,1,12 

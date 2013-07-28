@@ -1,0 +1,88 @@
+name: Charybdis
+description: Moving targets not big enough for you? The board is bigger, there are more conveyors, lasers and a bigger pit!  Don't worry, there are still only 4 flags!
+length: long
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbwbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbwwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbwbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+rbbbb csnbbbb fvbbb fbbbb fpbbb csnbbbb cnsbbbb fpbbb fbbbb fvbbb cnsbbbb hbbbb
+fbbbb cenbbbb cewbbbb cewbbbb cewbbbb cenwbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+fbbbv xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+fbbbb xnsbbbb cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+fbbbp xnsbbbb cnsbbbb xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+fbbbb xnsbbbb cnsbbbb xnsbbbb cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbwb cewbbbb
+xewbbbb xnwsbbbb cnsbbbb xnsbbbb cnsbbbb xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewlbbb xewbbwb
+fbbbp xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewwbbb
+fbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+fbbbv xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cesbbbb cewbbbb cewbbbb cewbbbb
+xewbbbb xnwsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnsbwbb xesbbbw pbbbb pbbbb
+fbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbwbb cnsbbbl xnsbbbb pbbbb pbbbb
+endboard
+board: 2,1 0 blank board
+newboard:
+blank board Copy
+cnsbbbb csnbbbb fvbbb fbbbb fpbbb csnbbbb cnsbbbb fpbbb fbbbb fvbbb fbbbb rbbbb
+cewbbbb cenwbbbb cewbbbb cewbbbb cewbbbb cenwbbbb cewbbbb cewbbbb cewbbbb cswbbbb xsebbbb xwebbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb csnbbbb xsnbbbb fbvbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb xsnbbbb csnbbbb xsnbbbb fbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb fbpbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb xsnbbbb csnbbbb xsnbbbb csnbbbb xsenbbbb xwebbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb cewbbbb
+cewbbwb cewbbbb cewbbbb cswbbbb xsnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb fbpbb
+xewlbbb xewbbwb xswbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb fbbbb
+cewbbbb cswwbbb xsnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb fbvbb
+pbbbb pbbbb xsnbbbb csnbbbb xsnbbbb csnblbb xsnbbbw csnbbbb xsnbbbb csnbbbb xsnbbbb cewbbbb
+pbbbb pbbbb xsnbbbb csnbbbb xsnbwbb csnbbbw xsnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb hbbbb
+endboard
+board: 2,2 0 blank board Copy
+newboard:
+blank board Copy Copy
+fbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnsbwbb xnsbbbw cnsbbbb xnsbbbb pbbbb pbbbb
+fbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbwbb cnsbbbl xnsbbbb cnsbbbb xnsbbbb pbbbb pbbbb
+fbbbv xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnebbwb cwebbbb
+fbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnebbbb xwewbbb xwebblb
+fbbbp xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnebbbb cwebbbb cwebbbb cwewbbb
+fbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+xewbbbb xnwsbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+fbbbp xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+fbbbb xnsbbbb cnsbbbb xnsbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+fbbbv xnsbbbb cnsbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+xewbbbb xnwbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwsebbbb cwebbbb cwebbbb cwebbbb cwsebbbb cwebbbb
+rbbbb fbbbb fbbvb fbbbb fbbpb csnbbbb cnsbbbb fbbpb fbbbb fbbvb cnsbbbb csnbbbb
+endboard
+board: 3,1 0 blank board Copy Copy
+newboard:
+blank board Copy Copy Copy
+pbbbb pbbbb xsnbbbb csnblbb xsnbbbw csnbbbb xsnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb cewbbbb
+pbbbb pbbbb xwnbwbb csnbbbw xsnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb csnbbbb xsenbbbb xwebbbb
+cwebbbb cwebbbb cwebbbb cwnbbbb xsnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb fbvbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb fbbbb
+cwebbwb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb xsnbbbb csnbbbb xsnbbbb csnbbbb xsnbbbb fbpbb
+xwewbbb xwebblb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb csnbbbb xsnbbbb csnbbbb xsenbbbb xwebbbb
+cwebbbb cwewbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb xsnbbbb csnbbbb xsnbbbb cewbbbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb csnbbbb xsnbbbb fbpbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb xsnbbbb fbbbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb fbvbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwsebbbb cwebbbb cwebbbb cwebbbb cwsbbbb fbbbb
+hbbbb csnbbbb fbbvb fbbbb fbbpb csnbbbb cnsbbbb fbbpb fbbbb fbbvb cnsbbbb rbbbb
+endboard
+board: 3,2 0 blank board Copy Copy Copy
+flags: 2,2,2,12 3,1,11,1 3,1,12,11 2,2,1,2 

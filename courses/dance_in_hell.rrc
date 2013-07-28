@@ -1,0 +1,39 @@
+name: Dance In Hell
+description: 1 Board, 4 Flags.  Welcome. Care to dance?  Designed by CaptainColeslaw
+length: medium
+difficulty: hard
+players: 2 4
+newsboard:
+Congestion start
+5,4 8,4 6,3 7,3 8,3 7,4 6,4 5,3 
+fwbbb fwbbb fwbbb fwwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbwb fbbwb
+cewbbbw cewbbbb cewwbbb owwbb
+xsebbbw xwebbbb xwebbbb xwsbwbb
+xsnbbbw xesbbbb xswbbbb xnsbwbb
+xsnbbbw xnebbbb xwnbbbb xnsbwbb
+xenbbbw xewbbbb xewbbbb xnwbwbb
+cewbbbw cewbbbb cewbbwb gbwwb
+fbbbb fbbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbwb fbbwb fbbwb fbbwb
+endboard
+sboard: Congestion start
+newboard:
+Dance in Hell board
+pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbwb pbbbb pbbwb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb rwwbb
+censbwbb pbbbw censbbbb pbbbb censbbbb pblbb fbbbw fbbbb fbbbb gbbbb fbbbb censbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb fbbbb fbbbb fbbwb fbbwb fbbbb fbbwb rbwwb
+xwsnbbbw pbbbb xwsnbbbb pbbbb xwsnbbbb pblbb fbwbw flbbl cewwbbb fbbbb cwewbbb fwwbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb fbbbb fbwbb csnbbbw xsebbbb xwebbbb xwsbbbb csnbbbb
+cwsnbbbw pbbbb cwsnbbbb pbbbb cwsnbbbb pblbb fbwbw fbbbw xsnbbbb gbbbb xnsbbbb fbwbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb fbbbb fbwbb cnsbbbw xenbbbb xewbbbb xnwbbbb cnsbbbb
+xwsnbbbw pbbbb xwsnbbbb pbbbb xwsnbbbb pblbb fbwbw fbbww cewbbwb fbbbb cwebbwb fbllb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb fbbbb fbbbb fwbbb fwbbb fbbbb fwbbb rwwbb
+censbwbb pbbbw censbbbb pbbbb censbbbb pblbb fbbbw fbbbb fbbbb obbbb fbbbb censbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbbbb rbwwb
+endboard
+board: 3,1 0 Dance in Hell board
+flags: 3,1,7,12 3,0,2,2 3,0,11,2 3,1,7,8 

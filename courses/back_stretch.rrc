@@ -1,0 +1,39 @@
+name: Back Stretch
+description: A remake of the Back Stretch board from the Grand Prix expansion.  By Wiggfield. 
+length: long
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+fbbbb fbwbb fbbbw fbbbb
+fbbwb fbwwb fbbbw fbwbb
+ftbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbtb fwbwb fbbbb fbbbb
+fwbbb fwwbb fbbbw fbbbb
+fbbbb fbwbb fbbbw fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb xsnbbbb fwbbb rbbbb fwbbb xsnbbbb fbbbb fwbbb xsnbbbb fwbbb fbbbb pbbbb
+hbbbv xsenbbbb xwebbbb xwebbbb xwebbbb xwenbbbb xwebbbb xwebbbb xwenbbbb xwebbbb xwsebbbb xwebbbb
+fbbbb xsnbbbb fbbbb fbbbb pbbbb fbbbb gbbbb obbbb gbbbb fbbbb xnsbbbb fbwbb
+xewbbbb xsnwbbbb obbbb csebbbb cwebbbb cwebbwb cwebbbb cwebbbb cwsbbbb fbbbb xnsbbbb fbbbb
+fbbbb xsnbbbb gbbbb csnbbbb hbbbb fwbbb obbbb gbbbb cnsbbbb rbbbb xnsbbbb fbwbb
+fbbbb xsnbbbb obbbb cnsbwbb fbbbp pbbbb pbwbb fbbbp cnsbbbb fbbbb xnsebbbb xwebbbb
+xewbbbb xsnwbbbb fbbbb csnbbbb fbbvb gbbbb obbwb gbbbb cnsbbbb pbbbb xnsbbbb fbbbb
+fbbbb xsnbbbb rbbbb csnbbbb fwwbb fbbbw opbbb fbbvb cnsbbbb fbbbb xnsbbbb fbdbb
+fbbbb xsnbbbb fbbbb csnbbbb fbbbb fbbbb gbbbb fwbbb cnsbbbb obbbb xnsebbbb xwebbbb
+fbbbb xsnbbbb pbbbb csnbbbb fbbbb hbbbb obbbb fbbbb cnsbbbb gbbbb xnsbbbb fbwbb
+xewbbbb xsnwbbbb fbbbb cenbbbb cewbbbb cswbbbb cesbbbb cewbbbb cnwbbbb obbbb xnsbbbb hbbbb
+pbbbb xsnbbbb gbbwb obbbb gbbwb csnbbbb cnsbbbb fbbwb fbbbb fbbwb xnsbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,12 3,1,11,3 3,1,1,11 3,1,6,5 

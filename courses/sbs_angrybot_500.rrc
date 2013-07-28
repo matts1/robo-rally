@@ -1,0 +1,39 @@
+name: AngryBot 500
+description: Speedway RoboRacing with Laser Tag bonus features
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsebbbb xwebbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwebbbb xwsbbbb
+xsnbbbb csebbbb cwebbwb cwebbwb cwebbwb cwebbwb cwebbwb cwebbwb cwebbwb cwebbwb cwsbbbb xnsbwbb
+xsnbbbb csnbwbb csewbbw cwewbbb cwewbbb cwewbbb cwewbbb cwewbbb cwewbbb cwswwbb cnsbbbw xnsbwbb
+xsnbbbb csnbwbb csnbbbw xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbbbb cnsbwbb cnsbbbw xnsbwbb
+xsnbbbb csnbwbb csnbbbw xsnbbbb hbwwb fbwbw fbwbw hbbww xnsbbbb cnsbbbb cnsbbbb xnsbbbb
+xsnbbbb csnbwbb csnbbbw xsnbbbb fwbwb fbbbb fbbwb fwbwb xnsbbbb cnsbbbb cnsbbbb xnsbbbb
+xsnbbbb csnbwbb csnbbbw xsnbbbb fwbwb fbwbb fwbbw fwbwb xnsbbbb cnsbbbb cnsbbbb xnsbbbb
+xsnbbbb csnbwbb csnbbbw xsnbbbb hwwbb fbwbw fbwbw hwbbw xnsbbbb cnsbbbb cnsbbbb xnsbbbb
+xsnbbbb csnbwbb csnbbbw xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb cnsbwbb cnsbbbw xnsbwbb
+xsnbbbb csnbwbb cenbbww cewbbwb cewbbwb cewbbwb cewbbwb cewbbwb cewbbwb cnwbwwb cnsbbbw xnsbwbb
+xsnbbbb cenbbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cnwbbbb xnsbwbb
+xenbbbb xewbbbb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbbb xnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,6 3,1,6,12 3,1,7,2 3,1,7,7 

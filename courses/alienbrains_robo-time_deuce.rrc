@@ -1,0 +1,40 @@
+name: Alienbrain's Robo-Time Deuce
+description: Time flies and so do these eight moving flags on a winding course.
+length: long
+difficulty: expert
+players: 2 8
+rules: flagsmove
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbbbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbbwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbwbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+Robo Time
+xsebbbb xwewbbb xwebbbb xwebbbb xwebbbb cewsbbbb cesbbbb cswbbbb xwebbbb xwebbbb xwewbbb xwsbbbb
+xsnbbbb gbbbb xewbbbb csewbbbb cewsbbbb cnsbbbb csebbbb cwnbbbb csewbbbb xwebbbb gbbbb xnsbwbb
+cewsbbbb cesbbbb cswbbbb csnbbbb cnsbbbb cnwebbbb cenbbwb cewbbbb csnbbbb cesbbbb cswbbbb xnsbbbb
+cnsbbbb cnsbbbb censbbbb cenwbbbb cnwebbbb fbbbb hvbbb pbbbb cenwbbbb csebbbb cwnbbbb xnsbbbb
+cnwebbbw cnebbbb cwnbbbb fbbbb fbbbb fbbbb xnwebbbb fbbbb fbbbb cenbbbb cewbbbb cswbbbb
+cnsebbbb cwsbbbb pbbbb fbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb fbbbb cewbbbb csnwbbbb
+cenbbbb cnsbwbb hbbbv xwsnbbbb xwebbbb xwebbbb obddb rbbbw csnbbbb csnbbbb cwebbbb cwnbbbb
+xsnbbbb cnsbbbb cwsebbbb cswbbbb fbbbb fbbbb rwbbb fbbbb cenbbbb csnbbbb gbbbb xwsbwbb
+xsnbbbb xsnbbbb cnsebbbb cwsnbbbb cwebbbb cwsbbbb gbbbb fbbbb pbbbb csnbbbb xnsbbbb xnsbwbb
+xsnbbbb xsnbbbb cnebbbb cwnbbbb pbbbb cnsbbbb cwsebbbb cswbbbb csewbbbb cwebbbb xnsbbbb xnsbwbb
+xsnbbbb gbbbb xewbbbb xewbbbb xewbbbb cnsbbbb cnsbbbb cswbbbb cenbbbb cswbbbb gbbbb xnsbwbb
+xenbbbb xewbbwb xewbbbb xewbbbb xewbbbb xnwbwbb cnebbww cwnbbwb cwebbwb cwnbbwb xewbbwb xnwbwwb
+endboard
+board: 3,1 0 Robo Time
+flags: 3,1,2,9 3,1,2,11 3,1,5,11 3,1,11,2 3,1,10,10 3,1,11,11 3,1,9,5 3,1,2,2 

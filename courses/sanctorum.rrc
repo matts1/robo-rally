@@ -1,0 +1,46 @@
+name: Sanctorum
+description: "Bone-bleached my decks, wind-scoured to the
+graining; And jarred at every roll, 
+The gear that was my soul 
+Answers the anguish of my beams complaining."
+- Rudyard Kipling
+2012 RoboRally Map Editing Contest entry
+Designed by MrWitherspoon
+length: medium
+difficulty: hard
+players: 2 8
+rules: maxfilltime60 startoptions1c1 flagsmove
+newsboard:
+blank starting board
+6,1 7,2 5,2 8,1 4,1 9,2 1,2 12,2 
+fwbbv fwbbb fwbbb cwewwbb
+fbbbp fbbbb xsebbbb xwnbbbb
+fbbbv fbbbb xnebbbb xwsbbbb
+fbbbw fbbbb fbbbb cnsbwbb
+fbbbw fbbbb fbbbb cnsbwbb
+fbbbw fbbbb fbbbb cnsbwbb
+fbbbw fbbbb fbbbb csnbwbb
+fbbbw fbbbb fbbbb csnbwbb
+fbbbv fbbbb fbbbb csnbwbb
+fbbbp fbbbb xsebbbb xwnbbbb
+fbbbv fbbbb xnebbbb xwsbbbb
+fbbwp fbbwb fbbwb cwebwwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbbd fwbbb fbbwb fbbbb csnbbbb xswbbbb csnbbbb xswbbbb csnbbbb xswbbbb hwbbb fwdbb
+gbbbb fbwbb gwbbw xesbbbb xewbbbb cwebbbb xewbbbb cwebbbb xewbbbb cwebbbb gbbbb rbwbb
+gbbbb fbbbb fbbbb xnsbbbb fbbbb obbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb cewbbwb
+rbbww fbbbb fbbbb xnsbbbb fbbbb fbbbb fbbwb fbbwb fbbwb fbbbb xsnbbbb fwwbb
+xeswbbv xswbbbb obbbb xnsbbbb fbbbb fbwbb fwbbp ftwbb gwlll fbbbw obwbb fbbbp
+xnebbbv xwnbbbb gbbbb fbbbb cwebbbb xwebbbb fbbbb hbvbb fwbbl fblbb obwbw hbbbw
+xesbbbv xswbbbb gbbbb fbbbb cwebbbb xwebbbb fbbbb hbvbb fbbbl fblbb obwbw fbbbp
+xnebbwv xwnbbbb obbbb xnsbbbb fbbbb fbwbb fbbwp fbwpb fbbbw fbbbb obwbb fbbbw
+rwbbw fbbbb fbbbb xnsbbbb fbbbb fbbbb fwbbb fwbbb fbbbb fbbbb xsnbbbb rbwwb
+obbbb fbbbb fbbbb xnsbbbb fbbbb gbbbb obbbb obbbb fbbbb fbbbb xsnbbbb fwbbb
+obbbb fbwbb gbbww xnebbbb cwsebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwsebbbb cwnbwwb fbwbw
+fbbww fbbwb xeswbbb xewbbbb xnwbwbb fbbwp hbbwb fbbwb rblwb xnebbbw xwewbwb xwsbwbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,12,7 3,1,6,1 3,1,6,12 3,1,6,8 

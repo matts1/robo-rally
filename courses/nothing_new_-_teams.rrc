@@ -1,0 +1,44 @@
+name: Nothing New
+description: These aren't the bots you are looking for.
+Move along.
+4 flags that move
+designed by i8flesh
+length: short
+difficulty: mid
+players: 6 8
+team: true
+rules: teamflagtoggle flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb cesbbbb cewbbbb cswbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb cnebbbb cwebbbb cwnbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb pbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbdbb
+gbbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb
+fbbbb fbbbb pbbbb pbbbb csebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwsbbbb
+fbbbb fbbbb pbbbb pbbbb cenbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb
+obbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb pbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbdbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb csebbbb cwebbbb cwsbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb cenbbbb cewbbbb cnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,9 3,1,7,8 3,1,1,12 3,1,12,10 

@@ -1,0 +1,71 @@
+name: Deadly Land Race!
+description: Living is half the battle!
+length: long
+difficulty: hard
+players: 4 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw fwbwb xewwbwb xewwbwb
+fbbbw fwbwb cewwbwb xewwbwb
+fbbbw fwbwb fwbwb fwbwb
+fbbbw fwbwb cewwbwb cewwbwb
+fbbbw fwbwb fwbwb fwbwb
+fbbbw fwbwb cewwbwb cewwbwb
+fbbbw fwbwb cewwbwb cewwbwb
+fbbbw fwbwb fwbwb fwbwb
+fbbbw fwbwb cewwbwb cewwbwb
+fbbbw fwbwb fwbwb fwbwb
+fbbbw fwbwb cewwbwb xewwbwb
+fbbww fwbwb xewwbwb xewwbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewwbwb xewwbwb xewwbwb xswwwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xewwbwb xewwbwb xswwwbb xsnbwbw pbbww pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbwb
+fwbwb fwwwb xsnbwbw xsnbbbw hwwbb pbbww pbbwb pbbbb pbbbb pbbbb pbwbb xeswbbw
+cewwbwb xewwbwb xenwbbwb xenwbbwb xewbbwb xewwbwb xswwwbb pbbbw pbbbb pbbbb pbwbb xnsbbbw
+fwbwb fwbwb fwbwb fwbwb fwbwb fwwwb xsnbwbw pbbww pbbwb pbbwb pbwwb xnsbbbv
+cewwbwb cewwbwb cewwbwb xewwbwb xewwbwb xewwbwb xenwbbwb xewvbbb rpbbb rvbbb xewpbbb xnwbbbb
+cewwbwb cewwbwb cewwbwb xewwbwb xewwbwb xewwbwb xewswbbb xewbbpb rbbvb rbbpb xewbbvb xswbbbb
+fwbwb fwbwb fwbwb fwbwb fwbwb fwwwb xnsbwbw pwbbw pwbbb pwbbb pwwbb xsnbbbv
+cewwbwb xewwbwb xewswbbb xewswbbb xewwbbb xewwbwb xnwbwwb pbbbw pbbbb pbbbb pbwbb xsnbbbw
+fwbwb fwwwb xnsbwbw xnsbbbw hbwwb pwbbw pwbbb pbbbb pbbbb pbbbb pbwbb xenbbww
+xewwbwb xewwbwb xnwbwwb xnsbwbw pwbww pbbwb pbbwb pbbwb pbbwb pbbwb pbwwb fwwbw
+xewwbwb xewwbwb xewwbwb xnwbwwb fwbbw fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fbwbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb fbbbb fbbbb
+xewpbbb xewwbbb xewvbbb xewwbbb xewpbbb xewwbbb rwbwb rwbwb xswwbbb hwwwb fbbbw fbbbb
+xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebwbb hwbww cwewbwb xsnbwbb owwww fbbww fbbwb
+xenbbwb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb rpbbb rvbbb rbbbb xewwbbb xewwbbb xswwwbb
+hwwwb cewbbbw xewbbbb xewbbbb cewbbbb cewbbbb cewbbbb hbbbb rbbbb xewbbbb xswbbbb xsnbwbb
+hwwwb cewbbbw xewbbbb xewbbbb cewbbbb cewbbbb cewbbbb hbbbb rbbbb xewbbbb xsnwbbbb xsnbvbb
+xeswbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb rbbvb rbbpb rbbbb xewbbwb xsnwbbbb xsnbwbb
+xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebwbb hwbww cwewbwb xnsbwbb owwww xsnbbbw xsnbpbb
+xewbbpb xewsbbbb xewbbvb xewsbbbb xewbbpb xewbbwb rwbwb rwbbb xnwbbwb hwwwb xsnbbbw xsnbwbb
+pwwww xnsbwbw pwwww xnsbwbw pwwww xsewbbw xwewbbb xwebbbb xwewbbb xwewbbb xwnbbbb xsnbwbb
+hwbwv xnsbbbb hwbwb xnsbbbb hwvwb xsnbbbw xsebbbb xwebbbb xwebbbb xwebbbb xwebbvb xwnbpwb
+endboard
+board: 3,2 0 blank board Copy
+newboard:
+blank board Copy Copy
+pwwbw xnsbwbw pwwbw xnsbwbw pwwbw xsnbwbw xsnbbbw rbbbb rbbpb rbwvb fwbbw fwbbb
+pbwww xnsbwbw pbwww xnsbwbw pbwww xsnbwbw xsnbbbw rbvbb fwbww pwbwb fbbwb fbbwb
+hwbbw rbbbb rwbbb rbbbb rwbbb rbbbb rbbbb rbbbb rwbbb rwwbb rwbbw hwwbb
+gbbbw gbbbb fbbbb xsebbbb xwsbbbb cesbbbb cswbbbb xesbbbb xswbbbb fbbbb gbbbb gbwbb
+gbbbw gbbbb fbbbb xsnbbbb xnsbwbb cnsbwbl csnblbw xnsbbbw xsnbbbb fbbbb gbbbb gbwbb
+fbbbw fbbbb fbbbb xsnbbbb xnsbwbb hbwbw hbwbw xnsbbbw xsnbbbb fbbbb fbbbb fbwbb
+hbbbv rbbbb fbbbb xsnbbbb xnsbbbb cnsbwbb csnbbbw xnsbbbb xsnbbbb fbbbb rbbbb hbvbb
+obbbw obbbb fbvbb xsnbbbw xnsbbbb cnsbbbb csnbbbb xnsbbbb xsnbwbb fbbbv obbbb obwbb
+obbbw obbbb fbpbb xsnbbbw xnsbwbb cnsbbbw csnbwbb xnsbbbw xsnbwbb fbbbp obbbb obwbb
+fbbbw fbbbb fbbbb xsnbwbb xnsbbbv cnsbwbb csnbbbw xnsbvbb xsnbbbw fbbbb fbbbb fbwbb
+gbbbw gbwbb fbbww xenbbbb xnwbbwb cnebbbb cwnbbbb xnebbwb xwnbbbb fbwwb gbbbw gbwbb
+gbbww hbwwb rwwww pblwl pwwww pbbwd pbdwb pwwww pblwl rwwww hbbww gbwwb
+endboard
+board: 4,2 0 blank board Copy Copy
+flags: 3,2,6,8 4,2,12,2 4,2,3,12 4,2,12,11 4,2,3,1 

@@ -1,0 +1,39 @@
+name: What's the buzzzz
+description: The way seems clear, but watch out...
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+cwebbbb fbbbb fbbbb fwbbb
+cwebbbb fbbbb fbbbb fbbbb
+obbbw fbbbb fbbbb fbbbb
+cwebbbb fbbbb fbbbb fbbbb
+gbbbw fbbbb fbbbb cewbbbb
+cwebbbb fbbbb fbbbb fbbbb
+cwebbbb fbbbb fbbbb obbbb
+gbbbw fbbbb fbbbb cewbbbb
+cwebbbb fbbbb fbbbb fbbbb
+obbbw fbbbb fbbbb fbbbb
+cwebbbb fbbbb fbbbb fbbbb
+cwebbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbbb cewbbbb cewbbbb fbbbb ceswbbb cewwbbb cewwbbb fbbbb flbbb fbbbb hbbbb fbbbb
+fbbbb fbbbb fbbwb fbbbb cnsbbbb cesbbbb pbbbb pbbbb fbbbb fbbbb fbbbb xsnbwbb
+hbbbb xwebbbb xwevbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbbbb fbbbb xsnbwbb
+fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbblb fbbbb fbbbb fbbbb fbbbb fbbbb
+cewbblb xewbbbb xewbbbb xewbbvb xswbbbb fbbbb pwwbb fbbbl fbbbb cnsbbbb fbbbb csnbwbb
+flbbb pbbbb pbbbb pwwbb xenbbbw cewbbbb obbbb fbbbb cewbbwb cnwbbwb csnbbbb fbbbb
+fbpbb pbbbw pbbbb pbwwb xesbbbw cewbbbb gbbbb fbbbb cewwbbb cswwbbb fbbbb fbpbb
+cewbbbb xewbbbb xewbbbb xewvbbb xnwbbbb pbbbb pbbbb xnsbbbb fbbbb csnbbbb cnsbbbb fbbbb
+pbbbb pbbbb pbbbb fbbbb fbblb fbbbb fbbbb xnsbwbb fbbbl rbbbb fbbbb cnsbwbb
+obbbb xwebbbb xwebbvb xwebbbb xwewbbb fbbbb obbbb xnebbbb xwebbbb xwnbbbb fbbbb fbbbb
+fbbbb pbbbb pwbbb fbbbb fbbbb fbbbb fbbbb gbbbb fbbbb fbbbb fbbbb fbwbb
+fbbwb cewbbwb cewbbbb cewbbbb cnwbbwb cewbbwb cewbblb cewbbbb fbbwb fbbwb hbbbb fbwbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,10 3,1,10,6 3,1,7,1 

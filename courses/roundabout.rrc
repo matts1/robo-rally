@@ -1,0 +1,39 @@
+name: Roundabout
+description: Can you march around and survive?
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw flbbb fwbbb flbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbblw fbbwb fbblb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xeswbbb xewwbwb xewwbbb xewwbwb xewwbbb xewswbbb xewswbbb xewwbbb xewwbwb xewwbbb xewwbwb xswwwbb
+xnsbwbb pwbbw fbbbb fwbbb cesbbbb cnwbbwb cnebbwb cwsbbbb fwbbb fbbbb pwwbb xsnbwbw
+xnsbbbw fbbbb fbbbb fbbbb cnebbbb cwswbbb ceswbbb cnwbbbb fbbbb fbbbb fbbbb xsnbwbb
+xnsbwbb fbbbw fbbbb hbbbb fblbb cnsbbbw cnsbwbb fbbbl hbbbb fbbbb fbwbb xsnbwbw
+xnsbbbw csebbbb cwsbbbb fbblb rbbbb cnsbbbb cnsbbbb rbbbb fbblb cesbbbb cswbbbb xsnbwbb
+xnsebbbb cwnbwbb cnebbbw cwewbbb cwebbbb hbwvb hbbwv cewbbbb cewwbbb cnwbwbb cenbbbw xsnwbwbb
+xnsebbbb cwsbwbb csebbbw cwebbwb cwebbbb hwvbb hvbbw cewbbbb cewbbwb cswbwbb cesbbbw xsnwbwbb
+xnsbbbw cnebbbb cwnbbbb flbbb rbbbb csnbbbb csnbbbb rbbbb flbbb cenbbbb cnwbbbb xsnbwbb
+xnsbwbb fbbbw fbbbb hbbbb fblbb csnbbbw csnbwbb fbbbl hbbbb fbbbb fbwbb xsnbwbw
+xnsbbbw fbbbb fbbbb fbbbb csebbbb cwnbbwb cenbbwb cswbbbb fbbbb fbbbb fbbbb xsnbwbb
+xnsbwbb pbbww fbbbb fbbwb cenbbbb cswwbbb csewbbb cwnbbbb fbbwb fbbbb pbwwb xsnbwbw
+xnebbwb xwewbwb xwebbwb xwewbwb xwebbwb xwenbbwb xwenbbwb xwebbwb xwewbwb xwebbwb xwewbwb xwnbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,10 3,1,3,3 3,1,10,3 3,1,10,10 

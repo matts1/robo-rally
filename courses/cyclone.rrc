@@ -1,0 +1,44 @@
+name: Cyclone
+description: A new twiston an old board. The Maelstrom in reverse. 
+4 flags, 2 move
+First Flag in two lasers.
+2 Hammer spots.
+designed by i8flesh
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+Maelstrom
+fbbbb xnsbbbb fvbbb hbbbb fpbbb xnsbbbb cnsbbbb fpbbb fbbbb fvbbb fbbbb rbbbb
+fbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbbbb cesbbbb cewbbbb
+fbbbv xsnbbbb csebbbb cwebbbb cwebbbb cwebbwb cwebbbb cwebbbb cwsbbbb xnsbbbb cnsbbbb fbvbb
+fbbbb xsnbbbb csnbbbb xsebbbb xwebbbb xwelbbb xwebbwb xwsbbbb cnsbbbb xnsbbbb cnsbbbb fbbbb
+fbbbp xsnbbbb csnbbbb xsnbbbb csebbbb cwebbbb cwslbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb fbpbb
+fbbbb xsnbbbb csnbbbb xsnbwbb csnbbbl fbbbb fbbbb xnsbbbb cnsbwbb xnsbbbw cnsbbbb cwebbbb
+xewbbbb xsnbbbb csnbwbb xsnbbbl csnbbbb fbbbb fbbbb xnsbwbb cnsbbbw xnsbbbb cnsbbbb cewbbbb
+fbbbp xsnbbbb csnbbbb xsnbbbb csnbbbb xenbbwb xewbbbb xnwbbbb cnsbbbb xnsbbbb cnsbbbb fbpbb
+fbbbb xsnbbbb csnbbbb xsnbbbb cenbbbb cewwbbb cewbbwb cewbbbb cnwbbbb xnsbbbb cnsbbbb fbbbb
+fbbbv xsnbbbb csnbbbb xenbbbb xewbbbb xewbbbb xewwbbb xewbbbb xewbbbb xnwbbbb cnsbbbb fbvbb
+xewbbbb xsnbbbb cenbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb fbbbb
+rbbbb xsnbbbb fbbvb fbbbb fbbpb fbbbb csnbbbb fbbpb hbbbb fbbvb csnbbbb fbbbb
+endboard
+board: 3,1 0 Maelstrom
+flags: 3,1,7,7 3,1,8,7 3,1,10,12 3,1,5,7 

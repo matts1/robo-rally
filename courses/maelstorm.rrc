@@ -1,0 +1,41 @@
+name: Maelstorm
+description: Can you make your way
+through the maelstorm 
+to achieve victory
+length: medium
+difficulty: expert
+players: 5 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+xenwbbw xswwbbb xenwbbb xsnwwbbb
+xswbbbw xenbbbb xswbbbb xenbbbb
+xenbbbw xswbbbb xenbbbb xswbbbb
+xswbbbw xenbbbb xswbbbb xenbbbb
+xenbbbw xswbbbb xenbbbb xswbbbb
+xswbbbw xenbbbb xswbbbb xenbbbb
+xenbbbw xswbbbb xenbbbb xswbbbb
+xswbbbw xenbbbb xswbbbb xenbbbb
+xenbbbw xswbbbb xenbbbb xswbbbb
+xswbbbw xenbbbb xswbbbb xenbbbb
+xenbbbw xswbbbb xenbbbb xswbbbb
+xewbbww xenwbbwb xewbbwb xenwbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsnwbbb xsewbbb xwnwbbb xsewbbb xwnwbbb xsewbbb xwnwbbb xsewbbb xwnwbbb xsewbbb xwenwbbb xwewwbb
+xsnwbbbb xsnbbbb xsebbbb xwnbbbb xsebbbb xwnbbbb xsebbbb xwnbbbb xsebbbb xwenbbbb xwebbbb xwsbwbb
+xenbbbb xsnwbbbb xsnbbbb xsebbbb xwnbbbb xsebbbb xwnbbbb xsebbbb xwenbbbb xwebbbb xwsbbbb xnebwbb
+xswbbbb xenbbbb xsnwbbbb xsnbbbb xsebbbb xwnbbbb xsebbbb xwenbbbb xwebbbb xwsbbbb xnebbbb xwsbwbb
+xenbbbb xswbbbb xenbbbb xsnwbbbb xsenbbbb xwebbbb xwenbbbb xwsebbbb xwsbbbb xnebbbb xwsbbbb xnebwbb
+xswbbbb xenbbbb xswbbbb xenbbbb xsnwbbbb fbpwb fbbpw xnsbbbb xnebbbb xwsbbbb xnebbbb xwsbwbb
+xenbbbb xswbbbb xenbbbb xswbbbb xsnbbbb fpwbb fwbbp xnsebbbb xwsbbbb xnebbbb xwsbbbb xnebwbb
+xswbbbb xenbbbb xswbbbb xenbbbb xenwbbbb xewsbbbb xewbbbb xnwsbbbb xnsebbbb xwsbbbb xnebbbb xwsbwbb
+xenbbbb xswbbbb xenbbbb xewbbbb xewsbbbb xnwbbbb xesbbbb xnwbbbb xnsbbbb xnsebbbb xwsbbbb xnebwbb
+xswbbbb xenbbbb xewbbbb xewsbbbb xnwbbbb xesbbbb xnwbbbb xesbbbb xnwbbbb xnsbbbb xnsebbbb xwsbwbb
+xenbbbb xewbbbb xewsbbbb xnwbbbb xesbbbb xnwbbbb xesbbbb xnwbbbb xesbbbb xnwbbbb xnsbbbb xnsebwbb
+xewbbwb xewsbbwb xnwbbwb xesbbwb xnwbbwb xesbbwb xnwbbwb xesbbwb xnwbbwb xesbbwb xnwbbwb xnsbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,7 3,1,7,6 3,1,6,6 3,1,6,7 

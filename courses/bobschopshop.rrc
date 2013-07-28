@@ -1,0 +1,41 @@
+name: Bob's Chop Shop
+description: 4 Flags, 1 Board, 2 Flags Move
+Chop Shop With A Twist
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb cesbbbb
+fbbbb fwbwb fbbbb cnsbbbb
+fbbbb fwbwb fbbbb cnebbbb
+fbbbb fwbwb fbbbb xesbbbb
+fbbbb fwbwb fbbbb xnsbbbb
+fbbbb fwbwb fbbbb xnebbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb csnbbbb fwbbb fbbbb fwbbb csnbbbb fbbbb fwbbb csnbbbb fwbbb fbbbb rbbbb
+fbbbb csnbbbb fbbbb fbbbb fbbbb csnbbbb fbwbb fbbbw csnbbbb fbbbb fbbwb fbbbb
+fbbbw cenbbbb cewbbbb pbbbb hbbbb csnbbbb fbbbb fbbbb csnbbbb pbbbb fwbbb fbwbb
+cewbbbb cewbbbb cewbbbb cnwbwbb fbbbl gbbbb fbwbb fbbbw obbbb cewbbbb cewbbbb cewbbbb
+fbbbw fbbbb fbbbb fbbbb fbbbb csnbbbb pbbbb fbbbb fbbwb fbbbb fbblb fbwbb
+cwebbbb cwebbwb cwebbbb cwebbbb obbbb cenbbwb cewbbbb cewbbbb fdbbb fbbbb fwbbb fbbbb
+xewbbbb xewlbbb xewbbbb pbwwb cnsbbbw hwbbb fbbbb fbbbb obbbb pbbbb fbbbb fbbbb
+fbbbw fbbbb xsnbbbb fwbbb fbbbb fbbbb fbbbb fbbbb gbbbb fbbbb fbbbb fbwbb
+xwebbbb xwebbwb xwenbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb fbbwb cwebbbb cwebbbb cwebbbb
+fbbbw fwwbb fbbbw fbbbb fbbbb gbbbb obbbb fblbb fwbbw hbbbb fbbwb fbwbb
+fbbbb pbbbb fbbbb fbbbb fbbbb csnbbbb cesbbbb cewbbbb cewbbbb cewbbbb ftbwb cewbbbb
+rbbbb fbbbb fbbwb fbbbb fbbwb csnbbbb cnsbbbb fbbwb fbbbb fbbwb fwbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,11 3,1,6,4 3,1,11,11 3,1,9,8 

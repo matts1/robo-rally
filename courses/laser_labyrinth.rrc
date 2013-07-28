@@ -1,0 +1,39 @@
+name: Laser Labyrinth (45 min)
+description: Amateurs will be slain on sight
+length: long
+difficulty: expert
+players: 2 4
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbwbb fbbbw fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbwbb fbbbw fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbwbb fbbbw fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbwbb fbbbw fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+flbbw fwbwb fvbbb flbbb fblbb fbbbw xsebbbb xwebbwb xwsbbbb xewbbwb xewbbbb xswbbbb
+fbbbw fwbbb pbbbb fbbbb fbbbb fbwbb fbbbp pdbbb xnsbwbb hwbbw fbbbb xsnbbbb
+fbbbb fbwlb fbbwl fbbbb fbwbb fbbbw gbbbb pbblb xnsbwbb fbbbw fbbbb fbbbb
+fbbbw fwbbb flbbb fbbwb fbbbb fbbbb fbbvb fvbbb xnwbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fwbbb hbwbb fbbbw fwbbb fbbpb fbwbb fbbbw fbwbb fbbbw
+fbbbw fbwvb fbbbw fbbbb fbbbb fbbbb fbbbb pdbbb fbbbb fbbbb fblbb fbbwv
+fbbbw fpwbb fbbbw fbbbb fbbbb fbbbb fbbbb pbbtb fbbbb fbbbb fblbb fwbbp
+fbbbb fbbbb fbbbb fbbwb hbwbb fbbbw fbbwb fpbbb fbwbb fbbbw fbwbb fbbbw
+fbbbw fbbwb fbblb fwbbb fbbbb fbbbb fvbbb fbbvb xswbbbb fbbbb fbbbb fbbbb
+fbbbb flwbb fwbbl fbbbb fbwbb fbbbw obbbb plbbb xsnbwbb fbbbw fbbbb fbbbb
+fbbbw fbbwb pbbbb fbbbb fbbbb fbwbb fbbbp pbbdb xsnbwbb hbbww fbbbb xnsbbbb
+fbbww fwbwb fbbvb fbblb fblbb fbbbw xnebbbb xwewbbb xwnbbbb xewwbbb xewbbbb xnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,12 3,1,8,12 3,1,6,2 3,1,7,2 

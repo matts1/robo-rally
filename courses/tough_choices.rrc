@@ -1,0 +1,40 @@
+name: Tough Choices
+description: Lots of choices to make on this map. Great for death matches and flag-tagging.
+(Made by jaldaen)
+length: medium
+difficulty: mid
+players: 2 6
+newsboard:
+Tough Choices
+2,1 11,1 3,1 10,1 6,1 7,1 6,2 7,2 
+gwbbw fwbbb fwbbb fwbwb
+fbbbw fbbbb cewbbbb flbwb
+fbbbw fbbbb cewbbbb fwblb
+obbww fbbwb fbbbb fwbbb
+gwbbw fwbbb fbbbb fbbwb
+fbbbw fbbbb cewbbbb flbwb
+fbbbw fbbbb cewbbbb fwblb
+obbww fbbwb fbbbb fwbbb
+gwbbw fwbbb fbbbb fbbwb
+fbbbw fbbbb cewbbbb flbwb
+fbbbw fbbbb cewbbbb fwblb
+obbww fbbwb fbbwb fwbwb
+endboard
+sboard: Tough Choices
+newboard:
+blank board
+fwbbb hlbbb fbbbb fbbbb fbbbb pbbbb fpbbb xewwbbb fbbwb cewbbwb hbbbb pbbbb
+fbbbb fbbbb xewbbbb xewbbbb fbbbb obbbb fbbbb xnsbbbb flbbb fwbbb xsnbbbb fbvbb
+fbbbb fbbwb fbbbb cewbbbb fbbbb gbbbb fbbbb gbbbb fbbwb fbbwb xsnbbbb fbwbb
+fbbbb fwbbb cwebbbb cwebbbb rbwwb pbbbw fbbpb fbbbb flbbb fwbbb fbbbb fbbwb
+fbbbb fbbbb csnbbbb fbbbb fwbbb pbbbb fwbbb fbbbb fbbbb fbbbb fbbbb rwbbb
+fbbbb hbblb cewbbbb cewbbbb fbbbb obbbb fbbbb obwbb fbbwl fbbbb fbbbb fbwbb
+fbbbb flbbb cewbbbb cewbbbb fbbbb gbbbb fbbbb gbwbb hvbbw fbbbb fbbbb fbpbb
+fbbbb fbbbb cnsbbbb fbbbb fbbwb pbbbb fbbwb fbbbb fbbbb fbbbb fbbbb rbbwb
+fbbbb fbbwb cwebbbb cwebbbb rwwbb pbbbw fpbbb fbbbb fbblb fbbwb fbbbb fwbbb
+fbbbb fwbbb fbbbb cewbbbb fbbbb obbbb fbbbb obbbb fwbbb fwbbb xnsbbbb fbwbb
+fbbbb fbbbb xewbbbb xewbbbb fbbbb gbbbb fbbbb xsnbbbb fbblb fbbwb xnsbbbb fbvbb
+fbbwb hbblb fbbbb fbbbb fbbbb pbbbb fbbpb xewbbwb fwbbb cewwbbb hbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 3,1,7,2 3,1,2,9 3,1,11,9 

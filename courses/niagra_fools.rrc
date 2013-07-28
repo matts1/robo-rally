@@ -1,0 +1,43 @@
+name: Niagra Fools
+description: Careful you don't go over!
+Special Rules: Flags move
+Course designed by Patdragon
+2010 Map Editing Competition Entry
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+Starting Board 2
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb cesbbbb xenbbbb xsewbbbb
+fbbbb cnsbbbb rbbbb xsnbbbb
+fbbbw cnsbbbb fbbbb xsnbbbb
+fbbbb cnsbbbb fbbbb xsnbbbb
+fbbbw cnsbbbb fbbbb xsenbbbb
+fbbbb cnsbbbb fbbbb xsnbbbb
+fbbbb cnsbbbb fbbbb xenbbbb
+fbbbw cnsbbbb fbbbb xsnbbbb
+fbbbb cnsbbbb fbbbb xsnbbbb
+fbbbw cnsbbbb fbbbb xsnbbbb
+fbbbb cnsbbbb fbbbb xsenbbbb
+fbbbb cnsbbbb fbbbb xsnbbbb
+endboard
+sboard: Starting Board 2
+newboard:
+blank board
+xsewbbbb xsewbbbb xsewbbbb xsewbbbb xsewbbbb xsewbbbb xsewbbbb xsewbbbb xsewbbbb xsewbbbb xwnbbbb cwsbbbb
+xsnbbbb xsnbbbb hbbbb xsnbbbb xsnbbbb xsenbbbb xwnbbbb hbbbb xsnbbbb fbbbb rbbbb cnsbbbb
+xsnbbbb xsnbbbb xsnbbbb xsenbbbb xwnbbbb xsnbbbb fbbbb xsnbbbb xsnbbbb xsnbbbb fbbbb cnsbbbb
+xsnbbbb xsenbbbb xwnbbbb xsnbbbb fbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb fbbbb cnsbbbb
+xwnbbbb xsnbbbb fbbbb xsnbbbb xsnbbbb xsnbbbb xenbbbb xsnwbbbb xsnbbbb xsnbbbb fbbbb cnsbbbb
+fbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb xenbbbb xsnwbbbb fbbbb cnsbbbb
+xewbbbb xsnwbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb hbbbb xsnbbbb xsnbbbb xsnbbbb fbbbb cnsbbbb
+fbbwb xsnbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb fbbbb xsnbbbb xsnbbbb xsnbbbb fbbbb cnsbbbb
+fwbbb xsnbbbb fbbwb xsenbbbb xwnbbbb xsnbbbb xenbbbb xsnwbbbb xsnbbbb xsnbbbb fbbbb cnsbbbb
+xsnbbbb xsnbbbb fwbbb xsnbbbb fbbwb xsnbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb fbbbb cnsbbbb
+xwenbbbb xwenbbbb xwnbbbb xsenbbbb xwewbbb xwnbbbb fbbwb xsnbbbb xsnbbbb xsnbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb xsnbbbb rbbbb fbbbb fwbbb xsnbbbb fbbwb xsnbbbb fbbbb cnsbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,10 3,0,12,2 3,1,1,7 3,1,6,1 

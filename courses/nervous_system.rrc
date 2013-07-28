@@ -1,0 +1,40 @@
+name: Nervous System
+description: Shooting pains behind your eye sockets turn out to be laser beams bouncing around in your skull
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb cesbbbb
+fbbbb fbbbb fbbbb cenbbbb
+fbbbb fbwbb fbbbw fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbwbb fbbbw fbbbb
+fbbbb fbbbb fbbbb cesbbbb
+fbbbb fbbbb fbbbb cenbbbb
+fbbbb fbwbb fbbbw fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbwbb fbbbw fbbbb
+fbbbb fbbbb fbbbb cesbbbb
+fbbbb fbbbb fbbbb cenbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb csewbbbb cwsbbbb rbbbb fbbbb fbbbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xweblbb csnbbbw csnbbbb xwebbbb xwebbbb xwsbbbb rbbwb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbwbb xnsbbbw fwbwb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xweblbb csnbbbw csnbbbb cnsbbbb pbbbb xnsbbbb rwbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb xnsbbbb cswbbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb xsnbbbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xweblbb csnbbbw cnsbbbb cnsbbbb csnbbbb rbbbb xsnbbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb csnbbbb fbbbb xsnbbbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xweblbb csnbbbw cnsbbbb xwebbbb xwebbbb xwebbbb xwnbbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwebbbb cwebbbb cwnbbbb rbbbb fbbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb rbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,12 3,1,6,12 3,1,8,10 3,1,2,1 3,1,11,1 3,1,4,4 

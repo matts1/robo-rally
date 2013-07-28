@@ -1,0 +1,42 @@
+name: Twist and Turn
+description: 4 flags
+1 option card
+Designed by timmonte
+length: medium
+difficulty: mid
+players: 2 8
+rules: startoptions1c1 flagsmove
+newsboard:
+blank starting board
+4,2 9,2 3,2 10,2 2,2 11,2 1,2 12,2 
+xsnbbbb fbbbb fbbbb fbbbb
+xsnbbbb fbbbb fbbbb gbwbb
+xsnbbbb fbbbb fbbbb fbbbb
+csnbbbb fbbbb fbbbb fbwbb
+csnbbbb obbbb fbwbb fbbbw
+cenbbbb cewbbbb cewbbbb cnwbwbb
+cesbbbb cewbbbb cewbbbb cswbwbb
+cnsbbbb gbbbb fbwbb fbbbw
+cnsbbbb fbbbb fbbbb fbwbb
+xnsbbbb fbbbb fbbbb fbbbb
+xnsbbbb fbbbb fbbbb obwbb
+xnsbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+gbwbb fbbbw fbbbb fbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwsbbbb gbbbb hbbbb pbbbb
+fbbbw fbbbb fblbb hbbbw xsnbbbb fbbwb fbbbb fbbbb xnsbbbb oblbb gbbbw xnsbbbb
+fbwbb fbbbw xsebbbb xwebbbb xwnbbbb ceswbbb cewbbbb cswbbbb xnsbbbb gbbbb obbbb xnsbbbb
+fbbbw fbbbb xsnbbbb cesbbbb cewbbbb cnwbbbb gbbbb csnbwbb xnsbbbv xewbbbb xewbbbb xnwbbbb
+fbbbb fbbbb xsnbbbb cnsbbbb obbbb gbbbb obbbb csnbbbb xnsbbbb fbbbb fbbbb hbbbb
+fbbbw fbbbb xsnbbbb cnsbbbb gbbbb obbbb gbbbb csnbbbb xnsbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb xsnbbbb cnebbbb cwebbbb cwsbbbb obbbb csnbbbb xnsbbbb fbbbb fbbbb hbbbb
+fbbbb fbwbb xenbbbw xewbbbb xswbbbb cnebbbb cwebbbb cwnbwbb xnsbbbv xewbbbb xewbbbb xswbbbb
+fbbbw fbbbb fblbb hbbbw xsnbbbb fbbdb fbbbb fbbbb xnsbbbb gblbb obbbw xsnbbbb
+fbwbb fbbbw xsebbbb xwebvbb xsnbbbw fwbwb fbbwb fbbbb xnsbbbb obbbb gbbbb xsnbbbb
+fbbbw fbbbb xsnbbbb fbbbb xenbbbb xewvbbb xewpbbb xewbbbb xnwbbbb gbbbb hbbbb xsnbbbb
+obwbb fbbbw pbbbb xwebbbb xwebbbb xwnbbbb xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 3,1,1,2 3,1,6,7 3,1,11,4 

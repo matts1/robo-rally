@@ -1,0 +1,39 @@
+name: The Dungeon
+description: Find your way out of the maze with your life
+length: long
+difficulty: hard
+players: 2 4
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbbb fwbbb fwwbb fbbbw fwbwb fwbwb fwbwb fbbbb fwbwb fwbbb fwbwb fwwbb
+fbbbb fbbbb fbwbb rbwbw pwbbw cwewbwb cwewbwb fbbbb fwbwb fbbwb ftwwb fbwbw
+fbbbb xewbbwb xewbbwb xewbbbb xnwbbbb fwbwb fwbwb fbbwb fwbwb fwbbb fwbwb fbbbb
+fbbbw fwbwb fwbwb fbbwb fbwbb fwbbw rwbbb fwbwb fwbwb fbwbb fwbbw fbwbb
+fbbbb xewwbwb xewwbbb xewwbwb xewbbwb xewbbbb pbwbb fwbbw fwbwb fbwbb fbwbw fbwbw
+fbbbw fwbbb fbbbb fwbbb fwwbb hbbbw cnebbwb cwebbwb fwbbb rbwwb fbbbw fbbwb
+fbbbw fbbwb fbbbb fbbwb fbwwb hbbbw csewbbb cwewbwb fbwbb fwbbw fbbbb fwbbb
+fbbbb xewwbwb xewbbwb xewwbwb xewwbbb xewbbbb pbwbb fwbww fbbwb fbwbb fbwbw fbwbw
+fbbbw fwbwb fwbwb fwbbb fbwbb fbbbw rbbwb fwbwb fwbbb fbwbb fbbww fbwbb
+fbbbb xewwbbb xewwbbb xewbbbb xswbbbb fbbwb fwbwb fwwbb fbbww fbbwb fwbwb fbbbb
+fbbbb fbbbb fbwbb rbwbw pbbww cwewbwb cwewbwb fbbbb fwbwb fwbwb flwbb fbwbw
+fbbwb fbbwb fbwwb fbbbw fwbwb fwbwb fwbwb fbbbb fwbwb fwbwb fbbwb fbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,11 3,1,8,9 3,1,5,9 3,1,5,11 3,1,11,10 3,1,2,10 3,1,7,5 

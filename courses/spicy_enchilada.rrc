@@ -1,0 +1,39 @@
+name: Spicy Enchilada
+description: I don't know why this course is called Spicy Enchilada. Guess I should stop naming my maps when I'm hungry
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb cnsbwbb
+xnsbbbb fbbbb fbbbb xnsbwbb
+xnsbbbb fbbbb fbbwb xnsbwwb
+xsnbbbb fbbbb fwbbb xsnwwbb
+xsnbbbb fbbbb fbbbb xsnbwbb
+csnbbbb fbbbb fbbbb csnbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cewbbbb fpbbb fbbbb cewbbwb fvbbb fbbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb cewbbbb fpbbb fbbbb cewbbwb fvbbb fbbbb fbbwb fbbbb fbbbb cesbbbb
+fbbwb fbbwb fbbwb fbbwb cewbbwb fpbbb fbbwb cewbbwb fvbbb fbbbb fbbbb cnsbbbb
+fwbbw fwbbb fwbbb fwbbb fwbbb pbwbb hwbbw fwbbb pbwbb fbbbw fbbbb cnsbbbb
+fbbbw obbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cnsbbbb
+fbbbw fbbbb pbwbb fbbww fbbwb fbbwb fbbwb cwebbwb cwebbwb cwebbwb cwebbwb rbbpb
+fbbbw fbbbb pbwbb fwbbw fwbbb fwbbb fwbbb cwewbbb cwewbbb cwewbbb cwewbbb rpbbb
+fbbbw gbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb csnbbbb
+fbbww fbbwb fbbwb fbbwb fbbwb pbwbb hbbww fbbwb pbwbb fbbbw fbbbb csnbbbb
+fwbbb fwbbb fwbbb fwbbb cewwbbb fbbpb fwbbb cewwbbb fbbvb fbbbb fbbbb csnbbbb
+fbbbb fbbbb cewbbbb fbbpb fbbbb cewwbbb fbbvb fbbbb fwbbb fbbbb fbbbb cenbbbb
+cewbbbb fbbpb fbbbb cewwbbb fbbvb fbbbb fwbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,1 3,1,1,12 3,1,12,12 

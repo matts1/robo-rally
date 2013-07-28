@@ -1,0 +1,39 @@
+name: Fast Track
+description: Once you can get to the course things get a little difficult
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw fwwwb hwbbw ceswbbb
+fbbbw fwwwb obbbw cnebbbb
+fbbbv xewwbwb xewbbbb xewbbwb
+fbbbw fwwwb fbbbw fwblb
+fbbbp xewwbwb xewbbbb xewwbbb
+fbbbw fwwwb gbbww fbbvb
+fbbbw fwwwb owbbw fvbbb
+fbbbp xewwbwb xewbbbb xewbbwb
+fbbbw fwwwb fbbbw fwbwb
+fbbbv xewwbwb xewbbbb xewwbbb
+fbbbw fwwwb gbbbw csebbbb
+fbbww fwwwb hbbww cenbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cswwbbb fwwbb fwbbw fwwbb fwbbw fwwbb fwbbw fwwbb fwbbw ceswbbb cswwbbb hwwbb
+cwnbbbb fbbbb fbwbb fbbbw fbwbb fbbbw fbwbb fbbbw fbbbb cnebbbb cwnbbbb gbwwb
+xewbbwb xewbbwb xewbbwb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb pwwbb
+flbwb fwblb flbwb fbwbb hbbbw hbwbb hbbbw hbwbb fbbbw fbbbb fbbbb fbwbb
+xewwbbb xewwbbb xewwbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb pbwwb
+fbbpb fbbvb fbbpb fbbvb fbbpb fbbvb fbbpb fbbvb fbbpb fbbbb fbbbb owwbb
+fpbbb fvbbb fpbbb fvbbb fpbbb fvbbb fpbbb fvbbb fpbbb fbbbb fbbbb gbwwb
+xewbbwb xewbbwb xewbbwb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb pwwbb
+flbwb fwbwb flbwb fbwbb hbbbw hbwbb hbbbw hbwbb fbbbw fbbbb fbbbb fbwbb
+xewwbbb xewwbbb xewwbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb pbwwb
+cwsbbbb fbbbb fbwbb fbbbw fbwbb fbbbw fbwbb fbbbw fbbbb csebbbb cwsbbbb owwbb
+cnwbbwb fbwwb fbbww fbwwb fbbww fbwwb fbbww fbwwb fbbww cenbbwb cnwbbwb hbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,0,9,3 3,1,4,12 3,0,4,3 3,1,9,12 

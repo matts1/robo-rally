@@ -1,0 +1,40 @@
+name: Cityscape
+description: 5 Flags move along the skyscrapers of the cityscape.
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+line start blank
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+hblbb fbbbw fbwbb gwbbw
+fbwbb fbbbl fbbbb csebbbb
+csebbbw cswbbbb fbbbb xsnbbbb
+csnbbbw csnbbbb gbbwb xnsbbbb
+csnbbbw csnbbbb fwbbb cesbbbb
+csnbbbw cenbbbb cswbbbb cnsbbbb
+csnbbbw cesbbbb cnwbbbb cnsbbbb
+csnbbbw cnsbbbb obbbb cnsbbbb
+csnbbbw cnsbbbb fbbbb cnsbbbb
+csnbbbw cnsbbbb cesbbbb cnwsbbbb
+xsebbbw xwebbbb xwebbwb xwebbwb
+cenbbwb cewbbwb cewwbwb cewwbwb
+endboard
+sboard: line start blank
+newboard:
+blank board
+csewbbb cwsbbbb fbbbb fbbbb fbbbb fbbbb obwbb fbbbw fbbbb gbbbb rbwwb hbbbl
+cwnbbbb cnsbbbb fbwbb fbbbw fbbbb cesbbbb cwebbvb cwebbbb cwsbbbb csebbbb cewswbbb cwebbbb
+obbbb cnsbbbb fbpbb hblbw cesbbbw cnwbbbb hwbbb fbbbb cnsbbbb csnbbbb cnsbbbb obwbb
+rbwwb cnsbbbw fbbbb cesbbbb cnwbwbb xesbbbl xswbbbb fbwbb cnsbbbp csnbbbb cnsbbbb fbbbb
+cswwbbb cnsbbbb cesbbbb cnwbbwb xesbbbb xnwbbbb xsnbbbb obbbb cnsbbbb csnbbbb cnsbwbb hbbbl
+csnbbbb cnsbwbb cnsbbbp csnwbbb xnebbbb xwebbbb xwnbblb fbbbb cnsbbbb csnbbbb cnsbbbb fbbbb
+csnbbbb cnsbbbb cnsbbbb csnbbbb gbbbb csebbbb cewwbbb cwsbbbb cnsbbbb csnbbbb cnsbvbb fbbbw
+cenbbwb cnwsbbbb cnsbbbb csnbbbb fbbbb csnbbbb rbwwb cnsbbbw cnsbbbb csnbbbb cnsbwbb fbbbl
+rwwbb xnsbbbw cnsbbbb csnbbbb fblbb csnbbbv flbbb cnsbbbb cnsbbbb csnbbbb cnsbbbb fbbbb
+fbbwb xnsbbbb cnsebbbb cwenbbwb cwsebbbb csnbbbb obbbb cnsbbbb cnsbbwb censbbbb cnwsbbbb gbbbb
+xwewbbb xwebbwb xwebbwb xwewbbb xwebbwb xwnbwwb hbbbw xnebbwb xwepbbb xwebbwb xwebbwb xwsbbbb
+cewbbwb cewwbwb cewwbwb cewbbwb cewwbwb cewwbwb cewbbwb cewwbwb cewbbwb cewwbwb cewwbwb cnwbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,4 3,1,7,6 3,1,2,10 3,1,4,7 3,0,10,3 

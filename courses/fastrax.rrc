@@ -1,0 +1,42 @@
+name: Fastrax
+description: A quick race to the flags.
+Opps they are running
+away from you too
+length: medium
+difficulty: mid
+players: 4 8
+rules: flagsmove
+newsboard:
+blank starting board
+11,4 12,4 11,3 12,3 11,2 12,2 11,1 12,1 
+fwbbw fwbbb fwbbb fwbbb
+fbbbw xsebbbb xwebbbb xwebbbb
+fbbbw xsnbbbb fbbbb fbbwb
+fbbbw xsnbbbb fbbbb fwbbb
+fbbbw xenbbbb xewbbbb xewbbbb
+fbbbw fbbwb fbbbb fbbwb
+hbbwp hvwbb hblbw fwbbw
+hvbbw hbpwb hblbw fbbbw
+hbbwp hwbwb hbwwb fbbww
+hwbbw hwbbb hwbbb hwlbb
+fbbbw fbbbb fbbbb fbbbb
+fbbww fbbwb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwwbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbbbb fbwbb
+fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbbb xnsbbbb fbwbb
+fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwwbb fbbbw xnsbbbb fbwbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb fbwbb fbbbw xnsbbbb fbwbb
+fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbbb xsnbbbb fbwbb fbbbw xnsbbbb fbwbb
+fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fbbbb xsnbbbb fbwbb fbbbw xnsbbbb fbwbb
+xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb fbwbb fbbbw xnsbbbb fbwbb
+xsnbbbb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbwwb fbbbw xnsbbbb fbwbb
+xsnbbbw fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fbbbb xnsbbbb fbwbb
+xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb fbwbb
+fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,11,11 3,1,2,6 3,1,5,2 3,1,8,3 

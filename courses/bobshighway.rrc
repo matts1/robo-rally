@@ -1,0 +1,40 @@
+name: Bob's Highway
+description: 1 Board, 4 Flags
+by 2455ybob
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb csnbbbb fwbbb xnsbbbb fvbbb xsnbbbb xnsbbbb fwbbb xsnbbbb fwwbb cnsbbbw fbbbb
+fbbbb csnbbbb fbwbb xnsbbbw fbbbb xsnbbbb xnsbbbb fbbbb xsnbwbb fbbbw cnsbbbb fbbbb
+fbbbw csnbbbb rbbbb xnsbbbb fbbbb xsnbbbb xnsbbbb pbbbb xsnbbbb pbbbb cnsbbbb fbwbb
+fbbbb csnbwbb fbbbw xnsbbbb fbbbb xsnbwbb xnsbbbw rbbbb xsnbbbb pbbbb cnsbbbb fbbbb
+fbbbw csnbbbb fbbwb xnsbbbb fbbbb xsnbwbb xnsbbbw fbbbb xsnbbbb hbbwb cnsbbbb fbwbb
+cwebbbb cenbbbb cewwbbb xnsbbbb fbwbb xsnbbbt xnsbbbb fbwbb xsnbbbw fwbbb cnebbbb cwebbbb
+cewbbbb cswbbbb fbbwb xnsbwbb fbbbw xsnbbbb xnsbtbb fbbbw xsnbbbb cwebbwb cwsbbbb cewbbbb
+fbbbw csnbbbb hwbbb xnsbbbb fbbbb xsnbwbb xnsbbbw fbbbb xsnbbbb fwbbb cnsbbbb fbwbb
+fbbbb csnbbbb pbbbb xnsbbbb rbbbb xsnbwbb xnsbbbw fbbbb xsnbbbb fbwbb cnsbbbw fbbbb
+fbbbw csnbbbb pbbbb xnsbbbb pbbbb xsnbbbb xnsbbbb fbbbb xsnbbbb rbbbb cnsbbbb fbwbb
+fbbbb csnbbbb fbwbb xnsbbbw fbbbb xsnbbbb xnsbbbb fbbbb xsnbwbb fbbbw cnsbbbb fbbbb
+fbbbb csnbwbb fbbww xnsbbbb fbbwb xsnbbbb xnsbbbb fbbwb xsnbbbb fbbpb cnsbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,12 3,1,7,3 3,1,12,10 3,1,1,5 

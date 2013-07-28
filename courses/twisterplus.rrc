@@ -1,0 +1,41 @@
+name: Twister Plus
+description: How do you do another twist in "Twister"?
+By Tahna Los
+length: long
+difficulty: expert
+players: 4 8
+rules: flagsmove
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbwbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbwwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbwbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+csebbbb cwebbbb cwewbbb cwebbbb cwewbbb cwebbbb cwebbbb cwewbbb cwebbbb cwewbbb cwebbbb cwsbbbb
+csnbbbb xesbbbb xewbbbb xewbbbb xswbbbb fbbbb fbbbb xesbbbb xewbbbb xewbbbb xswbbbb cnsbbbb
+csnbbbb xnsbbbb fbbbb gbbbb xsnbbbb obbbb fbbbb xnsbbbb rbbbb gbbbb xsnbbbb cnsbwbb
+csnbbbb xnsbbbb gbbbb hbbbb xsnbwbb fbbbl fbbbb xnsbbbb gbwbb fbbbw xsnbbbb cnsbbbb
+csnbbbb xnebbbb xwebbbb xwebbwb xwnbbbb fbbbb obbbb xnebbbb xwebbwb xwebbbb xwnbbbb cnsbwbb
+csnbbbb fbbbb fbbbb flbbb obbbb pbbbb pbbbb fbbbb fwbbb obbbb fbbbb cnsbbbb
+csnbbbb fbbbb obbbb fbbwb fbbbb pbbbb pbbbb obbbb fbblb fbbbb fbbbb cnsbbbb
+csnbbbb xesbbbb xewbbbb xewwbbb xswbbbb obbbb fbbbb xesbbbb xewwbbb xewbbbb xswbbbb cnsbwbb
+csnbbbb xnsbbbb fbwbb gbbbw xsnbbbb fbbbb fblbb xnsbbbw hbbbb gbbbb xsnbbbb cnsbbbb
+csnbbbb xnsbbbb gbbbb rbbbb xsnbbbb fbbbb obbbb xnsbbbb gbbbb fbbbb xsnbbbb cnsbwbb
+csnbbbb xnebbbb xwebbbb xwebbbb xwnbbbb fbbbb fbbbb xnebbbb xwebbbb xwebbbb xwnbbbb cnsbbbb
+cenbbbb cewbbbb cewbbwb cewbbbb cewbbwb cewbbbb cewbbbb cewbbwb cewbbbb cewbbwb cewbbbb cnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,12,12 3,1,3,3 3,1,10,10 3,1,9,3 3,1,4,10 3,1,1,1 

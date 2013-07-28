@@ -1,0 +1,42 @@
+name: War
+description: 8 flags scattered over one map, with plenty of
+resources to be found.  The ending is very
+tough, so bots often opt to destroy other
+players for the win.
+length: long
+difficulty: hard
+players: 4 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+xsnbbbb fpbbb csnbbbb fbbbb
+xsnbwbb fbbbv cenbbbb cewbbbb
+xsnbbbb fbwbb fbbbt fbbbb
+xsnbbbb fbbpb fbbbb fbbbb
+xsnbbbb fwbwb fbbbb fbbbb
+xwsnbbbb fpbbb fbbbb fbbbb
+xwsnbwbb fbbbv fbbbb fbbbb
+xnsbbbb fbbbb fbbbb fbbbb
+xnsbwbb fbbbv fbbbb fbbbb
+xnsbbbb fbbwb fbbbb fbbbb
+xnsbbbb fpbbb fbbbb fbbbb
+xnsbwbb fbbbv fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+hwbbb fbbbb ftbbb ftbbb ftbbb hwbbb fbbbb fbbbb fbbbb flbbb fbbbb hwwbb
+cewbbbb cewbbbb cewbbwb cswbbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbbwb fbbbb fbbbb
+fbbbb fbwbb rwbww csnbtbb fwbbw fbbbb fbbbb fbbbb fbbbb csewbbb cwsbbbb fbbbb
+fbbbb fbbbb fwbtb pbbwb fbbbb fbbbb fbbbb fbbwb pbbbb cwnbbbb cnebbbb cwebbbb
+fbbbb fbbbb fwbbb fwwbb rbwww fbbbw fbbbb rtwbb fbbbw fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fwbbb hbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb hbbbb fbbwb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb csebbbb cwebbbb cwebbbb cwsbbbb fbwbb rwbbw fbbbb fbbbb fbbbb fbtbb
+fbbbb fbbbb cenbbwb pbbbb fbbbb cnsbbbb fbbbb fbbbb pbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb rwbwb fbbbb fbbbb cnsbbbb fbbbb fbbbb cnsbbbb rbwwb fbbbw fblbb
+fbbbb fbbbb fwbbb fbbbb fbbbb cnsbbbb fbbbb fbbbb cnebbbb cwewbbb cwebbbb cwsbbbb
+hbbwb fbbbb fbblb fbbbb fbbbb cnsbbwb hbbwb fbbtb fbbbb fbbbb fbbbb hbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,5 3,1,3,10 3,1,10,10 3,1,5,5 3,1,10,3 3,1,5,8 3,1,8,8 3,1,3,3 

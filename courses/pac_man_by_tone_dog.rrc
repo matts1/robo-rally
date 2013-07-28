@@ -1,0 +1,71 @@
+name: Pac-Man by ToneDog
+description: Pac-Man done right.
+length: long
+difficulty: easy
+players: 2 8
+newboard:
+blank board
+fwbbw fwbwb fwbwb fwbbb fwbwb fwbwb fwbwb fwwbb fbwbw fwbbw fwbwb fwbwb
+fbwbw fwbbw fwwbb fbwbw fwbbw fwbbb fwwbb fbwbw fbwbw fbwbw fwbbw fwbbb
+fbwbw fbbww fbwwb fbwbw fbbww fbbwb fbwwb fbwbw fbwww fbwbw fbbww fbbwb
+fbbbw fwbwb fwbwb fbbbb fwbwb fwbbb fwbwb fbbwb fwbwb fbbwb fwbwb fwbbb
+fbwbw fwbww fwwwb fbwbw fwwbw fbwbw fwbww fwbwb fwbbb fwbwb fwwwb fbbbw
+fbbww fwbwb fwbwb fbwbb fbwbw fbbww fwbwb fwwbb fbwbw fwbbw fwbwb fbbwb
+fwbbb fwbbb fwwbb fbwbw fbbbw fwbwb fwwwb fbwbw fbwww fbwbw fwbww fwbwb
+fbbbb fbbbb fbwbb fbwbw fbwbw fwbbw fwbwb fbbwb fwbbb fbbwb fwbwb fwbbb
+fbbwb fbbwb fbwwb fbwbw fbwww fbwbw ftbbt ftbbb fbbbb ftbbb fttbb fbbbw
+fwbwb fwbwb fwbwb fbbbb fwbwb fbwbb fbbbt fbbbb fbbbb fbbbb fbtbb fbbbw
+fwbbb fwbbb fwwbb fbwbw fwwbw fbwbw fbbtt fbbtb fbbwb fbbtb fbttb fbbbw
+fbbbb fbbbb fbwbb fbwbw fbwbw fbbbw fwbbb fwbbb fwbbb fwbbb fwbbb fbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+fwbwb fwbbb fwbwb fwbwb fwwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fwwbb fbwbw fwbbw fwwbb fbwbw pbbbw pbwbb pbbww pbbbb pbbbb pbbbb pbbbb
+fbwwb fbwbw fbbww fbwwb fbwbw pbbbw pbwbb pwwww pbwbw pbwww pbbbw pbbbb
+fwbwb fbbbb fwbwb fwbwb fbwbb pbbbw pbbbb pwbbb pbbbb pwwwb pbbbw pbbbb
+fwwbw fbwbw fwbww fwwwb fbwbw pbbbw pbbbb pbbbb pbbbb pwbbb pbbbb pbbbb
+fbwbw fbbbw fwbwb fwbwb fbwwb pbbbw pbbwb pbbwb pbbbb pbbbb pbbbb pbbbb
+fbwbb fbwbw fwbbw fwbbb fwbbb pbbbb pwwbb pwbbw pbbbb pbbwb pbbwb pbbbb
+fbwbw fbwbw fbbbw fbbbb fbbbb pbbbb pbwbb pbbbw pbwbb pwbbw pwwbb pbbbw
+fbwww fbwbw fbbww fbbwb fbbwb pbbbb pbbwb pbbwb pbwbb pbbww pbwwb pbbbw
+fwbwb fbbbb fwbwb fwbwb fwbwb pbwbb pwbbw pwwbb pbbbw pwbwb pwbwb pbbbb
+fwwbw fbwbw fwbbw fwbbb fwbbb pbwbb pbbww pbwwb pbwbw pwbbw pwwbb pbbbw
+fbwbw fbwbw fbbbw fbbbb fbbbb pbbbb pwbbb pwbbb pbwbb pbbww pbwwb pbbbw
+endboard
+board: 3,2 0 blank board Copy
+newboard:
+blank board Copy Copy
+fbbwb fbbwb fbwwb fbwbw fbwww fbwbw fwbww fwbwb fwbbb fwbwb fwwwb fbbbw
+fwbbw fwbwb fwbwb fbbbb fwbwb fbbwb fwbwb fwwbb fbwbw fwbbw fwbwb fbbwb
+fbwbw fwbww fwwbb fbwbw fwbww fwbwb fwwwb fbwbw fbwww fbwbw fwbww fwbwb
+fbbww fwwbb fbwbw fbbbw fwbwb fwbbb fwbwb fbbwb fwbwb fbbwb fwbwb fwbbb
+fwwwb fbwbw fbwww fbwbw fwwbw fbwbw fwbww fwbwb fwbbb fwbwb fwwwb fbbbw
+fwbbw fbbwb fwbwb fbwwb fbwbw fbbww fwbwb fwwbb fbwbw fwbbw fwbwb fbbwb
+fbwbw fwbww fwbwb fwbwb fbbwb fwbwb fwwwb fbwbw fbwww fbwbw fwbww fwbwb
+fbbww fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb fbbwb fwbwb fbbwb fwbwb fwbwb
+pwbbb pwbwb pwbbb pwbwb pwbbb pwbwb pwbbb pwbbb pwbwb pwbwb pwbbb pwbwb
+pbwbb pwwww pbwbw pwwww pbwbw pwbbw pbbwb pbwbb pwwbw pwwbw pbwbw pwwww
+pbwbb pwbbw pbwbb pwwbw pbwbw pbbww pwbbb pbwbb pbwbw pbwbw pbwbw pwwbw
+pbbbb pbbbb pbbbb pbbbb pbbbb pwbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 4,1 0 blank board Copy Copy
+newboard:
+blank board Copy Copy Copy
+fbwww fbwbw fbbww fbbwb fbbwb pbwbb pwbbw pwwbb pbbbw pbbwb pbbwb pbbbb
+fwbwb fbbbb fwbwb fwbwb fwwbb pbwbw pbbbw pbwbb pbwbw pwbbw pwbwb pbbbb
+fwwwb fbwbw fwbbw fwwwb fbwbw pbbbw pbbwb pbbwb pbwbb pbbww pwwwb pbbbw
+fwbwb fbwbb fbwbw fwbbw fbwwb pbwbw pwbww pwbwb pbbbb pwbbb pwbbb pbbbb
+fwwbw fbwbw fbwww fbwbw fwbww pbwbb pwbww pwbwb pbbbb pbbbb pbbbb pbbbb
+fbwbw fbbww fwbwb fbbwb fwwbb pbbbw pwbbb pwbbb pbbbb pbbbb pbbbb pbbbb
+fbbwb fwbwb fwbwb fwwwb fbwbw pbbbw pbbbb pbbbb pbwbb pbbbw pbbbb pbbbb
+fwbwb fwbwb fwbwb fwbwb fbwwb pbbbw pbbbb pbbbb pbwbb pbbbw pbbbb pbbbb
+pwbbb pwbwb pwbbb pwbbb pwbbb pbbbb pbbbb pbbbb pbwbb pbbbw pbbbb pbbbb
+pbwbb pwwbw pbbbw pbbbb pbbwb pbbwb pbbwb pbbwb pbwwb pbbbw pbbbb pbbbb
+pbwbb pbwbw pbbbw pbbbb pwbbb pwbbb pwbbb pwbbb pwbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 4,2 0 blank board Copy Copy Copy
+flags: 3,1,3,1 3,2,3,5 4,1,4,1 4,2,4,5 
+start: 4,1,4,8 4,1,4,10 4,1,4,6 4,1,4,12 4,1,4,4 4,2,4,2 4,1,2,8 4,1,2,10 

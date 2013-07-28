@@ -1,0 +1,39 @@
+name: Option Jungle
+description: Grab as many options as you can, then navigate the maze on your way to returning home. Take no pity on those who skip the Option Jungle!
+length: short
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbw fbbbb fbbbb fbbbb fbwbb fbbbw cwetbbb fbbbb fbwbb fbbbw fbwbb fbbbw
+hbbbw fbbbb hbbbb fbbbb hbwbb fbbbw cwebbbb fbbbb fbbbb fbbbb fbwbb fbbbw
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cwebbbb fbwbb fbbbw fbwwb fbbbw fbbbb
+hbbbw fbbbb hbbbb fbbbb hbwbb fbbbw cwebbbb fbbbb fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cwebbbb fbwbb fbbbw fbbbb fbbbb fbbbb
+hbbbw fbbbb pbbbb fbbbb hbwbb fbbbw cwebbbb fbbbb fbbbb fbbbb fbwbb fbbbw
+fbbbw fbbbb fbbbb fbbbb fbwbb fbbbw cwebbbb fbbbb fbwwb fbbbw fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cwebbbb fbbbb fwbbb fbwbb fbbbw fbbbb
+hbbbw fbbbb hbbbb fbbbb hbwbb fbbbw cwebbbb fbbbb fbbbb fbbbb fbbbb fbbwb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cwebbbb fbwbb fbbbw fbwbb fbbbw fwbbb
+hbbbw fbbbb hbbbb fbbbb hbwbb fbbbw cwebbbb fbbbb fbwbb fbbbw fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb fbwbb fbbbw cwebbwb fbbbb fbwbb fbbbw fbwbb fbbbw
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,12 3,1,11,10 3,1,4,2 3,1,9,4 

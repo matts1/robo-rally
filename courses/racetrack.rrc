@@ -1,0 +1,39 @@
+name: Racetrack
+description: Enter description
+length: short
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb hbbwb fbbbb
+fbbbb fbbbb hwbwb xesbbbb
+fbbbb fbbbb fwwwb fbbbv
+fbbbb fbbbb hwbwb xesbbbb
+fbbbb fbbbb fwbwb xnsbbbb
+fbbbb fbbbb hwbwb xnsbbbb
+fbbbb fbbbb hwbbb xnsbbbb
+fbbbb fbbbb fbbwb xnsbbbb
+fbbbb fbbbb hwbwb xnsbbbb
+fbbbb fbbbb fwwwb xnsbbbv
+fbbbb fbbbb hwbwb xnebbbb
+fbbbb fbbbb hwbwb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xewbbbb xewbbbb xewbbbb xewbwbb fbbbw xewbbbb xswbbbb pbbbb fbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xsnwbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb xsnbvbb pbbbw fbbbb fbbbb fbbbb fbbbb
+fbbbb gbbbb xesbbbb xewbbbb xewbbbb xewbbvb xenwbbwb xewbbvb xewbbbb xewbwbb fbbbw xswbbbb
+fbbbb gbbbb xnsbwbb csnbtbt fbbbw fwbbb fwbbb fwwbb csnbtbt fbbbw fbbbb xsnbbbb
+fbbbb fbbbb xnsbwbb csnbbbw fbbwb fbbwb fbbwb fbbbb csnbwbb fbbbw fbbbb xsnbbbb
+fbbbb fbbbb xnsbwbb csnbtbt fwbbw fwbbb fwbbb fbwbb csnbtbt fbbbw fbbbb xsnbbbb
+pbbbb fbbbb xnsbbbb cenbbbb cewbwbb fbwbw cwebbbw cwebbbb cwnbbbb fbbbb pbbbb xsnbbbb
+fbwbb fbbbw xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbvb xwnbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,11 3,1,11,1 3,1,2,5 3,1,10,6 

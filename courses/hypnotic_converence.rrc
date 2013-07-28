@@ -1,0 +1,42 @@
+name: Hypnotic Convergence
+description: With nothing but other bots to get in your way.
+4 moving flags. This time ending in a pit.
+Designed by i8flesh
+length: short
+difficulty: easy
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb csnbbbb
+cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb csnbbbb csnbbbb
+cnsbbbb cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb csnbbbb csnbbbb csnbbbb
+cnsbbbb cnsbbbb cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb csnbbbb csnbbbb csnbbbb csnbbbb
+cnsbbbb cnsbbbb cnsbbbb cesbbbb cewbbbb cewbbbb cswbbbb csnbbbb csnbbbb csnbbbb csnbbbb csnbbbb
+cnsbbbb cnsbbbb cnsbbbb cnsbbbb cesbbbb pbbbb pbbbb csnbbbb csnbbbb csnbbbb csnbbbb csnbbbb
+cnsbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb pbbbb pbbbb cwnbbbb csnbbbb csnbbbb csnbbbb csnbbbb
+cnsbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb cnebbbb cwebbbb cwebbbb cwnbbbb csnbbbb csnbbbb csnbbbb
+cnsbbbb cnsbbbb cnsbbbb cnsbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb csnbbbb csnbbbb
+cnsbbbb cnsbbbb cnsbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb csnbbbb
+cnsbbbb cnsbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb
+cnsbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,1,12 3,1,12,10 3,1,8,1 3,1,1,7 

@@ -1,0 +1,39 @@
+name: King of the Hill
+description: Work against the belt to climb the hill.
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbwbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbwwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbwbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+owbbb fbbbb fwbbb fbbbb fwbbb fbbbb fwbbb fbbbb fwbbb fbbbb fwbbb gbwbb
+fbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb fbbbb
+fbbbb xsnbbbb cesbbbb cewbbbb cewbbbb cswbbbb csebbbb cwebbbb cwebbbb cwsbbbb xsnbbbb fbwbb
+fbbbb xsnbbbb cnsbbbb fbbbb fbbbb xnsbbbb xnsbbbb fbbbb fbbbb cnsbbbb xsnbbbb fbbbb
+fbbbb xsnbbbb cnsbbbb rbwbb fbbbv xnsbbbb xnsbbbb fbpbb rbbbw cnsbbbb xsnbbbb fbwbb
+fbbbb xsnbbbb cnsebbbb xwebbbb xwebbbb fbbbb rbbbb xewbbbb xewbbbb cnwsbbbb xsnbbbb fbbbb
+fbbbb xsnbbbb cnsebbbb xwebbbb xwebbbb rbbbb fbbbb xewbbbb xewbbbb cnwsbbbb xsnbbbb fbwbb
+fbbbw xsnbbbb cnsbbbb hbwbb fbbbp xsnbbbb xsnbbbb fbvbb hbbbw cnsbbbb xsnbbbb fbbbb
+fbbbb xsnbbbb cnsbbbb fbbbb fbbbb xsnbbbb xsnbbbb fbbbb fbbbb cnsbbbb xsnbbbb fbwbb
+fbbbw xsnbbbb cnebbbb cwebbbb cwebbbb cwnbbbb cenbbbb cewbbbb cewbbbb cnwbbbb xsnbbbb fbbbb
+fbbbb xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb fbwbb
+gbbbb fbbwb fbbbb fbbwb fbbbb fbbwb fbbbb fbbwb fbbbb fbbwb fbbbb obbwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,6 3,1,1,2 3,1,7,7 3,1,12,11 

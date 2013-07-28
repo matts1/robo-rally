@@ -1,0 +1,90 @@
+name: Slolam
+description: Be the first to get to the end of the course.
+If you miss a gate / flag take a blue chair lift back up the hill.
+5 Flags
+designed by timmonte
+length: long
+difficulty: hard
+players: 4 8
+newsboard:
+blank starting board
+8,3 10,3 11,3 7,3 8,2 10,2 11,2 7,2 
+obbbb obbbb pbbbb pbbbb
+gbbbb gbbbb pbbbb pbbbb
+obbbb obbbb pbbbb pbbbb
+gbbbb gbbbb pbbbb pbbbb
+obbwb obbwb pbbwb pbbwb
+fwbbw fwbbb fwbbb fwbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbww fbbwb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb fbbbb fbbbb fbbwb fbbwb fbbbb fbbbb fbbbb fbbbb fbbwb fbbwb fbbbb
+pbbbb fbbbb fbwbb fwbbw fwbbb fbwbb fbbbw fbbbb fbwbb fwbbw fwwbb fbwbw
+pbbbb fbbbb fbwbb fbbww fbbwb fbwbb fbbbw fbbbb fbwbb fbbbw fbwbb fbwbw
+pbbbb fbbbb fbbbb fwbbb fwwbb fbwbw fbbbw fbbbb fbwbb fbbbw fbwbb fbwbw
+pbbbb fbbbb fbbbb fbbwb fbwwb fbwbw fbbww fbbwb fbwbb fbbww fbwwb fbwbw
+pbbwb fbbwb fbbwb fwbwb fwbwb fbbwb fwbwb fwbwb fbbwb fwbwb fwbwb fbbwb
+pwbbb pwbbb pwbbb pwbwb pwbwb pwbwb pwbwb pwbwb pwbwb pwbwb pwbwb pwbwb
+pbbbb pbbbb pbwbb ceswbbw cewvbbb cewpbbb cewwbbb cewwbbb cewvbbb csnwbbb hwbbb cewwbbb
+pbbbb pbbbb pbwbb cnsbbbw cesbbbb cewbbbb cewbbbb cewbbbb fbbbb fbbbb csnbbbb fbbbb
+pbbbb pbbbb pbwbb cnsbbbv cnsbbbb cesbbbb cewbbbb fbbbb fbbbb csnbbbb fbbbb csnbbbb
+pbbbb pbbbb pbwbb cnsbbbw cnsbbbb cnsbbbb gbbbb rbbbb fbbbb fbbbb rbbbb fbbbb
+endboard
+board: 2,1 0 blank board
+newboard:
+blank board Copy
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbwb fbbwb fbbbb fbbwb fbbbb fbbbb fbbwb fbbbb pbbbb
+fbbbw fbbbb fbwbb fwbbw fwwbb fbwbw fwwbw fbbww fbwwb fwwbw fbbbw pbbbb
+fbbbw fbbbb fbwbb fbbww fbwwb fbwbw fbbbw fwwbb fwbbw fbwbb fbbbw pbbbb
+fbbbw fbbbb fbwbb fwbbw fwwbb fbwbw fbbbw fbwbb fbbbw fbwbb fbbbw pbbbb
+fbbww fbbwb fbwbb fbbbw fbwbb fbwbw fbbbw fbbbb fbbbb fbwbb fbbbw pbbbb
+fwbwb fwbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb pbbwb
+pwbwb pwbwb pwbwb pwbwb pwwbb xsewbbw xwewbbb xwewbbb xewwbbb xewwbwb xewwbwb xswwwbb
+cewvbbb cewwbbb cewwbbb cswwwbb pbwbw xsnbwbw cewbbbl fbbbb cwebwbb pwbbw pwwbb xsnbwbw
+cewbbbb cewbbbb cswbbbb csnbwbb pbwbw xsnbwbw fbbbw fbbbb fbwbb pbbbw pbwbb xsnbwbw
+cewbbbb cswbbbb csnbbbb csnbvbb pbwbw xsnbwbw cewbbbw fbbbb cwebwbb pbbbw pbwbb xsnbwbw
+fbbbb gbbbb csnbbbb csnbwbb pbwbw xsnbwbw fbbbw fbbbb fbdbb pbbbw pbwbb xsnbwbw
+endboard
+board: 2,2 0 blank board Copy
+newboard:
+blank board Copy Copy
+pbbbb pbbbb pbwbb cnsbbbw cnsbbbb fbbbb rbbbb cnsbbbb fbbbb cnsbbbb fbbbb cnsbbbb
+pbbbb pbbbb pbwbb cnsbbbv fbbbb fbbbb fbbbb cwebbbb cnsbbbb hbbbb cnsbbwb cewbbbb
+pbbbb pbbbb pbwbb cnsbbbp fbbbb cewbbbb rbbbb fbbbb cwebbbb fbwbb xsewbbw fbbbb
+pbbbb pbbbb pbwbb fbbbv cewbbbb fbbbb fbbbb cwebbbb fbbbb hbwbb xsnbwbw cewbbbw
+pbbwb pbbwb pbwwb cewbbbw fbbbb cewbbbb fbbbb fbbbb cwebbbb fbpbb xsnbwbw hbbbv
+hpbbb fwbbb fvbbb hbbbb cewbbbb fbbbb rbbbb cwebbbb fbbbb fbbbb xwsnbwbb cewbbbw
+csnbbbb fbbbb csnbbbb fbbbb csnbbbb cewbbbb fbbbb fbbbb cwebbbb cnsbvbb xnsbwbw fbbbw
+fbbbb csnbbbb fbbbb csnbbbb fbbbb csnbbbb fbbbb cwebbbb cnsbbbb cnsbwbb xnebbww fbbbb
+fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb obbbb cnsbbbb cnsbbbb cnsbwbb pwwbw csnbbbw
+cnsbbbb fbbbb cnsbbbb fbbbb cnsbbbb fbbbb cewbbbb cnwbbbb cnsbbbb cnsbpbb pbwbw csnbbbw
+fbbbb cnsbbbb fbbbb cnsbbbb fbbbb cewbbbb cewbbbb cewbbbb cnwbbbb cnsbvbb pbwbw csnbbbv
+fbbvb hbbwb cewbbpb cewbbwb cewbbvb cewbbwb cewbbpb cewbbwb cewbbwb cnwbwwb pbwbw cenbbww
+endboard
+board: 3,1 0 blank board Copy Copy
+newboard:
+blank board Copy Copy Copy
+cewbbbb rbbbb fbbbb csnbwbb pbwbw xsnbwbw cewbbbw fbbbb cwebwbb pbbbw pbwbb xsnbwbw
+fbbbb fbbbb cwebbbb fbvbb pbwbw xsnbwbw fbbbl fbbbb fbwbb pbbbw pbwbb xsnbwbw
+fbbbb fbbbb fbbbb cwebwbb pbwww xenbbbw cewbbbb fbbbb cwebwbb pbbbw pbwbb xsnbwbw
+fbbbb rbbbb cwebbbb hbbbb xwswwbb cewbbbw fbbbb fbbbb xnsbwbb pbbbw pbwbb xsnbwbw
+cewbbbb fbbbb fbbbb cwebwbb xnsbwbw fbbbw fbbbb xewbbwb xnwbwwb pbbww pbwwb xsnbwbw
+fbbbb fbbbb cwebbbb fbwbb xnsbwbw fbbbw gbbbb hvbbb fwbbb cwewbbb cwewbbb cwsnbwbb
+cewbbbb rbbbb fbbbb cwebwbb xnsbwbw gbbww rbbwb fbbbb fbbbb rbbbb obbbb cnsblbb
+fbbbb fbbbb cwebbbb fbvbb xnebbww xwewbwb xwsewbbb xwnbwwb fbbww cnsbbbb rbbbb cwebwbb
+csnbbbb fbbbb fbbbb cwebbbb fwbbb csnwbbb fbbbb csnwbbb fdbbb csnbbbb fbbbb fbvbb
+csnbbbb obbbb rbbbb fbbbb csnbbbb rbbbb csnbbbb fbbbb fbbbb fbbbb rbbbb cnsbwbb
+cenbbbb cewbbbb cewbbbb fbbbb fbbbb cnsbbbb fbbbb cnsbbbb rbbbb cnsbbbb fbbbb cnsbwbb
+cewbbwb cewbbwb cewbbvb cewbbwb fbbvb fbblb cnsbbwb hbbwb cnsbbwb cewbbwb cewbblb cnwbwwb
+endboard
+board: 3,2 0 blank board Copy Copy Copy
+flags: 3,1,4,7 3,2,3,3 3,2,9,11 2,2,10,8 

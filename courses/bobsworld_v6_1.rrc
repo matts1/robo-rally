@@ -1,0 +1,42 @@
+name: Bob's World v6.1
+description: 1 Board, Multiple Conveyors.
+No Lasers, 4 Moving Flags.
+By 2455ybob
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+pbbbb pbbbb pbbbb pbbbb
+pbbwb pbbwb pbbwb pbbwb
+fwbwb fwbwb fwbwb fwbbb
+fwbwb fwbwb fwbbb fbbwb
+fwbwb fwbwb fbbwb fwbbb
+fwbwb fwbwb fwbbb fbbwb
+fwbwb fwbwb fbbwb fwbbb
+fwbwb fwbwb fwbbb fbbwb
+fwbwb fwbwb fbbwb fwbbb
+fwbwb fwbwb fwbwb fbbwb
+pwbbb pwbbb pwbbb pwbbb
+pbbbb pbbbb pbbbb pbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbbbb
+csnbbbb cesbbbb cewbbbb cswbbbb pbbbb cesbbbb cswbbbb pbbbb cesbbbb cewbbbb cswbbbb cnsbbbb
+xsnbbbb xnsbbbb pbbbb xsnbbbb xesbbbb xnwbbbb xenbbbb xswbbbb xnsbbbb pbbbb xenbbbb xnwbbbb
+csnbbbb cnsbbbb csebbbb cwnbbbb cnebbbb cwsbbbb csebbbb cwnbbbb cnebbbb cwebbbb cwebbbb cwsbbbb
+xsnbbbb xnsbbbb xenbbbb xswbbbb xesbbbb xnwbbbb xenbbbb xswbbbb xesbbbb xswbbbb pbbbb xnsbbbb
+csnbbbb cnebbbb cwsbbbb cenbbbb cnwbbbb hbwvb hbbwv cenbbbb cnwbbbb cenbbbb cewbbbb cnwbbbb
+xenbbbb xswbbbb xnsbbbb xsebbbb xwsbbbb hwvbb hvbbw xsebbbb xwsbbbb xsebbbb xwebbbb xwsbbbb
+csebbbb cwnbbbb cnebbbb cwnbbbb cnebbbb cwsbbbb csebbbb cwnbbbb cnebbbb cwnbbbb cesbbbb cnwbbbb
+xsnbbbb xesbbbb xswbbbb xesbbbb xswbbbb xnsbbbb xsnbbbb pbbbb xesbbbb xswbbbb xnebbbb xwsbbbb
+csnbbbb cnsbbbb cenbbbb cnwbbbb cenbbbb cnwbbbb cenbbbb cewbbbb cnwbbbb cenbbbb cswbbbb cnsbbbb
+xsnbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb xnsbbbb
+cenbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,7 3,1,8,10 3,1,8,6 3,1,1,1 

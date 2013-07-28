@@ -1,0 +1,39 @@
+name: Richter Scale
+description: Just like an earthquake except there are lasers
+length: medium
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw fwbbb fwbbb fwbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb rbwbb
+fbbww fbbwb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbbb rwwbb fwbbw fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwlbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb rbbbw fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb hbbbl cwebbbb cwebbbb cwebbbb cwebbbb cwebwbb
+rbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fblbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb hbbbw fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb fbwbb hbbbl cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb rbbbw fbwbb
+fbbbb fbbbb fbwbb hbbbl cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb hbbbw fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb hbwbw
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fblbb
+fbbwb fbbwb fbbwb rbwwb fbbww fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,10,11 3,1,7,10 3,1,2,8 3,1,6,5 3,1,9,7 3,1,3,6 3,1,8,3 3,1,5,9 

@@ -1,0 +1,42 @@
+name: Crossed Paths
+description: Seems you have to take the long way around.
+Don't worry, everyone else does too, so you'll have plenty of company.
+4 flags. No Special rules.
+2013 Map Editing Contest entry designed by i8flesh.
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbbbb
+csnbbbb fbbbb fbbbb fbbbb
+csnbbbb fbbbb fbbbb fbbbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbbbb
+cnebbbb cwsbbbb fbbwb fbbbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbbbb olbbb fbbbb gbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb rbbbb rbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb gbbbb obbbb rbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbb gbbbb pbbbb fbwbb fbbbl xsnbbbb xnsbbbb fbwbb fbbbw pbbbb fbbbb fbbbb
+rbbbb rbbbb fbbwb gbvlb fbbbw xsnbwbb xnsbbbw fbwbb gbbvw fbbwb rbbbb rbbbb
+rbbbb obbbb cewwbbb cewwbbb cewbbbb xsnbwbb xnsbbbw cwebbbb fwbbb fwbbb fbbbb rbwbb
+rbbbb gbbbb cewbbwb cewbbwb cewbbbb xsnbwbb xnsbbbw cwebbbb fbbwb fbbwb fbbbb rbwbb
+rbbbb rbbbb fwbbb glvbb fbbbw xsnbwbb xnsbbbw fbwbb gvbbw fwbbb rbbbb rbbbb
+fbbbb obbbb pbbbb fbwbb fbbbw xsnbbbb xnsbbbb fblbb fbbbw pbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb obbbb gbbbb rbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb rbbbb rbbbb rbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbwb fbbbb fbbbb fbbbb fbbbb gbblb fbbbb obbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,11 3,1,7,2 3,1,4,9 3,1,8,4 

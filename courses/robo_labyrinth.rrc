@@ -1,0 +1,55 @@
+name: Robo Labyrinth
+description: A labyrinth of walls.
+length: long
+difficulty: mid
+players: 3 6
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 3,2 10,2 2,2 11,2 
+xnsbbbw owbwb xewwbwb xewwbwb
+xnsbwbw fwbbw fwbbb pwbwb
+xnsbwbw fbwbw fbbbw xewwbwb
+cnsbvbb fbbbw fbbbb ftbwb
+xnsbwbw rbbbw fbbbb cewwbwb
+xnsbwbw fbwbw fbbbw hwlbb
+gbwbw fbwbw fbbbw hblwb
+cnsbwbw rbbbw fbbbb cewwbwb
+xnsbwbw fbbbw fbbbb fwbtb
+xnsbwbw fbwbw fbbbw xewwbwb
+gbwbw fbbww fbbwb pwbwb
+obbwb xwewbwb cwewbwb xwewbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xnwbwwb hwbbw gwbbb fwbbb fwbwb fwbwb fvbbb fpbbb fwbwb flbwb flbwb hlbwb
+hwwbw gbwbw xnebbww xwebbwb xwewbwb xwswwbb fbbpw fbbvb fwbwb fwbwb fwbbb pwbbb
+xswbwbb obbbw gwbbb owbbb fwlbb xnsbwbw hwbbw hwwbb fwbbw fwbwb fbbwb cnsbbwb
+csnbwbw gbbbw obbbb gbbbb fbbwb xnwbwwb fbbbw fbwbb fbbbw fwbbb fwbbb fwwbb
+csnwbwbb obbww gbbbb rbwwb pwbbw fwwbb fbwbw csnbwbw xwebbbw xwebbbb rbwbb fbwbw
+xenbbbw xewwbbb cnwsbwbb fwbbw fbbbb fbwbb fbwbw csnbwbw xewbbbw xewbbbb xwebwwb fbwbw
+xesbbbw xewbbwb xnwbwwb fbbbw fbwbb fbbbw obvbb csnbwbw xwebbww xwebbwb hwwbb fbwbw
+cnwsbwbb fwbbw fwbwb fbbwb fbwwb csnbwbw fbbbw fbbwb fwbwb fwbwb fbbbb fbwbb
+cnsbwbw fbbbw fwbbb fwbbb fwwbb csnbwbw fbbbw fwbbb pwbbb fwpbb hbbbw hbwwb
+xnwbwbb rbbww pbbbb pbwwb fbwbl fbbww fbbwb fbbbb fbbvb hbwbb fbbbl csnwbbb
+hbwww pwbbw pbbbb fwbbb fbwwb hwbbw hwwbb fbwbw hwbbw fbbwb fbbwb pbbwb
+xwewbwb xwebbwb cwebbwb hbbwb cwewbwb fbbwb fbbwb fbwwb hbbww hwbwb fwbwb fwbwb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+fwbwb fwbwb ftbbb fwpbb fwbbw fwbwb fwbbb hwbwb hwwbb pwbbw pwbwb pwwbb
+cwewbbb fwwbb fbbbw fbbbb fbbbb fwwbb fbwbw fwbbw fbwbb fbbbw fwbbb fbwwb
+fbbwb fbbbb fbbwb pbwwb fbbbw fbwbb fbwbw cesbbbw cswbwbb fbwbw fbwbw hwwbw
+xsewbbw xwnbwbb hwbbw hwwwb fbbww hbwwb fbbww fbwbb fbwbw fbwbw fbbbw fbwbb
+xsnbbbw fbbbb fbwbb hwwbw hwbbw hwwbb fwbbw fblbb fbwbw gbbbw obwbb xnsbwbw
+xsnbwbw hbwww csnbwbw csnbwbw hbbbw hbwbb fbbbw fblbb fbbww obbvb gbwwb xnsbwbw
+xsnbwbw fwwbw csenbbbw cwnbbwb fbbwb fblwb fbbww fbbvb fwbbb fwbbb hwwbb xnsbwbw
+xsnbwbw fbbbw fbbbb fwbbb fwbbb fwwbb xeswbbw xewwbwb fbwbb fbbbw fbwbb xnsbwbw
+xsnbwbw fbwbw fbbbw xewbbwb xewbbwb xewbbwb xnwbwwb fwbbw fbwwb fbbww fbbwb fbwbb
+fbwbb fbwbw fbbww fwbwb flbwb fwbbb flbwb fbbwb hwwwb fwbbw fwbbb fbwbb
+fbbwb fbwbb fwbbw fwbbb fwbbb fbbbb fwbwb fwbbb fwbwb fbbwb cewbbwb hbwbb
+fwbwb fbwwb fbbww fbwwb pbbww hbbwb pwbwb fbbwb xewwbwb xewwbwb hwbwb hbwwb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,11,3 3,2,2,11 3,1,5,6 3,1,1,1 

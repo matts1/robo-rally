@@ -1,0 +1,71 @@
+name: Robo Hockey
+description: Hockey is a tough game, 3 periods, so 3 flags, 2 stuck in the nets, so get out of your penalty boxes and look out for the Zamboni!
+length: medium
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+5,4 8,4 11,4 2,4 4,4 9,4 12,4 1,4 
+hwbww fwwbb rwbbw fwbbb
+pwwbb fbwbw rbbww fbbwb
+pbwbb fbbbw fwbwb fwbwb
+pbwbb fbwbw rwbbw fwbbb
+pbwbb fbwbw rbbww fbbwb
+pbwbb fbbbw fwbbb hwwbb
+pbwbb fbbbw fbbwb hbwwb
+pbwbb fbwbw rwbbw fwbbb
+pbwbb fbwbw rbbww fbbwb
+pbwbb fbbbw fwbwb fwbwb
+pbwwb fbwbw rwbbw fwbbb
+hwbww fbwwb rbbww fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb pbbbb pbbwb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbwbb pwwww pbbbw pbbwb pbwbb pbbww pbbbb pbbwb pbbbb pbbbb pbbbb
+pbbbb pbwbb pwwbw pbwbw pwwww pbwbw pwwww pbwbw pwwww pbbbw pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pwbbb pbbbb pwbbb pbbbb pwbbb pbbbb pbbbb pbbbb
+pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbbb
+csewbbw fwbbb fwbbb fwbbb fwbwb fwbwb fwbwb fwbbb fwbbb fwbbb cswwwbb pbbbw
+fbbbw fbbbb fbbbb fbwbb fwbbw fwbbb fwtbb fbbbw fbbbb fbbbb fbwbb pbbbw
+fbbbw fbbbb fbbbb fbwbb fbbbw fbbbb fbtbb fbbbw fbbbb fbbbb fbwbb pbbbw
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+cewbbbw cewbbbb cewbbbb cewbbbb cewbbbb cnwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebwbb pbbbw
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+endboard
+board: 2,1 0 blank board
+newboard:
+blank board Copy
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebwbb pbbbw
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+fbbbb fbbbb fbbbb fbbbb obbbb obbbb obbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+fbbbw fbbbb fbbbb fbbbb obbbb fbbbb obbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+fbbbw fbbbb fbbbb fbbbb obbbb fbbbb obbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+fbbbb fbbbb fbbbb fbbbb obbbb obbbb obbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xsewbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebwbb pbbbw
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+endboard
+board: 3,1 0 blank board Copy
+newboard:
+blank board Copy Copy
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+cewbbbw cewbbbb cewbbbb cewbbbb cewbbbb csewbbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebwbb pbbbw
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb pbbbw
+fbbbw fbbbb fbbbb fbwbb fbbbt fbbbb fbwbb fbbbw fbbbb fbbbb fbwbb pbbbw
+fbbbw fbbbb fbbbb fbwbb fbbwt fbbwb fbwwb fbbbw fbbbb fbbbb fbwbb pbbbw
+cnebbww fbbwb fbbwb fbbwb fwbwb fwbwb fwbwb fbbwb fbbwb fbbwb cnwbwwb pbbbw
+pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbwb pbbbb pbbbb
+pbwbb pbwww pbbbw pbbwb pbbbb pbbwb pbwbb pbbww pbwbb pwbww pbwbb pbwww
+pbwbb pwwbw pbwbw pwwww pbwbw pwbww pbwbb hwbbw pbwbb pwbww pbbbb pwwwb
+pbbbb pbbbb pbbbb pwbbb pbbbb pwbbb pbbbb pbbbb pbbbb pwbbb pbbbb pwbbb
+endboard
+board: 4,1 0 blank board Copy Copy
+flags: 3,1,6,6 4,1,6,6 2,1,7,6 

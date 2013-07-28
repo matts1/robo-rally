@@ -1,0 +1,39 @@
+name: Barbeque
+description: 1Board, 4 Flags.  Would you like that well done or extra crispy, Sir?  Designed by CaptainColeslaw
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+Double Twirl Start
+3,2 10,2 2,2 11,2 3,3 10,3 2,3 11,3 
+xeswbbw xewwbbb xewwbbb xswwbbb
+xnsbbbw xsebbbb xwsbbbb xsnbwbb
+xnsbbbw xenbbbb xnwbbbb xsnbwbb
+xnebbbw xwebbbb xwebbbb xwnbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb gbbbb gbbbb fbbbb
+fbbbb obbbb obbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+xsebbbw xwebbbb xwebbbb xwsbbbb
+xsnbbbw xesbbbb xswbbbb xnsbwbb
+xsnbbbw xnebbbb xwnbbbb xnsbwbb
+xenbbww xewbbwb xewbbwb xnwbbwb
+endboard
+sboard: Double Twirl Start
+newboard:
+Barbeque Board
+fbwbb xsebbbl xwsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw xesbbbb xswwwbb
+fbbbb xenbbbb xnwbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbbb xnebbbb xwnbwbb
+fbbbb xsebbbb xwedbwb xwelbwb xwedbwb xwelbwb xwedbwb xwelbwb xwedbwb xwsbbbb csnbbbb rbbbb
+fbbbb xenbbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xswwwbb xnsbdbw rbwbw fbwbw
+fbbbb xsebbbb cwebbwb cwebbwb cwebbwb cwebbwb cwebbwb cwsbwbb xsnbbbw xnsblbb csnbbbw fbwbb
+fbbbb xenbbbb xewdbwb xewlbwb xewdbwb xewlbwb rdbwb fbbbb rbbbb xnsbwbb csebbbw cwsblbb
+fbbbb xesbbbb xewwbdb xewwblb xewwbdb xewwblb rwbdb fbbbb rbbbb xsnbwbb cenbbbw cnwblbb
+fbbbb xnebbbb cwewbbb cwewbbb cwewbbb cwewbbb cwewbbb cwnbwbb xnsbbbw xsnblbb cnsbbbw fbwbb
+fbbbb xesbbbb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xnwbwwb xsnbdbw rbwbw fbwbw
+fbbbb xnebbbb xwewbdb xwewblb xwewbdb xwewblb xwewbdb xwewblb xwewbdb xwnbbbb cnsbbbb rbbbb
+fbbbb xesbbbb xswwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewbbbb xsebbbb xwsbwbb
+fbwbb xnebbbl xwnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw xenbbbb xnwbwwb
+endboard
+board: 3,1 0 Barbeque Board
+flags: 3,1,5,12 3,1,6,8 3,1,8,12 3,1,7,8 

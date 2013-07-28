@@ -1,0 +1,40 @@
+name: Bob's World v4.0
+description: 1 Board, 4 Flags
+Created by 2455ybob
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fwbbb pbbbb rwbbb fbbbb fbbbb fwbbb fbbbb fwbbb rbbbb fbbbb
+fbbbb xesbbbb xewbbbb xswbbbb fbbbb fbwbb fbbbw fbbbb csebbbb cwebbbb cwsbbbb fbbbb
+fbbbw xnsbbbb xsebbbb xwnbbwb fbbbb fbbbb fbbbb csebbbb cwnbbpb pbbbb cnsbbbb fbwbb
+fbbbb xnebbwb xwnbwbb fpbbw hbvbb fbbbw csebbbb cwnbbbb hwbwb cesbbbb cnwbbbb fbbbb
+fbbbw fwbbb fbbbb fbbbb pbbbb csebbbb cwnbbbb fbbbb ceswbbb cnwbwbb fbbbd fbwbb
+fbbbb fbbbb fbbbb fbbbb csebbbb cwnbbbb pbbbb cesbbbb cnwbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb csebbbb cwnbbbb pbbbb cesbbbb cnwbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbw fbblb csebbbb cwnbvbb hbwbw cesbbbw cnwbbbb gbbbb obbbb xsebbbb xwsbbbb fbwbb
+fbbbb csewbbb cwnbbbb fbbbb cesbbbb cnwbbbb fbbbb obbbb pbbbb xsnbbbb xnsbbbb fbbbb
+fbbbw csnbbbb pbbbb cesbbbb cnwbbbb fbbbb fbbbb xsebbbb xwebbbb xwnbwwb xnsbbbw fbwbb
+fbbbb cenbbbb cewbbbb cnwbwbb fbwbt rbbww fbbbb xenbbbb xewbbbb xewwbbb xnwbbbb fbbbb
+fbbbb fbbbb fbbwb fbbbb fbbwb fwbbb fbbbb fbbwb fbbbb fbbwb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,12 3,1,11,5 3,1,1,3 3,1,12,12 

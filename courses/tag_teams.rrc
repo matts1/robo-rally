@@ -1,0 +1,60 @@
+name: Tag Teams
+description: "One touch, all touch"
+5 flags, 1 moving
+Start with 1 option card
+Designed by timmonte
+length: long
+difficulty: mid
+players: 6 8
+team: true
+rules: teamonetouchalltouch startoptions2c1 flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+Vault
+rbbbb fbbbb fwbbb xesbbbb xewwbbb xewbbbb xswbbbb fwbbb fbbwb fwbbb cnsbbbb hbbbb
+gbbbb xewbbbb xewsbbbb xnwbbbb fbwbb fbbbv xenbbbb xewbbbb xewvbbb xewbbbb cnwsbbbb fbbbb
+fbbbw fbbbb cnsbbbb pbbbb fbbbb fbbwb fbbpb fbbbb pbbbb fbbbb cnsbbbb fbwbb
+cewbbbb cewsbbbb cnwbbbb fbbbb fbbwb fwbbb fwbbb fbbwb fbbbb fbbbb cnsbbbb fbbbb
+fbbbl cnsbbbb fbbbb fbwbb fwbbw fbbbb fbbbb fwwbb fbbbw fbbbb fbbbb fblbb
+fbbbb cnsbbbb fbwbb fbbbw fbbbb hbbbb hbbbb fbbbb fbwbb fbbbp fbbbb fbbbb
+fbbbb cnsbbbb fbpbb fbbbw fbbbb hbbbb hbbbb fbbbb fbwbb fbbbv cesbbbb cewbbbb
+fbbbl cnsbbbb fbbwb fbwbb fbbww fbbbb fbbbb fbwwb fbbbw fbbbb cnsbbbb fblbb
+cewbbbb cnwbbbb fwbbb fbbbb fwbbb fbbwb fbbwb fwbbb fbbbb fbbbb cnsbbbb fbbbb
+fbbbw fbbbb fbbbb pbbbb fbbbb fwbbb fpbbb fbbbb pbbbb fbbbb cnsbbbb fbwbb
+cewbbbb cswbbbb fbbbb fbbbb fbbbb fbbbb cesbbbb cewbbbb cewbbvb cewbbbb cnwbbbb fbbbb
+rbbbb cenbbbb cewbblb cewbbbb cewbbwb cewbbbb cnwbbbb fbbwb fwbbb fbbwb fbbbb rbbbb
+endboard
+board: 3,1 0 Vault
+newboard:
+Island
+rbbbb fbbbb fwbbb fbbbb fwbbb fbbbb fbbbb fwbbb fbbbb rwbbb fbbbb hbbbb
+fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb fbbbb
+fbbbw pbbbb cnsbbbb cewbbbb cewbbbb cewbbbb cewbbwb cewbbbb cewbbbb cewbbbb pbbbb fbwbb
+fbbbb fbbbb cnsbbbb csebbbb cwebbbb cwebbbb cweswbbb cwebbbb cwsbbbb csnbbbb fbbbb fbbbb
+fbbbw fbbbb cnsbbbb csnbbbb pbbbb pbbbb cnsbbbb fbbbb cnsbbbb csnbbbb fbbbb fbwbb
+fbbbb fbbbb cnsbbbb csnbbbb pbbbb hbbbb cnsbbbb hbbbb cnsbbbb csnbbbb fbbbb fbbbb
+fbbbb fbbbb cnsbwbb csnbbbw fbbbb csnbbbb hbbbb pbbbb cnsbwbb csnbbbw fbbbb fbbbb
+fbbbw fbbbb cnsbbbb csnbbbb fbbbb csnbbbb pbbbb pbbbb cnsbbbb csnbbbb fbbbb fbwbb
+fbbbb fbbbb cnsbbbb cenbbbb cewbbbb cenwbbwb cewbbbb cewbbbb cnwbbbb csnbbbb fbbbb fbbbb
+fbbbw pbbbb cwebbbb cwebbbb cwebbbb cwewbbb cwebbbb cwebbbb cwebbbb csnbbbb pbbbb fbwbb
+fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb fbbbb
+hbbbb fbbbb fbbwb fbbbb fbbwb fbbbb fbbbb fbbwb fbbbb rbbwb fbbbb hbbbb
+endboard
+board: 3,2 0 Island
+flags: 3,1,10,10 3,2,2,8 3,2,9,4 3,1,6,4 3,2,7,11 

@@ -1,0 +1,43 @@
+name: Picasso
+description: 4 Flags,  3 Options,
+2 Repairs
+May not Look it, But it is
+A Beauty
+Created By: Mongo441
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb gbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cewbbbb cewbbbb cewbbbb cswbbbb fbwbb fbbbp gbbbb cnsbbbb hwbbb fbbbb pbbbb fbbbb
+fbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb fbwbb cnsbbbd fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb obbbb cnsbbbb fbvbb fbbbw fbbbb rbbbb
+fbbbb obbbb fbbbb pbbbb fbbbb fbbbb fbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbwbb fbbbw fbbbb fbbbb fbbwb hbbbb xsnbwbb fbbbw fbbbb fbbbb fbbbb
+fbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewwbdb xswbbbb fbbbb gbbbb fbbbb pbbbb fbbbb
+fbbbb fbwbb fbbbw fbbbb fbbbb fwbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+obbbb gbbbb obbbb fbbbb fbbbb fbbbb xsnbvbb fbwbw fbbbd fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb pbbbb fbbbb hbbbb xsnbbbb fbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb
+fbbbb fbbbb fbbbb fbbbb xwebbbb xwebbbb xwnbbbb fbbbb fbbbb cenbbbb obbbb cwnbbbb
+fbbbb fbbbb fbbbb cnsbbbb fbbbb fbbbb fbbbb fbwbb rbbbw fbbbb fbbbb fbbbb
+cewbbbb cewbbbb cewbbbb cnwbbbb fbbbb fbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,4 3,1,3,9 3,1,12,5 3,1,1,6 

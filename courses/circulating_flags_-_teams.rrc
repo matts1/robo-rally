@@ -1,0 +1,59 @@
+name: Circulating Flags
+description: Round and round go the flags
+5 moving flags and 2 option spaces
+designed by timmonte
+length: medium
+difficulty: hard
+players: 4 8
+team: true
+rules: teamonetouchalltouch flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb csnbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb cesbbbb cewbbbb cswbbbb fbbbb fbbbb xesbbbb xewvbbb xewbbbb
+fbbbb fbbbb cesbbbb cewbbbb cnwbbbb fbbbb csnbbbb fbbbb fbwbb xnsbbbv csnbbbb rbbbb
+fbbbb fbbbb cnsbbbb fbbbb pbbbb rbbbb cenbbbb cswbbbb fbbbb xnsbbbb cenbbbb cewbbbb
+fbbbb fbbbb cnebbbb cwsbbbb rbbbb pbbbb fbbbb csnbbbb fbbbb xnsbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cnsbbbb fbbbb csebbbb cwebbbb cwnbbbb xesbbbb xnwbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cnebbbb cwebbbb cwnbbbb fbbbb xesbbbb xnwbbbb csebbbb cwebbbb cwsbbbb
+csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xesbbbb xnwbbbb fbbbb csnbbbb fbbbb cnebbbb
+fbbbb csnbbbb fbbbb rbbbb xesbbbb xewbbbb xnwbbbb fbbbb csebbbb cwnbbbb rbbbb pbbbb
+fbbbb fbbbb csnbbbb fbbbb xnsbbbb fbbbb fbbbb fbbbb csnbbbb fbbbb pbbbb rbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xnwebbbb xwsbbbb fbbbb fbbbb cenbbbb cewbbbb cswbbbb fbbbb
+fbbbb cnsbbbb fbbbb fbbbb fbbbb xnsbbbb rbbbb fbbbb fbbbb fbbbb cenbbbb cewbbbb
+cnsbbbb fbbbb fbbbb fbbbb fbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbvb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsnbdbb fbbbw hbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb cesbbbb cewbbbb cswbbbb xsnbbbb fbbbb fbbwb fbbbb fbbbb
+fbbbb fbbbb cesbbbb cewbbbb cnwbbbb fbbbb csnbbbb xenbbbb xewbbbb xewvbbb xewbbbb xswbbbb
+fbbbb fbbbb cnsbbbb fbbbb pbbbb rbbbb cenbbbb cswbbbb fbbbb csnbbbb fbbbb xsnbbbb
+fbbbb fbbbb cnebbbb cwsbbbb rbbbb pbbbb fbbbb csnbbbb fbbbb csenbbbb cwebbbb xsnbpbb
+cwebbbb cwsbbbb fbbbb cnsbbbb fbbbb csebbbb cwebbbb cwnbbbb fbbbb pbbbb fbbbb xsnbbbb
+fbbbb cnsbbbb fbbbb cnebbbb cwebbbb cwnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb
+cesbbbb cnwbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsebbbb xwebbbb xwebbdb xwebbbb xwnbbbb
+cnsbbbb fbbbb fbbbb fbbbb pbbbb cwsebbbb cwebbbb xsnbpbb fbbbw hwbbb fbbbb fbbbb
+cnwbbbb fbbbb fbbbb fbbbb fbbbb cnsbbbb rbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbvb xwebbbb xwnbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,1,1,5 3,1,11,11 3,2,3,6 3,1,9,5 3,2,4,12 

@@ -1,0 +1,40 @@
+name: Spider
+description: Negotiate the arms of the Spider to capture the moving flags.	
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbw fbbbb pbbbb fbbbb fbbbb pbbbb pbbbb fbbbb fbbbb pbbbb fbbbb pbbbb
+pbbbw pbbbb fbbbb pbbbb pbbbb fbbbb fbbbb pbbbb pbbbb fbbbb pbbbb fbbbb
+cewbbbb cswbbbb pbbbb fbbbb fbbbb pbbbb pbbbb fbbbb fbbbb pbbbb csebbbb cwebbbb
+pbbbw cenbbbb cswbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb csebbbb cwnbbbb pbbbb
+cenbbbb cswbbbb cenbbbb cswbbbb obbbb hbbbb hbbbb obbbb csebbbb cwnbbbb csebbbb cwnbbbb
+pbbbw cenbbbb cewbbbb csnwbbbb pbbbb pbbwb pbbwb pbbbb csenbbbb cwebbbb cwnbbbb pbbbb
+pbbbw rbbbb cesbbbb cenwbbbb cewbbbb plbbb plbbb cwebbbb cwenbbbb cwsbbbb rbbbb pbbbb
+cesbbbb cewbbbb cnwbbbb fbbbb cesbbbb cnwbbbb cnebbbb cwsbbbb fbbbb cnebbbb cwebbbb cwsbbbb
+pbbbw fbbbb pbbbb fbbbb cnsbbbb fbbbb fbbbb cnsbbbb fbbbb pbbbb fbbbb pbbbb
+cewbbbb cswbbbb fbbbb cesbbbb cnwbbbb pbbbb pbbbb cnebbbb cwsbbbb fbbbb csebbbb cwebbbb
+pbbbw cenbbbb cewbbbb cnwbbbb pbbbb fbbbb fbbbb pbbbb cnebbbb cwebbbb cwnbbbb pbbbb
+pbbbw pbbbb fbbbb pbbbb fbbbb fbbbb fbbbb fbbbb pbbbb fbbbb pbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,10,1 3,1,3,12 3,1,5,1 3,1,8,12 

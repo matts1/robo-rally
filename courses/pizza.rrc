@@ -1,0 +1,39 @@
+name: Pizza
+description: With mushrooms, jalapenos, fresh garden tomatoes...don't hurt anyone in the rush for PIZZA
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbblb fbblb fwbbb fwbbb fbblb fbblb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbblb fwbbb fwbbb fbbbb xewbbbb xewwbbb fwbbb fbblb fbbbb fbbbb
+fbbbb fbwbb fwbbw csebbbb cwsbbbb fbbbb fbbbb rbwbb fbbbl fwwbb fbbbl fbbbb
+fbwbb xsnbbbw rbbwb cenbbbb cnwbbbb fbbbb fbbbb csebbbb cwsbbbb fbbbb rbwbb fbbbl
+fbwbb xsnbbbw flbbb fbbbb xwebbbb xwebbbb fbbbb cenbbbb cnwbbbb fbbbb fbwbb fbbbl
+fbbbw fbbbb fbbwb fbbbb fbwbb hbbbw fblbb fbbbw xwebbbb xwebbwb fbbbb fbwbb
+fbbbw fbbbb xewwbbb xewbbbb fbwbb fbbbl hbwbb fbbbw fbbbb fwbbb fbbbb fbwbb
+fbwbb fbbbw fbbbb csebbbb cwsbbbb fbbbb xewbbbb xewbbbb fbbbb fbblb xnsbwbb fbbbl
+fbwbb rbbbw fbbbb cenbbbb cnwbbbb fbbbb fbbbb csebbbb cwsbbbb rwbbb xnsbwbb fbbbl
+fbbbb fbwbb fbbww fblbb rbbbw fbbbb fbbbb cenbbbb cnwbbbb fbwwb fbbbl fbbbb
+fbbbb fbbbb fwbbb fbbwb xwebbwb xwebbbb fbbbb fbbwb fbbwb flbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb flbbb flbbb fbbwb fbbwb flbbb flbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,9 3,1,2,4 3,1,5,11 3,1,9,3 

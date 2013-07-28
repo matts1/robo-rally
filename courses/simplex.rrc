@@ -1,0 +1,26 @@
+name: Simplex
+description: pushers, gears, laser, and other bots.
+All stuff you should avoid.
+4 flags.
+2-4 players, 5 max.
+length: short
+difficulty: mid
+players: 2 4
+newboard:
+blank board
+fwbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cnsbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb cewbbbb cewbbbb cnwbbbb fbbbb pbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb xewbbbb xewbbbb xnwbbbb fbbbb obbbb fbbbb rbbbb fbbbb
+fbbbw fbbbb cewbbbb cewbbbb cnwbbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb fbbbb ftbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb obbbb fbbbb gbwbb rbbbv pbbbb pbwbb fbwbd pbbbw
+fbbbw fbbbb fbbbb fbbbb gbbbb fbbbb obwbb rbbbp pbbbb pbwbb fbdbw pbbbw
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbwb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb
+fbbbw fbbbb cewbbbb cewbbbb cswbwbb fwbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb xewbbbb xewbbbb xswbbbb fbbbb gbbbb fbbbb rbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb cewbbbb cewbbbb cswbbbb fbbbb pbbbb fbbbb
+fbbww fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,9,11 3,1,2,10 3,1,12,8 3,1,5,5 
+start: 3,1,6,1 3,1,7,1 3,1,5,1 3,1,8,1 3,1,4,1 3,1,9,1 3,1,3,1 3,1,10,1 

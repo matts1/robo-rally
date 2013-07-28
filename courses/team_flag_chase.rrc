@@ -1,0 +1,41 @@
+name: Team Flag Chase
+description: 1 Board, 8 Flags.  It's a flag roundup! Suggested turn length 90-120 seconds.  Special rules: flags move, board rotates.  Designed by CaptainColeslaw
+length: long
+difficulty: expert
+players: 4 8
+team: true
+rules: teamonetouchalltouch flagsmove startoptions1c1 boardrotate50t1
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+csebbbb cwsbbbb xsebbbb xwsbbbb
+cenbbbb cnwbbbb xenbbbb xnwbbbb
+csebbbb cwsbbbb xsebbbb xwsbbbb
+cenbbbb cnwbbbb xenbbbb xnwbbbb
+csebbbb cwsbbbb xsebbbb xwsbbbb
+cenbbbb cnwbbbb xenbbbb xnwbbbb
+cesbbbb cswbbbb xesbbbb xswbbbb
+cnebbbb cwnbbbb xnebbbb xwnbbbb
+cesbbbb cswbbbb xesbbbb xswbbbb
+cnebbbb cwnbbbb xnebbbb xwnbbbb
+cesbbbb cswbbbb xesbbbb xswbbbb
+cnebbbb cwnbbbb xnebbbb xwnbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cnsbbbb csebbbb cwsbbbb csebbbb cwsbbbb csebbbb cwsbbbb csebbbb cwsbbbb csebbbb cwsbbbb csnbbbb
+cnebbbb cwnbbbb cnebbbb cwnbbbb cnebbbb cwnbbbb cnebbbb cwnbbbb cnebbbb cwnbbbb cnebbbb cwnbbbb
+xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbbbb xesbbbb xewbbbb xewbbbb xewbbbb
+xsnbbbb cesbbbb cswbbbb obbbb gbbbb obbbb gbbbb xnsbbbb xnebbbb xwebbbb xwebbbb xwsbbbb
+xsnbbbb cnsbbbb csnbbbb xesbbbb xewbbbb xewbbbb xewbbbb xnwbbbb xesbbbb xewbbbb xewbbbb xnwbbbb
+xsnbbbb cnsbbbb csnbbbb xnsbbbb xsebbbb xwsbbbb xsebbbb xwsbbbb xnebbbb xwebbbb xwebbbb xwsbbbb
+xsnbbbb cnsbbbb csnbbbb xnsbbbb xsnbbbb xnsbbbb xsnbbbb xnsbbbb xesbbbb xewbbbb xewbbbb xnwbbbb
+xsnbbbb cnsbbbb csnbbbb xnsbbbb xsnbbbb xnsbbbb xsnbbbb xnsbbbb xnebbbb xwebbbb xwebbbb xwsbbbb
+xsnbbbb cnebbbb cwnbbbb xnsbbbb xsnbbbb xnsbbbb xsnbbbb xnsbbbb xesbbbb xewbbbb xewbbbb xnwbbbb
+xenbbbb xewbbbb xewbbbb xnwbbbb xsnbbbb xnsbbbb xsnbbbb xnsbbbb xnebbbb xwebbbb xwebbbb xwebbbb
+cesbbbb cswbbbb cesbbbb cswbbbb xsnbbbb xnsbbbb xsnbbbb xnsbbbb csebbbb cwsbbbb csebbbb cwsbbbb
+cnsbbbb cenbbbb cnwbbbb csnbbbb xsnbbbb xnsbbbb xsnbbbb xnsbbbb csnbbbb cnebbbb cwnbbbb cnsbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,10,12 3,1,12,1 3,1,2,7 3,1,12,6 3,1,10,8 3,1,5,5 3,1,12,12 3,1,7,3 

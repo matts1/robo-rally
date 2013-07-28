@@ -1,0 +1,39 @@
+name: Phantom Lasers
+description: A tricky map with invisible lasers. By Wiggfield.
+length: medium
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+7,1 6,1 8,2 5,2 9,2 4,2 3,3 10,3 
+pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbwb fbbbb fbbbb fbbbb
+fwbbb fbbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb fbbbb pbbbb fbbbb flbbb fbbbb csnbbbb fbbbb fbbbb flbbb fbbbb hbbbb
+pbbbb obbbb fbbbb fbbbb fbbbb fbbbb csnbbbb pbbbb fbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb pbbbb csebbbb xwebbbb cwsbbbb csenbbbb cwebbpb xwebbbb cwsbbbb fbbbb fbblb
+cwebbbb xwebbbb cwebbvb cwnbbbb gbbbb csenbbbb cwnbbbb fwbbb fbbbb cnebbbb cwsbbbb fwbbb
+fbbbb fbbbb fwbbb fbbbb fbbbb csnbbbb rbbbb fbbbb fbbbb fbbbb cnsbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb pbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb rbbbb csnbbbb fbbbb fbbbb fbbwb fbbbb cnsbbbb fbbbb
+fbbbb fbbbb pbbbb cesbbbb xewbbbb csnwbbbb fbbbb cesbbbb cewvbbb xewbbbb cnwsbbbb fbbbb
+xewbbbb cewbbbb cewbbpb cnwbbbb obbbb cenbbbb cewbbbb cnwsbbbb pbbbb fbbbb cnsbbbb fbbwb
+pbbbb fbbbb flbbb fbbbb fbbbb fbbbb fbbbb cnsbbbb fbbbb fbbbb cnsbbbb fwbbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsnbbbb fbbbb fbbbb cnsbbbb pblwb
+hbblb fbbbb fbbbb fbbbb fbbbb fbbbb fbblb cnsbbbb fbbbb fbbbb obbbb fpbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 3,1,1,2 3,1,12,12 

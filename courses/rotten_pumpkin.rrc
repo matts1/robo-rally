@@ -1,0 +1,25 @@
+name: Rotten Pumpkin
+description: A Halloween 2012 Tournament Map Special
+1 Board, 4 moving Flags
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newboard:
+blank board
+fwbbb fwbbb fbbbb xsnbbbb fbbbb fbbbb pbbbb xwepbbb xwebbbb xwebbbb xwebbbb xwsbbbb
+fbbbb fbbbb cesbbbb cewbbbb cewbbbb cewbbbb cewsbbbb cewbbbb cswbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb cnsbbbb xsnbbbb fbbbb fbbbb cnsbbbb fbbbb csnbpbb fbbbw fbbbb xnsbbbb
+fbbbb fbwbb pbbbw xsnbvbb fbbbw rbbwb cnsbbbb obbwb xsnbbbb pbbbb fbbbb xnsbbbb
+fbbbb xwebbbb xwebbbb xwnbbbb fbbbb owbbb cnsbbbb xsewbbb xwenbbbb cwsbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbwbb cesbbbw cewbbbb cewbbbb cnwbbbb xsnbvbb fbbbw cnsbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbwb cnebbbb cwsbbbb rbbbb pbbbb pbbbb fbbbb cnsbbbb fbbbb xnsbbbb
+fbbbb xwebbbb xwevbbb xwsbbbb cnsbbbb xesbbbb xewbbwb xewbbwb xswbbbb cnsbbbb fbbbb rbbbb
+fbbbb fbwbb pbbbw xnsbbbb cnebbbb cwebbbb cwewbbb cwewbbb xsnbbbb cnwbbbb fbbbb cesbbbb
+fbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb pbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb cewbbbb cewbbbb cewbbbb fbbbb xsnbbbb fbbbb fbbbb cnsbbbb
+fbbwb fbbwb fbbbb fbbbb fbbbb fbbbb xewbbbb xewbbbb xenwbbbb xewbbvb xewbbbb xnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,9,10 3,1,7,12 3,1,8,6 3,1,6,4 
+start: 3,1,2,1 3,1,1,1 3,1,12,1 3,1,11,1 3,1,10,1 3,1,3,1 3,1,4,2 3,1,9,2 

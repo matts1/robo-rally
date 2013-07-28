@@ -1,0 +1,40 @@
+name: Alienbrain's Fire Pits
+description: Six double wrenches. Might have been Heaven if not for those "fire pits". Six flags-- two that move.
+length: long
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+csewbbw cwewbbb fpbbb xsewbbb
+csnbbbv gbbbb fbbbb xsnbwbb
+cenbbbw cnwbbbb fbbbb xsnbbbb
+csnbbbw obbbb fbbbb xsnbwbb
+censbbbv cewbbbb fbbbb xsnbbbb
+cnsbbww gbbbb fbbbb xsnbbbb
+csnwbbw obbbb fbbbb xsnbbbb
+censbbbv cewbbbb fbbbb xsnbbbb
+cnsbbbw gbbbb fbbbb xsnbbbb
+csebbbw cwebbbb fbbbb xsnbbbb
+csnbbbb obbbb fbwbb xsnbbbp
+cenbbww cnwbbwb fbbpb xenbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xwebbwb xwebbbb xwepbbb xwebbwb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwswwbb
+ceslbbl cewbbwb csnwbbbb owwbb fbbbw fbbwb fbbbb fbbbb fbbwb rbbwb gbbbb xnsbbbb
+cnsbbbb hvbbb fbbbb cnsbbbb fbwbb cewslbbw cswblbb fbbbw ceslbbb cswwbbb fbbbb xnsbbbb
+cnsebbbw cweblbb fbbbw cnsbbbb fbbbb cnsbbbb hbvbb fbbbw cnsebbbb cwnbblb fbbbb xnsbbbb
+cnwebbwb fbbbb fbbbb cnwebblb rbbbb cnwebblb fbbbb fbwbb cnebbwl cwewbbb hbbbb xnsbbbb
+xeswbbb xewbbwb xewbbbb xewwbbb xewbbpb xewwbbb xewbbwb xewbbbb xewwbbb xewbbwb xswbbbb xnsbwbb
+xnebbbb xwewbbb xwebbbb xwebbbb xwewbbb xwebbbb xwepbbb xwebbbb xwebbbb xwewbbb xwnbbbb xnsbbbb
+cewsbbbb cewbbpb cswbbbb pbbbb hbvbb fbbbw csnbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb
+cnsbwbb pwbbw cwnbbbb cnsbbbb fbbbb cewbbbb csewbbbb cwebbbb rbbwb csebbbb cwsbbbb xnsbpbb
+cnsbbbb hbbvb fbbbb cnsbbbb fbbbb fbbbb csnbbbb fbbbb hvbbb cenbbbb cswbbbb xnsbbbb
+cnwebbbb fwbbb fbbbb cnwebbbb fbbbb fbbbb cenbbbb cewbbpb pbbbb cwebbpb cwnbbbb xnsbbbb
+xewbbpb xewbbbb xewbbbb xewbbpb xewbbbb xewbbbb xewbbbb xewwbbb xewbbbb xewwbbb xewbbbb xnwbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,9,5 3,1,3,3 3,1,6,11 3,0,12,4 3,1,5,10 3,1,10,8 

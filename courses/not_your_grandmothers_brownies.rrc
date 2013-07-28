@@ -1,0 +1,40 @@
+name: not  your grandmothers brownies
+description: 2010 map editing contest entry
+Created by gerbils
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbwb fbbbb
+fbbbb fbbbb fwbbb fbbwb
+fbbbb fbbbb fbbwb fwbbb
+fbbbb fbbbb fwbbb fbbwb
+fbbbb fbbbb fbbwb fwbbb
+fbbbb fbbbb fwbbb fbbwb
+fbbbb fbbbb fbbwb fwbbb
+fbbbb fbbbb fwbbb fbbwb
+fbbbb fbbbb fbbwb fwbbb
+fbbbb fbbbb fwbbb fbbwb
+fbbbb fbbbb fbbwb fwbbb
+fbbbb fbbbb fwbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb csebbbb gbbbb cwsbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb obbbb fbbbb pbbbb
+cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb pbbbb cswbbbb fbbbb fbbbb cenbbbb gbbbb cnwbbbb
+cnsbbbb fbbbb fbbbb fbwbb fbbbw fbbwb csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+cnsbbbb fbbwb xsebbbb xwebbbb xwsbbbb pwbbb csnbbbb fbbbb fbbbb xesbbbb xewbbbb xswbbbb
+cnsbbbb fwbdb xsnbbbb fbwbb pbbbw cwebbwb csnwbbbb fbbbb fbbbb gbbbb hbbvb xensbbbb
+cnsebbbb cewwbbb pbwbb fbbbw xnsbbbb fdbwb csnbbbb fbbbb fbbbb gbbbb hvbbb xensbbbb
+cnsbbbb pbbwb xenbbbb xewbbbb xnwbbbb fwbbb csnbbbb fbbbb fbbbb xenbbbb xewbbbb xnwbbbb
+cnsbbbb fwbbb fbwbb fbbbw fbbbb fbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+cnebbbb pbbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb fbbbb fbbbb cesbbbb gbbbb cswbbbb
+fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb obbbb fbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb cnebbbb gbbbb cwnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,11,11 3,1,6,4 3,1,2,11 3,1,7,4 

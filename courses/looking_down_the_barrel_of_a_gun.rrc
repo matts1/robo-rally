@@ -1,0 +1,23 @@
+name: Looking Down the Barrel of a Gun
+description: Son of a gun, son of a b.tch, get ready, get rich.
+length: medium
+difficulty: mid
+players: 2 8
+newboard:
+blank board
+pbbbb pbbbb rbbbb fbbbb rbbbb fbbbb fbbbb rbbbb fbbbb rbbbb pbbbb pbbbb
+pbbbb cesbbbb cewbbbb cewbbbb fbbbb fbbbb fbbbb fbbbb cwebbbb cwebbbb cwsbbbb pbbbb
+xewbbbb cnsbwbb csnbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb csnbwbb cnsbbbw xwebbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb pbwwb pbbdw fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fwbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbwbb pbbbw fbbbb fbwbb pbbbw pbwbb fbbbw fbbbb pbwbb fbbbw fbbbb
+fbbbb fbwbb pbbbw fbbbb fbwbb pbbbw pbwbb fbbbw fbbbb pbwbb fbbbw fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb pbwbb pbbbw fbbbb fbbbb fbbbb fbbbb fbbbb
+xewbbbb csnbwbb fbbbl fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fblbb csnbbbw xwebbbb
+pbbbb cenbbbb cewbbbb cewbbbb fbbbb fbbbb fbbbb fbbbb cwebbbb cwebbbb cwnbbbb pbbbb
+pbbbb pbbbb rbbbb fbbbb rbbbb fbbbb fbbbb rbbbb fbbbb rbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,7 3,1,8,6 3,1,5,7 3,1,10,7 
+start: 3,1,6,12 3,1,6,1 3,1,6,4 3,1,6,9 3,1,7,11 3,1,7,2 3,1,7,5 3,1,7,8 

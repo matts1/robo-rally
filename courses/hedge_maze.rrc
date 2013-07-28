@@ -1,0 +1,39 @@
+name: Hedge Maze
+description: Try to get in and out of the chutes without being destroyed
+length: short
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb rwbwb fwbwb fwbwb fbbbb fbbbb
+fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb rwbwb fwbwb fwbwb fbbbb fbbbb
+fwbwp fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb hwbwb fwbwb fwbwb fbbbb fbbbb
+fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb rwbwb fwbwb fwbwb fbbbb fbbbb
+fwbwp fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb hwbwb fwbwb fwbwb fbbbb fbbbb
+fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb rwbwb fwbwb fwbwb fbbbb fbbbb
+fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb rwbwb fwbwb fwbwb fbbbb fbbbb
+fwbwp fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb hwbwb fwbwb fwbwb fbbbb fbbbb
+fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb rwbwb fwbwb fwbwb fbbbb fbbbb
+fwbwp fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb hwbwb fwbwb fwbwb fbbbb fbbbb
+fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb rwbwb fwbwb fwbwb fbbbb fbbbb
+fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb fwbwb rwbwb fwbwb fwbwb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,3 3,1,5,3 3,1,10,3 3,1,3,3 3,1,6,12 

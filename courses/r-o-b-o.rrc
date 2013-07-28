@@ -1,0 +1,40 @@
+name: R-O-B-O
+description: 1 Board, 4 Flags.  Wind up your bot and see where it goes.  Special rule: flags move.  Designed by CaptainColeslaw
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+csebbbb cwsbbbb xsebbbb xwsbbbb
+cenbbbb cnwbbbb xenbbbb xnwbbbb
+csebbbb cwsbbbb xsebbbb xwsbbbb
+cenbbbb cnwbbbb xenbbbb xnwbbbb
+csebbbb cwsbbbb xsebbbb xwsbbbb
+cenbbbb cnwbbbb xenbbbb xnwbbbb
+cesbbbb cswbbbb xesbbbb xswbbbb
+cnebbbb cwnbbbb xnebbbb xwnbbbb
+cesbbbb cswbbbb xesbbbb xswbbbb
+cnebbbb cwnbbbb xnebbbb xwnbbbb
+cesbbbb cswbbbb xesbbbb xswbbbb
+cnebbbb cwnbbbb xnebbbb xwnbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+obbbb obbbb obbbb rbbbb obbbb obbbb rbbbb obbbb obbbb rbbbb obbbb obbbb
+obbbb cesbbbb cswbbbb obbbb xesbbbb xswbbbb obbbb csebbbb cwsbbbb obbbb xesbbbb xswbbbb
+rbbbb cnsbbbb csnbbbb gbbbb xnsbbbb xsnbbbb gbbbb csnbbbb cnsbbbb gbbbb xnsbbbb xsnbbbb
+gbbbb cnsbbbb csnbbbb pbbbb xnsbbbb xsnbbbb pbbbb csnbbbb cnsbbbb pbbbb xnsbbbb xsnbbbb
+rbbbb cnsbbbb csnbbbb gbbbb xnsbbbb xsnbbbb gbbbb csnbbbb cnsbbbb gbbbb xnsbbbb xsnbbbb
+gbbbb cnsbbbb cwnbbbb pbbbb xnsbbbb xsnbbbb pbbbb csnbbbb cnwbbbb pbbbb xnsbbbb xsnbbbb
+gbbbb cnsbbbb cswbbbb pbbbb xnsbbbb xsnbbbb pbbbb csnbbbb cwsbbbb pbbbb xnsbbbb xsnbbbb
+rbbbb cnsbbbb csnbbbb gbbbb xnsbbbb xsnbbbb gbbbb csnbbbb cnsbbbb gbbbb xnsbbbb xsnbbbb
+gbbbb cnsbbbb csnbbbb pbbbb xnsbbbb xsnbbbb pbbbb csnbbbb cnsbbbb pbbbb xnsbbbb xsnbbbb
+rbbbb cnsbbbb csnbbbb gbbbb xnsbbbb xsnbbbb gbbbb csnbbbb cnsbbbb gbbbb xnsbbbb xsnbbbb
+obbbb cnsbbbb csnbbbb obbbb xnebbbb xwnbbbb obbbb cenbbbb cnwbbbb obbbb xnebbbb xwnbbbb
+obbbb obbbb obbbb rbbbb obbbb obbbb rbbbb obbbb obbbb rbbbb obbbb obbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,9,8 3,1,4,6 3,1,4,12 3,1,9,3 

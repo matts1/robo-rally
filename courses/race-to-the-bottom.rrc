@@ -1,0 +1,61 @@
+name: Race To The Bottom
+description: "It's not always good to be the first one there."
+"Team One Touch All Touch" board with 4 moving flags.
+Startup options 3 choose 1.
+Oh, and lots and lots of pits...
+(Designed for the 2013 GTO Robo Rally Board Design Contest, by Prefecta)
+length: long
+difficulty: hard
+players: 4 8
+team: true
+rules: teamonetouchalltouch flagsmove startoptions3c1
+newsboard:
+Team Patience Starting Board
+5,2 4,2 8,2 9,2 3,2 2,2 10,2 11,2 
+cewwbbw xewwbbb xewwbbb xewwbbb
+cnsbbbw fbbbb xnsbwbb xsebbbw
+cnsbbww fbbwb xnsbwwb pbbww
+csnwbbw fwbbb xsnwwbb pwbbw
+csnbbbw fbbbb xsnbwbb xnebbbw
+cewbbww xewbbwb xewbbwb xewbbwb
+cewwbbw xewwbbb xewwbbb xewwbbb
+cnsbbbw fbbbb xnsbwbb xsebbbw
+cnsbbww fbbwb xnsbwwb pbbww
+csnwbbw fwbbb xsnwwbb pwbbw
+csnbbbw fbbbb xsnbwbb xnebbbw
+cewbbww xewbbwb xewbbwb xewbbwb
+endboard
+sboard: Team Patience Starting Board
+newboard:
+Race To The Bottom 1
+xswbbbb fbbbb fbbbb pbbbb cesbbbb cewbbbb cewbbbb cewbbbb cewwbbb cewbbbb cswbbbb fbbbb
+xwnbbbb fbbbb rbbbb pbbbb cnsbbbb pbbbb pbbbb fbbbb fbblb fbbbb csnbbbb fbbbb
+obbbb fbbbb fbbbb xewbbbb xnwebbbb xewbbbb xewbbbb xewbbbb xewvbbb xewbbbb csnwbbbb gbbbb
+gbbbb fbbbb fbbbb xewbbbb xswbbbb fbbbb fbbbb pbbbb pbbbb pbwbb csnbbbw fbbbb
+xwsbbbb fbbbb rbbbb pbbbb csnbbbb pbbbb rbbbb pbbbb cesbbbb cewbbbb cenwbbwb cswbbbb
+xnwbbbb fbbbb fbbbb pbbbb cenbbbb cewbbbb cewbbbb cewbbbb cnwbbbb pbbbb pwbbb cwnbbbb
+xswbbbb fbbbb fbbbb pbbbb cesbbbb cewbbbb cewbbbb cewbbbb cswbbbb pbbbb pbbwb cwsbbbb
+xwnbbbb fbbbb rbbbb pbbbb cnsbbbb pbbbb rbbbb pbbbb cenbbbb cewbbbb cewswbbb cnwbbbb
+obbbb fbbbb fbbbb xewbbbb xnwbbbb fbbbb fbbbb pbbbb pbbbb pbwbb cnsbbbl fbbbb
+gbbbb fbbbb fbbbb xewbbbb xsewbbbb xewbbbb xewbbbb xewbbbb xewbbvb xewbbbb cnwsbbbb obbbb
+xwsbbbb fbbbb rbbbb pbbbb csnbbbb pbbbb pbbbb fbbbb flbbb fbbbb cnsbbbb fbbbb
+xnwbbbb fbbbb fbbbb pbbbb cenbbbb cewbbbb cewbbbb cewbbbb cewbbwb cewbbbb cnwbbbb fbbbb
+endboard
+board: 3,1 0 Race To The Bottom 1
+newboard:
+Race To The Bottom 2
+fbbbb obbbb fbbbb rwbbb fbbbb fbbbb pbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwsbbbb
+fbbbb pbbbb cesbbbb cewbblb cswbbbb fbbbb fbbbb xsnbbbb pbbbb fbbbb pbbbb xnsbbbb
+gbbbb pbbbb cnsbbbb pwbbb csnbbbb fbbbb pbbbb xsnbbbb fbbbb fbbbb fbbbb xnsbbbb
+fbbbb pbbbb cnsbbbb pbbbb csnbbbb fbbbb pbbbb xsnbbbb pbbbb fbvbb pbbbw xnsbbbb
+fbbbb cewbbbb cnwsbbbb pbbbb csnbbbb fbbbb fbbbb xenbbbb xewbbbb xewbbbb xewbbbb xnwbbbb
+rbbbb pbbbb cnsbbbb hbbvb csnbbbb fbbbb obbwb fbbwb pbwbb fbwbd pbbbw hbbvb
+rbbbb pbbbb cnsbbbb rwbbb csnbbbb fbbbb xsewbbb xwewbbb xwebbbb xwebbwb xwebbbb xwewbbb
+fbbbb cwebbbb cwsnbbbb pbbbb csnbbbb fbbbb xsnbbbb xsebbbb xwebbbb xwewbbb xwebbbb xwsbbbb
+fbbbb pbbbb cnsbbbb pbbbb csnbbbb fbbbb xsnbbbb xsnbbbb pbbbb pbbbb pbbbb xnsbwbb
+obbbb pbbbb cnsbbbb pbbwb csnbbbb gbbbb xsnbbbb xenbbbb xewbbbb xewbbbb pbbbb xnsbbbb
+fbbbb pbbbb cnebbbb cwelbbb cwnbbbb fbbbb xsnbbbb pbbbb pbbbb fbbbb pbbbb xnsbbbb
+fbbbb gbbbb fbbbb rbbwb fbbbb fbwbb xenbbbw xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb
+endboard
+board: 3,2 0 Race To The Bottom 2
+flags: 3,2,3,10 3,1,12,5 3,2,7,12 3,1,1,5 

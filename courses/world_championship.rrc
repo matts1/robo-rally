@@ -1,0 +1,39 @@
+name: World Championship
+description: Bracket style RoboRally for the World Championship
+length: short
+difficulty: expert
+players: 8 8
+newsboard:
+blank starting board
+2,2 1,2 4,2 5,2 9,2 8,2 12,2 11,2 
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbwb fbbwb fbbwb
+fbbbb fwbbb fwbbb fwwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbwb fbbwb fbbwb
+fbbbb fwbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbwb fbbwb fbwwb
+fbbbb fwbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb hbbbw fbbbb fbbbb hbwbb fbbbw fbbbb fbbbb fbbbb
+rbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbwbb fbbbw fbbbb rbbbb fbbbb
+fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb
+rbbwb fbbwb fbbwb fbwwb fbbbw fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+rwbbb fwbbb fwbbb fwwbb fbbbw fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb
+rbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbwbb fbbbw fbbbb rbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb hbbbw fbbbb fbbbb hbwbb fbbbw fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,11 3,1,11,11 

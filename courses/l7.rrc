@@ -1,0 +1,43 @@
+name: L7
+description: Interesting elements, I just don't think they work together.
+4 flags.
+No special rules.
+designed by i8flesh
+
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+Starting Board 2
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbwbb
+fbbbw fbbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbwbb
+fbbbw fwbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: Starting Board 2
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cnsbvbb fbbbw fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbwb fbbbb fbbbb fbwbb cnsbbbp fbbbb rbbbb rbbbb fbbbb
+fbbbb fbbbb fbbbb rwbbb cwsbbbb fbbbb fbbbb cnsbvbb fbbbw rbbbb rbbbb fbbbb
+fbbbw fbbbb fbbbb fbbwb cnsbbbb fbbbb fblbb cnsbbbp fbbbb fbbwb fbbbb fbbwb
+fbbbb fbbbb fbbbb pwwbb cnsbbbw fbbbb fbbbb cnebbbb cwebbvb cwepbbb cwebbvb cwepbbb
+fbbbb fbwbb fbbbw hbwbb cnebbbw cwebbbb cwebbbb fbbbb fwbbb fbbbb fwbbb fbbbb
+fbbbb fbwbb hbbbw fbwbb csebbbw cwebbbb cwebbbb fbbbb fbbbb fbbbb fbblb fbbwb
+fbbbb fbwbb pbbww fbbbb csnbbbb fbbbb fbbbb gbbbb gbbbb gbbbb gwbbb owbbb
+fbbbw fbbbb fwbbb fbbbb csnbbbb fbbbb fblbb gbbbw obbbb obbbb obbbb fbbbb
+fbbbb fbbbb fbbbb rbbwb cwnbbbb fbbbb fbbbb gbbbb obbbb gbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbwbb gbbbw obbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb obbbw fbbbb fbbbb fbbbb fblbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,10 3,1,7,2 3,1,11,11 3,1,2,12 

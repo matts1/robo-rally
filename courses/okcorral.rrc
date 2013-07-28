@@ -1,0 +1,40 @@
+name: OK Corral
+description: Shootout at the OK Corral.  Only 4 flags, so be fast or be deadly.
+designed by ssgames
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw fwbbb fwbbb gwbbb
+fbbbw fbbbb fbbbb obbbb
+fbbbw fbbbb fbbbb fblbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fblbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fblbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fblbb
+fbbbw fbbbb fbbbb gbbbb
+fbbww fbbwb fbbwb obbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwwbb fwbbw fwbbb fwbbb fwbbb hvbbb fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb
+fbwbb fbbbw fbbbb cswbbbb fbbbb xnebbbb xwsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+obbbw rbbbb xsnbwbb fbbbw fbbbb fbwbb xnsebbbw xwebbbb xwebbbb fbbbb fbbbb fbbbb
+xewbbbb xswbbbb xsnbwbb cesbbbw xswbbbb fbbbb xnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+obbbw xsnbbbb xsnbbbb fbvbb fbbbw fbbbb xnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xewbbbb xswbbbb xwnbbbb fbwbb rbbbw fbbwb xnwbbwb xswbbbb fbbwb fbblb fbbwb gbwbb
+xewbbbb xnwbbbb xwsbbbb fbwbb rbbbw fwbbb fpbbb xsnbwbb fwbbw flbbb fwbbb obwbb
+gbbbw xnsbbbb xnsbbbb fbvbb fbbbw fbbbb fbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb
+xewbbbb xnwbbbb xnsbwbb cenbbbw xnwbbbb fbbbb fbbbb xwnbbbb fbbbb fbbbb fbbbb fbbbb
+gbbbw rbbbb xnsbwbb fbbbw fbbbb cnebbbb cwebbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbwbb fbbbw fbbbb cnwbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbwwb fbbww fbbwb fbbwb fbbwb hbbvb fbbbb fbbbb fbbbb fbbwb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,6 3,1,10,10 3,1,3,10 3,1,7,6 

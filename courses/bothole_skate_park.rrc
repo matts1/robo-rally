@@ -1,0 +1,39 @@
+name: BotHole Skate Park (1 hr)
+description: Getting to the bottom of the hill is easy -- but watch the return trip! Conserve a life for Flag 4...
+length: short
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb hbbwb fbwbb hbbww fbbbb fbbbb fbwbb pwwbw fbbbw fbbbb
+fbbbb fbbbb fbbbb fwbbb fbwbb fwbbw fbbbb fbbbb fbwbb fbbvw fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbwb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbwbb fbbwp pwwwb fbbww fbwwb hbbww
+fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fwbbb fwbbb fwbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb fbwbb fbblw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb fbbll fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbwwb hbbww
+fbbbb fbbbb fbbbb hwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fblbb fbbbw fbdbb fbtbw fbbbw
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,10 3,1,5,8 3,1,7,6 3,1,9,4 3,1,11,12 

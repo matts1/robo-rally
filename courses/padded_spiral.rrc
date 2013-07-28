@@ -1,0 +1,39 @@
+name: Padded Spiral
+description: Like pinball in a whirlpool
+length: short
+difficulty: mid
+players: 2 4
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb gbbbb hbwbb
+fbbbb fbbbb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb gbbbb gbwbb
+fbbbb fbwbb rwbbw fvbbb fvbbb fvbbb fpbbb fpbbb fpbbb hwwbb xsnbbbw xsnbbbb
+fbbbb fbwbb fbbbv fbbbb fbbpb fbbpb fbbvb fbbvb fbbbb fbvbb xsnbbbw xsnbbbb
+fbbbb fbwbb fbbbp fbvbb fpwbw fwbbw fpbbb hwwbb fbbbp fbvbb xsnbbbw xsnbbbb
+fbbbb fbwbb fbbbv fbpbb csnbwbw fbwbw fbbbv fbpbb fbbbv fbpbb xsnbbbw xsnbbbb
+fbbbb fbwbb fbbbv fbpbb csnbbbw gbwbb fbbbp fbvbb fbbbp fbvbb xsnbbbw xsnbbbb
+fbbbb fbwbb fbbbp fbvbb xenbbww fbbwb fbbbb fbpbb fbbbv fbpbb xsnbbbw xsnbbbb
+fbbbp fbvbb fbbbp fbbbb fpbbb fvbbb fbbbb fbvbb fbbbp fbvbb xsnbbbw xsnbbbb
+fbbbp fbvbb rbbww fbbvb fbbvb fbbpb fbbpb rbwwb fbbbp fbvbb xsnbbbw xsnbbbb
+fbbbp fbbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fbbbb fbbbb fbbbb fbbbb
+fbbbp fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,5 

@@ -1,0 +1,55 @@
+name: Blast-off!!
+description: Survive the firey blast-off of the space shuttle and make your way through the ship to reach all 8 flags!  Leave enough life for victory lane.
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+7,2 8,2 6,2 9,2 5,2 10,2 4,2 11,2 
+pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbwb pbbwb pbbwb
+fbbbb fwbbb csnwbbb fwbbb
+fbbbw fbbbb csnbbbb fbwbb
+fbbbw fbbbb csnbbbb fbbbb
+fbbbw fbbbb csnbbbb fbbbb
+fbbbw fbbbb csnbbbb fbbbb
+fbbbw fbbbb cnsbbbb cwebbbb
+fbbbw fbbbb cnsbbbb fbbbb
+fbbbw fbbbb cnsbbbb fbwbb
+fbbbw fbbbb cnsbbbb fbbbb
+fbbbb fbbwb cnsbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb pbbbb hbbbb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb plbbb pbbbb
+pbwbb fbbbw xsebbbb xwewbwb xwewbwb xwewbwb xwewbwb xwewbwb xwewbwb xwewbwb fbbbb pblbb
+fbbbb xsebbbb obbbb cewwbbb cewwbbb cewwbbb cewwbbb xwewbbb xwewbbb hwwbb xnsbwbw pbbbw
+hbdww xsnbbbw cnebbbb cwsbbbb cewbbbb cewbbbb xwebbbb xwebbbb hbbbb xsnbwbb xnsbwbw pbbbw
+ftbwb xenbbwb gbbbb cnebbbb obbbb xewbbbb xewbbbb gbbbb xsnbbbb xsnbwbb xnsbwbw pbbbw
+fdbwb ftbwb xenbbwb xswbbbb cnsbbbb obbbb rbbbb xnsbbbb xsnbbbb cnsbwbb xnsbwbw pbbbw
+flbwb fdbwb ftbwb xsnbbbb cnsbbbb rbbbb obbbb xnsbbbb cnsbbbb cnsbwbb xnsbwbw pbbbw
+fwbbb fdbwb ftbwb xenbbbb gbbbb cwebbbb cwebbbb obbbb cnsbbbb cnsbwbb xnsbwbw pbbbw
+cwebbbb flbwb fdbwb fbbbb xenbbbb xewbbbb xswbbbb cnebbbb cwsbbbb cnsbwbb xnsbwbw pbbbw
+fbbbw cwewbbb fllbb fbdbw fbtbw fbtbw xenbbbw gbbbb cnebbbb obbbb xnwbbbb hbbbb
+fbbbb fbbbb csnbwbb fblbw fbdbw fbdbw fbtbw xenbbbw xewbbwb xnwbbbb fbbwb pbbbb
+fbbbb fbbbb fbbwb csnbbbb fbwbb fblbw fbdbw fbtbw hdbww fbbbb pwbbb pbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+fbbbw fbbbb fwbbb fbbbb csnbbbb fbbbb fbbbb fbbbb fwbbb fbwbb pbbbw pbbbb
+cewbbbw cewbbbb cewbbbb cewbbbb cewbbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebwbb pbbbw pbbbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb pbbbw pbbbb
+fbbbb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbbb pbbbb pbbbb
+pbbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 4,1 0 blank board Copy
+flags: 3,1,10,10 3,1,8,8 3,1,5,5 3,1,3,3 3,1,5,3 3,1,8,5 3,1,10,8 3,1,2,11 

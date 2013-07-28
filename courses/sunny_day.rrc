@@ -1,0 +1,39 @@
+name: Sunny day
+description: The sun shines so bright that you might get blind and lost 
+length: short
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cewbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbbb fbbbb cnsbbbb fwbbb fbbbb flbbb fbbbb cnsbbbb owbbb fbbbb fbbbb fbwbb
+pbbwb fbbwb cnsbbbb pbwbb fbbww csnbbbb fbbbb cnsbbbb fbbbb pbbbb obbbb fbwbb
+flbbb pwbwb cnsbbbb fbbbb pwbbb csnbbbb fbbbb cnsbbbb pbwbb gbbww fbbbb fblbb
+pbbbb fwbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbbbb fbbbb pwbbb obbbb fbbbb
+cewbbbb cewbbbb xsnbbbb gbbbb fbbbb fbbwb gbbbb xnsbbbb cwebbbb cwebbbb fbbbb obwbb
+fbbwb pbbbb xsnbbbb rbbbb hbbbb hvbbb rbbbb xnsbbbb pbbbb fbbbb fbbbb fbwbb
+pwbbb fbbbb xsnbbbb gbbbb fbbbb fbbbb gbbbb xnsbbbb cewbbbb cewbbbb cewbbbb gbwbb
+cewbbbb cewbbbb xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb fbwbb pbbbw fbbbb fblbb
+pbbbl fbbbb pbbbb csnbbbb fbbbb pbbbb cnsbbbb pbbbb fbbbb gbbbb fbbbb fbwbb
+fbbbb pbblb fbbbb csnbbbb pbwbb fbbbw cnsbbbb fblbb pbbbw fbbbb obbbb gbwbb
+fbbbl fwbbb fbbbb csnbbbb fbbbb pbbbb fbbbb gbbbb fbbbb fbbbb fbvbb fbwbw
+fbbbb fbblb fbbwb fbbbb fbbwb fbbbb fbbwb fbbwb gbbbb fbblb obbbb fbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,5 3,1,2,7 3,1,11,11 

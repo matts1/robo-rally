@@ -1,0 +1,39 @@
+name: Crossroads
+description: Lots of conflict at the crossroads..
+length: medium
+difficulty: mid
+players: 4 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+xsebbbb fwbbb fwbbb xsewbbb
+xsnbbbb fbbbb fbbbb xsnbwbb
+censbbbw cewbbbb fbbbb fbbbb
+xnsbbbb fbbbb fbbbb obwbb
+cnsebbbw cwebbbb fbbbb fbbbb
+xnsbbbb rbbwb rbbwb cnsbwwb
+xsnbbbb rwbbb rwbbb csnwwbb
+csenbbbw cwebbbb fbbbb fbbbb
+xsnbbbb fbbbb fbbbb gbwbb
+censbbbw cewbbbb fbbbb fbbbb
+xnsbbbb fbbbb fbbbb xnsbwbb
+xnebbbb fbbwb fbbwb xnebbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xwewbbb xwedbbb xwewbbb fbbbb fbbbb fwbbb ceswbbb cewvbbb cewlbbb cswwbbb pbbbb pbbbb
+pbbbw pbbbb fbbbb fbbbb fbbbb cewbbbb cnwbbbb fbbbb hbbwb csnbbbb pbbbb pbbbb
+xewbbbb xewbbbb xswbbbb fbbbb fbbbb fbbbb fbbbb pbbbb cwewbbb cwnbbbb pbbwb pbbwb
+pbbdw pbbwb xsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsebbbb xwewbwb xwswwbb
+fwbbb flbbb fbbbb fbbbb cewbbbb cswbbbb xsebbbb xwebbbb xwebbbb xwnbwwb pwwbw xnsbwbw
+pbbbw pbbbb rbbbb rbbbb hbvbb csnbbbw xsenbbbb cwsbbbb rbbbb pwbbb pbwbb xnsbwbl
+pbbbw pbbbb rbbbb rbbbb fbwbb csnbbbw csnbdbb cnebbbw cwsbbbb pbbbb pbwbb xnsbwbd
+fbbbb fbbbb fbbbb fbbbb cwebbbb cwnbbbb cenbbbb cewbbbb cnwbbbb pbbbb pbwbb xnsbwbl
+pbblw pbbwb xnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbwwb xnsbwbw
+xewwbbb xewdbbb xnwbbbb fbbbb cewbbbb cewbbbb cswbwbb hbbbd pbbbb pbwbb xeswbbw xnwbwbb
+pbbbw pbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb pbbwb pbwwb xnsbbbl hbwbb
+xwebbdb xwebbwb xwebbwb fbbbb fbbbb fbbwb xenbbwb xewbbvb xewwbwb xewwbwb xnwbbwb rbwpb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,5 3,0,4,3 3,1,11,8 3,1,2,8 3,0,9,3 3,1,6,5 

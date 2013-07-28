@@ -1,0 +1,39 @@
+name: Roller Coaster of Doom
+description: One Track, One Flag, Eight Bots enter, One Bot wins.
+length: short
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbwb
+fbbbb fwbwb fbbbb fwbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbwb
+fbbbb fwbwb fbbbb fwbwb
+fbbbb fwbwb fbbbb fwbwb
+fbbbb fwbbb fbbbb fwbbb
+fbbbb fbbbb fbbbb xewbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb xewbbwb
+fbbbb fwbbb fbbbb xewwbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb
+xnwsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb xsnbbbb
+xnsbbbb pbbbb xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb pbbbb xsnbbbb
+xnwsbbbb pbbbb xnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb xsnbbbb pbbbb xsnbbbb
+xnsbbbb pbbbb xnsbbbb pbbbb xesbbbb xewbbbb xewbbbb xswbbbb pbbbb xsnbbbb pbbbb xsnbbbb
+xnwsbbbb pbbbb xnsbbbb pbbbb xnsbbbb pbbbb pbbbb xsnbbbb pbbbb xsnbbbb pbbbb xsnbbbb
+xnwsbbbb pbbbb xnsbbbb pbbbb xnsbbbb pbbbb fbwbb fbbbw pbbbb xsnbbbb pbbbb xsnbbbb
+xnsbbbb pbbbb xnsbbbb pbbbb xnsbbbb pbbbb fbbbb obbbb pbbbb xsnbbbb pbbbb xsnbbbb
+xnwsbbbb pbbbb xnsbbbb pbbbb xnsbbbb pbbbb pbbbb pbbbb pbbbb xsnbbbb pbbbb xsnbbbb
+xnsbbbb pbbbb xnsbbbb pbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb pbbbb xsnbbbb
+xnwsbbbb pbbbb xnsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb xsnbbbb
+xnwsbbbb pbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,7 

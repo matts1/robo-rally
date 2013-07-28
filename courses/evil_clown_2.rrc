@@ -1,0 +1,43 @@
+name: Evil Clown 2
+description: 4 flags.  2 Option Spaces
+His eyes roll.  He laughs at you, 
+exposing nasty teeth and nastier gaps 
+between them ...
+Designed by Nagred, revised by timmonte
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb csebbbb cwebwbb cewbbbw cswbbbb csebbbb cwebwbb cewbbbw cswbbbb fbbbb fbbbb
+fbwbb fbbbp csnbbbb obbbb gbbbb csnbbbb csnbbbb gbbbb obbbb csnbbbb fbvbb fbbbw
+fbwbb fbbbv csnbbbb gbbbb obbbb csnbbbb csnbbbb obbbb gbbbb csnbbbb fbpbb fbbbw
+fbbbb fbbbb cenbbbb cswbbbb csebbbb cwnbbbb cenbbbb cswbbbb csebbbb cwnbbbb fbbbb fbbbb
+fbbbb xnebbbb xwebbbb xwebbbb xwebbbb cnwebbbb cnwebbbb xewbbbb xewbbbb xewbbbb xnwbbbb fbbbb
+fbwbb fbbbw fbbbb fbbbb fbbbb rbbbb rbbbb fbbbb fbbbb fbbbb fbwbb fbbbw
+fbbbb csebbbb cwebbbb cwebbbb cwebbwb cwebbwb cewbbwb cewbbwb cewbbbb cewbbbb cswbbbb fbbbb
+fbbbb cenbbbb cswbbbb rbbbb fvbbb fdbbb fdbbb fvbbb rbbbb csebbbb cwnbbbb fbbbb
+fbbbb fbbbb cenbbbb cswbbbb pbbbb fbbbb fbbbb pbbbb csebbbb cwnbbbb fbbbb fbbbb
+fbwbb fbbbw fbbbb cenbbbb cewbbbb fbbbb fbbbb cwebbbb cwnbbbb fbbbb fbwbb fbbbw
+fbwbb fbbww fbbwb fbbbb fbbbb fbbwb fbbwb fbbbb fbbbb fbbwb fbwwb fbbbw
+fbbbb fwbbb fwbbb fbbbb fbbbb fwbbb fwbbb fbbbb fbbbb fwbbb fwbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,9 3,1,8,8 3,1,3,5 3,1,8,6 

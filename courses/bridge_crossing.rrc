@@ -1,0 +1,43 @@
+name: Bridge's Crossing
+description: Enter description
+Narrow Fast Bridges
+3 options, 3 repairs
+4 Flags
+Created By: Mongo441
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+xnsbbbb fbbwb fbbbb fbbbb
+xnsbwbb fwbww fbbbb fbbwb
+xnsebbbb cwewbwb cwebbbb fwpbb
+hbwbb fwbww fbbbb fbbbb
+xsnbwbb fwbbw fbbbb fbbbb
+xsnbbbb fbbwb fbbbb fbbbb
+xsnbbbb fwbbb fbbbb fbbbb
+xenbbbb fbbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xswbbbb fbwbb rbbbw gbbbb xewbbbb xewbbbb xewbbbb fbbbb fbbbb pbbbb fbbbb hbbbb
+xsnbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb fbbbb fbbbb xesbbbb xewbbbb xswbbbb
+xsnbbbb fbwbb fbbbw fbbbb xwebbbb xwebbbb xwebbbb gbbbb fbbbb xnsbbbb fbbbb xsnbbbb
+fbbbb fbblb fbbbb gbbbb xewbbbb xewbbbb xewbbbb fbbbb fbbbb xnsbbbb fbbbb xsnbbbb
+fbbbw flbbb fbbbb fbbbb pbbwb pbbwb pbbwb fbbbb rbbbb xnsbwbb fbbbl xsnbbbb
+fbbbb fbbbb fbbbb obbbb fdbwb fpbbb fdbwb gbbbb fbbbb xnsbbbb pbwbb xsnbbbv
+fbbbb fbbbb fbbbb fbbbb pwbbb pbbbb pwbbb fbbbb fbbbb xnsbbbb fbbbb xsnbbbb
+fbbbb fbwwb fbbbw fbbbb xwebbbb xwebbbb xwebbbb obbbb fbbbb xnsbbbb hbbbb xsnbbbb
+fbbbb flbbb fbbbb obbbb xewbbbb xewbbbb xewbbbb fbwbb fbbbw xnebbbb xwebbbb xwnbbbb
+xnsbbbb fbwbb fbbbw fbbbb pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb cnsbbbb pbbbb
+xnsbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb fbbbb fbbbb obbbb fbbvb gbbbb
+xnwbbbb fbwbb rbbbw fbbbb xwebbbb xwebbbb xwebbwb obbbb fbbbb fbbbb fwbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,11,11 3,0,5,4 3,1,5,11 3,1,6,6 

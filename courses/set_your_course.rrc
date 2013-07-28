@@ -1,0 +1,42 @@
+name: Set Your Course
+description: Set your course to stun!
+Single belt brings you around.
+5 flags. No special rules
+designed by i8flesh
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb csebbbb cwebbbb cwsbbbb csebbbb cwebbbb cwebbbb cwsbbbb cwebbbb cwsbbbb fbbbb fbbbb
+fbbbb csnbbbb rbbbb cnsbbbb csnbbbb rbbbb csnbbbb cnsbbbb rbbbb cnsbbbb fbbbb fbbbb
+fbbbb csebbbb cwebbbb cwebbbb cwnbbbb cwebbwb cwnbbbb cnebbbb cwebbbb cwsbbbb fbbbb fbbbb
+fbbbb csnbbbb cwebbbb cwsbbbb fbbbb flbbb fbbbb csebbbb cwebbbb cnsbbbb fbbbb fbbbb
+fbbbb csnbbbb rbbpb cnsbbbb fbbbb fbbbb fbbbb csnbbbb rbbvb cnsbbbb fbbbb fbbbb
+fbbbb cenbbbb cewvbbb cswbwbb fbbbw fbbwb fbwbb cesbbbw cewpbbb cnwbbbb fbbbb fbbbb
+fbbbb cesbbbb cewbbvb csnbwbb fbbbw fwbbb fbwbb cnsbbbw cewbbpb cswbbbb fbbbb fbbbb
+fbbbb cnsbbbb rpbbb csnbwbb fbbbw fbbbb fbwbb cnsbbbw rvbbb csnbbbb fbbbb fbbbb
+fbbbb csebbbb cwebbbb cwnbbbb fbbbb fbblb fbbbb cnsbbbb cwebbbb cwnbbbb fbbbb fbbbb
+fbbbb csnbbbb cwebbbb cesbbbb cewbbbb cewwbbb cswbbbb cnebbbb cwebbbb cwsbbbb fbbbb fbbbb
+fbbbb csnbbbb rbbbb cnsbbbb cnsbbbb rbbbb csnbbbb cnsbbbb rbbbb cnsbbbb fbbbb fbbbb
+fbbbb cenbbbb cewbbbb cnwbbbb cnebbbb cwebbbb cenbbbb cewbbbb cewbbbb cnwbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,11 3,1,8,3 3,1,7,11 3,1,4,6 3,1,9,6 3,1,5,3 

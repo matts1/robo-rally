@@ -1,0 +1,39 @@
+name: Crazy's Chop Chop
+description: 4 Flags are for Wimps!  So i added 4 more..
+length: medium
+difficulty: easy
+players: 3 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+rbbbb fbbbb fwbbb cnsbbbb fwbbb fbbbb fbbbb fwbbb csnbbbb fwbbb cnsbbbb fbbbb
+fbbbb fbwbb fbbbw cnsbbbb fblbb fbbbw fbbbb fbbbb csnbbbb fbwbb fbwbt fbbbw
+fbbbw fbbbb pbbbb cnsbbbb fbbbb fbbbb pbbbb fbbbb csnbbbb hbbbb cnsbbbb fbwbb
+cewbbbb cewbbbb cewbbbb obbbb fbwbb fbbbd obbbb gbbbb fbwbb fbbww cnsbbbb fbbbb
+fbbbw fbbwb fbbbb fbbwb fbbbb cnsbbbb fbbbb fbbbb xsnbbbb flbbb cnsbbbb fbwbb
+fbbbb fwbbb fbbbb flbbb pbbbb cnsbbbb fbbbb fbbbb xsnbbbb obbbb cnebbbb cwebbbb
+cewbbbb cewbbbb cewbbbb gbbbb cewbbbb cnwbwbb hbbbw fbbbb xsnbbbb gbbbb cewbbbb cewbbbb
+fbbbw fbbbb hbbbb fbbwb fbbbb obbbb cwebbwb fbbbb xsnbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb pbbbb fwbbb fbbbb csnbbbb fwwbb fbbbw xsnbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb cnsbbbb cnsbbbb fbbbb csnbbbb xesbbbb xewbbbb xsnwbbbb fbbwb fbbbb fbwbb
+cewbbbb cewbbbb cnwbbbb cnsbbbb fbbbb csnbwbb xnsbbbw fbbbb xsnbwbb fwbbw pbbbb fbbbb
+fbbbb fbbbb fbbwb cnsbbbb fbbwb csnbbbb xnsbbbb fbbwb xsnbbbb fbbwb fbbbb rbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,3 3,1,10,1 3,1,2,2 3,1,12,5 3,1,2,10 3,1,8,11 3,1,3,6 3,1,12,11 

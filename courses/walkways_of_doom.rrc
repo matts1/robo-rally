@@ -1,0 +1,39 @@
+name: Walkways of Doom
+description: Tread carefully on the narrow walkways.  Designed by MetalGuitarist.
+length: medium
+difficulty: mid
+players: 2 4
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw fwbbb fwwbb pbbbw
+fbbbw fbbbb fbwbb pbbbw
+fbbbw fbbbb fbwbb pbbbw
+fbbbw fbbbb fbwbb pbbbw
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbwbb pbbbw
+fbbbw fbbbb fbwbb pbbbw
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbwbb pbbbw
+fbbbw fbbbb fbwbb pbbbw
+fbbbw fbbbb fbwbb pbbbw
+fbbww fbbwb fbwwb pbbbw
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+fbbbb pbbbb hbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb fbbbb pbbbb pbbbb
+fbbbb pbbbb fbbbb pbbbb pbbbb fbbbb fbbbb rbbbb pbbbb fbbbb pbbbb pbbbb
+fbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+fbbbb pbbbb pbbbb fbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb fbbbb pbbbb
+fbbbb fbbbb pbbbb rbbbb fbbbb fbbbb pbbbb pbbbb fbbbb pbbbb fbbbb pbbbb
+pbbbb fbbbb pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb hbbbb pbbbb fbbbb pbbbb
+pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,11,11 3,1,1,1 3,1,10,2 3,1,2,10 

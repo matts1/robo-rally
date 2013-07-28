@@ -1,0 +1,41 @@
+name: Hard Heart
+description: Designed for 2013 Map Contest by Elena Varly
+From Russia with Love!
+
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+rbbbb fbbbb fbbbb fbbbb
+cenbbbb cswbbbb fbbbb obbbb
+cswbbbw cenbbbb cswbbbb obbbb
+cenbbbb cswbbbb cenbbbb cswbbbb
+fbbbb cenbbbb cswbbbb cenbbbb
+fbbbb fbbbb cenbbbb cewbbbb
+fbbbb fbbbb cesbbbb cewbbbb
+fbbbb cesbbbb cnwbbbb cesbbbb
+cesbbbb cnwbbbb cesbbbb cnwbbbb
+cnwbbbw cesbbbb cnwbbbb fbbbb
+cesbbbb cnwbbbb fbbbb fbbbb
+rbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+obbbb obbbb fbbbb fbbbb fbbbb fbbbb fbbbb obbbb obbbb fbbbb fbbbb rbbbb
+obbbb obbbb obbbb fbbbb fbbbb fbbbb obbbb obbbb obbbb obbbb fbbbb fbbbb
+obbbb obbbb obbbb obbbb hbbbb obbbb obbbb obbbb obbbb obbbb obbbb fblbb
+obbbb obbbb obbbb obbbb obbbb obbbb obbbb obbbb obbbb obbbb obbbb fbbbb
+cswbbbb obbbb obbbb obbbb obbbb obbbb obbbb obbbb obbbb cenbbbb cswbbbb fbbbb
+cenwbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cenwbbbb cewbbbb
+cewsbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewsbbbb cewbbbb
+cnwbbbb obbbb obbbb obbbb obbbb obbbb obbbb obbbb obbbb cesbbbb cnwbbbb fbbbb
+fbbbb obbbb obbbb obbbb obbbb obbbb obbbb obbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb obbbb obbbb hbbbb obbbb obbbb fbbbb fbbbb fbbbb fbbbb fblbb
+fbbbb fbbbb fbbbb obbbb obbbb obbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb obbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,12 3,0,8,1 3,1,8,12 3,0,5,1 

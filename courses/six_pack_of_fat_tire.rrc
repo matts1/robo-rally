@@ -1,0 +1,39 @@
+name: Six Pack of Fat Tire
+description: Inspired by beer, this course could be nothing but awesome
+length: short
+difficulty: easy
+players: 2 4
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbbb fbbbb fbbwb
+csewbbw cwewbbb cwewbbb cwswwbb csewbbw cwewbbb cwewbbb cwswwbb csewbbw cwebbbb cwebbbb cwswwbb
+csnbbbw rbbbb fbbbb cnsbbbb csnbbbb fbbbb fbbbb cnsbbbb csnbbbb fbbbb fbbbb cnsbwbb
+csnbbbw fbbbb fbbbb cnsbbbb csnbbbb hbbbb fbbbb cnsbbbb csnbbbb rbbbb fbbbb cnsbwbb
+cenbbww cewbbbb fbbbb pbwwb pbbww cewbbbb cewbbbb pbwwb pbbww cewbbwb fbbwb cnwbwwb
+ceswbbw cewbbbb fbbbb pwwbb pwbbw cewbbbb cewbbbb pwwbb pwbbw cewwbbb fwbbb cswwwbb
+cnsbbbw fbbbb fbbbb csnbbbb cnsbbbb hbbbb fbbbb csnbbbb cnsbbbb rbbbb fbbbb csnbwbb
+cnsbbbw rbbbb fbbbb csnbbbb cnsbbbb fbbbb fbbbb csnbbbb cnsbbbb fbbbb fbbbb csnbwbb
+cnebbww cwebbwb cwebbwb cwnbwwb cnebbww cwebbwb cwebbwb cwnbwwb cnebbww cwebbbb cwebbbb cwnbwwb
+fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fbbbb fbbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,3 3,1,7,11 3,1,6,11 3,1,7,3 

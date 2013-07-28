@@ -1,0 +1,39 @@
+name: Hallway of Death
+description: Exactly what the name implies!
+length: medium
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fwbwb fbbbb cnsbbbb
+fbbbb fwbbb fbbbb cnsbbbb
+fbbbb fbbwb fbbbb cnsbbbb
+fbbbb fwbwb fbbbb cnsbbbb
+fbbbb fwbbb fbbbb cnsbbbb
+fbbbb fbbwb fbbbb cnsebbbb
+fbbbb fwbbb fbbbb csenbbbb
+fbbbb fbbwb fbbbb csnbbbb
+fbbbb fwbwb fbbbb csnbbbb
+fbbbb fwbbb fbbbb csnbbbb
+fbbbb fbbwb fbbbb csnbbbb
+fbbbb fwbwb fbbbb csnbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fwbbb fbbbb fwbbb fbbbb fwbbb fbbbb fwbbb fbbbb pwbbb fwbbb fbbbb
+fbbbb obbbb cwebbbb cwebbbb cwebbbb cwsbbbb fbbbb fbbbb fbbbb pbbbb hbbbb pbwbb
+fbbbb fbbpb xewbbwb xewbbwb xswbbbb cnebbbb cwebbbb cwebbbb cwsbbbb fbbbb fbbbb pbwbb
+fbwbb pwbbd fwbbb fwwbb xenbbvw xewbbwb xewbbwb xswbbbb cnebbbb cwebbbb fbbbb fblbb
+fbbbb pbbbb fbwbb fbbvw fvbbb fwbbb fwwbb xenbbpw xewbbwb xewbbwb obbbb fbwbb
+cwebbbb rbwvb fbbbw fwbbb fbpbb hbbbt fbbbb fwbbb fwbbb fwbbb fbbbb fbwbb
+cwebbbb rvwbb fbbbw fbbwb fbpbb rbbbw fbbbb fbbvb fbbpb fbbvb fbbbb fbwbb
+fbbbb pbbbb fbwbb fvbbw fbbvb fbbwb fbwwb xespbbw xewwbbb xewwbbb gbbbb fbwbb
+fbwbb pbbwd fbbwb fbwwb xesvbbw xewwbbb xewwbbb xnwbbbb csebbbb cwebbbb fbbbb fblbb
+fbbbb fpbbb xewwbbb xewwbbb xnwbbbb csebbbb cwebbbb cwebbbb cwnbbbb fbbbb fbbbb pbwbb
+fbbbb gbbbb cwebbbb cwebbbb cwebbbb cwnbbbb fbbbb fbbbb fbbbb pbbbb hbbbb pbwbb
+fbbbb fbbwb fbbbb fbbwb fbbbb fbbwb fbbbb fbbwb fbbbb pbbwb fbbwb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,3 3,1,1,12 3,1,5,3 3,1,12,12 

@@ -1,0 +1,40 @@
+name: Maximilius Piticus
+description: 2010 RoboRally Map Contest Submission
+Created by mezo
+length: medium
+difficulty: mid
+players: 3 6
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbwb fbbwb fbbwb fbbwb fbbwb fbbbb fbbwb fbbwb fbbwb obwbb
+fbbbb obbbb pwbbb rwbbb pwbbb rwbbb pwbbb fbbbb pwbbb rwbbb pwwbb fbbbw
+fbbbb fbbbb fbbwb fbbwb fbbwb fbbbb cewbbwb cewbbwb cewbbwb fbbbb fbbbb fbwbb
+fbbbb gbbbb pwbbb rwbbb pwbbb fbbbb pwbbb rwbbb pwwbb fbbbw pbwbb fbbbw
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw
+fbbbb obbbb pbbbb fbbbb pbbbb fbbbb fbbbb fbbbb pbwbb fbbbw pbwbb fbbbw
+fbbbb gbbbb pbbbb fbbbb pbbbb fbbbb fbbbb fbbbb pbwbb fbbbw pbwbb fbbbw
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw
+fbbbb obbbb pbbwb rbbwb pbbwb fbbbb pbbwb rbbwb pbwwb fbbbw pbwbb fbbbw
+fbbbb fbbbb fwbbb fwbbb fwbbb fbbbb cewwbbb cewwbbb cewwbbb fbbbb fbbbb fbwbb
+fbbbb gbbbb pbbwb rbbwb pbbwb rbbwb pbbwb fbbbb pbbwb rbbwb pbwwb fbbbw
+fbbbb fbbbb fwbbb fwbbb fwbbb fwbbb fwbbb fbbbb fwbbb fwbbb fwbbb gbwbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,8 3,1,2,8 3,1,11,8 3,1,6,4 

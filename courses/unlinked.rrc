@@ -1,0 +1,40 @@
+name: Alienbrain's Unlinked
+description: 7 moving flags.
+length: long
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw fwbbb fwbbb xesbbbb
+fbbbw fbbbb fbbbb xnsbbbb
+fbbbw fbbbb fbbbb xnebbbb
+fbbbw fbbbb fbbbb xesbbbb
+fbbbw fbbbb fbbbb xnsbbbb
+fbbbw fbbbb fbbbb xnebbbb
+fbbbw fbbbb fbbbb xesbbbb
+fbbbw fbbbb fbbbb xnsbbbb
+fbbbw fbbbb fbbbb xnebbbb
+fbbbw fbbbb fbbbb xesbbbb
+fbbbw fbbbb fbbbb xnsbbbb
+fbbww fbbwb fbbwb xnebbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewbbbb xswbbbb ceswbbb cewbbwb cewbbbb cewbbwb cewbbbb cewbbbb cewbbwb cewbbbb cewbbwb cswwwbb
+obbbb xsnbbbb cnsbbbb rvbbb fbbbb rlbbb obbpb gbbwb rwbbb fbbbb hvbbb csnbbbb
+xwebbbb xwnbbbb cnsbbbb fbwbb cesbbbw cswbbbb ceswbbb cswwbbb cesbbbb cswbwbb fbdbw csnbbbw
+xewbbbb xswbbbb cnsbbbb fbwbb cnebbbw cwnbbbb cnebbwb cwnbbwb cnebbbb cwnbwbb fbbbw csnbbbb
+gbbbb xsnbbbb cnsbbbb rbbvb fbbbb rbbwb gwbbb opbbb rbblb fbbbb fbbbb csnbbbb
+xwebbbb xwnbbbb cnebbbb cwewbbb cwebbbb cwewbbb cwebbbb cwebbbb cwewbbb cwebbbb cwebbbb cwnbwbb
+xewbbbb xswbbbb xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbwb xewbbbb xewbbbb xswbwbb
+obbbb xsnbbbb xnsbbbb fbbbb fbbwb fbbwb fbbwb rbbbb flbwb fbbwb fbbbb xsnbbbb
+xwebbbb xwnbbbb xnsbbbb rbbbb xeswbbb xewwbwb xswwbbb xsebbbb xwewbwb xwswwbb fbbbw xsnbbbb
+xewbbbb xswbbbb xnsbbbb fbwbb xnebbww xwepbbb xwnbbbb xenbbwb xewpbbb xnwbwbb fbbbw xsnbdbb
+gbbbb xsnbbbb xnsbbbb fbbbb fwbbb fbbbb rbbbb fwbbb obblb rbbbb hbbvb xsnbbbb
+xwebbbb xwnbbbb xnebbwb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwewbbb xwebbbb xwewbbb xwnbbwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,10,5 3,1,10,10 3,1,4,5 3,1,3,10 3,1,4,7 3,1,7,12 3,1,1,12 

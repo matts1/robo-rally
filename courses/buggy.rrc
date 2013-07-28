@@ -1,0 +1,42 @@
+name: Pushers Are Our Friends
+description: 4 flags.
+No special rules.
+Pushers designed to try to help you.
+You should try to take advantage of them.
+length: medium
+difficulty: mid
+players: 2 8
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb csnbbbb flbbb csnbbbb fbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb gbbbb obbbb fbbbb csnbbbb rbbbb csnbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb gbbbb obbbb fbbbb csnbbbb fbbbb csnbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbbbb csnbpbb fbwbw csnbbbp fbbbb fbbbb
+fbbbb fbbbb xewbbbb xewbbbb xewbbpb xewvbbb xewbbpb pbbbb fbbbb pbwbb fbbbw fbtbb
+fbbbb fbbbb fbbbb fbbbb fwbwb fbbbb fwbwb fbbbb rbbbb fbwbb fbbbw fbwbb
+fbbbb fbbbb xewbbbb xewbbbb xewpbbb xewbbvb xewpbbb pbbbb fbbbb pbwbb fbbbw fbtbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb cnsbpbb fbwbw cnsbbbp fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb obbbb gbbbb fbbbb cnsbbbb fbbbb cnsbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb obbbb gbbbb fbbbb cnsbbbb rbbbb cnsbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb cnsbbbb fbbwb cnsbbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pwbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+xwepbbb xwebbbb xwebbbb xwsbvbb fbbbw fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+gbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbwb fbbbb fbbbb xnebbbb xwsbpbb fbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fvwbb fbbww fbbwb fbbbb xnsbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbw fpbbb fwbbb fbbbb xnsbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbp fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbw fbbpb fbbwb fbbbb xsnbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbwvb fwbbw fwbbb fbbbb xsnbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fwbbb fbbbb fbbbb xsebbbb xwnbpbb fbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+obbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+xwebbpb xwebbbb xwebbbb xwnbvbb fbbbw fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pwbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,6,2 3,1,6,9 3,1,6,11 3,1,6,6 
+start: 3,1,5,1 3,1,7,1 3,1,4,1 3,1,8,1 3,1,2,1 3,1,10,1 3,1,1,1 3,1,11,1 

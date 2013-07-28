@@ -1,0 +1,42 @@
+name: Carrick's Bend
+description: Flags: 5
+Special Rules: Flags move
+Course by Spacebug
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+5,2 7,2 4,2 8,2 2,2 10,2 1,2 11,2 
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+pbbbb pwbbb pbbbb pbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+rbbbb fbbbb fwbbb xsnbbbb fbbbb fwbbb fbbbb fbbbb fwbbb fbbbb rbbbb pbbbb
+fbbbb csebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwsbbbb fbbbb gbbbb fbbbb pbbbb
+fbbbw csnbbbb fbbbb xsnbwbb fbbbl fbbbb fbwbb cnsbbbw fbbbb fbbbb fbwbb pbbbw
+xwebbbb xwebbbb xwebbwb xsnbbbb xwebbwb xwebbbb xwebbwb xwebbbb xwebbwb xwsbbbb fbbbb pbbbb
+fbbbb csnbbbb flbbb xsnbbbb fpbbb hbbvb fpbbb cnsbbbb fwbbb xnsbbbb fbbbb pbbbb
+fbbbw csnbbbb fbbbb xsnbbbb fbbbb fwbwb fbbbb cnsbbbb fbbbb xnsbbbb fbwbb pbbbw
+fbbbb csnbbbb fbbwb xsnbbbb fbbpb hvbbb fbbpb cnsbbbb fbblb xnsbbbb fbbbb pbbbb
+fbbbb cenbbbb cewwbbb cewbbbb cewwbbb cewbbbb cewwbbb cnsbbbb cewwbbb cewbbbb cewbbbb pbbbb
+fbbbw fbbbb fbbbb xsnbwbb fbbbw fbbbb fblbb cnsbbbw fbbbb xnsbbbb fbwbb pbbbw
+fbbbb obbbb fbbbb xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb fbbbb pbbbb
+rbbbb fbbbb fbbwb fbbbb fbbbb fbbwb fbbbb cnsbbbb fbbwb fbbbb rbbbb pbbbb
+pbbbb pbbbb pwbbb pbbbb pbbbb pwbbb pbbbb pbbbb pwbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,9 3,1,9,3 3,1,6,6 3,1,10,11 3,1,5,2 

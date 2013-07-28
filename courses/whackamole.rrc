@@ -1,0 +1,41 @@
+name: Whack a Mole
+description: Can you hit the flag before it goes back down its hole?  6 moving flags, no lasers, no walls.
+designed by ssgames
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+cnsbbbb fbbbb fbbbb xsnbbbb
+cnsbbbb fbbbb fbbbb xsnbbbb
+cnsbbbb xewbbbb xewbbbb xsnwbbbb
+cnsbbbb fbbbb fbbbb xsnbbbb
+cnsbbbb xwebbbb xwebbbb xwsnbbbb
+cnsbbbb fbbbb fbbbb xnsbbbb
+cnsbbbb fbbbb fbbbb xnsbbbb
+cnsbbbb xewbbbb xewbbbb xnwsbbbb
+cnsbbbb fbbbb fbbbb xnsbbbb
+cnsbbbb xwebbbb xwebbbb xnsbbbb
+cnsbbbb fbbbb fbbbb xnsbbbb
+cnsbbbb fbbbb fbbbb xnsbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+fbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwsbbbb fbbbb fbbbb fbbbb csebbbb pbbbb fbbbb
+fbbbb xsnbbbb fbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb fbbbb cenbbbb cnwbbbb fbbbb
+fbbbb xenbbbb xewbbbb xewbbbb xewbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb fbbbb
+fbbbb pbbbb xwsbbbb fbbbb gbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb pbbbb rbbbb
+fbbbb xenbbbb xnwbbbb obbbb hbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb obbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb cesbbbb cewbbbb cewbbbb cswbbbb fbbbb fbbbb fbbbb pbbbb xwebbbb xwsbbbb fbbbb
+fbbbb cnsbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb xnsbbbb fbbbb
+fbbbb cnebbbb cwebbbb cwebbbb pbbbb fbbbb fbbbb fbbbb xenbbbb xewbbbb xnwbbbb fbbbb
+rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,11 3,1,3,6 3,1,11,4 3,1,2,10 3,1,10,9 3,1,7,2 

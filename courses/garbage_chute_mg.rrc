@@ -1,0 +1,39 @@
+name: Garbage Chute (thxMG)
+description: Go with the flow, all the way to the hole
+length: medium
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbbb fbwbb fbbbw fwvbb
+fbwbb cewwbbw cewwbbb cewwbbb cewwbbb cewwbbb cswwbbb fwwbb fbbbw fbbbb fbbwb fbbwb
+pbbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb fbwbb fbbbw fbbbb fwbbb fwbbb
+fbwbb fbbbw cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb fbwbb fbbww cewbbwb cewbbbb cswbbbb
+pbbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwsnbbbb fbbwb fwbwb fwbwb hbbbb csnbbbb
+fbwbb hbbww cewbbwb cewbbwb cewbbwb cewbbwb cnwebbwb cwewbwb cwewbwb cwewbbb cwebbbb cwnbbbb
+fbwbb hwbbw cewwbbb cewwbbb cewwbbb cewwbbb csewwbbb cwewbwb cwewbwb cwebbwb cwebbbb cwsbbbb
+pbbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwsnbbbb fwbbb fwbwb fwbwb hbbbb cnsbbbb
+fbwbb fbbbw cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb fbwbb fwbbw cewwbbb cewbbbb cnwbbbb
+pbbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwsbbbb fbwbb fbbbw fbbbb fbbwb fbbwb
+fbwbb cewbbww cewbbwb cewbbwb cewbbwb cewbbwb cnwbbwb fbwwb fbbbw fbbbb fwbbb fwbbb
+fbbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fbbbb fbwbb fbbbw fbwvb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,2 3,1,9,2 3,1,1,12 3,1,12,12 

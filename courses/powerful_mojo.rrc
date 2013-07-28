@@ -1,0 +1,39 @@
+name: Powerful Mojo
+description: You enter as a robot...and leave as a MAN. Or dead. One of the two
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+1,3 12,3 2,3 11,3 3,4 10,4 4,4 9,4 
+fwbbb fwbbb fwbbb fwwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+rbbbb fbbbb fbbwb fbwwb
+xewbbbw xewbbbb xewwbbb xewwbbb
+xewbbbw xewbbbb xewbbbb xewbbbb
+xewbbbw xewbbbb xewbbbb xewbbbb
+xewbbbw xewbbbb xewbbwb xewbbwb
+rbbbb fbbbb fwbbb fwwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbwb fbbwb fbbwb fbwwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb cewbbbb fpbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbwbb
+fbbbb fbbbb fbbwb gbbwb fbbvb obbvb fbbwb fbbbb fbwbb obbbw fbbvb gbbbb
+fbbbb fbbbb fwbbb fwbbb rwbbb fwbbb fwbbb fbbbb fbwbb fbbbw fwbbb fbbbb
+fbbbb fbbbb fbbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb
+xnsbbbb xesbbbb xswbbbb hvwbb fbbbw fbbbb fbbbb fbbbb fbwwb hbbbw fbbbb fbbbb
+xnsbbbb xnsbbbb xenbbbb pbwbb fbbbp obvbb hbbbw fbbbb fwbbb fbbbb fbbbb fbbbb
+xsnbbbb xsnbbbb xesbbbb pbwbb cnsbbbw fbvbb hbbbw fbbbb fbbwb fbbbb fbbbb fbbbb
+xsnbbbb xenbbbb xnwbbbb hbwvb fbbbw gbbbb fbbbb fbbbb fwwbb hbbbw fbbbb fbbbb
+fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbwb fbbbb
+fbbbb fbbbb fbbwb fbbwb rbbwb fbbwb fbbwb fbbbb fbwbb gbbbw fpbbb obbbb
+fbbbb fbbbb fwbbb ovbbb fvbbb gwbbb fwbbb fbbbb fbwbb fbbbw fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbpb cwebbbb fbbbb fbbbb fbbbb fbwbb csnbbbw csnbbbb csnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,6 3,1,2,11 3,1,10,11 3,1,2,5 3,1,11,5 

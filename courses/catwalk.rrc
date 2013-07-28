@@ -1,0 +1,39 @@
+name: Catwalk
+description: Grab some goodies at the get go and then move on into the action... just don't fall off!  :-)
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+pbbbb hbbbb xewbbbb xewbbbb
+pbbbb hbbbb xewbbbb xewbbbb
+pbbbb pbbbb pbbbb pbbbb
+pbbbb hbbbb xewbbbb cewbbbb
+pbbbb pbbbb pbbbb pbbbb
+pbbbb hbbbb cewbbbb cewbbbb
+pbbbb hbbbb cewbbbb cewbbbb
+pbbbb pbbbb pbbbb pbbbb
+pbbbb hbbbb xewbbbb cewbbbb
+pbbbb pbbbb pbbbb pbbbb
+pbbbb hbbbb xewbbbb xewbbbb
+pbbbb hbbbb xewbbbb xewbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xswbbbb pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb rbbbb
+xenwbbbb cswbbbb pbbbb pbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb fbbbb
+pbbbb csnbbbb pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+cewbbbb cenwbbbb cswbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+pbbbb pbbbb csnbbbb pbbwb pbbwb fbbbb fbbbb pbbbb fbbbb pbbbb fbbbb fbbbb
+cewbbbb cewbbbb cenwbbbb xewvbbb xewpbbb fbbbb fbbbb pbbbb fbbbb pbbbb fbbbb fbbbb
+cewbbbb cewbbbb cewsbbbb xewbbpb xewbbvb fbbbb fbbbb pbbbb fbbbb pbbbb fbbbb fbbbb
+pbbbb pbbbb cnsbbbb pwbbb pwbbb fbbbb fbbbb pbbbb fbbbb pbbbb fbbbb fbbbb
+cewbbbb cewsbbbb cnwbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+pbbbb cnsbbbb pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xewsbbbb cnwbbbb pbbbb pbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb pbbbb fbbbb
+xnwbbbb pbbbb pbbbb pbbbb pbbbb rbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,9 3,1,11,9 3,1,1,6 3,1,12,12 

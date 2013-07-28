@@ -1,0 +1,42 @@
+name: ROBO RULZ!!!
+description: RoboRally RULZ!! Flags move!!
+2011 RoboRally Map Editing Contest Entry
+Designed by PigJones
+length: medium
+difficulty: easy
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+pbbbb fbbwb fbbbb gbbbb
+pbbbb fwbwb fbbbb obbbb
+pbbbb hlbwb fbbbb fbbbb
+pbbbb fwbwb fbbbb gbwbb
+pbbbb pwbwb fbbbb fbbbb
+pbbbb fwbwb fbbbb obbbb
+pbbbb fwbwb fbbbb gbbbb
+pbbbb pwbwb fbbbb fbbbb
+pbbbb fwbwb fbbbb obwbb
+pbbbb hlbwb fbbbb fbbbb
+pbbbb fwbwb fbbbb gbbbb
+pbbbb fwbwb fbbbb obbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb hwbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb pbwbb fbwbd pbbbw
+cnsbbbb cewbbbb cswbbbb cesbbbb cewbbbb cswbbbb csnbbbb fbbbb fbbbb csebbbb cwebbbb cwsbbbb
+cnsbbbl fbbbb fbbbb cnsbbbb gbbbb csnbbbb censbbbb cewbbbb cswbwbb csnbbbw fbbbb cnsbbbb
+cnsbbbb fbbbb fbbbb cnsbbbb fbbbb csnbbbb cnsbbbb pbbbb csnbbbb csnbbbb obbbb cnsbbbb
+cnsbbbb fbbbb fbbbb cnebbbb cwebbbb cwnbbbb cnebbbb cwebbbb cwnbbbb cenbbbb cewbbbb cnwbbbb
+fbbbb gbbbb obbbb fbbbb gbbbb obbbb fbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+csnbbbb cewbbbb cswbbbb fbbbb fbbbb fbbbb fbbbb csnbbbb fbbbb cewbbbb cewbbbb cswbbbb
+csnbbbl fbbbb fbbbb csnbbbb pbbbb cnsbbbb fbbbb csnbbbb fbwbb fbdbw fbbbw csnbbbb
+csnbbbb fbbbb fbbbb csnbbbb rbbbb cnsbbbb fbbbb csnbbbb fbbbb csebbbb cwebbwb cwnbbbb
+csnbbbb fbbbb fbbbb csnbbbb pbbbb cnsbbbb fbbbb csnbbbb fbbbb csnbbbb ftbwb fbbbb
+csnbbbb fbbbb fbbbb cenbbbb cewbbbb cnwbbbb fbbbb csnbbbb fbbbb cenbbbb cewwbbb cewbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,11 3,1,8,1 3,1,5,5 3,1,8,10 

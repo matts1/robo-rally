@@ -1,0 +1,39 @@
+name: A Big Funnel
+description: Ooo high tech funnel with lasers
+length: short
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cewbbbw cswbbbb fbbwb fbbwb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb cenbbbb cewwbbb cswwwbb cewbbww cewbbwb cswbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cenbbbb cewwbbb cswwwbb cenbbww cswbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb cenbbbb cewwbbb pbwbb fbbbw fbbwb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb pwwbb fbbww fbbbb
+xewbbbw xewbbbb xewbbbb xewbbbb xnwbwbb hbbbw fbbbb fbbbb fbbbb fbbbb fwbwb obbbb
+xewbbbw xewbbbb xewbbbb xewbbbb xswbwbb hbbbw fbbbb fbbbb fbbbb fbbbb fwbwb obbbb
+fbbbb fbbbb fbbbb fbbbb xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb pbwwb fwbbw fbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb cesbbbb cewbbwb pbwbb fbbbw fwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cesbbbb cewbbwb cnwbwwb ceswbbw cnwbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb cesbbbb cewbbwb cnwbwwb cewwbbw cewwbbb cnwbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+cewbbbw cnwbbbb fwbbb fwbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,11 3,1,6,11 3,1,11,11 3,1,2,11 

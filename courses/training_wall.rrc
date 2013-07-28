@@ -1,0 +1,24 @@
+name: Training Wall
+description: This little board began, believe it or not, in a dream I had last night. Am I playing too much? 5 flags in this no-option free-climb.
+by Pushbutton
+length: short
+difficulty: mid
+players: 2 8
+newboard:
+blank board
+pbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+pbbbl fbbbb fbbbb fbbwb fbbwb fbbwb fbbwb fbbwb csnbbbb fbbbb rbbbb pbbbb
+pbbbb fbbbb obwbb fwbbw rwbbb fwbbb fwbbb fwwbb fbbbw fbbbb fbbwb pbbbb
+pbbbb fbbwb xsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb gbbbb csnbbbb fwbbb pbbbb
+pbbbb fwbbb xsnbbbb fbbbb gbbbb fbbbb obbbb fbbbb fbbbb fbwbb fbbbp pbbbb
+pbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbbbb pbbbb
+pbbbb rbvbb fbbbw fbbwb fbbbb fbbbb xsnbbbb rbbbb fbbbb fwbbb fbbbb pbbbb
+pbbbb fbbbb fbbbb fwbbb fbbbb fbbbb csnbbbb fbbbb fbbbb gbbbb fbbbb pblbb
+pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb csnbbbb fbwbb fbbbw fbbbb fbbbb pbbbb
+pbbbb fbbbb fbbbb obbbb fbwbb fbbbw fbbbb fbbbb rbbbb fbbbb fbbbb pbbbb
+pbbbb fbbbb fbbbb fbbbb fbbbb gbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+pbwbb fbwbw fbwbw fbwbw fbwbw fbbbw fbwbb fbwbw fbwbw fbwbw fbwbw pbbbw
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,7 3,1,9,3 3,1,3,10 3,1,10,6 3,1,1,6 
+start: 3,1,12,8 3,1,12,5 3,1,12,9 3,1,12,4 3,1,12,10 3,1,12,3 3,1,12,11 3,1,12,2 

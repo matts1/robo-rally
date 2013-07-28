@@ -1,0 +1,24 @@
+name: Perspective Fail: 4-D
+description: An attempt to explain the theory of the fourth dimension, only using RoboRally board elements
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwsbbbb
+fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb xsebbbb xwebbbb xwsbbbb xnsbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb xsnbbbb pbbbb xnsbbbb xnsbbbb
+fbbbb fbbbb fbbbb cesbbbb xswbbbb fbbbb fbbbb xsnbbbb xenbbbb xnwbbbb xnsbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnebbbb cwnbbbb fbbbb rbbbb xenbbbb xewbbbb xewbbbb xnwbbbb xnsbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb csebbbb cwsbbbb rbbbb fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb cenbbbb cnwbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xesbbbb xewbbbb xewbbbb xewbbbb xswbbbb rbbbb fbbbb xesbbbb cswbbbb fbbbb fbbbb fbbbb
+xnsbbbb xesbbbb xewbbbb xswbbbb xsnbbbb fbbbb fbbbb cnebbbb xwnbbbb fbbbb fbbbb fbbbb
+xnsbbbb xnsbbbb pbbbb xwnbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xnsbbbb xnebbbb xwebbbb xwebbbb xwnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb
+xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,7 3,1,12,5 3,1,6,12 3,1,5,4 3,1,8,9 
+start: 3,1,2,6 3,1,11,7 3,1,7,2 3,1,6,11 3,1,1,7 3,1,12,6 3,1,6,1 3,1,7,12 

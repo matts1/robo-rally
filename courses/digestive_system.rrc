@@ -1,0 +1,40 @@
+name: The Digestive System
+description: Enter the patient's stomach and extract the six flags he ate. Wait, what?
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb csebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwsbbbb fbbbb
+fbbbb fbbbb csnbbbb cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb cnsbbbb fbbbb
+pbbbb fbbbb csnbbbb cnsbbbb csebbbb cwebbbb cwebbbb cwebbbb cwsbbbb csnbbbb cnsbbbb fbbbb
+fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cesbbbb cewbbbb cswbbbb cnsbbbb csnbbbb cnsbbbb fbbbb
+pbbbb fbbbb cenbbbb cnwbbbb cenbbbb cnwbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb fbbbb
+pbbbb fbbbb csebbbb cwebbbb cwebbbb cwsbbbb hbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb fbbbb
+fbbbb fbbbb csnbbbb cesbbbb cswbbbb cnebbbb cwebbbb cwnbbbb cnsbbbb csnbbbb cnsbbbb fbbbb
+pbbbb fbbbb csnbbbb cnsbbbb cenbbbb cewbbbb cewbbbb cewbbbb cnwbbbb csnbbbb cnsbbbb fbbbb
+fbbbb fbbbb csnbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb cnsbbbb fbbbb
+pbbbb fbbbb cenbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,7 3,1,5,7 3,1,4,7 3,1,3,7 3,1,2,7 3,1,1,7 

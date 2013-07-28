@@ -1,0 +1,40 @@
+name: The Sifter
+description: 2010 Map Editing Contest Entry
+Created by: benoffsinger
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+Starting Board 2
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: Starting Board 2
+newboard:
+blank board
+fbbbb fbbbb fbbpb fpbbb fbbbb xsnbbbb xnsbbbb csnbbbb pbbbb owbbb fbbbb flbbb
+fbbbb fbbbb fvbbb fbbvb pbbbb xsnbbbb xsnbbbb xnsbbbb fbbbb fbbbb fbbbb fbpbb
+rbbbb fbbbb fbbpb fpbbb fbbbb xsnbbbb xnsbbbb csnbbbb pbbbb gbbbb fbbbb hbbbb
+fbbbb fbbbb fvbbb fbbvb pbbbb xsnbbbb xsnbbbb xnsbbbb fbbbb fbbbb fbbbb fbvbb
+fbbbb fbbbb fbbpb fpbbb fbbbb xenbbbb xnwbbbb csnbbbb pbbbb obbbb fbbbb fbbbb
+fbbbb fbbbb fvbbb fbbvb pbbbb xesbbbb xswbbbb xnsbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbpb fpbbb fbbbb xnsbbbb xnsbbbb cnsbbbb pbbbb gbbbb fbbbb rbbbb
+fbbbb fbbbb fvbbb fbbvb pbbbb xnsbbbb xsnbbbb xsnbbbb fbbbb fbbbb fbbbb fbpbb
+fbbbb fbbbb fbbpb fpbbb fbbbb xnsbbbb xnsbbbb cnsbbbb pbbbb obbbb fbbbb hbbbb
+rbbbb fbbbb fvbbb fbbvb pbbbb xnsbbbb xsnbbbb xsnbbbb fbbbb fbbbb fbbbb fbvbb
+fbbbb fbbbb fbbpb fpbbb fbbbb xnsbbbb xnsbbbb cnsbbbb pbbbb gbbbb fbbbb fbbbb
+fbbbb fbbbb fwbbb fbbbb pbbbb xnsbbbb xsnbbbb xsnbbbb fbbbb fbbwb fbbbb fbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,12 3,1,8,1 3,1,5,12 

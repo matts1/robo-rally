@@ -1,0 +1,61 @@
+name: Nuts and Bolts
+description: 5 Flags (1 moving, 2 on bumpers)
+2 Options(on bumpers - no sitting)
+6 repairs;2 boards (more like 1.5)
+Open Space to Shoot up others,
+Made for Bot Interaction. Toggle
+length: long
+difficulty: hard
+players: 4 8
+team: true
+rules: teamflagtoggle flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw fwbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbww fbbwb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb cswbbbb fbbbb fbbbb fbbbb fbbbb cewwbbb cewbbbb cewwbbb cewbbbb cewwbbb cewbbbb
+cswbbbb fbbbb fbbbb cesbbbb cswbbbb fbbbb fbbbb xnsbbbb fbbbb xsnbbbb fbbbb fbbbb
+fbbbb xnsbwbb fbbbv cnebbbb cwnbbbb fbbbb fbblb xnsbbbb fbblb xsnbbbb fbblb fbbbb
+fbbbb cswbbbb fbbbb fbbbb fbbbb fbbbb xsewbbb xwebbbb xwewbbb xwebbbb xwswbbb fbbbb
+fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb xsnbbbb pbwbb hbbbv pbbbb xnsbbbb fbbbb
+obbbb gbbbb obbbb fbbbb fbbbb fbbbb xsnbbbb rbbbb fbbbb rbbbb xnsbbbb fbbbb
+gbbbb obbbb gbbbb fbbbb fbbbb fbbbb xsnbbbb pbbbb hbvbb pbbbw xnsbbbb fbbbb
+fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb xenbbwb xewbbbb xewbbwb xewbbbb xnwbbwb fbbbb
+fbbbb cnwbbbb fbbbb fbbbb fbbbb fbbbb flbbb xnsbbbb flbbb xsnbbbb flbbb fbbbb
+fbbbb xsnbwbb fbbbv csebbbb cwsbbbb fbbbb fbbbb xnsbbbb fbbbb xsnbbbb fbbbb fbbbb
+cnwbbbb fbbbb fbbbb cenbbbb cnwbbbb fbbbb fbbbb xnsbbbb fbbbb xsnbbbb fbbbb fbbbb
+fbbbb cnwbbbb fbbbb fbbbb fbbbb fbbbb cwebbwb cwebbbb cwebbwb cwebbbb cwebbwb cwebbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+fbbbb fbbbb fbbbb xesbbbb xewbbbb xswbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb xnsbbbb rbbbb xsnbbbb xesbbbb xswbbbb xewbbbb xewbbbb xewbbbb xswbbbb
+fbbbb fbbbb fbbbb xnsbbbb gbbbb xsnbbbb xnsbwbb xsnbbbp pbbbb pbbbb pbbbb xsnbbbb
+csebbbb cwsbbbb fbbbb xnebbbb xwebbbb xwnbbbb xnsbbbb xsnbbbb pbbbb pbbbb pbbbb xsnbbbb
+cenbbbb cnwbbbb fbbbb fbbbb cnsbbbb fbbbb xnsbbbb xsnbbbb pbbbb pbbbb pbbbb xsnbbbb
+fbbbb fbbbb cwebbbb cwebbbb fbbbb cewbbbb xnsbbbb xsnbbbb pbbbb pbbbb pbbbb xsnbbbb
+cesbbbb cswbbbb fbbbb fbbbb csnbbbb fbbbb xnsbbbb xsnbbbb pbbbb pbbbb pbbbb xsnbbbb
+cnebbbb cwnbbbb fbbbb xesbbbb xewbbbb xswbbbb xnsbbbb xsnbbbb pbbbb pbbbb pbbbb xsnbbbb
+fbbbb fbbbb fbbbb xnsbbbb obbbb xsnbbbb xnsbwbb xsnbbbv pbbbb pbbbb pbbbb xsnbbbb
+fbbbb fbbbb fbbbb xnsbbbb rbbbb xsnbbbb xnsbbbb xsnbbbb pbbbb pbbbb pbbbb xsnbbbb
+fbbbb fbbbb fbbbb xnebbbb xwebbbb xwnbbbb xnebbbb xwnbbbb xwebbbb xwebbbb xwebbbb xwnbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,6,5 3,1,3,3 3,2,2,7 3,1,10,3 3,1,6,9 

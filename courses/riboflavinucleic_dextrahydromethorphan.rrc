@@ -1,0 +1,39 @@
+name: Riboflavinucleic Dextrahydromethorphan
+description: That is a real chemical and this is its molecular structure, using RoboRally as a platform. That's why they pay me the big bucks
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cwebbbb cnsbbbb fbbbb fbbbb cnsbbbb cwebbbb fbbbb fbbbb fbbbb
+fbbbb cwebbbb cnsbbbb csnbbbb cewbbbb rbbbb fbbbb cwebbbb csnbbbb cnsbbbb cewbbbb fbbbb
+fbbbb csnbbbb cewbbbb fbbbb cwebbbb cnsbwbb cnsbbbw cewbbbb fbbbb cwebbbb csnbbbb fbbbb
+fbbbb rbbbb cwebbbb cnsbbbb csnbbbb cewbbbb cwebbbb csnbbbb cnsbbbb cewbbbb rbbbb fbbbb
+fbbbb fbbbb csnbbbb cewbbwb fbbbb xsebbbb xwsbbbb hbbbb cewbbwb csnbbbb fbbbb fbbbb
+fbbbb fbbbb cnsbbbb cewwbbb hbbbb xenbbbb xnwbbbb fbbbb cewwbbb cnsbbbb fbbbb fbbbb
+fbbbb rbbbb cwebbbb csnbbbb cnsbbbb cewbbbb cwebbbb cnsbbbb csnbbbb cewbbbb rbbbb fbbbb
+fbbbb cnsbbbb cewbbbb fbbbb cwebbbb csnbwbb csnbbbw cewbbbb fbbbb cwebbbb cnsbbbb fbbbb
+fbbbb cwebbbb csnbbbb cnsbbbb cewbbbb fbbbb rbbbb cwebbbb cnsbbbb csnbbbb cewbbbb fbbbb
+fbbbb fbbbb fbbbb cwebbbb csnbbbb fbbbb fbbbb csnbbbb cwebbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,9 3,1,9,9 3,1,4,4 3,1,9,4 

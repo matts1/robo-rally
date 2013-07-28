@@ -1,0 +1,39 @@
+name: All About the Arm
+description: In order to win you must have the Mechanical Arm. If you don't have it -- GET IT
+length: medium
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+hbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fwbbb fwbbb fbbbb fbbbb fbbbb hwwbb
+hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+hbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbbbb
+hbbbb fbbbb fbbbb fbbbb hbbbb fbwbb fwbww pbbbb fbbbb fbbbb fbbbb hbwbb
+hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbwbb
+hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb
+hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbbwb fbbbb fbbbb fbbwb hbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,7 

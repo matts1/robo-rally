@@ -1,0 +1,39 @@
+name: Lobsta
+description: EAT dat Lobsta! EAT IT!
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbwb fbwbb fbwbw
+fbbbb xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbwbb obbbw pwwbb fbwbw fbwbw
+fbbbb xnsbbbb xesbbbb xewbbbb xswbbbb cewbbbb cewbbbb xenwbbbb xewbwlb xwsbbbw fbwbb fbwbw
+fbbbb xnsbbbb xnsbbbb hbbbb pbbbb fbbbb fbbbb fbbbb pwbbb xnsbbbb fbwbb fbwbw
+fbbbb xnsbbwb xesbbbb xewbbbb xnwbbbb cewbbbb cewbbbb xewbbbb xnwbbbb xnwbbbb fbwbb fbwbw
+fbbbb ftbbb cnsbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb fbbbb fbbbb
+fbbbb xwebbwb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb csnbbbb fbbbb fbbbb fbbbb
+fbbbb xsewbbb xsebbbb xwebbbb cwebbbb cwebbbb xsebbbb xwebbbb xwnbbbb xsnbbbb fbwbb fbwbw
+fbbbb xsnbbbb pbbwb fbbbb fbbbb fbbbb pbbbb hbbbb xsnbbbb xsnbbbb fbwbb fbwbw
+fbbbb xenbwbb xwelbbw xwsebbbb cwebbbb cwebbbb xnebbbb xwebbbb xwnbbbb xsnbbbb fbwbb fbwbw
+fbwbb pbbww obwbb xnebbbw xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb fbwbb fbwbw
+fbbbb fwbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbwbw
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,8 3,1,9,4 3,1,1,12 3,1,12,12 

@@ -1,0 +1,41 @@
+name: Super Chess
+description: To quote Crazysoft:
+4 flags are for wimps so I added 2 more.
+(designed by timmonte)
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+Starting Board 2
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: Starting Board 2
+newboard:
+Chess
+rbbbb fbbbb fwbbb fbbbb fwbbb fbbbb fbbbb fwbbb fbbbb fwbbb fbbbb rbbbb
+fbbbb xesbbbb xewbbbb xewbbwb xewbbbb xewbbwb xewbbwb xewbbbb xewbbwb xewbbbb xswbbbb fbbbb
+fbbbw xnsbbbb fbbbb csnwbbb fbbbb csnwbbb fwbbb csnbbbb fwbbb csnbbbb xsnbbbb fbwbb
+fbbbb xnsbwbb csnbbbw fbbbb csnbbbb fbbbb csnbbbb fbbbb pbbbb fbwbb xsnbbbw fbbbb
+fbbbw xnsbbbb fbbbb csnbbbb fbbbb csnbbbb fbbbb csnbbbb fbbbb csnbbbb xsnbbbb fbwbb
+fbbbb xnsbwbb csnbbbw fbbbb pbbbb fbbbb rbbbb fbbbb csnbbbb fbwbb xsnbbbw fbbbb
+fbbbb xnsbwbb fbbbw cnsbbbb fbbbb rbbbb fbbbb pbbbb fbbbb cnsbwbb xsnbbbw fbbbb
+fbbbw xnsbbbb cnsbbbb fbbbb cnsbbbb fbbbb cnsbbbb fbbbb cnsbbbb fbbbb xsnbbbb fbwbb
+fbbbb xnsbwbb fbbbw cnsbbbb fbbbb pbbbb fbbbb cnsbbbb fbbbb cnsbwbb xsnbbbw fbbbb
+fbbbw xnsbbbb cnsbbbb fbbwb cnsbbbb fbbwb cnsbbwb fbbbb cnsbbwb fbbbb xsnbbbb fbwbb
+fbbbb xnebbbb xwebbbb xwewbbb xwebbbb xwewbbb xwewbbb xwebbbb xwewbbb xwebbbb xwnbbbb fbbbb
+rbbbb fbbbb fbbwb fbbbb fbbwb fbbbb fbbbb fbbwb fbbbb fbbwb fbbbb rbbbb
+endboard
+board: 3,1 0 Chess
+flags: 3,1,7,7 3,1,3,3 3,1,9,5 3,1,4,8 3,1,8,4 3,1,4,10 

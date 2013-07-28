@@ -1,0 +1,42 @@
+name: Incomplete Alchemy
+description: The physics are hard to work because it's NOT PHYSICS!
+
+2012 map editing contest entry
+by Pushbutton
+length: medium
+difficulty: hard
+players: 5 8
+newsboard:
+blank starting board
+1,1 3,1 5,1 6,1 8,1 9,1 10,1 11,1 
+fbbbb xsnbbbb csnbbbb fbbbb
+fbbbb xsnbbbb csnbbbb fbbbb
+fbbbb xsnbbbb csnbbbb fbbbb
+fbbbb xsnbbbb cnsbbbb fbbbb
+fbbbb xsnbbbb cnsbbbb fbbbb
+fbbbb xsnbbbb cnsbbbb fbbbb
+fbbbb xsnbbbb csnbbbb fbbbb
+fbbbb xnsbbbb csnbbbb fbbbb
+fbbbb xnsbbbb csnbbbb fbbbb
+fbbbb xnsbbbb cnsbbbb fbbbb
+fbbbb xnsbbbb cnsbbbb fbbbb
+fbbbb xnsbbbb cnsbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb cnsbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb fbbbb
+fbbbb pbbbb fbbbb cnsbbbb rbwbb fbbbw xsebbbb cwebbbb cwebbbb xwsbbbb fbbbb fbbbb
+cwebbbb cwebbbb cwebbbb cnwbbbb fbbbb xsebbbb obwwb fbbbw fbwwb obbww xwsbbbb rbbbb
+fbbbb fbbbb pbbbb gbwbb fbbbw csnbbbb fwwbb fbbbw hwbbb fwbbb cnsbbbb fbbbb
+fbbbb fbbbb xsebbbb cwebbbb xwsbbbb csnbbbb fbbwb pbbwb fbwbb fbbww cnsbbbb pbbbb
+fbbbb gbbbb xwsnbbbb fbbbb xensbbbb gbbbb owwbb fwbbw fbwbb owbbw xnwbbbb pbbbb
+hbbbl fbbbb xenbbbb cewbbbb xnwbbbb fbbbb xenbbbb xsewbbbb cewbbbb xnwbbbb fbbbb fbbbb
+csebbbb cwebbbb fbbbb gbbbb rbbbb fbwbb fbbbw csnbbbb fbbbb fbbbb fbbbb fbbbb
+csnbbbb fbbbb xsebbbb xnwebbbb xwsbbbb fbwbb csebbbw cwnbbbb rbbbb csebbbb cwsbbbb fbbbb
+csnbbbb gbbbb csnbbbb pbbbb cnsbbbb gbbbb csnbbbb fbbbb xsebbbb pbbbb obbbb xwsbbbb
+csnbbbb fbbbb xenbbbb xsewbbbb xnwbbbb fbwbb csnbbbw fbbbb xenbbbb obbbb obbbb xnwbbbb
+pbbbb pbbbb fbbbb gbbbb fbbbb hbblb csnbbbb fbbbb fbbbb cenbbbb cnwbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,10 3,1,11,2 3,1,6,4 3,1,9,10 

@@ -1,0 +1,40 @@
+name: Alienbrain's Blue Propeller
+description: There are some propellers that blow cool refreshing air at you, some that propel you--hopefully, where you'd like to go, and some, set to "frappe", that suck you into their blades like a hapless manatee reaching into a garbage disposal.  Six flags, 3 moving, on one board.
+length: long
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+xsebbbb fwbbb fpbbb cewbbwb
+csnbbbb fbbbb fbbbb fpbbb
+censbbbb cewbbbb fbbbb fbbbb
+csnbbbb fbbbb fbbbb xesbbbb
+cenbbbb cewbbbb fbbbb xnsbwbb
+obbbw fbbbb obbbb cnsbwbb
+gbbbw fbbbb gbbbb csnbwbb
+cesbbbb cewbbbb fbbbb xsnbwbb
+csnbbbb fbbbb fbbbb xenbbbb
+censbbbb cewbbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbbpb
+xnebbbb fbbwb fbbpb cewwbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+gbbbb rbbbb xeswbbb xswwbbb flbbb xeswbbb xswbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbwbb
+xswbbbb fbbbb xnebbbb xwnbbbb rbbbb xnsbwbb xsnbbbp hbpbb xesbbbw xswbbbb fbbbb rblbb
+csnbbbb fbbbb fbbbb fbbbb csnbbbb xnsbvbb xsnbbbw pbbbb xnsbbbb xsnbbbb fbbbb cnsbbbb
+fbbbb fbbwb gbbbb fbbbb csnbbbb xnsbbbb xsnbbbb cnsbbbb xnebbbb xwnbbbb cewbbwb cnwbbwb
+obbbl hpbbb fbbbb fbbbb cwnbwwb xnsbbbp xsnbvbb cnebbww cwebbbb xwebbbb cwewbbb cwewdbb
+xesbbbw xewbbpb xewbbwb xewbbbb xewvbbb xnwbbbb xenbbbb xewpbbb xewbbbb xewbbvb xewbbwb xswbwbb
+xnebbbw xwewbbb xwevbbb xwebbbb xwebbpb xwsbbbb xsebbbb xwebbvb xwebbbb xwewbbb xwepbbb xwnbbbb
+gbbbl rbbbb cewbbbb cewbbbb cswlwbb xnsbbbv xsnbpbb ceswbbw fbbbb fbbbb hbbpb csnblbb
+fbbbb fbbbb gbbbb obwbb obbbw xnsbbbb xsnbbbb cnsbbbb fbbbb fbbbb fwbbb csnbbbb
+cnsbbbb fbbbb fbbpb fbbbb cnsbbbb xnsbwbb xsnbbbv cnsbbbb gbbbb xsebbbb xwsbbbb csnbbbb
+xnwbwbb fbbbv cewdbbb cswbwbb hbbbp xnsbpbb xsnbbbw rbbbb fbbbb xenbbbb xnwbbbb csnbbbb
+obbbb fbbbb fbbwb cenbbbb fbbwb xnebbbb xwnbbwb gbblb cwebbbb cwebbbb cwebbbb cwnbbwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,9 3,1,4,4 3,1,7,6 3,1,6,7 3,1,11,2 3,1,5,12 

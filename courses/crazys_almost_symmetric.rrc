@@ -1,0 +1,40 @@
+name: Almost Symmetric
+description: 6 flags with lots of interaction
+Crazy's first board
+length: medium
+difficulty: easy
+players: 3 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xeswbbb xewwbwb xewbbwb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewbbwb xewwbwb xswwwbb
+xnsbwbb ceswbbw cewwbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewwbbb cswwwbb xsnbwbw
+xnsbbbw cnsbbbb fbbbb gbbbb fbbbb fbbbb hbbbb fbbbb gbbbb fbbbb csnbbbb xsnbbbb
+xnsbwbb cnsbbbw obbbb cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb obbbb csnbwbb xsnbwbw
+xnsbbbw cnsbbbb pbbbb cnsbbbb fbwbb fbbbw fbbbb gbbbb csnbbbb pbbbb csnbbbb xsnbwbb
+xnsbwbb cnsbbbw pbbbb cnsbbbb pbbbb rbbbb fbbbb fbbbb csnbbbb pbbbb csnbwbb xsnbwbw
+xnsbwbb cnsbbbw pbbbb cnsbbbb fbbbb fbbbb rbbbb pbbbb csnbbbb pbbbb csnbwbb xsnbwbw
+xnsbbbw cnsbbbb pbbbb cnsbbbb gbbbb fbbbb fbwbb fbbbw csnbbbb pbbbb csnbbbb xsnbwbb
+xnsbwbb cnsbbbw obbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb obbbb csnbwbb xsnbwbw
+xnsbbbw cnsbbbb fbbbb gbbbb fbbbb hbbbb fbbbb fbbbb gbbbb fbbbb csnbbbb xsnbbbb
+xnsbwbb cnebbww cwebbwb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbwb cwnbwwb xsnbwbw
+xnebbwb xwewbwb xwewbbb xwebbwb xwebbwb xwebbwb xwebbwb xwebbwb xwebbwb xwewbbb xwewbwb xwnbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,10 3,1,10,3 3,1,10,10 3,1,3,3 3,1,8,8 3,1,5,5 

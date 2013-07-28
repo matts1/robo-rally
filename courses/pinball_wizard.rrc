@@ -1,0 +1,39 @@
+name: Pinball Wizard
+description: 1 Board, 4 Flags. Designed by CaptainColeslaw
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+Double Twirl Start
+3,2 10,2 2,2 11,2 3,3 10,3 2,3 11,3 
+xeswbbw xewwbbb xewwbbb xswwbbb
+xnsbbbw xsebbbb xwsbbbb xsnbwbb
+xnsbbbw xenbbbb xnwbbbb xsnbwbb
+xnebbbw xwebbbb xwebbbb xwnbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb gbbbb gbbbb fbbbb
+fbbbb obbbb obbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+xsebbbw xwebbbb xwebbbb xwsbbbb
+xsnbbbw xesbbbb xswbbbb xnsbwbb
+xsnbbbw xnebbbb xwnbbbb xnsbwbb
+xenbbww xewbbwb xewbbwb xnwbbwb
+endboard
+sboard: Double Twirl Start
+newboard:
+blank board
+hbbpb fbbbb fbbbb fbbbb xwebbbb xwebbbb xwsbwbb fbbbw fbbbb fbbbb fbbvb hbbbb
+pwwww fbbbv obbwb fbbwb cewbbwb cswbbbb xnsbwbb fbbbw obbbb fbpbb pwwww fbbbv
+cewvbbw cswbwbb fwbbw fwbbb cwewbbb cwnbbbb xnsbwbb fbbbw fbbbb cewbbbb cewpbbb cswbbbb
+fbbbb csnbwbb fbbbw fbbbb xewbbbb xewbbbb xnwbwbb fbbww fbbwb xwebbwb xwsbbbb csnbbbb
+fbbbb csnbwbb fbbww fbbwb fbbwb fbbbb fbbpb fwbbb fwbbb xewwbbb xnwbbbb csnbbbb
+cwebbbb cwnbwbb hwbww flbwb fwblb gbvbb pwwww fbbbp obbbb cwebbbb cwebbbb cwnbbbb
+fbbbb fbbvb fwbbb fwbbb fwbbb fbbwb fwbwb fbbwb fbbbb fbbvb fbbbb fbbbb
+fbpbb pwwww xwebbbp xwebbbb xwsbwbb hwbww fwblb flbwb obpbb pwwww fbbbv obbbb
+fbbbb fvbbb cesbbbb cewbbbb xnsbwbb fwbbw cwewbbb cwewbbb cwsbbbb fpbbb obbbb fbbbb
+fbbvw obbbb cnebbbb cwebbbb xnsbwbb fbbbw xewbbbb xswbbbb cnsbbbb obbbb fbbpb fbbbb
+pwwww fbbbv xwebbbb xwebbbb xnwbwbb fbbww xwebbwb xwnbbwb cnsbbbb fbvbb pwwww fbbbv
+hpbbb fbbbb fbbbb fbbbb fbbbb fwbbb cewwbbb cewwbbb cnwbbbb fbbbb fpbbb hbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,8 3,1,9,1 3,1,4,3 3,1,10,6 

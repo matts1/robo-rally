@@ -1,0 +1,57 @@
+name: Windmills
+description: Windmills rotate counter-clockwise at each flag touch (occasional glitch: all rotations after 5th register), some walls between windmills are permeable in one direction only, occasionally hidden lasers, 5 flags, no options
+designed by ssgames
+length: long
+difficulty: hard
+players: 2 4
+rules: boardrotate100t3
+newsboard:
+blank starting board
+6,2 7,3 5,3 8,2 4,2 9,3 10,2 3,3 
+fwbbb fwbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cswbwbb
+fbbbb fbbbb fbbbb cenbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cesbbbb
+fbbbb fbbbb fbbbb cnwbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbwb fbbwb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb pbbbb pbbbb pbbbb csnbbbb fbbbb fbblb csnbwbb pbbbw pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbwbb csnbbbw fbbbb fwbbb csnbwbb pbbbl pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbwbb cenbbbw fbbbb fbbbb cwnbwbb pbbbw pbbbb pbbbb pbbbb
+pbbww pbbwb pbbwb pbwwb fbbbw fbbwb fbbbb fbwbb pbbww pbbwb pbbwb pbbbb
+cewwbbb cswwbbb fwbbb fwbbb fbbbb fwbbb fbbwb fbbbb fwbbb fwbbb fwbbb fbwbb
+cwebbbb cwnbbbb fbbbb fbwbb fbbbw rbbbb flbbb fbbbb fbbbb fbbbb obbbb fbbbb
+cwebbbb cwsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb gbbbb fbbbb
+cewbbwb cnwbbwb fbbwb fbbwb xesbbbb xewbbbb xewbbbb xswbbbb fbbwb fbbwb fbbwb fbwwb
+pwbbw pwbbb pwbbb pwbbb xnsbbbb fbbbb fbbbb xsnbbbb pwbbb pwbbb pwbbb pwbbb
+pbbbb pbbbb pbbbb pbbbb xnsbbbb fbbbb fbbbb xsnbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb xnsbwbb fbbbw fbbbb xsnbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb xnsbbbb fbbwb fbbwb xsnbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blanker board
+pbbbb pbbbb pbbbb pbwbb fbbbl fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb csebbbb cwebbbb cwebbbb cwsbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb cenbbbb cewbbbb cewbbbb cnwbbbb pbbbb pbbbb pbbbb pbbbb
+pbbwb pbbwb pbbwb pbbwb fbbbb fbbbb fbbwb fbbbb pbbwb pbbbb pbbbb pbbwb
+fwbbw fwbbb fwbbb fwbbb fbbbb rbbbb fwbbb fbbbb fwbbb cnsbbbb xsnbbbb fwwbb
+xwsbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb cnsbbbb xsnbbbb fbpbb
+xnwbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cnsbbbb xsnbbbb fbvbb
+fbbww fbbwb fbbwb fbbwb fbbbb fbbwb fbbbb fbbbb fbbwb cnsbbbb xsnbbbb fbwwb
+pwbbb pwbbb pwbbb pwwbb fbbbw fwbbb fbbbb fbwbb pwbbw pbbbb pbbbb pwbbb
+pbbbb pbbbb pbbbb pbwbb fbbbw fbbbb xnsbbbb fbwbb pbbbw pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbwbb fbbbw fbbbb xnsbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb fbbbb xesbbbb xnwsbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,2 0 blanker board
+flags: 3,2,7,9 3,1,2,7 3,2,11,6 3,1,11,6 3,2,1,8 

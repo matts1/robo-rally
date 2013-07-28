@@ -1,0 +1,39 @@
+name: Shootout in South Phoenix
+description: Gangsta robot warfare in the mean streets of South Phoenix
+length: medium
+difficulty: mid
+players: 4 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbbw fwbbb fwbbb fwwbb fbbbw fbbbb hbbbb fbbbb fbbwb fbbbb fbbwb fbbbb
+fbbbw fbbbb fbbbb fbwbb fbbbw fbbwb fbbwb fbwbb fwbbw fbbbb fwwbb fbbbw
+fbbbb fbbbb hbbbb fbbbb fbbbb fwbbb fwbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbww fbbbb fbbwb fbwwb fbwbw fbbbw fbwwb fbwbw fbbww fbbbb fbwwb fbbbw
+fwbwb fbbbb fwbwb fwbwb csebbbb cwebbbb cwewbbb cwsbbbb fwbwb fbbbb fwbwb fbbwb
+fwbbw fbbbb fwbbb fwbbb csnbbbb fbwbb rbbbw cnsbbbb fwbbb fbbbb fwbbb fwwbb
+fbbww fbbbb fbbwb fbwwb csnbbbw rbbbb fbbwb cnsbwbb fbbww fbbbb fbbwb fbwwb
+fwbwb fbbbb fwbwb fwbbb csnbbbb fbbbb rwbbb cnsbbbb fwbwb fbbbb fwbwb fwbbb
+fwbbw fbbbb fwwbb fbbbw csnbbbb rbwbb fbbbw cnsbwbb fwbbw fbbbb fwwbb fbbbw
+fbbbb fbbbb fbbbb fbbbb cenbbwb cewbbwb cewbbwb cnwbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbwbb fbwbw fwbbw fwbbb hwwbb fbwbw fbbww fbbwb fbwwb fbbbw
+fbbww fbbbb fbwwb fbbbw fbbwb fbbwb fbbwb fbbbb fwbbb fwbbb fwbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,10,10 3,1,3,10 3,1,3,2 3,1,10,2 3,1,6,10 3,1,3,6 3,1,6,2 3,1,11,6 

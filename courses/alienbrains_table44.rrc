@@ -1,0 +1,39 @@
+name: Alienbrain's Table for Four
+description: One tile, four flags, five double wrenches, three single. Three pits. A fun course.
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb cewbbbb cswbbbb
+fbbbb fwbwb fbbbb cewbbbb
+fbbbb fwbbb fbbbb cswbbbb
+fbbbb fbbwb fbbbb cewbbbb
+fbbbb fwbbb fbbbb cnwbbbb
+fbbbb fbbwb cnsbbbb fbbbb
+fbbbb fwbbb csnbbbb fbbbb
+fbbbb fbbwb fbbbb cswbbbb
+fbbbb fwbbb fbbbb cewbbbb
+fbbbb fbbwb fbbbb cnwbbbb
+fbbbb fwbwb fbbbb cewbbbb
+fbbbb fwbbb cewbbbb cnwbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsnbbbb xsebbbb xwebbbb xwebbbb cwedbbb cwevbbb cwebbbb cwebbbb cwebbbb cwepbbb cwelbbb cwsbbbb
+xsnbbbb xsnbbbb obbbb fbbbb fbbwb obbbb cewbbbb cewbbwb rbbbb xsebbbb xwsbbbb cnsbpbb
+xsnbbbb xenbbbb xewbbbb xewbbbb xewpbbb xewbbbb xewbbbb xewvbbb xswbbbb xsnbbbb xnsbbbb cnsbbbb
+xsnbwbb cnsbbbw fbbbb fbbbb pbbwb fbbbb fbbwb csnbwbb xsnbbbv xenbbbb xnwbbbb cnsbbbb
+xsnbbbb cnsbbbb cesbwbb hbbbv xewpbbb xewbbbb hvbbb csnbbbb xenbbbb xewbbbb xswbbbb cnsbbbb
+xsnbbbb cnsbbbb fbbbb xnsbbbb csebbbb cwsbbbb xsnbbbb fbbbb fbwbb hbbbv xsnbbbb cnsbbbb
+xsnbbbb cnsbbbb rbwvb xnsbbbp cenbbbb cnwbbbb xsnbbbb fbbbb fbbbb gbbbb xsnbbbb cnsbbbb
+xsnbbbb cnsbbbb fwbbb hbbvb xwebbbb xwebbpb hbvbb cwnbbbw xsebbbb xwsbbbb xsnbbbb cnsbbbb
+xsnbbbb cnsbbbb fbbwb cnewbbb fbbbb pwbbb fbbbb fbbbb csnbwbb xnsbbbw xsnbbbb cnsbbbb
+xsnbbbb cnebbbb cwewbbb cwebbbb cwebbbb cwebbpb cwebbbb cwebbbb cwnbbbb xnsbbbb xsnbbbb cnsbbbb
+xsnbbbb cewbbbb cswbbbb pbbbb obbbb fwbbb fbbbb cnsbbbb rbbbb xnebbbb xwnbbbb cnsbpbb
+cenbbbb cewbbbb cewbblb cewbbbb cewbbpb cewbbbb cewbbbb cewbbbb cewbbbb cewbbpb cewbbwb cnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,8 3,1,9,5 3,1,6,3 3,1,4,6 

@@ -1,0 +1,87 @@
+name: New Course
+description: Enter description
+length: short
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+xewwbbw xewwbbb xewwbbb xewwbbb
+xewbbbw xewbbbb xewbbbb xewbbbb
+hbbbw hbbbb hbbbb hbwbb
+xewbbbw xewbbbb xewbbbb xewbbbb
+hbbbw hbbbb hbbbb hbwbb
+xewbbbw xewbbbb xewbbbb xewbbbb
+xewbbbw xewbbbb xewbbbb xewbbbb
+hbbbw hbbbb hbbbb hbwbb
+xewbbbw xewbbbb xewbbbb xewbbbb
+hbbbw hbbbb hbbbb hbwbb
+xewbbbw xewbbbb xewbbbb xewbbbb
+xewbbww xewbbwb xewbbwb xewbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsewbbw xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwswwbb
+xsnbbbw xesbbbb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xswbbbb xnsbwbb
+xsnbbbw xnsbwbb xsewbbw xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwswwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb xsnbbbw xesbbbb xewbbwb xewbbwb xewbbwb xewbbwb xswbbbb xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsewbbw xwewbbb xwewbbb xwswwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xesbbbb xswbbbb xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+endboard
+board: 2,2 0 blank board
+newboard:
+blank board Copy
+xswwwbb xeswbbw cswwbbb ceswbbb cswwbbb ceswbbb cswwbbb ceswbbb cswwbbb ceswbbb csewwbbb cwswbbb
+xenwbbbb xnwbwbb csnbbbw cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb
+hbbbw cesbbbb csnwbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb
+xswbwbb cnsbbbw csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb
+xensbbbw cnwsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb
+xnwbwbb cnsbbbw csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb
+xswbwbb cnsbbbw csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb
+xensbbbw cnwsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb
+xnwbwbb cnsbbbw csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb
+hbbbw cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb
+xewsbbbb xswbwbb csnbbbw cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb
+xnwbbwb xenbbwb cenwbbwb cnwbbwb cenbbwb cnwbbwb cenbbwb cnwbbwb cenbbwb cnwbbwb cenbbwb cnwbbwb
+endboard
+board: 3,1 0 blank board Copy
+newboard:
+blank board Copy Copy
+xsnbbbb xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xenbbbw xnwbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbb xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb hbbww hbwwb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbb xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnebbbb xwewbbb xwewbbb xwnbbbb xnsbwbb xsnbbbw xnsbwbb
+xsnbbbb xnsbwbb xsnbbbw xnsbwbb xenbbww xewbbwb xewbbwb xewbbwb xewbbwb xnwbwwb xsnbbbw xnsbwbb
+xsnbbbb xnsbwbb xsnbbbw xnebbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwnbbbb xnsbwbb
+xsnbbbb xnsbwbb xenbbww xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xnwbwwb
+xsnbbbb xnsbwbb xsewbbw xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwswwbb
+xsnbbbb xnsbwbb xsnbbbw xesbbbb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xswbbbb xnsbwbb
+xsnbbbb xnsbwbb xsnbbbw xnsbwbb xsewbbw xwewbbb xwewbbb xwewbbb xwewbbb xwswwbb xsnbbbw xnsbwbb
+xsnbbbb xnsbwbb xsnbbbw xnsbwbb xsnbbbw xesbbbb xewbbwb xewbbwb xswbbbb xnsbwbb xsnbbbw xnsbwbb
+xsnbbbb xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb hwbbw hwwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbb xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsebbbw xwsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+endboard
+board: 3,2 0 blank board Copy Copy
+newboard:
+blank board Copy Copy Copy
+xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xnsbbbw xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnebbbb xwnbbbb xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xnsbbbw xnsbwbb xsnbbbw xnsbwbb xenbbww xewbbwb xewbbwb xnwbwwb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xnsbbbw xnsbwbb xsnbbbw xnebbbb xwewbbb xwewbbb xwewbbb xwewbbb xwnbbbb xnsbwbb xsnbbbw xnsbwbb
+xnsbbbw xnsbwbb xenbbww xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xnwbwwb xsnbbbw xnsbwbb
+xsnbbbw xnebbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwnbbbb xnsbwbb
+xenbbww xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xnwbwwb
+endboard
+board: 4,2 0 blank board Copy Copy Copy
+flags: 3,2,6,1 3,2,7,2 2,2,1,6 2,2,2,7 3,2,6,12 3,2,7,12 4,2,11,7 4,2,12,6 

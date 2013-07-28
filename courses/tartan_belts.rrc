@@ -1,0 +1,41 @@
+name: Tartan Belts
+description: 1 Board
+4 Flags
+Plenty of Conveyors
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb csnbbbb pwbbb fbbbb fwbbb csnbbbb cnsbbbb fwbbb fbbbb fwbbb cnsbbbb pbbbb
+cwebbbb xensbbbb xewbbbb xewbbbb xewbbbb xsnwbbbb xesbbbb xewbbbb xewbbbb xewbbbb xsewbbbb cwebbbb
+fbbbw xnsbbbb csebbbb cwebbbb cwsbbbb xsnbbbb xnsbbbb fbbbb csnbbbb fbbbb xsnbbbb fbwbb
+fbbbb xnsbbbb csnbbbb rbbbb cnsbbbb xsnbbbb xnsbbbb cewbbbb hbbbb cwebbbb xsnbbbb fbbbb
+pbbbw xnsbbbb cenbbbb cewbbbb cnwbbbb xsnbbbb xnsbbbb pbbbb cnsbbbb fbbbb xsnbbbb fbwbb
+cwebbbb xnebbbb xwebbbb xwebbbb xwebbbb xwnbwwb xnebbww xwebbbb xwebbbb xwebbbb xwenbbbb cwebbbb
+cewbbbb xewsbbbb xewbbbb xewbbbb xewbbbb xswwwbb xeswbbw xewbbbb xewbbbb xewbbbb xswbbbb cewbbbb
+fbbbw xnsbbbb fbbbb cnsbbbb pbbbb xsnbbbb xnsbbbb csnbbbb fbbwb cwebbbb xsnbbbb pbwbb
+fbbbb xnsbbbb cwebbbb hbbbb cewbbbb xsnbbbb xnsbwbb fbbbw rwbwb fbwbb xsnbbbw fbbbb
+fbbbw xnsbbbb fbbbb csnbbbb fbbbb xsnbbbb xnsbbbb cewbbbb fwbbb cnsbbbb xsnbbbb fbwbb
+cewbbbb xnwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb xnsebbbb xwebbbb xwebbbb xwebbbb xwsnbbbb cewbbbb
+pbbbb csnbbbb fbbwb fbbbb fbbwb csnbbbb cnsbbbb fbbwb fbbbb pbbwb cnsbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,12 3,1,9,9 3,1,4,4 3,1,10,1 

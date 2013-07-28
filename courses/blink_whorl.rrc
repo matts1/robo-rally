@@ -1,0 +1,24 @@
+name: Blink Whorl
+description: Teleportation, at last! Just not sure it's as useful as it sounded...
+length: short
+difficulty: mid
+players: 2 4
+rules: flagsmove boardrotate100t1
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb
+fbbbb cesbbbb cewbbbb cewbbbb cswbbbb fbbbb cesbbbb cewbbbb cewsbbbb cewbbbb cswbbbb fbbbb
+fbbbw cnsbbbb pbbbb pblbb csnbbbw fbbbb cnsbbbb fbbbb cnsbbbb pbbbb csnbbbb fbbbb
+fbbbb cnsebbbb cwebbbb cwebbbb cwnbbbb fbbbb cnsbbbb fbbbb cnsbbbb pbblb csnbbbb fbbbb
+fbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb cnsbbbb fbbbb cnebbbb cwewbbb cwnbbbb fbbbb
+fbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+pbbbb fbbbb fbbbb fbbbb fbbbb csnbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb fbbbb
+fbbbb cesbbbb cewbbwb cswbbbb fbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb csnbbbb fbbbb
+fbbbb cnsbbbb plbbb csnbbbb fbbbb csnbbbb fbbbb cesbbbb cewbbbb cewbbbb csnwbbbb fbbbb
+fbbbb cnsbbbb pbbbb csnbbbb fbbbb csnbbbb fbbbb cnsbwbb pbbbl pbbbb csnbbbb fbwbb
+fbbbb cnebbbb cwebbbb cwenbbbb cwebbbb cwnbbbb fbbbb cnebbbb cwebbbb cwebbbb cwnbbbb fbbbb
+fbbbb fbbbb fbbwb fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,11,2 3,1,2,11 3,1,11,11 3,1,2,2 
+start: 3,1,5,6 3,1,6,8 3,1,8,7 3,1,7,5 

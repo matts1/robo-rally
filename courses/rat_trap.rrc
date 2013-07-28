@@ -1,0 +1,40 @@
+name: emmen's Resurrection
+description: Death is the key to victory!
+Last one in is a rotten egg.
+length: medium
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,3 12,3 
+fbbbb fbbwb fbwbb gbbbw
+fbbbb fwbbb gbwbb fbbbw
+fbbbb fbbwb fbbbb fbwbb
+fbbbb fwbbb fbwbb fbwbw
+fbbbb fbbwb fbbbb fbwbb
+fbbbb fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbwbb
+fbbbb fwbbb fbbbb fbwbb
+fbbbb fbbwb fbwbb fbwbw
+fbbbb fwbbb fbbbb fbwbb
+fbbbb fbbwb obwbb fbbbw
+fbbbb fwbbb fbwbb obbbw
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbwbb fbbbw rbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb csnbbbb pbwbb fbbbw
+csnbwbb fbbbw fbbbb fbbbb pbbbb fbbbb fbbbb obbbb fbbwb cenbbwb cewbbwb cnwbbbb
+csnbwbw obbbw fbbbb fbbbb cswbbbb fbbdb fbbwb pbbbb hwbbb fwbbb gwwbb xnsblbw
+csnbwbw fbbbw fbbwb pbbwb hbbbb ftbwb xwswbbb cnsbbbb xswbbbb fbbbb fbwbb xnsbbbw
+obbbw pbbbb fwbbb gwbbb fbbbb owbbb xnwbbbb cesbbbb cenwbbbb xswbbbb fbwbb xnsbbbp
+cenbbbw rbbbb fbbbb fbbbb fbbbb pbbbb csnbbbb xwebbbb xwebbbb cwsnbbbb fbwbb xnsbbbp
+cesbbbw rbbbb fbbbb pbbbb fbbbb cwebbbb cwnbbbb xwebbbb xwsbbbb cnwsbbbb fbwbb xnsbbbw
+gbbbw pbbbb fbbbb gbbwb fbbbb obbwb cewbbwb cswbbbb xwebbwb xwsbbwb fbwbb xnsblbw
+cnsbwbw cesbbbw cnwbbwb pwbbb hbbwb pwbbb rwbbb pbbwb fwbbb fwbbb fbwbb xnsbbbw
+cnsbwbw fbbbw fwbbb fbbbb cewwbbb cewbbbb cewbbbb ftwbb fbbbw fbbbb fbbbb xnsbbbb
+cnsbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbwbb fbtbw fbbbw fbbbb xewbbbb xnwbbbb
+fbbbb xwnbwbb fbbbw fbbbb rbbbb fbbbb pbbbb fbbwb hbbbb fbbwb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,10 3,1,1,12 3,1,3,4 3,1,11,2 

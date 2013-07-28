@@ -1,0 +1,44 @@
+name: Cannery Row - Teams
+description: Six flags, two moving.
+3 Option card spaces.
+Based on Cannery Row
+from original Robo Rally
+length: medium
+difficulty: mid
+players: 4 8
+team: true
+rules: teamonetouchalltouch flagsmove
+newsboard:
+blank starting board
+5,2 8,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewbbbb xenwbbbb xewwbwb xewbbbb csewwbbb cwnbbbb pbbbb fwbbb fbbbb fwbtb fbwbb xsnbbbw
+fbbbb fbbbb fwbbb fbbbb csnbbbb csebbbb cwsbbbb fbbbb fbbbb fwbbb rbbbb xsenbbbb
+fbbbw fbwbb fbdbw fbbbw csnbbbb pbbwb cnsbbbb fbwbb fblbl fbbww fbbbb xsnbwbb
+fbwbb fbbbw fbbwb fbwbb csnbbbv fwblb cnsbbbb fbbbb fbbwb flbbb fbbwb xsnbbbb
+fbbbw fbbwb flbbb fbbwb csnbbbb cewwbbb cnwsbbbb fbbbb fwbwb fbbwb fwbbb xsnbwbb
+fbbbb flbbb fbbwb hwbbb csenbbbb cwebbbb cnsebbbb xwebbbb xwevbbb xwepbbb xwebbbb xwenbbbb
+xewsbbbb xewbbwb xewwbbb xewbbwb csnwbbbb cewbbbb cnwsbbbb fbbbb xewbbbb xswbbbb fbbbb csebbbb
+xnsbbbw fwbbb fbbbb fwbbb csenbbbb cwebbbb cnsbbbb fbbbb fbbbb xsnbbbb fbbwb csnbwbb
+xnsbbbb fbbbb fbwbb fbwbl csnbbbw hbbwb cnsbbbb fbbbb fbbbb pbbwb fwbbb csnbbbb
+xnsbbbw fbwbb fbbbw fbbbb csnbbbb fwbbb cnsbbbb fbwbb fbbbv fwbdb fbwbb csnbwbw
+xnwsbbbb rbbbb fbbwb fbwbb csnbwbl fbbbw cnsbbbb fbbbb fbbwb hwbbb fbbwb csnbbbb
+xnsbbbb fbbbb fwbwb fbbbb cenbbbb cswbbbb cnsebbbb xwebbwb xwewbbb xwebbwb xwewbbb xwnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,8 3,1,12,2 3,1,7,12 3,1,1,1 3,1,1,11 3,1,4,2 

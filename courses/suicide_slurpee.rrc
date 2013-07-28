@@ -1,0 +1,39 @@
+name: Suicide Slurpee
+description: A delicious, frosty drink...of DEATH
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb rbbbb
+fbwbb pbbbw fbbbb pbbbb xwsbbbb fbbwb fbbwb xesbbbb pbbbb fbbbb pbbbb fbbbb
+fbwbb pbwbw fbbvw xwebbbb xnsbbbb fwbbb fwbbb xnsbbbb xewbbbb fbwpb pbbbw fbbbb
+fbwbb pbbbw pwbbb pbbbb xnsbbbb fbbbb fbbbb xnsbbbb pbbbb pwbbb pbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+fbwbb pbbbw pbbwb pbbbb xsnbbbb fbbbb fbbbb xsnbbbb pbbbb pbbwb pbbbb fbbbb
+fbwbb pbwbw fvbbw xwebbbb xsnbbbb fbbwb fbbwb xsnbbbb xewbbbb fpwbb pbbbw fbbbb
+fbwbb pbbbw fbbbb pbbbb xwnbbbb fwbbb fwbbb xenbbbb xewbbwb xewbbbb xewbbbb fbbbb
+fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fwwbb fbbbw fbbbb rbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,10 3,1,10,3 3,1,10,10 3,1,3,3 3,1,11,6 3,1,2,7 

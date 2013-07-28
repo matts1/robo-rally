@@ -1,0 +1,40 @@
+name: Swamp Castle
+description: Everyone said it was daft to build a castle on a swamp. It sank into the swamp, so I built a second castle. That one burned down, fell over, THEN fell into the swamp.
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+rbbbb csebbbb cwsbbbb fbbbb fbbbb fbbbb fbbbb csebbbb cwsbbbb csebbbb cwsbbbb rbbbb
+csebbbb cwnbwbb cnebbbw cwsbbbb fbbbb fbbbb csebbbb cwnbbwb cnebbwb cwnbbwb cnebbwb cwsbbbb
+cenbbbb cswbwbb cesbbbw cnwbbbb fbbbb fbbbb cenbbbb cswwbbb ceswbbb cswwbbb ceswbbb cnwbbbb
+csebbbb cwnbwbb cnebbbw cwsbbbb pbbwb cwsbbbb rbbbb cenbbwb cnwbbbb cenbbbb cnwbbbb fbbbb
+cenbbbb cswbwbb cesbbbw cnwbwbb ceswbbd cnwebbbb cwebbbb cswdwbb pbbbw fbbbb fbbbb fbbbb
+fbbbw cenbbbb cnwbbbb rbbbb csnbbbb fbbbb fbbbb censbbbb cnwbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb csebbbb cwsnbbbb fbbbb fbbbb cnsbbbb rbbbb csebbbb cwsbbbb fbbbb
+fbbbb fbbbb fbbbb pbwbb cnebbdw cewbbbb csewbbbb cwnbdwb csebbbw cwnbwbb cnebbbw cwsbbbb
+fbbbb csebbbb cwsbbbb csebbbb cwswbbb rbbbb cenbbbb pwbbb cenbbbb cswbwbb cesbbbw cnwbbbb
+csebbbb cwnbbwb cnebbwb cwnbbwb cnebbwb cwsbbbb fbbbb fbbbb csebbbb cwnbwbb cnebbbw cwsbbbb
+cenbbbb cswwbbb ceswbbb cswwbbb ceswbbb cnwbbbb fbbbb fbbbb cenbbbb cswbwbb cesbbbw cnwbbbb
+rbbbb cenbbbb cnwbbbb cenbbbb cnwbbbb fbbbb fbbbb fbbbb fbbbb cenbbbb cnwbbbb rbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,6 3,1,7,7 3,1,7,6 3,1,2,10 3,1,10,11 3,1,11,3 3,1,3,2 3,1,6,7 

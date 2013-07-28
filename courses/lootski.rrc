@@ -1,0 +1,39 @@
+name: Lootski
+description: Follow the thing around the thing and then go over the thing to the other thing where you'll find the Lootski
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbwbb fbbbw fbbbb
+fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb pbbbb pbbbb hbbbb fbbbb fbbbb fbbbb fbbbb
+fbbwb fbbbb fbbbb csebbbb cwebbbb cwebbbb cwebbbb cwebbwb cwsbbbb fbbbb fbbbb fbbwb
+pwbbb fbbbb fbbbb csnbbbb pbbwb fbbbb fbbbb fwbbb cnsbbbb fbbbb rbbbb pwbbb
+pbbbd pbbbb pbwbb csnbbbw flbbb rbbbb fbbbb fbbbb cnsbwbb pbbbw pbbbb pbdbb
+pbbbd pbbbb pbwbb csnbbbw fbbbb fbvbb rbbbw fbblb cnsbwbb pbbbw pbbbb pbdbb
+pbbwb fbbbb fbbbb csnbbbb fbbwb fbbbb fbbbb pwbbb cnsbbbb fbbbb rbbbb pbbwb
+fwbbb fbbbb fbbbb cenbbbb cewwbbb cewbbbb cewbbbb cewbbbb cnwbbbb fbbbb fbbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb pbbbb pbbbb hbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbwbb fbbbw fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,11 3,1,11,11 3,1,10,2 3,1,7,6 3,1,3,2 

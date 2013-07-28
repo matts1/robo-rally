@@ -1,0 +1,42 @@
+name: Treasure Island
+description: 1 Board, 4 Flags (2 moving)
+2013 Robo Rally Map Editing Contest Entry
+by mezo
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+5,2 7,2 4,2 8,2 2,2 11,2 1,2 12,2 
+xewbbbb xewbbbb xswbbbb cewbbbb
+xewbbbb xewbbbb xenwbbbb xswbbbb
+xewbbbb xewbbbb xewbbbb xenwbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewsbbbb
+xewbbbb xewbbbb xewsbbbb xnwbbbb
+xewbbbb xewbbbb xnwbbbb cewbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+csewbbbb cwebbbb cwsbbbb cnsbbbb csebbbb cwebbbb cwebbbb cwebbbb cwebbbb cnsbbbb fwbbb fwwbb
+cenbbbb cswbbbb cnsbbbb cnsbbbb cenbbbb csewbbbb cwebbbb cwebbbb cesbbbb cnwbbbb fbbbb fbwbb
+xewbbbb xewsbbbb xewbbbb xewbbbb xewbbbb xenwbbbb xewbbbb xewbbbb xewbbbb xswbbbb rbbbb obwbb
+xewsbbbb xnwbbbb pbbwb pbbbb pbbbb pbbbb pbbbb pbbwb pbbbb xsnbbbb fbbbb cnsbbbb
+xnwsbbbb pbbbb fwbbb fbbbb fbbbb fbbbb fbbbb flbbb pbbbb xsnbbbb fbbbb fbbbb
+xnwbbbb obbbb gbbbb fbbbb fbbbb hbbbb fbbbb fbbbb pbbbb xsnbbbb fbbbb fbbbb
+xswbbbb pbbbb fbblb fbbbb fbbbb fbbbb csebbbb cwebbwb cwebbbb xwsnbbbb fbbbb rbbbb
+xenwbbbb xswbbbb pwbbb pbbbb pbbbb pbbbb csnbbbb pwbbb xesbbbb xnwbbbb fbbbb fbbbb
+xewsbbbb xenwbbbb xewsbbbb xewbbbb xswbbbb pbbbb pbbbb pbbbb xnsbbbb fbbbb fbbbb csnbbbb
+xnwbbbb cesbbbb cnwbbbb csewbbbb xenbbbb xewsbbbb xewbbbb xewsbbbb xnwbbbb rbbbb fbbbb gbwbb
+cesbbbb cnwsbbbb csnbbbb cenbbbb cswbbbb cnsbbbb csnbbbb cnebbbb cwsbbbb fbbbb fbbbb fbwbb
+cnwbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwsbbbb csnbbbb cnsbbbb fbbwb fbbwb fbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,11 3,1,12,6 3,1,2,3 3,1,6,5 

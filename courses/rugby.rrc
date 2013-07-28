@@ -1,0 +1,41 @@
+name: Rubgy for 6
+description: Are you ready for some rugby?
+length: medium
+difficulty: mid
+players: 4 8
+team: true
+rules: teamflagtoggle startoptions3c1
+newsboard:
+blank starting board
+4,2 3,1 2,2 9,2 10,1 11,2 5,1 5,2 
+fwbbw fwbbb fwbbb fwwbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbwb fbbbb
+fbbbw fbwbb hwwbw fbbbw
+gbbww rbwwb fbbww fbbbb
+gwbbw rwwbb fwbbw fbbbb
+fbbbw fbwbb hbwww fbbbw
+fbbbw fbbbb fwbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbww fbbwb fbbwb fbwwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbbb fwbbb fbbbb fbbbb fbbbb fbbwb fbbwb fbbwb fbbbb fbbbb fbwbb hbbbw
+fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fwbbb fwbbb fbbbb fbbbb fbwbb fbbbw
+fbbbb fbbbb fbbbb fbbwb fbbbb fbbbb fbbwb fbbbb fbbbb fbbwb fbwbb fbbbw
+fbbbb fbbbb fbbbb fwbwb fbbbb fbbbb fwbwb fbbbb fbbbb fwbwb fbbbb fbbbb
+fbwbb fbbbw fbbbb fwbwb fbbbb fbbbb fwbwb fbbbb fbbbb fwbwb fbbbb fbbbb
+fbwbb fbbbw fbbbb fwbbb fbbbb fbbbb fwbbb fbbbb fbbbb fwbbb fbbbb fbbbb
+fbwbb fbbbw fbbbb fbbwb fbbbb fbbbb fbbwb fbbbb fbbbb fbbwb fbbbb fbbbb
+fbwbb fbbbw fbbbb fwbwb fbbbb fbbbb fwbwb fbbbb fbbbb fwbwb fbbbb fbbbb
+fbbbb fbbbb fbbbb fwbwb fbbbb fbbbb fwbwb fbbbb fbbbb fwbwb fbbbb fbbbb
+fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fwbbb fbbbb fbbbb fwbbb fbwbb fbbbw
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbbwb fbbwb fbbbb fbbbb fbwbb fbbbw
+fbbwb fbbwb fbbbb fbbbb fbbbb fwbbb fwbbb fwbbb fbbbb fbbbb fbwbb hbbbw
+endboard
+board: 3,1 0 blank board
+flags: 3,1,1,7 3,1,5,5 3,1,5,9 3,1,9,7 3,1,12,7 

@@ -1,0 +1,44 @@
+name: Gears or Belts?
+description: Will you use the gears or the belts?
+6 flags
+Start with choice of two option cards
+Designed by timmonte
+length: medium
+difficulty: mid
+players: 4 8
+team: true
+rules: teamonetouchalltouch startoptions2c1
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbwb fbbwb fbbwb
+fbbbb fwbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb flbbb fbbbb xesbbbb xewlbbb xewbbbb xewbbbb xswbbbb hbbbb fbbbb fbbbb
+csebbbb cwebbbb cwebbbb cwsbbbb xnsbbbb fbbbb fbbbb fbbbb xenbbbb xswbbbb fbbwb fbbbb
+csnbbbb xesbbbb xewbbbb xewbbbb xnwbbbb fbbbb fbbbb csebbbb cwebbbb xsnbbbb cwelbbb cwsbbbb
+cenbbbb xnsbbbb cewbbbb cnwbbbb fbbbb fbbbb fbbbb csnbbbb hbbbb xsnbbbb fbbbb cnsbbbb
+fbbbb xnsbbbb fbbbb fbbbb hbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwnbbbb fbbbb cnsbbbb
+fbbwb xnebbbb xwebbwb xwebbwb xwebbwb xwnbbwb fbbbb cenbbwb cewbbwb cewbbwb cewbbwb cnwbbbb
+fwbbb fbbbb rwbbb gwbbb owbbb fwbbb fbbbb fwbbb gwwbb owbbw fwbbb fbbbb
+fbbbb fbbbb gbbbb obbbb gbbbb fbbbb fbbbb gbbwb fbbbb gbwbb hbbbw fbbbb
+fbbbb fbbbb obbbb gbbbb obbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb gbbbb rbbbb gbwbb hbbbw fbbbb fbbbb fbblb fbbbb fbbbb fbbbb
+fbbbb fbbbb obbbb gbbbb obbbb fbbbb fbbbb obbbb fwbbb fbbbb obwbb fbbbw
+fbbbb fbbbb gbblb obbbb rbbbb fbbbb fbbbb fbblb obwbb hbbbw fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,11 3,1,9,12 3,0,5,4 3,1,11,3 3,1,2,8 3,1,8,5 

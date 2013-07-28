@@ -1,0 +1,44 @@
+name: Positive Thinking
+description: 4 Flags, 1 in laser.  3 option spaces, 2 in lasers.
+Need to stay positive as in "I'm POSITIVE
+I'm going to get pushed and knocked off track...."
+Gets really crazy with 8 bots....
+2011 RoboRally Map Editing Contest entry
+Designed by timmonte
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsebbbb xwebbbb xwewbbb xwebbbb xwsbbbb fbbbb csebbbb cwebbbb cwebbbb cwsbbbb fbbbb fbbbb
+xsnbbbb fbbbb fbbbb rbbbb xnsbwbb fbbbw csnbbbb hbbbb pbbbb cnebbbb cwsbbbb fblbb
+xenbbbb xswbbbb pbbbb xesbbbb xnwbbbb fbbbb csnbbbb pbbbb pbbbb pbbbb cnsbbbb fbbbb
+fbbbb xsnbbbb pbbbb xnsbbbb fbbbb fbbbb csnbbbb rbbbb pbbbb cesbbbb cnwbbbb fbbbb
+fbbbb xenbbbb xewbbbb xnwbbbb fbbbb fbbbb cenbbbb cewbbbb cewbbbb cnwbbbb fbbwb fbbbb
+fbbbb fbbbb fbwbb fbbbw fbbbb obbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb
+fbbbb fbbbb fbwbb fbbbw obbbb fbbbb fbbbb fblbb cesbbbw cewbbbb cswbbbb fbbbb
+cesbbbb cewbbbb cewbbbb cewbbbb cswbbbb fbbbb fbbbb cesbbbb cnwbbbb pbbbb cenbbbb cswbbbb
+cnsbbbb rbbbb pbbbb hbbbb csnbbbb fbbbb fbbbb cnsbbbb pbbbb pbbbb pbbbb csnbbbb
+cnsbbbb pbbbb pbbbb pbbbb csnbbbb fbbbb fbbbb cnsbbbb fbbbb pbbbb hbbbb csnbbbb
+cnebbbb cwsbbbb pbbbb csebbbb cwnbbbb fbbbb fbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwnbbbb
+fbbbb cnebbbb cwebbbb cwnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbblb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,6 3,1,10,9 3,1,2,2 3,1,6,5 

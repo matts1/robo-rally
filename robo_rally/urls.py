@@ -5,9 +5,11 @@ from django.contrib.auth.forms import SetPasswordForm
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 from robo_rally.auth.admin import * # create admin view
+
 admin.autodiscover()
 
 from robo_rally.auth.views import *
+from robo_rally.courses.views import PickMapView
 
 urlpatterns = patterns('',
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
@@ -44,4 +46,5 @@ urlpatterns = patterns('',
     ### GAME MODULE ###
     # TODO: registerView is a temporary view so I can test getting redirects working
     url(r'^lobbies/$', RegisterView.as_view(), name='lobbies'),
+    url(r'^pickmap/$', PickMapView.as_view(), name='maplist')
 )

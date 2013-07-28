@@ -1,0 +1,22 @@
+name: 4 Bot Battle Arena
+description: A duel to the death.  By Wiggfield.
+length: short
+difficulty: expert
+players: 2 4
+newboard:
+blank board
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbwb pbbbb pbbbb
+pbbbb pbbbb pbwbb pwbbl pwbbb fwbbb pwbwb fwbbb pwbbb plwbb pbbbw pbbbb
+pbbbb pbbbb pbwbb pbwbw fbbbw fbbbb fwbbb fbbbb fbwbb pbwbw pbbbw pbbbb
+pbbbb pbbbb pbwbb fbbbw fbbbb fbbbb fbbbb gbbbb fbbbb fbwbb pbbbw pbbbb
+pbbbb pbbbb pbwbb pbbbw rbbbb fbbbb hbbbb fbbbb rbbbb pbwbb pbbbw pbbbb
+pbbbb pbbbb pbwbb fbbbw fbbbb obbbb fbbbb fbbbb fbbbb fbwbb pbbbw pbbbb
+pbbbb pbbbb pbwbb pbwbw fbbbw fbbbb fbbwb fbbbb fbwbb pbwbw pbbbw pbbbb
+pbbbb pbbbb pbwbb pbblw pbbwb fbbwb pwbwb fbbwb pbbwb pblwb pbbbw pbbbb
+pbbbb pbbbb pbbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pwbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+start: 3,1,4,5 3,1,8,5 3,1,5,5 3,1,7,5 

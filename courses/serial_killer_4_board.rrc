@@ -1,0 +1,89 @@
+name: Serial Killer
+description: Four boards of Utter Mayhem.
+**This map is very long, requiring skill and patience--just like the hunt for a Serial Killer
+**Map can take up to 2 hours to play
+length: long
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+12,4 11,4 10,4 9,4 8,4 7,4 6,4 5,4 
+rbbbb xwebbbb xwebbbb xwebbbb
+xsnbbbb rbbbb xwebbwb xwebbwb
+xsnbbbb xsnbwbb pwbbw fwbbb
+xsnbbbb xsnbwbb fbbbw fbbwb
+xsnbbbb xsnbwbb fbbbw fwbwb
+xsnbbbb xsnbwbb fbbbw fwbwb
+xsnbbbb xsnbwbb fbbbw fwbwb
+xsnbbbb xsnbwbb fbbbw fwbwb
+xsnbbbb xsnbwbb fbbbw fwbwb
+xsnbbbb xsnbwbb fbbbw fwbwb
+xsnbbbb xsnbwbb fbbbw fwbwb
+fbbbb fbbbb rbbbb fwbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+rbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+xsnbbbb rbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+xsnbbbb xsnbbbb xsebbbb xwebbbb xwebbbb cwebbbb xwebbbb xwebbbb xwsbbbb fbbbb gbbbb pbbbb
+xsnbbbb xsnbbbb xsnbbbb cesbbbb xewbbbb cewbbbb xewbbbb cswbbbb xnsbbbb fbbbb fbbbb fbbbb
+xsnbbbb xsnbbbb csnbbbb cnsbbbb xsebbbb xwebbbb xwsbbbb csnbbbb cnsbbbb fbbbb fbbbb fbbbb
+xsnbbbb xsnbbbb xsnbbbb xnsbbbb xsnbbbb fbbbb xnsbbbb xsnbbbb xnsbwbb csnbbbw fbbbb fbwbb
+xsnbbbb xsnbbbb csnbbbb cnsbbbb xenbbbb xewbbbb xnwbbbb csnbbbb cnsbwbb xsnbbbw csnbvbb fbbbw
+xsnbbbb xsnbbbb xsnbbbb cnebbbb xwebbbb cwebbbb xwebbbb cwnbbbb xnsbbbb fbbbb xsnbbbb csnbbbb
+xsnbbbb xsnbbbb xenbbbb xewbbwb xewbbbb cewbbwb xewbbbb xewbbwb xnwbbbb fbbbb fbbbb xsnbpbb
+xsnbbbb xsnbbbb fbbbb fwbbb fbbbb fwbbb fbbbb fwbbb rbbbb csnbvbb fbbbw fbbbb
+xsnbbbb xsnbwbb fbbbl fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb xsnbbbw csnbbbb fbbbb
+xsnbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb xsnbpbb csnbbbw
+endboard
+board: 2,1 0 blank board
+newboard:
+blank board Copy
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb rbbbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb rbbbb xnsbbbb
+rbbbb fbbbb fbbbb fbbbb gbbbb fbbbb fbbbb fbbbb fbbbb rbbbb xnsbbbb xnsbbbb
+fbbbb fbbbb gbbbb pbbbb rbbbb fbbbb fbbbb fbbbb gbbbb fbbbb xnsbbbb xnsbbbb
+fbbwb fbbbb fbbbb fbbwb fbbbb fbbbb obbwb pbbbb fbbbb fbbbb xnsbbbb xnsbbbb
+fwbbw fbbbb fbbbb rwbbb fbbbb fbbbb fwwbb rbbbw fbbbb fbbbb xnsbbbb xnsbbbb
+fbbbb fbbbb fbbwb fbbwb fbbwb fbbbb fbwbb fbbbw fbbbb fbbbb xnsbbbb xnsbbbb
+fbbbb fbbbb fwbbb rwbbb fwbbb fbbbb fbwbb fbbbw gbbbb fbbbb xnsbbbb xnsbbbb
+fbbww fbbwb fbbbb fbbbb fbbbb fbbwb fbwwb fbbbw pbbbb fbbbb xnsbbbb xnsbbbb
+xsnwwbb fwbbw fbbbb fbbwb fbbbb fwwbb pwbbw fbbbb rbbbb fbbbb xnsbbbb xnsbbbb
+fbwbb fbbbw fbbbb cnswbbb fbbbb fbwbb pbbbw fbbbb fbbbb fbbbb xnsbbbb xnsbbbb
+fbwbb fbbww fbbwb cnsbbbb fbbwb fbwwb pbbbw fbbbb fbbbb gbbbb xnsbbbb xnsbbbb
+endboard
+board: 2,2 0 blank board Copy
+newboard:
+blank board Copy Copy
+rbbbb xsnbwbb fbbbl hbbbb fbbbb hbbbb fbbbb fbbbb fbwbb csnbbbw fbbbb xsnbbbb
+xwebbwb rbbwb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsnbpbb csnbbbw fbbbb
+fwbbb fwwbb fbbbl hbbbb fbbbb hbbbb fbbbb fbbbb fbwbb fbbbw xsnbbbb csnbbbb
+fbbwb pbbwb hbbwb fbblb fbbwb fbblb fbbwb fbblb fbbbb fbbwb fbbwb xsnbwwb
+rwbbb cewwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fbbbb fwbwb fpbbb cewwbbb
+rbbbb cewbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fpbbb cewbbbb fbwvb
+rbbbb cewbbbb cewbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fvbbb cewbbbb fbwpb fwbbl
+rbbbb cewbbbb cewbbbb fbbbb fbbbb fbbbb fbbwb fpbbb cewbbbb fbwpb fwbbw fbbbb
+rbbbb cewbbbb cewbbbb cewbbbb fbbbb fbbwb fvbbb cewbbbb fbwvb fwbbw fbbbb fbbbb
+rbbbb cewbbbb cewbbbb cewbbbb fbbbb fpbbb cewbbbb fbwpb pwbbw pbbbb pbbbb pbbbb
+rbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb fbwvb pwbbw fbbbb fbbbb fbbvb fbbwb
+rbbbb cewbbbb cewbbbb cewbbbb cewbbbb fbwpb pwbbw hbbbb fbwbb xewbbbw xewwbbb xewwbbb
+endboard
+board: 3,1 0 blank board Copy Copy
+newboard:
+blank board Copy Copy Copy
+csnbbbb fvbbb pwwwb cnsbwbw pwbbw pwbbb pbbbb fbbbb fbbbb pbbbb xnsbbbb xnsbbbb
+xsnbbbb fbvwb cewwbbw fbwpb fbbbw fbbbb fbbbb gbbbb fbbbb rbbbb xnsbbbb xnsbbbb
+fbwwb cewwbbw fbwpb rwbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb xnsbbbb
+cewwbbw rbwvb fwbbw fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb xnsbbbb
+fbbpb pwbwb fbbbb fbbbb fbbbb fbbbb gbbbb fbbbb pbbbb fbbbb xnsbbbb xnsbbbb
+fwbbw flbbb obbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb gbbbb xnsbbbb xnsbbbb
+fbbbb fbbbb fbwbb pbbbw pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb xnsbbbb
+fbbbb fbbbb fbbbb xewbbbb xewbbbb xewbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb xnsbbbb
+fbbbb fbbwb fbbbb xewbbbb xewbbbb xewbbbb fbbbb fbbbb fbbbb gbbbb xnsbbbb xnsbbbb
+pbbbb pwbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb xnsbbbb xnsbbbb
+fbbpb fbbvb rbbwb fbbpb fbbvb fbbpb fbbwb fbbvb fbbwb fbbvb xnsbbbb xnsbbbb
+xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewbbbb rbbbb
+endboard
+board: 3,2 0 blank board Copy Copy Copy
+flags: 2,2,7,4 3,2,1,2 3,1,2,5 2,1,6,6 3,1,9,11 3,1,11,9 2,1,10,3 3,1,3,2 

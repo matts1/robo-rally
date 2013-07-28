@@ -1,0 +1,43 @@
+name: Presents
+description: 5 Flags (Stationary)
+4 Option spots in the center
+Board Rotates when flag is touched
+designed by i8flesh
+length: medium
+difficulty: mid
+players: 2 8
+rules: boardrotate50t1
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb pbbbb cwebbbb cwebbbb cwebbwb cewbbwb cewbbbb cewbbbb pbbbb fbbbb fbbbb
+fbbbb rbbbb cnsbbbb obbbb fbbvb fwbbb fwbbb fbbvb gbbbb cnsbbbb rbbbb fbbbb
+rbbbb fbbbb cnsbbbb fbvbb fwbbw fbbbb fbbbb fwwbb fbbbv cnsbbbb fbbbb rbbbb
+fbbbb fbbbb cnsbwbb fbbbw fbbbb hbbbb hbbbb fbbbb fbwbb cnsbbbw fbbbb fbbbb
+fbbbb fbbbb csnbwbb fbbbw fbbbb hbbbb hbbbb fbbbb fbwbb csnbbbw fbbbb fbbbb
+rbbbb fbbbb csnbbbb fbvbb fbbww fbbbb fbbbb fbwwb fbbbv csnbbbb fbbbb rbbbb
+fbbbb rbbbb csnbbbb gbbbb fvbbb fbbwb fbbwb fvbbb obbbb csnbbbb rbbbb fbbbb
+fbbbb fbbbb pbbbb cwebbbb cwebbbb cwewbbb cewwbbb cewbbbb cewbbbb pbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,11 3,1,7,5 3,1,2,11 3,1,11,2 3,1,6,8 

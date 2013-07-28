@@ -1,0 +1,41 @@
+name: Mind the Center
+description: Small moving center, flags
+going round and round.
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+9,2 4,2 12,2 1,2 10,2 3,2 11,2 2,2 
+ftbbb fbbbb fbbbb csnbbbb
+fbbbb fbbbb fbbbb csnbbbb
+fbbbb fbbbb fbbbb csnbbbb
+fbbbb fbbbb fbbbb csnbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb xewbbbw
+fbbbb fbbbb fbwbb xewbbbw
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cewbbbb
+fbbbb fbbbb fbbbb cewbbbb
+fbbbb fbbbb fbbbb cewbbbb
+fbbtb fbbbb fbbbb cewbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+csnbbbb csnbbbb csnbbbb fbbbb xsnwbbb xsnwbbb fbbbb cwebbbb cwebbbb cwebbbb cwebbbb ftbbb
+csnbbbb csnbbbb csnbbbb rbbbb fbwbb fbbbw rbbbb cwebbbb cwebbbb cwebbbb cwebbbb fbbbb
+csnbbbb csnbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb cwebbbb cwebbbb cwebbbb cwebbbb fbbbb
+csnbbbb csnbbbb csnbbbb obbbb rbwbb rbbbw obbbb cwebbbb cwebbbb cwebbbb cwebbbb fbbbb
+rbbbb fbbbb gbbbb hbbbb xsebbbb xwsbbbb hbbbb gbbbb fbbbb rbbbb fbbbb fbbbb
+fbbwb fbbbb rbbwb xsebbbb xwnbwwb xnebbww xwsbbbb rbbwb fbbbb fbbwb xwebwbb fbbbw
+fwbbb fbbbb rwbbb xenbbbb xswwwbb xeswbbw xnwbbbb rwbbb fbbbb fwbbb xwebwbb fbbbw
+rbbbb fbbbb gbbbb hbbbb xenbbbb xnwbbbb hbbbb gbbbb fbbbb rbbbb fbbbb fbbbb
+cewbbbb cewbbbb cewbbbb obbbb rbwbb rbbbw obbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb fbbbb
+cewbbbb cewbbbb cewbbbb fbbbb fbbbb fbbbb fbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb fbbbb
+cewbbbb cewbbbb cewbbbb rbbbb fbwbb fbbbw rbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb fbbbb
+cewbbbb cewbbbb cewbbbb fbbbb xnsbbwb xnsbbwb fbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb fbbtb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,5 3,1,8,6 3,1,7,4 3,1,6,7 

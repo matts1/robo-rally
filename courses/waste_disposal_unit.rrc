@@ -1,0 +1,42 @@
+name: Waste Disposal Unit
+description: Avoid the trash bins.
+3 flags
+Adapted from roborally.com
+by timmonte
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb csnbbbb fbbbb fbbbb csebbbb cwnbbwb cnebbwb cwsbbbb hbbbb fdbbb fbbbb fbbbb
+fbbbb csnbbbb fbbbb fbwbb csnbbbv fpbbb fvbbb cnsbpbb fbbbw fbbbb cwebbbb cwebbbb
+fbbbd fbbbb fbwbb fbbbw csnbbbb pbbbb pbbbb cnsbbbb fbbbb fbbwb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbwwb csnbbbp fbbvb fbbpb cnsbvbb fbbww fwbbb fbbwb hbbbb
+csebbbb cwepbbb cwebbbb cwevbbb gbbbb fwbbb fwbdb gbbbb cwepbbb cwebbbb cwevbbb cwsbbbb
+cwnbwbb fbbbv pbbbb fbpbb fblbw fbbbw fwbbb fbwbb fbbbv pbbbb fbpbb cnebbbw
+cswbwbb fbbbp pbbbb fbvbb fbbbw fbbwb fbwbb fbwbl fbbbp pbbbb fbvbb cesbbbw
+cenbbbb cewbbvb cewbbbb cewbbpb gbbbb ftbwb fbbwb gbbbb cewbbvb cewbbbb cewbbpb cnwbbbb
+fbbbb fwbbb fbbwb fwwbb csnbbbv fpbbb fvbbb cnsbpbb fwbbw fbbbb fwbbb fbbbb
+fbbbb fbbbb fwbbb fbbbb csnbbbb pbbbb pbbbb cnsbbbb fbwbb fbbbw fbbbb fbdbb
+cewbbbb cewbbbb fbbbb fbwbb csnbbbp fbbvb fbbpb cnsbvbb fbbbw fbbbb cnsbbbb fbbbb
+fbbbb fbbbb fbbdb fbbbb cenbbbb cswwbbb ceswbbb cnwbbbb fbbbb fbbbb cnsbbbb hbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,7 3,1,2,3 3,1,11,10 

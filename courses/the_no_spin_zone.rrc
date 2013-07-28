@@ -1,0 +1,42 @@
+name: The No Spin Zone
+description: 4 static flags on conveyor belts,
+time your landings
+2010 Map Editing Contest Entry
+By: Simp the Pimp
+length: medium
+difficulty: hard
+players: 2 6
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb fbbbb fbbwb fbbbb
+fbbbb fbbbb fwbwb fbbbb
+fbbbb fbbbb fwbbb fbwbb
+fbbbb fbbbb gbbbb fbbwb
+fbbbb fbbbb fbbbb pwwbb
+fbbwb fbbwb obbwb fbbbb
+fwbbb fwbbb gwbbb fbbbb
+fbbbb fbbbb fbbbb pbwwb
+fbbbb fbbbb obbbb fwbbb
+fbbbb fbbbb fbbwb fbwbb
+fbbbb fbbbb fwbwb fbbbb
+fbbbb fbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+fbbbb gbbbb pbbbb fbbbb fbbbb gwbbb owbbb fbbbb fbbbb pbbbb fwbbb hwwbb
+fbbbb xesbbbb xewbbpb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbpb xswbbbb fbwbb
+pbbbw xnsbvbb xsewbbw xwebbbb xwebbbb xwsbbbb xsebbbb xwebbbb xwebbbb xwswwbb xsnbbbv pbbbb
+fbbbb xnsbbbb xsnbbbb obbbb fbbwb xnsbbbb xsnbbbb fbbwb obbbb xnsbbbb xsnbbbb fbbbb
+fbbbw xnsbbbb xsnbbbb fbwbb plbbw xnsbbbb xsnbbbb pwlbb fbbbw xnsbbbb xsnbbbb rbbbb
+fbbbb xnsbbbb xenbbbb xewbbbb xewbbbb xnwbwwb xenbbww xewbbbb xewbbbb xnwbbbb xsnbbbb gbwbb
+fbbbb xnsbbbb xsebbbb xwebbbb xwebbbb xwswwbb xsewbbw xwebbbb xwebbbb xwsbbbb xsnbbbb obwbb
+fbbbw xnsbbbb xsnbbbb fbwbb pbbwl xnsbbbb xsnbbbb pbwlb fbbbw xnsbbbb xsnbbbb rbbbb
+fbbbb xnsbbbb xsnbbbb obbbb fwbbb xnsbbbb xsnbbbb fwbbb obbbb xnsbbbb xsnbbbb fbbbb
+pbbbw xnsbvbb xenbbww xewbbbb xewbbbb xnwbbbb xenbbbb xewbbbb xewbbbb xnwbwwb xsnbbbv pbbbb
+fbbbb xnebbbb xwepbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwepbbb xwnbbbb fbwbb
+fbbbb obbbb pbbbb fbbbb fbbbb obbwb gbbwb fbbbb fbbbb pbbbb fbbwb hbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,7 3,1,6,7 3,1,6,6 3,1,7,6 

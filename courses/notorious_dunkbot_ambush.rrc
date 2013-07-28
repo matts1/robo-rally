@@ -1,0 +1,39 @@
+name: Notorious DunkBot Ambush
+description: The only thing that won't hurt you is the lasers -- but everything else will hurt you. A lot.
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cswbbbb fbbbb cewbbbb pdbbb pbbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+cnwbbbb fbbbb cewbbbb pbbtb fbbbb fbbbb fbbwb fbbbb fbbbb fbbbb hbbbb fbbbb
+cswbbbb fbbbb fbbbb fwbbb fbbbb fbbbb pwbbb cwebbbb fbbbb fbbbb fbbbb fbbbb
+cnwbbbb fbbbb fbbbb fbbwb rbbbb pbbbb pbblb cwebbbb fbbwb fbbbb fbbbb fbbbb
+fbbbb fbbbb cewbbbb pwbbb pbbbb rbbbb fwbbb cewbbbb pwbbb pbbbb fbbbb fbbbb
+fbbbb fbbbb cewbbbb pbblb fbbbb fbbbb fbbwb cewbbbb pbbdb fbbbb fbbbb fbbwb
+fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb pwbbb cwebbbb fwbbb fbbbb fbbbb pdbbb
+fbbbb fbbbb fbbbb fbbwb rbbbb pbbbb pbbdb cwebbbb fbbbb fbbbb pbbbb pbblb
+cswbbbb fbbbb cewbbbb pwbbb pbbbb rbbbb fwbbb fbbbb fbbbb fbbbb fbbbb fwbbb
+cnwbbbb fbbbb cewbbbb pbbdb fbbbb fbbbb fbbwb fbbbb fbbbb hbbbb fbbbb fbbbb
+cswbbbb fbbbb fbbbb fwbbb fbbbb fbbbb pwbbb cwebbbb fbbbb fbbbb fbbbb fbbbb
+cnwbbbb fbbbb fbbbb fbbbb rbbbb pbbbb pbbtb cwebbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,11 3,1,6,10 3,1,7,6 3,1,6,5 3,1,11,6 3,1,10,5 3,1,3,6 3,1,2,5 

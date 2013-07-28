@@ -1,0 +1,39 @@
+name: emmen's maze
+description: Watch your step in this dangerous maze.
+length: long
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+11,2 2,2 11,3 2,3 11,1 2,1 11,4 2,4 
+rbbbb fbbbb fbbbb fbbbb
+fbwbb fbwbw fbwbw fbbbw
+fbbbb fbbbb fbbbb fbwbb
+csebbbb cwebbbb cwebbwb cwsbwbb
+csnbbbb fbbwb fwbbb fbwwb
+fbbwb fwbbb fbbbb fwbbb
+fwbbb fbbwb fbbbb fbbwb
+cnsbbbb fwbbb fbbwb fwwbb
+cnebbbb cwebbbb cwewbbb cwnbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbwbb fbwbw fbwbw fbbbw
+rbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cwebbbb cwevbbb cwsbbbb pbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb rwwbb
+fbbbv pbbbb cnsbpbb pbbbw fbbbb fbbbb obbbb fbbbb fbbbb pbbbb fbbbb fbbbb
+cnsbbbw hbbbb cnebbbb cwebbbb fbbbb fbbbb fbwbb csebbbw cwebbwb cwebbwb cwebbwb cwsbwbb
+fbbbw pbbwb pbbwb fbbbb csnbbbb fbbbb fbbbb csnbwbb gwbbd fwbbb owwbb cnsbbbw
+fbbdw fwbwb fwbwb fbblb pbbbb hbbwb fbblb pbbbb hbbbb pbbbb fbwbb cnsbwbw
+gwbwb fwbwb fwbwb rwbwb obbbb cewwbwb cewwblb cewbbbb cewbbbb cewbbvb cewbbbb cnwbbwb
+xeswbbb xewwbwb xewwbbb xewwbwb pbbbb cwswbbb ceswbbb pbbbb xwebbwb xwewbbb xwebbwb xwslbbb
+xnsbbbw hwbbb obbbb fwbbb xnsbbbb hbwbb hbbbw xnsbbbb fwbbb gbbbb hwbbb xnsbwbb
+xnsbbbw fbbbb fbbbb fbbbb xnsbbbb fbwbb fbbbw xnsbbbb fbbbb fbbbb fbwbb xnsbbbw
+xnsbwbb fbbbd fbbbb fbwbb xnsbbbw gbwbb obbbw xnsbwbb fbbbw fbbbb fbdbb xnsbwbw
+xnebbbb xwebbbb xwebbwb xwebbwb xnwebbwb xwsbwbb xesbbbw xnwebbbb xwebbwb xwebbbb xwebbbb xwnbbbb
+fbbbb fbbbb fwbbb fvbbb xewwbbb xewbbbb xnwbbbb fbbbb fpbbb fbbbb fbbbb rbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,6 3,1,6,1 3,1,9,11 3,1,9,2 

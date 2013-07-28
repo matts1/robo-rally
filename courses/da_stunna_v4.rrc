@@ -1,0 +1,39 @@
+name: Da Stunna
+description: Deathmatch -- or maybe YOU think you can beat...DA STUNNA!
+length: medium
+difficulty: hard
+players: 4 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fwbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbwb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbbb fwbbb fwbbb fbbbb fbbbb fbbbb fwbbb xnsbbbb xnsbbbb xnsbbbb hwbbb fwwbb
+fbbbb fbbbb fbbbb fbbbb pbwbb fbbbw xnsbbbb xnsbbbb xnsbbbb xnsbbbb xnsbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb pbwbb fbbbw xnsbbbb rbbbb fbbbb rbbbb xnsbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb pbbbb xnsbbbb xnsbbbb obbbb hbbbb gbbbb xnsbbbb xnsbbbb
+fbbbb fbbbb fbbbb fbbbb pbbbb xnsbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb fbbbb pbwbb fbbbw fbbbb fbbbb xsnbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb pbwbb fbwbw fbbww fbbwb fbbwb fbbwb fblwb fbwbw
+fbbbb fbbbb fbbbb fbbbb pbwbb fbbbw cenwbbb csnwwbbb fwbbb csenwbbb cwnwbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb pbwbb fbbbw fbbbb csenbbbb csewbbbb csnwbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb pbwbb fbbbw fbbbb cenbbbb csewbbwb cwnbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb pbwbb fbbbw fbbbb fbbbb hwbbb fbbbb fbbbb fbwbb
+fbbwb fbbwb fbbwb fbbbb xwebbbb xwebbwb xwebbwb xwnbbbb xsnbbbb xenbbbb xewbbwb xewbbwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,12,3 3,1,10,1 3,1,8,3 3,1,6,1 3,1,5,3 3,1,4,1 3,1,3,3 3,1,8,9 

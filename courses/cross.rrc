@@ -1,0 +1,41 @@
+name: Cross
+description: 8 flags concentrated in a cross formation with
+criss-crossing paths and much destruction.
+Bot elimination is common and encouraged.
+length: long
+difficulty: mid
+players: 4 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+ftbbb fbbbb fbbbb csnbwbb
+fbbbb fbbbb fbbbb csnbwbb
+fbbbb fbbbb fbbbb csenbbbb
+fbbbb fbbbb fbbbb csnbwbb
+fbbbb fbbbb fbbbb pbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb pbwbb
+fbbbb fbbbb fbbbb cnsbwbb
+fbbbb fbbbb fbbbb cnsebbbb
+fbbbb fbbbb fbbbb cnsbwbb
+fbbtb fbbbb fbbbb cnsbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbw fbbbb fbbbb fbbbb fbwbb fbbbw fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb
+fbbbw hbbbb fbbbb fbbwb fbwbb fbbbw fbwbb fbbbw fbbwb fbbbb hbbbb fbbbb
+cwebbbb cwsbbbb obbbb fpbbb fbbbb fbbbb fbbbb fbbbb fpbbb gbbbb fbbbb fbbbb
+fbbbw cnebbbb cwsbbbb pbbbb fbvbb fbbbl fblbb fbbbv pbbbb cwsbvbb fbbbw fbbbb
+fbbww fbbwb cnsbbbb fbbwb gbwwb hbbbw hbwbb obbww fbbwb cnsbbbb fbbwb fbbwb
+fwbbb fwbbb cnsbbbb flbbb hwbbb gbbbb obbbb hwbbb flbbb cnsbbbb fwbbb fwbbb
+fbbwb fbbwb csnbbbb fbblb hbbwb obbbb gbbbb hbbwb fbblb csnbbbb fbbwb fbbwb
+fwbbw fwbbb csnbbbb fwbbb owwbb hbbbw hbwbb gwbbw fwbbb csnbbbb fwbbb fwbbb
+fbbbw csebbbb cwnbbbb pbbbb fbvbb fbbbl fblbb fbbbv pbbbb cwnbvbb fbbbw fbbbb
+cwebbbb cwnbbbb gbbbb fbbpb fbbbb fbbbb fbbbb fbbbb fbbpb obbbb fbbbb fbbbb
+fbbbw hbbbb fbbbb fwbbb fbwbb fbbbw fbwbb fbbbw fwbbb fbbbb hbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb fbwbb fbbbw fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,12 3,1,6,1 3,1,12,7 3,1,1,6 3,1,12,6 3,1,1,7 3,1,6,12 3,1,7,1 

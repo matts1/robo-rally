@@ -1,0 +1,55 @@
+name: Mad Dash
+description: Race to Destruction
+length: medium
+difficulty: hard
+players: 4 8
+newsboard:
+blank starting board
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fwbbw fwbbb fwbbb fwbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbww fbbwb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsewbbb cwswbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xsnbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xsnbbbb cnsbbbb fbbbb hbbbb fbwbb fbbww fbbwb fbbbb obbbb fbbbb obbbb fbwbb
+xsnbbbb cnsbbbb gbbbb fbbbb gbwbb cewwbbw cewwbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+xsnbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb rbvbb fbbbw fbbbb fbbbb fbbbb fblbb
+xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbpbb fbbbw hbbbb fbbbb rbbbb rbwbb
+xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbpbb fbbbw hbbbb fbbbb rbbbb rbwbb
+xnsbbbb csebbbb cwebbbb cwebbbb cwebbbb cwebbbb rbvbb fbbbw fbbbb fbbbb fbbbb fblbb
+xnsbbbb csnbbbb obbbb fbbbb obwbb cewbbww cewbbwb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+xnsbbbb csnbbbb fbbbb hbbbb fbwbb fwbbw fwbbb fbbbb gbbbb fbbbb gbbbb fbwbb
+xnsbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xnebbwb cwnbbwb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fblbb fbbbw rbbbb fbbbb
+xewbbwb xewbbbb xewbbwb xewbbbb xewbbbb gbbbb rbbbb obbbb xwebbbb xwebbbb xwebbbb xwebbbb
+cewpbbb cewbbvb fdbbb fbbbb fbbwb fbbbb fbbbb fbbbb fbbwb fbbbb fbbbb fbbbb
+gbbbw fwbbb fbbwb fbwwb pwbbw fbbbb fbbbb fbbbb pwwbb fbbww fbbbb fblbb
+cewbbbw cewbbbb cewwbbb cewwbbb fbbbb fbbbb hbbbb fbbbb fbbbb cwewbbb cwebbbb cwebwwb
+cewbbbw cewbbbb cewbbwb cewbbwb fbbbb fbbbb hbbbb fbbbb fbbbb cwebbwb cwebbbb cwewwbb
+obbbw fbbwb fwbbb fwwbb pbbww fbbbb fbbbb fbbbb pbwwb fwbbw fbbbb fblbb
+cewbbvb cewpbbb fbbdb fbbbb fwbbb fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb
+xewwbbb xewbbbb xewwbbb xewbbbb xewbbbb obbbb rbbbb gbbbb xwebbbb xwebbbb xwebbbb xwebbbb
+fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fblbb fbbbw rbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,1,6,9 3,2,11,11 3,2,2,11 3,2,7,7 

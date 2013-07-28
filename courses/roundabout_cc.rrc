@@ -1,0 +1,40 @@
+name: Roundabout
+description: 1 Board, 4 Flags. You turn twice, maybe three times.... Oh the flags behind you! No! In front of you!  Special rules: flags move.  Designed by CaptainColeslaw
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+5,2 8,2 6,3 7,3 6,2 7,2 5,3 8,3 
+flbbb fbbbb fbwbb flbbl
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbwwb fbbww fbbbb
+fbbbb fwbbb fwbbb fbbbb
+fbbbw fbbbb fbbbb fbwbb
+fbbww fbbbb fbbbb fbwwb
+fwbbw fbbbb fbbbb fwwbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbb fbbwb fbbwb fbbbb
+fbbbb fwwbb fwbbw fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbblb fbbbb fbwbb fbbll
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fwwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fddbb
+rbbbb fbbbb fbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbbbb rbbbb fbbbb
+fbbbb fbllb xsebbbw xwnbbbb xesbbbb xewbbbb xewbbbb xewbbbb xswbbbb xnebbbb xwsbbbb fbbbb
+fbbbb xsewbbb xwnbbbb xesbbbb xnwbbbb xsebbbb xwebbwb xwsbbbb obbbb xswbbbb xnsbbbb fbbbb
+fbbbb xsnbbbb xesbbbb obbbb xsebbbb xwnbbwb flbbb xnebbbb xwsbbbb xsnbbbb xnsbbbb fbbbb
+fbbbb xsnbbbb xnsbbbb xsebbbb xwnbbbb flbbb fbbwb xesbbbb xnwbbbb xsnbbbb xnsbbbb fbbbb
+fbbbb xsnbbbb xnsbbbb xenbbbb xswbbbb fbbwb xeswbbb xnwbbbb xsebbbb xwnbbbb xnsbbbb fbbbb
+fbbbb xsnbbbb xnebbbb xwsbbbb xenbbbb xewwbbb xnwbbbb xsebbbb gbbbb xesbbbb xnwbbbb fbbbb
+fbbbb xenbbwb xswbbbb xnebbbb obbbb xsebbbb xwebbbb xwnbbbb xesbbbb xnwbbwb fbbbb fbbwb
+fbbbb fllbb xenbbbw xswbbbb xnebbbb xwnbbbb xesbbbb xewbbbb xnwbwbb fwbbw fbbbb fllbb
+rbbbb fbbbb fbbbb xenbbbb xewbbbb xewbbbb xnwbbbb fbbbb fbbbb fbbbb rbbbb fbbbb
+fbbbb fbwwb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbll fbbbb fbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,9 3,1,3,10 3,1,10,4 3,1,6,4 

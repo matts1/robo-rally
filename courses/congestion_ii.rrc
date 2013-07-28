@@ -1,0 +1,39 @@
+name: Congestion II
+description: 1 Board, 8 Flags.  Watch out for traffic!  Designed by CaptainColeslaw
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+Congestion start
+5,4 8,4 6,3 7,3 8,3 7,4 6,4 5,3 
+fwbbb fwbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbwb fbbwb
+xewbbbw xewbbbb xewwbbb owwbb
+xsebbbw xwebbbb xwebbbb xwsbwbb
+xsnbbbw xesbbbb xswbbbb xnsbwbb
+xsnbbbw xnebbbb xwnbbbb xnsbwbb
+xenbbbw xewbbbb xewbbbb xnwbwbb
+xewbbbw xewbbbb xewbbwb gbwwb
+fbbbb fbbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbwb fbbwb fbbwb fbbwb
+endboard
+sboard: Congestion start
+newboard:
+Congestion Board
+cewbbbb csewbbbb cwebbbb cwebbbb cwebbbb cwebbbb hbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb
+xswbbbb csnbbbb xesbbbb xewbbbb xewbbbb xewbbbb xsewbbbb xwebbbb xwebbbb xwebbbb xwsbbbb csnbbbb
+xsnbbbb csnbbbb xnsbbbb fbbbb rbbwb fbwbb pbtwt fbbbw hbbwb fbbbb xnsbbbb csnbbbb
+xsnbbbb csnbbbb xnsbbbb hbwbb pwbbw fbbbb fwbbb fbbbb pllbb rbbbw xnsbbbb csnbbbb
+xsnbbbb csnbbbb xnsbbbb fbbbb pbbbb fbbbb hbbbb fbbbb pbbbb xnsbbbb xnsbbbb csnbbbb
+xenbbbb csnwbbbb xnsbbbb xsebbbb fbbbb hbbbb fbbbb hbbbb fbbbb xnwbbbb xnsbbbb csnbbbb
+xesbbbb csnwbbbb xnsbbbb xsnbbbb pbbbb fbbbb hbbbb fbbbb pbbbb fbbbb xnsbbbb csnbbbb
+xnsbbbb csnbbbb xnsbbbb rbwbb pbbll fbbbb fbbbb fbbbb pbwwb hbbbw xnsbbbb csnbbbb
+xnsbbbb csnbbbb xnsbbbb fbbbb hwbbb fbbbb fbbbb fbbbb rwbbb fbbbb xnsbbbb csnbbbb
+xnsbbbb csnbbbb xnsbbbb fbbbb pbwbb fbbbw fbbwb fbwbb pbbbw fbbbb xnsbbbb csnbbbb
+xnwbbbb csnbbbb xnebbbb xwebbbb xwebbbb xwebbbb pwbbb xewbbbb xewbbbb xewbbbb xnwbbbb csnbbbb
+cewbbbb cenwbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb
+endboard
+board: 3,1 0 Congestion Board
+flags: 3,1,6,7 3,1,7,8 3,1,5,8 3,1,7,6 3,1,5,6 3,1,6,9 3,1,6,5 3,1,8,7 

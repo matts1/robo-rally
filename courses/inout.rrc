@@ -1,0 +1,42 @@
+name: In & Out
+description:  Wrench option on
+4 flags, none move
+
+length: medium
+difficulty: mid
+players: 2 6
+rules: wrenchtooption
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+xewwbbw fwbbb xeswbbb xewwbbb
+xewbbbw fbbbb xnsbbbb pbwbb
+xewbbbw fbbbb xnsbbbb fbbbb
+xewbbbw fbbbb xnsbbbb fbbbb
+xewbbbw fbbbb xnsbbbb pbbbb
+xewbbbw fbbbb xnebbbb xwebbbb
+xewbbbw fbbbb xsebbbb xwebbbb
+xewbbbw fbbbb xsnbbbb fbbbb
+xewbbbw fbbbb xsnbbbb fbbbb
+xewbbbw fbbbb xsnbbbb fbbbb
+xewbbbw fbbbb xsnbbbb pbwbb
+xewbbww fbbwb xenbbwb xewbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewwbbb xewwbbb xewwbbb xewwbbb xswwbbb xsewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwswwbb
+fbbbw fbbbb fblbb fbbbw xsnbbbb xsnbbbb pbwbb fbbbl fbbbb fbwbb pbbbw xnsbwbb
+rbbwb fbbbb fbbbb fbbbb xsnbbbb xsnbbbb fbbbb fbbbb fbbbb rbbwb fbbbb xnsbwbb
+fwbbb fbbbb pbbbb gbbbb xsnbbbb xsnbbbb gbbbb pbbbb fbbbb fwbbb fbbbb xnsbwbb
+fbblb fbbbb obbbb fbbbb xsnbbbb xsnbbbb fbbbb obbbb fbbbb fbblb fbbbb xnsbwbb
+xwewbbb xwebbwb xwebbbb xwebbbb hbbbb hbbbb xewbbbb xewbbbb xewbbwb xewwbbb xewbbbb xnwbwbb
+xwebbwb xwewbbb xwebbbb xwebbbb hbbbb hbbbb xewbbbb xewbbbb xewwbbb xewbbwb xewbbbb xswbwbb
+flbbb fbbbb obbbb fbbbb xnsbbbb xnsbbbb fbbbb obbbb fbbbb flbbb pbbbb xsnbwbb
+fbbwb fbbbb pbbbb gbbbb xnsbbbb xnsbbbb gbbbb pbbbb fbbbb fbbwb fbbbb xsnbwbb
+rwbbb fbbbb fbbbb fbbbb xnsbbbb xnsbbbb fbbbb fbbbb fbbbb rwbbb fbbbb xsnbwbb
+fbbbw fbbbb fblbb pbbbw xnsbbbb xnsbbbb fbwbb fbbbl fbbbb fbwbb pbbbw xsnbwbb
+xewbbwb xewbbwb xewbbwb xewbbwb xnwbbwb xnebbwb xwebbwb xwebbwb xwebbwb xwebbwb xwebbwb xwnbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,11 3,0,8,4 3,1,2,4 3,1,11,7 

@@ -1,0 +1,39 @@
+name: Push and Shove
+description: Dontcha wish you could fly?
+length: medium
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+pbbbb xewbbbb cewbbbb rbbbb
+pbbbb xewbbbb cewbbbb fbbbb
+pbbbb pbbbb pbbbb fbbbb
+pbbbb xewbbbb cewbbbb fbbbb
+pbbbb pbbbb pbbbb fbbbb
+pbbbb xewbbbb cewbbbb fbbbb
+pbbbb xewbbbb cewbbbb fbbbb
+pbbbb pbbbb pbbbb fbbbb
+pbbbb xewbbbb cewbbbb fbbbb
+pbbbb pbbbb pbbbb fbbbb
+pbbbb xewbbbb cewbbbb fbbbb
+pbbbb xewbbbb cewbbbb rbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb fbwbb fbbbw pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb fbwbb fbbbw pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb fbwbb fbbbw pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb fbwbb fbbbw pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+fbbwb fbbwb fbbwb fbbwb hbwwb hbbww fbbwb fbbwb fbbwb fbbwb fbbbb pbbbb
+fwbbb fwbbb fwbbb fwbbb hwwbb hwbbw fwbbb fwbbb fwbbb fwbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb fbwbb fbbbw pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb fbwbb fbbbw pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb fbwbb fbbbw pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb fbwbb fbbbw pbbbb pbbbb pbbbb pbbbb fbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,6 3,1,6,7 3,1,7,4 3,1,8,5 3,1,6,4 3,1,5,5 3,1,8,6 3,1,7,7 

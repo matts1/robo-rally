@@ -1,0 +1,39 @@
+name: The Hotel
+description: Horrors await in every room. How many nights will you be staying?
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbwb fbbbb fbbwb fbbbb fbbwb fbbwb fbbwb fbbbb fbbwb fbbbb fbbwb fbbbb
+pwbbw fbbbb fwbbb csnbwbb pwbbw fwbbb pwwbb csnbbbw fwbbb fbbbb pwwbb csnbbbw
+fbbbw fbbbb fbwbb csnbwbw fbbbw fbbbb fbwbb csnbwbw fbbbw fbbbb fbwbb csnbbbw
+fbbwb fbbbb fbwwb csnbbbw fbbwb fbbbb fbbwb csnbwbb fbbww fbbbb fbbwb csnbbbb
+fwbbb fbbwb fwbwb fbbwb fwbwb fbbbb fwbwb fbbbb fwbwb fbbwb fwbwb fbbbb
+fbwbb fwbbw fwbbb fwbbb hwwbb fbwbw fwbbw fbbbb fwbbb cewwbbb cswwbbb fbbbb
+fbwbb fbbww fbbwb fbbbb fbwwb fbbbw hbbwb fbbwb fbbwb fbbbb cnsbwwb fbbbw
+fbbwb fwbbb fwbwb fbbbb fwbwb fbbbb fwbwb fwbbb fwbwb fbbbb fwbwb fbbbb
+fwbbb fbbbb fwwbb cnsbbbw fwbbb fbbbb fwbbb cnsbwbb fwbbw fbbbb fwbbb cnsbbbb
+fbbbw fbbbb fbwbb cnsbwbw fbbbw fbbbb fbwbb cnsbwbw fbbbw fbbbb fbwbb cnsbbbw
+pbbww fbbbb fbbwb cnsbwbb pbbww fbbwb pbwwb cnsbbbw fbbwb fbbbb pbwwb cnsbbbw
+fwbbb fbbbb fwbbb fbbbb fwbbb fwbbb fwbbb fbbbb fwbbb fbbbb fwbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,9 3,1,10,6 3,1,3,10 3,1,10,10 3,1,3,2 3,1,10,2 3,1,3,6 3,1,6,3 

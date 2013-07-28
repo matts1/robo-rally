@@ -1,0 +1,43 @@
+name: Crimes of Opportunity
+description: A no option course. Best with 5-6 players.
+4 flags, 2 moving. Gears, Belts, Pits - the usual suspects.
+Created for the 2013 map editing contest
+by Pushbutton
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+Wiggle Room
+5,1 8,1 4,1 9,1 3,1 10,1 2,1 11,1 
+fwbbw ceswbbb cewwbbb cswwbbb
+fbbbw cnsbbbb csebbbb cwnbbbb
+fbbbw csebbbb cwnbbbb csnbbbb
+fbbbw cnebbbb cwsbbbb cnsbbbb
+fbbbw csnbbbb cnebbbb cwsbbbb
+fbbbw cenbbbb cewbbbb cnwbbbb
+fbbbw cesbbbb cewbbbb cswbbbb
+fbbbw cnsbbbb csebbbb cwnbbbb
+fbbbw csebbbb cwnbbbb csnbbbb
+fbbbw cnebbbb cwsbbbb cnsbbbb
+fbbbw csnbbbb cnebbbb cwsbbbb
+fbbww cenbbwb cewbbwb cnwbbwb
+endboard
+sboard: Wiggle Room
+newboard:
+Crimes of Opportunity
+fwwbb ceswbbw cswbbbb rbbbb fwbbb obbbb fwbbb obbbb fwbbb fbbbb fbbbb rwwbb
+fbbbb cnsebbbb cwnbbbb fbbbb fbbbb fbbbb gbbbb fbbbb fbbbb xesbbbb xewbbbb xswbbbb
+fbwbb xnsbbbw pbbbb fbbbb pbbbb cewbbbb cewbbbb cewbbbb pbbbb xnsbbbb pbbbb csnbwbb
+fbbbb xnsbbbb fbbbb rbbbb pbbbb cesbbbb cewbbbb cswbbbb pbbbb xnsbbbb cnebbbb cwnbbbb
+fbwbb xnsbbbw fbbbb obbbb pbbbb cnebbbb csebbbb cwnbbbb pbbbb xnsbbbb gbbbb fbwbb
+fbbbb rbbbb fbbbb fbbbb pbbbb rbbbb cenwbbbb cewbbbb pbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb pbbbb cwebbbb cwsebbbb rbbbb pbbbb fbbbb rbbbb fbbbb
+fbwbb xsnbbbw fbbbb gbbbb pbbbb cesbbbb cnwbbbb cswbbbb pbbbb xsnbbbb obbbb fbwbb
+fbbbb xsnbbbb fbbbb rbbbb pbbbb cnebbbb cwebbbb cwnbbbb pbbbb xsnbbbb csebbbb cwsbbbb
+fbwbb xsnbbbw pbbbb fbbbb pbbbb cwebbbb cwebbbb cwebbbb pbbbb xsnbbbb pbbbb cnsbwbb
+fbbbb csenbbbb cwsbbbb fbbbb fbbbb fbbbb obbbb fbbbb fbbbb xenbbbb xewbbbb xnwbbbb
+fbwwb cenbbww cnwbbbb rbbbb fbbwb gbbbb fbbwb gbbbb fbbwb fbbbb fbbbb rbwwb
+endboard
+board: 3,1 0 Crimes of Opportunity
+flags: 3,1,7,3 3,1,8,8 3,1,6,12 3,1,5,6 

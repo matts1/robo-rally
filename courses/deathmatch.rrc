@@ -1,0 +1,38 @@
+name: Death Match
+description: Watch out,  Last one alive wins this match
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+xsenbbbb xwewbwb xsnbbbb xsnbwbb
+xsenbbbb xwewbwb xsnbbbb xsnbwbb
+xensbbbb xewwbwb xensbbbb xensbbbb
+xsenbbbb xwewbwb xsnbbbb xsnbwbb
+xensbbbb xewwbwb xensbbbb xensbbbb
+xnsebbbb xwewbwb xnsbbbb xnsbwbb
+xsenbbbb xwewbwb xsnbbbb xsnbwbb
+xensbbbb xewwbwb xensbbbb xensbbbb
+xnsebbbb xwewbwb xnsbbbb xnsbwbb
+xensbbbb xewwbwb xensbbbb xensbbbb
+xnsebbbb xwewbwb xnsbbbb xnsbwbb
+xnsebbbb xwewbwb xnsbbbb xnsbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+rbbbw flbbb csnbbbb fbbbb csnbbbb fdbbb fdbbb csnbbbb fbbbb csnbbbb flbbb hbbbb
+fbbbl pbbbb csnbbbb fbbbb csnbbbb pbwbb pbbbw csnbbbb fbbbb csnbbbb pbbbb fblbb
+cewbbbb cewbbbb obbbb fbbbb gbbbb fbbwb fbbwb gbbbb fbbbb obbbb cwebbbb cwebbbb
+fbbbw fbbbb fbbbb pbbbb fbbbb ftbbb ftbbb fbbbb pbbbb fbbbb fbbbb fbbbb
+cewbbbb cewbbbb gbbbb fbbbb obbbb fbbbb fbbbb obbbb fbbbb gbbbb cwebbbb cwebbbb
+fbbbd pbbwb fbwbb fbbbt fbbbb pbwwb pbbww fbbbb fbtbb fbbbw pbbwb fbdbb
+fbbbd pwbbb fbwbb fbbbt fbbbb pwwbb pwbbw fbbbb fbtbb fbbbw pwbbb fbdbb
+cewbbbb cewbbbb gbbbb fbbbb obbbb fbbbb fbbbb obbbb fbbbb gbbbb cwebbbb cwebbbb
+fbbbw fbbbb fbbbb pbbbb fbbbb fbbtb fbbtb fbbbb pbbbb fbbbb fbbbb fbbbb
+cewbbbb cewbbbb obbbb fbbbb gbbbb fwbbb fwbbb gbbbb fbbbb obbbb cwebbbb cwebbbb
+fbbbl pbbbb cnsbbbb fbbbb cnsbbbb pbwbb pbbbw cnsbbbb fbbbb cnsbbbb pbbbb fblbb
+rbbbw fbblb cnsbbbb fbbbb cnsbbbb fbbdb fbbdb cnsbbbb fbbbb cnsbbbb fbblb hbbbb
+endboard
+board: 3,1 0 blank board

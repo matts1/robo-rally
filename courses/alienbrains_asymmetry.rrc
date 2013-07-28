@@ -1,0 +1,39 @@
+name: Alienbrain's Asymmetry
+description: Five flags. Semi-Challenging.
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cesbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb cnebbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fwbbb pbbbb fwbbb fbwbb fbbbw cesbbbb flbbb cswbbbb fbbbb rwbbb
+cswbbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cnsbbbb fbbbb csnbbbb fbbbb fbbbb
+csnbbbb fbbbb xesbbbb xewbbwb xewbbbb xewbbbb xswbbbb cnsbbbb fbbbb fbwbb fbbbl fbwbb
+csnbbbb fbbbb xnebbbb fvbbb fbbbb obbbb xwnbbbb fbbbb fbwbb fbbbw fblbb fbbbw
+csnbwbb rbbbw xesbbbb xewbbbb xewbbwb xewbbbb xswbbbb fbbbb hbbbb fbbbb fbbbb pbbwb
+csnbbbb fbwbb xnsbbbw obbbb fwbbb fbbbb xsnbwbb fbbbw cnebbbb cwebbbb gbbbb cwswbbb
+csnbbbb obbbb xnsbwbb hbbbv gbblb pbwbb xsnbbbw fbbbb fbbwb fbbbb fbbbb cnsbbbb
+csnbwbb rbbbw xnebbbb xwebbbb xwewbwb xwebbbb xwnbbbb fbbbb fwbbb fbbwb fbbbb rbbwb
+csnbbbb fbbbb pbbbb fbbbb hvbbb fbbbb fbbbb fbbbb cesbbbb cewwbbb cewbbbb cswvbbb
+csnbbbb fbbbb fbwbb xesbbbl xewbbwb xswbbbb fbbbb fbbbb cnebbbb cwebbwb cwebbbb cwnbvbb
+cwnbbbb rbbbb xewbbbb xnwebbbb xwewbbb xwenbbbb xwebbbb obbbb xwebbbb xwewbbb xwebbbb cwebbbb
+fbbbb fbbbb fbbbb cewbbbb cewbbbb cewbbbb cewbbbb fbwpb hbbbv fbbpb obbbb gbwbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,6 3,1,12,10 3,1,4,4 3,1,2,11 3,1,9,4 

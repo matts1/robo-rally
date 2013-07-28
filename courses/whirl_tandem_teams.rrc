@@ -1,0 +1,60 @@
+name: Whirl Tandem
+description: Two boards. 6 flags (3 moving)
+One bot fights the whirlpool and
+one goes for options?
+Designed by timmonte
+length: long
+difficulty: mid
+players: 4 8
+team: true
+rules: teamonetouchalltouch flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb xsnbbbb fvbbb hbbbb fpbbb xsnbbbb cnsbbbb fpbbb rbbbb fvbbb fbbbb rbbbb
+fbbbb xensbbbb xewbbbb xewbbbb xewbbbb xenwbbbb xewbbbb xewbbbb xewbbbb xswbbbb csebbbb cwebbbb
+fbbbv xnsbbbb cesbbbb cewbbbb cewbbbb cewbbwb cewbbbb cewbbbb cswbbbb xsnbbbb csnbbbb fbvbb
+fbbbb xnsbbbb cnsbbbb xesbbbb xewbbbb xewlbbb xewbbwb xswbbbb csnbbbb xsnbbbb csnbbbb fbbbb
+fbbbp xnsbbbb cnsbbbb xnsbbbb cesbbbb cewbbbb cswlbbb xsnbbbb csnbbbb xsnbbbb csnbbbb fbpbb
+fbbbb xnsbbbb cnsbbbb xnsbwbb cnsbbbl pbbbb pbbbb xsnbbbb csnbwbb xsnbbbw csenbbbb cwebbbb
+xewbbbb xnwsbbbb cnsbwbb xnsbbbl cnsbbbb pbbbb pbbbb xsnbwbb csnbbbw xsnbbbb csnbbbb cewbbbb
+fbbbp xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnebbwb xwebbbb xwnbbbb csnbbbb xsnbbbb csnbbbb fbpbb
+fbbbb xnsbbbb cnsbbbb xnsbbbb cnebbbb cwewbbb cwebbwb cwebbbb cwnbbbb xsnbbbb csnbbbb fbbbb
+fbbbv xnsbbbb cnsbbbb xnebbbb xwebbbb xwebbbb xwewbbb xwebbbb xwebbbb xwnbbbb csnbbbb fbvbb
+xewbbbb xnwbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwsebbbb cwebbbb cwebbbb cwebbbb cwsnbbbb fbbbb
+rbbbb fbbbb fbbvb fbbbb fbbpb fbbbb cnsbbbb fbbpb hbbbb fbbvb cnsbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+fbbbb fbbwb fbbbb fbbbb fbbbb csnbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+cwebbbb cwewbtb cwebbbb cwebbbb cwebbbb cwnbbbb cnsbbbb fbbbb fbbbb fbbbb pbbbb fbbbb
+fbbbw fwbbb hbbbb fbwwb fbbbl obbbb fbbwb gbbbb fbbbb fbwbb fbbww fbbbb
+cewbbbb cewbbbb cewbbbb cewwbbb xewbbbb xewbbbb xewvbbb xewbbbb xewbbbb xsewbbbb xwewbbb xwebbbb
+fbbbw fbbbb fbbbb gbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb
+fbbbb fbbbb pbbbb obbbb fbbbb rbbbb csnbbbb fbbbb fbbbb xenbbbb xewbbbb xewsbbbb
+fbbbb fbbwb cnebbbb cwebbdb cwebbbb cwebbbb cwsnbbbb obbbb cewbbbb cewbbbb cewbblb cnwbbbb
+fbbbw fdbbb fbbbb fwbbb fbbbb pbbbb cnsbbbb fbbbb fbbbb fbbbb fwbbb fbbbb
+cwebbbb cwebbbb cwebbbb obbbb fbbbb fbwbb cnsbtbw fbbbw fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbwb pbbbb cnsbbbb fbbbb fbbbb cnsbbbb hbbbb pbbbb cwebbbb cwsbbbb fbbbb
+fbbbb fwbbb fbwbb cnsbbbl fbbbb fbbbb cnsbbbb fbbbb fbbbb fbbbb cnsbbbb fbwbb
+rbbbb fbbbb fbbbb cnsbbbb fbbbb fbbbb cnsbbbb fbbbb fbbbb fbbbb cnsbbbb hbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,1,6 3,1,12,5 3,2,12,7 3,1,5,1 3,2,5,11 3,1,1,2 

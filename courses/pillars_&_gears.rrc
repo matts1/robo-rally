@@ -1,0 +1,39 @@
+name: Pillars & Gears
+description: 1 Board, 3 Flags.  Bump and Grind!  Designed by CaptainColeslaw
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+5,2 8,2 6,3 7,3 6,2 7,2 5,3 8,3 
+fbbbb fbbbb hbbvb fbbbb
+fbbbb fbpbb fwwww fbbbv
+fbbbb fbbwb fwbwb fbbbb
+fbbbb fwbbb fwbbb fbbbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbb fbbwb fbbwb fbbbb
+fbbbb fwbbb fwbwb fbbbb
+fbbbb fbvbb fwwww fbbbp
+fbbbb fbbbb hvbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb hbbvb fbbbb fbbbb hbbpb fbbbb fbbbb hbbvb fbbbb fbbbb fbbpb hbbbb
+fbvbb fwwww fbbbp fbpbb fwwww fbbbv fbvbb fwwww fbbbp fbpbb fwwww fbbbv
+fbbbb fvbbb gbbbb obbbb fpbbb gbbbb obbbb fpbbb gbbbb obbbb fvbbb fbbbb
+fbbbb fbbpb obbbb gbbbb fbbvb obbbb gbbbb fbbpb obbbb gbbbb fbbvb fbbbb
+fbwbw fwwww fbbbv fbpbb fwwww fbbbp fbpbb fwwww fbbbv fbpbb fwwww hbbbp
+fbbbw fvbbb gbbbb obbbb fvbbb gbbbb obbbb fvbbb gbbbb obbbb fvbbb fbbbb
+fbbbw fbbvb obbbb gbbbb fbbpb obbbb gbbbb fbbvb obbbb gbbbb fbbpb fbbbb
+fbwbw fwwww fbbbp fbpbb fwwww fbbbv fbvbb fwwww fbbbp fbpbb fwwww hbbbv
+fbbbb fpbbb gbbbb obbbb fvbbb gbbbb obbbb fvbbb gbbbb obbbb fvbbb fbbbb
+fbbbb fbbpb obbbb gbbbb fbbvb obbbb gbbbb fbbpb obbbb gbbbb fbbvb fbbbb
+fbvbb fwwww fbbbv fbpbb fwwww fbbbp fbpbb fwwww fbbbv fbvbb fwwww fbbbp
+fbbbb hvbbb fbbbb fbbbb hvbbb fbbbb fbbbb hvbbb fbbbb fbbbb fpbbb hbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,12 3,1,2,6 3,1,11,6 

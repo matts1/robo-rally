@@ -1,0 +1,59 @@
+name: Viagra
+description: Pit Maze TWICE!
+8 flags (7 move)
+Really Hard, Really Long (get it?)
+by 2455ybob
+length: long
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,1 7,1 5,1 8,1 4,1 9,1 3,1 10,1 
+pbbbb pbbbb fbbbb fwpwb
+pbbwb fbbbb fbbbb fwbbb
+fwbwp fbbbb fbbbb fbbbb
+fwbwp fbbbb fbbbb fbbbb
+fwbwp fbbbb fbbbb fbbbb
+fwbwp fbbbb fbwbb fbbbw
+fwbwp fbbbb fbwbb fbbbw
+fwbwp fbbbb fbbbb fbbbb
+fwbwp fbbbb fbbbb fbbbb
+fwbwp fbbbb fbbbb fbbbb
+pwbbb fbbbb fbbbb fbbbb
+pbbbb pbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbw csnbbbb fwbbb fbbwb fwbbb csnbbbb cnsbbbb fwbbb fbbbb fwbbb fbbbb rbbbb
+cnebbbb cwenbbbb cwsbbbb pwbbb csebbbb cwnbbbb fbbbb fbbbb pbbbb fbbbb csebbbb cwebbbb
+fbwbw pbbbw cnebbbb cwebbbb cwnbbwb pbbwb pbwbb csebbbw cwebbbb cwebbbb cwnbwbb fbwbw
+fbbbb fbbbb fbwwb hbbbw pwbbb csewbbb cwebbbb cwnbbbb pbbbb fbbbb fbbwb fbbbb
+csebbbw cwebbbb cwewbbb cwebbbb cwebbbb cwnbbbb pbwbb fbbbw fbbbb fbbbb pwbwb fbwbb
+cenbbbb pbbbb fbwbb fbbbl fbbbb fbwbb pbbwl fbbbb pbwbb csebbbw cwewbbb cwebbbb
+cewbbbb cewbbbb cswbbbb pbbbb fbwbb hbbww fwwbb fbbbw hbbbb csnbbbb pbbbb cesbbbb
+fbbbw fbbbb cenbbbb cewbbbb cswbbbb pwbbb fbbbb fbbbb pbwbb cenbbbw cewbbwb cnwbwbb
+fbbbb pbwbb fbwbw pbbww cenbbbb cswbbbb fbwbb fbbbw fbbbb fbbbb pwwbb fbbbw
+fbbbw fbbwb rbbbb fwbbb fbbbb csnbbbb pbbbb fbbbb pbwbb fbbbw pbbbb fbwbb
+fbbbb fwbbb fbbbb pbbbb fbbbb csnbbbb fbwbb fbbww fbwbb fbbww cesbbbb cewbbbb
+pbbbb fbbbb fbbwb fbbbb fbbwb csnbbbb fbbbb fwbwb fbbbb fwbwb cnsbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+pbbbb csnbbbb fwbwb fbbbb fwbwb fbbbb cnsbbbb fwbbb fbbbb fwbbb fbbbb pbbbb
+cwebbbb cwnbbbb fwwbb fbbbw fwwbb fbbbw cnsbbbb fbbbb pbbbb fbbbb fbbwb fbbbb
+fbbbw pbbbb fbwbb pbbbw fbbbb pbbbb cnsbbbb fbbbb fbbwb rbbbb fwbbb fbwbb
+fbwbb pbbww fbbbb fbbbb fbwbb fbbbw cnebbbb cwsbbbb pwwbb fbwbw pbbbw fbbbb
+csebbbw cwewbbb cwsbwbb pbbbw fbbbb fbbbb pbbwb cnebbbb cwebbbb cwsbbbb fbbbb fbwbb
+cwnbbbb pbbbb cnsbbbb hbbbb fbwbb fbbww hwwbb fbbbw pbbbb cnebbbb cwebbbb cwebbbb
+cewbbbb cewbbwb cnwbwbb pbbbw fbbbb pwlbb fbbbw fbbbb fblbb fbbbw pbbbb cesbbbb
+fbbbw pwbwb fbbbb fbbbb fbwbb pbbbw cesbbbb cewbbbb cewbbbb cewbbwb cewbbbb cnwbwbb
+fbbbb fwbbb fbbbb pbbbb cesbbbb cewbbbb cnwbbwb pbbwb hbwbb fwbbw fbbbb fbbbb
+fbwbw cesbbbw cewbbbb cewbbbb cnwbwbb pbbbw pwbbb ceswbbb cewbbbb cswbbbb pbwbb fbwbw
+cewbbbb cnwbbbb fbbbb pbbbb fbbbb fbbbb cesbbbb cnwbbbb pbbwb cenbbbb cewsbbbb cewbbbb
+rbbbb fbbbb fbbwb fbbbb fbbwb csnbbbb cnsbbbb fbbwb fwbbb fbbwb cnsbbbb pbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,6,12 3,1,1,6 3,2,12,7 3,2,1,2 3,1,7,1 3,1,12,11 3,1,7,10 3,0,1,4 

@@ -1,0 +1,39 @@
+name: Hardest Map of All Time (easy version)
+description: Even the easy version isn't all that easy
+length: long
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+csebbbb cwsbbbb fbvbb cesbbbw cewbbbb cswbwbb xsebbbw xwebbbb fbbpb cewbbbb cewbbbb cswbbbb
+cenbbbb cnwbbbb fbvbb cnsbbbp fbbbb csnbwbb xsnbbbw fbbbb fwbbb cewbbbb cswbbbb csnbbbb
+csebbbb cwsbbbb fbbbb cnsbbbb fbpbb csnbwbw fbbbw fbwbb fbbbw fbbbb xsnbbbb xsnbbbb
+cenbbbb cnwbbbb fbvbb cnsbbbp fbbbb csnbwbb hbbpw xwebbwb xwebbwb fbvbb xsnbbbw xsnbbbb
+csebbbb cwsbbbb fbbbb cnsbbbb fbpbb csnbwbw hwbbw fwbbb fwwbb fbbbp xsnbbbb xsnbbbb
+cenbbbb cnwbbbb fbvbb cnsbbwp hbbwb cwnbbwb fbwbb csebbbw cwsbbbb obbbb csebbbb cwsbbbb
+csebbbb cwsbbbb fbvbb csnwbbp hwbbb cwswbbb fbwbb cenbbbw cnwbbbb gbbbb cenbbbb cnwbbbb
+cenbbbb cnwbbbb fbbbb csnbbbb fbpbb cnsbwbw hbbww fbbwb fbwwb fbbbp xnsbbbb xnsbbbb
+csebbbb cwsbbbb fbvbb csnbbbp fbbbb cnsbwbb hpbbw xwewbbb xwewbbb fbvbb xnsbbbw xnsbbbb
+cenbbbb cnwbbbb fbbbb csnbbbb fbpbb cnsbwbw fbbbw fbwbb fbbbw fbbbb xnsbbbb xnsbbbb
+csebbbb cwsbbbb fbvbb csnbbbp fbbbb cnsbwbb xnsbbbw fbbbb fbbwb cewbbbb cnwbbbb cnsbbbb
+cenbbbb cnwbbbb fbvbb cenbbbw cewbbbb cnwbwbb xnebbbw xwebbbb fpbbb cewbbbb cewbbbb cnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,10,9 3,1,3,9 

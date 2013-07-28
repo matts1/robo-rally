@@ -1,0 +1,39 @@
+name: Pit Row
+description: A remake of the Pit Row board from the Grand Prix expansion.  By Wiggfield. 
+length: long
+difficulty: expert
+players: 2 8
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbwbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbwwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbwbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+fbbbb xsnbbbb fwbbb fbbbb fwbbb xsnbbbb fbbbb fwbbb csnbbbb fwbbb cnsbbbb fbbbb
+xwebbbb xwenbbbb xwebbbb xwebbbb xwebbbb xwenbbbb xwsbbbb fbbbb cenbbbb cewbbbb cnwbbbb fbbbb
+fbbbb pbbbb gbbbb obbbb gbbbb fbbbb xnsbbbb fbbbb hbbbb gbbbb fbbbb fbwbb
+csebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb obbbb gbbbb obbbb cwsbbbb fbpbb fbbbw
+csnbbbb gbbbb rbbbb fbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb cnsbbbb hbbbb fbwbb
+cwnbbbb fbbbb fbbbb fbbbb pbbbb fbbbb xnsbbbb fbbbb rbbbb cnsbbbb fbbbb fbbbb
+cswbbbb gbbbb obbbb gbbbb cnsbbbb obbbb xnsbwbb fbbbv fbbbb cnsbbbb fbpbb fbbbw
+csnbbbb fbwbb fbbbp fbbbb fbbpb fbbbb xnsbbbb fbbbb fbbbb cnsbbbb hbbbb fbwbb
+cenbbbb cewbbbb cewbbbb cewbbbb cewwbbb cewbbbb gbbbb obbbb gbbbb cnwbbbb fbbbb obbbb
+fbbbb rbbbb pbbbb obbbb fbbbb fbbbb xnsbbbb fbbvb hbbbb fbbbb fbbbb fbwbb
+xewbbbb xewbbbb xewbbbb xewsbbbb xewbbbb xewbbbb xnwsbbbb fwbbb csebbbb cwebbbb cwsbbbb fbbbb
+fbbbb fbbbb fbbwb xnsbbbb fbbwb fbbbb xnsbbbb fbbwb csnbbbb fbbwb cnsbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 3,1,3,1 3,1,8,5 3,1,1,11 

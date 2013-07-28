@@ -1,0 +1,41 @@
+name: RoboFootball
+description: Are you ready for some football?
+length: medium
+difficulty: mid
+players: 4 8
+team: true
+rules: teamflagtoggle
+newsboard:
+blank starting board
+12,4 11,4 10,4 9,4 1,4 2,4 3,4 4,4 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbwb fbbwb fbbwb fbbwb
+fwbbb fwbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbwbb fbbbw fbbbb fbbwb fbbwb fbbwb fbbwb fbbbb fbwbb fbbbw fbbbb
+fbbbb fbbbb fbbbb fbbbb fwbbb fwbbb fwbbb fwbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbwbb csebbbw cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwsbwbb fbbbw fbbbb
+hbbwb hbwwb csnbbbw fbbbb fbbbb rbbbb rbbbb fbbbb fbbbb cnsbwbb hbbww hbbwb
+hwbbb hwwbb csnbbbw fbbbb fbbbb rbbbb rbbbb fbbbb fbbbb cnsbwbb hwbbw hwbbb
+fbbbb fbwbb cenbbbw cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbwbb fbbbw fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbwb fbbwb fbbwb fbbwb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbwbb fbbbw fbbbb fwbbb fwbbb fwbbb fwbbb fbbbb fbwbb fbbbw fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,1,7 3,1,12,6 3,1,6,8 3,1,7,5 3,1,10,7 3,1,3,6 3,1,8,9 

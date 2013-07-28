@@ -1,0 +1,40 @@
+name: A Kinder, Gentler Fuster Cluck
+description: an 84 square arena with 8 flags,
+based on Shazbot's Fuster Cluck.
+length: medium
+difficulty: mid
+players: 3 8
+newsboard:
+blank starting board
+12,4 1,4 11,3 2,3 10,2 3,2 9,1 4,1 
+pbbbb pbbbb pbwwb fwwbw
+pbbbb pbwwb fwbbw fbwbb
+pbwwb fwbbw fbbbb fbwbb
+fwbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbww fbbbb fbbbb fbwbb
+pwwbb fbbww fbbbb fbwbb
+pbbbb pwwbb fbbww fbwbb
+pbbbb pbbbb pwwbb fbwww
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbwb pbbwb pbbbb pbbbb pbbwb pbbwb pbbbb pbbbb pbbbb
+pbbbb pbbbb fbbbb gwbbb fwbbb rbbbb fbbbb fwbbb fwbbb fbbbb pbbbb pbbbb
+pbbwb pbwwb fbbbw cnsbbbb fbbbb cewbbbb cewbbbb cewsbbbb cewbbbb gbwbb pbbbw pbbbb
+xewwbbb xsnwwbb fbbbw cnsebbbb cwebbbb fbbbb fbbbb cnsbbbb fbbbb fbwbb pbbbw pbbbb
+fbbbb fbbbb fbbbb cnsbbbb fbbbb pbbbb pbbbb fbbbb csnbbbb rbbbb pbbbb pbbbb
+fbbbb fbbbb rbbbb cnsbbbb fbbbb pbbbb pbbbb fbbbb csnbbbb fbbbb pbbbb pbbbb
+xewbbwb xnsbwwb fbbbw fbbbb csnbbbb fbbbb fbbbb cewbbbb csnwbbbb fbwbb pbbbw pbbbb
+pwbbb pwwbb gbbbw cwebbbb cwenbbbb cwebbbb cwebbbb fbbbb csnbbbb fbwbb pbbbw pbbbb
+pbbbb pbbbb fbbbb fbbwb fbbwb fbbbb rbbbb fbbwb gbbwb fbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pwbbb pwbbb pbbbb pbbbb pwbbb pwbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,9 3,1,6,5 3,1,9,8 3,1,5,7 3,1,8,4 3,1,7,8 3,1,4,5 3,1,8,6 

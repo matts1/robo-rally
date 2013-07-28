@@ -1,0 +1,39 @@
+name: Silent Lasers
+description: Watch out!
+length: short
+difficulty: mid
+players: 3 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbtbb fbbbw fbbbb fbbbb
+fbtbb fbbbw fbbbb gbbbb
+fbbbb fbbbb rbbbb pbbbb
+fbtbb fbbbw fbbbb gbbbb
+fbbbb fbbbb rbbbb fbbbb
+fbtbb fbbbw fbbbb gbbbb
+fbtbb fbbbw fbbbb gbbbb
+fbbbb fbbbb rbbbb fbbbb
+fbtbb fbbbw fbbbb gbbbb
+fbbbb fbbbb rbbbb pbbbb
+fbtbb fbbbw fbbbb gbbbb
+fbtbb fbbbw fbbbb fbblb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+flbbb fbbbb flwbb fbbbw fbbbb rbbbb flbbb fbbbb xwebbbb xwebbbb flbbb fbbbb
+fbbbb fbbbb fbwbb hbbbw fbbbb fbbbb fbbbb fbbbb xwebbbb xwebbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbpbb
+fbbbb fbbbb fbwbb fbbbw cnsbbbb cnsbbbb fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb
+fbbbb fbbbb fblbb fbbbw xnsbbbb xnsbbbb hbwbb hbbbl fbbbb pbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb hbbbl xnsbbbb xnsbbbb hbbbb fbbbb fbbbb pbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb hbbbl xsnbbbb xsnbbbb hbbbb fbbbb fbbbb pbbbb fbbbb fbbbb
+fbbbb fbbbb fblbb fbbbw xsnbbbb xsnbbbb hbwbb hbbbl fbbbb pbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb fbbbw csnbbbb csnbbbb fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb xewbbbb xewbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb fbbbw fbblb rbbbb fbbbb fbbbb xewbblb xewbbbb fbbbb gbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,12 3,1,11,4 3,1,12,12 

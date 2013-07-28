@@ -1,0 +1,41 @@
+name: Moving Targets 6.0
+description: Same Board, but 2 more flags
+
+length: long
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbw fwbwb fbbbb fbwbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb xsnbbbb fvbbb hbbbb fpbbb xsnbbbb cnsbbbb fpbbb fbbbb fvbbb fbbbb rbbbb
+fbbbb xensbbbb xewbbbb xewbbbb xewbbbb xenwbbbb xewbbbb xewbbbb xewbbbb xswbbbb csebbbb cwebbbb
+fbbbv xnsbbbb cesbbbb cewbbbb cewbbbb cewbbwb cewbbbb cewbbbb cswbbbb xsnbbbb csnbbbb fbvbb
+fbbbb xnsbbbb cnsbbbb xesbbbb xewbbbb xewlbbb xewbbwb xswbbbb csnbbbb xsnbbbb csnbbbb fbbbb
+fbbbp xnsbbbb cnsbbbb xnsbbbb cesbbbb cewbbbb cswlbbb xsnbbbb csnbbbb xsnbbbb csnbbbb fbpbb
+fbbbb xnsbbbb cnsbbbb xnsbwbb cnsbbbl pbbbb pbbbb xsnbbbb csnbwbb xsnbbbw csnbbbb cwebbbb
+xewbbbb xnsbbbb cnsbwbb xnsbbbl cnsbbbb pbbbb pbbbb xsnbwbb csnbbbw xsnbbbb csnbbbb cewbbbb
+fbbbp xnsbbbb cnsbbbb xnsbbbb cnsbbbb xnebbwb xwebbbb xwnbbbb csnbbbb xsnbbbb csnbbbb fbpbb
+fbbbb xnsbbbb cnsbbbb xnsbbbb cnebbbb cwewbbb cwebbwb cwebbbb cwnbbbb xsnbbbb csnbbbb fbbbb
+fbbbv xnsbbbb cnsbbbb xnebbbb xwebbbb xwebbbb xwewbbb xwebbbb xwebbbb xwnbbbb csnbbbb fbvbb
+xewbbbb xnwbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwsebbbb cwebbbb cwebbbb cwebbbb cwsnbbbb fbbbb
+rbbbb fbbbb fbbvb fbbbb fbbpb fbbbb cnsbbbb fbbpb hbbbb fbbvb cnsbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,12 3,1,11,1 3,1,12,7 3,1,1,6 3,1,12,11 3,1,1,2 

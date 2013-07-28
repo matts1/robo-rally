@@ -1,0 +1,39 @@
+name: Power Monkey
+description: I figure people will play any board with the word "monkey" in it...and "Power Monkey"? It just doesn't get much more monkey than that
+length: short
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+12,4 11,4 10,4 9,4 8,4 7,4 6,4 5,4 
+hbbbb fbbbb fbbbb fbbbb
+fbbbb pbbbb pbbbb xwebbbb
+fbbbb pbbbb fbbbb fbbbb
+fbbbb xnsbbbb fbbbb fbbwb
+fbbbb xnsbbbb fbwbb fwbww
+fbbbb xnsbbbb fbwbb fwbww
+fbbbb xnsbbbb fbwbb fwbww
+fbbbb xnsbbbb fbwbb fwbww
+fbbbb xnsbbbb fbwbb fwbww
+fbbbb xnsbbbb fbwbb fwbww
+fbbbb fbbbb fbwbb fwbww
+fbbbb fbbbb fbwbb fwbww
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb pwbbb pwbbb fbbbb flbbb fbbbb fbbbb fbbbb pbbbb xsnbbbb xsnbbbb xsnbbbb
+fbbbb pbbbb xnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb xsnbbbb pbbbb fbbbb fbbbb hbbbb hbbbb hbbbb hbbbb
+fbbwb fbbwb fbblb fbbwb pbbwb pbbwb fbbwb fbbwb obbbb obbbb obbbb obbbb
+cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb obbbb cnsbbbb cnsbbbb cnsbbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb obbbb cnsbbbb cnsbbbb cnsbbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb obbbb cnsbbbb cnsbbbb cnsbbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb obbbb cnsbbbb cnsbbbb cnsbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb obbbb xnsbbbb xnsbbbb xnsbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb obbbb xnsbbbb xnsbbbb xnsbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb obbbb xnsbbbb xnsbbbb xnsbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb obbbb xnsbbbb xnsbbbb xnsbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,0,11,2 3,1,1,8 

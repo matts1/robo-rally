@@ -1,0 +1,71 @@
+name: Race Track
+description: 3 Flags, 3 Boards with lots of conveyors
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb xesbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnebbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb
+xnsbbbb csebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwsbbbb xsnbbbb
+xnsbbbb csnbbbb cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbbbb csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsnbbbb fbbbb fbbbb rbbbb fbbbb xnsbbbb csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsnbwbb fbbbl pbbbb pbbbb fbwbb xnsbbbw csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsnbbbb fbbbb pbbbb pbbbb fbbbb xnsbbbb csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsnbwbb fbbbw fbbbb fbbbb fblbb xnsbbbw csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsnbwbb obbpw rbbbb fbbwb gbwvb xnsbbbw csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsenbbbb xwewbbb xwebbbb xwewbbb xwewbbb xnsbbbb csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsnbwbb hbbbw pbbbb pbbbb hbwbb xnsbbbw csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsnbbbb xewbbwb xewbbwb xewbbwb xewbbwb xnwsbbbb csnbbbb cnsbbbb xsnbbbb
+endboard
+board: 2,1 0 blank board
+newboard:
+blank board Copy
+xnwbbbb csnbbbb cnsbbbb xsnbbbb pwbbb pwbbb xeswbbb xewwbbb xnwbbbb csnbbbb csnbbbb xsnbbbb
+csebbbb cwnbbbb cnsbbbb xsnbbbb pbbbb pbbbb xnsbbbb csebbbb cwebbbb cwnbbbb csnbbbb xsnbbbb
+csnbbbb cesbbbb cnwbbbb xsnbbbb pbbbb pbbbb xnsbbbb cenbbbb cewbbbb cewbbbb cnwbbbb xsnbbbb
+csnbbbb cnsbbbb rbbbb xsenbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbwb xwebbbb xwebbbb xwnbbbb
+csnbbbb cnsbwbb hbbbv xsnbbbb xnsbwbb pbbbw fbbbb fbbbb fwlbb pbbbw pbbbb pbbbb
+csnbbbb cnsbbbb rbbbb xsnbbbb xnsbbbb pbbbb rbpbb fbbbw fbbpb fbbbb fbbvb fbbbb
+csnbbbb cnsbwbb hbbbv xsnbbbb xnsbbbb pbbbb rbvbb fbbbw fvbbb fbbbb fpbbb fbbbb
+csnbbbb cnsbbbb rbbbb xsnbbbb xnsbwbb pbbbw fbbbb fbbbb fblwb pbbbw pbbbb pbbbb
+csnbbbb cnsbwbb hbbbv xsnbbbb xnebbbb xwebbbb xwsebbbb xwebbbb xwewbbb xwebbbb xwebbbb xwsbbbb
+csnbbbb cnebbbb cwsbbbb xsnbbbb pbbbb pbbbb cnsbbbb csebbbb cwebbbb cwebbbb cwsbbbb xnsbbbb
+cenbbbb cswbbbb cnsbbbb xsnbbbb pbbbb pbbbb cnsbbbb cenbbbb cewbbbb cswbbbb cnsbbbb xnsbbbb
+xwsbbbb csnbbbb cnsbbbb xsnbbbb pbbbb pbbbb hbbbb xwebbbb xwsbbbb csnbbbb cnsbbbb xsnbbbb
+endboard
+board: 3,1 0 blank board Copy
+newboard:
+blank board Copy Copy
+xnsbbbb csnbbbb cnsbbbb xsnbbbb pbbwb pbbbb pbbbb pbbwb xnsbbbb csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsnbbbb fvbbb hbbbb hbbbb fpbbb xnsbbbb csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsnbbbb pbbbb pbbwb pbbwb pbbbb xnsbbbb csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsnbwbb gbbbw fwbwb fwbwb obwbb xnsbbbw csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsnbbbb cewbbbb cwedbbb cewwbbb cwebbbb xnsbbbb csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsnbbbb cewbbbb cwebbwb cewbbdb cwebbbb xnsbbbb csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsnbwbb fbbbw rwbbb rwbbb fbwbb xnsbbbw csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xsnbbbb obbwb rbbbb rbbbb gbbwb xnsbbbb csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnsbbbb xenbbbb xewwbbb xewbbbb xewbbbb xewwbbb xnwbbbb csnbbbb cnsbbbb xsnbbbb
+xnsbbbb csnbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb cnsbbbb xsnbbbb
+xnsbbbb cenbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb xsnbbbb
+xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb
+endboard
+board: 4,1 0 blank board Copy Copy
+flags: 2,1,9,7 4,1,4,7 3,1,7,12 

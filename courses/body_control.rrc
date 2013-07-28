@@ -1,0 +1,41 @@
+name: Body control
+description: It's hard to keep your balance
+2010 Map Editing Contest Entry
+Created by: pilight
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 5,2 8,2 2,2 11,2 1,2 12,2 
+fwbbb fwbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbwb fbbwb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+Body Control
+csnwbbb cnswbbb csnwbbb cnswbbb csnwbbb cnswbbb csnwbbb cnswbbb csnwbbb cnswbbb obbbb rbbbb
+csnbbbb cnsbbbb cnsbbbb csnbbbb csnbbbb fbbbb cnsbbbb csnbbbb csnbbbb cnsbbbb obbbb obbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fblbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fblbb
+cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb fbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb obbbb obbbb
+cnsbbwb csnbbwb csnbbwb cnsbbwb cnsbbwb csnbbwb csnbbwb cnsbbwb cnsbbwb csnbbwb obbbb obbbb
+csnwbbb cnswbbb csnwbbb cnswbbb csnwbbb cnswbbb csnwbbb cnswbbb csnwbbb cnswbbb gbbbb gbbbb
+csnbbbb cnsbbbb cnsbbbb csnbbbb csnbbbb fbbbb cnsbbbb csnbbbb csnbbbb cnsbbbb gbbbb gbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fblbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fblbb
+cnsbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb fbbbb cnsbbbb csnbbbb cnsbbbb csnbbbb gbbbb gbbbb
+cnsbbwb csnbbwb csnbbwb cnsbbwb cnsbbwb csnbbwb csnbbwb cnsbbwb cnsbbwb csnbbwb gbbbb hbbbb
+endboard
+board: 3,1 0 Body Control
+flags: 3,1,5,6 3,1,8,6 3,1,2,6 3,1,11,6 

@@ -1,0 +1,43 @@
+name: Crawling King Snake
+description: Ride the King's highway, baby!
+4 Flags.
+2 Hammer spots.
+No special rules, so Flag 1 doesn't move.
+designed by i8flesh
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cewbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb cewbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb xsebbbb xwnbbbb fbbbb fbbbb hbbbb
+fbbwb fbbbb fbbbb fbbbb fbbbb xsebbbb xwebbbb xwnbbbb fbbbb fbbbb fbbbb fbbbb
+fwwbb fbbww fbbbb fbbbb fbdbb xsnbbbw rbbbb rbbbb fbbbb fbwbb fbbbw fbdbb
+fbbbb fwwbb fbbww fbbbb xsebbbb xwnbbbb fbpbb fbbbw fbbbb fbbbb fbbbb fbdbb
+cewbbbb cewbbbb cewwbbb cewbbbb xsnbbbb pbbbb fbbbb fbpbb fbwbw fbbbp fbbbb fbbbb
+fbbbw fbbbb fbbbb rbbbb xsnbbbb fbwvb fbbbw fbbbb fbbwb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb rbbbb xenbbbb xewpbbb cewbbbb cewbbbb cewvbbb cewbbbb cewbbbb xswbbbb
+cewbbbb cewbbbb cewbbwb cewbbbb fbbbb pbbbb xwsbbbb xsebbbb xwsbbbb xsebbbb xwsbwbb xsnbbbp
+fbbbb fbwwb fwbbw fbbbb fbbbb fbbbb xnebbbb xwnbbbb xnebbbb xwnbbbb xnebbbb xwnbbbb
+fbwwb fwbbw fbbbb fbbbb fbdbb fbbbw rbbwb fbwbb fbbbw fbbbb fbbbb fbdbb
+fwbbb fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,7 3,1,1,4 3,1,11,12 3,1,6,6 

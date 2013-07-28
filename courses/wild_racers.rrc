@@ -1,0 +1,43 @@
+name: Wild Racers
+description: Can your Robot race
+around the track fast
+enough to get to all 
+the flags first
+length: long
+difficulty: easy
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+9,1 9,2 10,1 10,2 11,1 11,2 12,1 12,2 
+xeswbbw xswwbbb xsewbbb xwewbbb
+xnsbbbw xensbbbb xenwbbwb xewbbwb
+xnsbbbw xnsbwbb xsewbbw xwewbbb
+xnsbbbw xnsbwbb xsnbbbw xesbbbb
+xnsbbbw xnsbwbb xsnbbbw xnsbwbb
+xnsbbbw xnsbwbb xsnbbbw xnsbwbb
+xnsbbbw xnsbwbb xsnbbbw xnsbwbb
+xnsbbbw xnsbwbb xsnbbbw xnsbwbb
+xnsbbbw xnsbwbb xsnbbbw xnsbwbb
+xnsbbbw xnsbwbb xsnbbbw xnsbwbb
+xnsbbbw xnsbwbb xsnbbbw xnebbbb
+xnsbbww xnsbwwb xenbbww xewbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwswwbb
+xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xswbbbb xnsbwbb
+xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwswwbb xsnbbbw xnsbwbb
+xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xswbbbb xnsbwbb xsnbbbw xnsbwbb
+xsewbbw xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwswwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xesbbbb xewbbwb xewbbwb xewbbwb xewbbwb xswbbbb xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb hwbbw xsewbbb xwewbbb xwewbbb xwnbbbb xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnsbwbb hbbww xenbbwb xewbbwb xewbbwb xewbbwb xnwbwwb xsnbbbw xnsbwbb xsnbbbw xnsbwbb
+xsnbbbw xnebbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwnbbbb xnsbwbb xsnbbbw xnsbwbb
+xenbbww xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xnwbwwb xsnbbbw xnsbwbb
+xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwnbbbb xnsbwbb
+xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xnwbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,4 3,1,1,1 3,1,5,1 3,1,11,11 

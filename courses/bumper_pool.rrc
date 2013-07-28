@@ -1,0 +1,39 @@
+name: Bumper Pool
+description: Deceptively easy but watch out for the edges.
+length: short
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+5,2 8,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb cesbbbb cewbbbb
+fbbbb fbbbb cnsbbbb fbbbb
+fbbbb fbbbb cnsbbbb fbbbb
+fbbbb fbbbb cnsbbbb fbbbb
+fbbbb fbbbb cnsbbbb fbbbb
+fbbbb fbbbb cnwbbbb fbbbb
+fbbbb fbbbb cswbbbb fbbbb
+fbbbb fbbbb csnbbbb fbbbb
+fbbbb fbbbb csnbbbb fbbbb
+fbbbb fbbbb csnbbbb fbbbb
+fbbbb fbbbb csnbbbb fbbbb
+fbbbb fbbbb cenbbbb cewbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb csnbbbb
+pbbbb pbbbb pbwbb pbbbl fbbbb fbbbb pbwbb pbbbw pbbbb pbbbb fbbbb csnbbbb
+pbbwb pbbbb pbbbb pbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbwb fbbbb csnbbbb
+plbbb pbbbb rbbbb obbbb fbbbb fbbbb gbbbb rbbbb pbbbb pwbbb fbbbb csnbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cenbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cesbbbb
+pbbwb pbbbb rbbbb obbbb fbbbb fbbbb gbbbb rbbbb pbbbb pbblb fbbbb cnsbbbb
+pwbbb pbbbb pbbbb pbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pwbbb fbbbb cnsbbbb
+pbbbb pbbbb pbwbb pbbbw fbbbb fbbbb pblbb pbbbw pbbbb pbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cnsbbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,7 3,1,8,4 3,1,5,4 3,1,8,7 

@@ -1,0 +1,42 @@
+name: Blast Furnace
+description: 4 flags, one in laser.  
+Three option card spaces.
+Based on board from expansion to
+original Robo Rally game
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb csnbbbb fbbbb hbbwb fbwbb fbtbw cnsbbbw fbbbb csnbbbb fbbbb fbbbb fbbbb
+fbbbb cenbbwb cewbbbb cewvbbb cewbbwb cewbbbb cnwbbwb fbbbb csnbbbb fbpbb csebbbw cwebbbb
+fbbbb fpbbb fbbbb fbbdb fdbbb fbbbb fvbbb fbbwb csnbbbb fbbbb csnbbbb fbbbb
+cewbbbb cewbbbb cewbbbb cewwbbb cewbbvb cewbbbb cewbbbb cewpbbb csnwbwbb fbbbd csnbpbb hbbbw
+fbbbb fbbbb fbbbb fbbbb fdbbb fbbbb fbbbb fbwbb csnbbbp fbdbb csnbbbw fbbbb
+fbbwb cesbbbb cewbbbb cewbbbb cewbbbb cswbbbb rbbbb fbbbb csnbbbb fbbbb csnbbbb fbbvb
+cewwbbb cnwbbbb fbbwb fbbbb fbbbb csnbbbb pbbbb pbbbb csnbbbb fbbbb cenbbbb cewwbbb
+fbbbb fbbbb flbbb hbbbb fbbbb cenbbbb cewbbbb cewbbvb csnwbwbb fbbbv fbbbb pbbbb
+cwebbbb cwebbbb cwebbpb cwsbbbb fbbbb fbbbb fbbbb fwbbb csenbbbb cwebbvb cwebbbb cwebbbb
+fbbbb fbbbb fwbbb cnsbvbb fbbbw fbbbb fbbbb fbbbb csnbbbb fwbbb fbbbb fbbbb
+cewbbbb cewbbbb cewbbbb cnwsbbbb fbvbb fbbbw pbbbb fbbbb csnbbbb fbbbb rbbbb cewbbbb
+fbblb fbbbb fbbbb cnsbbbb fbbpb fbbbb cnsbbbb fbbbb csnbbbb fbbbb cnsbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,10,8 3,1,4,5 3,1,10,2 3,1,2,10 

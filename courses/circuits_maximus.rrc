@@ -1,0 +1,40 @@
+name: Circuits Maximus
+description: 2010 map making contest entry.
+Created by: roycebuzz
+length: medium
+difficulty: expert
+players: 4 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb csewbbb
+fbbbb fwbbb fbbbb csnbbbb
+fbbbb fbbwb fbbbb cenbbbb
+fbbbb fwbwb fbbbb cesbbbb
+fbbbb fwbbb fbbbb cnsbbbb
+fbbbb fbbwb fbbbb cnebbbb
+fbbbb fwbbb fbbbb csebbbb
+fbbbb fbbwb fbbbb csnbbbb
+fbbbb fwbwb fbbbb cenbbbb
+fbbbb fwbbb fbbbb cesbbbb
+fbbbb fbbwb fbbbb cnsbbbb
+fbbbb fwbbb fbbbb cnebbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board Copy
+cwswbbb fwbbb fwbbb fbbbb fbbbb fbbbb flbbb fbbbb pbbbb flbbb fbbbb fbwbb
+cnsbbbb fbbbb fbbbb fbbwb fbbbb pbbwb fbbbb fbbbb fbbwb fbbbb fbbbb fbwbb
+cnwbbbb fbbbb hbbbb fwbbb fbbbb flbbb fbbbb fbbbb fwbbb fbbbb fbvbb fbwbw
+cswbbbb fbblb fbwbb fbbbw fbbbb fbbbb fbbwb gbbwb fbbbb fbbbb fbbbb fbwbb
+csnbbbb fwbbb fbblb fbbbb fbbbb pbbbb fwbbb fwbbb fbblb fbbbb fbbwb fbwbb
+cwnbbbb fbbwb fwbbb fbblb fbbbb pbbbb fbbbb fbbbb fwbwb fbbbb fwbwb fbwbb
+cwsbbbb fwwbb fbbbw fwbbb fbbwb pbbbb fbbwb fbbwb flbbb fbbbb fwbbb fbwbb
+cnsbbbb fbbbb fbbbb fbbwb flbbb fbbbb fwbbb owbbb fbbbb fbbbb fbbbb fbwbb
+cnwbbbb fbbbb fbbbb flbbb fbbwb fbbbb fbbwb fbbbb fbbwb fbbbb fbbbb fbwbb
+cswbbbb fbwbb fbbbw fbbbb fwbbb fbblb fwbbb fbbbb fwwbb fbbbw hbbbb fbwbb
+csnbbbb fbbbb fbbbb fbbbb fbbbb pwbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+cwnbbwb fbblb fbbbb fbbwb fbbbb fbbbb fbblb fbbbb pbbbb fbblb fbbbb fbwbb
+endboard
+board: 3,1 0 blank board Copy
+flags: 3,1,6,7 3,1,10,3 3,1,3,11 

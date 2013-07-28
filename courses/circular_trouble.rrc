@@ -1,0 +1,43 @@
+name: Circular Trouble
+description: 4 Flags (1 moving)
+3 Options, 3 Repairs
+Don't Get Bumped Off Course
+Created By: Mongo441
+length: medium
+difficulty: hard
+rules: flagsmove
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb xewbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb xsnbwbb
+fbbbb fbbbb fbbbb xenbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb xewbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xswbbbb xsebbbb xwebbvb xwebbbb xwebbvb xwebbbb xwsbbbb fbbbb cewbbbb cewbbvb cswbbbb fbbbb
+csnbbbb xsnbbbb fwbbb fbbbb flbbb fbwbb xnsbbbv fbbbb fbbbb rwbbb csnbbbb fbbbb
+csnbbbb xsnbvbb fbbbw fbbwb fbbbb fbbwb xnsbbbb fbbbb fbbbb fbbbb gbbbb fbbbb
+fbbbw xenbbbb xewbbbb xewvbbb xewbbbb xewvbbb xnwbbbb xsebbbb xwebbbb xwebbvb xwebbbb xwsbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsnbvbb fbbbw fwbbb fbwbb xnsbbbv
+obbbb fbbbb cnsbwbb hbbbw fbbbb fbbbb hbbbb xsnbbbb fbbbb fbbbb fbbbb xnsbbbb
+gbbbb fbbbb csnbwbb rbbbw fbbbb fbbbb rbbbb xsnbvbb fbbbw fbbwb fbwbb xnsbbbv
+cnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xenbbbb xewbbbb xewvbbb xewbbbb xnwbbbb
+cnsbbbb xsebbbb xwebbvb xwebbbb xwebbvb xwebbbb xwsbbbb fbbbb fbbwb fbbbb obbbb fbbbb
+xnsbbbb xsnbbbb fwbbb fbbbb fwbbb fbwbb xnsbbbv fbbbb flbbb fbwbb cnsbbbv fbbbb
+xnwbbbb xsnbvbb fbbbw fbbwb fbbbb fbbwb xnsbbbb fbbbb fbbbb hbbwb cnsbbbb fbbbb
+fbbbb xenbbbb xewbbbb xewvbbb xewbbbb xewvbbb xnwbbbb fbbbb cewbbwb cewvbbb cnwbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,10 3,1,10,5 3,1,2,6 3,1,7,8 

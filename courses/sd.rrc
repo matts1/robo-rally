@@ -1,0 +1,42 @@
+name: Shut Down is NOT an option
+description: 4 flags.
+Flags move.
+No shut down.
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove nopowerdown
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+rbbbb rbbbb rbbbb rbbbb
+rbbbb rbbbb rbbbb rbbbb
+rbbbb rbbbb rbbbb rbbbb
+rbbbb rbbbb xnsbbbb xnsbbbb
+rbbbb rbbbb xnsbbbb xnsbbbb
+rbbbb rbbbb xnsbbbb xnsbbbb
+rbbbb rbbbb xsnbbbb xsnbbbb
+rbbbb rbbbb xsnbbbb xsnbbbb
+rbbbb rbbbb xsnbbbb xsnbbbb
+rbbbb rbbbb rbbbb rbbbb
+rbbbb rbbbb rbbbb rbbbb
+rbbbb rbbbb rbbbb rbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board Copy
+rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb
+rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb xsebbbb xwsbbbb rbbbb
+rbbbb rbbbb rbbwb rbbwb rbbwb rbbwb rbbwb rbbbb rbbbb xenbbbb xnwbbbb rbbbb
+cnsbbbb rbwbb rdbbw rwbbb rwbbb rwbbb rwwbb rbbbw rbbbb rbbbb rbbbb rbbbb
+rbbbb rbwbb rbbbw rbbbb rbbbb rbbbb rbwbb rbbww rbbwb rbbwb rbbbb rbbbb
+rbbbb csnbwbb rbbbw csebbbb cwsbbbb rbbbb rbbbb rwbbb rwbbb rwbbb gbbbb obbbb
+rbbbb cnsbwbb rbbbw cenbbbb cnwbbbb rbbbb rbbbb rbbwb rbblb rbbwb obbbb gbbbb
+rbbbb rbwbb rbbbw rbbbb rbbbb rbbbb rbwbb rwbbw rwbbb rwbbb rbbbb rbbbb
+csnbbbb rbwbb rbbww rbbwb rbbwb rbbwb rbwwb rbbbw rbbbb rbbbb rbbbb rbbbb
+rbbbb rbbbb rwbbb rwbbb rwbbb rwbbb rwbbb rbbbb rbbbb xsebbbb xwsbbbb rbbbb
+rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb xenbbbb xnwbbbb rbbbb
+rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb
+endboard
+board: 3,1 0 blank board Copy
+flags: 3,1,7,5 3,1,6,2 3,1,11,11 3,1,2,11 3,1,7,3 

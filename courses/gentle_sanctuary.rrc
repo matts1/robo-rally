@@ -1,0 +1,39 @@
+name: Gentle Sanctuary
+description: Do you think the Gentle Sanctuary sounds like a restful place? Have you ever PLAYED RoboRally before?
+length: long
+difficulty: hard
+players: 2 6
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbwb fbbwb fbbwb fbbwb cewbbwb cewbbwb cewbbwb cewbbwb cewbbwb cewbbwb cewbbwb rbbbb
+pwwww rwbbw fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb flbbb rwwbb fbbbw
+fwbwb cewbbbb cewbbbb cewbbwb cewbbwb cewbbwb cewbbwb cewbbwb cewbbwb cewbbbb fbwbb fbbbw
+pwwww fbbbw fbwbb owbbw fwbbb fwbbb fwbbb fwbbb owwbb hbbbw fbwbb fbbbw
+fwbbb fbbbb fbwbb fbbbw gbbbb fbbwb fbbwb gbbbb fbbbb fbbwb fbbwb fbbbb
+fbwbb fbbbw fbwbb fbbbw fbbbb fwbbb fdlbb fbbbw fbwbb pwbbw pwwbb hbbbw
+fbwbb fbbbw fbwbb fbbbw fbbbb fbbwb fbwwb fbbbw fbwbb pbbww pbwwb hbbbw
+fbbwb fbbbb fbwbb fbbbw obbbb fwbbb fwbbb obbbb fbbbb fwbbb fwbbb fbbbb
+pwwww fbbbw fbwbb gbbww fbbwb fbbwb fbbwb fbbwb gbwwb hbbbw fbwbb fbbbw
+fwbwb cewbbbb cewbbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewbbbb fbwbb fbbbw
+pwwww rbbww fbblb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbblb rbwwb fbbbw
+fwbbb fwbbb fwbbb fwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb cewwbbb rbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,6 3,1,7,2 3,1,7,9 

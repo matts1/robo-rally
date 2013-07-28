@@ -1,0 +1,39 @@
+name: 3s & 7s
+description: B!t ch!n Rock N Roll
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+1,3 12,3 2,3 11,3 3,4 10,4 4,4 9,4 
+fwbbb fwbbb fwbbb fwwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbwb fbwwb
+xewbbbb xewbbbb xewwbbb xewwbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xwebbbb xwebbbb xwebbbb xwebbbb
+xewbbbb xewbbbb xewbbwb xewbbwb
+fbbbb fbbbb fwbbb fwwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbwb fbbwb fbbwb fbwwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+csebbbb cwsbbbb ceswbbb csebbbb csebbbb cwswbbb cesbbbb csebbbb csewbbb cwsbbbb cesbbbb csewbbb
+cenbbbb cnebbbb cnebbwb cwnbbwb cenbbwb cnebbwb cnebbwb cwnbbbb cenbbbb cnebbbb cnebbbb cwnbbbb
+fbbbb fbbbb fwbbb fwbbb fwbbb fwbbb fwbbb rbwbb pbbbw rbbbb fbbbb fbwbb
+rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsebbbb xwebbbb xwsbbbb fbbbb fbbbb
+xswbbbb rbbbb fbbbb fbbbb fbbwb fbbbb fbbbb fbwbb pbbbw xnsbbbb fbwbb fbbbp
+xewbbbb xswbbbb fbbbb pbbbb hwbbb fbbbb fbbbb fbwbb xewbbbw xnwbbbb fbbbb fbwvb
+xwebbbb xwnbbbb fbbbb pbbbb hbbwb fbbbb fbbbb fbwbb xewbbbw xswbbbb fbbbb fpwbb
+xnwbbbb rbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbwbb pbbbw xsnbbbb fbwbb fbbbv
+rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xnebbbb xwebbbb xwnbbbb fbbbb fbbbb
+fbbbb fbbbb fbbwb fbbwb fbbwb fbbwb fbbwb rbwbb pbbbw rbbbb fbbbb fbwbb
+cesbbbb csebbbb csewbbb cwswbbb ceswbbb csewbbb csewbbb cwsbbbb cesbbbb csebbbb csebbbb cwsbbbb
+cnebbbb cwnbbbb cenbbwb cnebbbb cnebbbb cwnbbwb cenbbbb cnebbbb cnebbwb cwnbbbb cenbbbb cnebbwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 3,1,10,5 3,1,3,5 3,1,7,12 3,0,1,4 

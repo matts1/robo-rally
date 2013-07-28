@@ -1,0 +1,39 @@
+name: Crazy 8's
+description: belts...eights
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbwbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbwbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbwwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbwbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+xespbbb xewbbbb xswbbbb fwbbb xsebbbb xsewbbbb xwswbbb csebbbb cwepbbb cwsbbbb fbbbb gwbbb
+xnsbbbb rbbbb xsnbbbb fbbbb xensbbbb hbbbb xwsnbbbb csnbbbb pbbbb cnsbbbb xewbbbb xswbwbb
+xnsebbbb csebbbb cwebbbb cwsbbbb xensbbbb xsewbbbb xwsnbbbb censbbbb cewbbbb cnwsbbbb hbbbb xsnbbbb
+xnsbbbb csnbbbb xsnbbbb cnsbbbb xensbbbb pbbbb xwsnbbbb csnbbbb rbbbb cnsbbbb xewbbbb xsnwbwbb
+xnebbbb censbbbb cewbbbb cnwsbbbb xenbbbb xnwebbbb xnwbbbb cenbbbb csebbbb cwebbbb cwsbbbb xsnbbbb
+fbbbv csnbbbb rbbbb cnsbbbb gbbbb fbbbb fbbbb fbbbb csnbbbb xnebbbb cnsbbbb xwnbwbb
+xesbbbb xewbbbb xswbbbb cnwbbbb fbbbb xesbbbb xewbbbb xswbbbb csenbbbb cwebbbb cwsnbbbb fbbbb
+xnsbbbb rbbbb xsnbbbb fbbbb csebbbb xnsbbbb cwsbbbb xsnbbbb csnbbbb xsebbbb xwebbbb xwsbbbb
+xensbbbb xewbbbb xwsnbbbb fbbbb csnbbbb xensbbbb xewbbbb xsnwbbbb cenbbbb xsnbbbb cnwbbbb xnsbwbb
+xsnbbbp pbbbb xnsbbbb fbbbb csenbbbb xnsbbbb cnwsbbbb xsnbbbb rbbbb xsenbbbb xwebbbb xwsnbbbb
+xenbbbb xewbbbb xnwbbbb fbbbb csnbbbb xnebbbb xwebbbb xwnbbbb fbbbb xsnbbbb hbbbb xnsbbbb
+fbbbb fbbvb fbbbb obbwb cenbbbb cewbbwb cnwbbbb pbbbb fbbbb xenbbwb xewbbbb xnwbbwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,8 3,1,1,4 3,1,12,9 3,1,6,1 

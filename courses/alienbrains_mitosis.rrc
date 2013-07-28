@@ -1,0 +1,39 @@
+name: Alienbrain's Mitosis
+description: Four flags on one board. Two double wrenches; four single. Three pushers.
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb xesbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbwbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb xnebbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbwb xswbbbb rbbbb xesbbbb xewwbbb xewbbbb xewbbbb xswwbbb
+fbbbb fbbbb fbbbb fbbbb fwbbb xsnbbbb fbwbb xnsbbbv csebbbb cwebbbb cwsbbbb xsnbwbb
+xewbbbb xewbbbb xewbbwb xswbbbb fbbbb xsnbbbb xesbbbb xnwbbbb csnbbbb fbbbb cnsbbbb xsnbbbb
+fbbbb fbbbb fwbbb fbbbb fbbbb xenbbbb xnwbbbb csebbbb cwnbbwb cesbbbb cnwbbbb xsnbbbb
+fbbbb csebbbb xwebbbb cwsbbbb fbbbb fbbbb csebbbb cwnbbbb ceswbbb cnwbbbb xsebbbb xwnbwbb
+fbbbw xsnbbbb hbwbb xnsbbbv cewbbdb csewbbbb cwnbbbb cesbbbb cnwbbbb rbbbb xsnbbbb fbbbb
+fbbbb cenbbbb xewbbbb cnwbbbb csewbbb cwnbbbb cesbbbb cnwbbbb fbbbb fbbbb xsnbbbb fbbbb
+fbbbb fbbbb fbbwb csebbbb cwnbbbb cesbbbb cnwbbbb obbbb csebbbb cwsbbbb xsnbbbb fbwbb
+fbbbb csebbbb cwewbbb cwnbbbb cesbbbb cnwbbbb fbbbb xnsbbbb cenbblb cnwsbbbb xsnbbbb fbvbb
+fbbbb csnbbbb fbbbb cesbbbb cnwbwbb xsebbbw xwebbbb xnsebbbb fwbbb csnbbbb xsnbbbb cwebdbb
+rbbbb cenbbbb cewbbbb cnwbbbb fbbbb xsnbwbb fbbbl xnsbwbb rbbbw cwnbbbb xsnbbbb fbbbb
+xwebbwb xwebbbb xwebbbb xwebbwb xwebbbb xwnbbbb hbbvb xnebbbb xwebbbb xwebbwb xwnbbbb rbwbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,10 3,1,10,3 3,1,9,12 3,1,2,5 

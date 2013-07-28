@@ -1,0 +1,25 @@
+name: Endless Knot
+description: Flags: 6
+Special Rules: None
+Course designed by Spacebug
+length: medium
+difficulty: mid
+players: 2 8
+newboard:
+blank board
+pbbbb fbbbb csewbbb cwebbbb cwebbbb cwswbbb fbwbb fbbbw csewbbb cwebbbb cwsbbbb pbbbb
+fbbbb fbbbb csnbwbb fbwbw fbwbw cnsbbbw rbbbb fbbbb csnbbbb fbbbb cnsbbbb pbbbb
+cesbbbw cewbbwb cewbbbb cewbbbb cewbbbb cnsbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbwbb pbbbw
+cnsbbbb fwbwb csnbbbb obbbb fbbwb cnsbbbb fbwbb fbbww csnbbbb fbbbb fbbwb pbbbb
+cnsbbbb fwbwb csnbbbb fbwbb fwbbw cnsbbbb fbbbb fwbbb csnbbbb rbbbb fwbbb pbbbb
+cnebbbw cwewbbb csnbbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb csnbbbb cwebbwb cwsbwbb pbbbw
+fbbwb rbbbb csnbbbb fbbwb fbbbb cnsbbbb fbwwb fbbbw csnbbbb fwbwb cnsbbbb pbbbb
+fwbbb fbbbb csnbbbb fwwbb fbbbw cnsbbbb fwbbb gbbbb csnbbbb fwbwb cnsbbbb pbbbb
+cesbbbw cewbbbb cewbbbb cewbbbb cewbbbb cnsbbbb cewbbbb cewbbbb cewbbbb cewwbbb cnwbwbb pbbbw
+cnsbbbb fbbbb csnbbbb fbbbb rbbbb cnsbwbb fbwbw fbwbw csnbbbw fbbbb fbbbb pbbbb
+cnebbbb cwebbbb cwnbbwb fbwbb fbbbw cnebbwb cwebbbb cwebbbb cwnbbwb fbbbb pbbbb pbbbb
+pbbbb pbbbb pwbbb pbbbb pbbbb pwbbb pbbbb pbbbb pwbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,7 3,1,10,2 3,1,2,10 3,1,10,10 3,1,2,2 3,1,7,5 
+start: 3,1,7,10 3,1,5,2 3,1,10,7 3,1,2,5 3,1,8,10 3,1,4,2 3,1,10,8 3,1,2,4 

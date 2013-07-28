@@ -1,0 +1,40 @@
+name: Option World on Acid
+description: And you thought Option World on Drugs was bad...   By Wiggfield.
+length: medium
+difficulty: expert
+players: 2 8
+rules: wrenchtooption lasermultiplier2 boardrotate50t1 maxfilltime30
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb xsnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb xwnbbbb fwbbb fbwbb
+xsnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+xnsbbbb fbbbb fbbbb fbwwb
+cnsbbbb fbbbb fbbbb fwbbb
+xnebbbb cwsbbbb fbbwb fbwbb
+fbbbb xnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+Vault
+rbbbb fbbbb fwbbb fbbbb fwbbb csnbbbb fbbbb fwbbb fbbbb ftbbb cnsbbbb fbbbb
+fbbbb xsebbbb cwebbbb xwebbbb cwebbbb xwnbbbb fbbbb fbbbb fbbbb fbbbb xnebbbb cwebbbb
+fbbbw csnbbbb fbbbb pbbbb fbbbb fbbpb fbbwb fbbbb pbbbb fbbbb fbbbb fbwbb
+fbbbb xsnbbbb pbbbb fbbbb fbbwb fwbbb fwbbb fbbwb fbbbb pbbwb gbbbb cewbbbb
+fbbbt csnbbbb fbbbb fbwbb owbbw gbbbb gbbbb owwbb fbbbw fwbbb xnsbbbb fbtbb
+cwebbbb xwnbbbb fbvbb fbbbw gbbbb hbbbb hbbbb gbbbb fbwbb fbbbp cnsbbbb fbbbb
+fbbbb fbbbb fbpbb fbbbw gbbbb hbbbb hbbbb gbbbb fbwbb fbbbw xnsbbbb fbbbb
+fbbbt fbbbb fbbbb fbwbb obbww gbbbb gbbbb obwwb fbbbw fbbbb cnsbbbb fbtbb
+fbbbb csnbbbb pbbbb fbbbb fwbbb fbbwb fbbwb fwbbb fbbbb pbbbb xnebbbb cwsebbbb
+fbbbw xsnbbbb fbbbb pbbbb fbbbb fpbbb fwbbb fbbbb pbbbb fbbbb fbbbb xnsbwbb
+fbbbb csnbbbb fbbbb fbbbb fbbbb csnbbbb fbvbb fbbbw csebbbb xwebbbb cwebbbb gbbbb
+fbbbb xsnbbbb fbbwb fbbbb fbbwb xsnbbbb fbbbb fbbwb xsnbbbb fbbwb fbbbb rbbbb
+endboard
+board: 3,1 0 Vault
+flags: 3,1,4,7 3,1,10,11 3,1,6,4 3,1,3,12 

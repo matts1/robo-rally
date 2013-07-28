@@ -1,0 +1,44 @@
+name: Options Galore
+description: Do you want an option to make it throught the course, or an option to hurt your opponents.
+4 Flags.
+Start with two Options.
+Flag 4 does not move.
+designed by i8flesh
+length: medium
+difficulty: mid
+players: 2 8
+rules: startoptions3c1 wrenchtooption
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb cwebbbb
+fbbbb fbbbb fbbbb cewbbwb
+fbbbb fbbbb fbbbb flbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb xewbbbb
+fbwbb fbbbv xewbbbb xewbbbb
+fbwbb fbbbv xewbbbb xewbbbb
+fbbbb fbbbb fbbbb xewbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbwb
+fbbbb fbbbb fbbbb cewwbbb
+fbbbb fbbbb fbbbb cwebbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cwepbbb cwebbbb cwepbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbwb cwebbwb cwebbbb cwebbbb cwsbbbb
+cewbbbb cewbbwb cewbbbb cewbbwb cewbbbb cewbbbb cewbbbb cewwbbb cewwbbb cewbbbb cewbbbb cnwbbbb
+fbbbb fdbbb fbbbb ftbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+rbbbb fbbbb fbbbb fbbbb fbbbb rbwbb fbbbw fbbbb fblbb fbbbw fbbbb fbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb pbbbb fbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb fbbbb pbbbb fbbbb fbbbb rbbbb pbbbb pbbbb fbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb fbbbb pbbbb fbbbb fbbbb rbbbb pbbbb pbbbb fbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb pbbbb fbbbb
+rbbbb fbbbb fbbbb fbbbb fbbbb rbwbb fbbbw fbbbb fblbb fbbbw fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+cewbbbb cewwbbb cewbbbb cewwbbb cewbbbb cewbbbb cewbbbb cewbbwb cewbbwb cewbbbb cewbbbb cswbbbb
+cwebbpb cwebbbb cwebbpb cwebbbb cwebbbb cwebbbb cwebbbb cwewbbb cwewbbb cwebbbb cwebbbb cwnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,8 3,0,7,1 3,1,6,12 3,1,6,3 

@@ -1,0 +1,39 @@
+name: Blockhead
+description: Just happy to be here, Please remember there are gears on flags one and two----once someone archieves, you might not see them.
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbl fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb rbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xeswbbb xewpbbb xewvbbb xswwwbb fbbbw fbbbb xeswbbb xewvbbb xewpbbb xswwwbb fbbbw fbbbb
+xnsbbbb pbbbb pbbwb xsnbbbb fbbbb fbbbb xnsbbbb pbbwb pbbbb xsnbbbb fbbbb fbbbb
+xnsbbbb pbbbb hwbbb xsnbbbb fbbbb fbbbb xnsbbbb hwbbb pbbbb xsnbbbb fbbbb fbbbb
+xnebbbb xwebbbb xwebbbb xwnbbbb fbbbb fbbbb xnebbbb xwebbbb xwebbbb xwnbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb obvbb pbtbd pbdbt fbbbv fbbbb fbbbb fbbbb fbbbb gbbwb
+fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb
+pbbbb fbbbb fbbbb fbbbb pbblb pbblb fbbbb fbbbb fbbbb pbbbb rbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb flbbb flbbb fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb
+hbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb hbbbb fbbbb fbbbb
+fbbbb pbwbb pbwbw pbwbw pbwbw pbwbw pbwbw pbwbw pbbbw fbbbb fbbbb fbbbb
+fbbbb cwebbbb cwebbbb cwebbbb cwebbbb fbbbb cewbbbb cewbbbb cewbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 3,1,6,4 3,1,1,3 3,1,12,6 

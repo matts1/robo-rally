@@ -1,0 +1,41 @@
+name: For Bleach Blonds
+description: Robo Maze for Bleach Blonds... you don't have to
+move.  The pushers will take you there.
+Adapted from GamerJeff's course.
+length: short
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+pwwbw fwbwp fvwbb fwbbp
+pbwbw fpwbw fbbwp fbwvb
+pbwbw fbbwv fpwbb fwbbp
+pbwbw fpwbw fbbbv fbwpb
+pbwbw fbbbv fbwpb pwbbw
+pbwbw fbwpw pwbbw pbbbb
+pbwbw fpwbw pbbww pbbbb
+pbwbw fbbbv fpwbb pbbww
+pbwbw fbwpw fbbbv fpwbb
+pbwbw fwbbv fbwpb fbbwp
+pbwbw fbwpw fwbbp fvwbb
+pbwww fwbwp fbwvb fbbwp
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fpwbb fwbbv fpwbb fwbbp fvwbb pwbww pwbbb pwbbb pwbbb pwbbb pwbbb pwwbb
+fbbwv fbwpb fbbwp fbwvb fbbwp fpwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbwbb
+fvwbb fwbbp fpbbb fwwwb fpbbw fbvwb pbbbw pbbbb pbbbb pbbbb pbbbb pbwbb
+fbbwp fbwvb fbbwv fpwbb fbbwv fpwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbwbb
+pwbbb pwwbb fpbbw fbvbb fvbbw fbpbb pbbbw pbbbb pbbbb pbbbb pbbbb pbwbb
+pbbbb pbwbb fbbbp fbbbb fbbbb fbpbb pbbbw pbbbb pbbbb pbbbb pbbbb pbwbb
+pbbbb pbwbb fbbbp fbwvb fbbbp fbwvb pbbbw pbbbb pbbbb pbbbb pbbbb pbwbb
+pbbwb pbwwb fbbpw fwvbb fbbvw fwpbb pbbbw pbbbb pbbbb pbbbb pbbbb pbwbb
+fwbbp fvwbb fwbbv fbwpb fwbbv fbwpb pbbbw pbbbb pbbbb pbbbb pbbbb pbwbb
+fbwvb fbbwp fbbpb fwwwb fbbpw fwvbb pbbbw pbbbb pbbbb pbbbb pbbbb pbwbb
+fwbbv fpwbb fwbbp fvwbb fwbbp fbwpb pbbbw pbbbb pbbbb pbbbb pbbbb pbwbb
+fbwpb fbbwv fbwpb fbbwp fbwvb pwbww pbbwb pbbwb pbbwb pbbwb pbbwb pbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,5 

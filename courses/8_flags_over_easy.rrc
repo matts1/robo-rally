@@ -1,0 +1,39 @@
+name: 8 Flags Over Easy
+description: Flag Goodness
+length: short
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw fwbbb fwbbb fwwbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbwbb
+fbbww fbbwb fbbwb fbwwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pwbbw fwbbb fwbbb fwbbb pwbbb fwbbb fwbbb fwbbb pwbbb fwbbb fwbbb pwwbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+pbbww fbbwb fbbwb fbbwb pbbwb fbbwb fbbwb fbbwb pbbwb fbbwb fbbwb pbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 3,1,7,11 3,1,4,10 3,1,9,9 3,1,2,7 3,1,11,6 3,1,1,4 3,1,12,2 

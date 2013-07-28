@@ -1,0 +1,39 @@
+name: Alienbrain's Adam and Eve
+description: In this updated version of Genesis, a man and a woman are alone in a garden...and then the robots come.
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+xesbbbb fwbbb ceswbbb cewswbbb
+xnsbbbb fbbbb cnsbbbb xnsbbbb
+xnsbbbb fbbbb cnsbbbb xnsbbbb
+xnsbbbb fbbbb cnsbbbb xnsbbbb
+xnsbbbb fbbbb cnsbbbb xnsbbbb
+xnsbbbb fbbbb cnsbbbb xnsbbbb
+xnsbbbb fbbbb cnsbbbb xnsbbbb
+xnsbbbb fbbbb cnsbbbb xnsbbbb
+xnsbbbb fbbbb cnsbbbb xnsbbbb
+xnsbbbb fbbbb cnsbbbb xnsbbbb
+xnsbbbb fbbbb cnsbbbb xnsbbbb
+xnebbbb fbbwb cnsbbwb xnebbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb xswbwbb
+fbbbb xsebbbb xwebbbb xwsbbbb cenbbbb cnwbbbb xesbbbb xewbbbb xswbbbb fbbbb fbbwb xsnbwbb
+fbbbb csnbwbb hbbbd cnsbbbb fbwbb fbbbw xnsbbbb hbdbb xsnbbbw rblbb xwsnlbbp xsnbpbb
+fbbbb cenbbbb cewbbbb cnwbbbb fbbbb fbbbb xnwebbbb cwebbbb xwenbbbb fbbbb xnsbbbb xsnbbbb
+cesbbbb cewbbbb csewbbbb cwebbbb cwsbbbb csebbbb cwebbbb csewbbbb cewbbbb cswbbbb xnsbbbb xsnbbbb
+cnsbbbb fbbbb csnbbbb fbbbb cnsbbbb csnbbbb cnebbbb cnwebbbb cnwbbbb csnbbbb xnsbbbb xsnbbbb
+cnsbbbb fbbbb csnbwbb rbbbw cnebbbb cwnbbbb rbbbb cnsbwbb fbbbw csnbbbb xnsbbbb xsnbbbb
+obbbb csebbbb cwsebbbb cwsbbbb fbbbb fbbbb csebbbb cwenbbbb cwsbbbb gbbbb xnsbbbb xsnbbbb
+xesbbbb csnbbbb cenbwbb cnsbbbp xwebbbb xwebbbb csnbbbb pbwbb cnsbbbv xewbbbb xnwbbwb xsnbbbb
+xnsbbbb csnbbbb pbwbb cnsbbbw fbbbb fbbbb csnbbbb xnebwbb cnsbbbw xwebbbb xwswbbb xsnbbbb
+xnebbbb csnbbbb fbvbb cnsbbbw xwebbbb xwebwbb csnbbbw fbpbb cnsbbbw xesbbbb xnwbbbb xsnbbbb
+xwebbbb cwsebbbb cwsbbbb cnwebbbb cwsebbbb cwsnbbbb cwenbbbb cesbbbb cnwsbbbb xnebbbb xwebbbb xwnbbwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,9 3,1,7,2 3,1,3,5 3,1,11,8 3,1,3,11 3,1,3,6 3,1,11,3 

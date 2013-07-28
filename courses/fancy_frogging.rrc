@@ -1,0 +1,42 @@
+name: Fancy Frogging
+description: Flags: 4
+Special Rules: Flags move
+Course designed by Spacebug
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+fbbbb csnbbbb fbbwb fbbbb
+fbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbwbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb fwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbwwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbwbb
+fbbbb cnsbbbb fwbwb fbbbb
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+rbbbb fbbbb flbbb fbbbb ceswbbb cswbbbb cesbbbb cswwbbb fbbbb flbbb fbbbb rbbbb
+fbbbb fbbbb fbbwb cesbbbb cnsbbbb cewbbbb cnsbbbb cewbbbb cswbbbb fbbwb fbbbb fbbbb
+fbbbl fbwbb fwbbw cnebbbb cwebbbb cwnbbbb cnebbbb csnbbbb cwnbbbb fwwbb fbbbw fblbb
+fbbbb cesbbbb cswbbbb fbbbb cnsbbbb fbwbb fbbbw csnbbbb fbbbb cesbbbb cswbbbb fbbbb
+cesbbbw cnsbbbb cewbbbb cewbbbb cnsbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnsbbbb cewbbbb cswbwbb
+cnebbbb cwebbbb cwnbbbb fbbwb cnsbbbb fbbbb fbbbb csnbbbb fbbwb cnebbbb csnbbbb cwnbbbb
+cesbbbb cnsbbbb cswbbbb fwbbb cnsbbbb fbbbb fbbbb csnbbbb fwbbb cesbbbb cewbbbb cswbbbb
+cnebbbw cwebbbb csnbbbb cwebbbb cwebbbb cwebbbb cwebbbb csnbbbb cwebbbb cwebbbb csnbbbb cwnbwbb
+fbbbb cnebbbb cwnbbbb fbbbb cnsbbbb fbwbb fbbbw csnbbbb fbbbb cnebbbb cwnbbbb fbbbb
+fbbbl fbwbb fbbww cesbbbb cnsbbbb cswbbbb cesbbbb cewbbbb cswbbbb fbwwb fbbbw fblbb
+fbbbb fbbbb fwbbb cnebbbb cwebbbb csnbbbb cwebbbb csnbbbb cwnbbbb fwbbb fbbbb fbbbb
+rbbbb fbbbb fbblb fbbbb cnebbwb cwnbbbb cnebbbb cwnbbwb fbbbb fbblb fbbbb rbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,8 3,1,8,5 3,1,8,8 3,1,5,5 

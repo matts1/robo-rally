@@ -1,0 +1,23 @@
+name: Process of Elimination
+description: Best with multiples of 2 players. By Wiggfield.
+length: short
+difficulty: hard
+players: 2 8
+newboard:
+blank board
+fwbwb fwbwb fwbbb fwwbb pbbww pbwwb fbbbw hbwbb pbbbw pbbbb fbbbb fbbbb
+pwbwb pwwwb fbbbw fbbbb rwbwb fwbwb fbbbb csnbwbb pbbbw pbbbb fbbbb fbbbb
+fwbwb fwbwb fbbwb fbwwb pwbbw pwwbb fbbbw csnbwbb pbbbw pbbbb fbbbb fbbbb
+fwbwb fwbwb fwbbb fwwbb pbbww pbwwb fbbbw csnbwbb pbbbw pbbbb fbbbb fbbbb
+pwbwb pwwwb fbbbw fbbbb rwbwb fwbwb fbbbb csnbwbb pbbbw pbbbb rbbbb fbbbb
+fwbwb fwbwb fbbwb fbwwb pwbbw pwwbb fbbww cenbbwb cewbbvb cewbbpb fbbbb fbbbb
+fwbwb fwbwb fwbbb fwwbb pbbww pbwwb fwbbw ceswbbb cewvbbb cewpbbb fbbbb fbbbb
+pwbwb pwwwb fbbbw fbbbb rwbwb fwbwb fbbbb cnsbwbb pbbbw pbbbb rbbbb fbbbb
+fwbwb fwbwb fbbwb fbwwb pwbbw pwwbb fbbbw cnsbwbb pbbbw pbbbb fbbbb fbbbb
+fwbwb fwbwb fwbbb fwwbb pbbww pbwwb fbbbw cnsbwbb pbbbw pbbbb fbbbb fbbbb
+pwbwb pwwwb fbbbw fbbbb rwbwb fwbwb fbbbb cnsbwbb pbbbw pbbbb fbbbb fbbbb
+fwbwb fwbwb fbbwb fbwwb pwbbw pwwbb fbbbw hbwbb pbbbw pbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,12,12 3,1,1,11 
+start: 3,1,6,1 3,1,7,1 3,1,4,1 3,1,9,1 3,1,3,1 3,1,10,1 3,1,1,1 3,1,12,1 

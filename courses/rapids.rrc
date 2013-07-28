@@ -1,0 +1,73 @@
+name: Rapids
+description: Ride the rapids, aim for the beaches.
+Suicide may be your best option.  No options, 4 flags
+designed by ssgames
+length: short
+difficulty: mid
+players: 2 8
+newboard:
+blank board
+fbbbb fbbbb fbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb cwsbbbb fbbbb rbbbb
+fbbbb fbbbb xsebbbb xwenbbbb cwebbbb rbbbb xsebbbb xwebbbb xwebbbb xnebbbb xwsbbbb fbbbb
+fbbbb xsebbbb xwnbbbb xsebbbb xwebbbb xwebbbb xwenbbbb xwebbbb xwsbbbb xwsbbbb xnsebbbb xwsbbbb
+xsebbbb xwenbbbb xwebbbb xsnbbbb rbbbb xsebbbb xwebbbb xwsbbbb xnsbbbb cnsbbbb xnsbbbb xnsbbbb
+xsnbbbb xsebbbb xwebbbb xwenbbbb xwebbbb xwnbbbb fbbbb xnsbbbb xnsbbbb cnsbbbb xnsbbbb xnsbbbb
+xsnbbbb xsnbbbb rbbbb xsnbbbb xsnbbbb fbbbb fbbbb xnsebbbb xwsbbbb rbbbb xesbbbb xnwsbbbb
+xsnbbbb xsnbbbb xenbbbb xsnwbbbb xsnbbbb pbbbb pbbbb xnsbbbb xnsbbbb xnsbbbb xnsbbbb xnsbbbb
+xsnbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb pbbbb pbbbb xnsebbbb xwsbbbb xnsbbbb xnsebbbb xwsbbbb
+xsnbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb pbbbb pbbbb cnsbbbb xnsbbbb cnsbbbb xnsbbbb cnsbbbb
+xsnbbbb xsnbbbb csnbbbb xsnbbbb xsnbbbb pbbbb pbbbb xnsbbbb xnsbbbb xwsbbbb xnsbbbb xwsbbbb
+xsnbbbb xenbbbb cewbbbb xsnwbbbb xsnbbbb pbbbb pbbbb xnsbbbb xnsbbbb xnsbbbb xnsbbbb xnsbbbb
+xenbbbb xsnwbbbb csnbbbb xsenbbbb xwnbbbb pbbbb fbbbb xnebbbb xwsbbbb xnsbbbb xnsbbbb xnsbbbb
+endboard
+board: 2,1 0 blank board
+newboard:
+blank board Copy
+fbbbb xsnbbbb xsnbbbb xsnbbbb fbbbb pbbbb fbbbb fbbbb fbbbb xnsbbbb xnsbbbb xnebbbb
+fbbbb xsnbbbb xsnbbbb xsnbbbb fbbbb pbbbb pbbbb fbbbb fbbbb xnsbbbb cnsbbbb xnebbbb
+fbbbb xenbbbb xsnwbbbb xenbbbb xewbbbb xswbbbb pbbbb pbbbb fbbbb xnebbbb cnsbbbb cnsebbbb
+fbbbb csnbbbb xsnbbbb rbbbb xsnbbbb xsnbbbb pbbbb pbbbb fbbbb fbbbb xnebbbb cnsbbbb
+fbbbb csnbbbb xenbbbb xswbbbb xenbbbb xsnwbbbb pbbbb pbbbb pbbbb fbbbb fbbbb xnebbbb
+pbbbb cenbbbb xewbbbb xenwbbbb xswbbbb xsnbbbb fbbbb pbbbb pbbbb pbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb xsnbbbb xsnbbbb xsnbbbb fbbbb fbbbb pbbbb pbbbb pbbbb fbbbb
+pbbbb pbbbb fbbbb xsnbbbb csnbbbb xsnbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb xenbbbb xsewbbbb xwnbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb xsebbbb xwnbbbb xsnbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb csnbbbb rbbbb xenbbbb xewbbbb xewbbbb xewbbbb xswbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb xsnbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board Copy
+newboard:
+blank board Copy Copy
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebwbb
+xwebbbb rbbbb xwebbbb cwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebwbb
+xwsbbbb rbbbb xwebbbb xwebbbb xwebbbb xwebbbb cwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebwbb
+xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb cwebbbb xwebbbb xwebwbb
+xwsebbbb xwebbbb xwebbbb cwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebwbb
+xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebwbb
+fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+pbbbb pbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+pbbbb pbbbb pbbbb pbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+pbbbb pbbbb pbbbb pbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+pbbbb pbbbb pbbbb pbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+pbbbb pbbbb pbbbb pbwbb fbbww fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbwwb
+endboard
+board: 3,2 0 blank board Copy Copy
+newboard:
+blank board Copy Copy Copy
+pbbbb pbbbb pbbbb xenbbbb xewbbbb xewbbbb xewbbbb xswbbbb xsnbbbb csnbbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb csnbbbb xsnbbbb xsnbbbb csnbbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb xsnbbbb xenbbbb xsnwbbbb xsnbbbb rbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb xenbbbb xewbbbb xsnwbbbb xsnbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb xsnbbbb xsnbbbb csnbbbb xsnbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb xsnbbbb xsnbbbb xsenbbbb xwnbbbb pbbbb pbbbb
+pbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb xenbbbb xsnwbbbb fbbbb pbbbb pbbbb
+pbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb cwebbbb xwnbbbb fbbbb pbbbb pbbbb
+pbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb rbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 4,1 0 blank board Copy Copy Copy
+flags: 3,1,1,9 2,1,2,2 3,1,8,8 4,1,9,10 
+start: 3,2,9,8 3,2,8,9 3,2,8,10 3,2,10,7 3,2,7,11 3,2,11,6 3,2,7,12 3,2,12,5 

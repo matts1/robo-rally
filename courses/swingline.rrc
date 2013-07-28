@@ -1,0 +1,23 @@
+name: Swingline
+description: Err...I believe you have my stapler.
+length: medium
+difficulty: hard
+players: 2 8
+newboard:
+blank board
+fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb
+fbbbb fbbbb fbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb
+fbbwb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb xsnbbbb fbbbb fbbbb fbbbb fbbwb
+rpbbb fbbbb gbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb obbbb fbbbb rpbbb
+obbbw fbbwb rbbpb fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb rbbpb fbbwb gbwbb
+obbbw fwbbb rpbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb rpbbb fwbbb gbwbb
+rbbpb fbbbb obbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb gbbbb fbbbb rbbpb
+fwbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb xsnbbbb fbbbb fbbbb fbbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,2 3,1,7,2 3,1,6,11 3,1,7,11 3,1,2,3 3,1,11,3 
+start: 3,1,4,11 3,1,9,11 3,1,3,10 3,1,10,10 3,1,2,9 3,1,11,9 3,1,1,8 3,1,12,8 

@@ -1,0 +1,39 @@
+name: Tiger
+description: Grrr!  Who can withstand the cavernous depths, the twists, the heat, the gauntlet of power... and there will be one robo to rule them all!  Catch Tiger Fever!  Grrr!  :-)
+length: medium
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+ftbbw fwbbb fwbbb fpbbb
+fbbbw fbbbb fbbbb fbbvb
+fbbbw fbbbb fbwbb pwbbw
+fbbbw fbbbb fbwbb pbbbw
+fbbbw fbbbb fbwbb pbwbw
+fbbbw fbbbb fbwbb pbbbw
+fbbbw fbbbb fbwbb pbbbw
+fbbbw fbbbb fbwbb pbwbw
+fbbbw fbbbb fbwbb pbbbw
+fbbbw fbbbb fbwbb pbbww
+fbbbw fbbbb fbbbb fvbbb
+fbbtw fbbwb fbbwb fbbpb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fvbbb fpbbb fvbbb csewbbb cwswbbb pwbbb ceswbbb cswwbbb fdbbb rwbbb rwbbb rwwbb
+fbbpb fbbvb fbbpb cenbbbb cnwbbbb fbbbb cnebbbb cwnbbbb fbbbb rbbbb fbbbb rbwbb
+pwbbb pwbbb pwbbb xsebbbb xwebbbb xwebbbb xwebbbb xwsbbbb fbbdb rbbwb rbbwb rbwwb
+fbbbb pbbbb pbbbb xsnbbbb xesbbbb xewbbbb xswbbbb xnsbbbb hwbbb hwbbb flbbb flwbb
+fblbl pbbbw pbbbb xsnbbbb xnsbbbb obbbb xsnbbbb xnsbbbb hbbbb hbbbb fbbtb fbwtb
+fbbbb fbbbb fbbbb xsnbbbb xnsbbbb gbbbb xsnbbbb xnsbbbb hbbbb hbbbb pwbbb pwwbb
+fbbbb fbbbb fbbbb xsnbbbb xnsbbbb gbbbb xsnbbbb xnsbbbb hbbbb hbbbb pbbwb pbwwb
+fblbl pbbbw pbbbb xsnbbbb xnsbbbb obbbb xsnbbbb xnsbbbb hbbbb hbbbb ftbbb ftwbb
+fbbbb pbbbb pbbbb xsnbbbb xnebbbb xwebbbb xwnbbbb xnsbbbb hbbwb hbbwb fbblb fbwlb
+pbbwb pbbwb pbbwb xenbbbb xewbbbb xewbbbb xewbbbb xnwbbbb fdbbb rwbbb rwbbb rwwbb
+fpbbb fvbbb fpbbb cesbbbb cswbbbb fbbbb csebbbb cwsbbbb fbbbb rbbbb fbbbb rbwbb
+fbbvb fbbpb fbbvb cnebbwb cwnbbwb pbbwb cenbbwb cnwbbwb fbbdb rbbwb rbbwb rbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,11 3,1,11,11 3,1,4,1 3,1,9,1 

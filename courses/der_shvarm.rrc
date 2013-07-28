@@ -1,0 +1,39 @@
+name: Der Shvarm
+description: Dere ist only vun vay zum getten zem beehives mit nicht getten seinem ass geschtung...ja, ist horrifisch enough map zat ve haf zum writen dem description in eine deutsche accent, ja
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb fbbbw
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb fbbbw
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb fbbbw
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb fbbbw
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+csnbwbb fbbbw fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb
+csnbwbb rbbww fbbbb xewbbbb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb
+xensbbbb cewwbwb fbbbb fbbbb rwbwb fwbwb fwbwb fwbwb fwbwb hwbwb fwbwb fwbbb
+fbpbb rwbww fbbbb xewbbbb xewwbwb xewwbwb xewwbwb xewwbwb xewwbwb xewwbwb xewwbwb xewbbbb
+xensbbbb cewwbwb fbbbb fbbbb rwbwb fwbwb fwbwb fwbwb fwbwb hwbwb fwbwb fbbbb
+cnsbwbb rwbbw fbbbb xewbbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewbbbb
+csnbwbb rbbww fbbbb xewbbbb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbbb
+xensbbbb cewwbwb fbbbb fbbbb rwbwb fwbwb fwbwb fwbwb fwbwb hwbwb fwbwb fbbbb
+fbpbb rwbww fbbbb xewbbbb xewwbwb xewwbwb xewwbwb xewwbwb xewwbwb xewwbwb xewwbwb xewbbbb
+xensbbbb cewwbwb fbbbb fbbbb rwbwb fwbwb fwbwb fwbwb fwbwb hwbwb fwbwb fbbwb
+cnsbwbb rwbbw fbbbb xewbbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb
+cnsbwbb fbbbw fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,3 3,1,2,3 3,1,9,3 3,1,4,3 3,1,11,3 3,1,7,3 

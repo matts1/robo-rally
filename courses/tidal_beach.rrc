@@ -1,0 +1,39 @@
+name: Tidal Beach
+description: The tide comes in, the tide goes out...just don't go out with the tide
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb obbbb fbbwb fbbwb fbbbb cesbbbb cewbbwb rbbbb cewbbbb cewbbbb cewbbbb cewwbbb
+fbbbb obbbb fwbbb fwbbb fbbwb cnsbbbb cewwbwb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+fbbbb fbbbb fbbbb fbbbb ptbdb cnebbbb cwewbwb cwebbwb cwebbbb fbbwb cewbbbb cewbbwb
+fbbbb gbbbb fbbwb fbbwb fwbbb cesbbbb cewwbwb rwbbb xewbbbb xewwbbb xewbbbb xewwbbb
+fbbbb fbbbb fwbbb fwbbb fbbwb cnsbbbb cewwbwb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+fbbbb fbbbb fbbbb fbbbb pdblb cnebbbb cwewbwb cwebbwb cwebbbb fbbwb cewbbbb cewbbwb
+fbbbb obbbb fbbwb fbbwb fwbbb cesbbbb cewwbwb rwbbb cewbbbb cewwbbb cewbbbb cewwbbb
+fbbbb fbbbb fwbbb fwbbb fbbwb cnsbbbb xewwbwb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+fbbbb fbbbb fbbbb fbbbb plbdb cnebbbb cwewbwb cwebbwb cwebbbb fbbwb cewbbbb cewbbwb
+fbbbb fbbbb fbbwb fbbwb fwbbb xesbbbb xewwbwb rwbbb cewbbbb cewwbbb cewbbbb cewwbbb
+fbbbb gbbbb fwbbb fwbbb fbbwb xnsbbbb cewwbwb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+fbbbb fbbbb fbbbb fbbbb pdbtb xnebbbb xwewbwb xwebbwb xwebbbb fbbbb xewbbbb xewbbwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,10 3,1,6,10 3,1,9,10 3,1,12,10 

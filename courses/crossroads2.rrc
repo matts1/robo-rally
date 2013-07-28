@@ -1,0 +1,39 @@
+name: Crossroads
+description: Designed for 2013 RoboRally Map Editing Contest by Fedor Korzhenkov
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+pbbbb fbbbb csnbbbb xsnbbbb
+pbbbb fbbbb csnbbbb xsnbbbb
+fbbbb gbwbb csnbbbw xsnbbbb
+cwebbbb fbbbb fbbbb fbbbb
+xwebbbb fbbbb fbbbb fbbbb
+xwebbbb fbbbb fbbbb fbbbb
+xewbbbb fbbbb fbbbb fbbbb
+xewbbbb fbbbb fbbbb fbbbb
+cewbbbb fbbbb fbbbb fbbbb
+fbbbb gbwbb csnbbbw xsnbbbb
+pbbbb fbbbb csnbbbb xsnbbbb
+pbbbb fbbbb csnbbbb xsnbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xnsbbbb cnsbbbb hbbbb pbbbb pbbbb hbbbb csnbbbb xsnbbbb xnsbbbb cnsbbbb hbbbb pbbbb
+xnsbbbb cnsbbbb fbbbb pbbbb pbbbb fbbbb csnbbbb xsnbbbb xnsbbbb cnsbbbb fbbbb pbbbb
+xnsbbbb cnsblbb gbbww fbbbb fbbbb gbwwb csnbbbl xsnbbbb xnsbbbb cnsbwbb gbbww fbbbb
+fbbbb fbbbb cwedbbb cwebbbb cwebbbb cwewbbb fbbbb fbbbb fbbbb fbbbb flbbb cwebbbb
+fbbbb rbbbb fbbbb xwebbbb xwebbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xwebbbb
+fbbbb fbbbb fbbbb xwebbbb xwebbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xwebbbb
+fbbbb fbbbb fbbbb xewbbbb xewbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xewbbbb
+fbbbb fbbbb fbbbb xewbbbb xewbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb xewbbbb
+fbbbb fbbbb cewbbwb cewbbbb cewbbbb cewbbdb fbbbb fbbbb fbbbb fbbbb fbbwb cewbbbb
+xnsbbbb cnsblbb gwbbw fbbbb fbbbb gwwbb csnbbbl xsnbbbb xnsbbbb cnsbwbb gwbbw fbbbb
+xnsbbbb cnsbbbb fbbbb pbbbb pbbbb fbbbb csnbbbb xsnbbbb xnsbbbb cnsbbbb fbbbb pbbbb
+xnsbbbb cnsbbbb hbbbb pbbbb pbbbb hbbbb csnbbbb xsnbbbb xnsbbbb cnsbbbb hbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,10 3,0,8,3 3,1,8,10 3,0,5,3 

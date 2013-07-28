@@ -1,0 +1,40 @@
+name: Waste Processing Plant
+description: Win or be reprocessed!
+length: medium
+difficulty: hard
+players: 2 8
+rules: startoptions1c1
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fwbbb fbbbb fpbbb
+fbbbb fbbbb fbbbb gbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb csebbbb
+fbbbb fbbbb fbwbb csnbbbp
+fbbbb fbbbb fbbbb cwnbbbb
+fbbbb fbbbb fbbbb cwsbbbb
+fbbbb fbbbb fbwbb cnsbbbp
+fbbbb fbbwb fbbbb cnebbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb obbbb
+fbbbb fbbwb fbbbb fbbpb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb rbbbb fpbbb fpbbb fpbbb flbbb xewbbbb xewbbbb xswpbbb fpbbb rbbbb xnsbwbb
+fbbbb fbbbb csnbbbb csnbbbb csnbwbb fbbbw fbbbb fbbbb xsnbbbb hbbbb fbbbb fbwbb
+fbbwb fbbbb csnbbbb csnbbbb csnbbbb fbbbb fbbbb fbbbb xensbbbb xewbbbb xewbbbb xswbwbb
+cwevbbb cwebbbb cwebbbb cwebbbb cwsnbbbb fbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb xsnbbbb
+pbbbb fbbbb cnsbbbb cnsbbbb cnsbbbb fbbwb fbbbb fbbbb xnsbwbb fbbbw fbbbb xsnblbb
+fbbbb gbbbb obbvb fbbbb fbbvb fdbbb fbbbb fbwbb xnsbbbw fbbbb fbbbb xsnbbbb
+fbbbb obbbb gvbbb hbbbb fvbbb fbbwb fbbbb fbwbb xnsbbbv gbbbb fbbbb xsnbvbb
+pbbbb fbbbb csnbbbb csnbbbb csnbbbb flbbb fbbbb fbbbb xnsbbbb pbbbb fbbbb xsnbwbb
+cwebbvb cwebbbb cwebbbb cwebbbb cwsnbbbb fbbbb fbbbb fbbbb xnsbbbb fbbbb gbbbb xenbbbb
+fwbbb fbbbb cnsbbbb cnsbbbb cnsbbbb fbbbb rbbbb fbbbb xnebbbb xwebbbb xwebbbb xwsbwbb
+fbbbb fbbbb cnsbbbb cnsbbbb cnsbwbb fbbbw fbbbb fbbbb fbbbb obbbb fbbbb xnsbwbb
+fbbbb rbbbb fbbpb fbbpb fbbpb fbbwb fbbbb csnbbbb fbbpb fbbpb gbbbb xnsbwbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,11 3,1,6,1 3,1,2,7 3,1,11,11 

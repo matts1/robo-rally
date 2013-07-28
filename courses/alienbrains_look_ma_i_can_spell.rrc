@@ -1,0 +1,40 @@
+name: Alienbrain's Look Ma I Can Spell
+description: Five flags, some moving. Four double wrenches, designed to discourage option-squatting.
+length: long
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb csnbbbb
+fbbbb fbbbb fbbbb csnbbbb
+fbbbb fbbbb fbbbb csnbbbb
+fbbbb fbbbb fbbbb cenwbbbb
+fbbbb fbbbb fbbbb csewbbbb
+fbbbb fbbbb fbbbb csnbbbb
+fbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb fbbbb cnwebbbb
+fbbbb fbbbb fbbbb xesbbbb
+fbbbb fbbbb fbbbb xnebbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb xenbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xwepbbb xwebbbb xwebbbb xwewbbb xwebbbb xwebbbb xwswbbb csedbbb csewbbbb cwsbbbb fbbbb rbwbb
+cesbbbb cswbbbb cesbbbb cswbbbb cesbbbb csebbbb xnsbbbb csnbbbb csnbbbb cnsbbbb cesbbbb cswbbbb
+cnebbbb cwnbbbb cnebbbb cwnbbbb cnsbbbb cswbbbb xnsbbbb csnbbbb hbvbb cnsbbbw cesbbbb csnbbbb
+cewbbbb xewbbbb xewbbbb xewbbpb cnsbwbb cenbbbw xnwbbbb cwenbbwb fbbbb cnwebbbb cnebbbb cwenbwbb
+fbbbb csebbbb cwsbbbb fwbbb fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbwb fbbbb
+xewbbbb csnbwbb hbbbv cesbbdb cswbbbb csenbbbb cwsbbbb xwebbbb xwebbbb xwebbbb xwewbdb hbvbb
+xewbbbb csnbwbb rbbbp ceswbbb csnbbbb csnbbbb cnsbbbb xewbbbb xewbbbb xewbbbb xewpbbb fbbbb
+fbbbb cenbbbb cnwbbbb cnebbbb cwenbbbb csnbbbb cnsbbbb fbbbb fbbbb rbbbb csnbbbb fbbbb
+xewbbbb xsenbbbb xwsbbbb fbbbb fbbbb xsnbbbb xnsbbbb fbbbb xsnbbbb fbbbb csnbbbb fbbbb
+xwsbbbb xsnbbbb xnwbbbb xesbbbb xswbbbb xsnbbbb xnsbbbb fbbbb xsnbbbb fbbbb csnbbbb fbwbb
+xnsbbbb xsnbbbb fbbbb xnsbbbb xwnbbbb xsnbbbb xnsbwbb fbbbd xsnbwbb fbbbw csnbbbb fbbbb
+xnwbbbb xwenbbbb rbbwb xnebbbb xwnbbbb xenbbwb xnebbbb hbbvb gbbbb cwebbbb cwnbbbb fbbwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,12 3,1,4,9 3,1,10,3 3,1,1,8 3,1,6,6 3,1,8,5 

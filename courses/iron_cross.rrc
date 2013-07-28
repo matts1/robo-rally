@@ -1,0 +1,41 @@
+name: Iron Cross
+description: 4 flags.
+Two of them move.
+length: medium
+difficulty: hard
+players: 2 5
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb csebbbb cwsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb csebbbb cwnbbbb cnebbbb cwsbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb csebbbb cwnbbbb rbbbb rbbbb cnebbbb cwsbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb csebbbb cwnbwwb fbbbd fbpbb fbbbp fbdbb cnebbww cwsbbbb fbbbb fbbbb
+fbbbb csebbbb cwnbbbb fdbbb obbbb xesbbbb xswbbbb obbbb fdbbb cnebbbb cwsbbbb fbbbb
+csebbbb cwnbbbb rbbpb fbbvb xesbbbb xnwbbbb xenbbbb xswbbbb fbbvb rbbpb cnebbbb cwsbbbb
+cenbbbb cswbbbb rpbbb fvbbb xnebbbb xwsbbbb xsebbbb xwnbbbb fvbbb rpbbb cesbbbb cnwbbbb
+fbbbb cenbbbb cswbbbb fbbdb gbbbb xnebbbb xwnbbbb gbbbb fbbdb cesbbbb cnwbbbb fbbbb
+fbbbb fbbbb cenbbbb cswwwbb fbbbd fbpbb fbbbp fbdbb ceswbbw cnwbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb cenbbbb cswbbbb rbbbb rbbbb cesbbbb cnwbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb cenbbbb cswbbbb cesbbbb cnwbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb cenbbbb cnwbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,11 3,1,7,5 3,1,7,10 3,1,5,5 

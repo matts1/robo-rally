@@ -1,0 +1,57 @@
+name: Tornado
+description: Winds whipping you off course?  Things flying at you?  Must be a tornado up ahead.  6 flags, lasers, pushers.
+designed by ssgames
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbp fbbbb fbbbb fbbbb
+fbbbv fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbp fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbv fbbbb fbbbb fbbbb
+fbbbp fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbv fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbp fbbbb fbbbb fbbbb
+fbbbv fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+tornado 1
+fbvbb rbbbw fbbbb obbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+fbpbb fbbwl fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fvbbb cnsbbbb fbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb fbbbb fbbbb fbbbb
+fbvbb fbbwl fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb xensbbbb xewbbbb xewbbbb xswblbb
+fbbbb fpbbb cnsbbbb fbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb fbbbb fbbbb xenbbbb
+fbpbb fbbbw fbbbb fbbbb fbbwb fbbwb rbbbb fbbwb fbbwb fbbbb fbbbb fbbbb
+fbvbb fbbvw fbbbb fbbbb fwbbb fwbbb rbbbb fwbbb fwbbb fbbbb fbbbb fbbbb
+fbbbb fpbbb csnbbbb fbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb fbbbb fbbbb xesbbbb
+fbpbb fbbbl fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb xensbbbb xewbbbb xewbbbb xnwblbb
+fbbbb fbbvb csnbbbb fbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb fbbbb fbbbb fbbbb
+fbvbb fwbbl fbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbpbb rbbbw fbbbb gbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+endboard
+board: 3,1 0 tornado 1
+newboard:
+tornado 2
+fbbbb fwbbb fwbbb xsewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb pbbbb
+fbbbb fbbbb fbbbb xsnbbbb cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb pbbbb
+fbbbb xsebbbb xwebbbb xwnbbbb cnsbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbwbb
+fbbbb xsnbbbb cesbbbb cewbbbb cnwbbbb xsnbbbb cesbbbb cewbbbb cewbbbb cewbbbb cswbbbb xnsbwbb
+xewbbbb xsnbbbb cnsbbbb xsebbbb xwebbbb xwnbbbb cnsbbbb fbbbb fbbbb fbbbb csnbbbb xnsbwbb
+fbbbb xsnbbbb cnsbbbb xsnbbbb fbbbb rbbbb pbbbb pbbbb rbbbb fbbbb csnbbbb xnsbwbb
+fbbbb xsnbbbb cnsbbbb xsnbbbb fbbbb rbbbb pbbbb pbbbb rbbbb fbbbb csnbbbb xnsbwbb
+xewbbbb xsnbbbb cnsbbbb xenbbbb xewbbbb xswbbbb fbbbb xnsbbbb fbbbb fbbbb csnbbbb xnsbwbb
+fbbbb xsnbbbb cnebbbb cwebbbb cwsbbbb xsnbbbb fbbbb xnsbbbb csebbbb cwebbbb cwnbbbb xnsbwbb
+fbbbb xenbbbb xewbbbb xswbbbb cnsbbbb xenbbbb xewbbbb xnwbbbb csnbbbb xesbbbb xewbbbb xnwbwbb
+fbbbb fbbbb fbbbb xsnbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwnbbbb xnsbbbb hbbbb fbbbb
+fbbbb fbbwb fbbwb xenbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xnwbbwb fbbbb fbbbb
+endboard
+board: 3,2 0 tornado 2
+flags: 3,2,6,9 3,2,5,7 3,2,1,11 3,2,7,9 3,2,11,9 3,2,12,4 

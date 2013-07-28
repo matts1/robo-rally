@@ -1,0 +1,40 @@
+name: Skinbot's Clog_the_Middle
+description: Mirror image board tends to push robots toward the horizontal axis.  Play carefully, survival is key.
+
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+xsnwbbb fwbbb fbbbb flbbb
+xsnbbbb fbbwb fbbbb fbbbb
+xenbbbb xewwbbb xswbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+xesbbbb xewbbwb xnwbbbb fbbbb
+xnebbbb fwbbb fbbbb fbbbb
+xsebbbb fbbwb fbbbb fbbbb
+xenbbbb xewwbbb xswbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+xesbbbb xewbbwb xnwbbbb fbbbb
+xnsbbbb fwbbb fbbbb fbbbb
+xnsbbwb fbbwb fbbbb fbblb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fwbbb fbbbb fwbbb fbwbb fbbbp hwbbb fbvbb fbbbw xwewbbb xwebbbb xwsbbbb
+fbbbb cwebbbb cwsebbbb gbbbb cwebbbb cwsebbbb gbbbb cwebbbb cwsebbbb gbbbb pbbbb xnsbbbb
+obbbw fbbbb csnbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb xnsbwbb
+fbwbb rbbbv cenbbbb fbwbb rbbbp cenbbbb fbwbb rbbbv cenbbbb cewbbbb cewbbbb cswbbbb
+gbbbw xesbbbb xewbbbb xswbbbb xesbbbb xewbbbb xswbbbb xesbbbb xewbbbb xswbbbb hbbbb csnbwbb
+obbbb xnsbbbb pbbbb xsnbbbb xnsbbbb pbbbb xsnbbbb xnsbbbb pbbbb xsnbbbb fbbbb obbbb
+gbbbb xsnbbbb pbbbb xnsbbbb xsnbbbb pbbbb xnsbbbb xsnbbbb pbbbb xnsbbbb fbbbb gbbbb
+obbbw xenbbbb xewbbbb xnwbbbb xenbbbb xewbbbb xnwbbbb xenbbbb xewbbbb xnwbbbb hbbbb cnsbwbb
+fbwbb rbbbv cesbbbb fbwbb rbbbp cesbbbb fbwbb rbbbv cesbbbb cewbbbb cewbbbb cnwbbbb
+gbbbw fbbbb cnsbbbb fbbbb fbbbb cnsbbbb fbbbb fbbbb cnsbbbb fbbbb fbbbb xsnbwbb
+fbbbb cwebbbb cwenbbbb obbbb cwebbbb cwenbbbb obbbb cwebbbb cwenbbbb obbbb pbbbb xsnbbbb
+fbbbb fbbwb fbbbb fbbwb fbwbb fbbbp hbbwb fbvbb fbbbw xwebbwb xwebbbb xwnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,11 3,1,1,1 3,1,12,6 3,1,1,9 

@@ -1,0 +1,39 @@
+name: Cheeckers for Dummys
+description: Wait, what?
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+cewbbbb fbbvb cwebbbb fbbbb
+csnbbbb rwbbb fbbbb csnbbbb
+fbbbv obbbb gbbbb fbvbb
+cnsbbbb fbbbb rbbwb cnsbbbb
+fbbbb cewbbbb fvbbb cwebbbb
+csnbbbb fbbbb obbbb rbbbb
+fbvbb fbbbw fbbbb obbbb
+cnsbbbb fbbbb cewbbbb fbbvb
+csnbbbb rbbbb fbbbb csnwbbb
+fbbbv gbbbb gbbbb fbvbb
+cnsbbbb fbbbb rbbbb cnsbbwb
+cwebbbb fbbbb cewbbbb fvbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cewbbbb fvbbb cwebbbb fbbbb hbbwb cewbbbb fvbbb cwebbbb fbbbb rbbbb gbbbb fbbbb
+fbbbb obbbb rbbbb cewbbbb fvbbb cwebbbb gbbbb rbbbb csnbbbb cewbbbb fbbvb cwebbbb
+csnbbbw fbbbb fbbbb fbbbb gbbbb rbbbb obbbb fbwbb fbbbv obbbb fwbbb fbbbb
+fbbbv obbbb fbbbb csnbbbb fbbbb cewbbbb fbbvb cwebbbb cnsbbbb rbbbb csnbbbb hbbbb
+cnsbbbb hbbbb csnbwbb fbbbv obbbb rbbbb csnwbbb rbbbb obbbb fbwbb fbbbv gbbbb
+fbbbb gbbbb fbvbb cnsbbbw rbbwb gbbbb fbvbb cewbbbw fbbvb cwebbwb cnsbbbb rbbbb
+rbbbb fbbbb cnsbbbb cewbbbb fvbbb cwebbbb cnsbbbb hbbbb cewwbbb fvbbb cwebbbb fbbbb
+cwebbbb hbbbb csnbbbb rbbbb obbbb fbbbb rbbbb csnbbbb rbbbb gbbbb csnbbbb rbbbb
+fbbbb gbbbb fbvbb fbbbw csnbbbb fbbbb obbbb fbvbb csnbbbw fbwbb fbbbv obbbb
+fbbbw fbbwb cnsbbbb gbbbb fbvbb hbbbw fbbwb cnsbwbb fbbbv obbbb cnsbbbb cewbbbb
+cewbbbb fvbbb cwebbbb rbbbb cnsbbbb cewbbbb fvbbb cwebbbb cnsbbbb rbbbb obbbb fbbbb
+cwebbbb obbbb rbbbb fbbbb hbbbb fbbbb gbbbb rbbbb fbbbb cewbbbb fbbvb cwebbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,11 3,1,9,11 3,1,10,2 3,1,2,5 

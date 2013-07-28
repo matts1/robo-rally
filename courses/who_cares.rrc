@@ -1,0 +1,42 @@
+name: Who Cares!
+description: Insert witty comment here!
+5 Flags, one moves.
+designed by i8flesh
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbwbb rbbbw fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbwbb rbbbw fbbbb
+fbbbb fbbbb xesbbbb xewbbbb xewbbbb xswbbbb xsebbbb xwebbbb xwebbbb xwsbbbb cesbbbb cewbbbb
+fbbbb fbbbb xnsbbbb obbbb obbbb xsnbwbb xsnbbbw rbbbb rbbbb xnsbbbb cnsbwbb fbbbw
+fbbbb fbbbb xnsbbbb obbbb obbbb xsnbbbb xsnbwbb fbbbw fbwbb xnsbbbw cnsbwbb fbbbl
+fbbbb rbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbpb xwebbvb xwebbpb xwebbvb
+fbbbb rbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwepbbb xwevbbb xwepbbb xwevbbb
+fbbbb fbbbb xsnbbbb gbbbb gbbbb xnsbbbb xnsbwbb fbbbw hblbb xsnbbbw csnbwbb fbbbw
+fbbbb fbbbb xsnbbbb gbbbb gbbbb xnsbwbb xnsbbbw rbbbb rbbbb xsnbbbb csnbwbb fbbbw
+fbbbb fbbbb xenbbbb xewbbbb xewbbbb xnwbbbb xnebbbb xwebbbb xwebbbb xwnbbbb cenbbbb cewbbbb
+fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb rbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb rbbbb fbbbb fbbbb fbwbb fbbbw gbbbb fbbbb fbbbb fbbbb fbbbb
+cewbbbb cswbbbb csebbbb cwebbbb cwebbbb cwsbbbb fbbbb gbbbb fbbbb fbbbb fbbbb fbbbb
+pbbbb csnbbbb csnbbbb rbwbb rbbbw cnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+hbwbb csnbbbw csnbbbb gbbbb obbbb cnsbbbb fbbwb gbbwb fbbbb fbbbb fbbbb fbbbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbvb xwepbbb xwevbbb xwebbwb xwebbwb xwebbwb xwebbwb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwevbbb xwebbpb xwebbvb xwewbbb xwewbbb xwewbbb xwewbbb
+fbbbb cnsbbbb cnsbbbb gbbbb obbbb csnbbbb fwbbb owbbb fbbbb fbbbb fbbbb fbbbb
+pbbbb cnsbbbb cnsbbbb rbwbb rbbbw csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+cewbbbb cnwbbbb cnebbbb cwebbbb cwebbbb cwnbbbb fbbbb obbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb obbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,7,9 3,2,5,5 3,1,8,9 3,2,5,1 3,1,8,8 
+start: 3,2,5,12 3,2,8,12 3,2,4,11 3,2,9,11 3,2,3,10 3,2,10,10 3,2,2,9 3,2,11,9 

@@ -1,0 +1,44 @@
+name: Counterwise
+description: "What goes around, comes around.
+... again, and again, and again..."
+1 Board; 4 Flags, 1 moving flag.
+2011 RoboRally Map Editing Contest
+Designed by Prefecta
+length: medium
+difficulty: expert
+players: 4 8
+rules: flagsmove
+newsboard:
+Starting Board 1
+6,1 7,1 4,2 9,2 2,3 11,3 1,4 12,4 
+pbbbb csebbbb cwebbwb fwbbb
+pbbbb csnbbbb fwbwb fbbbb
+csebbbb cwnbbbb fwbbb fbwbb
+csnbbbb fbbbb fbbbb fbbwb
+csnbbbb fbbbb fbbbb rwwbb
+fbbwb fbbwb fbbbb fbbbb
+fwbbb fwbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb rbwwb
+cnsbbbb fbbbb fbbbb fwbbb
+cnebbbb cwsbbbb fbbwb fbwbb
+pbbbb cnsbbbb fwbwb fbbbb
+pbbbb cnebbbb cwewbbb fbbwb
+endboard
+sboard: Starting Board 1
+newboard:
+blank board
+fbbbb fbbbb fbbbb xsebbbb xwebbwb xwewblb xwebbbb xwsbbbb pbbbb pbwbb fbbbw fbbbb
+xsebbbb xwebbbb xwebbwb xwnbwbb fwbbw fvbbb fbbwb xnebbbb xwebbwb xwebbbb xwsbbbb fbbwb
+xsnbbbl fblbb fwbbw fbbwb fbbbb pbbbb cewwbbb cewbbwb cswwbbb rbbbb xnsbbbb pwbbb
+xenbbwb xswbbbb obbbb flbbb fbbwb fbbwb fbbwb fwbbb csnbbbb fbbbb xnsbbbb fbbbb
+hwbww xsnbbbb fbwbb fbbbw fwbbb fwbbb fwbbb fbbbb csenbbbb cwebbbb xnwebbbb xwsbbbb
+fwbbb xsnbwbb fbbbp fbbbb gbbbb hbbvb obbbb fbbbb cenbbbb pbwbb pbbbl xnsbwbb
+fbbwb xsnbwbb fbbbp fbbbb obbbb rwbbb gbbbb fbbbb cesbbbb pbwbb pbbbl xnsbwbb
+hwbww xsnbbbb fbwbb fbbbw fbbwb fbbwb fbbwb fbbbb cnsebbbb cwebbbb xewsbbbb xnwbbbb
+xsewbbb xwnbbbb gbbbb fbbwb fwbbb fwbbb fwbbb fbbwb cnsbbbb fbbbb xnsbbbb fbbbb
+xsnbbbl fblbb fbbww fwbbb fbbbb pbbbb cewbbwb cewwbbb cnwbbwb rbbbb xnsbbbb pbbwb
+xenbbbb xewbbbb xewwbbb xswbwbb fbbww fbbvb fwbbb xesbbbb xewwbbb xewbbbb xnwbbbb fwbbb
+fbbbb fbbbb fbbbb xenbbbb xewwbbb xewlbwb xewbbbb xnwbbbb pbbbb pbwbb fbbbw hbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,6 3,1,1,12 3,1,6,12 3,1,12,12 

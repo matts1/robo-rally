@@ -1,0 +1,41 @@
+name: Octopus
+description: It's arms will ensnare and entangle you - 1 flag per arm - 1 option diving card suit per bot
+length: long
+difficulty: hard
+players: 4 8
+team: true
+rules: startoptions3c1 teamonetouchalltouch boardrotate50t1
+newsboard:
+blank starting board
+9,3 12,3 10,1 11,1 12,2 9,1 12,1 9,2 
+cesbbbb cewbbbb cewbbbb cswbbbb
+cnsbbbb cesbbbb cswbbbb csnbbbb
+cnsbbbb hbpbb csnbbbw csnbbbb
+cnebbbb cwebbbb cwnbbbb csnbbbb
+pbbbb pbbbb pbbbb csnbbbb
+cesbbbb cewbbbb cswbbbb cenbbbb
+cnsbbbb rbbpb cwnbbbb csebbbb
+cnebbbb cwewbbb cwebbbb cwnbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw xenwbbbb xenwbbbb xswbbbb
+fbbbw xewsbbbb xewsbbbb xenwbbbb
+fbbww fbbwb fbbwb fbwwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb pbbbb csebbbb cwsbbbb pbbbb pbbwb pbbbb csebbbb cwsbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb csnbbbb rbbpb fbbbb flbbb fbbbb rbbpb cnsbbbb pbbbb pbbbb pbbbb
+csebbbb cwsbbbb cenbbbb cewwbbb cswbbbb fbbbb cesbbbb cewwbbb cnwbbbb csebbbb cwsbbbb pbbbb
+rbbpb cnebbbb cwebbbb cwsbbbb csnbbbb fbbbb cnsbbbb csebbbb cwebbbb cwnbbbb rbbpb pbbbb
+fwbbb fbbbb fbbbb cnebbbb xesbbbb xsewbbbb xwsbbbb cwnbbbb fbbbb fbbbb ceswbbb cswbbbb
+cewbbbb cewbbbb cewbbbb xewsbbbb xnwsbbbb hbbbb xnsebbbb xwsebbbb cewsbbbb cewbbbb cnwbbbb csnbbbb
+cwsbbbb fbbbb fbbbb xnsbbbb xnebbbb xsewbbbb xnwbbbb xnsbbbb cnwbbbb csebbbb cwebbbb cwnbbbb
+cnsbbbb fbbbb csebbbb xnsbpbb obbbw xnsbbbb obwbb xnsbbbp cwsbbbb cenbbbb cewbbbb cswbbbb
+cnebbbb cwebbbb cwnbbbb xnsbbbb pbbbb xnwebbbb pbbbb xnsbbbb cnebbbb cwebbbb cwsbbbb rbbpb
+fbbbb fbbbb fbbbb xnsbbbb pbbbb hbbbb pbbbb xnsbbbb fbbbb cesbbbb cnwbbwb pwbbb
+xewbbbb fbbbb xewbbbb xnwebbbb xewbbbb fbbbb xwebbbb xnwebbbb xwebbbb cnebbbb cwnpbbb pbbbb
+pbbbw pbbbb pbwbb fbbbl fbbbb fbbbb fbbbb fblbb fbbbw pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,2 3,1,10,9 3,1,5,10 3,1,2,8 3,1,5,1 3,1,2,4 3,1,4,6 3,1,12,6 

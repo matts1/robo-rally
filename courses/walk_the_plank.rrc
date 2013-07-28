@@ -1,0 +1,39 @@
+name: Walk the Plank
+description: Enter description
+length: long
+difficulty: expert
+players: 2 4
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb xsebbbb
+fbbbb fwbwb fbbbb xsnbbbb
+fbbbb fwbbb fbbbb xsnbbbb
+fbbbb fbbwb fbbbb xsnbbbb
+fbbbb fwbbb fbbbb xsnbbbb
+fbbbb fbbwb fbbbb xsnbbbb
+fbbbb fwbbb fbbbb xsnbbbb
+fbbbb fbbwb fbbbb xsnbbbb
+fbbbb fwbbb fbbbb xsnbbbb
+fbbbb fbbwb fbbbb xsnbbbb
+fbbbb fwbwb fbbbb xsnbbbb
+fbbbb fwbbb fbbbb xenbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xwebbwb xwsbbbb fbbbb fbbbb fbbbb fbbbb fbbvb fbbpb fbbbb fbbbb fbbbb fbbbb
+fwbbb xnsbbbb fbbbb fbbbb fbbbb csebbbb cwepbbb cwevbbb cwsbbbb fbbbb fbbbb fbbwb
+fbbbb xnsbbbb fbbbb csebbbb cwebbbb obbbb pbbbb pbbbb pbbbb pbbbb fbbbb flbbb
+fbbbb xnsbbbb fbbbb csnbbbb rbbbb pbbbb pbbbb pbbbb pbbbb pbbbb hbbbb fbwbb
+fbbbb xnsbwbb fbwbw csnbbbp pbbbb pbbbb pbbbb pbbwb pbbbb pbbbb pbbbb fbbbb
+fbbbb xnsbwbb fbwbw csnbbbv pbbbb pbbbb pbbbb fdbwb fbbbb fbbbb fbbbb fbbbb
+fbbbb xnsbwbb fbwbw csnbbbp pbbbb pbbbb pbbbb pwbbb pbbbb pbbbb pbbbb fbbbb
+fbbbb xnsbbbb fbbbb csnbbbb rbbbb pbbbb pbbbb pbbbb pbbbb pbbbb hbbwb fbwbb
+fbbbb xnsbbbb fbbbb cenbbbb cewbbbb obbbb pbbbb pbbbb pbbbb pbbbb fwbbb fbbbb
+fbbbb xnsbbbb fbbbb fbbbb fbbbb csnbbbb pbbbb pbbbb cnsbbbb fbbbb fbbbb fbbwb
+fbblb xnsbbbb fbbbb fbbbb fbbbb cenbbbb cewbbpb cewbbvb cnwbbbb fbbbb fbbbb fwbbb
+xewwbbb xnwbbbb fbbbb fbbbb fbbbb fbbbb fvbbb fpbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,12 3,1,11,12 3,1,6,3 3,1,6,8 

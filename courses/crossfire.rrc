@@ -1,0 +1,43 @@
+name: Crossfire!
+description: -Extremely difficult board, with perils galore.
+-1/2 race, 1/2 deathmatch
+-4 flags
+*Treacherous*
+-This board was created by rcpete22
+length: medium
+difficulty: expert
+players: 4 8
+newsboard:
+blank starting board
+6,1 7,1 5,1 8,1 4,1 9,1 3,1 10,1 
+fbbbb csnbbbb fbbwb fbbbb
+fbwwb csenbbbw cwswwbb fbbww
+fwbwb gbbbb cnsbbbb csnwbbb
+fwbwb obbbb cnsbbbb csnbbbb
+fwbwb gbbbb cnsbbbb csnbbbb
+fwbwb obbbb cnsbbbb cwnbbbb
+fwbwb gbbbb csnbbbb cwsbbbb
+fwbwb obbbb csnbbbb cnsbbbb
+fwbwb gbbbb csnbbbb cnsbbbb
+fwbwb obbbb csnbbbb cnsbbwb
+fwwbb cnsebbbw cwnbwwb fwbbw
+fbbbb cnsbbbb fwbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cwsbwbb fvbbw fbbbb fbbbb fbbbb pbbbb cewbbbb cewbbbb cswbbbb fbbbb fbbbb fbbbb
+cnebbwb cwebbbb pbbbb fbbwb fbbbb pbbbb cwebbbb cwebbbb cwnbbwb pbbbb fbpbb fbbbp
+fwwbb pbbbw hbbbb cswwbbb fbbbb obbbb fbbbb fbbbb cselbbb hbwbb fbbbw fbbbb
+fbbbb fbwbb cenbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cwnblbb fbbbw obbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbwbb fbbbw fbbbb fbbbb fbwbb hbbbv pbbbb fbbbb gbbbb pbbbb pbbbb
+fbbbb fbwbb gbbbw fbbbb pbbbb hbvbb fbbbw fbbbb fbbbb fbbbb cnsbbbb csnbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb fbbbb cnsbbbb csnbbbb
+fbbbb fbwbb cesbbbl fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cwsbwbb cnebbbw cwnbbbb
+fbwwb pbbbw hbbbb cnwbblb pbbbb fbbbb obbbb fbbbb cnebbwb hbbwb pbbbb fbbbb
+csewbbb cwebbbb pbbbb fwbbb fbbpb fbbbb pbbbb fbbbb fwbbb fwbbb fbbpb fbbbb
+cwnbwbb fbbbw fbbbb fbbbb fpbbb fbbbb pbbbb fbbbb gbbbb fbbbb fpbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,12,12 3,1,1,2 3,1,1,12 3,1,12,2 

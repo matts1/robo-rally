@@ -1,0 +1,40 @@
+name: The Technodrome
+description: The Technodrome is a four flag map. When a Player touches a flag there is a 25% chance that the board will rotate, changing the balance. The map was made by paniliop and submitted at the GTO 2012 RoboRally Map  Editing Contest. Enjoy!
+length: short
+difficulty: hard
+players: 2 8
+rules: boardrotate25t3
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+xsnbbbb fbbbb xsnbwbb pbbbw
+xsnbbbb fbbbb xsnbwbb pbbbw
+xsnbbbb fbbbb xsnbbbb obbbb
+xsnbbbb fbbbb xsnbwbb pbbbw
+xenbbbb xewbbbb xsnbbbb pbbbb
+fbbbb fbbbb xensbbbb xewbbbb
+fbbbb fbbbb xensbbbb xewbbbb
+xesbbbb xewbbbb xnsbbbb pbbbb
+xnsbbbb fbbbb xnsbwbb pbbbw
+xnsbbbb fbbbb xnsbbbb fbbbb
+xnsbbbb fbbbb xnsbwbb pbbbw
+xnsbbbb fbbbb xnsbwbb pbbbw
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xesvbbb xewbbwb cewbbwb cewbbbb cewbbbb xewpbbb xewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb
+xnsbbbb pwbbb rwwbb csnbwbw pbbbw pbbbb pbbbb pbbbb csnbbbb pbbbb pbbbb fbvbb
+xnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+xnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+xnsbwbb hbtbw fbbbp csnbbbb fbbwb fbbwb fbbwb fbbwb csnbwbb fblbw rbbbw gbbbb
+xnwbbbb fbbbb fbbbb fbbbb fwbbb fdbbb fwbbb fdbbb fbbbb fbbbb fbbbb hbwbb
+xswbbbb fbbbb fbbbb fbbbb fbbdb fbbwb fbbdb fbbwb fbbbb fbbbb fbbbb hbwbb
+xsnbwbb hbtbw fbbbp cnsbbbb fwbbb fwbbb fwbbb fwbbb cnsbwbb fblbw pbbbw pbbbb
+xsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+xsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+xsnbbbb pbbwb rbwwb cnsbbbw pbbbb pbbbb pbbbb pbbbb cnsbbbb pbbbb pbbbb fbvbb
+xenbbbb xewwbbb cewwbbb cewbbbb cewbbpb xewbbbb xewbbvb cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,6 3,1,8,7 3,1,3,10 3,0,10,4 

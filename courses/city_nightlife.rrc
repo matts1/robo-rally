@@ -1,0 +1,40 @@
+name: New Course
+description: Enter description
+length: short
+difficulty: easy
+players: 2 8
+rules: flagsmove
+newsboard:
+line start blank
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+fbbbb hblbb fbbbw fbbbb
+fbbbb csebbbb cwsbbbb fbbbb
+fbbbb csnbbbb cnebbbb cwsbbbb
+fbbbw csnbbbb fbbbb cnebbbb
+fbbbw csnbbbb obbbb fbbbb
+cewbbbb csnwbbbb fbbbb rbbwb
+gbbbw csnbbbb fbbbb fwbbb
+fbbbb csnbbbb gbbbb fbbbb
+csebbbb cwsnbbbb fbbbb fbblb
+cenwbbbb cenwbbwb cewsbbbb cewswbbb
+xsenbbbw xwewbbb xwenbbbb xwenbbbb
+cenbbwb cewbbwb cewbbwb cewbbwb
+endboard
+sboard: line start blank
+newboard:
+blank board
+fbbbb gbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cesbbbb cswbbbb rwbbb fbwbb
+fbwwb fbbbl fbbbb fbbbb fbwbb fbbbw fbbbb fbbwb cnsbvbb csnbwbw fbbbw xsebbbb
+hwwbb fbbbw fbbbb fbbbb cesbbbb cwsbbbb fbbbb rwbbb cnsbwbb csnbwbw fbbbw xsenbbbb
+cwsbwbb fbbbw obbwb cesbbbb cenwbbbb cnwebbbb xswbbbb fbbbb cnsbwbb csnbwbw xesbbbw xnwsbwbb
+cnebbbb cwsbbbb fwbbb xnsbbbb rbwbb hbbww xsnbbbb obbbb cnsbwbb csnbwbw xnsbbbw xnebbwb
+fbblb cnsebbbb cwsbwbb cnsbbbv fbbbb rwbbb xsnbbbb fbbbb cnsbwbb csnbwbw xnsbwbw hwbbl
+rwbbb xnsbbbb cnebbbb xnwsbwbb rbbbw fbbwb xsnbbbb fbbwb cnsbpbb csnbwbw xnsbbbw fbbbb
+fbbbb xnsbbbb fbbwb cnsbbbb fbbbb rwbbb xenbbwb cewswbbb cnwsbwwb csnbbbw xnsbbbb fbbbb
+csebbbb xnsbbbb cwewbbb xnsbbbb cwebbwb cwebbbb hlbbb cnsebbbb cwsewbbb csnbbbb xnsebbbb xwebbwb
+csnwbwbb xnsbbbw fbpbb cnsbbbw fwbbb fbbbb cesbbbb csnwbwbb cnsbwbw cnsbbbw xnsbwbb hwbbl
+xwsnbbwb censbbbb cswbbbb xnsebbbb xwsbbwb cesbbwb cnwsbbbb censbbwb cnwsbwbb cnsbbbw xnsebbwb xwsbbbb
+cewwbbb cnwsbbwb censbbwb cewbbwb cewwbbb cewwbbb cewbbwb cewwbbb cewbbwb cewbbwb cewwbbb cnwbwbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,11,5 3,1,11,6 3,1,7,3 

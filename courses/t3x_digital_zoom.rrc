@@ -1,0 +1,26 @@
+name: 3x Digital Zoom
+description: New camera? Cool. Let me try it out. Which button do you push to, you know, take a picture?
+2011 RoboRally Map Editing Contest Entry
+Designed by damgenius
+length: short
+difficulty: easy
+players: 2 4
+rules: flagsmove
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb xsebbbb xwebbbb xwebbbb xwebwbb pbbbw xwebbbb xwebbbb xwebbbb xwebbbb xwsbbbb fbbbb
+fbbbb xsnbbbb rbbbb fbbbb cnsbbwb rbbbb fbbbb fbbbb fbbbb rbbbb xnsbbbb fbbbb
+fbbbb xsnbbbb fbbbb xesbbbb xewwbbb xewbbbb xewbbbb xewbbbb xswbbbb fbbbb xnsbbbb fbbbb
+fbbbb xsnbbbb fbbbb xnsbbbb fbbbb fbbbb fbbbb rbbbb xsnbbbb fbbbb xnsbbbb fbbbb
+fbbbb xsnbbbb fbbbb xnsbbbb fbbbb xsebbbb xwsbbbb cwebwbb xsnbbbw fbbbb xnsbbbb fbbbb
+fbbbb xsnbbbb fbbbb xnsbbbb fbbbb xenbbwb xnwbbbb fbbbb xsnbbbb fbbbb xnsbbbb fbbbb
+fbbbb xsnbbbb fbbbb xnsbbbb fbbbb csnwbbb rbbbb fbbbb xsnbbbb fbbbb xnsbbbb fbbbb
+fbbbb xsnbbbb fbbbb xnebbbb xwebbbb xwebwbb pbbbw xwebbbb xwnbbbb fbbbb xnsbbbb fbbbb
+fbbbb xsnbbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb xnsbbbb fbbbb
+fbbbb xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,8 3,1,8,6 3,1,3,5 
+start: 3,1,3,11 3,1,11,10 3,1,10,2 3,1,2,3 

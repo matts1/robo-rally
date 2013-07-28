@@ -1,0 +1,39 @@
+name: Ruins
+description: Five flags on a fast map. Three double-wrenches.
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb xsnbbbb csnbwbb
+fbbbb fwbbb xsnbbbb csnbbbb
+fbbbb fbbbb xsnbbbb csnbwbb
+fbbbb fbbwb xsnbbbb csnbbbb
+fbbbb fwbbb xenbbbb xswbwbb
+fbbbb fbbwb fbbbb cnsbbbb
+fbbbb fwbbb fbbbb csnbbbb
+fbbbb fbbbb xesbbbb xnwbbbb
+fbbbb fbbwb xnsbbbb cnsbbbb
+fbbbb fwbbb xnsbbbb cnsbwbb
+fbbbb fbbwb xnsbbbb cnsbbbb
+fbbbb fwbbb xnsbbbb cnsbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsewbbw xwebbbb xwewbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbwb xwebbbb xwswwbb
+xsnbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbdbb fbbbw fbbbb hvbbb pbbbb xnsbpbb
+xenbbww xewbbbb xswbbbb fbbbb gbbbb xesbbbb xewbbwb xewbbwb xewbbbb xewbbbb xewbbbb xnwbbwb
+fwbbb xsebbbb xwnbbwb obbbb fbbwb xnsbbbb xsewbbb xwewbbb xwebbwb xwebbwb xwebbwb xwswwbb
+xsebbbw xwnbbbb gwwbb gbbbw fwbbb xnsbwbb xsnbbbw rbbbb gwbbb owbbb fpwbb xnsbbbw
+xsnbwbb obbww csebbbb cwsbbbb obbwb xnsbbbb xsnbbbb obbwb cesbbbb cswbbbb gbwbb xnsbbbw
+xsnbwbb gwbbw cenbbbb cnwbbbb gwbbb xnsbbbb xsnbbbb owbbb cnebbbb cwnbbbb gbbbb xnsbbbb
+xenbbbb xswbbbb obwwb obbww fbbbb xnsbwbb xsnbbbw hbbvb gbpwb obbbw rbwpb xnsbbbw
+fbwbb xenbbww xewwbbb xewwbbb xewbbwb xnwbbwb xsnbbbb fwbbb xeswbbb xewbbbb xewwbbb xnwbbwb
+xsebbbw xwewbbb xwebbbb xwebbbb xwewbbb xwewbbb xwnbbbb fbbbb xnebbbb xwebbbb xwebbbb xwswwbb
+xsnbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbdbb fbbbw fbbbb hbbvb pbbbb xnsbpbb
+xenbbbw xewbbbb xewbbwb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewwbbb xewbbbb xnwbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,5 3,1,8,5 3,1,11,2 3,1,5,11 3,1,2,2 

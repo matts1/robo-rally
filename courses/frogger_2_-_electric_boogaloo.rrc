@@ -1,0 +1,59 @@
+name: Frogger2: Electric Boogaloo
+description: Get accross those roadways
+and get the flags.
+This time with some lasers.
+By: PopeScooby
+length: long
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+xewwbbb xewwbbb xewwbbb xewwbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbwb xewbbwb xewbbwb xewbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+csnwbbb cnswbbb xsnwbbb xnswbbb fwbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb rwbwb xsnwbbb
+csnbbbb cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb gwbwb xsnbbbb
+csnbbbb cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb rwbwb xsnbpbb
+csnbbbb cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb flbwb xsnbbbb
+csnbbbb cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb hwbwb xsnbvbb
+csnbbbb cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb gwbwb xsnbbbb
+csnbbbb cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb hwbwb xsnbvbb
+csnbbbb cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb owbwb xsnbbbb
+csnbbbb cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb rwbwb xsnbpbb
+csnbbbb cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb flbwb xsnbbbb
+csnbbbb cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb rwbwb xsnbwbb
+csnbbwb cnsbbwb xsnbbwb xnsbbwb fbbwb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb owbwb xsnbbwb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+csnwbbb cnswbbb xsnwbbb xnswbbb fwbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb rwbwb xsnwbbb
+csnbbbb cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb gwbwb xsnbbbb
+csnbbbw cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb rwbwb xsnbpbb
+csnbbbb cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb flbwb xsnbbbb
+csnbbbw cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb hwbwb xsnbvbb
+csnbbbb cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb gwbwb xsnbbbb
+csnbbbw cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb hwbwb xsnbvbb
+csnbbbb cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb owbwb xsnbbbb
+csnbbbw cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb rwbwb xsnbpbb
+csnbbbb cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb flbwb xsnbbbb
+csnbbbw cnsbbbb xsnbbbb xnsbbbb fbbbb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb rwbwb xsnbwbb
+csnbbwb cnsbbwb xsnbbwb xnsbbwb fbbwb fbbbb csnbbbb cnsbbbb csnbbbb cnsbbbb owbwb xsnbbwb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,3,11 3,1,9,11 3,2,9,11 3,1,3,11 3,2,1,9 3,1,12,8 

@@ -1,0 +1,43 @@
+name: Factory Tour
+description: Take a tour of the factory! Here you will see how bots are manufactured to exact specifications.
+
+4 Flags.
+No special rules.
+designed by i8flesh
+length: medium
+difficulty: mid
+players: 2 4
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbwbb fbbbp cwebbbb cwebbwb
+fbbbb fbbbb fbbbb fwbbb
+fbwbb fbbbp fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+hbvbb fbbbp cewbbbb cewbbbb
+hbvbb fbbbp cewbbbb cewbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbwbb fbbbp fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbwb
+fbwbb fbbbp cewbbbb cewwbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+csebbbb cwsbwbb fbbbw csebbbb cwsbbbb fbbbb fbwwb csebbbw cwsbbbb fbbwb fbbbb fbbbb
+cwnbwwb cnebbww cwebbbb cwnbbbb cnebbbb cwebbbb cwewbwb cwnbwwb cnebbww xwevbbb xwsbbbb fbbbb
+fwbbb fwbwb rbbbb fbbbb fbbwb rbbbb fwbwb fwbbb fvwbb fbbbw xnebbbb xwsbbbb
+fbbbb fvbbb cwebbbb cwebbbb cwevbbb cwebbbb fvbbb fbbbb fbbbb obbbb xesbbbb xnwbbbb
+fbbbl fbbbb fbbwb fbbbb fbbbb fbbwb fbbbb fbwbb gbbbw fbbbb xnsbbbb fbbbb
+xewbbbb xewbbbb gwbbb gbbbb gbbbb gwbbb xewbbbb xewbbbb cewbbbb cewbbbb cnwbbbb fbbbb
+xewbbbb xewbbbb obbwb obbbb obbbb obbwb xewbbbb xewbbbb cewbbbb cewbbbb cewsbbbb cewbbbb
+fbbbl fbbbb fwbbb fbbbb fbbbb fwbbb fbbbb fbwbb gbbbw fbbbb xnsbbbb fbbbb
+fbbbb fbbvb cwebbbb cwebbbb cwebbvb cwebbbb fbbvb fbbbb fbbbb obbbb xnebbbb xwsbbbb
+fbbwb fwbwb rbbwb fbbbb fwbbb rbbbb fwbwb fbbwb fbwvb fbbbw xesbbbb xnwbbbb
+cswwbbb ceswbbb cewwbbb cswbbbb cesbbbb cewbbbb cewwbwb cswwwbb ceswbbw xewbbvb xnwbbbb fbbbb
+cenbbbb cnwbwbb fbbbw cenbbbb cnwbbbb fbbbb fwwbb cenbbbw cnwbbbb fwbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,10 3,1,1,3 3,1,12,3 3,1,6,5 

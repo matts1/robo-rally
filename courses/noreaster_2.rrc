@@ -1,0 +1,43 @@
+name: Nor'Easter 2
+description: 4 Flags, 1 Option,
+9 Repairs/Archives
+Navigate Through the Noreaster If you Dare. 
+2012 Map Contest Entry
+By MadRammer
+length: medium
+difficulty: hard
+players: 4 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb cewbbbb
+fbbbb fbbbb fbbbb obbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb gbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb obbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb gbbbb
+fbbbb fbbbb fbbbb cewbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb cewbbbb cswbbbb fbwbb obbbw fbbbb gbbbb cnsbbbb cesbbbb cewbbbb cswbbbb
+rbbbb obbbb fbbbb csnbbbb fbbbb xsebbbb cwsbbbb fbbbb cnsbvbb cnebbbw cwsbbbb rbwbb
+obbbb fbbbb fbbbb fbbbb fbbbb cenbbbb xnwbbbb obbbb cnsbbbb fbbbb cnsbbbb gbbbb
+gbbbb fbwbb fbbbw fbbbb pbbbb xesbbbb cswbbbb fbbbb cnsbbbb cesbbbb cswbbbb fbbbb
+rbbbb gbbbb fbbbb fbbbb fbbbb cnebbwb xwnbbbb fbbbb cnsbbbb cnebbbb cwnbbbb rbwbb
+gbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewdbbb xewbbbb xewbbbb obwbb hbbbw cnsbbbb fbbbb
+obbbb fbwbb fbbbw fbbbb fbbbb fbbwb rbbbb fbbbb gbbbb csebbbb cwsbbbb fbbbb
+rbbbb obbbb fbbbb fbbbb fbbbb csewbbb xwsbbbb fbbbb csnbbbb cenbbbb cnwbbbb rbwbb
+obbbb fbwbb fbbbw fbbbb pbbbb xenbbbb cnwbbbb fbbbb csnbbbb cesbbbb cnwbbbb fbbbb
+gbbbb fbbbb fbbbb fbbbb fbbbb cesbbbb xswbbbb gbbbb csnbbbb cnebbbb cwsbbbb obbbb
+rbbbb gbbbb fbbbb cnsbbbb fbbbb xnebbbb cwnbbbb fbbbb csnbvbb cesbbbw cnwbbbb rbwbb
+fbbbb fbbbb cewbbbb cnwbbbb fbbwb gbbbb fbbbb obbbb csnbbbb cnebbbb cwebbbb cwnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,3 3,1,3,10 3,1,12,7 3,1,1,7 

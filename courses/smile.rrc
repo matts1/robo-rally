@@ -1,0 +1,43 @@
+name: Smiley  Face
+description: Enter description
+Smile As You Watch Your Opponents Fall
+3 options, 5 repairs, 4 Flags
+Beware of the Pits
+Created By: Mongo441
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+xsnbbbb fbbwb fbbbb fbbbb
+xsnbwbb fwbww fbbbb fbbbb
+xsnbvbb fwbbw fbbbb fbbbb
+xsnbbbb fbbwb fbbbb fbbbb
+xsnbbbb fwbbb fbbbb fbbbb
+xsnbbbb fbbwb fbbbb fbbbb
+xsnbvbb fwbww fbbbb fbbbb
+xsnbwbb fwbbw fbbbb fbbbb
+xsnbbbb fbbwb fbbbb fbbbb
+xsnbvbb fwbbw fbbbb fbbbb
+xsnbbbb fbbwb fbbbb fbbbb
+xenbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+csnbwbb fbbbw obbbb hbbbb fbbbb fbbbb fdbbb fbbbb fbbbb hbbbb obbbb fbwbb
+fbbbb fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb fbbbb
+fbbbb fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb fbbbb
+fbbbb fbbbb gbbbb fbbbb fbbbb fbbbb fbbwb fbbbb fbbbb fbbbb obbbb fbbbb
+fbbbb fbbbb obbbb fbbbb fbbbb gbwbb pwwbw gbbbw fbbbb fbbbb gbbbb fbbbb
+cnsbbbb pbbbb fbbbb fbbbb fbbbb csnbbbb xnsbbbb cnsbbbb fbbbb fbbbb fbbbb pbbbb
+csnbbbb pbbbb rbbbb fbbbb fbbbb csnbbbb xnsbbbb cnsbbbb fbbbb fbbbb rbbbb pbbbb
+fbbbb pbbbb pbbbb pbbbb pbbbb csnbbbb xnsbbbb cnsbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb rbbbb xesbbbb xewbbbb xewbbbb cnwebbbb xewbbbb xewbbbb xswbbbb rbbbb fbbbb
+fbbbb fbbbb fbbbb cewbbbb cewbbbb cewbbbb csewbbbb cwebbbb cwebbbb cwebbbb gbbwb fbbbb
+cewbbbb cewbbbb cewbbbb xsnbbbb csnbbbb hbbbb csnbbbb rbbbb csnbbbb xsnbbbb cwewbbb cwebbbb
+cewbbbb cewbbbb cewbbbb xenbbbb xewbbvb xewbbbb xsewbbbb xwebbbb xwebbvb xwnbbbb cwebbbb cwebbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,8 3,1,10,12 3,1,5,6 3,0,10,1 

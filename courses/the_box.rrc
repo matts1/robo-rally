@@ -1,0 +1,42 @@
+name: The box
+description: 4 flags - 3 moving
+Start with 1 option card
+designed by timmonte
+length: long
+difficulty: mid
+players: 2 8
+rules: startoptions2c1 flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+csnbbbb fbbbb fbbbb fbbbb
+csnbbbb fbbbb fbbbb fbbbb
+csnbbbb fbbbb fbbbb fbbbb
+csnbbbb fbbbb fbbbb fbbbb
+cenbbbb cewbbbb cswbbbb fbbbb
+obbbb fbbbb csnbbbb fbbbb
+gbbbb fbbbb cnsbbbb fbbbb
+cesbbbb cewbbbb cnwbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+csnbbbb xnsbbbb fbbbb fbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwsbbbb hbbbb
+csnbbbb xnsbbbb fbbbb fbbbb fbbbb fbbwb fbbwb fbbbb fbbbb fbbbb cnebbbb cwebbbb
+csnbbbb xnsbbbb fbbbb xsebbbb xwebbbb xwelbbb xwepbbb xwebbbb xwsbbbb fbbbb fbbbb fbbbb
+csnbbbb xnsbbbb fbbbb xsnbbbb hbbbb fbbbb fbbbb rbbbb xnsbbbb fbbbb fbbbb fbbbb
+csnbbbb xnsbbbb fbwbb xsnbbbv fbbbb fbbbb fbbbb fbbbb xnsblbb fbbbw cesbbbb cewbbbb
+csnbbbb xnsbbbb fbbbb xsnbwbb fbbbw obbbb gbbbb fbbbb xnsbbbb fbbbb cnsbbbb fbbbb
+csnbbbb xnsbbbb fbbbb xsnbwbb fbbbw gbbbb obbbb fbbbb xnsbbbb fbbbb cnsbbbb pbbbb
+csnbbbb xnsbbbb fbwbb xsnbbbl fbbbb fbbbb fbbbb fbbbb xnsbvbb fbbbw cnsbbbb fbbbb
+csnbbbb xnsbbbb fbbbb xsnbbbb rbbbb fbbbb fbbbb hbbbb xnsbbbb fbbbb cnsbbbb hbbbb
+csnbbbb xnsbbbb fbbbb xenbbbb xewbbbb xewbbpb xewbblb xewbbbb xnwbbbb fbbbb cnsbbbb fbbbb
+csnbbbb xnsbbbb fbbbb fbbbb fbbbb fwbbb fwbbb fbbbb fbbbb fbbbb cnsbbbb pbbbb
+csnbbbb xnsbbbb fbbbb fbbbb csebbbb cwebbbb cwebbbb cwebbbb cwsbbbb fbbbb cnsbbbb hbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,8 3,1,12,11 3,1,2,12 3,1,12,9 

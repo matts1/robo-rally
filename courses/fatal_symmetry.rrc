@@ -1,0 +1,39 @@
+name: Fatal Symmetry
+description: Symmetric lasers, symmetric belts, symmetric board, dead bots.
+length: long
+difficulty: hard
+players: 2 6
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fwwbb hbbww fbbbb
+fbbbb fbbbb fwwbb fbbbw
+fbbbl obbbb fbwbb fbbbw
+fbbbb fbwbb rbbbp fbbbb
+fbbbl gbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb fbbbv
+fbbbb fbbbb fbwbb fbbbv
+fbbbl gbbbb fbbbb fbbbb
+fbbbb fbwbb rbbbp fbbbb
+fbbbl obbbb fbwbb fbbbw
+fbbbb fbbbb fbwwb fbbbw
+fbbbb fbwwb hwbbw fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb hbwbb flbbw fbbbb fbbbb pwbbb hbbbb pwbbb fbbbb fbbbb
+cewbbwb fbblb fbbpb xsebbbb cwsblbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb pbwbb
+fwbbb fdbbb fvbbb xsnbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwsbbbb fbbbb fbbbb fbpbb
+obbwb fbbwb fbbbb xsnbbbb fbbbb fbbbb fbbbb gbbbb cnebbbb cwsbbbb fbbbb pbbbb
+fwbbb fwbbb fbbbb xsnbwbb hbbww fbbwb fbbbb fbbbb fbwbb cnsbbbv fbbbb pbbwb
+fbbwb fbbwb fbbvb xensbbbb cewwbbb xewlbwb xewbbbb xewbbwb xewbbwb cnwbbwb fbbwb rlbbb
+fwbbb fwbbb fvbbb xensbbbb cewbbwb xewwblb xewbbbb xewwbbb xewwbbb cswwbbb fwbbb rbblb
+fbbwb fbbwb fbbbb xnsbwbb hwbbw fwbbb fbbbb fbbbb fbwbb csnbbbv fbbbb pwbbb
+owbbb fwbbb fbbbb xnsbbbb fbbbb fbbbb fbbbb gbbbb csebbbb cwnbbbb fbbbb pbbbb
+fbbwb fbbdb fbbvb xnsbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwnbbbb fbbbb fbbbb fbwbb
+cewwbbb flbbb fpbbb xnebbbb cwnblbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb pbwbb
+fbbbb fbbbb fbbbb hbwbb fbblw fbbbb fbbbb pbbwb hbbbb pbbwb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,12 3,1,12,5 3,1,1,5 3,1,12,12 

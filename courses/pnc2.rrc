@@ -1,0 +1,42 @@
+name: Pits and Consequences
+description: designed by i8flesh.
+The course has 5 flags, which move.
+It also has 16 pits, that do not.
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbwbb fbbbw fpbbb fbbbb fbbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbbbb
+pbwbw fbbbw fbwbb fbbbw fbbbb fbwbb pwbbw fbbbb fbwbb fbwbw fbbbw fbbbb
+fbbvb fbbbb rbbbb fbbpb fbbbb fbbbb fbbpb fbbbb fbbbb fbbbb fbbbb fbbbb
+fvbbb fbbbb fbbbb fpbbb fbwbb fbbbw fwbwb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbwbw fbbbw fbwbb pbbbw fbbbb fbwbb fwbbw fbbbb fbwbb pbwbw fbbbw fbbbb
+fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbwb fbbbb rbbbb fbbvb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fpbbb fbbbb rbbbb fvbbb fbbbb fbbbb
+pbwbw fbbbw fbwbb fbbww fbbbb fbwbb pbbww fbbbb fbwbb fbwbw fbbbw fbbbb
+fbbvb fbbbb fbbbb fwbpb fbwbb fbbbw fwbwb fbbbb fbbbb fbbbb fbbbb fbbbb
+fvbbb fbbbb rbbbb fpbbb fbbbb fbbbb fpbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbwbw fbbbw fbwbb pbbbw fbbbb fbwbb fbbww fbbbb fbwbb pbwbw fbbbw fbbbb
+fbbbb fbwbb fbbbw fbbpb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,11 3,1,7,1 3,1,7,8 3,1,9,2 3,1,4,9 

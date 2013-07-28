@@ -1,0 +1,41 @@
+name: Tunnel Sabotage
+description: Blue team (the Insurrection) sets the bombs--if they all turn blue the bombs blow up the city! Red team (the Bomb Squad) stops the terror--if all flags turn red the bomb squad saves the city.
+length: medium
+difficulty: hard
+players: 4 8
+team: true
+rules: teamflagtoggle
+newsboard:
+blank starting board
+9,1 10,2 11,3 12,4 4,1 3,2 1,4 2,3 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbwb fbbwb fbbwb fbbwb
+fwbbb fwbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbwb fbbwb fbbwb fbbwb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fpbbb pwbbb pwbbb fpbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbwbb fbbbw fbwbb fbbbw fbwbb fbbbw fbwbb fbbbw fbwbb fbbbw fbbbb
+fbbwb pbwwb hbbbw fbwbb fbbbw fbwbb fbbbw fbwbb fbbbw hbwbb hbbbw fbbbb
+fwbbb pwwbb fbbbw fbwbb fbbbw hbwbb hbbbw fbwbb fbbbw fbwbb fbbbw fbbbb
+fbbbb fbwbb fbbbw fbwbb fbbbw fbwbb fbbbw fbwbb fbbbw fbwbb fbbbw fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbpb pbbwb pbbwb fbbpb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fwbbb fwbbb fwbbb fwbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,4 3,1,6,5 3,1,6,8 3,1,7,9 3,1,7,12 3,1,1,7 3,1,12,7 

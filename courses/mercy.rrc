@@ -1,0 +1,40 @@
+name: W_B's Mercy
+description: No options, damage control, no pits, almost no way to push other people off the board....WHAT WILL YOU DO WHEN YOU ACTUALLY HAVE TO GET THE FLAGS!?!
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+cewbbbb fbbbb fbbbb fbbbb
+cewbbbb fbbbb fbbbb fbbbb
+cewbbbb fbbbb fbbbb fbbbb
+cewbbbb fbbbb fbbbb fbbbb
+cewbbbb fbbbb fbbbb fbbbb
+cewbbbb fbbbb fbbbb fbbbb
+cewbbbb fbbbb fbbbb fbbbb
+cewbbbb fbbbb fbbbb fbbbb
+cewbbbb fbbbb fbbbb fbbbb
+cewbbbb fbbbb fbbbb fbbbb
+cewbbbb fbbbb fbbbb fbbbb
+cewbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsnbbbb xsnbwbb rwbbw rwbbb rwbbb rwbbb rwbbb rwbbb rwbbb rwbbb rwbbb rwwbb
+xsnbbbb xsnbwbb rbbbw rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbwbb
+csnbwbb cenbdlt rbbbw rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbwbb
+fbbbb cwewbbb rbbbb rbwbb csebbbw cwsbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwsbwbb
+fbbbb cwebbbb rbbbb rbwbb csnbbbw cnsbbbb xsnbbbb xesbbbb xewbbbb xewbbbb xswbbbb xnsbwbb
+fbbbb cwebbbb rbbbb cnsbwbb csnbbbw cnsbbbb xsnbbbb xnsbbbb csebbbb cwsbbbb xsnbbbb xnsbwbb
+fbbbb cwebbbb rbbbb csnbwbb csnbbbw cnsbbbb xenbbbb xnwbbbb csnbbbb cnsbbbb xsnbbbb xnsbwbb
+fbbbb cwebbbb rbbbb rbwbb csnbbbw cnebbbb cwebbbb cwebbbb cwnbbbb cnsbbbb xsnbbbb xnsbwbb
+fbbbb cwebbwb rbbbb rbwbb cenbbbw cewbbbb cewbbbb cewbbbb cewbbbb cnwbbbb xenbbbb xnwbwbb
+cnsbwbb cesldbt rbbbw rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbwbb
+xnsbbbb xnsbwbb rbbbw rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbwbb
+xnsbbbb xnsbwbb rbbww rbbwb rbbwb rbbwb rbbwb rbbwb rbbwb rbbwb rbbwb rbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,9,10 3,1,4,7 3,1,4,6 3,1,9,11 

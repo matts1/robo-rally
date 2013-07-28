@@ -1,0 +1,40 @@
+name: Team Demolition Derby
+description: 1 Board, No Flags.  Gonna hit you with a 4x12!  Special rules: 2 team deathmatch, all have double barrel lasers, all start with one of a choice of three option cards.  Designed by CaptainColeslaw
+length: medium
+difficulty: easy
+players: 4 8
+team: true
+rules: teamanywinallwin startoptions3c1 lasermultiplier2
+newsboard:
+Demolition Derby
+5,3 8,3 8,2 5,2 6,3 7,3 6,2 7,2 
+hbbbb fbbwb fbbwb hbbbb
+fbbbb cwewbbb flbbb fbbbb
+fbbbb fbblb cewbbwb fbbbb
+fbbbb fwbbb fwbbb fbbbb
+fbbbb fbwbb fbbbw fbbbb
+fbbbw fbbwb fbbwb fbwbb
+fbbbw fwbbb fwbbb fbwbb
+fbbbb fbwbb fbbbw fbbbb
+fbbbb fbbwb fbbwb fbbbb
+fbbbb flbbb cewwbbb fbbbb
+fbbbb cwebbwb fbblb fbbbb
+hbbbb fwbbb fwbbb hbbbb
+endboard
+sboard: Demolition Derby
+newboard:
+blank board
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board

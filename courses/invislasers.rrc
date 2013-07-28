@@ -1,0 +1,39 @@
+name: Invisi-Lasers
+description: Shut down often. With three invisible lasers this board will rip your bot to shreds.
+length: long
+difficulty: expert
+players: 4 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fdbbb fbbbb flbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb
+obbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+gbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb cnsbbbb obbbb fbbbb fbbbb fbbbb
+fbbbb cewbbbb cewbbbb cewbbbb cewbbwb cewbbbb cewbbbb cnwebbbb cwebbbb cwebbbb cwebbwb cwebbbb
+fbbbb fbbbb fbbbb fbbbb fpbbb fbbbb fbbbb fbbbb fbbbb fbbbb fpbbb fblbb
+fbbbb xewbbwb cewbbbb cewbbbb cewbbwb cewbbbb pbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+fbbbb rvbbb fbbbb fbbbb fvbbb fbbbb gbbbb fbwbb fbbbw fbbbb fbbwb fbbbb
+fbbwb xewbbwb cewbbwb cewbbbb cewbbbb pbbbb hbwbb obbbw fbbbb fbbbb fwbbb fbbbb
+fwbbb xewwbbb cewwbbb cewbbbb cewbbbb pbbbb hbwbb gbbbw fbbbb fbbbb fbbwb fbbbb
+fbbbb rbbvb fbbbb fbbbb fbbvb fbbbb obbbb fbwbb fbbbw fbbbb fwbbb fbbbb
+fbbbb xewwbbb cewbbbb cewbbbb cewwbbb cewbbbb pbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+fbbbb fbbbb fbbbb fbbbb fbbpb fbbbb fbbbb fbbbb fbbbb fbbbb fbbpb fblbb
+fbbbb cewbbbb cewbbbb cewbbbb cewwbbb cewbbbb cewbbbb csewbbbb cwebbbb cwebbbb cwewbbb cwebbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb csnbbbb gbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,11 3,0,6,1 3,1,1,7 3,1,12,7 

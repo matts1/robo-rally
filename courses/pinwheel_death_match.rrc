@@ -1,0 +1,40 @@
+name: Pinwheel Arena Death Match
+description: It looks easy, but the pushers, lasers, &
+open pits are dangerous.  Created by Zetan.
+length: medium
+difficulty: mid
+players: 4 8
+team: true
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwwbb
+fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb fbwbb
+fbbbw pbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb pbbbb fbwbb
+fbbbb fbbbb fbbbb fbwwb fbbbl fbbbb fbbbb fblbb fbbww fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb flbbb fbbbb fbbvb fbbpb fbbbb flbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb fbpbb fwbbw fwwbb fbbbv fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb fbvbb fbbww fbwwb fbbbp fbbbb fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbblb fbbbb fpbbb fvbbb fbbbb fbblb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fwwbb fbbbl fbbbb fbbbb fblbb fwbbw fbbbb fbbbb fbwbb
+fbbbw pbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb pbbbb fbwbb
+fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb fbwbb
+fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbwwb
+endboard
+board: 3,1 0 blank board

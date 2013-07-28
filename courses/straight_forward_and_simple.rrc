@@ -1,0 +1,43 @@
+name: Straight Forward and Simple
+description: Plenty of conveyors, and a few pits.
+Oh, and maybe a lazer or two.
+4 Flags.
+No special rules.
+designed by i8flesh
+length: short
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb cewbbbb cewbbbb cewbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb cewbbbb cewbbbb cewbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwewbbb cwebbbb
+rbbbb fbbbb fbbbb pbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb pbwbb fbbbw fbbbb fbbbb fblbb
+fbbbb fbbvb fbbbb pbbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+fbbbb fwbbb fbbbb rbbbb fbbbb fbbbb obwbb obbbw fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb rbwbw fbbbw fbbbb obbbb gbbbb gbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbwbb rbwbw fbbbw fbbbb gbbbb obbbb obbbb fbbbb fbbbb fbbbb
+fbbbb fbblb fbbbb rbbbb fbbbb fbbbb gbwbb gbbbw fbbbb fbbbb fbbbb fbbbb
+fbbbb fvbbb fbbbb pbbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb pbwbb fbbbw fbbbb fbbbb fblbb
+rbbbb fbbbb fbbbb pbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebblb cwebbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,11 3,1,9,2 3,1,8,12 3,1,4,2 

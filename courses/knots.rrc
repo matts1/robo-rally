@@ -1,0 +1,41 @@
+name: Knots
+description: 4 flags (3 moving)
+Designed by timmonte
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+4,2 9,2 3,2 10,2 2,2 11,2 1,2 12,2 
+xsnbbbb fbbbb fbbbb xsnbbbb
+xsnbbbb fbbbb fbbbb csnbbbb
+xsnbbbb fbbbb fbbbb csnbbbb
+csnbbbb fbbbb fbbbb cenbbbb
+csnbbbb gbbbb fbbbb fbbbb
+cenbbbb cewbbbb fbbbb fbbbb
+cesbbbb cewbbbb fbbbb fbbbb
+cnsbbbb obbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb cesbbbb
+xnsbbbb fbbbb fbbbb cnsbbbb
+xnsbbbb fbbbb fbbbb xnsbbbb
+xnsbbbb fbbbb fbbbb xnsbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb xesbbbb xewbbbb xewwbbb xewbbbb pbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+fbbbb fbbbb xnsbbbb fbbbb fbbbb fbbbb fbbbb xsebbbb xwebbbb xwebbbb xwsbbbb fbbbb
+csebbbb cwebbbb cwebbpb cwebbbb cwsbbbb xsebbbb xwebbbb xsnbpbb xsebbbw xwsbbbb xnsebbbb xwsbbbb
+csnwbbbb csebbbb cwswbbb rbbbb cnsebbbb xwnbbbb fbbbb xsnbbbb xenbbbb xewbbbb xnwbbbb xnsbbbb
+csnbbbb cenbbbb cewbbbb cewbbbb cnwbbbb fbbbb fbbbb xenbbbb xewbbbb xnwbbbb rbbbb xnsbbbb
+csnbbbb rbbwb cnsbbbb fbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb
+cenbbbb cewvbbb cnwbbbb fbbbb fbbbb fbbbb csebbbb cwebbbb cwsbbbb fbbbb fbbbb xnsbbbb
+fbbbb xsnbbbb gbbbb fbbbb csebbbb cwebbbb cwebbbb cwsbbbb cnebbbb cwsbbbb gbbbb xnsbbbb
+cewbbbb xenwbbbb xewbbbb xewbbbb csnwbbbb rbbbb cenbbbb cnwbbwb rbwbb cnsbbbv xewbbbb xnwbbbb
+fbbbb fbbbb fbbbb fbbbb cenbbbb cewbbbb cewbbbb cewpbbb cewbbbb cnwbbbb fbbbb hbbbb
+fbbbb xesbbbb xewbbbb pbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb hbbbb pbbbb
+fbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb fbbbb hbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,6 3,1,10,5 3,1,2,11 3,1,3,1 

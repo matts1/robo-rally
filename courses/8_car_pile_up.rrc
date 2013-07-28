@@ -1,0 +1,39 @@
+name: 8 Car Pile-Up
+description: Don't get stuck footing the bill.
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbwbb xewwbbw xewwbbb xswwwbb
+fbwbb xewbbww xewbbwb xsnwbwbb
+fbbbb fwbwb fwbwb xsnbbbb
+fbpbb xewwbww xewwbwb xsnwbbbb
+fbvbb fwbww fwwwb xsnbwbw
+fbwbb xewwbbw xewwbbb xenwbbbb
+fbwbb xewbbww xewbbwb xewsbbbb
+fbvbb fwbww fwwwb xnsbwbw
+fbpbb xewwbww xewwbwb xnwsbwbb
+fbbbb fwbwb fwbwb xnsbbbb
+fbwbb xewwbbw xewwbbb xnwsbwbb
+fbwbb xewbbww xewbbwb xnwbwwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbw csnbbbb fbbbb fbbbb fbbpb gbbbb fbbbb fbwbb pbbbw xwsbbbb xnsbbbb xesbbbb
+fbbbw cenbbbb cewbbbb cewbbbb cewwbbb cswbbbb fbbbb fbwbb pbbbw xnsbbbb fbbbb xnsbbbb
+fbbbb pbbbb fbbbb fbbbb fbbbb csnbbbb obvbb fbwbw pbbbw xnsbbbb fbbbb xnsbbbb
+pbbbb hbbbb obbbb fbbbb fbbbb csnbbbb fbbbb fbbbb fbbvb fbbbb fbbbb fbbbb
+pbbbw fbbwb fbbwb fbbwb fbbwb csnbbbb fbbwb rbwbb pwbbw xwsbbbb xnsbbbb xesbbbb
+xewsbbbb xewwbbb xewwbbb xewwbwb xewlbwb censbbbb hwbwb pbbbb pbbbb xnsbbbb xnsbbbb xnsbbbb
+xnwbwwb pbbbw pbbbb ceswbbb cewwbbb cnwbbbb ceswbbb cswbbbb pbbwb xnsbbbb fbbbb xnsbbbb
+fwbbw cnebbbb cwsbbbb cenbbbb cewbbbb cewbbbb cnwbbbb csnbbbb fvbbb fbbbb hbbbb fbbbb
+fbbbw fbbbb cnebbbb cwsbbbb csebbbb cwsbbbb csebbbb cwnbbbb pbbbb xwsbbbb xnsbbbb xesbbbb
+fbbbb pbbbb fbbbb cnebbwb cwnbbwb cnebbwb cwnbbwb rbbwb pbbbb xnsbbbb xnsbbbb xnsbbbb
+fbbbw cwebbbb fbbbb owbbb fwbbb cwewbbb fwbbb owbbb fbbbb cwebbbb fbbbb obbbb
+rbbbw gbbbb fbbbb cwebbbb fbbbb gbbbb fbbbb cwebbbb fbbbb gbbbb fbbbb cwebbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,7 3,1,1,3 3,1,8,1 3,1,2,11 

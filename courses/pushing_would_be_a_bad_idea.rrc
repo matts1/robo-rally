@@ -1,0 +1,43 @@
+name: Pushing would be a bad idea
+description: 4 flags
+4 option spots
+No special rules
+2012 Contest Entry
+Board by EntropysHelper
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+4,1 9,1 4,2 9,2 9,3 4,3 4,4 9,4 
+fbbbb xewwbbb xewbbbb cewwbbb
+fbbbb cewbbbb cewbbbb cewbbbb
+pbwwb fbbbv pbwwb fbbbv
+fpbbb fbbpb fpbbb fbbpb
+fbbbv pwwwb fbbbv pwbwb
+xewbbbb cewwbbb cewbbbb cewwbbb
+xewbbwb cewbbbb cewbbwb cewbbbb
+pwwwb fbbbv pwwwb fbbbv
+fpbbb fbbpb fpbbb fbbpb
+fbbbv pwwbb fbbbv pwbbb
+cewbbbb cewbbbb cewbbbb cewbbbb
+xewbbwb xewbbbb xewbbwb cewbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cewbbbb cewbbbb cewbbbb cswbbbb flbbb xsebbbb xwewbbb xwebbbb xwewbbb xwebbbb xwewbbb xwsbbbb
+cewbbbb cewbbbb cswbbbb csnbbbb rbbbb xsnbbbb rbbbb fbbbb fbbbb fbbbb rbbbb xnsbbbb
+pbwbb hbbbl rbbbb fbbbb fbwbb xsnbbbl fbbbb fbbbb fbbbb fbbbb fbbbb xnsbwbb
+pbbbb rbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb
+pbwbb hbbbl rbbbb fbbwb fbwwb xsnbbbw fbbbb fbbbb fbbbb fbbbb fbbbb xnsbwbb
+cewbbbb cewbbbb cnwbbbb fwbbb fwwbb xsnbbbw fbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb
+cewbbbb cewbbbb cswbbbb fbbwb fbbwb xsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb
+pbwbb hbbbl rbbbb fwbbb fwwbb xsnbbbw fbbbb fbbbb fbbbb fbbbb fbbbb xnsbwbb
+pbbbb rbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb
+pbwbb hbbbl fbbbb fbbbb fbwbb xsnbbbl fbbbb fbbbb fbbbb fbbbb fbbbb xnsbwbb
+cewbbbb cewbbbb cnwbbbb cnsbbbb rbbbb xsnbbbb rbbbb fbbbb fbbbb fbbbb rbbbb xnsbbbb
+cewbbbb cewbbbb cewbbbb cnwbbbb fbbwb xenbbbb xewbblb xewbbbb xewbbwb xewbbbb xewbblb xnwbwbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,9,10 3,1,1,5 3,1,10,3 3,1,4,8 

@@ -1,0 +1,41 @@
+name: Bob's World of Layers
+description: 1 Board, 5 Moving Flags
+by 2455ybob
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xesbbbw xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb
+xnsbbbw csebbbb cwebbbb cwebbbb xsnbbbb cwsbwbb fbbbl fbbbb fbbbb pbbbb hbbbb xsnbbbb
+xnsbbbb csnbbbb xesbbbb xewbbbb xsnbbbb cnsbbbb xswbbbb fbbbb fbbbb fbbbb pbbbb xsnbbbb
+xnsbbbw csnbbbb xnsbbbb csebbbb xsnbbbb cnsbbbb xsnbbbb cwsbwbb fbbbl fbbbb fbbbb xsnbbbb
+xnebbbb xwebbbb xwebbbb xwebbbb xwnbbbb cnsbbbb xsnbbbb cnsbbbb xswbbbb fbbbb fbbbb xsnbbbb
+pbbbb cenbbbb cewbbbb cewbbbb cewbbbb cnwbbbb xsnbbbb cnsbbbb xsnbbbb cwsbbbb pbbwb xsnbbbb
+pbbbb hbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwnbbbb cnsbbbb xsnbbbb cnsbbbb xswwwbb xsnbbbw
+xesbbbb xewbbbb xswbbbb cenbbbb cewbbbb cewbbbb cewbbbb cnwbbbb xsnbbbb cnsbbbb xsnbwbb xsnbbbw
+xnsbbbw fbbbb xenbbbb xswbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwnbbbb cnsbbbb xsnbwbb xsnbbbw
+xnsbbbb pbbbb fbbbb xenbbbb xswbbbb cenbbbb cewbbbb cewbbbb cewbbbb cnwbbbb xsnbwbb xsnbbbw
+xnsbbbw hbbbb pbbbb fbbbb xenbbbb xnwbwbb xnebbww xwebbwb xwebbwb xwebbwb xwnbwwb xsnbbbw
+xnebbbw xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,12,12 3,1,8,8 3,1,4,4 3,1,10,10 3,1,6,6 

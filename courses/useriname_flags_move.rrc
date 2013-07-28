@@ -1,0 +1,42 @@
+name: UserIName Flagsmove
+description: Special rules: flagsmove
+2010 Map Editing Contest Entry
+Created by: UserIName
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+8,1 11,4 6,2 9,3 12,2 7,4 10,1 5,3 
+gwbbv xewswbbb xewswbbb xewswbbb
+hbwbw cnsbbbw cnsbwbb gbbbv
+xnsbbbw cnsbbbb hbbbb rbbbb
+xnsbbbw hbbbb rbbbb xsebbbb
+hbbbw rbbbb fbbbb xsnbwbb
+xnsbbbw fbbbb xnsbbbb xsnbwbb
+xnsbbbw xnsbbbb xnsbbbb fbbbb
+fbbbw xnsbbbb xnsbbbb xsnbbbb
+xnsbbbw xnsbbbb fbbbb xensbbbb
+fbbbw xnsbbbb hbbbb xnsbbbb
+hbbbw xnsebbbb xwebbbb fbbbb
+xnebbww fbbwb xewbbwb hbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+csnbwbb pwwbw cnsbbbw xeswbbb xewwbbb xewwbbb xewswbbb xewwbbb hbbbb cewswbbb cewwbbb cswwwbb
+csnbwbb pbwbw cnsbbbw xnebbbb xwebbbb xwsbbbb xensbbbb xewbbbb rbbbb cnsbbbb cewbbwb csnwbwbb
+cenbbbb cewbbbb cnwbbbb xsebbbb xwebbbb xwenbbbb xwenbbbb xwebbbb xwsbbbb cnsbwbb pwbbw cwnbwbb
+fbbbb fbbbb obbbb fbbwb obbbb rbbwb fbbbb rbbbb fbbbb obbbb fbbbb gbvbb
+hbbww fbbbb hbwwb fpbbw fbbbb opbbb xsnbbbb fbbbb fbbbb rbbbb fbbwb rbbbb
+hwbbw fbbbb fpwbb hbwbw hbwbw hbwbw xsnbwbw rbbbw fbbbb hbbbb fvbbb hbbbb
+hbwbb fbbbp fbbbb fbbbb fbbbb fbdbb xsnbwbw fbbbt fbbbb fbbbb fbbbb fbvbb
+rbbbb fbbbb fbbdb hbbbb fbbbb rbbbb xsnbbbb rbbbb fbbbb hbbwb fbbtb hbbbb
+rbbbb fbbbb rwbbb fbbbb rbbbb fbbbb gbbbb fbbbb rbbbb fvbbb rpbbb gbbbb
+cesbbbb cewbbbb cswbbbb xesbbbb xewbbbb xewsbbbb xewsbbbb xewsbbbb xewsbbbb cewsbbbb cewbbbb cswbpbb
+cnsbwbb pbbbw csnbbbb xnsbbbb xsewbbbb xnsbbbb xnsbbbb xsnbbbb xnsbbbb cnsebbbb cwebbbb pbbbb
+cnsbwbb pbblw csnbbbb xnsbbbb pbbbb xnsbbbb xnsbbbb xsnbbbb xnsbbbb cnebbbb cwebbbb cwnbvbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,1,1 3,1,3,10 3,1,12,1 3,1,12,12 

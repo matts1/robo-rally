@@ -1,0 +1,44 @@
+name: Devil's Exchange
+description: Enter description
+Circular Conveyors (Like Moving Targets)
+No Lasers, 2 Options, 2 Repairs
+Try to Navigate Thru the Devil's Pits
+"If you Dare"
+Created By: Mongo441
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb fbbwb
+xnsbwbb pbbbt pbbbb pbtbb csnbbbw cnsbbbb csnbwbb pbbbt pbbbb pbtbb xsnbbbw ptbtb
+xnsbbbb cwebbbb xsebbbb xwebbwb xwebbbb xwebbwb xwebbbb xwebbwb xwsbbbb cewbbbb xsnbbbb fwbbb
+xnsbbbb cewbbbb xsnbbbb ptbtb fbbbb ptbtb fbbbb ptbtb xnsbbbb cwebbbb xsnbbbb pbbbb
+xnsbbbb pbbwb xsnbbbb rwbwb xesbbbb xewwbbb xswbbbb hwbwb xnsbbbb pbbbb xsnbbbb fbbbb
+xnsbbbb fvbbb xsnbbbb ptbtb xnsbbbb fbbbb xsnbbbb ptbtb xnsbbbb fbbbb xsnbbbb pbbbb
+xnsbbbb pbbbb xsnbbbb hwbwb xnebbbb xwebbwb xwnbbbb rwbwb xnsbbbb pbbbb xsnbbbb fbbbb
+xnsbbbb cewbbbb xsnbbbb ptbtb fbbbb ptbtb fbbbb ptbtb xnsbbbb cwebbbb xsnbwbb pbtbt
+xnsbbbb cwebbbb xenbbbb xewwbbb xewbbbb xewwbbb xewbbbb xewwbbb xnwbbbb cewbbbb xsnbbbb fbbbb
+xnsbwbb pbbbt pbbbb pbtbb cnsbbbw csnbbbb cnsbwbb pbbbt pbbbb pbtbb xsnbbbw pbbbb
+xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb pbtbt fbbbw
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,12 3,1,6,6 3,1,6,2 3,1,11,12 

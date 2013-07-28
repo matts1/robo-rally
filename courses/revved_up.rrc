@@ -1,0 +1,41 @@
+name: Revved Up
+description: 1 Board back and forth.
+Endgame can be a shootout.
+Designed by Architeuthis
+length: long
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+csnbbbb owbbb gwbbb flbbb
+xsnbbbb obbbb gbbbb fbbbb
+xsnbbbb cewbbbb obbbb rbbwb
+xsnbbbb obbbb gbbbb fwbbb
+xensbbbb cewbbbb obbbb fbbbb
+xnsbbbb obbbb gbbbb fbblb
+xsnbbbb gbbbb obbbb flbbb
+xensbbbb cewbbbb gbbbb fbbbb
+xnsbbbb gbbbb obbbb fbbwb
+xnsbbbb cewbbbb gbbbb rwbbb
+xnsbbbb gbbbb obbbb fbbbb
+cnsbbbb gbbwb obbwb fbblb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb xsnbbbb cesbbbb cewbbbb cswbbbb flwbb fbbbw fbwbb csnbbbw cesbbbb cewbbwb cswbbbb
+fbbbb csnbbbb cnsbbbb gbbbb csnbbbb fbbbb fbwbb cnsbbbw csnbbbb cnsbbbb fvbbb csnbbbb
+fbbbb csnbwbb cnsbbbw hbbbb csnbbbb fbwbb fbbbw cnsbwbb fbwbw cnsebbbv cwsbpbb csnbbbw
+fbbbb csnbwbb cnebbbw cwebbbb csnbbbb fbbbb fbvwb fbbwp fbwbb cnsbbbp cnsbvbb csnbbbw
+hbbbb censbbbb xewbbbb xewbbbb cenwbbbb cswbbbb hpbbb rvbbb cewbbbb cnwbbbb cnebbbb cwnbbbb
+fbbbb cnsbbbb csebbbb cwsbbbb gbbbb cenbbbb cswbbbb cesbbbb cewbbbb cewbbbb cswbbbb gbbbb
+fbbbb csnbbbb cenbbbb cnwbbbb obbbb cesbbbb csnwbbbb cnsbbbb pbbbb fbbbb csnbbbb fbwbb
+hbbbb censbbbb xewbbbb xewbbbb cewsbbbb cnwbbbb cenbbbb cnwbbbb csebbbb cwebbwb cwnbbbb obbbb
+fbbbb cnsbwbb csebbbw cwebbbb cnsbbbb fbbbb fbwbb fbbbw cenbbbb csewpbbb cwebbvb cwsbbbb
+fbbbb cnsbwbb csnbbbw hbbbb cnsbbbb fbwbb fbbbw csnbwbb fbbbv csnbbbb fpbbb cnsbbbb
+fbbbb cnsbbbb csnbbbb obbbb cnsbbbb fbbbb fbwbb csnbbbw cnsbvbb csnbbbp csnbvbb cnsbbbw
+fbbbb xnsbbbb cenbbbb cewbbbb cnwbbbb fbwlb fbbbw fbwbb cnsbbbw cenbbbb cenwbbbb cnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,10 3,1,3,4 3,1,10,4 3,1,2,11 3,1,10,11 3,1,5,1 3,1,8,1 3,1,7,12 

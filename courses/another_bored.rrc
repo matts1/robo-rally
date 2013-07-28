@@ -1,0 +1,43 @@
+name: Another Bored
+description: Simple. Just get to the flags before the other bots kill you.
+4 flags that move.
+2 options spots.
+designed by i8flesh.
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb xsebbbb xwebbbb xwsbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb xsnbbbb rbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+fbbbb xsnbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb xenbbbb pbbbb fbbbb fbbbb fbbbb fbbdb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb csebbbb cwebbbb cwewbbb cwsbbbb csebbbb cwebbbb cwsbbbb fbbbb
+fbwbb rbbbw fbbbb obbbb csnbbbb pbbbb pblbb cnebbbw cwnbbbb pbbbb cnsbbbb rbbbb
+fbwbb rbbbw fbbbb gbbbb csnbbbb pbbbb pblbb cesbbbw cswbbbb pbbbb cnsbbbb rbbbb
+fbbbb fbbbb fbbbb fbbbb cenbbbb cewbbbb cewbbwb cnwbbbb cenbbbb cewbbbb cnwbbbb fbbbb
+fbbbb xesbbbb pbbbb fbbbb fbbbb fbbbb fdbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb xnsbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb xnsbbbb rbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+fbbbb xnebbbb xwebbbb xwnbbbb fbbbb fbbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,9 3,1,11,11 3,1,2,11 3,1,12,9 

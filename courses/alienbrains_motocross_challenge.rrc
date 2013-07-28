@@ -1,0 +1,39 @@
+name: Alienbrain's Motocross Challenge
+description: 8 flags on a quick but curvy path. Watch those corners! .3 double wrenches.
+length: long
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb xsebbbb
+fbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbbbb fbbbb xenbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xwewbbb xwebbbb gwbbb csebbbb cwewbbb cwebbbb cwswbbb xwebbbb xwewbbb xwebbbb xwewbbb rbwbb
+csebbbb cwebbbb cwsbbbb csnbbbb obbbb cesbbbb cnwbbbb rbbbb csebbbb cwebbbb cwsbbbb xnsbbbb
+csnbbbb pbbbb cnebbbb cwnbbbb xsnbbbb cnebbbb cwebbbb cwebbbb cwnbbbb pbbbb cnsbbbb xnsbwbb
+cenbbbb cswbbbb xsebbbb xwebbwb xwenbbbb xwebbbb xwsbbbb cesbbbb cewbbbb cewbbbb cnwbbbb xnsbbbb
+fbbbb csnbwbb xsnbbbw hvbbb fbbbb fbbbb xnsbbbb cnebbbb cwebbbb cwebbbb cwsbbbb xnsbwbb
+fbbbb csnbbbb xenbbbb xswbbbb fbbbb hbbbb xnebbbb xwebbbb xwsbbbb cesbbbb cnwbbbb xnsbbbb
+fbbbb cenbbbb cswbbbb xsnbwbb fbbbv pbbbb fbbbb hbbvb xnsbbbb cnsbbbb xesbbbb xnwbwbb
+fbbbb csebbbb cwnbbbb xsnbbbb xesbbbb xewbbbb xewbbbb xswwbbb xnsbbbb cnsbbbb xnebbbb xwsbbbb
+csebbbb cwnbbbb obbbb xenwbbbb xnwbbbb cesbbbb cswbbbb xenbbbb xnwbbbb cnebbbb cwsbbbb xnsbwbb
+csnbbbb pbbbb cesbbbb cewbbbb cewbbbb cnwbbbb cenbbbb cewbbbb cswbbbb pbbbb cnsbbbb xnsbbbb
+cenbbbb cewbbbb cnwbbbb xesbbbb xewbbbb xswbbbb xesbbbb xswbbbb cenbbbb cewbbbb cnwbbbb xnsbwbb
+xewbbpb xewbbwb obbbb xnwbbwb rbbbb xenbbwb xnwbbbb xenbbwb xewbbbb xewbbwb xewbbbb rbbvb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,8 3,1,7,7 3,1,1,8 3,1,11,1 3,1,12,12 3,1,4,3 3,1,7,5 3,1,2,1 

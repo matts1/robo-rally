@@ -1,0 +1,41 @@
+name: Lightning McQueen's Death Defying Obstacle Course
+description: 4 Flags
+short timer.
+length: medium
+difficulty: hard
+players: 2 8
+rules: maxfilltime30
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbwbb fbbbw fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbwbb fbbbw fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+cnsebbbb xwebbbb xwsbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbdbb
+cnsbbbb fblbb xnsbbbw fbbbb fbbbb fbbbb hbbbb fbwbb fbbbw fbbbb fbbbb xsnbwbb
+cnsbbbb fbbbb xnsbbbb fbbbb fbwbb fbbww csnbbbb pbwbb cnsbbbw fbbbb rbbbb xsnbwbb
+fbbbb fbbbb fbwbb fbbww fbbbb fwwbb cenbbbw cewbbbb cnwblbb fbbbw fbbbb xsnbbbb
+fbbbb fbbbb rbbbb fwbbb fbbbb fbwbb fbbbw fbbbb fbwbb fbbbw fbbbb xenbbbb
+fbbbb fbbbb rbbbb fbbwb fbbbb fbwbb fbbbw fbbbb fbwbb fbbbw fbbbb xesbbbb
+fbbbb fbbbb fbwbb fwbbw fbbbb fbwwb cesbbbw cewbbbb cswblbb fbbbw fbbbb xnsbbbb
+csnbbbb fbbbb xsnbbbb fbbbb fbwbb fwbbw cnsbbbb pbwbb csnbbbw fbbbb rbbbb xnsbwbb
+csnbbbb fblbb xsnbbbw fbbbb fbbbb fbbbb hbbbb fbwbb fbbbw fbbbb fbbbb xnsbwbb
+csenbbbb xwebbbb xwnbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw fbbbb fbbbb fbdbb
+csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,11 3,1,7,2 3,1,6,9 3,1,7,6 

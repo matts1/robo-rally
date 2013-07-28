@@ -1,0 +1,43 @@
+name: Rush Hour
+description: Find the Fastest Lane
+to Make it Home
+3 options,2 repairs
+4 Flags
+Created By: Mongo441
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb xewbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb xewbbwb
+fbbbb fwbbb fbbbb flbwb
+fbbbb fbbwb fbbbb cewwbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwwbb fbbbv gbwbb
+fbbbb fbbwb fbbbb xewbbbb
+fbbbb fwbbb fbbbb obbbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb xewbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewbbbb fbbbb fbbbb xewbbbb xewbbwb fbbbb flbwb xewbbbb xewbbbb xswbbbb fbbbb pbbbb
+xewbbbb xewbbbb xewbbbb fbbbb flbbb xewbbbb xewwbbb gbbbb fbpbb xsnbbbw hbbbb fbbbb
+fbbbw fbwbb fbbbw fbbbb fbbwb rbbbb fbbwb pbbbb fbbbb csnbbbb fbbbb fbbbb
+xewbbbb fbbbb fbbwb xewbbbb xewwbbb fbbbb flbwb xewbbbb xewbbbb csnbbbb fbbbb fbbbb
+fbbbb pbbbb flbwb fbbbb fbbwb fbbbb flbwb fbbbb fbbbb pbbbb fbbbb fbbbb
+fbbbb cewbbbb fwbbb cewbbbb hlbwb cewbbbb fwbbb cewbbbb fbbbb obbbb fbbbb fbbbb
+xewbbbb xewbbbb xewbbbb fbbbb flbbb xewbbbb xewbbbb fbbbb fbbbb gbbbb fbbbb fbbbb
+fbbbw fbwbb fbbbw fbbbb fbbwb rbbbb fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb
+xewbbbb fbbbb fbbbb xewbbbb xewlbbb fbbbb fbbbb xewbbbb xewbbbb cnsbbbb fbbbb fbbbb
+fbwpb pbbbw fbbbb fbbbb fbbwb fbbbb fbbbb pbbbb fbbbb cnsbbbb fbbbb fbbbb
+xewwbbb xewbbbb xewbbbb fbbbb flbwb xewbbbb xewbbwb fbbbb fbbbb xnsbbbb hbbbb fbbbb
+xewbbbb fbbbb fbbbb xewbbbb xewwbbb fbbbb fwblb xewbbbb xewbbbb xnwbbbb fbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 3,0,8,3 3,1,2,9 3,1,10,1 

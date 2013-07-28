@@ -1,0 +1,39 @@
+name: The Minefield
+description: watch out for these mines: twirls and pushers to keep you on your toes. 
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+line start blank
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: line start blank
+newboard:
+Minefield
+fwbbw gpbbb fwbbb fbbbb fwbbb csnbvbb obbbw fwbbb fbbbb fwbbb fbbbb gpwbb
+fbbbb fbbbb fbvbb obbbw fbbbb cenbbbb cswbbbb fbbbb gbbwb fbbbb fbbbb fbbbb
+obbbv fbbbb fbbbb fbbbb fbbbb gbbwb csnbbbb fbbbb fpbbb fbbbb obwbb fbwbv
+fbbbb fbbbb gbbwb fbbbb fbbbb fpbbb csnbbbb obwbb fbbbv fbbpb fbbbb fbbbb
+fbbbw fbbbb fpbbb fbbbb obwbb fbbbv fbbpb fbbbb fbbbb gwbbb fbbbb fbwbb
+fbbbb obwbb cesbbbv cewbbpb fbbbb fbbbb gwbbb fbbbb cewbbbb cswbbbb fbvbb obbbw
+cewbbbb cewbbbb cnwbbbb gwbbb fbbbb fbbbb fbbbb fbvbb obbbw cenbbbb cewbbbb cewbbbb
+gbbww fbbbb fbbbb fbbbb fbvbb obbbw fbbbb fbbbb fbbbb fbbbb gbbwb fbwbb
+fpbbb fbbbb obwbb fbbbv fbbpb csebbbb cwnbbbb gbbwb fbbbb fbbbb fpbbb fbbbb
+fbbbw fbbpb fbbbb fbbbb gwbbb csnbbbb fbbbb fpbbb fbbbb obwbb fbbbv fbwpb
+fbbbb gwbbb fbbbb fbbbb fbbbb csnbvbb obbbw fbbbb fbbbb fbbbb fbbbb gwbbb
+fbbww fbbbb fbvwb obbbw fbbwb csnbbbb fbbbb fbbwb gbbpb fbbwb fbbbb fbwwb
+endboard
+board: 3,1 0 Minefield
+flags: 3,1,9,9 3,1,3,3 3,1,10,3 3,1,2,10 

@@ -1,0 +1,39 @@
+name: Sumo Destructo
+description: Sumo wrestling...with options. Do the math
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+1,3 12,3 2,3 11,3 3,4 10,4 4,4 9,4 
+fwbbb fwbbb fwbbb fwwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbwb fbwwb
+xewbbbw xewbbbb xewwbbb xewwbbb
+xewbbbw xewbbbb xewbbbb xewbbbb
+xewbbbw xewbbbb xewbbbb xewbbbb
+xewbbbw xewbbbb xewbbwb xewbbwb
+fbbbb fbbbb fwbbb fwwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbwb fbbwb fbbwb fbwwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb pbbbb pbbbb hbbwb fbbbb fwbbb fwbbb fbbbb hbbwb pbbbb pbbbb pbbbb
+pbbbb pbbbb rbbwb fwbbb fbbbb fbbbb fbbbb fbbbb fwbbb rbbwb pbbbb pbbbb
+pbbbb rbwbb fwbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fwwbb rbbbw pbbbb
+rbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb hbbbw
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+rbwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb hbbbw
+pbbbb rbwbb fbbww fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwwb rbbbw pbbbb
+pbbbb pbbbb rwbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbbwb rwbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb hwbbb fbbbb fbbwb fbbwb fbbbb hwbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,8 3,1,8,9 3,1,9,5 3,1,5,4 3,1,9,8 3,1,5,9 3,1,4,5 3,1,8,4 

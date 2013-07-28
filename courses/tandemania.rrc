@@ -1,0 +1,58 @@
+name: Tandemania
+description: Tandem game.  Lots of express conveyors, 3 staionary flags, 3 moving flags, 4 options way out there amid the pits.
+designed by ssgames
+length: long
+difficulty: hard
+players: 4 8
+team: true
+rules: teamonetouchalltouch flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fwbbw fwbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbbbb
+fbbbw fwbwb fbbbb fbbbb
+fbbbw fwbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbbbb
+fbbww fwbwb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+tandemania 1
+xewbbbb xewbbbb xewbbbb xswbwbb xewwbbw xewwbbb xswwbbb fwbbb rwbbb fwbbb fwbbb fwbbb
+xewbbbb xswbwbb fbbbw xsnbbbb gbbbb xesbbbb xenbbbb xewbbbb xewbbbb xewbbwb xewbbbb xewbbbb
+rbbbb xensbbbb xewbbbb xsnbbbb xswbwbb xnsbbbw gbbbb xsebbbb xwebbbb xwewbbb xwebbbb xwsbbbb
+xewbbbb xnwbwbb fbbbw xsnbbbb xsnbbbb xnsbbbb fbbbb pbbbb xwebbbb xwsbbbb fbbbb xnsbbbb
+rbbbb fbbbb pbbbb xsnbbbb xsnbbbb xesbbbb xswblbb xnsbbbw fbbbb fbbbb xswbbbb xnebbbb
+xewbbbb xewbbbb xswbbbb xswbwbb xsnbbbw xnsbbbb xsnbbbb xnsebbbb xwebbbb xwnbbbb xenbbwb xswbbbb
+xewbbbb xewbbbb xsnwbbbb xwnbbbb xenbbwb xnwsbbbb xensbbbb xnwbbbb gbbbb xnsbbbb rwbbb xenbbbb
+rbbbb fbbbb xenbbwb xewbbbb xswwbbb xnsbwbb xnsbbbw fbbbb fbbbb xnsbbbb xsebbbb xwsbbbb
+fbbbb xsebbbb xwewbbb xwebbbb xwnbwbb xnsbbbw xnsbbbb fbbbb fbbbb xnsbbbb xsnbbbb xnsbbbb
+rbbbb xsnbbbb fbbbb fbbbb pbbbb xnsbbbb xnsblbb fbbbw fbbbb xnsbbbb xsnbbbb xnsebbbb
+xewbbbb xewbbbb xewsbbbb xewbbwb xewbbwb xnwbwbb xsebbbw xwsebbbb xwebbbb fbbbb xsnbbbb xnebbbb
+xewbbbb xewbbbb xnwbbbb xwewbbb xwewbbb xwebbbb xwnbwbb xnebbww xwebbwb xwebbwb xwnbwwb xewbbww
+endboard
+board: 3,1 0 tandemania 1
+newboard:
+tandemania 2
+fwbbb fwbbb fwbbb xeswbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xewwbbb xswwbbb pwwbb
+xswbbbb pbbbb fbbbb xnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb fbwbb
+xenbbbb xewbbbb xewbbbb xnwbbbb pbbbb fbbbb fbbbb fbbbb pbbbb fbbbb xsnbbbb fbwbb
+pbbbb fbbbb fbbbb fbbbb fbbbb pbbbb xsebbbb xwebbbb xwsbbbb fbbbb xsnbbbb fbwbb
+xwsbbbb fbbbb pbbbb fbbbb fbbbb fbbbb xsnbbbb xesbbbb xnwbbbb pbbbb xsnbbbb fbwbb
+xnebbbb xwebbbb xwsbbbb fbbbb fbbbb pbbbb xsnbbbb xnebbbb xwebbbb xwsbbbb xsnbbbb fbwbb
+xewbbbb xswbbbb xnsbbbb fbbbb fbbbb pbbbb xsnbbbb hbwwb hbbww xnsbbbb xsnbbbb fbwbb
+fbbbb xsnbbbb xnsbbbb fbbbb fbbbb pbbbb xsnbbbb hwwbb hwbbw xnebbbb xwnbbbb fbwbb
+fbbbb xsnbbbb xnsbbbb fbbbb fbbbb fbbbb xenbbbb xewbbbb xewbbbb xswbbbb pbbbb fbwbb
+xwebbbb xwnbbbb xnsbbbb fbbbb fbbbb fbbbb pbbbb pbbbb fbbbb xsnbbbb fbbbb fbwbb
+xwsbbbb pbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwsbbbb pbbbb xsebbbb xwnbbbb fbbbb fbbbb
+xnwbbwb fbbwb fbbwb fbbwb fbbwb pbbwb xnebbwb xwebbwb xwnbbwb pbbwb fbbwb fbwwb
+endboard
+board: 3,2 0 tandemania 2
+flags: 3,1,5,10 3,1,1,1 3,1,11,10 3,1,12,12 3,1,1,5 3,1,4,7 

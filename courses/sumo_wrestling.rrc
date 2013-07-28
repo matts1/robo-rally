@@ -1,0 +1,39 @@
+name: SuMo Wrestling
+description: Enter the ring -- but don't fall out
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbwb fbbbb
+fbbbb fwbbb fwwbb fbbbw
+fbbbb fbbbb fbwbb fbbbw
+fbbbb fbwwb fbbww fbbbb
+fbbbb fwbwb fwwbb fbbbw
+fbbbb fwwbb fbbbw fbbbb
+fbbbb fbwwb fbbbw fbbbb
+fbbbb fwbwb fbwwb fbbbw
+fbbbb fwwbb fwbbw fbbbb
+fbbbb fbbbb fbwbb fbbbw
+fbbbb fbbwb fbwwb fbbbw
+fbbbb fwbbb fwbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb pbbbb pbbbb pbbbb pbbbb fwbbb fwbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbwb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb
+pbbbb pbwwb fwbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+pbwbb fwbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+pbwwb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+fwbwb fbbwb fbwwb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbwbb
+fwbwb fwbbb fwwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbwbb
+pwwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+pbwbb fbbww fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+pbbbb pwwbb fbbww fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb
+pbbbb pbbbb pwbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb fbbwb fbbwb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,12 3,1,12,6 3,1,1,7 3,1,9,3 3,1,4,3 3,1,7,12 

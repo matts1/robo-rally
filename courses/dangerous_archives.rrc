@@ -1,0 +1,42 @@
+name: Dangerous Archives
+description: 3 flags, none moving
+No option cards
+Tricky flag placements
+Designed by timmonte
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsnbbbb fbbbb gbbbb fbbbb cenbbbb cewwbbb cewwbbb cewwbbb cnwbbbb fbbbb fbbbb fbbbb
+csnbbbb fbbbb fbbbb fbbbb obwbb fbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb rbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb pbbbb cswbbbb
+fbbbb fbbbb fbbbb fbbbb cesbbbb cewbbbb cewbbbb cswbbbb fbbbb fbbbb cnebbbb cwnbbbb
+fbbbb fbbbb fbbbb xesbbbb xnwbbbb pbbbb rbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb xewbbbb xnwsbbbb pbbbb pbbbb pbbbb csenbbbb cwebbbb cwebbbb cwsbbbb fbbbb
+fbbbb fbbbb fbbwb xnebbbb xwsbbbb pbbbb rbbbb csnbbbb fbbbb fbbbb cnebbbb xwsbbbb
+fbbbb fbbbb owbbb fbvbb cnebbbw cwebbbb cwebbbb cwnbbbb fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb gbbbb fbbbb fbbbb fbbbb fbwbb fbbbd gbbbb obbbb fbbbb xnsbwbb
+fbbbb rbbbb pbbbb fbbbb fbwbb fbwbd fbbbw fbbbb fbbbb fbbbb fbbbb xnsbbbb
+cnsbbbb fbbbb obbbb fbbbb obbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb fbbbb fbbbb
+xnsbbbb obbbb gbbdb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,10,8 3,1,2,11 3,1,8,4 

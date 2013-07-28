@@ -1,0 +1,43 @@
+name: Spin Cycle
+description: 4 Flags.
+Flags Move
+Board Rotates for no other reason then to drive you crazy.
+designed by i8flesh
+length: short
+difficulty: mid
+players: 2 8
+rules: flagsmove boardrotate50t1
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+pbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb xnwbbbb fbbbb xnwbbbb fbbbb xnwbbbb fbbbb xnwbbbb fbbbb xnwbbbb fbbbb
+fbbbb xwebbbb xwebbbb xwebbbb xsebbbb xwebbbb xwebbbb xwebbbb xsebbbb xwebbbb xwebbbb fbwbb
+fbbbb xnwbbbb obbbb fbbbb cwebbbb fbbbb gbbbb fbbbb cwebbbb fbbbb gbbbb fbbbb
+fbbbb cswbbbb fbbbb xnwbbbb cewbbbb fbbbb gbbbb fbbbb cewbbbb fbbbb fbbbb pbbbb
+fbbbb obbbb obbbb cswbbbb cwebbbb xnwbbbb gbbbb fbbbb cwebbbb fbbbb obbbb fbbbb
+fbbbb cwebbbb obbbb fbbbb cewbbbb cswbbbb fbbbb xnwbbbb cewbbbb xswbbbb gbbbb fbwbb
+fbbbb cwebbbb obbbb fbbbb cewbbbb cnwbbbb fbbbb xswbbbb cewbbbb xnwbbbb obbbb fbwbb
+fbbbb obbbb obbbb cnwbbbb cwebbbb xswbbbb gbbbb fbbbb cwebbbb fbbbb gbbbb fbbbb
+fbbbb cnwbbbb fbbbb xswbbbb cewbbbb fbbbb gbbbb fbbbb cewbbbb fbbbb fbbbb pbbbb
+fbbbb xswbbbb obbbb fbbbb cwebbbb fbbbb gbbbb fbbbb cwebbbb fbbbb obbbb fbbbb
+fbbbb xwebbbb xwebbbb xwebbbb xnebbbb xwebbbb xwebbbb xwebbbb xnebbbb xwebbbb xwebbbb fbwbb
+fbbbb fbbbb xswbbbb fbbbb xswbbbb fbbbb xswbbbb fbbbb xswbbbb fbbbb xswbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,11 3,1,7,5 3,1,1,10 3,1,12,4 

@@ -1,0 +1,40 @@
+name: Freedom Ain't Free
+description: 6 flags, 3 of which move.  3 Option squares in the path of lasers.
+length: medium
+difficulty: expert
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+xesbbbb fbbbb fpbbb gvbbb
+xnsbbbb fbbbb xsnbbbb cesbbbb
+xnsebbbb cwebbbb xsnwbbbb cnsbbbb
+xnsbbbb fbbbb xsnbbbb cnsbbbb
+xnsebbbb cwebbbb xsnwbbbb cnsbbbb
+xnsbbbb fbbwb xsnbbbb cnsbwbb
+xnsbbbb fwbbb xsnbbbb cnsbwbb
+xnsebbbb cwebbbb xsnwbbbb cnsbbbb
+xnsbbbb fbbbb xsnbbbb cnsbwbb
+xnsebbbb cwebbbb xenwbbbb cnsbbbb
+xnsbbbb fbbbb cewbbbb cnwbbbb
+xnebbbb fbbwb fbbpb obbvb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cewbbbb cewpbbb cewvbbb cewbbbb cewbbbb xsnbbbb cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb hdbbb
+xswbbbb xesbbbb xewsbbbb xswbbbb xewbbbb xewsbbbb xewbbbb xsebbbb xwsbbbb cnsbwbb csnbbbv obbbb
+xsnbbbb xnsbbbb xnsbbbb xsnbbbb rbbbb xnsbbbb fbbbb xsnbbbb xnwbbbb cnsbbbb csnbbbb hbbbb
+xenbbwb xnwbbbb xnebbbb xenwbbbb xewbbwb xnwbbbb rbbwb xenbbbb xewbbbb cnsbwbb csnbbbv obbbb
+owbbb obbbb obbbb cewbbbb cewwbbb cewbbbb cewwbbb csewbbbb fbbbb rbbbb csnbbbb rbbbb
+obbbw obbbb obbbb xnwebbbb xsewbbbb xwebbbb xwebbbb xwsebbbb fbpbb fbwbw csnbbbv obbbb
+obbbw obbbb obbbb cnwebbbb cewbbbb cewbbbb cewbbbb csewbbbb fbbbb rbbbb csnbbbb fbpbb
+xewsbbbb xewbbbb xewbbbb xnwebbbb xsewbbbb xwebbbb xwebbbb xwebbbb fbpbb fbwbw csnbbbv obbbb
+cnwebbww cwebbbb cwebbwb cwebbbb cewbbwb cewbbbb cewbbwb cewbbwb pbbbb rbbbb csnbbbb hbbbb
+xwsewbbb xwsbbbb xsewwbbb xwsebbbb xswwbbb xwsbbbb xsewbbb cnswbbb xesbbbb xswbbbb cwebbbb xsnbbbb
+xnsbbbb xnsbbbb xsnbbbb xnsbbbb xsnbbbb xnsbbbb xsnbbbb cwebbbb xwsnbbbb xwsbbbb fbbbb xsnbbbb
+xnwebbwb xnebbwb xwnbbbb xnebbbb xwnbbbb xnebbbb xwnbbbb gbbbb xnebbbb xwnbbbb fbbbb gbblb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,9,4 3,1,3,7 3,1,7,12 3,1,1,6 3,1,6,2 3,1,10,9 

@@ -1,0 +1,43 @@
+name: I Want to Ride My Bicycle!
+description: I Want to Ride My Bike!
+Just for fun.
+4 Flags.
+No special rules.
+designed by i8flesh.
+length: medium
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+rbbbb rbbbb rbbbb rbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsebbbb xwebbbb xwebbbb xwebbbb xnwbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbdbb xsebbbw xwebbbb xwebbbb xwebbbb xwsbbbb fbbbb
+fbbbb fbbbb fbbbb xesbbbb xewbbbb xewbbbb xsnbbbb obbbb hbbbb obbbb xnsbbbb fbbbb
+fbbbb xsebbbb xwebbbb xwsbbbb fbbbb fbbbb xsnbbbb hbbbb pbbbb hbbbb xnsbbbb fbbbb
+fbdbb xsnbbbw pbbbb xnsbbbb fbbbb fbbbb xsnbbbb obbbb hbbbb obbbb xnsbbbb fbbbb
+fbbbb xenbbbb xewbbbb xnwbbbb fbbbb fbbbb xenbbbb xewbbbb xewbbbb xewbbbb xnwbbbb fbbbb
+rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,10 3,1,3,7 3,1,7,8 3,1,1,11 

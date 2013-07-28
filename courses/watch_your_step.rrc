@@ -1,0 +1,39 @@
+name: Watch Your Step
+description: Enter description
+length: short
+difficulty: hard
+players: 2 4
+newsboard:
+blank starting board
+6,2 7,2 1,3 12,3 1,2 12,2 3,1 10,1 
+pbbbb fbbbb fbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+pbbbb pbbbb fbbbb pbbbb
+pbbbb fbbbb fbbbb pbbbb
+pbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb pbbbb
+pbbbb pbbbb fbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb pbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbvb fwbbb fwbbb fwbtb fwbbb fbbvb fwbbb fbbpb fwbbb fbbbb
+fbbbb fbbbb xewwbbb xewbbwb xewbbbb xewwblb xewbbbb xewwbbb xewbbbb xewwbbb xswbbbb fbwbb
+fbbbb fbbbb fbbbb fdbbb fbbbb cewwbbb pbbbb fbbbb fbbbb fbbbb xsnbbbb fbwbb
+fbbbb fbbbb fbbwb fbbwb fbbbb fbbwb fbbbb fbbwb fbbbb fbbbb xsnbbbb fbvbb
+fbbbb gbbbb flbbb fwbbb csnbbbb hwbbb fbbbb hwwbb fbbbw fbbbb xsnbbbb fbbbb
+fbbbb cwebbbb cwebbbb cwebbbb cwsnbbbb fbbbb pbbbb obbbb fbbbb pbbbb pbbbb fbwbb
+fbbbb obbbb fbbwb fbblb cnsbbbb hbbwb cnsbbbb hbwwb fbbbw pbbbb pbbbb fbwbb
+fbbbb fbbbb fwbbb fwbbb fbbbb fwbwb cnsbbbb fwbbb fbbbb fbbbb xnsbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb cnsbbbb fbwbb fbbbw fbbbb xnsbbbb fbpbb
+fbbbb fbbbb pbbbb cwebbbb fbbbb fbbdb fbbbb fbbbb fbbbb fbbbb xnsbbbb fbwbb
+fbbbb fbbbb xewbbwb xewbbbb xewbbbb xewlbwb xewbbbb xewbbwb xewbbbb xewbbwb xnwbbbb fbwbb
+fbbbb fbbbb fvbbb fbbwb fbbwb ftbwb fbbwb fpbbb fbbwb fvbbb fbbwb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,10 3,1,10,5 3,1,3,5 3,1,8,10 

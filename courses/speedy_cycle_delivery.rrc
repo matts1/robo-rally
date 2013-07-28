@@ -1,0 +1,39 @@
+name: Speedy Cycle Delivery
+description: You are a Speedy Cycle Delivery employee charged with delivering five packages safely. Now go do it...and be safe out there
+length: long
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb hbbbb xesbbbb xswbwbb
+fbbbb fbbbb xnsbbbb xsnbwbb
+xesbbbb xewbbbb xnwbbbb csnbwbb
+xnsbbbb fbbbb fbbbb csnbbbb
+xnsbbbb fbbbb rbbbb csnbbbb
+xnsbbbb fbbbb fbbbb csnbbwb
+xnsbbbb fbbbb fbbbb fwbbb
+xnsbbbb fbbbb fbbbb rbbbb
+xnsbbbb fbbbb fbbbb fbbbb
+xnebbbb cwebbbb cwebbbb cwsbbbb
+fbbbb fbbbb fbbbb cnebbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cnsbbbw hbbwb rbbbb csewbbb cwewbbb cwswbbb hbwbb ceswbbw cewbbbb rwbwb cwebbbb cwswwbb
+cnebbbw cwswbbb rbwbb cenbbbw fbbbb cnsbwbb xsnbbbw cnwbbbb xsebbbb xwewbbb xwsbbbb cnebbbb
+pbbbw cnsbbbb rbbwb cewbbbb cewbbwb cnwbbbb xsnbwbb hbbbv xsnbbbb fbbbb xnsbbbb hbvbb
+xsnbwbb cnsbwbw rwbbp cesbbbb csewwbbb xwsbbbb xsnbbbb cswbbbb xenbbbb xewbbbb xnwbbbb csebbbb
+xsnbwbb cnebbbw cwsbbbb cnsbbbb csnbwbb xnsbbbw xsnbwbb cenbbww cswbbbb rbbwb csebbbb cwnbwwb
+csnbwbb pbbbw cnsbvbb cnsbbbw csnbbbb xnsbbbb xsnbbbb csnwbbb csnbbbb csnwbbb csnbbbb hpbbb
+csnbbbb csnbwbb cnsbwbw cnsbbbw csnbbbb xnsbbbb xsnbbbb cnsbbbb cnsbbwb cnsbbbb cnsbbwb csnbbbb
+csnbbbb csnbwbb cnsbbbw fbbwb csnbwbb xnsbbbw xsnbbbb xesbbbb xewwbbb xewbbbb xswwbbb xsnbwbb
+csnbbwb csnbwbb cnebbww cwewbbb cwnbbbb xnebbbb xwnbwbb xnsbbbw xesbbbb xswbbbb xsnbbbb xsnbwbb
+rwbbb csnbbbb rwbbb xesbbbb xewbbwb cswbbbb gbbbb xnsbbbb xnsbbbb fbbbb xsnbbbb xsnbwbb
+cwsbbbb csnbbbb rbwbb cnsbbbw fwbwb csnbwbb hbwbw xnsbbbw xnebbbb xwebbbb xwnbbbb xsnbwbb
+cnebbbb cwnbbwb rbbbb cnebbbb xwewbbb xwnbbbb rbbbb xnebbwb xwebbwb xwebbwb xwebbwb xwnbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,5 3,1,10,10 3,1,8,4 3,1,3,10 3,1,11,5 

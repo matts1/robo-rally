@@ -1,0 +1,42 @@
+name: Twist and Shoot
+description: Flags: 4
+Special Rules: Flags move
+Course designed by Spacebug
+length: long
+difficulty: hard
+players: 2 8
+rules: flagsmove
+newsboard:
+Starting Board 2
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: Starting Board 2
+newboard:
+blank board
+cesbbbb cewbbbb cewwbbb cswbbbb fwbbb fbbbb fbbbb csewbbb cwebbbb cwewbbb cwebbbb cwsbbbb
+cnsbbbb cesbbbb cewbbbb cewbbbb cswbbbb csebbbb cwebbbb cwebbbb cwebbbb cwsbbbb rbbbb cnsbbbb
+cnsbbbw cnsbbbb hbwwb csnbbbd csnbwbb csnbbbw fbbbb csnbbbb csebbbb cwebbbb cwsbbbb cnsbwbb
+cnebbbb cwebbbb cwedbbb csnbbbb cwnbbbb csnbbbb fbbbb cenbbbb cewbbbb cnwbbbb cnsbbbb cnsbbbb
+fbbbw cnebbbb cwebbwb cwnbbbb pbbbb csnbbbb pbbbb pbbbb cenbbbb cewbbbb cewbbbb cnwbwbb
+fbbbb csebbbb cwewbbb cwebbbb cwebbbb cwebbbb cwsbbbb pbbbb fbbbb fbbbb cnsbbbb fbbbb
+fbbbb csnbbbb fbbbb fbbbb pbbbb cenbbbb cewbbbb cewbbbb cewbbbb cewbbwb cnwbbbb fbbbb
+csebbbw cwebbbb cwebbbb cwsbbbb pbbbb pbbbb cnsbbbb pbbbb cesbbbb cewwbbb cewbbbb cswbwbb
+csnbbbb csnbbbb csebbbb cwebbbb cwsbbbb fbbbb cnsbbbb cesbbbb cnsbbbb cewbbbb cswbbbb csnbbbb
+csnbbbw cenbbbb cewbbbb cnwbbbb cnsbbbb fbbbb cnsbwbb cnsbbbw cnsbbbb hbwwb csnbbbd csnbwbb
+csnbbbb rbbbb cenbbbb cewbbbb cewbbbb cewbbbb cnwbbbb cnsbbbb cnebbbb cwedbbb csnbbbb cwnbbbb
+cenbbbb cewbbbb cewbbwb cewbbbb cnwbbwb fbbbb fbbbb cnebbwb cwebbbb cwebbwb cwnbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,7 3,1,12,2 3,1,12,12 3,1,4,3 

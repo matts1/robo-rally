@@ -1,0 +1,39 @@
+name: Death-Go-Round
+description: 4 moving flags are situated on a Merry-Go-Round of Death equipped with lasers and moving platforms.
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+line start blank
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+fbbbb fwbbb fwbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbwb fbbwb fbwbb
+endboard
+sboard: line start blank
+newboard:
+blank board
+hwbbw fwbbb xsebbbb xwebbbb xwelbbb xwebbbb xwebbbb xwelbbb xwebbbb xwsbbbb fwbbb hwwbb
+fbbbw xsebbbb xwnbbbb xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb xnebbbb xwsbbbb fbwbb
+xsebbbb xwnbbbb xesbbbb xnwbbbb csebbbb cwebbbb cwebbbb cwsbbbb xenbbbb xswbbbb xnebbbb xwsbbbb
+xsnbbbb xesbbbb xnwbbbb csebbbb cwnbbbb cesbbbb cswbbbb cnebbbb cwsbbbb xenbbbb xswbbbb xnsbbbb
+xsnbbbl xnsbbbb csebbbb cwnbbbb cesbbbb cnwbwbb cenbbbw cswbbbb cnebbbb cwsbbbb xsnbbbb xnsblbb
+xsnbbbb xnsbbbb csnbbbb cesbbbb cnwbbwb gbwwb obbww cenbbwb cswbbbb cnsbbbb xsnbbbb xnsbbbb
+xsnbbbb xnsbbbb csnbbbb cnebbbb cwswbbb owwbb gwbbw csewbbb cwnbbbb cnsbbbb xsnbbbb xnsbbbb
+xsnbbbl xnsbbbb cenbbbb cswbbbb cnebbbb cwsbwbb csebbbw cwnbbbb cesbbbb cnwbbbb xsnbbbb xnsblbb
+xsnbbbb xnebbbb xwsbbbb cenbbbb cswbbbb cnebbbb cwnbbbb cesbbbb cnwbbbb xsebbbb xwnbbbb xnsbbbb
+xenbbbb xswbbbb xnebbbb xwsbbbb cenbbbb cewbbbb cewbbbb cnwbbbb xsebbbb xwnbbbb xesbbbb xnwbbbb
+fbbbw xenbbbb xswbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb xesbbbb xnwbbbb fbwbb
+hbbww fbbwb xenbbbb xewbbbb xewbblb xewbbbb xewbbbb xewbblb xewbbbb xnwbbbb fbbwb hbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,12,7 3,1,8,2 3,1,8,3 3,1,9,7 

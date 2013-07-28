@@ -1,0 +1,41 @@
+name: Path of Desctruction
+description: 4 Flags, no special rules.
+4 option squares.
+designed by i8flesh
+length: medium
+difficulty: mid
+players: 4 6
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb xesbbbb xewbbwb xewbbbb xewbbwb xewbbvb xewbbpb xewbbwb xewbbbb xewbbwb xswbbbb fbbbb
+fbbbb xnsbbbb fwbbb fbbbb flbbb fpbbb fpbbb flbbb fbbbb fwbbb xsnbbbb fbbbb
+fbbbb xnsbwbb fbbbw fbbbb hbbwb fbbbb fbbbb hbbwb fbbbb fbwbb xsnbbbw fbbbb
+fbbbb xnsbbbb fbbbb fbbbb csewbbb cwebbvb cwebbvb cwswbbb fbbbb fbbbb xsnbwbb fbbbv
+fbbbb xnsbpbb fbbbl fbbbb csnbbbb pwbbb pwbbb cnsbbbb fbbbb fbbbb xsnbwbb fbwbt
+fbbbb xnsbvbb fbbbv fbbbb csnbbbb pbbbb pbbbb cnsbbbb fbbbb fbbbb xsnblbb fbbbv
+fbbbb xnsbbbb fbbbb fbbbb cenbbbb cewbbwb cewbbwb cnwbbbb fbbbb fbbbb xsnbwbb fbbbw
+fbbbb xnsbwbb fbbbw fbbbb fbbbb hwbbb hwbbb fbbbb fbbbb fbwbb xsnbbbw fbbbb
+fbbbb xnsbbbb fbbwb fbbbb fbbpb fbblb fbblb fbbpb fbbbb fbbwb xsnbbbb fbbbb
+fbbbb xnebbbb xwewbbb xwebbbb xwewbbb xwevbbb xwepbbb xwewbbb xwebbbb xwewbbb xwnbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,10 3,1,7,3 3,1,6,12 3,1,6,4 

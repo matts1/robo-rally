@@ -1,0 +1,39 @@
+name: Water Park
+description: Come and enjoy the giant slide, the wave pool, kiddie pool, diving well, our lovely and modern rest facilities, and please sign this waiver just in case your dumb ass drowns
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+1,3 12,3 2,3 11,3 3,4 10,4 4,4 9,4 
+fwbbb fwbbb fwbbb fwwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbwb fbbwb fbwwb
+xewbbbw xewwbbb xewwbbb xewwbbb
+xewbbbw xewbbbb xewbbbb xewbbbb
+xewbbbw xewbbbb xewbbbb xewbbbb
+xewbbbw xewbbwb xewbbwb xewbbwb
+fbbbb fwbbb fwbbb fwwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbwb fbbwb fbbwb fbwwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsebbbb xwsbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb fbbbb xsebbbb xwnbbbb
+xenbbbb xnwbwwb xsebbbw xwebbbb xwsbbbb fbbbb hbbwb fbbbb fbbbb rbbbb xenbbbb xswbbbb
+fbbbb fwbbb xsnbbbb fbbbb xnsbbbb fbbbb ceswbbb cewbbbb cswbwbb fbbbw xsebbbb xwnbbbb
+fbbbb fbbbb xesbbbb xewbbbb xnwbbbb fbbbb cnsbwbb fbbbw csnbbbb fbbbb xenbbbb xswbbbb
+xnwbbbb fbbbb fbbbb fbbwb fbbbb fbbbb cnsbwbb hbbbw csnbbbb xsebbbb xwebbbb xwnbbbb
+xewbbbb xnwbbbb rbbbb cewwbbb cewbbbb cewbbbb cnwbwbb cnebbbw cwnbbwb xenbbbb xewbbbb xewbbbb
+xewbbbb xswbbbb rbbbb cewbbwb cewbbbb cewbbbb cswbwbb csebbbw cwswbbb xesbbbb xewbbbb xewbbbb
+xswbbbb fbbbb fbbbb fwbbb fbbbb fbbbb csnbwbb hbbbw cnsbbbb xnebbbb xwebbbb xwsbbbb
+fbbbb fbbbb xenbbbb xewbbbb xswbbbb fbbbb csnbwbb fbbbw cnsbbbb fbbbb xesbbbb xnwbbbb
+fbbbb fbbwb xnsbbbb fbbbb xsnbbbb fbbbb cenbbwb cewbbbb cnwbwbb fbbbw xnebbbb xwsbbbb
+xesbbbb xswwwbb xnebbbw xwebbbb xwnbbbb fbbbb hwbbb fbbbb fbbbb rbbbb xesbbbb xnwbbbb
+xnebbbb xwnbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb fbbbb xnebbbb xwsbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,4,8 3,1,10,4 3,1,3,4 3,1,9,8 

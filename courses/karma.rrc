@@ -1,0 +1,39 @@
+name: Karma
+description: ...when they said karma will bite you in the ass...this is what they meant
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbvb xnsbbbb fbwbb xsnbbbw fbbbb fbbbb fbbpb fbbvb hbbbb fbbbb
+fbbbb fbbbb fpbbb xnsbbbb fbbbb xsnbwbb fbbbw fbbbb fwwbb fwbbw fbbbb fbbbb
+fbbbb fbbbb pbbbb xwsnbbbb rbbbb xsnbbbb fbbbb fbbpb fbwbb xsnbbbw fbbbb fbbbb
+fbbbb fbbbb fbbvb xnsbbbb fbwbb xsnbbbw fbbbb fwbbb fbvbb xsnbbbw fbbwb fbbbb
+fbbbb fbbbb pwbbb xwsnbbbb rbbbb xsnbwbb fbbbw hbbwb fbwbb fbbbp fwbbb fbbbb
+fbbbb fbbbb fbbpb xnsbbbb fbbbb xenbbbb xewbbbb xewwbbb xewbbwb xewbbwb xewbbbb xewbbbb
+fbbbb fbbbb fpbbb xsnbbbb fbbbb xsebbbb xwebbbb xwebbwb xwewbbb xwewbbb xwebbbb xwebbbb
+fbbbb fbbbb pbbwb xwsnbbbb rbbbb xsnbwbb fbbbw hwbbb fbwbb fbbbp fbbwb fbbbb
+fbbbb fbbbb fvbbb xsnbbbb fbwbb xsnbbbw fbbbb fbbwb fbvbb xnsbbbw fwbbb fbbbb
+fbbbb fbbbb pbbbb xwsnbbbb rbbbb xsnbbbb fbbbb fpbbb fbwbb xnsbbbw fbbbb fbbbb
+fbbbb fbbbb fbbpb xsnbbbb fbbbb xsnbwbb fbbbw fbbbb fbwwb fbbww fbbbb fbbbb
+fbbbb fbbbb fvbbb xsnbbbb fbwbb xsnbbbw fbbbb fbbbb fvbbb fpbbb hbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,11 3,1,10,8 3,1,3,8 3,1,10,11 

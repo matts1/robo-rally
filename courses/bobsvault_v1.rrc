@@ -1,0 +1,41 @@
+name: Bab's Vault v1
+description: Classic Vault board
+with 4 moving flags.
+by 2455ybob
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb pbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb csnbbbb fwbbb cnsbbbb flbbb fbbbb fbbbb flbbb csenbbbb cwewbbb gbbbb rbbbb
+cwebbbb cwnbbbb fbbbb gbbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb fbbbb xsnbbbb fbbbb
+fbbbl fbbbb fbbbb fbwbb fbbbw fbbpb fbbwb fbbbb fbbbb fbbbb xsnbbbb fbwbb
+fbbbb fbbbb pbbbb fbbbb fbbwb fwbbb fwbbb fbbwb fbbbb pbbbb xenbbbb xewbbbb
+fbbbw fbbbb fbbbb fbwbb fwbbw fbbbb fbbbb fwwbb fbbbw fbbbb fbbwb fbwbb
+fbbbb fbbbb fbwbb fbbbw fbbbb hbbbb hbbbb fbbbb fbwbb fbbbw fvbbb fbbbb
+cewbbbb cswbbbb fbpbb fbbbw fbbbb hbbbb hbbbb fbbbb fbwbb fbbbp xewbbbb xewbbbb
+fbbbw csnbbbb fbbbb fbwbb fbbww fbbbb fbbbb fbwwb fbbbw fbbbb fbbbb fbwbb
+fbbbb csnbbbb pbbbb fbbbb fwbbb fbbwb fbbwb fwbbb fbbbb pbbbb fbbbb fbbbb
+fbbbw csnbbbb fbbbb fbbbb fbbbb fvbbb fpbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+fbbbb cenbbbb cewbbbb cewbbbb cewbbbb cswbbbb fbbbb fbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+rbbbb fbbbb fbbwb fbbbb fbblb csnbbbb fbbbb fbblb fbbbb fbbwb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,11,9 3,1,1,2 3,1,7,1 3,1,2,11 

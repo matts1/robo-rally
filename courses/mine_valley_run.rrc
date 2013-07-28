@@ -1,0 +1,74 @@
+name: Valley mine run
+description: Visit this ancient mine
+valley, old railway trucks
+let your robot feed get
+stuck.
+length: medium
+difficulty: mid
+players: 2 8
+newboard:
+blank board
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb xsnbbbb hbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb xsebbbb xwebbbb xwnbbbb fbbbb xnebbbb xwsbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb fbbbb xsnbbbb xesbbbb xewbbbb xswbbbb rbbbb xnsbbbb xsnbbbb pbbbb pbbbb pbbbb
+endboard
+board: 2,1 0 blank board
+newboard:
+blank board Copy
+pbbbb xsebbbb xwnbbbb xnsbbbb rbbbb xsnbbbb xesbbbb xnwbbbb xsnbbbb hbbbb pbbbb pbbbb
+hbbbb xenbbbb xswbbbb xnsbbbb rbbbb xenbbbb xnwbbbb rbbbb xenbbbb xswbbbb xnsbbbb pbbbb
+xsebbbb xwebbbb xwnbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwsbbbb fbbbb xsnbbbb xnebbbb xwsbbbb
+xwnbbbb rbbbb xesbbbb xewbbbb xewbbbb xewbbbb xswbbbb xnsbbbb fbbbb xsnbbbb fbbbb xnsbbbb
+xewbbbb xewbbbb xnwbbbb rbbbb csebbbb cwebbbb pbbbb pbbbb xsebbbb xwnbbbb fbbbb xnsbbbb
+cwebbbb cwsbbbb csebbbb cwsbbbb csnbbbb rbbbb pbbbb pbbbb pbbbb hbbbb xesbbbb xnwbbbb
+pbbbb cnebbbb cwnbbbb cnsbbbb csnbbbb cesbbbb cnwbbbb pbbbb pbbbb pbbbb xnsbbbb fbbbb
+pbbbb pbbbb rbbbb cnebbbb cwnbbbb cnebbbb cwsbbbb pbbwb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb cewbbbb cewbbbb cswbbbb pbbbb cnsbbbb hwbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb fbbbb cenbbbb cewbbbb cnwbbbb csebbbb cwebbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb hbbbb csebbbb cwebbbb cwebbbb cwnbbbb xesbbbb xswbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb cwsbbbb csnbbbb xesbbbb xewbbbb xewbbbb xnwbbbb xsnbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board Copy
+newboard:
+blank board Copy Copy
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbwb pbbwb pbbbb pbbbb
+fbbbb csnbbbb cnsbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fwbbb fwwbb pbbww pbbbb
+fbbbb csnbbbb cnsbbbb fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fwwbb pbbbw
+fbbbb csnbbbb cnebbbb cwsbbbb fbbbb csnbbbb fbbbb csebbbb cwsbbbb fbbbb fbwbb pbbbw
+csebbbb cwnbbbb fbbbb cnsbbbb fbbbb csnbbbb fbbbb cenbbbb cnsbbbb fbbbb fbwbb pbbbw
+csnbbbb fbbbb fbbbb cnsbbbb csebbbb cwnbbbb cesbbbb cewbbbb cnwbbbb fbbbb fbwwb pbbbw
+pbbbb pbbbb fbbbb cnsbbbb csnbbbb fbbbb cnsbbbb fbbbb fbbbb fbwwb pwbbw pbbbb
+pbbbb pbbbb pbbbb pbbbb csnbbbb cesbbbb cnwbbbb fbbbb fbwwb pwbbw pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb cnsbbbb fbbwb fbwwb pwbbw pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pwbbb pwbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,2 0 blank board Copy Copy
+newboard:
+blank board Copy Copy Copy
+pbbbb pbbbb pbbbb cnebbbb cwnbbbb xnsbbbb pbbbb pbbbb pbbbb xenbbbb xswbbbb pbbbb
+pbbbb pbbbb pbbbb pbwbb xesbbbt xnwbbbb fbbbb fbbbb fbbbb xsebbbb xwnbtbb pbbbw
+pbbbb pbbbb pbbbb pbbbb xnebbbb xwebbbb xwsbbbb fbblb xsebbbb xwnbbbb fbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pwbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 4,1 0 blank board Copy Copy Copy
+flags: 3,2,7,3 3,1,2,8 3,1,5,4 4,1,3,8 
+start: 3,2,8,11 3,2,7,11 3,2,9,10 3,2,6,11 3,2,10,9 3,2,5,11 3,2,11,8 3,2,4,10 

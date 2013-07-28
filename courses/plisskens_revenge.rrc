@@ -1,0 +1,42 @@
+name: Plissken's Revenge
+description: All right, get your machine ready, I'm coming out. 
+5 flags.
+No special rules.
+designed by i8flesh.
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+Vault
+fbbbb cnsbbbb fbbbb fbbbb fbbbb flbbb fbbbb xsebbbb xwebbbb xwsbbbb fbbbb fbbbb
+fbbbb cnsbwbb fbbbw fbbbb fbbbb fbbbb fbbbb xsnbbbb fbbbb xnsbbbb fbbbb fbbbb
+fbbbw cnebbbb cwsbbbb pbbbb cswbbbb fbbwb fbbwb xenbbbb pbbbb xnsbbbb fbbbb fbbbb
+fbbbb fbwbb cnsbbbw fbbbb cenbbwb cewwbbb cswwbbb fbbwb fbbbb xnebbbb xwsbbbb fbbbb
+fbbbw fbbbb cnebbbb cwsbwbb fwbbw fbbbb cenbbbb cswwwbb fbbbw fbbbb xnebbbb xwsbbbb
+fbbbb fbbbb xnsbwbb cnsbbbw fbbbb rbbbb rbbbb cenbbbb cswbwbb fbbbw fbbbb xnebbbb
+fbbbb fbbbb xnsbwbb cnebbbw cwsbbbb rbbbb rbbbb fbbbb csnbwbb fbbbw fbbbb fbdbb
+xesbbbw xewbbbb xnwbbbb fbwbb cnebbww cwsbbbb fbbbb fbwwb cenbbbw cewbbbb cswbbbb fbbbb
+xnsbbbb fbwbb fbbbw fbbbb fwbbb cnebbwb cwebbwb cwewbbb cwsbbbb fbbbb csnbbbb fbbbb
+xnebbbw xwebbbb xwsbbbb pbbbb fbbbb fwbbb fwbbb fbbbb pbbbb fbbbb csnbbbb fbbbb
+fbbbb fbwbb xnsbbbw fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb csnbbbb fbbbb
+fbbbb fbbbb xnsbbbb fbbbb fbbbb fbbbb fbbtb fbbbb fbbbb fbbbb csnbbbb fbbbb
+endboard
+board: 3,1 0 Vault
+flags: 3,1,6,7 3,1,9,2 3,1,2,9 3,1,7,6 3,1,10,8 

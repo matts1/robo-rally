@@ -1,0 +1,40 @@
+name: Laser Miserables
+description: 6 flags, 4 of them moving. 2 option squares, inconveniently placed.  So many lasers, you may as well power down now and be done with it.
+length: long
+difficulty: expert
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+1,1 12,1 4,3 9,3 5,1 8,1 2,2 11,2 
+xeswbbw xewwbbb xewwbbb xswwwbb
+xnsbbbw cesbbbb cswbbbb xsnbwbb
+xnsbbbw cnsbwbb csnbbbv xsnbbbb
+xnsbbbw cnebbbb cwnbbbb xsnbwbb
+xnebbbw xwebbbb xwebbbb xwnbwbb
+rbbbw fbwbb cewbbbw obbbb
+rbbbw fbwbb cewbbbw gbbbb
+xsebbbw xwebbbb xwebbbb xwsbwbb
+xsnbbbw csebbbb cwsbbbb xnsbwbb
+xsnbbbw csnbwbb cnsbbbv xnsbbbb
+xsnbbbw cenbbbb cnwbbbb xnsbwbb
+xenbbww xewbbwb xewbbwb xnwbwwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xeswbbb xewbbwb xewbbbb xswbbbb csebbbb cwebbbb cwswwbb hbbbv xesbbbb xewpbbb cewlbbb cnwblbb
+xnsbbbb rpbbb cewbbbb xsnbbbb csnbbbb gbwbb cnsbbbw fbbbb xnsbbbb xsnbbbb xesbbbb cswbbbb
+xnsbbbb fbbbb fbbbb xsnbbbb csnblbb obbbw cnsbbbb fbbbb xnsbbbb xsnbbbb xnsbbbb csnbbbb
+xnsbbbb cwebbbb rbbpb xsnbbbb csnbbbb gbwbb cnsbbbw rbblb xnsbbbb xsnbbbb xnsbpbb csnbbbw
+xnebbbb xwebbbb xwewbbb xwnbbbb csnbwbb obbbw cnsbbbb rwbbb xnsbbbb xsnbbbb xnsbbbb csnblbb
+cnsbbbb rbbbb fbbbb gbbbb csnbbbb gblbb cnsbbbw fbbbb xnsbbbb xsnbbbb xnsbvbb csnbbbw
+csnbbbb rbbbb fbbbb fbbbb csnblbb obbbw cnsbbbb obbbb xnsbbbb xsnbbbb xnsbbbb csnblbb
+xesbbbb xewbbbb xewbbwb xswbbbb csnbbbb gbwbb cnsbbbw fbbbb xnsbbbb xsnbbbb xnsbpbb csnbbbw
+xnsbbbb cwebbbb rpbbb xsnbbbb csnbwbb obbbw cnsbbbb fbbbb xnsbbbb xsnbbbb xnsbbbb csnbbbb
+xnsbbbb fbbbb fbbbb xsnbbbb csnbbbb gblbb cnsbbbw fbbbb xnsbbbb xsnbbbb xnsbvbb csnbbbw
+xnsbbbb rbbpb cewbbbb xsnbbbb csnbwbb obbbw cnsbbbb rbbbb xnsbbbb xsnbbbb xnebbbb cwnbbbb
+xnebbbb xwewbbb xwebbbb xwnbbwb cenbbwb cewbbbb cnwbwbb csebbbl cwebbpb xwenbbbb xwebbwb hbvbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,8 3,1,7,4 3,1,1,1 3,1,8,1 3,1,2,12 3,1,12,7 

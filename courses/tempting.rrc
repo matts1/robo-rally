@@ -1,0 +1,25 @@
+name: Tempting
+description: Just some random elements thrown together in a totally unbablanced fashion..
+4 flags which do not move.
+designed by i8flesh
+length: medium
+difficulty: mid
+players: 2 6
+newboard:
+blank board
+fbbbb fbbbb fbbbb gbbbb xwebbbb xwebbwb xwebbwb xwebbwb xwebbwb xwebbwb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb pwbbb pwbbb pwbbb pwbbb pwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb obbbb obbbb rbbbb cesbbbb rbbbb cwsbbbb rbbbb obbbb obbbb
+fbbbb fbbbb fbbbb rbbbb gbbbb cenbbbb cnwbbbb rbbbb cnebbbb cwnbbbb gbbbb fbbbb
+fbbbb fbbbb fbbbb xsebbbb xwsbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbwbb
+fbbbb fbbbb obwbb xenbbbw xnwbbbb cewbbbb cewbbpb rbbbb cewbbbb cewbbpb cewbbbb rbwbb
+fbbbb fbbbb gbwbb xsebbbw xwsbbbb cewbbbb cewvbbb rbbbb cewbbbb cewvbbb cewbbbb rbwbb
+fbbbb fbbbb fbbbb xenbbbb xnwbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb rbbbb obbbb cesbbbb cswbbbb rbbbb csebbbb cwsbbbb obbbb fbbbb
+fbbbb fbbbb fbbbb gbbbb gbbbb rbbbb cenbbbb rbbbb cwnbbbb rbbbb gbbbb gbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb pbbwb pbbwb pbbwb pbbwb pbbwb fbbbb fbbbb
+fbbbb fbbbb fbbbb obbbb xwebbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,11 3,1,7,3 3,1,7,10 3,1,6,3 
+start: 3,1,6,1 3,1,7,1 3,1,3,2 3,1,10,2 3,1,2,2 3,1,11,2 3,1,1,3 3,1,12,3 

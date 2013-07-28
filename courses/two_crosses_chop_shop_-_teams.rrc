@@ -1,0 +1,59 @@
+name: Two Crosses Chop Shop
+description: 5 Flags, 2 in lasers, none moving.
+4 Option spaces - two in lasers.
+Designed by timmonte
+length: long
+difficulty: mid
+players: 4 8
+team: true
+rules: teamonetouchalltouch
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsebbbb xwewbbb xwebbbb xwebbbb xwsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xsnbbbb fbbbb rbbbb fbbbb xnsbbbb fbbbb fbbbb cesbbbb cewbbbb cswbbbb fbbbb fbbbb
+xenbbbb xewbblb xewbbbb xswbbbb xnwbbbb fbbbb cesbbbb cnwbbbb pbbbb cenbbbb cswbbbb fbbbb
+fbbbb fwbbb fbbbb csnbbbb fbbbb fbbbb cnsbbbb pbbbb pbbbb pbbbb censbbbb cewbbbb
+fbbbb pbbbb fbbbb censbbbb cewbbbb cewbbbb cnwbbbb hbbbb pbbbb cesbbbb cnwbbwb fbbbb
+fbbbb fbbbb fbbbb cnsbbbb obbbb fbbbb fbbbb cesbbbb cewbbbb cnwbbbb fwbbb fbbbb
+fbbbb fbbbb cesbbbb cnwbbbb fbbbb fbbbb gbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb cesbbbb cnwbbbb pbbbb hbbbb cesbbbb cewbbbb cnwbbbb fbbbb pbbbb fbbbb fbbbb
+fbbbb cnsbbbb pbbbb pbbbb pbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb cnebbbb cwsbbbb pbbbb cesbbbb cnwbwwb fbbbw fbbbb xsebbbb xwebbbb xwebbbb xwsbbbb
+fbbbb fbbbb cnsbbbb cesbbbb cnwbbbb fwbbb fbbbb fbbbb xsnbbbb rbbbb fbbbb xnsbwbb
+fbbbb fbbbb cnsbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb xenbbbb xewbbbb xewbblb xnwbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+Chop Shop
+fbbbb fbbwb fwbbb fbbbb fwbbb csnbbbb cnsbbbb fwbbb fbbbb fwbbb fbbbb rbbbb
+cwebbbb fwbtb cwebbbb cwebbbb cwebbbb cwnbbbb cnsbbbb fbbbb fbbbb fbbbb pbbbb fbbbb
+fbbbw fwbbb rbbbb fbwwb fbbbl obbbb gbbbb fbbbb fbbbb fbwbb fbbww fbwbb
+cewbbbb cewbbbb cewbbbb fwbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xeswbbbb xewwbbb xewbbbb
+fbbbw fbbbb fbbbb gbbbb fbbbb fbbbb fbbbb fbbbb fbbwb xnsbbbb hbbbb fbwbb
+fbbbb fbbbb pbbbb obbbb fbbbb fbbbb rbbwb csnbwbb fwbbw xnebbbb xwebblb xwebbbb
+fbbbb fbbwb fbbbb fbbdb cwebbbb cwebbbb cwswbbb obbbb cewbbbb cewbbbb cewwbbb cewbbbb
+fbbbw flbbb fbbbb fwbbb fbbbb pbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb fbwbb
+cwebbbb cwebbbb cwebbbb obbbb fbwbb fbbbl gbbbb hbwbb fbbbw cwebbbb cwebbbb cwebbbb
+fbbbb fbbwb pbbbb cnsbbbb fbbbb fbbbb cnsbbbb fbbbb pbbbb cwebbbb cwsbbbb fbwbb
+fbbbw fwbbb fbbbb cnsbbbb fbwbb fbbbw cnsbbbb fbbbb fbbbb fbbbb cnsbbbb fbbbb
+rbbbb fbbbb fbbwb cnsbbbb fbbwb fbbbb cnsbbbb fbbwb fbbbb fbbwb cnsbbbb fbbbb
+endboard
+board: 3,2 0 Chop Shop
+flags: 3,1,4,6 3,1,11,11 3,2,8,12 3,1,2,2 3,2,5,3 

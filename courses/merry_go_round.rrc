@@ -1,0 +1,39 @@
+name: Merry-go-round
+description: Merry-go-round of DEATH!
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsebbbb xwebbbb xwewbbb xwebbbb xwewbbb xwsebbbb xwebbbb xwewbbb xwebbbb xwewbbb xwebbbb xwsbbbb
+xsnbbbb hbwwb fbbbw fbbbb fbbbb xnsbbbb fbbbb fbbbb cesbbbb cewbbbb cswbbbb xnsbbbb
+xsnbbbw flbbb pbbbb fbbbb obbbb xnsbwbb fbbbw cewbbbb cnwsbbbb pbbbb csnbbbb xnsbwbb
+xsnbbbb fbbbb fbbbb rbwwb fbbbw xnsbwbb obbbw fbbbb cnebbwb cwebbwb cwnbbbb xnsbbbb
+xsnbbbw fbbbb fbbbb gwbbb fbbbb xnsbwbb fbbbw fbbbb flbbb flbbb fbbbb xnsbwbb
+xsnbbbb fbbwb fbbwb xewbbwb xewbbwb xnwbwwb rbbww fbbwb fbbwb fbbwb fbbbb xnsbbbb
+xsnbbbb fwbbb fwbbb owbbb csnwbbb fwwbb csewbbw cwewbbb fwbbb fdbbb fbbbb xnsbbbb
+xsnbbbw fbbbb csnbbbb fbbbb fbbbb csnbwbb csnbbbw fbbbb cewbbbb fbbwb fbbbb xnsbwbb
+xsnbbbb gbbbb fbbbb obbbb fbbbb gbwbb fbbbw csnbbbb hbbbb fpbbb fbbbb xnsbbbb
+xsnbbbw fbbbb pbbbb fbbbb csnbbbb fbwbb fbbbd fbwbb fbbbp pbbbb fbpbb xnsbwbw
+xsnbbbb rbbbb fbbbb obbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbpb rbbbb xnsbbbb
+xenbbbb xewbbbb xewbbwb xewbbbb xewbbwb xewbbbb xewbbbb xewbbwb xewbbbb xewwbwb xewbbbb xnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,8 3,1,8,5 3,1,5,5 3,1,8,8 

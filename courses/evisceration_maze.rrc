@@ -1,0 +1,39 @@
+name: Evisceration Maze
+description: Narrow hallways in a long maze -- with plenty of chances for "player interaction" -- very evil grin
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbbw fwbbb fwbbb fbbbb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbbb fbbbb
+fbbww fbbwb fbwwb fbwbw fwbbw fwbbb fwbwb fwbwb fwbwb fwbwb fbbwb fbbwb
+cewwbwb cewwbwb fwbwb fbbbb pbbbb fbwwb fwbbw fwbwb fwbbb fwbwb fwbwb fwbbb
+fwbww fwbwb fwbwb fbbwb fbbbb fwbwb fbwwb fwwbw fbwbw fwbbw fwbwb fbbbb
+cewwbwb cewwbwb fwbwb fwbbb pbbbb fwbbb fwbwb fbwwb fbwbw fbwbw fwbbw fbbbb
+fwbbw fwbbb fwbwb fbbwb fbbwb fbbwb fwbwb fwbwb fbwwb fbwbw fbbbw fbbbb
+fbbww fbbwb fwbwb fwbbb fwbbb fwbbb fwbwb fwbwb fwwbb fbwbw fbbbw fbbbb
+cewwbwb cewwbwb fwbwb fbbwb pbbbb fbbwb fwbwb fwwbb fbwbw fbwbw fbbww fbbbb
+fwbww fwbwb fwbwb fwbbb fbbbb fwbwb fwwbb fbwww fbwbw fbbww fwbwb fbbbb
+cewwbwb cewwbwb fwbwb fbbbb pbbbb fwwbb fbbww fwbwb fbbwb fwbwb fwbwb fbbwb
+fwbbw fwbbb fwwbb fbwbw fbbww fbbwb fwbwb fwbwb fwbwb fwbwb fwbbb fwbbb
+fbbww fbbwb fbbwb fbbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,10 3,1,3,6 3,1,10,6 3,1,2,2 3,1,11,2 3,1,4,8 3,1,9,8 3,1,6,11 

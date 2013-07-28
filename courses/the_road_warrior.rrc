@@ -1,0 +1,43 @@
+name: The Road Warrior
+description: You're Mad Max and the Highway is full of hotrod driving bandits.
+Best played with 6-8 players.  All players start with 3 options and a 45 second timer.
+Created by: Samuel
+2010 RoboRally Map Contest Submission
+length: medium
+difficulty: easy
+players: 6 8
+rules: startoptions3c3 maxfilltime45
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 8,3 5,3 5,1 8,1 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbwb fbbwb fbbwb fbbwb
+fwbbb fwbbb fwbbb fwbbb
+fbbbb fbwbb fbbbw fbbbb
+fbbbb fbbbb fbbbb fbbwb
+fbbbb fbbbb fbbbb fwbbb
+fbbbb fbwbb fbbbw fbbbb
+fbbwb fbbwb fbbwb fbbwb
+fwbbb fwbbb fwbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb
+fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbbb fbbbb fbbbb
+fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fbbbb fbbbb fbbbb
+rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb
+fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb
+fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb
+rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb
+fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbwb fbbbb fbbbb fbbbb
+fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,1 3,1,11,1 

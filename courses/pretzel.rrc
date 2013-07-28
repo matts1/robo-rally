@@ -1,0 +1,40 @@
+name: Pretzel
+description: Flags: 4
+A delicious crispy pastry snack by Spacebug.  A 2013 Map Editing Contest Entry
+length: short
+difficulty: mid
+players: 2 8
+newsboard:
+Starting Board 2
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbbb fbbbb fbbbb
+fbbbw fbbwb fbbbb fbwbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbw fwbbb fbbbb fbwbb
+fbbbb fbbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: Starting Board 2
+newboard:
+blank board
+fbbbb cesbbbb cewwbbb cewbbbb cewwbbb cewbbbb cewbbbb cewwbbb cswbbbb owbbb fbbbb fbbbb
+fbbbb cnsbbbb cesbbbb cewbbbb cewbblb cewbbbb cewbbbb cswbbbb csnbbbb fbbbb fbbbb fbbbb
+fbbbw cnsbbbb cnsbwbb gbbbw fwbbb fbbwb fbwbb csnbbbw csnbwbb fbbww fbbbb obwbb
+fbbbb cnsbbbb cnsbbbb fbbbb fbwbb ceswbbw cewbbbb cewbbbb cewbbbb cewwbbb cewbbbb cswbbbb
+fbbbw cnsbbbb cnsbwbb fbbbw gbbbb cnsbbbb cesbbbb cewbbbb cewbbbb cewbbwb cswbbbb csnbwbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb csnbbbb fwbbb csnbbbb csnbbbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbwb cwebbbb cwebbbb cwebbbb cwnbwwb fbbbw csnbbbb csnbbbb
+fbbbw cnsbbbb cnsblbb fbbbw pwwbb cnsbbbw cnsbbbb gbbbb fwbbb fbwbb csnbbbl csnbwbb
+fbbbb cnsbbbb cnsbbbb fbbbb fbbwb cnsbbbb cnsbbbb fbbwb fbbbb gbbwb csnbbbb csnbbbb
+fbbbw cnsbbbb cnebbbb cwebbbb cwelbbb cnsbbbb cnsbbbb cwewbbb cwebbbb cwewbbb cwnbbbb csnbwbb
+fbbbb cnebbbb cwebbbb cwebbbb cwebbbb cnsbbbb cnsbbbb cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb
+fbbbb fbbbb fbbwb fbbbb fbbwb cnsbbbb cnsbbbb fbbwb fbbbb fbbwb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,9 3,1,4,5 3,1,9,4 3,1,2,11 

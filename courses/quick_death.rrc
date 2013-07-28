@@ -1,0 +1,38 @@
+name: Quick Death
+description: Can you survive
+length: medium
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 5,2 8,2 6,1 7,1 5,1 8,1 
+ptbbb pwbbb pdbbb pwbbb
+pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb
+pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb
+pbbwb pbbtb pbbwb pbbdb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+plbbb pwbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb hbbbb hbbbb hbbbb hbbbb hbbbb hbbbb pbbbb pbbbb pbbbb pbbbb
+xewbbbb xewbbbb hbbbb hbbbb hbbbb hbbbb hbbbb hbbbb pbbbb pbbbb pbbbb pbbbb
+xewbbbb xewbbbb hbbbb hbbbb pbbbb pbbbb hbbbb hbbbb pbbbb pbbbb pbbbb pbbbb
+xewbbbb xewbbbb hbbbb hbbbb pbbbb pbbbb hbbbb hbbbb pbbbb pbbbb pbbbb pbbbb
+xewbbbb xewbbbb hbbbb hbbbb hbbbb hbbbb hbbbb hbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb hbbbb hbbbb hbbbb hbbbb hbbbb hbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbwb pbblb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board

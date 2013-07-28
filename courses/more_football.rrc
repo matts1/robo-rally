@@ -1,0 +1,41 @@
+name: More Football for 4
+description: Are you ready for some more football?
+length: medium
+difficulty: mid
+players: 4 8
+team: true
+rules: teamflagtoggle
+newsboard:
+blank starting board
+4,4 3,3 9,4 10,3 8,1 8,2 5,1 5,2 
+fwbbw fwbbb fwbbb fwbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+gbbww gbbwb rbbwb rbbwb
+gwbbw gwbbb rwbbb rwbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbww fbbwb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbbb fwbbb fbbbb fbbbb fbbbb fbbwb fbbwb fbbwb fbbbb fbbbb fbwbb hbbbw
+fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fwbbb fwbbb fbbbb fbbbb fbwbb fbbbw
+fbbbb fbbbb fbbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbwbb fbbbw
+fbbwb fbbwb fbbbb fwbwb fbbbb fbbbb fbbbb fbbbb fbbbb fwbwb fbwbb fbbbw
+fwbbw hwwwb fbbbw fwbwb fbbbb fbbbb fbbbb fbbbb fbbbb fwbwb fbwbb fbbbw
+fbbww fwbwb fbbbb fwbbb fbbbb fbbwb fbbbb fbbwb fbbbb fwbbb fbbbb fbbbb
+fwbbw fwbwb fbbbb fbbwb fbbbb fwbbb fbbbb fwbbb fbbbb fbbwb fbbbb fbbbb
+fbbww hwwwb fbbbw fwbwb fbbbb fbbbb fbbbb fbbbb fbbbb fwbwb fbwbb fbbbw
+fwbbb fwbbb fbbbb fwbwb fbbbb fbbbb fbbbb fbbbb fbbbb fwbwb fbwbb fbbbw
+fbbbb fbbbb fbbbb fwbbb fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbwbb fbbbw
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbbwb fbbwb fbbbb fbbbb fbwbb fbbbw
+fbbwb fbbwb fbbbb fbbbb fbbbb fwbbb fwbbb fwbbb fbbbb fbbbb fbwbb hbbbw
+endboard
+board: 3,1 0 blank board
+flags: 3,1,1,7 3,1,4,6 3,1,4,8 3,1,9,6 3,1,9,8 3,1,12,7 

@@ -1,0 +1,31 @@
+name: Criss-Cross
+description: Complete Chaos.
+Your bot seems to be drawn back to the center of the board after each flag. 
+
+5 flags (1 moving).
+
+Best with 4 players.
+
+designed by i8flesh
+length: medium
+difficulty: hard
+players: 3 5
+rules: flagsmove
+newboard:
+blank board
+fbwbw fbwbw fbbbw xsnbbbb csnbbbb obwbb fbbbw flbbb fbbbb fbwbb fbwbw fbwbw
+fbbbb fbbbb pbbbb xsnbbbb csnbbbb fbwbb fbbbw fbbbb fbbbb fbbbb gbbbb gbbbb
+fbbbb fbbbb fbbbb xsnbbbb csnbbbb fbwbb fbbbw fbbbb fbbbb pbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb xsnbbbb csnbbbb fbbbb xsebbbb xwebbwb xwebbbb xwebbbb xwebbbb xwebbbb
+fbbbl fbbbb fbbbb xsnbwbb csnbbbw fbbbb csebbbb cwewbbb cwebbbb cwebbbb cwebbbb cwebbbb
+fbbwb fbbwb fbbwb xenbbbb cenbbbb csebbbb cwsbbbb fbbbb fbbbb fbbwb fbbwb obbwb
+owbbb fwbbb fwbbb fbbbb fbbbb cenbbbb cnwbbbb cwsbbbb xwsbbbb fwbbb fwbbb fwbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbwb cnwbbbb fbbbb cnsbwbb xnsbbbw fbbbb fbbbb fblbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewwbbb xnwbbbb fbbbb cnsbbbb xnsbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb pbbbb fbbbb fbwbb fbbbw cnsbbbb xnsbbbb pbbbb fbbbb fbbbb
+gbbbb gbbbb fbbbb fbbbb fbbbb fbwbb fbbbw cnsbbbb xnsbbbb fbbbb fbbbb fbbbb
+fbwbw fbwbw fbbbw fbbbb fbblb fbwbb obbbw cnsbbbb xnsbbbb fbwbb fbwbw fbwbw
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,6 3,1,3,11 3,1,10,6 3,1,2,2 3,1,9,12 
+start: 3,1,1,1 3,1,1,12 3,1,12,12 3,1,12,1 3,1,1,2 3,1,1,11 3,1,12,2 3,1,12,11 

@@ -1,0 +1,41 @@
+name: Pac Attack
+description: Attempt at humor with
+four moving flags.
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+9,2 4,2 12,2 1,2 10,2 3,2 11,2 2,2 
+cewtbbw fwbbb fwbbb fwbbb
+cewbbbw fbbbb fbbbb fbbbb
+cewbbbw fbbbb fbbbb fbbbb
+cewbbbw fbbbb fbbbb xsebbbb
+cewbbbw fbbbb fbbbb xsnbbbb
+cewbbbw fbbbb fbbbb xsnbbbb
+cewbbbw fbbbb fbbbb xsnbbbb
+cewbbbw fbbbb fbbbb xsnbbbb
+cewbbbw fbbbb fbbbb xenbbbb
+cewbbbw fbbbb fbbbb fbbbb
+cewbbbw fbbbb fbbbb fbbbb
+cewbbtw fbbwb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbbb fwbbb xsewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwewbbb xwswbbb fwbbb fwbbb cwetwbb
+fbbbb xsebbbb xwnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xnebbbb xwsbbbb fbbbb cwebwbb
+xsebbbb xwnbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb xesbbbb xnwbbbb fbbbb cwebwbb
+xwnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xesbbbb xnwbbbb fbbbb fbbbb cwebwbb
+fbbbb rbbbb fbbbb fbbbb fbbbb xesbbbb xewbbbb xnwbbbb fbbbb fbbwb fbbwb cwebwbb
+fbbbb fbbwb fbbbb fbbbb xesbbbb xnwbbwb fbbbb fbbbb fbwbb pwbbw pwwbb cwebwbw
+fbbbb fwbbb fbbbb fbbbb xnebbbb xwswbbb fbbbb fbbbb fbwbb pbbww pbwwb cwebwbw
+fbbbb rbbbb fbbbb fbbbb fbbbb xnebbbb xwebbbb xwsbbbb fbbbb fwbbb fwbbb cwebwbb
+xswbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xnebbbb xwsbbbb fbbbb fbbbb cwebwbb
+xenbbbb xswbbbb fbbbb fbbbb fbbbb hbbbb fbbbb fbbbb xnebbbb xwsbbbb fbbbb cwebwbb
+fbbbb xenbbbb xswbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xesbbbb xnwbbbb fbbbb cwebwbb
+fbbwb fbbwb xenbbwb xewbbwb xewbbwb xewbbwb xewbbwb xewbbwb xnwbbwb fbbwb fbbwb cwebwtb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,8 3,1,12,3 3,1,5,8 3,1,1,3 

@@ -1,0 +1,56 @@
+name: This is madness!
+description: Sparta's answer to diplomacy problems seemed very relevant to Roborally.
+(don't get kicked into the pit)
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb
+fbbbb fbbwb fbbbb fbbbb fbbwb fbbbb fbbwb fbbbb fbbwb fbbbb fbbwb fbbbb
+fbbbd fwbbb fbwbb fbbbw fdbbb fbbbb fdbbb fbbbb fdbbb fbwbb fdbbw fbbbb
+fbbbb fbbbb fbbbb fbwbb fbbbd fbbbb fbwbb fbbbw fbbbb fbwbb fbbwd fbbbb
+fbbbb fbbdb fbbbb fbbbb fbbwb fbbbb fbbwb fbbbb fbbwb fbwbb fwbbw fbbbb
+xewbbbb xewwbbb xewbbbb xewbbbb xewwbbb xewbbbb xewwbbb xewbbbb xewwbbb xewbbbb xewbbbb xewbbbb
+xewbbwb xewbbbb xewbbbb xewbbbb xewbbwb xewbbbb xewbbwb xewbbbb xewbbwb xewbbbb xewbbwb xewbbbb
+fdbbw fbbbb fbdwb fbwbw fwbbd fbbbb fdwbb fbwbw fwbbd fbbbb fdwbb fbwbw
+fbbwd fbbbb fdwbb fbwbw fbbbw fbbbb fbdwb fbwbw fbbbd fbbbb fbwbb fbwbw
+fwbbw fbbbb fbdwb fbbbw fbbdb fbbbb fwbbb fbbbb fbbdb fbbbb fbbwb fbbbb
+fbbbb fbbbb fwbbb fbbbb fwbbb fbbbb fbbbb fbbbb fwbbb fbbbb fwbbb fbbbb
+rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbwb fbbbb fbbwb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbdwb fbbbw fbbbb fbbbb fdbbb fbwbb fdbbw fbbbb fbdwb fbbbw fbbbb fbbbb
+fdwbb fbbbw fbbbb fbbbb fbbbb fbwbb fbbwd fbbbb fdwbb fbbbw fbbbb fbbbb
+fbdwb fbbbw fbbbb fbbbb fbbwb fbwbb fwbbw fbbbb fbdwb fbbbw fbbbb pbbbb
+xewwbbb xewbbbb xewbbbb xewbbbb xewwbbb xewbbbb xewbbbb xewbbbb xewwbbb xewbbbb pbbbb pbbbb
+xewbbwb xewbbbb xewbbwb xewbbbb xewbbbb xewbbwb xewbbbb xewbbbb xewbbwb xewbbbb pbbwb pbbbb
+fwbbd fbbbb fdwbb fbwbw fbbbd fwbbb fbwbb fbwbw fwbbd fbbbb fdwbb pbbbw
+fbbbw fbbbb fbdwb fbbbw fbbbb fbbbb fbbbb fbwbb fbbbd fbbbb fbwbb fbbbw
+fbbdb fbbbb fdbwb fbbbb fbbbb fbbdb fbbbb fbbbb fbbdb fbbbb fbbwb fbbbb
+fwbbb fbbbb fwbbb fbbbb fbbbb fwbbb fbbbb fbbbb fwbbb fbbbb fwbbb fbbbb
+fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb
+endboard
+board: 3,2 0 blank board Copy
+flags: 3,2,4,3 3,2,11,5 3,2,4,11 

@@ -1,0 +1,77 @@
+name: Tilting at Pinwheels
+description: Built for 8 players, I anticipate a LOT of shoving.
+5 flags.
+TEAM RULES (One touch all touch)
+2013 Map Editing Contest Entry
+Designed by i8flesh
+length: long
+difficulty: mid
+players: 4 8
+team: true
+rules: teamonetouchalltouch
+newboard:
+blank board
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbwb pbbbb pbbwb pbbbb pbbwb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fwbbb fbbbb fwbbb fbbbb fwbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw
+fbbbb fbbbb xewbbbb xswbbbb fbbbb fbbbb fbbbb fbblb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb xensbbbb xewbbbb xewbbbb xswbbbb pwbbb fbbbb fbbdb fbwbb fbbbw
+fbbbb fbbbb xewbbbb xnwbbbb fbbbb fbbbb xensbbbb cewbbbb cewbbbb cewwbbb cswbbbb fbbtb
+fbbbb fbbbb xewbbbb xswbbbb fbbbb fbbbb xnsbbbb fbbbb fbwbb fbbbw csnbbbb fwbbb
+endboard
+board: 2,1 0 blank board
+newboard:
+blank board Copy
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb cnsbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+cwebbbb cwebbbb fbbbb cewbbbb cewbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 2,2 0 blank board Copy
+newboard:
+blank board Copy Copy
+fbbbb fbbbb fbbbb xensbbbb xewbbbb xewbbbb xnwbbbb pbbbb fbbbb fbbbb csnbbbb fbbbb
+fbbbb fbbbb xewbbbb xnwbbbb fbbbb fbbbb fbbbb gbbbb fbwbb fbbbw csnbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb gbbbb obbbb gbbbb fbbbb censbbbb cewbbbb
+fbbbb fbbbb xewbbbb xswbbbb fbbbb fbbbb fbbbb gbbbb fbwbb fbbbw cnsbbbb fbbbb
+fbbbb fbbbb fbbbb xensbbbb xewbbbb xewbbbb xswbbbb pbbbb fbbbb fbbbb cnsbbbb fbbbb
+fbbbb fbbbb xewbbbb xnwbbbb fbbbb fbbbb xsnbbbb fbbbb fbwbb fbbbw cnsbbbb fbbwb
+fbbbb fbbbb xewbbbb xswbbbb fbbbb fbbbb xensbbbb cewbbbb cewbbbb cewbbwb cnwbbbb ftbbb
+fbbbb fbbbb fbbbb xensbbbb xewbbbb xewbbbb xnwbbbb pbbwb fbbbb fdbbb fbbbb fbbbb
+fbbbb fbbbb xewbbbb xnwbbbb fbbbb fbbbb fbbbb flbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb fbbbb fbbwb fbbbb fbbwb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pwbbb pbbbb pwbbb pbbbb pwbbb
+endboard
+board: 3,1 0 blank board Copy Copy
+newboard:
+blank board Copy Copy Copy
+rbwbb fbbbw csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbwb fbpbb fbbbw fbbbb pbbbb pbbbb pbbbb pbbbb
+cewbbbb cewbbbb pbbbb fbbbb fpbbb fbbbb fbbpb fbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbwbb fbbbp fwbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+rbwbb fbbbw cnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+cwebbbb cwebbbb fbbbb cewbbbb cewbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb csnbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,2 0 blank board Copy Copy Copy
+flags: 3,2,3,6 3,1,4,8 2,2,11,3 3,1,2,8 3,2,7,3 
+start: 3,1,2,2 2,1,12,2 3,1,4,2 3,1,6,2 2,1,11,2 2,1,9,2 3,1,7,2 3,1,9,2 

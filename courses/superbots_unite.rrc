@@ -1,0 +1,27 @@
+name: Superbots Unite!
+description: The King is dead, long live the King!
+4 Flags, which move.
+Superbot rules.
+designed by i8flesh
+length: long
+difficulty: mid
+players: 2 8
+rules: flagsmove dayofthesuperbot
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb xnsbbbb fbwbb fbbbw xnsbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb xnsbbbb fbwbb fbbbw xnsbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb rbbwb pbbbb xnsbpbb fbbbv fbvbb xnsbbbp pbbbb rbbwb fbbbb fbbbb
+fbbbb fbbbb pwbbb pbbbb xnsbbbb fbbbb fbbbb xnsbbbb pbbbb pwbbb fbbbb fbbbb
+fbbbb xewbbbb xewbbbb xewbbbb xnwbbbb gbwbb obbbw xnebbbb xwebbbb xwebbbb xwebbbb fbbbb
+fbbwb fbbwb fbbbb fbbbb obbbb rbbbb hbbbb gbbbb fbbbb fbbbb fbbwb fbbwb
+fwbbb fwbbb fbbbb fbbbb gbbbb hbbbb rbbbb obbbb fbbbb fbbbb fwbbb fwbbb
+fbbbb xewbbbb xewbbbb xewbbbb xswbbbb obwbb gbbbw xsebbbb xwebbbb xwebbbb xwebbbb fbbbb
+fbbbb fbbbb pbbwb pbbbb xsnbbbb fbbbb fbbbb xsnbbbb pbbbb pbbwb fbbbb fbbbb
+fbbbb fbbbb rwbbb pbbbb xsnbpbb fbbbv fbvbb xsnbbbp pbbbb rwbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb xsnbbbb fbwbb fbbbw xsnbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb xsnbbbb fbwbb fbbbw xsnbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,6 3,1,12,9 3,1,8,2 3,1,5,11 3,1,12,1 
+start: 3,1,2,2 3,1,11,11 3,1,11,2 3,1,2,11 3,1,5,3 3,1,8,10 3,1,8,3 3,1,5,10 

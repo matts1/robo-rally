@@ -1,0 +1,39 @@
+name: WotC Stadium
+description: Go for the flag or be a spectator -- a spectator with a LASER GUN
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb csebbbb cewbbwb cewbbwb cnwbwwb fbwbw cnebbww cwebbwb cwsbbbb fbbbb
+fbbbb fbbbb fbbbb csnbwbb fwbbw fwbwb fwbbb fbbbb fwbwb fwwbb csnbbbw fbbbb
+fbbbb fbbbb fbbbb cwnbwwb fbwbw pdbbd pbbbb pbbbb pdwbb fbtbw cenbbww fbbbb
+fbbbb fbbbb rbbbb fwbwb fbbbb pbbbb fbbbb fbbbb pbbbb fbbbb fwbwb rbbbb
+fbbbb fbwbb fbbbv cwswwbb fbbbw pbbbb fbbbb fbbbb pbbbb fbwbb cewwbbw fbvbb
+fbbbb fbbbb fbbbb cnsbwbb fbbbw pbbbb fbbbb fbbbb fbbwb fbwbb cewbbww fbvbb
+fbbbb fbwbb fbbbv cwnbwwb fbwbt pbdbw fbbbw fbbbb fwbbb fbbbb fwbwb hbbbb
+fbbbb fbbbb rbbbb fwbwb fbwbb pbbtw pbbbb pbbbb pblbb fbwbw ceswbbw fbbbb
+fbbbb fbbbb fbbbb cwswwbb fbbww fwbwb fbbwb fbbbb fbbwb fbwwb cnsbbbw fbbbb
+fbbbb fbbbb fbbbb cnebbbb cewwbbb cewwbbb cswwwbb fbwbw csewbbw cwewbbb cnwbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,8 3,1,3,3 

@@ -1,0 +1,23 @@
+name: The Sewer - by ToneDog
+description: Stinky deathmatch.  Nuff said.
+length: medium
+difficulty: easy
+players: 2 8
+rules: lasermultiplier2 nopowerdown wrenchtooption startoptions3c1
+newboard:
+blank board
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb
+pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb
+pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb
+pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb
+pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb
+pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb pbbbb fbbbb
+pbbbb hbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb hbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+start: 3,1,5,6 3,1,8,6 3,1,5,8 3,1,8,8 3,1,5,4 3,1,8,4 3,1,5,10 3,1,8,10 

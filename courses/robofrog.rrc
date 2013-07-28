@@ -1,0 +1,40 @@
+name: RoboFrog
+description: Just like Frogger only with robots who shoot you in the face
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+cwebbbb cwebbbb cwebbbb cwebbbb
+cwebbbb cwebbbb cwebbbb cwebbbb
+cewbbbb cewbbbb cewbbbb cewbbbb
+cwebbbb cwebbbb cwebbbb cwebbbb
+cewbbbb cewbbbb cewbbbb cewbbbb
+cwebbbb cwebbbb cwebbbb cwebbbb
+cwebbbb cwebbbb cwebbbb cwebbbb
+cewbbbb cewbbbb cewbbbb cewbbbb
+cwebbbb cwebbbb cwebbbb cwebbbb
+cewbbbb cewbbbb cewbbbb cewbbbb
+cwebbbb cwebbbb cwebbbb cwebbbb
+cwebbbb cwebbbb cwebbbb cwebbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,11 3,1,2,9 3,1,9,7 3,1,4,5 3,1,11,3 3,1,7,1 

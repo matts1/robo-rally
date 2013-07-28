@@ -1,0 +1,40 @@
+name: Alienbrain's 4ACROSS
+description: Four flags on an pretty, pretty course. All flags are moving targets...sort of. The 1 and 3 are on gears. Watch carefully how they turn you. Three double wrenches.
+length: short
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb csebbbb
+fbbbb fbbbb fbbbb csnbbbb
+fbbbb fbbbb fbbbb csnbbbb
+fbbbb fbbbb fbbbb rbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb csebbbb
+fbbbb fbbbb fbbbb cenbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb rbbbb
+fbbbb fbbbb fbbbb csnbbbb
+fbbbb fbbbb fbbbb csnbbbb
+fbbbb fbbbb fbbbb cenbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cwebbbb cwebbbb rbbbb fbbbb csebbbb cwsbbbb fbbbb rbbbb cwebbbb cwebbbb cwsbbbb hvbbb
+rbbbb xsebbbb xwebbbb obbbb cenbbbb cnwbbbb obbbb xwebbbb xwsbbbb fbbbb cnsbbbb pbbbb
+xsebbbb xwnbbbb fbbbb cesbbbb cewbbwb cewbbwb cswbbbb fbbbb xnebbbb xwsbbbb cnsbbbb fbbbb
+xsnbbbb fbbbb obbbb cnsbbbb xselbbb xwswbbb csnbbbb obbbb fbbbb xnsbbbb rbbbb fbbbb
+obbbb cesbbbb cewbbbb cnwbbbb gbpbb gbbbw cenbbbb cewbbbb cswbbbb obbbb fbbbb fbbbb
+cwsbbbb cnsbwbb xsebbbw gbbwb obbbb hbbbb gbbpb xwsblbb csnbbbw csebbbb cwsbbbb hbvbb
+cnwbbbb cnsbwbb xenbbbl gpbbb hbbbb obbbb gwbbb xnwbwbb csnbbbw cenbbbb cnwbbbb fbpbb
+obbbb cnebbbb cwebbbb cwsbbbb gbwbb gbbbp csebbbb cwebbbb cwnbbbb obbbb fbbbb fbbbb
+xsnbbbb fbbbb obbbb cnsbbbb xenbbwb xnwbblb csnbbbb obbbb rbbbb xnsbbbb rbbbb fbbbb
+xenbbbb xswbbbb fbbbb cnebbbb cwewbbb cwewbbb cwnbbbb fbbbb xesbbbb xnwbbbb cnsbbbb fbbbb
+rbbbb xenbbbb xewbbbb obbbb csebbbb cwsbbbb obbbb xewbbbb xnwbbbb fbbbb cnsbbbb pbbbb
+cewbbbb cewbbbb rbbbb fbbbb cenbbbb cnwbbbb fbbbb rbbbb cewbbbb cewbbbb cnwbbbb hbbvb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,6 3,1,7,12 3,1,8,5 3,1,5,9 

@@ -1,0 +1,71 @@
+name: Mission To Mars
+description: 3 Flags - Take your SpaceBot to Mars, ride the gravity wells, look out for asteroid lasers
+length: long
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+9,2 4,2 3,1 10,1 11,2 2,2 12,1 1,1 
+fwbbw fwbbb fwbbb fwbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb cnsbbbb
+fbbbw fbbbb fbbbb cnebbbb
+fbbbw fbbbb fbbbb fbbbb
+hbbbp fbbbb fbbbb fbbbb
+hbbbp fbbbb fbbbb fbbbb
+fbbbw fbbbb fbbbb pbbbb
+fbbbw fbbbb fbbbb pbbbb
+fbbbw fbbbb fbbbb pbbbb
+fbbbw fbbbb fbbbb fbbbb
+fbbww fbbwb fbbwb fbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+pbbbb plbbb pbbbb pbbbb gbbbb fbbbb flbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+pbbbb pbbbb pbbbb gbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+pbbbb pbbbb gbbbb fbbbb fbbbb obbbb pbbbb pbbbb obbbb fbbbb fbbbb fbbbb
+pbbbb gbbbb fbbbb fbbbb obbbb pbbbb pbbbb pbbbb pbbbb obbbb fbbbb fbbbb
+gbbbb fbbbb fbbbb obbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbwbb fbbbw fbwbb
+fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbwbb hbbww hbwwb
+rbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb obbbb pbbbb pbbbb pwbbb pwbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb obbbb pbbbb pbbbb pbbbb
+obbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb obbbb pbbbb pbbbb
+pbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb gbbbb fbbbb fbbbb obbbb pbbbb
+pbbbb obbbb csnbbbb fbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb pbbbb
+pbbbb pbbbb csnbbbb fbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb pbbbb
+endboard
+board: 2,1 0 blank board
+newboard:
+blank board Copy
+pbbbb pbbbb csnbbbb fbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb pbbbb
+pbbbb pbbbb csnbbbb fbbbb pbbbb pbbbb pbbbb pbbbb gbbbb fbbbb fbbbb obbbb
+pbbbb pbbbb csnbbbb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb gbbbb fbbbb fbbbb
+cwebbbb cwebbbb cwnbbbb gbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb gbbbb fbbbb
+fbbbb fbbbb rbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb
+fbbbb fbbbb rbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb
+fbbbb fbbbb fbbbb gbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb gbbbb fbbbb
+pbbbb obbbb fbbbb fbbbb gbbbb pbbbb pbbbb pbbbb pbbbb gbbbb fbbbb fbbbb
+pbbbb pbbbb obbbb fbbbb fbbbb gbbbb pbbbb pbbbb gbbbb fbbbb fbbbb obbbb
+pbbbb pbbbb pbbbb obbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb obbbb pbbbb
+fbbbb pbbbb pbbbb pbbbb obbbb fbbbb fbbbb fbbbb fbbbb obbbb pbbbb pbbbb
+fbbwb pbbbb pbbbb pbbbb pbbbb obbbb rbbbb rbbbb obbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board Copy
+newboard:
+blank board Copy Copy
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+obbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb pbbbb pbbwb pbbwb pbbwb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb fwbbb fwbbb hwwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb fbbbb fbbwb fbbwb hbwwb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+fbbbb pbbbb pwbbb pwbbb pwbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+obbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbwb pbbwb pbbbb pbbwb pbbwb pbbbb pbbwb pbbwb pbbbb pbbwb pbbwb
+pbwbb pwwbw pwwbw pbwbw pwbbw pwwbb pbwbw pwbww pwwwb pbwbw pwbww pwwbb
+pbwbb pbwbw pbwbw pbwbw pbbww pbwwb pbwbw pwwbw pwbww pbbbb pwwbb pbbww
+pbwbb pbbbw pbwbb pbwbw pwbbw pwwbb pbwbw pbbbw pwwbb pbwbw pbbww pwwwb
+endboard
+board: 3,2 0 blank board Copy Copy
+flags: 3,1,11,8 3,2,5,3 2,1,2,12 

@@ -1,0 +1,26 @@
+name: Circuit Maximus 
+description: Get on your Robo Chariot -- Out ride your Opponents and Lasers to grab 4 flags
+2011 RoboRally Map Editing Contest entry
+Designed by Work_Bane
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newboard:
+blank board
+xsewbbw xwebbbb xwebbbb xwebbbb xwebbbb xwelbbb xwebbbb xwewbbb xwebbwb xwebbbb xwebbbb xwswwbb
+xsnbbbb xesbbbb xewbbbb xewbbwb xewbbbb xewbbbb xewbbbb xewbbbb xewwbbb xewbbbb xswbbbb xnsbbbb
+xsnbbbb xnsbbbb xsebbbb xwewbbb xwebbbb xwebbbb xwebbbb xwebbwb xwebbbb xwsbbbb xsnbbbb xnsbbbb
+xsnbbbw xnsbbbb xsnbbbb xesbbbb xewbbbb xewbbwb xewbbwb xewwbbb xswbbbb xnsbwbb xsnbbbw xnsbbbb
+xsnbbbb xnsbwbb xsnbbbw xnsbbbb xsebbbb xwewbbb xwewbbb xwsbbbb xsnbbbb xnsbbbb xsnbbbb xnsbbbb
+xsnbbbb xnsbbbb xsnbbbb xnsbwbb xsnbbbw rbbbb rbbbb xnsbwbb xsnbbbw xnsbbbb xsnbbbb xnsblbb
+xsnbbbl xnsbbbb xsnbbbb xnsbwbb xsnbbbw rbbbb rbbbb xnsbwbb xsnbbbw xnsbwbb xsnbbbw xnsbbbb
+xsnbbbb xnsbbbb xsnbbbb xnsbbbb xenbbbb xewbbwb xewbbwb xnwbbbb xsnbbbb xnsbbbb xsnbbbb xnsbbbb
+xsnbwbb xnsbbbw xsnbbbb xnebbbb xwebbbb xwewbbb xwewbbb xwebbbb xwnbbbb xnsbbbb xsnbbbb xnsbbbb
+xsnbbbb xnsbbbb xenbbbb xewbbbb xewbbbb xewbbwb xewbbbb xewbbbb xewbbbb xnwbbbb xsnbwbb xnsbbbw
+xsnbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwewbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb xnsbbbb
+xenbbww xewbbbb xewbbbb xewbbwb xewbbbb xewbbbb xewbblb xewbbbb xewbbbb xewbbbb xewbbbb xnwbwwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,12 3,1,8,4 3,1,6,11 3,1,6,3 
+start: 3,1,1,1 3,1,12,1 3,1,11,2 3,1,2,2 3,1,3,3 3,1,10,3 3,1,9,4 3,1,4,4 

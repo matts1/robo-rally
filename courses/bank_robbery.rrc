@@ -1,0 +1,39 @@
+name: Bank Robbery
+description: Enter the safe then rob the tellers--watch out for the hidden lasers!
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+cesbbbb cewbbbb cewbbbb cewbbbb cewdbbb cewbbbb cswbwbb xeswbbw fbbbb fwbbb fwbbb fbwbb
+cnsbbbb fbbbb fbbbb fbbbb fbbbb hbbbb csnbbbb xnsbbbb fbbbb hbbbb fbbbb fbblb
+xnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb csnbwbb xnsbbbl fbbbb fbbbb fbbbb pwbwb
+xnsbbbb fbblb fbbbb fbbbb fbbbb fbbbb csnbwbb xnsbbbw fbbbb fbbbb fbbbb fwwbb
+xnsbbbb ftwbb fbwbw fbbbv fbbbb fbbbb csnbbbb xnsbbbb fbbbb fbbbb fbbbb fbwbb
+xnsbbbb fbwbb pbbbw fbbbb fbbbb fbbbb cenbbbb xnwbbbb fbblb fbbbb fbbbb fbwbb
+xsnbbbb fbwbb pbbbw fbbbb fbbbb fbbbb cesbbbb xswbbbb flbbb fbbbb fbbbb fbwbb
+xsnbbbb fbwtb fbwbw fbbbv fbbbb fbbbb cnsbbbb xsnbbbb fbbbb fbbbb fbbbb fbwbb
+xsnbbbb flbbb fbbbb fbbbb fbbbb fbbbb cnsbwbb xsnbbbw fbbbb fbbbb fbbbb fbwwb
+xsnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb cnsbwbb xsnbbbl fbbbb fbbbb fbbbb pwbwb
+csnbbbb fbbbb fbbbb fbbbb fbbbb hbbbb cnsbbbb xsnbbbb fbbbb hbbbb fbbbb flbbb
+cenbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cnwbwbb xenbbww fbbbb fbbwb fbbwb fbwbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,1,12 3,1,12,12 3,1,5,3 3,1,8,3 

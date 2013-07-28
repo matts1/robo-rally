@@ -1,0 +1,40 @@
+name: The Fortress
+description: 2010 Map Editing Contest Entry
+Created by: Nanoia
+length: medium
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+xsnbbbb fwbbb fbbbb csnbbbb
+xsnbbbb fbbbb fbbbb cenbbbb
+xsnbbbb fbbbb fbbbb fbbbb
+xsnbbbb fbbbb fbbbb fbbbb
+xsnbbbb fbbbb fbbbb fbbbb
+xsnbbbb fbbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb fbbbb
+cnsbbbb fbbbb fbbbb csebbbb
+cnsbbbb fbbbb fbbbb csnbbbb
+cnsbbbb fbbbb fbbbb xenbbbb
+cnsbbbb fbbwb fbbwb fbbpb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fpbbb fbbbb fvbbb hbbbb fpbbb xsnbbbb fwbbb csnbbbb fbbbb fbbbb fdbbb hbbbb
+cewbbbb cewbbbb cewbbbb xwebbbb xwebbbb xwnbbbb fbbbb csnbbbb fbbbb fbbbb fbbwb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbwb csnbbbb pbbbb csnbbbb pwbbb fbbbb
+csebbbb cwebbbb cwebbbb gbbbb fbbbb fbwbb ptbbt pbbwb pbbbb gbbbb pbbbb pbwbb
+csnbbbb fbbbb pbbbb cnsbbbb fbbbb fbbbb pbbbb fwbbb fbbbb fbbbb fbbbb fbbbb
+csnbbbb pbbbb hbbbb cnsbbbb fbbbb fbbbb obbbb cwebbbb hbbbb fbbbb hbbbb fbbbb
+obbbb cewbbbb cewbbbb cnwbbbb fbbbb fbbbb pbbbb fbbwb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb fbbbw fbwbb pbbwt pwbbb pbbbb gbbbb pbbbb pbwbb
+cwebbbb cwebbbb cwnbbbb hbbbb fbbbb fbbbb fwbbb xnsbbbb pbbbb fbbbb pbbbb fbbbb
+fbbbb fbbbb rbbbb pbbbb xwsbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb fbbbb fbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb fbbbb hbbbb
+fbbvb fbbbb fbbvb fbbpb fbbbb fbbbb fbbbb xnsbbbb fbbbb fbbwb hbbwb fbbwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,12,12 3,1,5,2 3,1,6,12 3,1,3,12 

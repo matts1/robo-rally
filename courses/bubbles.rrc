@@ -1,0 +1,39 @@
+name: Bubbles
+description: 1 Tile, 4 Flags; OOoh! Look! Pretty bubbles!  Recommended Turn Length:90-120 seconds.  Designed by CaptainColeslaw
+length: long
+difficulty: expert
+players: 2 8
+newsboard:
+blank starting board
+5,2 8,2 6,3 7,3 6,2 7,2 5,3 8,3 
+fwbbw fwbbb fwbbb fwbbb
+csebbbw cwsbbbb xsebbbb xwsbbbb
+cenbbbw cnwbbwb xenbbwb xsebbbb
+fbbbw fwbbb fwbbb xenbbbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbbb fbbbb fbwbb
+fbbbw fbbwb fbbwb xsebbbb
+fbbbw csewbbb cwswbbb xenbbbb
+csebbbw cenbbbb cnwbbbb csebbbb
+cenbbww cnwbbwb fbbwb cenbbwb
+endboard
+sboard: blank starting board
+newboard:
+Bubbles Board
+fwbbb fwbbb xsewbbb xwswbbb fwbbb fwbbb csewbbb cwswbbb csewbbb cwswbbb xsewbbb xwswwbb
+fbbbb csebbbb xenbbbb xnwbbbb xwsbbbb rbbbb cenbbbb cnwbbbb cenbbbb cnwbbbb xenbbbb xnwbwbb
+xwsbbbb cenbbbb cnwbbbb xenbbbb xnwbbbb xsebbbb xwsbbbb csebbbb cwsbbbb xsebbbb xwsbbbb fbwbb
+xnwbbbb csebbbb cwsbbbb xsebbbb xwsbbbb xenbbbb xnwbbbb cenbbbb cnwbbbb xenbbbb xnwbbbb fbwbb
+rbbbb cenbbbb xsebbbb xwsbbbb xnwbbbb fbbbb csebbbb cwsbbbb xsebbbb xwsbbbb rbbbb fbwbb
+xsebbbb xwsbbbb xenbbbb xnwbbbb rbbbb csebbbb cenbbbb cnwbbbb xenbbbb xsebbbb xwsbbbb fbwbb
+xenbbbb xnwbbbb cwsbbbb xsebbbb xwsbbbb cenbbbb cnwbbbb xsebbbb xwsbbbb xenbbbb xnwbbbb fbwbb
+fbbbb cenbbbb cnwbbbb xenbbbb xnwbbbb fbbbb rbbbb xenbbbb cesbbbb cswbbbb fbbbb fbwbb
+xwsbbbb fbbbb fbbbb xsebbbb xwsbbbb fbbbb xsebbbb xwsbbbb cnebbbb cwnbbbb xesbbbb xswbwbb
+xnwbbbb cesbbbb cswbbbb xenbbbb csebbbb cwsbbbb xenbbbb xnwbbbb xesbbbb xswbbbb xnebbbb xwnbwbb
+cwsbbbb cnebbbb xsebbbb xwsbbbb cenbbbb cnwbbbb xwsbbbb fbbbb xnebbbb csebbbb cwsbbbb fbwbb
+cnwbbwb rbbwb xenbbwb xnwbbwb fbbwb xenbbwb xnwbbwb fbbwb rbbwb cenbbwb cnwbbwb fbwwb
+endboard
+board: 3,1 0 Bubbles Board
+flags: 3,1,5,8 3,1,2,1 3,1,9,3 3,1,2,9 3,1,11,8 

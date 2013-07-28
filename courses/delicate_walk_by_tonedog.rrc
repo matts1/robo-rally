@@ -1,0 +1,24 @@
+name: Delicate Walk by ToneDog
+description: Will likely end in death rather than the 4th flag.
+length: medium
+difficulty: mid
+players: 2 8
+rules: lasermultiplier2
+newboard:
+blank board
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb fbbbb fbbwb fbbbb pbbbb pbbbb pbbbb pbbbb pbbbb fbbbb fbbbb pbbbb
+pbbbb fbbbb fwbbb fbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbwbb fbbbw pbbbb
+pbbbb pbbbb fbbbb pbbbb pbbbb pbbbb fbbbb pbbbb pbbbb fbbbb fbbbb pbbbb
+pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb pbbwb pbbwb pbbbb pbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb pbbbb
+pbwbb fwbbw fwwbb fbbbw pbbbb fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb pbbbb
+pbwbb fbbbw fbwbb fbbbw pbbbb fbbbb fbbbb fbbbb fbbbb fbwbb fbbbw pbbbb
+pbwbb fbbbw fbbbb fbbbb fbbbb fbbbb pbbbb pbbbb pbbbb fbbbb fbbbb pbbbb
+pbwbb fbbbw fbwbb fbbbw pbbbb pbbbb pbbbb fbbbb pbbbb pbbbb fbbbb pbbbb
+pbwbb fbbww fbwwb fbbbw pbbbb pbbbb pbbbb fbbbb fbbbb fbbbb fbbbb pbbbb
+pbbbb pwbbb pwbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,2,3 3,1,8,11 3,1,10,8 3,1,3,11 
+start: 3,1,7,2 3,1,11,2 3,1,7,3 3,1,11,3 3,1,8,2 3,1,10,2 3,1,8,3 3,1,10,3 

@@ -1,0 +1,39 @@
+name: Little Shoot'em Up
+description: Single Board, 4 Flags, Pew Pew! Designed by CaptainColeslaw
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+pbbbb fbbwb fwbbb fbbbb
+pbbbb fwbbb fbbbb fbbbb
+pbbbb pbbbb fbbbb fbbwb
+pbbbb fbbbb fbbbb fwbbb
+pbbbb pbbbb fbbbb fbbbb
+pbbbb fbbwb fbbbb fbbtb
+pbbbb fwbbb fbbbb ftbbb
+pbbbb pbbbb fbbbb fbbbb
+pbbbb fbbbb fbbbb fbbwb
+pbbbb pbbbb fbbbb fwbbb
+pbbbb fbbwb fbbbb fbbbb
+pbbbb fwbbb fbbwb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fwbbb fbbbb fwbbb fbbbb fwbbb csnbbbb fbbbb fwbbb fbbbb fwbbb fbbwb rbwbb
+fbbbb pbbbb pbbwb pbbwb pbbbb csnbbbb pbbbb pbbwb pbbbb pbbbb xsnwbbb fbpbb
+fbbbb fbbbb fwbbb fwbbb fbbbb csnbbbb fbbbb xeswbbb rbbbb xewbbbb xsnwbbbb fbvbb
+fbwbb fbbbw fbbbb fbbbb fbbbb cenbbbb cswbbbb xnsbbbb pbbbb pbbbb xsnbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb rbwbb csnbbbw xnsbbbb pbbbb fbbbb xsnbbbb fbdbb
+fbwbb pbbbw pbbbb pbbbb fbbbb fbbbb cenbbbb cnwbbtb pbbbb rbbbb xwnbbtb fbbbb
+fbwbb pbbbw pbbbb pbbbb fbbbb fbbbb cesbbbb cswtbbb pbbbb rbbbb xwstbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb rbwbb cnsbbbw xsnbbbb pbbbb fbbbb xnsbbbb fbdbb
+fbwbb fbbbw fbbbb fbbbb fbbbb cesbbbb cnwbbbb xsnbbbb pbbbb pbbbb xnsbbbb fbwbb
+fbbbb fbbbb fbbwb fbbwb fbbbb cnsbbbb fbbbb xenbbwb rbbbb xewbbbb xnwsbbbb fbvbb
+fbbbb pbbbb pwbbb pwbbb pbbbb cnsbbbb pbbbb pwbbb pbbbb pbbbb xnsbbwb fbpbb
+fbbwb fbbbb fbbwb fbbbb fbbwb cnsbbbb fbbbb fbbwb fbbbb fbbwb fwbbb rbwbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,3,7 3,1,7,12 3,1,10,7 3,1,6,12 

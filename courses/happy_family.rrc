@@ -1,0 +1,44 @@
+name: Happy Family
+description: 5 flags with little bit of everything.Becomes alot  tougher 
+with more bots as the last flag is in the middle of the board 
+and the leader can be messed with pretty easily.Not alot of
+ good power down spots either.
+
+
+length: medium
+difficulty: mid
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+cewbbbb fbbwb fbbbb fbbbb
+cewbbbb fwbwb fbbbb fbbbb
+pbbbb fwbwb fbbbb fbbbb
+cewbbbb fwbwb fbbbb fbbbb
+pbbbb fwbwb fbbbb fbbbb
+cewbbbb fwbwb fbbbb fbbbb
+cewbbbb fwbwb fbbbb fbbbb
+pbbbb fwbwb fbbbb fbbbb
+cewbbbb fwbwb fbbbb fbbbb
+pbbbb fwbwb fbbbb fbbbb
+cewbbbb fwbwb fbbbb fbbbb
+cewbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb pbbbb fbbbb cesbbbb fbbbb fbbbb rpbbb obbwb fbbbb fbbbb fbbbb fbbbb
+fbbbb cnebbbb xewbbbb xnwsbbbb pbbbb cwebbbb fbbbb plbbb gbbbb pbwbb hbbbv pbbbb
+fbbbb obwbb rbbbv xnsbbbb fbbbb obbwb fbvbb fbbbw fbbbb cnsbbbb fbbbb fbbbb
+fbbbb fbbbb cesbbbb cnwebbbb xwebbbb xwswbbb fbbbb fbbbb fbbbb fbbbb fbvbb fbbbw
+fbbbb fbbwb cnsbbbb fbbbb obbbb xnsbbbb fbbbb fbbbb fbbbb pbbwb fbbbb fbbbb
+fbbbb fpbbb fbbbb fbbbb gbbbb fbbbb fbbbb pbbbb fbbbb fwbbb pbbbb fbbbb
+pbbbb fbbbb fbbbb fbbbb fbbbb pbbbb fbbbb fbbbb fbbbb obbbb gbbbb fbbwb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb gbbbb fbbbb fbbbb fbbbb cesdbbb
+fbbbb fbbwb pbbbb fbbbb fbbwb fbvbb fbbbw fbblb fbbbb fbbbb obbbb cnsbbbb
+fbbbb pwbbb pbbbb fbbbb ftbbb pbbbb gbbbb fwbbb obbbb fbwbb hbbbv csnbbbb
+fbbbb fbbbb fbbbb fbbbb fbbwb fbbwb fbbbb fbbbb fbbbb fbbbb pbbbb csnbbbb
+fbbbb pbbbb fbbbb fbbbb fwbbb fwbbb gbbbb fbbbb gbbbb pbbbb pbbbb cwnbbwb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,10 3,1,9,2 3,1,3,7 3,1,11,10 3,1,9,6 

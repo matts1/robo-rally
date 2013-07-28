@@ -1,0 +1,39 @@
+name: Through the Gates
+description: Enter description
+length: short
+difficulty: easy
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb flwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbww fbbbb fbbbb csebbbb cwebbbb cwebbbb cwebbbb cwebbbb fbbbb obbbb xwebbbb xwsbbbb
+fwwbb fbbww fbbbb csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb
+fbbbb flwbb fbbww csnbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fwwbb cenbbww cewbbbb cewbbbb cewbbbb cswbbbb rbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb fbbbb flwbb fbbww fbbbb fbbbb csnbbbb fbbbb fbbbb fbbbb xnsbbbb
+fbbbb fbbbb rbbbb fbbbb csnwbbb xewbbbb xewbbbb xenwbbbb xewbbbb xewbbbb xewbbbb xnwbwbb
+fbbbb fbbbb rbbbb fbbbb csnbbwb xewbbbb xewbbbb xewsbbbb xewbbbb xewbbbb xewbbbb xswbwbb
+fbbbb fbbbb fbbbb fbwwb fwbbw fbbbb fbbbb cnsbbbb fbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbbbb fbwwb ceswbbw cewbbbb cewbbbb cewbbbb cnwbbbb rbbbb fbbbb fbbbb xsnbbbb
+fbbbb fbwwb fwbbw cnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb
+fbwwb fwbbw fbbbb cnsbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb
+fwbbw fbbbb fbbbb cnebbbb cwebbbb cwebbbb cwebbbb cwebbbb fbbbb gbbbb xwebbbb xwnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,1,9 3,1,12,9 3,1,11,3 3,1,2,3 

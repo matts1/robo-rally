@@ -1,0 +1,39 @@
+name: I Crocheted You a Sweater
+description: Look, I crocheted a lovely sweater for you. You didn't know I knew how to crochet, did you
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb xewbbbb xewbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb xewbbbb xewbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb xewbbbb xewbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb xewbbbb xewbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbwb fbbwb fbbwb fbbwb
+xewwbwb xewwbwb xewwbwb xewwbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb xewbbbb xsnbbbb fbbbb fbbbb fbbwb fbbbb fbbbb xsnbbbb xwebbbb fbbbb
+xewbbbb xnsbwbb fbwbw xewbbww xsnbbbb fbbbb fwbbb fbbbb xsnbbbb xwebwwb hbwbw fbbbw
+fbbbb fbwbb fbbbw fwwbb xewbbww xsnbbbb fbbbb xsnbbbb xwebwwb fwbbw fbwbb fbbbw
+xewbbbb xsnbwbb fbbbw fbbbb fwwbb xewbbww xsnbbbb xwebwwb fwbbw fbbbb fbwbb fbbbw
+fbbbb xsnbwbb fbbbw fbbwb fbbwb hwbwb xsnbbbb fwbwb fbbwb fbbwb fbbbb fbbbb
+fbbbb fbbbb fbbbb fwbwb fwbwb fwbwb fbbbb fwbwb fwbwb fwbwb fbbbb pbbbb
+xewbbbb xnsbwbb fbbbw fwbbb fwbbb hwbwb xnsbbbb fwbwb fwbbb fwbbb fbbbb fbbbb
+fbbbb fbwbb fbbbw fbbbb fbwwb xewwbbw xnsbbbb xwewwbb fbbww fbbbb fbwbb fbbbw
+xewbbbb xsnbwbb fbbbw fbwwb xewwbbw xnsbbbb fbbbb xnsbbbb xwewwbb fbbww fbwbb fbbbw
+fbbbb xsnbwbb fbwbw xewwbbw xnsbbbb fbbbb fbbwb fbbbb xnsbbbb xwewwbb hbwbw fbbbw
+fbbwb fbbwb xewbbwb xnsbbbb fbbwb fbbwb fwbbb fbbwb fbbwb xnsbbwb xwebbbb fbbwb
+xewwbwb xewwbwb xewwbwb xnsbbwb xewwbwb xewwbwb xewbbwb xewwbwb xewwbwb xewwbwb xewbbwb pwbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,6,7 3,1,11,7 3,1,1,7 3,1,6,11 

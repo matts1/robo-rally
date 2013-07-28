@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}Pick a Map{% endblock %}
+{% block scripts %}
+    <script src="/static/js/table.js"></script>
+{% endblock %}
+{% block content %}
+    <table class="magictable">
+        <thead>
+            <tr>
+                <th data-filter="text">Name</th>
+                <th data-filter="select">Length</th>
+                <th data-filter="select">Difficulty</th>
+                <th>Players</th>
+            </tr>
+        </thead>
+        {% for map in maps %}
+            <tr>
+                <td>{{ map.name|title }}</td>
+                <td>{{ map.length|title }}</td>
+                <td>{{ map.difficulty|title }}</td>
+                <td>{{ map.min_players }}-{{ map.max_players }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

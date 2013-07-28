@@ -1,0 +1,88 @@
+name: Koosh Ball
+description: So annoying when it rotates
+length: long
+difficulty: hard
+players: 2 8
+rules: boardrotate50t1 
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fwbbb xnsbbbb fwbbb csnbbbb fwbbb fwbbb xnsbbbb fwbbb csnbbbb fwbbb fbbbb
+fbbbw fbbbb xnsbbbb hbbbb csnbbbb fbbbb fbbbb xnsbbbb fbbbb csnbbbb fbbbb fbwbb
+xewbbbb xewbbbb xnwbbbb fbbbb csnbbbb rbbbb rbbbb xnsbbbb fbbbb cenbbbb cewbbbb cewbbbb
+fbbbw fbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb pbbbb fbwbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb fbbbb fbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+fbbbw fbbbb rbbbb fbbbb fbbbb pbbbb hbbbb fbbbb fbbbb rbbbb fbbbb fbwbb
+fbbbw fbbbb rbbbb fbbbb fbbbb hbbbb pbbbb fbbbb fbbbb rbbbb fbbbb fbwbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwsbbbb fbbbb fbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+fbbbw pbbbb fbbbb fbbbb cnsbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb fbbbb fbwbb
+xewbbbb xewbbbb xswbbbb fbbbb cnsbbbb rbbbb rbbbb xsnbbbb fbbbb cesbbbb cewbbbb cewbbbb
+fbbbw fbbbb xsnbbbb fbbbb cnsbbbb fbbbb fbbbb xsnbbbb hbbbb cnsbbbb fbbbb fbwbb
+fbbbb fbbwb xsnbbbb fbbwb cnsbbbb fbbwb fbbwb xsnbbbb fbbwb cnsbbbb fbbwb pbbbb
+endboard
+board: 2,1 0 blank board
+newboard:
+blank board Copy
+fbbbb fwbbb xnsbbbb fwbbb csnbbbb fwbbb fwbbb xnsbbbb fwbbb csnbbbb fwbbb fbbbb
+fbbbw fbbbb xnsbbbb hbbbb csnbbbb fbbbb fbbbb xnsbbbb fbbbb csnbbbb fbbbb fbwbb
+xewbbbb xewbbbb xnwbbbb fbbbb csnbbbb rbbbb rbbbb xnsbbbb fbbbb cenbbbb cewbbbb cewbbbb
+fbbbw fbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb pbbbb fbwbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwnbbbb fbbbb fbbbb xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+fbbbw fbbbb rbbbb fbbbb fbbbb pbbbb hbbbb fbbbb fbbbb rbbbb fbbbb fbwbb
+fbbbw fbbbb rbbbb fbbbb fbbbb hbbbb pbbbb fbbbb fbbbb rbbbb fbbbb fbwbb
+cwebbbb cwebbbb cwebbbb cwebbbb cwsbbbb fbbbb fbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+fbbbw pbbbb fbbbb fbbbb cnsbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb fbbbb fbwbb
+xewbbbb xewbbbb xswbbbb fbbbb cnsbbbb rbbbb rbbbb xsnbbbb fbbbb cesbbbb cewbbbb cewbbbb
+fbbbw fbbbb xsnbbbb fbbbb cnsbbbb fbbbb fbbbb xsnbbbb hbbbb cnsbbbb fbbbb fbwbb
+hbbbb fbbwb xsnbbbb fbbwb cnsbbbb fbbwb fbbwb xsnbbbb fbbwb cnsbbbb fbbwb fbbbb
+endboard
+board: 2,2 0 blank board Copy
+newboard:
+blank board Copy Copy
+fbbbw fwbbb csnbbbb fwbbb xnsbbbb fwbbb fwbbb csnbbbb fwbbb xnsbbbb fwbbb hbbbb
+fbbbw fbbbb csnbbbb hbbbb xnsbbbb fbbbb fbbbb csnbbbb fbbbb xnsbbbb fbbbb fbwbb
+cwebbbb cwebbbb cwnbbbb fbbbb xnsbbbb rbbbb rbbbb csnbbbb fbbbb xnebbbb xwebbbb xwebbbb
+fbbbw fbbbb fbbbb fbbbb xnsbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb pbbbb fbwbb
+xewbbbb xewbbbb xewbbbb xewbbbb xnwbbbb fbbbb fbbbb cenbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+fbbbw fbbbb rbbbb fbbbb fbbbb pbbbb hbbbb fbbbb fbbbb rbbbb fbbbb fbwbb
+fbbbw fbbbb rbbbb fbbbb fbbbb hbbbb pbbbb fbbbb fbbbb rbbbb fbbbb fbwbb
+xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb fbbbb fbbbb cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb
+fbbbw pbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb cnsbbbb fbbbb fbbbb fbbbb fbwbb
+cwebbbb cwebbbb cwsbbbb fbbbb xsnbbbb rbbbb rbbbb cnsbbbb fbbbb xsebbbb xwebbbb xwebbbb
+fbbbw fbbbb cnsbbbb fbbbb xsnbbbb fbbbb fbbbb cnsbbbb hbbbb xsnbbbb fbbbb fbwbb
+fbbbw fbbwb cnsbbbb fbbwb xsnbbbb fbbwb fbbwb cnsbbbb fbbwb xsnbbbb fbbwb fbbbb
+endboard
+board: 3,1 0 blank board Copy Copy
+newboard:
+blank board Copy Copy Copy
+pbbbb fwbbb cnsbbbb fwbbb xsnbbbb fwbbb fwbbb xsnbbbb fwbbb cnsbbbb fwbbb fbbbb
+fbbbw fbbbb cnsbbbb pbbbb xsnbbbb fbbbb fbbbb xsnbbbb fbbbb cnsbbbb fbbbb fbwbb
+cewbbbb cewbbbb cnwbbbb fbbbb xsnbbbb rbbbb rbbbb xsnbbbb fbbbb cnebbbb cwebbbb cwebbbb
+fbbbw fbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb xsnbbbb fbbbb fbbbb hbbbb fbwbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb fbbbb fbbbb xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+fbbbw fbbbb rbbbb fbbbb fbbbb hbbbb pbbbb fbbbb fbbbb rbbbb fbbbb fbwbb
+fbbbw fbbbb rbbbb fbbbb fbbbb pbbbb hbbbb fbbbb fbbbb rbbbb fbbbb fbwbb
+cewbbbb cewbbbb cewbbbb cewbbbb cswbbbb fbbbb fbbbb csebbbb cwebbbb cwebbbb cwebbbb cwebbbb
+fbbbw hbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb csnbbbb fbbbb fbbbb fbbbb fbwbb
+xwebbbb xwebbbb xwsbbbb fbbbb csnbbbb rbbbb rbbbb csnbbbb fbbbb xesbbbb xewbbbb xewbbbb
+fbbbw fbbbb xnsbbbb fbbbb csnbbbb fbbbb fbbbb csnbbbb pbbbb xnsbbbb fbbbb fbwbb
+fbbbb fbbwb xnsbbbb fbbwb csnbbbb fbbwb fbbwb csnbbbb fbbwb xnsbbbb fbbwb fbbbb
+endboard
+board: 3,2 0 blank board Copy Copy Copy
+flags: 3,2,1,12 2,2,12,12 2,2,1,1 2,1,1,12 2,1,12,1 3,1,1,1 3,1,12,12 3,2,12,1 

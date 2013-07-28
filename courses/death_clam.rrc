@@ -1,0 +1,39 @@
+name: Death Clam
+description: All the flags are tricky but possible without options
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbwbb
+fbbbb fbbbb fbbbb fbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbw fbwbb pbbbw cwebbbb cwebbbb xwebbbb cwewbbb xwebbbb cwebbbb cwebbbb cwebbbb fbbwb
+fbbbw hbwbb hbbvw fbbbb fbbwb fbbwb fbblb fbbwb fbbwb fbbwb rbbwb fwbbb
+fbbbb fbbbb csnwbbb fbwbb csewbbw cwewbbb xwewbbb cwewbbb cwewbbb xwewbbb cwewbbb cwsbbbb
+fbbbw fbwbb xsnbbbw fbwbb csnbbbw rbbbb pbbwb fbbbb rbbbb fbbbb fbbbb cnsbbbb
+fbbbb fbbbb csnbbbb fbwbb xsnbbbw fbwbb csewbbw cwebbbb cwebbbb cwsbbbb rbbbb cnsbbbb
+fbbww hbwwb csnbbbw fbwbb csnbwbw hbbbv pbbbb fbbbb rbbbb cnsbbbb fbbbb xnsbbbb
+fwbbw hwwbb csnbbbw fbwbb xsnbbbw fbbbb fbbbb fbbbb fbbbb xnsbbbb fbbbb cnsbbbb
+fbbbb fbbbb xsnbbbb fbwbb csnbbbw fbbbb fbbbb fbbbb fbbbb cnsbbbb fbbbb xnsbbbb
+fbbbw fbwbb csnbbbw fbwbb cenbbww cewbbwb xewbblb xewbbwb cewbbwb cnwbbwb fbbbb cnsbbbb
+fbbbb fbbbb csnbbbb fbbbb fwbbb fwbbb fwbbb fwbbb fwbbb fwbbb fbbbb cnsbbbb
+fbbbw hbwbb cenbbbw cewbbbb cewbbbb xewbbbb cewbbbb cewbbbb xewbbbb cewbbbb cewbbbb cnwbbbb
+fbbbw fbwbb pbbbw hbvbb hbbbv pbbbb xnsbbbb xnsbbbb xnsbbbb xnsbbbb rbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,7 3,1,4,8 3,1,1,12 3,1,12,12 

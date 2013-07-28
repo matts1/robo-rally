@@ -1,0 +1,39 @@
+name: Pro Wrestling
+description: Wrestle your opponents into the electric ropes. Find the perfect plan for victory and remember: "Wrestling is not fake"
+length: long
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+3,3 4,3 5,3 6,3 7,3 8,3 9,3 10,3 
+ptbbt xsnlbbb xsnlbbb xsnwbbb
+xewbbbl pbbbb csnbbbb csnbbwb
+xewbbbw cewbbbb fbbbb rwbwb
+xewbbbw cewbbbb fbbbb rwbwb
+xewbbbw cewbbbb fbbbb rwbwb
+xewbbbw cewbbbb fbbbb rwbwb
+xewbbbw cewbbbb fbbbb rwbwb
+xewbbbw cewbbbb fbbbb rwbwb
+xewbbbw cewbbbb fbbbb rwbwb
+xewbbbw cewbbbb fbbbb rwbwb
+xewbbbl pbbbb cnsbbbb cnswbbb
+pbbdt xnsbblb xnsbbwb xnsbbwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xsnwbbb xsnwbbb xsnwbbb xsnwbbb xsnlbbb xsnwbbb xsnwbbb xsnwbbb xsnwbbb xsnwbbb xsnlbbb pddbb
+csnbbbb csnbbbb csnbbbb csnbbbb csnbbbb csnbbbb csnbbbb csnbbbb csnbbbb csnbbwb pbbbb xweblbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rwbwb cwebbbb xwebwbb
+fbbbb gbbbb fbbbb obbbb cesbbbb gbbbb csnbbbb obbbb fbbbb rwbwb cwebbbb xwebwbb
+fbbbb cewbbbb fbbbb cwebwbb hbwbw cewbbbw fbbbb cwebbbb fbbbb rwbwb cwebbbb xwebwbb
+fbbbb gbbbb cnsbbbb obbbb cnwbbbb gbbbb fbbbb obbbb fbbbb rwbwb cwebbbb xwebwbb
+fbbbb gbbbb fbbbb obbbb cswbbbb gbbbb csnbbbb obbbb fbbbb rwbwb cwebbbb xwebwbb
+fbbbb cewbbbb fbbbb cwebwbb hbwbw cewbbbw fbbbb cwebbbb fbbbb rwbwb cwebbbb xwebwbb
+fbbbb gbbbb cnsbbbb obbbb cenbbbb gbbbb fbbbb obbbb fbbbb rwbwb cwebbbb xwebwbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb rwbwb cwebbbb xwebwbb
+cnsbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb cnsbbbb cnswbbb pbbbb xweblbb
+xnsbbwb xnsbbwb xnsbbwb xnsbbwb xnsbbwb xnsbbwb xnsbbwb xnsbbwb xnsbbwb xnsbbwb xnsbblb pbdtb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,7 3,1,8,3 3,1,8,7 3,1,5,3 

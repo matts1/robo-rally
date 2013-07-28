@@ -1,0 +1,42 @@
+name: Wheels on the Bus . . .
+description: 1 Board, 4 Moving Flags
+by 2455ybob
+2010 RoboRally Contest Entry
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+fbbbb fbbbb fbbbb pbbbb
+fbbbb fbbwb fbbbb pbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbwb fbbbb fbbbb
+fbbbb fwbbb fbbbb pbbbb
+fbbbb fbbbb fbbbb pbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb xenbbbb xenbbbb xnwbbbb xwnbbbb fbbbb fbbbb fbbbb fbbbb xenbbbb xswbbbb xswbbbb
+fbbbb xenbbbb xnwbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb xenbbbb xenbbbb xenbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+cesbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbbb cewbbwb cswbbbb fbwbb fbbbw fbbbb
+cnsbwbb pbwbw pbwbw pbwbw fbwbw pbwbw pbwbw pwwbw csnbbbw fbwbb fbbbw fbbbb
+cnsbwbb pbwbw hbwbw pbwbw fbwbw pbwbw hbwbw pbwww cenbbbw cewbbbb cewbbbb cswbbbb
+cnsbwbb fbbwl fbbwb fbbwb fbbwb fbbbb fbwbb pwwbw fbbww fbbwb fblwb csnbbbv
+cnsbbbb csewbbb cwewbwb cwewbwb cwswwbb fbbww fbwwb pbbww cwewbwb cwewbwb cwswbbb csnbbbb
+cnebbbb cwnbwwb xeswbbw xswwwbb cnebbww cwewbwb cwewbwb cwnwwwb xeswbbw xswwwbb cnebbww cwnbbbb
+fbbbb fwbbb xnebbbb xwnbbbb fwbbb fwbbb fwbbb fwbbb xnebbbb xwnbbbb fwbbb fbbbb
+xwebbwb xwebbwb xwebbbb xwebbwb xwebbwb xwebbbb xwebbwb xwebbwb xwebbbb xwebbwb xwebbwb xwsbbbb
+xewwbbb xewwbbb xewbbbb xewwbbb xewwbbb xewbbbb xewwbbb xewwbbb xewbbbb xewwbbb xewwbbb xnwbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,9,10 3,1,12,1 3,1,9,8 3,1,9,4 

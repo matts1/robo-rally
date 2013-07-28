@@ -1,0 +1,43 @@
+name: Gravity
+description: 1 Board
+4 Moving Flags
+"What goes up, Must come down"
+2011 Contest Entry by 2455ybob
+length: medium
+difficulty: mid
+players: 2 8
+rules: flagsmove
+newsboard:
+blank starting board
+6,2 7,2 5,2 8,2 4,2 9,2 3,2 10,2 
+fbbbb fbbbb cnsbbbb csnbwbb
+fbbbb fbbwb cnsbbbb csnbbbb
+fbbbb fwbwb cnsbbbb csnbbbb
+fbbbb fwbwb cnsbbbb csnbbbb
+fbbbb fwbwb cnsbbbb csnbbbb
+fbbbb fwbwb cnebbbb cwnbbbb
+fbbbb fwbwb csebbbb cwsbbbb
+fbbbb fwbwb csnbbbb cnsbbbb
+fbbbb fwbwb csnbbbb cnsbbbb
+fbbbb fwbwb csnbbbb cnsbbbb
+fbbbb fwbbb csnbbbb cnsbbbb
+fbbbb fbbbb csnbbbb cnsbwbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+rbwbw xsnbbbw xsnbwbb rbwbw xsnbbbw xsnbwbb rbwbw xsnbbbw xsnbwbb rbwbw xesbbbw xswbbbb
+fbbbb xsnbbbb xsnbbbb obbbb xsnbbbb xsnbbbb fbbbb xsnbbbb xsnbbbb obbbb xnsbbbb xsnbbbb
+gbbbb xsnbbbb xsnbbbb fbbbb xsnbbbb xsnbbbb gbbbb xesbbbb xswbbbb fbbbb xnsbbbb xsnbbbb
+fbbbb xsnbbbb xsnbbbb obbbb xsnbbbb xsnbbbb fbbbb xnsbbbb xsnbbbb obbbb xnsbbbb xsnbbbb
+gbbbb xsnbbbb xsnbbbb fbbbb xesbbbb xswbbbb gbbbb xnsbbbb xsnbbbb fbbbb xnsbbbb xsnbbbb
+fbbbb xsnbbbb xsnbbbb obbbb xnsbbbb xsnbbbb fbbbb xnsbbbb xsnbbbb obbbb xnsbbbb xsnbbbb
+gbbbb xesbbbb xswbbbb fbbbb xnsbbbb xsnbbbb gbbbb xnsbbbb xsnbbbb fbbbb xnsbbbb xsnbbbb
+fbbbb xnsbbbb xsnbbbb obbbb xnsbbbb xsnbbbb fbbbb xnsbbbb xsnbbbb obbbb xnsbbbb xsnbbbb
+gbbbb xnsbbbb xsnbbbb fbbbb xnsbbbb xsnbbbb gbbbb xnsbbbb xsnbbbb fbbbb xnsbbbb xsnbbbb
+fbbbb xnsbbbb xsnbbbb obbbb xnsbbbb xsnbbbb fbbbb xnsbbbb xsnbbbb obbbb xnsbbbb xsnbbbb
+gbbbb xnsbbbb xsnbbbb fbbbb xnsbbbb xsnbbbb gbbbb xnsbbbb xsnbbbb fbbbb xnsbbbb xsnbbbb
+hbdbw xnsbbbw xsnbwbb hbdbw xnsbbbw xsnbwbb hbdbw xnsbbbw xsnbwbb hbdbw xnsbbbw xsnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,12,11 3,1,12,8 3,1,12,5 3,1,12,2 

@@ -1,0 +1,25 @@
+name: Trick or Treat
+description: A Halloween 2012 Tournament Map Special
+1 Board, 4 moving flags
+length: medium
+difficulty: easy
+players: 2 8
+rules: flagsmove 
+newboard:
+blank board
+fbbbb rvbbb rbbvb fbbbb xesbbbb xewbbbb xewbbbb xswbbbb fbbbb rbbvb rvbbb fbbbb
+xesbbbb xewbbbb xewwbbb xewbbbb xnwbbbb fbbbb fbbbb xenbbbb xewbbbb xewwbbb xewbbbb xswbbbb
+xnsbbbb fbbbb fbbbb fbbbb fbbbb xesbbbb xsewbbbb fbbbb fbbbb fbbbb fbbbb xsnbbbb
+xnsbbbb obbbb fbbbb gbbbb fbbbb xnsbbbb xsnbbbb fbbbb gbbbb fbbbb obbbb xsnbbbb
+xnsbbbb fbbbb cesbbbb cewsbbbb cewbbbb cnwsbbbb cenwbbbb cewsbbbb cewbbbb cswbbbb fbbbb xsnbbbb
+xnsbbbb fbbbb cnsbbbb cnsbbbb fbbbb cnsbbbb fbbbb cnsbbbb fbbbb csnbbbb fbbbb xsnbbbb
+xnsbbbb rbvbb cnsbbbw cnsbbbb pbbbb cnsbbbb fbbbb cnsbbbb pbbbb csnbwbb hbbbv xsnbbbb
+xnsbbbb fbbbb cnsbbbb cnsbbbb fbbbb cnsbbbb pbbbb cnsbbbb fbbbb csnbbbb fbbbb xsnbbbb
+xnsbbbb fbbbb cnsbwbb cnsbbbd fbbbb cnsbbbb fbbbb cnsbbbb fbwbb csnbbbw fbbbb xsnbbbb
+xnsbbbb fbbbb cnebbwb cnwebbbb cwebbbb cnwebbbb cwebbbb cwebbbb cwebbbb cwnbbwb fbbbb xsnbbbb
+xnsbbbb obbbb rvbbb gbbbb fbbbb fbbbb fbbbb fbbbb gbbbb rvbbb obbbb xsnbbbb
+xnebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,7,10 3,1,12,12 3,1,2,1 3,1,7,3 
+start: 3,1,10,1 3,1,9,1 3,1,8,1 3,1,7,1 3,1,6,1 3,1,5,1 3,1,4,1 3,1,3,1 

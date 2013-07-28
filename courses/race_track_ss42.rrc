@@ -1,0 +1,87 @@
+name: Race Track
+description: Dare to survive the race?
+length: medium
+difficulty: hard
+players: 4 8
+newsboard:
+blank starting board
+4,1 5,1 3,2 6,2 2,3 7,3 1,4 8,4 
+xewwbwb xewwbwb xewwbwb xewwbwb
+xewwbwb xewwbwb xewwbwb xewwbwb
+xewwbwb xewwbwb xewwbwb xewwbwb
+xewwbwb xewwbwb xewwbwb xewwbwb
+xewwbwb xewwbwb xewwbwb xewwbwb
+xewwbwb xewwbwb xewwbwb xewwbwb
+xewwbwb xewwbwb xewwbwb xewwbwb
+xewwbwb xewwbwb xewwbwb xewwbwb
+fwbbw fwbbb fwbbb fwwbb
+fbbbw pbbbb pbbbb fbwbb
+fbbbw pbbbb pbbbb fbwbb
+fbbww fbbwb fbbwb fbwwb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xswwbbb xsnwwbb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+xsnwbbbb xsnbwbb hbbbw rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb
+xsnwbbbb xenbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+xenwbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+xewsbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+xnwsbbbb xesbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+xnwsbbbb xnsbwbb hbbbw rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb
+xnwbbwb xnsbwwb pbbbw pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pwbbw hwbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb
+pbbbw rbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+pbbbw rbbbb xsnbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+pbbbw rbbbb xsnbbbb xsnbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+endboard
+board: 3,1 0 blank board
+newboard:
+blank board Copy
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb hbbbb pbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb rbbbb pbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb xsnbbbb rbbbb pbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb xsnbbbb xsnbbbb rbbbb pbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb xsnbbbb xsnbbbb xsnbbbb rbbbb pbbbb
+rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb rbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb hbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb rbbbb pbbbb
+rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb rbbbb pbbbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb xsnbbbb xsnbbbb xsnbbbb rbbbb pbbbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb xsnbbbb xsnbbbb rbbbb pbbbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb xsnbbbb rbbbb pbbbb
+endboard
+board: 3,2 0 blank board Copy
+newboard:
+blank board Copy Copy
+pbbbb rbbbb xsnbbbb xsnbbbb xsnbbbb xsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+pbbbb rbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb
+pbbbb rbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb hbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb rbbbb xsnbbbb xsnbbbb xsnbbbb xsnbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb
+pbbbb rbbbb xsnbbbb xsnbbbb xenbbbb xenwbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+pbbbb rbbbb xenbbbb xenwbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb
+pbbbb hbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+pbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb
+pbbbb hbbbb fbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb
+pbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 4,1 0 blank board Copy Copy
+newboard:
+blank board Copy Copy Copy
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwnbbbb rbbbb pbbbb
+rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb hbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb hbbbb pbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb rbbbb pbbbb
+xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xswbbbb xsnbbbb rbbbb pbbbb
+rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb xsnbbbb xsnbbbb rbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb hbbbb xsnbbbb xsnbbbb rbbbb pbbbb
+rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb xsnbbbb xsnbbbb rbbbb pbbbb
+xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwenbbbb xwnbbbb rbbbb pbbbb
+rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb rbbbb hbbbb pbbbb
+pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb pbbbb
+endboard
+board: 4,2 0 blank board Copy Copy Copy
+flags: 4,1,10,3 

@@ -1,0 +1,40 @@
+name: Table Games
+description: Moving flags and high stakes casino poker
+length: medium
+difficulty: hard
+players: 2 8
+rules: flagsmove startoptions3c3
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+xnsebbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xnwsbbbb
+xnsbbbb fbbbb csebbbb cwsbbbb xesbbbb xswbbbb cesbbbb cswbbbb xsebbbb xwsbbbb fbbbb xnsbbbb
+xnsbwbb rbbbw csnbbbb cnsbbbb xnsbbbb xsnbbbb cnsbbbb csnbbbb xsnbbbb xnsbbbb rbwbb xnsbbbw
+xnsbbbb fbbbb csnbbbb cnsbbbb xnsbbbb xsnbbbb cnsbbbb csnbbbb xsnbbbb xnsbbbb fbbbb xnsbbbb
+xsnbbbb fbbbb csnbbbb cnsbbbb xnsbbbb xsnbbbb cnsbbbb csnbbbb xsnbbbb xnsbbbb fbbbb xsnbbbb
+xsnbwbb rbbbw csnbbbb cnsbbbb xnsbbbb xsnbbbb cnsbbbb csnbbbb xsnbbbb xnsbbbb rbwbb xsnbbbw
+xsnbbbb fbbbb cenbbbb cnwbbbb xnebbbb xwnbbbb cnebbbb cwnbbbb xenbbbb xnwbbbb fbbbb xsnbbbb
+xsenbbbb xwebbbb xwebbbb xwebbbb xwebbbb xwebbbb xewbbbb xewbbbb xewbbbb xewbbbb xewbbbb xsnwbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,5,9 3,1,6,5 3,1,5,8 3,1,6,4 

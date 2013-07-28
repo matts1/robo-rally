@@ -1,0 +1,42 @@
+name: Ram and Burn,
+description: Enter description:
+Double Lasers, Lots of Repairs & Options
+Ram your Way to Victory
+Created By: MadRammer
+length: medium
+difficulty: hard
+players: 2 8
+newsboard:
+blank starting board
+6,2 7,2 4,2 9,2 2,2 11,2 1,2 12,2 
+rbbbb fbbwb fbbbb cewbbbb
+fbdbb fwbww fbbbb fbbbb
+gbbbb rwbwb fbbbb fbbbb
+fbdbb fwbww fbbbb fbbbb
+gbbbb rdbwb fbbbb fbbbb
+fbwbb fwbww fbbbb fbbbb
+fbdbb fwbww fbbbb fbbbb
+obbbb rwbwb fbbbb fbbbb
+fbdbb fwbww fbbbb fbbbb
+obbbb rwbbb fbbbb fbbbb
+fbdbb fbbww fbbbb fbbbb
+rbbbb fwbbb fbbbb fbbbb
+endboard
+sboard: blank starting board
+newboard:
+blank board
+xewbbbb cewbbbb cewbbbb fbbbb odbbb xwebbbb xwebbbb xwedbbb xwebbbb xwedbbb xwebbbb xwsbbbb
+csnbbbb cnsbbbb hbbbb cnsbbbb csnbbbb pbbbb fbbwb fbbbb hbbbb fbbbb pbwbb xnsbbbv
+xewbbbb xewbbbb xewbbbb fbbbb fbbwb xwebbbb xewwbbb xewbbwb xewbbbb xewbbwb xewbbbb xnwbbbb
+xewbbbb xewbbbb cewbbwb fbbwb fdbwb fbbwb fbbwb cwewbwb cwebbwb owbbb fbbbb fbbbb
+pbbbb fbbwb rwbbb owbbb fwbbb fwbbb fwbbb owbbb rwwbb fbbbw fbbbb pbbbb
+hbwbb ftbbv fbbbb fbbbb gbbbb hbbbb hbbbb gbbbb fbbbb fbbbb rbwbb pbbbw
+hbbbb fbwwb fbbbw fbbbb gbbbb hbbbb hbbbb gbbbb fbbbb fbbbb fbbbb pbbbb
+pbbbb fwbbb rbbwb obbwb fbbwb gbbwb fbbwb obbwb rbwwb fbbbw fbwbb pbbbw
+xewbbbb xewbbwb cewwbbb fwbwb fdbbb fwbwb fwbbb cwewbbb cwewbbb gbbbb fbbbb pbbbb
+fbbwb fvbbb fbbbb fpbbb fbbwb fvbbb fbbwb fbbwb fbbwb fbbwb fbbwb rbbbb
+xewdbbb xewbbbb xewbbbb xewbbbb xewwbbb xewbbbb xewdbwb xewdbbb xewdbwb xewvbbb fwwbb fbbbv
+cnsbbbb csnbblb hbbbb csnbblb fbbdb fbbbb cewvbbb cewbbpb cewvbbb fbwvb fbblw fbbbb
+endboard
+board: 3,1 0 blank board
+flags: 3,1,8,5 3,1,2,9 3,0,6,1 3,1,11,10 
