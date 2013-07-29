@@ -37,3 +37,20 @@ form {
 img.button:hover {
     cursor: pointer;
 }
+
+.overlay {
+   background-color: #000;
+   opacity: .7;
+   filter: alpha(opacity=70);
+   position: absolute; top: 0; left: 0;
+   margin: 0 auto;
+   width: 1200px;
+   height: 100%;
+   z-index: 10;
+}
+
+.overlay div {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
