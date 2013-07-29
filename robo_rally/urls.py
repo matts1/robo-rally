@@ -10,6 +10,7 @@ admin.autodiscover()
 
 from robo_rally.auth.views import *
 from robo_rally.courses.views import PickMapView
+from robo_rally.game.views import LobbiesView
 
 urlpatterns = patterns('',
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
@@ -45,6 +46,6 @@ urlpatterns = patterns('',
 
     ### GAME MODULE ###
     # TODO: registerView is a temporary view so I can test getting redirects working
-    url(r'^lobbies/$', RegisterView.as_view(), name='lobbies'),
+    url(r'^lobbies/$', LobbiesView.as_view(), name='lobbies'),
     url(r'^pickmap/$', PickMapView.as_view(), name='maplist')
 )

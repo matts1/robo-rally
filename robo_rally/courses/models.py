@@ -2,13 +2,11 @@ from django.db import models
 from django.utils.six import with_metaclass
 from game_settings import *
 
-INF = 1<<15
 
-class ListField(with_metaclass(models.SubfieldBase, models.CharField)):
+class ListField(with_metaclass(models.SubfieldBase, models.TextField)):
     def __init__(self, seps, datatype, *args, **kwargs):
         self.seps = seps
         self.datatype = datatype
-        kwargs['max_length'] = INF
         super(ListField, self).__init__(*args, **kwargs)
     def get_prep_value(self, value):
         firstlayer = not hasattr(self, 'depth')
@@ -94,12 +92,12 @@ class Square():
 
 class Course(models.Model):
     filename = models.FilePathField(primary_key=True)
-    name = models.CharField(max_length=INF)
-    description = models.CharField(max_length=INF)
+    name = models.TextField()
+    description = models.TextField()
     rules = ListField([' '], str)
-    rules_description = models.CharField(max_length=INF)
-    length = models.CharField(max_length=INF)
-    difficulty = models.CharField(max_length=INF)
+    rules_description = models.TextField()
+    length = models.TextField()
+    difficulty = models.TextField()
     min_players = models.IntegerField()
     max_players = models.IntegerField()
     spawn = ListField([' ', ','], int)

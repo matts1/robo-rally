@@ -1,7 +1,7 @@
 from django.views.generic.base import TemplateView
-from robo_rally.courses.models import Course
+from robo_rally.game.models import Lobby
 
-class PickMapView(TemplateView):
+class LobbiesView(TemplateView):
     template_name = 'courses/maplist.html'
     def get_context_data(self, **kwargs):
         maps = Course.objects.all().values(

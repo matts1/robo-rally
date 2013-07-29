@@ -139,6 +139,7 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
     'robo_rally.courses',
     'robo_rally.auth',
+    'robo_rally.game',
 )
 
 # A sample logging configuration. The only tangible logging
