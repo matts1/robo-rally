@@ -28,9 +28,16 @@ var FILES = [
 ]
 SIDES = [[0, 0], [1, 0], [0, 1], [0, 0]];
 
-function loadBoard(url) {
-    overlay = $("<div class='overlay'></div>");
-    $("body").append(overlay);
+function loadBoard(obj, url) {
+    obj = $(obj);
+    obj.toggleClass("rot180");
+    tr = obj.parent().parent();
+    if ($(".boarddisplay", tr).length) {
+        $(".boarddisplay", tr).parent().toggleClass("invisible");
+        return;
+    }
+    overlay = $("<td class='newline'><div class='boarddisplay'></div></td>");
+    $(obj).parent().parent().append(overlay);
     $.get(url, {}, function(data) {
         data = $(data);
         var fields = [
@@ -43,12 +50,11 @@ function loadBoard(url) {
             $($("." + field)[0]).html($("." + field, data).html());
         }
         window.specials = {};
-        drawBoard($(".board", data), $(".spawn", data), $(".flags", data));
+        drawBoard($(".boarddisplay", overlay), $(".board", data), $(".spawn", data), $(".flags", data));
     });
 };
 
-function drawBoard(board, spawn, flags) {
-    var display = $("#boarddisplay");
+function drawBoard(display, board, spawn, flags) {
     display.empty();
     var displayWidth = parseInt(display.css("width"));
     var boardHeight = board.children().length;
