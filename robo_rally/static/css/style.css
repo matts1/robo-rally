@@ -9,7 +9,7 @@
 }
 
 label {
-    color: #2480FA;
+    color: #EBC43C;
     display: block;
     text-shadow: #000000 0px 0px 7px;
 }
@@ -54,3 +54,7 @@ img.button:hover {
     filter: alpha(opacity=100);
 }
 
+table#magictable {
+    background-color: #646464;
+    color: #EBC43C;
+}
