@@ -2,15 +2,17 @@
 {% block title %}Pick a Map{% endblock %}
 {% block scripts %}
     <script src="/static/js/table.js"></script>
+    <script src="/static/js/board.js"></script>
 {% endblock %}
 {% block content %}
-    <table class="magictable">
+    <table id="magictable">
         <thead>
             <tr>
                 <th data-filter="text">Name</th>
-                <th data-filter="select">Length</th>
-                <th data-filter="select">Difficulty</th>
+                <th data-filter="select" data-options="Short|Medium|Long">Length</th>
+                <th data-filter="select" data-options="Easy|Mid|Hard|Expert">Difficulty</th>
                 <th>Players</th>
+                <th>Expand</th>
             </tr>
         </thead>
         {% for map in maps %}
@@ -19,6 +21,7 @@
                 <td>{{ map.length|title }}</td>
                 <td>{{ map.difficulty|title }}</td>
                 <td>{{ map.min_players }}-{{ map.max_players }}</td>
+                <td><img src="/static/images/fullscreen.png" width="20px" class="button" onclick="loadBoard('/{{ map.filename }}');"\></td>
             </tr>
         {% endfor %}
     </table>

@@ -1,0 +1,20 @@
+<div>
+    <div class="name">{{ course.name }}</div>
+    <div class="description">{{ course.description }}</div>
+    <div class="rules">{{ course.rules_description }}</div>
+    <div class="length">{{ course.length }}</div>
+    <div class="difficulty">{{ course.difficulty }}</div>
+    <div class="minplayers">{{ course.min_players }}</div>
+    <div class="maxplayers">{{ course.max_players }}</div>
+    <div class="numflags">{{ numflags }}</div>
+    <div class="flags">{{ flags }}</div>
+    <div class="spawn">{{ spawn }}</div>
+    <div class="board">
+    {% for row in course.board %}
+        <div class="row{{ forloop.counter0 }}">
+            {% for square in row %}
+                <div class="col{{ forloop.counter0 }}">{{ square.tojs }}</div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>

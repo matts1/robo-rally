@@ -28,7 +28,6 @@ class ListField(with_metaclass(models.SubfieldBase, models.TextField)):
         if value == '': return []
         firstlayer = not hasattr(self, 'depth')
         if firstlayer:
-            print repr(value)
             self.depth = 0
         else:
             self.depth += 1
