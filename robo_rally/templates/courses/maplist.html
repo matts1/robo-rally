@@ -15,14 +15,17 @@
                 <th>Expand</th>
             </tr>
         </thead>
-        {% for map in maps %}
-            <tr>
-                <td>{{ map.name|title }}</td>
-                <td>{{ map.length|title }}</td>
-                <td>{{ map.difficulty|title }}</td>
-                <td>{{ map.min_players }}-{{ map.max_players }}</td>
-                <td><img src="/static/images/fullscreen.png" width="20px" class="button" onclick="loadBoard('/{{ map.filename }}');"\></td>
-            </tr>
-        {% endfor %}
+            {% for map in maps %}
+                <tr>
+                    <td>{{ map.name|title }}</td>
+                    <td>{{ map.length|title }}</td>
+                    <td>{{ map.difficulty|title }}</td>
+                    <td>{{ map.min_players }}-{{ map.max_players }}</td>
+                    <td>
+                        <img src="/static/images/down.png" width="20px" class="button"\
+                            onclick="loadBoard(this,'/{{ map.filename }}');"\>
+                    </td>
+                </tr>
+            {% endfor %}
     </table>
 {% endblock %}
