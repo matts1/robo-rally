@@ -46,7 +46,8 @@ urlpatterns = patterns('',
 
     ### GAME MODULE ###
     # TODO: registerView is a temporary view so I can test getting redirects working
-    url(r'^lobbies/$', RegisterView.as_view(), name='lobbies'),
+    url(r'^lobbies/$', LobbiesView.as_view(), name='lobbies'),
     url(r'^pickmap/$', PickMapView.as_view(), name='maplist'),
     url(r'^courses/(?P<url>.+)$', ViewCourseView.as_view(), name='course'),
+    url(r'^createlobby/$', CreateLobbyView.as_view(), name='createlobby'),
 )

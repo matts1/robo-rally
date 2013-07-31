@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}Lobbies{% endblock %}
+{% block scripts %}
+    <script src="/static/js/table.js"></script>
+{% endblock %}
+{% block content %}
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Players</th>
+            </tr>
+        </thead>
+        {% for lobby in lobbies %}
+            <tr>
+                <td>{{ lobby.name|title }}</td>
+                <td>{{ lobby.people }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

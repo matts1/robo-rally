@@ -4,6 +4,8 @@ from django.db import models
 class Lobby(models.Model):
     name = models.TextField(primary_key=True)
     time_created = models.DateTimeField()
+    def people(self):
+        return LobbyPerson.objects.filter(lobby=self)
     # game is instance of class
 
 class LobbyPerson(models.Model):
