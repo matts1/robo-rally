@@ -68,7 +68,7 @@ function drawBoard(display, board, spawn, flags) {
         for (var x = 0; x < boardWidth; x++) {
             var square = $(row.children()[x]).html().split(",");
             var img = new Image();
-            img.src = "/static/images/" + FILES[parseInt(square[0])];
+            img.src = "/static/images/board/" + FILES[parseInt(square[0])];
             display.append(img);
             $(img).addClass("floor");
             $(img).css("height", squareSize);
@@ -80,7 +80,7 @@ function drawBoard(display, board, spawn, flags) {
             for (var i = 0; i < 4; i++) {
                 if (parseInt(square[i + 2]) == 8) continue; // empty
                 var img = new Image();
-                img.src = "/static/images/" + FILES[parseInt(square[i + 2])];
+                img.src = "/static/images/board/" + FILES[parseInt(square[i + 2])];
                 img.i_tmp = i;
                 img.x_tmp = x;
                 img.y_tmp = y;

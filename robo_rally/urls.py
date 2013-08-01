@@ -1,16 +1,22 @@
 from django.conf.urls import patterns, include, url
-from django.views.generic import RedirectView
+from django.views.generic import RedirectView, TemplateView
 from django.contrib.auth.forms import SetPasswordForm
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
-from robo_rally.auth.admin import * # create admin view
 
 admin.autodiscover()
 
 from robo_rally.auth.views import *
+from robo_rally.auth.admin import * # create admin view
 from robo_rally.courses.views import *
 from robo_rally.game.views import *
+
+class DocumentationView(TemplateView):
+    template_name = 'static/documentation.html'
+
+class InstructionsView(TemplateView):
+    template_name = 'static/instructions.html'
 
 urlpatterns = patterns('',
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
@@ -20,6 +26,10 @@ urlpatterns = patterns('',
 
     # favicon
     url(r'^favicon.ico$', RedirectView.as_view(url='/static/images/favicon.ico')),
+
+    ### DOCUMENTATION AND INSTRUCTIONS ###
+    url(r'^documentation/$', DocumentationView.as_view(), name='documentation'),
+    url(r'^instructions/$', InstructionsView.as_view(), name='instructions'),
 
     ### AUTH MODULE ###
     # in the login page, next page is provided by a hidden input field in the template
