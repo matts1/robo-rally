@@ -3,13 +3,9 @@ from django.db import models
 
 class Lobby(models.Model):
     name = models.TextField(primary_key=True)
-    time_created = models.DateTimeField()
     def people(self):
-        return LobbyPerson.objects.filter(lobby=self)
-    # game is instance of class
+        return User.objects.filter(profile__lobby=self)
+    game = None # game doesn't go in table
 
-class LobbyPerson(models.Model):
-    user = models.ForeignKey(User, primary_key=True)
-    lobby = models.ForeignKey(Lobby)
-    index = models.IntegerField() # index of player in lobby
-    last_ping = models.TimeField()
+    def __repr__(self):
+        return self.name

@@ -15,7 +15,10 @@ class CreateLobbyForm(Form):
     )
 
     def save(self):
-        lobby = Lobby(self.cleaned_data['name'], datetime.now())
+        lobby = Lobby(self.cleaned_data['name'])
         lobby.save()
-        lobbyperson = LobbyPerson(self.user, lobby, 0, datetime.now())
-        lobbyperson.save()
+        profile = self.user.get_profile()
+        profile.lobby = lobby
+        profile.index = 0
+        profile.last_ping = datetime.now()
+        profile.save()
