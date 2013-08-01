@@ -60,6 +60,7 @@ function textFilter (event) {
             valid = (val == undefined) || square.text().match(regexstart);
         }
         row = $(square.parent());
+        expanded = $("td:last-child img.button.rot180", row).length > 0;
         if (valid) {
             square.removeClass("nomatch");
             for (var x = 0; x < window.tbody[y].length; x++) {
@@ -72,6 +73,10 @@ function textFilter (event) {
                 row.slideDown();
             }
         } else {
+            if (expanded) {
+                row.next().addClass("invisible");
+                $("td:last-child img.button.rot180", row).removeClass("rot180");
+            }
             square.addClass("nomatch");
             row.slideUp();
         }

@@ -32,12 +32,13 @@ function loadBoard(obj, url) {
     obj = $(obj);
     obj.toggleClass("rot180");
     tr = obj.parent().parent();
-    if ($(".boarddisplay", tr).length) {
-        $(".boarddisplay", tr).parent().toggleClass("invisible");
+    if ($(".boarddisplay", tr.next()).length) {
+        tr.next().toggleClass("invisible");
         return;
     }
-    overlay = $("<td class='newline'><div class='boarddisplay'></div></td>");
-    $(obj).parent().parent().append(overlay);
+    overlay = $("<tr><td><div class='boarddisplay'></div></td></tr>");
+    obj.parent().parent().after(overlay);
+    overlay = $("td", overlay);
     $.get(url, {}, function(data) {
         data = $(data);
         var fields = [
@@ -47,7 +48,7 @@ function loadBoard(obj, url) {
         for (var i = 0; i < fields.length; i++) {
             var field = fields[i];
             overlay.append("<div class='" + field + "'></div>");
-            $($("." + field)[0]).html($("." + field, data).html());
+            $($("." + field, overlay)[0]).html($("." + field, data).html());
         }
         window.specials = {};
         drawBoard($(".boarddisplay", overlay), $(".board", data), $(".spawn", data), $(".flags", data));
@@ -117,16 +118,16 @@ function drawBoard(display, board, spawn, flags) {
     for (var i = 0; i < flags.length; i++) {
         coords = flags[i].split(",");
         if (coords.length == 2) {
-            drawSpecial(display, 0, i, parseInt(coords[0]), parseInt(coords[1]), 0);
+            drawSpecial(display, squareSize, 0, i, parseInt(coords[0]), parseInt(coords[1]), 0);
         }
     }
     for (var i = 0; i < spawn.length; i++) {
         coords = spawn[i].split(",");
-        drawSpecial(display, 1, i, parseInt(coords[0]), parseInt(coords[1]), 0);
+        drawSpecial(display, squareSize, 1, i, parseInt(coords[0]), parseInt(coords[1]), 0);
     }
 };
 
-function drawSpecial(display, type, objid, x, y, rot) {
+function drawSpecial(display, squareSize, type, objid, x, y, rot) {
     key = (8 * type) + objid;
     if (key in window.specials) {
         window.specials[key].remove()
@@ -159,11 +160,11 @@ function drawSpecial(display, type, objid, x, y, rot) {
     $(img).addClass("floor");
     img.onload = function() {
         img = $(this);
-        var height = parseInt(img.css("height"));
-        var width = parseInt(img.css("width"));
+        img.height(squareSize);
+        img.width(squareSize);
         squareSize = window.squareSize
-        img.css("left", (x * squareSize) + (squareSize - width) / 2);
-        img.css("top", (y * squareSize) + (squareSize - height) / 2);
+        img.css("left", (x * squareSize) + (squareSize - img.width()) / 2);
+        img.css("top", (y * squareSize) + (squareSize - img.height()) / 2);
     }
     window.specials[key] = $(img);
 }

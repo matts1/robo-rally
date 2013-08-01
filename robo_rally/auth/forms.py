@@ -21,10 +21,6 @@ def is_valid_email(email):
     if User.objects.filter(email=email):
         raise ValidationError('The email is already taken')
 
-def email_exists(email):
-    if not User.objects.filter(email=email):
-        raise ValidationError("The email does not exist")
-
 def password_field():
     return CharField(
         widget=PasswordInput(),
@@ -61,12 +57,12 @@ class RegisterForm(Form):
             data['email'],
             data['password']
         )
+        user.save()
         profile = UserProfile(
             user=user,
             activation_key=None,
         )
-        user.save()
-        return user
+        profile.save()
 
 
 class ChgPwdForm(Form):
