@@ -117,17 +117,16 @@ function drawBoard(display, board, spawn, flags) {
     for (var i = 0; i < flags.length; i++) {
         coords = flags[i].split(",");
         if (coords.length == 2) {
-            drawSpecial(0, i, parseInt(coords[0]), parseInt(coords[1]), 0);
+            drawSpecial(display, 0, i, parseInt(coords[0]), parseInt(coords[1]), 0);
         }
     }
     for (var i = 0; i < spawn.length; i++) {
         coords = spawn[i].split(",");
-        drawSpecial(1, i, parseInt(coords[0]), parseInt(coords[1]), 0);
-        drawSpecial(2, i, parseInt(coords[0]), parseInt(coords[1]), 1);
+        drawSpecial(display, 1, i, parseInt(coords[0]), parseInt(coords[1]), 0);
     }
 };
 
-function drawSpecial(type, objid, x, y, rot) {
+function drawSpecial(display, type, objid, x, y, rot) {
     key = (8 * type) + objid;
     if (key in window.specials) {
         window.specials[key].remove()
@@ -153,7 +152,7 @@ function drawSpecial(type, objid, x, y, rot) {
     }
     var img = new Image();
     img.src = "/static/images/" + image + ".png";
-    $("#boarddisplay").append(img);
+    display.append(img);
     $(img).css("z-index", 10 + type);
     $(img).css("opacity", opacity);
     $(img).addClass("rot" + (rot * 90));
