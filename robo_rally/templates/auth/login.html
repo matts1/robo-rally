@@ -1,2 +1,6 @@
 {% load xextends %}
-{% xextends 'common/form.html' with title='Login' extra_content='<input type="hidden" name="next" value="/lobbies">' %}
+{% xextends 'common/form.html' with title='Login' %}
+{% block formfooter %}
+    <input type="hidden" name="next" value="/lobbies">
+    <a href="{% url 'resetpwd' %}">Forgotten Your Password?</a>
+{% endblock %}

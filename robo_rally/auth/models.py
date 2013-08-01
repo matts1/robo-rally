@@ -1,3 +1,4 @@
+from datetime import datetime
 from django.db import models
 from django.contrib.auth.models import User
 from robo_rally.game.models import Lobby
@@ -10,3 +11,6 @@ class UserProfile(models.Model):
     lobby = models.ForeignKey(Lobby, default=None, null=True)
     index = models.IntegerField(default=None, null=True) # index of player in lobby
     last_ping = models.TimeField(default=None, null=True)
+
+    def ping(self):
+        self.last_ping = datetime.now()
