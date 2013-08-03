@@ -15,7 +15,6 @@ class FormView(FormView):
         if self.extra_args:
             kwargs['request'] = self.request
             kwargs['user'] = self.request.user
-        print kwargs
         return kwargs
 
     def form_valid(self, form):

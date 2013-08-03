@@ -2,15 +2,8 @@ import os
 import re
 import sqlite3
 
-user = dict(
-    username='matt',
-    password='abc',
-    email='mattstark75@gmail.com'
-)
-
-if raw_input("Remake database (yes/no)? ").lower().startswith("y"):
-    os.system("rm data.sqlite3")
-    os.system("echo 'yes\n{username}\nm{email}\n{password}\n{password}\n' | python manage.py syncdb".format(**user))
+os.system('rm data.sqlite3')
+os.system('echo "no\n" | python manage.py syncdb')
 
 DB = sqlite3.connect('data.sqlite3')
 def query(cmd, *args):

@@ -1,9 +1,9 @@
-{% extends 'base.html' %}
-{% block title %}Lobbies{% endblock %}
+{% load xextends %}
+{% xextends 'common/form.html' with title='lobbies' button='Create Lobby' %}
 {% block scripts %}
     <script src="/static/js/table.js"></script>
 {% endblock %}
-{% block content %}
+{% block morecontent %}
     <table>
         <thead>
             <tr>
@@ -14,7 +14,7 @@
         {% for lobby in lobbies %}
             <tr>
                 <td>{{ lobby.name|title }}</td>
-                <td>{{ lobby.people }}</td>
+                <td>{{ lobby.num_people }}</td>
             </tr>
         {% endfor %}
     </table>

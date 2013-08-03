@@ -55,9 +55,7 @@ urlpatterns = patterns('',
     url('^resetpwd/doreset/$', 'django.contrib.auth.views.password_reset_complete', name='completereset'),
 
     ### GAME MODULE ###
-    # TODO: registerView is a temporary view so I can test getting redirects working
     url(r'^lobbies/$', LobbiesView.as_view(), name='lobbies'),
     url(r'^pickmap/$', PickMapView.as_view(), name='maplist'),
     url(r'^courses/(?P<url>.+)$', ViewCourseView.as_view(), name='course'),
-    url(r'^createlobby/$', CreateLobbyView.as_view(), name='createlobby'),
 )
