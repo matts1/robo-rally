@@ -1,5 +1,3 @@
-from datetime import datetime
-
 from robo_rally.auth.forms import *
 from robo_rally.game.models import *
 
@@ -15,10 +13,11 @@ class CreateLobbyForm(Form):
     )
 
     def save(self):
-        lobby = Lobby(self.cleaned_data['name'])
-        lobby.save()
-        profile = self.user.get_profile()
-        profile.lobby = lobby
-        profile.index = 0
-        profile.last_ping = datetime.now()
-        profile.save()
+        name = self.cleaned_data['name'].strip().title()
+        self.lobby = Lobby.objects.filter(name=name)
+        if not self.lobby:
+            self.lobby = Lobby(name)
+            self.lobby.save()
+        else:
+            self.lobby = self.lobby[0]
+        self.lobby.add_user(self.user)

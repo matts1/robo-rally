@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}{{ lobby.name }}{% endblock %}
+
+{% block content %}
+    <h1>Players</h1>
+    <ul>
+        {% for player in lobby.players %}
+            <li>{{ player.username|title }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

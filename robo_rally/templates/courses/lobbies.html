@@ -1,8 +1,10 @@
 {% load xextends %}
 {% xextends 'common/form.html' with title='lobbies' button='Create Lobby' %}
+
 {% block scripts %}
     <script src="/static/js/table.js"></script>
 {% endblock %}
+
 {% block morecontent %}
     <table>
         <thead>
@@ -13,8 +15,8 @@
         </thead>
         {% for lobby in lobbies %}
             <tr>
-                <td>{{ lobby.name|title }}</td>
-                <td>{{ lobby.num_people }}</td>
+                <td><a href="/lobbies/{{ lobby.name }}">{{ lobby.name }}</a></td>
+                <td>{{ lobby.size }}</td>
             </tr>
         {% endfor %}
     </table>

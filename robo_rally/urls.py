@@ -56,6 +56,8 @@ urlpatterns = patterns('',
 
     ### GAME MODULE ###
     url(r'^lobbies/$', LobbiesView.as_view(), name='lobbies'),
+    url(r'^lobbies/(?P<lobby>[0-9A-Za-z ]+)', JoinLobbyView.as_view(), name='joinlobby'),
+    url(r'^currentlobby', CurrentLobbyView.as_view(), name='currentlobby'),
     url(r'^pickmap/$', PickMapView.as_view(), name='maplist'),
     url(r'^courses/(?P<url>.+)$', ViewCourseView.as_view(), name='course'),
 )
