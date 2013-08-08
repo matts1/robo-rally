@@ -140,6 +140,7 @@ INSTALLED_APPS = (
     'robo_rally.courses',
     'robo_rally.auth',
     'robo_rally.game',
+    'robo_rally.messages',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -176,12 +177,27 @@ AUTH_PROFILE_MODULE = 'auth.UserProfile'
 HOME_URL = '/lobbies'
 LOGIN_URL = '/'
 
-LOGIN_REQUIRED_URLS = [
-    'lobbies'
-    'chgpwd',
-]
-
 NO_LOGIN_REQUIRED_URLS = set([
     'login',
     'register',
+    'resetpwd',
+    'doreset',
+    'completereset',
 ])
+
+ALWAYS_ALLOWED_URLS = set([
+    'documentation',
+    'instructions'
+])
+
+# ASYNC stuff
+ASYNC_BACKEND_URL = 'http://localhost:8001'
+
+NONE = 0
+ONE = 1
+ALL = 2
+
+VALID_ACTIONS = {
+    'adduser': ALL,
+    'removeuser': ALL,
+}

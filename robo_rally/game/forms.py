@@ -16,7 +16,7 @@ class CreateLobbyForm(Form):
         name = self.cleaned_data['name'].strip().title()
         self.lobby = Lobby.objects.filter(name=name)
         if not self.lobby:
-            self.lobby = Lobby(name)
+            self.lobby = Lobby(name=name)
             self.lobby.save()
         else:
             self.lobby = self.lobby[0]

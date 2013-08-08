@@ -1,7 +1,16 @@
 {% extends 'base.html' %}
 {% block title %}{{ lobby.name }}{% endblock %}
 
+{% block scripts %}
+    <script>
+        var async_url = "{{ async_url }}";
+    </script>
+    <script src="{{ async_url }}/socket.io/socket.io.js"></script>
+    <script src="/static/js/updatelobby.js"></script>
+{% endblock %}
+
 {% block content %}
+    {% csrf_token %}
     <h1>Players</h1>
     <ul>
         {% for player in lobby.players %}

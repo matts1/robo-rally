@@ -17,7 +17,9 @@ class LoginRequiredMiddleware:
         for pattern in res.url_patterns:
             if pattern.regex.match(path) and hasattr(pattern, 'name'):
                 logged_in = request.user.is_authenticated()
-                if logged_in and pattern.name in settings.NO_LOGIN_REQUIRED_URLS:
+                need_login = pattern.name not in settings.NO_LOGIN_REQUIRED_URLS
+                all_login = pattern.name in settings.ALWAYS_ALLOWED_URLS
+                if logged_in and not need_login and not all_login:
                     return HttpResponseRedirect(settings.HOME_URL)
-                if not logged_in and pattern.name in settings.LOGIN_REQUIRED_URLS:
+                if not logged_in and need_login and not all_login:
                     return HttpResponseRedirect(settings.LOGIN_URL)

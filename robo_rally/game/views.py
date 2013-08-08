@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.core.urlresolvers import reverse_lazy
 from django.http import HttpResponseRedirect
 from django.views.generic.base import RedirectView, TemplateView
@@ -39,6 +40,6 @@ class CurrentLobbyView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super(CurrentLobbyView, self).get_context_data(**kwargs)
         self.profile.ping()
-        print self.profile.lobby.players()
         context.update(lobby=self.profile.lobby)
+        context.update(async_url=settings.ASYNC_BACKEND_URL)
         return context

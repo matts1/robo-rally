@@ -1,1 +1,89 @@
-[{"pk": 1, "model": "auth.permission", "fields": {"codename": "add_permission", "name": "Can add permission", "content_type": 1}}, {"pk": 2, "model": "auth.permission", "fields": {"codename": "change_permission", "name": "Can change permission", "content_type": 1}}, {"pk": 3, "model": "auth.permission", "fields": {"codename": "delete_permission", "name": "Can delete permission", "content_type": 1}}, {"pk": 4, "model": "auth.permission", "fields": {"codename": "add_group", "name": "Can add group", "content_type": 2}}, {"pk": 5, "model": "auth.permission", "fields": {"codename": "change_group", "name": "Can change group", "content_type": 2}}, {"pk": 6, "model": "auth.permission", "fields": {"codename": "delete_group", "name": "Can delete group", "content_type": 2}}, {"pk": 7, "model": "auth.permission", "fields": {"codename": "add_user", "name": "Can add user", "content_type": 3}}, {"pk": 8, "model": "auth.permission", "fields": {"codename": "change_user", "name": "Can change user", "content_type": 3}}, {"pk": 9, "model": "auth.permission", "fields": {"codename": "delete_user", "name": "Can delete user", "content_type": 3}}, {"pk": 10, "model": "auth.permission", "fields": {"codename": "add_userprofile", "name": "Can add user profile", "content_type": 4}}, {"pk": 11, "model": "auth.permission", "fields": {"codename": "change_userprofile", "name": "Can change user profile", "content_type": 4}}, {"pk": 12, "model": "auth.permission", "fields": {"codename": "delete_userprofile", "name": "Can delete user profile", "content_type": 4}}, {"pk": 13, "model": "auth.permission", "fields": {"codename": "add_contenttype", "name": "Can add content type", "content_type": 5}}, {"pk": 14, "model": "auth.permission", "fields": {"codename": "change_contenttype", "name": "Can change content type", "content_type": 5}}, {"pk": 15, "model": "auth.permission", "fields": {"codename": "delete_contenttype", "name": "Can delete content type", "content_type": 5}}, {"pk": 16, "model": "auth.permission", "fields": {"codename": "add_session", "name": "Can add session", "content_type": 6}}, {"pk": 17, "model": "auth.permission", "fields": {"codename": "change_session", "name": "Can change session", "content_type": 6}}, {"pk": 18, "model": "auth.permission", "fields": {"codename": "delete_session", "name": "Can delete session", "content_type": 6}}, {"pk": 19, "model": "auth.permission", "fields": {"codename": "add_site", "name": "Can add site", "content_type": 7}}, {"pk": 20, "model": "auth.permission", "fields": {"codename": "change_site", "name": "Can change site", "content_type": 7}}, {"pk": 21, "model": "auth.permission", "fields": {"codename": "delete_site", "name": "Can delete site", "content_type": 7}}, {"pk": 22, "model": "auth.permission", "fields": {"codename": "add_logentry", "name": "Can add log entry", "content_type": 8}}, {"pk": 23, "model": "auth.permission", "fields": {"codename": "change_logentry", "name": "Can change log entry", "content_type": 8}}, {"pk": 24, "model": "auth.permission", "fields": {"codename": "delete_logentry", "name": "Can delete log entry", "content_type": 8}}, {"pk": 25, "model": "auth.permission", "fields": {"codename": "add_course", "name": "Can add course", "content_type": 9}}, {"pk": 26, "model": "auth.permission", "fields": {"codename": "change_course", "name": "Can change course", "content_type": 9}}, {"pk": 27, "model": "auth.permission", "fields": {"codename": "delete_course", "name": "Can delete course", "content_type": 9}}, {"pk": 28, "model": "auth.permission", "fields": {"codename": "add_lobby", "name": "Can add lobby", "content_type": 10}}, {"pk": 29, "model": "auth.permission", "fields": {"codename": "change_lobby", "name": "Can change lobby", "content_type": 10}}, {"pk": 30, "model": "auth.permission", "fields": {"codename": "delete_lobby", "name": "Can delete lobby", "content_type": 10}}, {"pk": 1, "model": "auth.user", "fields": {"username": "sudo", "first_name": "", "last_name": "", "is_active": true, "is_superuser": true, "is_staff": true, "last_login": "2013-08-03T06:34:26.147Z", "groups": [], "user_permissions": [], "password": "pbkdf2_sha256$10000$akpnQtkwJopi$4eXA5RU37mSFTpi8u+WGfUnfltQfG1qiDHPahMzTy5M=", "email": "sudo@gmail.com", "date_joined": "2013-08-03T06:31:29.487Z"}}, {"pk": 2, "model": "auth.user", "fields": {"username": "matt", "first_name": "", "last_name": "", "is_active": true, "is_superuser": false, "is_staff": false, "last_login": "2013-08-03T06:32:43.738Z", "groups": [], "user_permissions": [], "password": "pbkdf2_sha256$10000$AwKWN9Y84HgO$c+aC1BTFQ9JQ37V6HvL3H/DQnCgU87zlVwsByP/OpOo=", "email": "mattstark75@gmail.com", "date_joined": "2013-08-03T06:31:43.907Z"}}, {"pk": 3, "model": "auth.user", "fields": {"username": "sam", "first_name": "", "last_name": "", "is_active": true, "is_superuser": false, "is_staff": false, "last_login": "2013-08-03T06:31:55.821Z", "groups": [], "user_permissions": [], "password": "pbkdf2_sha256$10000$W1N3xx3ChIOu$ZkRXQlExU9Nobfm5SonnT11FkkpdWgHpklghbUs1Yjc=", "email": "test@gmail.com", "date_joined": "2013-08-03T06:31:55.821Z"}}, {"pk": 1, "model": "auth.userprofile", "fields": {"index": 0, "activation_key": null, "last_ping": "16:34:18.441", "user": 2, "lobby": "l1"}}, {"pk": 2, "model": "auth.userprofile", "fields": {"index": null, "activation_key": null, "last_ping": null, "user": 3, "lobby": null}}]
+[
+{
+    "pk": 2, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "matt", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2013-08-08T11:50:34.427Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$10000$kgVOArMM9PQB$qll1qEXeBsmq0De7olK5qQoKvBgZqKcE67Q02f5wirg=", 
+        "email": "mattstark75@gmail.com", 
+        "date_joined": "2013-08-08T11:46:44Z"
+    }
+},
+{
+    "pk": 3, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "sam", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2013-08-08T11:47:01Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$10000$JQUj2WbjppJv$U1xNpzl31oqwyFN17L4+E6klQSATlLy6EjllgSEwkSw=", 
+        "email": "samm0s@hotmail.com", 
+        "date_joined": "2013-08-08T11:47:01Z"
+    }
+},
+{
+    "pk": 4, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "sudo", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2013-08-08T11:50:11Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$10000$5d2eD8pAxMEH$xSm9GpvH/v/HLYG1S8IgZavV+YQFgPdPBL9qSKpFkPA=", 
+        "email": "sudo@gmail.com", 
+        "date_joined": "2013-08-08T11:50:11Z"
+    }
+},
+{
+    "pk": 1,
+    "model": "auth.userprofile",
+    "fields": {
+        "index": null,
+        "activation_key": null,
+        "last_ping": null,
+        "user": 2,
+        "lobby": null
+    }
+},
+{
+    "pk": 2,
+    "model": "auth.userprofile",
+    "fields": {
+        "index": null,
+        "activation_key": null,
+        "last_ping": null,
+        "user": 3,
+        "lobby": null
+    }
+},
+{
+    "pk": 3,
+    "model": "auth.userprofile",
+    "fields": {
+        "index": null,
+        "activation_key": null,
+        "last_ping": null,
+        "user": 4,
+        "lobby": null
+    }
+}
+]
