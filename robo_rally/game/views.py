@@ -2,10 +2,13 @@ from django.conf import settings
 from django.core.urlresolvers import reverse_lazy
 from django.http import HttpResponseRedirect
 from django.views.generic.base import RedirectView, TemplateView
+from robo_rally.auth.models import UserProfile
 
 from robo_rally.auth.views import FormView
 from robo_rally.game.forms import CreateLobbyForm
 from robo_rally.game.models import *
+from robo_rally.messages.models import Message
+
 
 class LobbiesView(FormView):
     template_name = 'courses/lobbies.html'
@@ -19,13 +22,13 @@ class LobbiesView(FormView):
         return lobbies
 
 class JoinLobbyView(RedirectView):
-    # url = reverse_lazy("currentlobby")
+    url = reverse_lazy("currentlobby")
     def get(self, request, *args, **kwargs):
         self.user = request.user
         return super(JoinLobbyView, self).get(request, *args, **kwargs)
 
     def get_redirect_url(self, lobby, **kwargs):
-        Lobby(lobby).add_user(self.user)
+        Lobby.objects.filter(name=lobby)[0].add_user(self.user)
         return super(JoinLobbyView, self).get_redirect_url(**kwargs)
 
 class CurrentLobbyView(TemplateView):
@@ -35,6 +38,12 @@ class CurrentLobbyView(TemplateView):
         if self.profile.lobby is None:
             return HttpResponseRedirect(reverse_lazy("lobbies"))
         else:
+            Message(
+                user=request.user,
+                lobby=self.profile.lobby,
+                action='adduser',
+                text=request.user.username
+            ).save()
             return super(CurrentLobbyView, self).get(request, *args, **kwargs)
 
     def get_context_data(self, **kwargs):

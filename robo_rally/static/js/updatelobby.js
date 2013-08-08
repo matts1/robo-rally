@@ -8,6 +8,7 @@ $(function() {
     }
 
     var addPlayer = function (player) {
+        console.log("adding", player);
         removePlayer(player);
         $("#playerlist").append("<li>" + toTitleCase(player) + "</li>");
     }
@@ -19,14 +20,14 @@ $(function() {
     }
 
     var functions = {
-        "add": addPlayer,
+        "adduser": addPlayer,
     }
 
     var send = function (action, msg) {
         data = {
             "csrfmiddlewaretoken" : csrf,
-            "action": "adduser",
-            "text": "bob"
+            "action": action,
+            "text": msg
         };
         $.post(url + "/send/", data, function (data) {
             console.log("Data status:", data.status);
@@ -45,8 +46,7 @@ $(function() {
     };
 
     socket.on("message", function (data) {
-        console.log("news is", data);
+        console.log(data.data);
+        functions[data.data.action](data.data.text)
     });
-
-    send("ping", "");
 });

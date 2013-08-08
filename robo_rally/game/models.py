@@ -1,13 +1,13 @@
 from datetime import datetime
+from django.utils.functional import SimpleLazyObject
 from django.contrib.auth.models import User
 from django.db import models
 
 class Lobby(models.Model):
     name = models.TextField(unique=True)
-    game = None # game doesn't go in database table
 
     def players(self):
-        return User.objects.filter(profile__lobby=self)
+        return User.objects.filter(profile__lobby=self.id)
 
     def size(self):
         return len(self.players())
@@ -30,4 +30,4 @@ class Lobby(models.Model):
     def remove_empty_lobbies(cls):
         used = set(User.objects.values_list('profile__lobby', flat=True))
         used = used - set([None])
-        cls.objects.exclude(name__in=used).delete()
+        cls.objects.exclude(id__in=used).delete()

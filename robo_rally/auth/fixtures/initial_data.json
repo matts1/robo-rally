@@ -1,6 +1,6 @@
 [
 {
-    "pk": 2, 
+    "pk": 1,
     "model": "auth.user", 
     "fields": {
         "username": "matt", 
@@ -18,7 +18,7 @@
     }
 },
 {
-    "pk": 3, 
+    "pk": 2,
     "model": "auth.user", 
     "fields": {
         "username": "sam", 
@@ -36,7 +36,7 @@
     }
 },
 {
-    "pk": 4, 
+    "pk": 3,
     "model": "auth.user", 
     "fields": {
         "username": "sudo", 
@@ -60,7 +60,7 @@
         "index": null,
         "activation_key": null,
         "last_ping": null,
-        "user": 2,
+        "user": 1,
         "lobby": null
     }
 },
@@ -71,7 +71,7 @@
         "index": null,
         "activation_key": null,
         "last_ping": null,
-        "user": 3,
+        "user": 2,
         "lobby": null
     }
 },
@@ -82,7 +82,7 @@
         "index": null,
         "activation_key": null,
         "last_ping": null,
-        "user": 4,
+        "user": 3,
         "lobby": null
     }
 }

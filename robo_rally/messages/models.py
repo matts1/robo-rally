@@ -40,5 +40,6 @@ class Message(models.Model):
         return json.dumps(data)
 
     def save(self, *args, **kwargs):
+        print 'saving', self.as_dict()
         super(Message, self).save(*args, **kwargs)
         send_event('message-create', self.as_dict())
