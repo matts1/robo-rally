@@ -27,7 +27,7 @@ $(function() {
         data = {
             "csrfmiddlewaretoken" : csrf,
             "action": action,
-            "text": msg
+            "text": msg,
         };
         $.post(url + "/send/", data, function (data) {
             console.log("Data status:", data.status);
