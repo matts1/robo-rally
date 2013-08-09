@@ -19,7 +19,7 @@
                 <li><a href="{% url 'documentation' %}">Documentation</a></li>
                 <li><a href="{% url 'instructions' %}">Instructions</a></li>
                 {% if user.is_authenticated %}
-                    <li>Welcome, <a href="/TODO_PROFILE">{{ user }}</a></li>
+                    <li>Welcome, <a href="/TODO_PROFILE"><span id="username">{{ user }}</span></a></li>
                     <li><a href="{% url 'maplist' %}">Pick A Map</a></li>
                     <li><a href="{% url 'chgpwd' %}">Change Password</a></li>
                     <li><a href="{% url 'logout' %}">Logout</a></li>

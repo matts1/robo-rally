@@ -17,7 +17,6 @@ def send_event(event_type, event_data):
 
 
 class Message(models.Model):
-
     user = models.ForeignKey(User)
     lobby = models.ForeignKey(Lobby)
     action = models.TextField()
@@ -34,8 +33,8 @@ class Message(models.Model):
         data = {
             'user': self.user.username,
             'action': self.action,
-            'send_to': settings.VALID_ACTIONS[self.action],
             'text': self.text,
+            'players': " ".join(p.username for p in self.lobby.players()),
         }
         return json.dumps(data)
 

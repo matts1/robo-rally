@@ -10,11 +10,9 @@ from tornadio2 import SocketConnection, TornadioRouter, SocketServer, event
 
 
 class IndexHandler(tornado.web.RequestHandler):
-
     def post(self):
         event_type = self.get_argument('event', 'message')
         event_data = self.get_argument('data', None)
-        print event_data
         try:
             data = json.loads(event_data)
         except:
@@ -23,9 +21,12 @@ class IndexHandler(tornado.web.RequestHandler):
             'event': event_type,
             'data': data
         }
-        for p in ChatConnection.participants:
-            print 'User:', p, to_send
-            p.send(to_send)
+        print repr(event_data)
+        print repr(data)
+
+        for player in data['players'].split(' '):
+            conn = ChatConnection.participants.get(player)
+            conn.send(to_send)
         self.finish()
 
 
@@ -36,15 +37,18 @@ class SocketIOHandler(tornado.web.RequestHandler):
 
 class ChatConnection(tornadio2.conn.SocketConnection):
     # Class level variable
-    participants = set()
+    participants = {}
+    nolobby = {} # TODO: DO STUFF WITH THIS
 
     def on_open(self, info):
         print 'client connected'
-        self.participants.add(self)
+        self.participants[None].add(self)
 
     def on_close(self):
         print 'client disconnected'
-        self.participants.remove(self)
+        for lobby in self.participants.values():
+            if self in lobby:
+                lobby.remove(self)
 
 
 # Create chat server
