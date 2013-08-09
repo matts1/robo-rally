@@ -1,12 +1,29 @@
 import random
-import game_settings
+from game_settings import *
 
 class Engine():
-#    def __init__(self, course, players):
-#        self.board = course.board
-#        self.spawn = course.spawn
-#        self.flags = course.flags
-#        self.rules = course.rules
+    def __init__(self, course, players):
+        self.board = course.board
+        self.spawn = course.spawn
+        self.flags = course.flags
+        self.rules = course.rules
+        self.players = []
+
+        for i, player in enumerate(players):
+            health = []
+            for i in range(START_HEALTH):
+                health.append(1)
+            for i in range(MAX_HEALTH - START_HEALTH):
+                health.append(0)
+
+            self.players.append(Player(
+                player,
+                lives=MAX_LIVES,
+                health=health,
+                spawn=course.spawn[i],
+            ))
+            self.players[-1].spawn()
+
 
     def deal(self):
         deck = [Card(p) for p in range(10, 850, 10)]
@@ -35,5 +52,15 @@ class Card():
     def __repr__(self):
         return "%s (%d)" % (self.card, self.priority)
 
+class Player():
+    def __init__(self, name, **kwargs):
+        self.name = name
+        for k, v in kwargs.items():
+            setattr(self, k, v)
+
+    def spawn(self):
+        self.coords = self.spawn
+
 if __name__ == "__main__":
-    Engine().deal()
+#    game = Engine(None, ["Sam", "Matt"])
+    pass

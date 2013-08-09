@@ -102,6 +102,11 @@ UTURN = 4,
 ROTLEFT = 5,
 ROTRIGHT = 6,
 
+# player attributes
+START_HEALTH = 9
+MAX_HEALTH = 9
+MAX_LIVES = 3
+
 # options
 # fire options
 RADIO_CONTROL = 1
