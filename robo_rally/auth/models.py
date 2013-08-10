@@ -1,7 +1,7 @@
 from datetime import datetime
 from django.db import models
 from django.contrib.auth.models import User
-from robo_rally.game.models import Lobby
+from robo_rally.game.models import *
 
 class UserProfile(models.Model):
     user = models.OneToOneField(User, related_name='profile')
@@ -14,3 +14,16 @@ class UserProfile(models.Model):
 
     def ping(self):
         self.last_ping = datetime.now()
+        self.save()
+
+    def leave_lobby(self):
+        if self.lobby is not None:
+            for player in self.lobby.players():
+                profile = player.get_profile()
+                if profile.index > self.index:
+                    profile.index -= 1
+                    profile.save()
+            self.lobby.message(self.user, 'deleteuser', self.user.username)
+        self.lobby = None
+        self.index = None
+        self.save()

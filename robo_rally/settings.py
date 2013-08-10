@@ -194,10 +194,11 @@ ALWAYS_ALLOWED_URLS = set([
 ASYNC_BACKEND_URL = 'http://localhost:8001'
 
 NONE = 0
-ONE = 1
+NON_SELF = 1
 ALL = 2
 
 VALID_ACTIONS = {
-    'adduser': ALL,
-    'removeuser': ALL,
+    'adduser': NON_SELF,
+    'deleteuser': NON_SELF,
+    'goto_pickmap': ALL,
 }

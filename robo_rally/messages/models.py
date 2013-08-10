@@ -1,6 +1,7 @@
 #coding: utf-8
 from django.db import models
 from django.contrib.auth.models import User
+from django.conf import settings
 from django.utils import simplejson as json
 import urllib
 import urllib2
@@ -17,7 +18,7 @@ def send_event(event_type, event_data):
 
 
 class Message(models.Model):
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(User, null=True)
     lobby = models.ForeignKey(Lobby)
     action = models.TextField()
     text = models.TextField()
@@ -30,15 +31,24 @@ class Message(models.Model):
         return "%s" % (self.text,)
 
     def as_dict(self):
-        data = {
-            'user': self.user.username,
-            'action': self.action,
-            'text': self.text,
-            'players': " ".join(p.username for p in self.lobby.players()),
-        }
-        return json.dumps(data)
+        send_to = settings.VALID_ACTIONS[self.action]
+        if send_to != settings.NONE:
+            players = self.lobby.players()
+            if send_to == settings.NON_SELF and self.user in players:
+                players = players.exclude(username=self.user.username)
+
+            if players:
+                data = {
+                    'user': self.user.username,
+                    'action': self.action,
+                    'text': self.text,
+                    'players': " ".join(p.username for p in players),
+                }
+                return json.dumps(data)
 
     def save(self, *args, **kwargs):
-        print 'saving', self.as_dict()
+        as_dict = self.as_dict()
         super(Message, self).save(*args, **kwargs)
-        send_event('message-create', self.as_dict())
+        if as_dict is not None:
+            print 'Sending message', as_dict
+            send_event('message-create', as_dict)

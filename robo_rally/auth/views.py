@@ -4,6 +4,7 @@ from django.views.generic import RedirectView
 from django.core.urlresolvers import reverse_lazy
 from django.contrib import messages
 from django.contrib.auth.forms import PasswordResetForm
+from django.contrib.auth.signals import user_logged_out
 
 class FormView(FormView):
     extra_args = True
@@ -49,3 +50,8 @@ class MsgView(RedirectView):
     def get_redirect_url(self, **kwargs):
         messages.add_message(self.request, messages.SUCCESS, self.messages[kwargs['msg']])
         return reverse_lazy(kwargs['redirect'])
+
+def logout(user, **kwargs):
+    user.get_profile().leave_lobby()
+
+user_logged_out.connect(logout)

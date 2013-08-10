@@ -7,20 +7,21 @@ $(function() {
         return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
     }
 
-    var addPlayer = function (player) {
-        console.log("adding", player);
-        removePlayer(player);
+    var addPlayer = function (data) {
+        player = data.user;
+        removePlayer(data);
         $("#playerlist").append("<li>" + toTitleCase(player) + "</li>");
     }
 
-    var removePlayer = function (player) {
+    var removePlayer = function (data) {
         $("#playerlist li").filter(function() {
-            return player.toLowerCase() == $(this).text().toLowerCase();
+            return data.user.toLowerCase() == $(this).text().toLowerCase();
         }).remove();
     }
 
     var functions = {
         "adduser": addPlayer,
+        "deleteuser": removePlayer,
     }
 
     var send = function (action, msg) {
@@ -46,7 +47,8 @@ $(function() {
     };
 
     socket.on("message", function (data) {
-        console.log(data.data);
-        functions[data.data.action](data.data.text)
+        console.log(data.data.action, data.data.user, data.data.text);
+        functions[data.data.action](data.data)
     });
+    socket.send($("#username").text());
 });

@@ -1,8 +1,6 @@
 from django.forms import *
 from django.core.validators import *
 from django.contrib.auth.models import User
-from django.contrib import messages
-from django.core.mail import send_mail
 from django.contrib.auth.forms import SetPasswordForm
 
 from robo_rally.auth.models import UserProfile
@@ -31,8 +29,8 @@ class RegisterForm(Form):
     user = CharField(
         max_length=30,
         validators=[
-            RegexValidator(regex=r'^[a-zA-Z0-9]*$',
-                message='Username must be Alphanumeric',
+            RegexValidator(regex=r'^[a-z0-9_]*$',
+                message='Username must be Alphanumeric and Lowercase',
                 code='invalid_username'
             ),
             is_valid_username

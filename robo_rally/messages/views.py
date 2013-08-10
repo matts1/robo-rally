@@ -3,21 +3,17 @@ from robo_rally.auth.views import FormView
 from robo_rally.messages import models
 from django.utils import simplejson as json
 from django.http import HttpResponse, HttpResponseRedirect
-from django.conf import settings
 from robo_rally.messages.forms import MessageCreateForm
 
+VALID_FUNCTIONS = {
 
-class MessageListView(generic.ListView):
-    queryset = models.Message.objects.all()[:10]
-
-    def get_context_data(self, *args, **kwargs):
-        context = super(MessageListView, self).get_context_data(*args, **kwargs)
-        context['async_url'] = settings.ASYNC_BACKEND_URL
-        return context
+}
 
 class MessageCreateView(FormView):
     form_class = MessageCreateForm
     def form_valid(self, form):
+        print form.cleaned_data
+        valid = VALID_FUNCTIONS.get(form.cleaned_data['action'], lambda x: True)(form)
         self.object = form.save()
         if self.request.is_ajax() and self.object is not None:
             print self.object.as_dict()

@@ -21,12 +21,15 @@ class IndexHandler(tornado.web.RequestHandler):
             'event': event_type,
             'data': data
         }
-        print repr(event_data)
-        print repr(data)
+        print 'Sending message from %s to users "%s"' % (data['user'], ", ".join(data['players'].split()))
+        print 'action is "%s", data is "%s"' % (data['action'], data['text'])
 
         for player in data['players'].split(' '):
             conn = ChatConnection.participants.get(player)
-            conn.send(to_send)
+            if conn is not None:
+                conn.send(to_send)
+            else:
+                print 'player %s not found' % player
         self.finish()
 
 
@@ -38,17 +41,22 @@ class SocketIOHandler(tornado.web.RequestHandler):
 class ChatConnection(tornadio2.conn.SocketConnection):
     # Class level variable
     participants = {}
-    nolobby = {} # TODO: DO STUFF WITH THIS
+    no_name = set()
 
     def on_open(self, info):
         print 'client connected'
-        self.participants[None].add(self)
+        ChatConnection.no_name.add(self)
 
     def on_close(self):
         print 'client disconnected'
-        for lobby in self.participants.values():
-            if self in lobby:
-                lobby.remove(self)
+        if self in ChatConnection.participants:
+            del ChatConnection.participants[self]
+
+    def on_message(self, msg):
+        print "Putting %s in correct lobby" % msg
+        ChatConnection.participants[msg.lower()] = self
+        if self in ChatConnection.no_name:
+            ChatConnection.no_name.remove(self)
 
 
 # Create chat server
