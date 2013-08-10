@@ -1,9 +1,15 @@
 import os
 import re
 import sqlite3
+import platform
 
-os.system('rm data.sqlite3')
-os.system('echo "no\n" | python manage.py syncdb')
+if platform.system() == 'Windows':
+    os.system('del data.sqlite3')
+    # you will need to change this next line (probably). Commit its new command
+    os.system('echo "no\n" | python manage.py syncdb')
+else:
+    os.system('rm data.sqlite3')
+    os.system('echo "no\n" | python manage.py syncdb')
 
 DB = sqlite3.connect('data.sqlite3')
 def query(cmd, *args):
