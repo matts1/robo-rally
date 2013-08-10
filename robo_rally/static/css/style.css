@@ -5,9 +5,7 @@
 body, html {
     background-color: #646464;
     padding: 0;
-    position: relative;
-    bottom: 0;
-    top: 0;
+    min-height: 100%;
 }
 
 #content {

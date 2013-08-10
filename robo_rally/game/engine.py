@@ -18,17 +18,39 @@ class Engine():
 
             self.players.append(Player(
                 player,
+                index=i,
                 lives=MAX_LIVES,
                 health=health,
                 spawn=course.spawn[i],
+                orientation=orientation,
             ))
             self.players[-1].spawn()
-
 
     def deal(self):
         deck = [Card(p) for p in range(10, 850, 10)]
         random.shuffle(deck)
         print deck
+
+    def main(self, user_cards):
+        #user_cards should be a dict containing player index, then card {1:self.deck[10], etc.}
+        assert type(user_cards) == dict
+        play_order = sorted(user_cards, key=lambda x: x[1])
+
+        for player, card in play_order:
+            if card.card == "Move 1":
+                pass
+            elif card.card == "Move 2":
+                pass
+            elif card.card == "Move 3":
+                pass
+            elif card.card == "Back Up":
+                pass
+            elif card.card == "Rotate Left":
+                pass
+            else:
+                pass
+
+#            if player.isOn = LASER1 etc.
 
 class Card():
     def __init__(self, priority):
@@ -38,7 +60,7 @@ class Card():
         cards = {
             10: "U-Turn",
             70: "Rotate Left",
-            440: "Back up",
+            440: "Back Up",
             540: "Move 1",
             660: "Move 2",
             790: "Move 3"
