@@ -58,6 +58,17 @@ table#magictable {
     border-radius: 10px;
 }
 
+.boardinfo {
+    text-align: center;
+    width: 100%;
+    background-color: #646464;
+}
+
+.boarddisplay {
+    text-align: center;
+    margin: 0 auto;
+}
+
 /* Board render settings */
 .rot90 {
     -webkit-transform: rotate(90deg);
