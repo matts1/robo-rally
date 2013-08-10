@@ -9,6 +9,7 @@ class CreateLobbyForm(Form):
                 message='Lobby name must be alphanumeric',
                 code='invalid_lobby_name'
             ),
+            Lobby.joinable
         ]
     )
 

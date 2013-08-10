@@ -1,6 +1,7 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 from django.db import models
 from django.contrib.auth.models import User
+from django.utils.timezone import utc
 from robo_rally.game.models import Lobby
 
 class UserProfile(models.Model):
@@ -10,10 +11,10 @@ class UserProfile(models.Model):
     # they can only be in one lobby at once
     lobby = models.ForeignKey(Lobby, default=None, null=True, blank=True)
     index = models.IntegerField(default=None, null=True, blank=True) # index of player in lobby
-    last_ping = models.TimeField(default=None, null=True,blank=True)
+    last_ping = models.DateTimeField(default=None, null=True,blank=True)
 
     def ping(self):
-        self.last_ping = datetime.now()
+        self.last_ping = datetime.utcnow().replace(tzinfo=utc)
         self.save()
 
     def leave_lobby(self):
@@ -29,4 +30,8 @@ class UserProfile(models.Model):
         self.index = None
         self.save()
         if lobby is not None:
-            lobby.message(self.user, 'deleteuser', lobby.players()[0].username)
+            lobby.message(self.user, 'deleteuser', lobby.leader())
+
+    def is_old(self):
+        assert self.last_ping is not None
+        return self.last_ping + timedelta(seconds=20) < datetime.utcnow().replace(tzinfo=utc)

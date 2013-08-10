@@ -2,12 +2,10 @@ from django.conf import settings
 from django.core.urlresolvers import reverse_lazy
 from django.http import HttpResponseRedirect
 from django.views.generic.base import RedirectView, TemplateView
-from robo_rally.auth.models import UserProfile
 
 from robo_rally.auth.views import FormView
 from robo_rally.game.forms import CreateLobbyForm
 from robo_rally.game.models import *
-from robo_rally.messages.models import Message
 
 
 class LobbiesView(FormView):
@@ -18,10 +16,11 @@ class LobbiesView(FormView):
     def get_context_data(self, **kwargs):
         Lobby.remove_empty_lobbies()
         lobbies = super(LobbiesView, self).get_context_data(**kwargs)
-        lobbies.update(lobbies=Lobby.objects.all())
+        lobbies.update(lobbies=Lobby.objects.filter(game_stage=LOBBY))
         return lobbies
 
 class JoinLobbyView(RedirectView):
+    permanent = False
     url = reverse_lazy("currentlobby")
     def get(self, request, *args, **kwargs):
         self.user = request.user

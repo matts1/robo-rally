@@ -17,9 +17,9 @@
             <li>{{ player.username|title }}</li>
         {% endfor %}
     </ul>
-    {% if user.get_profile.index == 0 %}
-        <button type="button" id="startgamebutton">
+
+        <button type="button" id="startgamebutton" class=
+        "{% if user.get_profile.index != 0 %}invisible{% endif %}">
             Start Game
         </button>
-    {% endif %}
 {% endblock %}

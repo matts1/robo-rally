@@ -1,6 +1,7 @@
 from django.forms import *
 from django.conf import settings
 from robo_rally.auth.forms import Form
+from robo_rally.game.models import LOBBY
 from robo_rally.messages.models import Message
 
 def pick_map(action, text, user):
@@ -8,12 +9,15 @@ def pick_map(action, text, user):
         raise ValidationError('The lobby leader needs to be the one to do that')
     if user.get_profile().lobby.size() < 2:
         raise ValidationError('You can\'t start a lobby with only one person')
+    if user.get_profile().lobby.game_stage != LOBBY:
+        raise ValidationError("The game has already been started")
+
     user.get_profile().lobby.goto_pickmap()
+    return False
 
 def getleader(action, text, user):
     lobby = user.get_profile.lobby
-    print lobby.players()[0].username
-    return lobby.players()[0].username
+    print lobby.leader()
 
 
 PERFORM_FUNCTIONS = {
@@ -27,11 +31,16 @@ class MessageCreateForm(Form):
     action = CharField()
 
     def clean(self):
+        self.user.get_profile().ping()
+        self.user.get_profile().lobby.remove_old_players()
         data = self.cleaned_data
-        valid_fn = PERFORM_FUNCTIONS.get(data['action'], lambda x: True)
+        print data
+        valid_fn = PERFORM_FUNCTIONS.get(data['action'], lambda *x: True)
         # raise ValidationError if it isn't valid
         res = valid_fn(data['action'], data['text'], self.user)
-        if res is not None:
+        if res == False:
+            raise ValidationError('Not an error, but don\'t want form to go through')
+        elif res is not None:
             self.cleaned_data['text'] = res
         return super(MessageCreateForm, self).clean()
 

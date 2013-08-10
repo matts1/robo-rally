@@ -1,6 +1,4 @@
-from django.views import generic
 from robo_rally.auth.views import FormView
-from robo_rally.messages import models
 from django.utils import simplejson as json
 from django.http import HttpResponse, HttpResponseRedirect
 from robo_rally.messages.forms import MessageCreateForm
