@@ -200,5 +200,5 @@ ALL = 2
 VALID_ACTIONS = {
     'adduser': NON_SELF,
     'deleteuser': NON_SELF,
-    'goto_pickmap': ALL,
+    'goto_pickmap': NONE, # does it itself
 }

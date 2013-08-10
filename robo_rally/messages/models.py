@@ -1,11 +1,9 @@
-#coding: utf-8
 from django.db import models
 from django.contrib.auth.models import User
 from django.conf import settings
 from django.utils import simplejson as json
 import urllib
 import urllib2
-from django.conf import settings
 from robo_rally.game.models import Lobby
 
 
@@ -39,7 +37,7 @@ class Message(models.Model):
 
             if players:
                 data = {
-                    'user': self.user.username,
+                    'user': self.user.username if self.user is not None else '',
                     'action': self.action,
                     'text': self.text,
                     'players': " ".join(p.username for p in players),

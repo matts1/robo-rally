@@ -19,12 +19,21 @@ class Lobby(models.Model):
         return len(self.players())
 
     def add_user(self, user):
+        # stop recursive import
+        from robo_rally.messages.models import Message
+
         if self.game_stage == 0:
             profile = user.get_profile()
             profile.lobby = self
             profile.index = self.size()
             profile.last_ping = datetime.now()
             profile.save()
+            Message(
+                user=user,
+                lobby=self,
+                action='adduser',
+                text=self.players()[0].username
+            ).save()
             if self.size() == 8:
                 self.goto_pickmap()
 
@@ -36,6 +45,7 @@ class Lobby(models.Model):
     def message(self, user, action, msg):
         # stop recursive import
         from robo_rally.messages.models import Message
+
         Message(user=user, lobby=self, action=action, text=msg).save()
 
     def __repr__(self):

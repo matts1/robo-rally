@@ -7,16 +7,25 @@ $(function() {
         return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
     }
 
+    var checkLeader = function (data) {
+        if (data.text == $("#username").text().toLowerCase() && $("#startgamebutton").length == 0) {
+            $("#content").append("<button type='button' id='startgamebutton'>Start Game</button>")
+        }
+    }
+
     var addPlayer = function (data) {
         player = data.user;
         removePlayer(data);
         $("#playerlist").append("<li>" + toTitleCase(player) + "</li>");
+        checkLeader(data);
     }
 
     var removePlayer = function (data) {
         $("#playerlist li").filter(function() {
             return data.user.toLowerCase() == $(this).text().toLowerCase();
         }).remove();
+        // show the button if we are the new leader
+        checkLeader(data);
     }
 
     var functions = {
@@ -30,6 +39,7 @@ $(function() {
             "action": action,
             "text": msg,
         };
+        console.log("sending", action, "msg is", msg);
         $.post(url + "/send/", data, function (data) {
             console.log("Data status:", data.status);
         }, "json");
@@ -50,5 +60,10 @@ $(function() {
         console.log(data.data.action, data.data.user, data.data.text);
         functions[data.data.action](data.data)
     });
+
     socket.send($("#username").text());
+
+    $("#startgamebutton").click(function() {
+        send("goto_pickmap", "");
+    })
 });

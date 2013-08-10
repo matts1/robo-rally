@@ -38,12 +38,6 @@ class CurrentLobbyView(TemplateView):
         if self.profile.lobby is None:
             return HttpResponseRedirect(reverse_lazy("lobbies"))
         else:
-            Message(
-                user=request.user,
-                lobby=self.profile.lobby,
-                action='adduser',
-                text=request.user.username
-            ).save()
             return super(CurrentLobbyView, self).get(request, *args, **kwargs)
 
     def get_context_data(self, **kwargs):
