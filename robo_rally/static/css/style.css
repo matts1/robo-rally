@@ -5,9 +5,7 @@
 body, html {
     background-color: #646464;
     padding: 0;
-    position: fixed;
-    left: 50%;
-    margin-left: -480px;
+    position: relative;
     bottom: 0;
     top: 0;
 }
@@ -33,9 +31,9 @@ input {
 ul.errorlist {
     color: #FA3826;
     padding: 0;
-    margin: 0;
+    margin: 10;
     list-style-type: none;
-    text-shadow: #000000 0px 0px 7px;
+    text-shadow: #000000 0px 1px 1px;
 }
 
 form {
@@ -43,7 +41,6 @@ form {
     padding: 10px;
     background-color: #2480FA;
     width: 600px;
-    border-radius: 10px;
     box-shadow: 0px 2px 15px #000;
 }
 
@@ -52,8 +49,13 @@ img.button:hover {
 }
 
 table#magictable {
-    background-color: #646464;
-    color: #EBC43C;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+    background-color: #2480FA;
+    width: 600px;
+    box-shadow: 0px 2px 15px #000;
+    border-radius: 10px;
 }
 
 /* Board render settings */
