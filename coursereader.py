@@ -6,7 +6,7 @@ import platform
 if platform.system() == 'Windows':
     os.system('del data.sqlite3')
     # you will need to change this next line (probably). Commit its new command
-    os.system('echo "no\n" | python manage.py syncdb')
+    os.system('manage.py syncdb')
 else:
     os.system('rm data.sqlite3')
     os.system('echo "no\n" | python manage.py syncdb')

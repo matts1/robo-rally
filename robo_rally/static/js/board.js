@@ -36,7 +36,7 @@ function loadBoard(obj, url) {
         tr.next().toggleClass("invisible");
         return;
     }
-    overlay = $("<tr><td><div class='boarddisplay'></div></td></tr>");
+    overlay = $("<tr><td class='boardinfo'colspan='5'><div class='boarddisplay'></div></td></tr>");
     obj.parent().parent().after(overlay);
     overlay = $("td", overlay);
     $.get(url, {}, function(data) {
