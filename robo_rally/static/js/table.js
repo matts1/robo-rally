@@ -1,4 +1,4 @@
-function to2d (whole) {
+var to2d = function (whole) {
     rows = whole.children();
     for (var y = 0; y < rows.length; y++) {
         rows[y] = $(rows[y]).children();
@@ -9,7 +9,7 @@ function to2d (whole) {
     return rows;
 }
 
-document.ready = function () {
+var initMagicTable = function () {
     if ($("table#magictable") == undefined) {
         console.log("no magictable");
         return;
@@ -44,7 +44,7 @@ document.ready = function () {
     }
 }
 
-function textFilter (event) {
+var textFilter = function (event) {
     val = $(this).val().replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"); // escaped
     if (val == "") {
         val = undefined;

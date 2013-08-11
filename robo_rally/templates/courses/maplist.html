@@ -1,31 +1,31 @@
-{% extends 'base.html' %}
-{% block title %}Pick a Map{% endblock %}
-{% block scripts %}
-    <script src="/static/js/table.js"></script>
-    <script src="/static/js/board.js"></script>
-{% endblock %}
-{% block content %}
-    <table id="magictable">
-        <thead>
+<script src="/static/js/board.js"></script>
+<table id="magictable">
+    <thead>
+        <tr>
+            <th data-filter="text">Name</th>
+            <th data-filter="select" data-options="Short|Medium|Long">Length</th>
+            <th data-filter="select" data-options="Easy|Mid|Hard|Expert">Difficulty</th>
+            <th data-filter="players">Players</th>
+            <th>Expand</th>
+        </tr>
+    </thead>
+        {% for map in maps %}
             <tr>
-                <th data-filter="text">Name</th>
-                <th data-filter="select" data-options="Short|Medium|Long">Length</th>
-                <th data-filter="select" data-options="Easy|Mid|Hard|Expert">Difficulty</th>
-                <th>Players</th>
-                <th>Expand</th>
+                <td>
+                    {% if user.get_profile.index == 0 %}
+                        <a href="#" onclick="send('startgame', '{{ map.filename }}')">{{ map.name|title }}</a>
+                    {% else %}
+                        {{ map.name|title }}
+                    {% endif %}
+                </td>
+
+                <td>{{ map.length|title }}</td>
+                <td>{{ map.difficulty|title }}</td>
+                <td>{{ map.min_players }}-{{ map.max_players }}</td>
+                <td>
+                    <img src="/static/images/down.png" width="20px" class="button"\
+                        onclick="loadBoard(this,'/{{ map.filename }}');"\>
+                </td>
             </tr>
-        </thead>
-            {% for map in maps %}
-                <tr>
-                    <td>{{ map.name|title }}</td>
-                    <td>{{ map.length|title }}</td>
-                    <td>{{ map.difficulty|title }}</td>
-                    <td>{{ map.min_players }}-{{ map.max_players }}</td>
-                    <td>
-                        <img src="/static/images/down.png" width="20px" class="button"\
-                            onclick="loadBoard(this,'/{{ map.filename }}');"\>
-                    </td>
-                </tr>
-            {% endfor %}
-    </table>
-{% endblock %}
+        {% endfor %}
+</table>

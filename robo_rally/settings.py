@@ -202,4 +202,5 @@ VALID_ACTIONS = {
     'deleteuser': NON_SELF,
     'goto_pickmap': ALL,
     'ping': NONE,
+    'startgame': ALL,
 }

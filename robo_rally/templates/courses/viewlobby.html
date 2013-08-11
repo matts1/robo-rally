@@ -7,19 +7,27 @@
     </script>
     <script src="{{ async_url }}/socket.io/socket.io.js"></script>
     <script src="/static/js/updatelobby.js"></script>
+    <script src="/static/js/table.js"></script>
 {% endblock %}
 
 {% block content %}
     {% csrf_token %}
-    <h1>Players</h1>
-    <ul id="playerlist">
-        {% for player in lobby.players %}
-            <li>{{ player.username|title }}</li>
-        {% endfor %}
-    </ul>
+    <div id="dynamic_element">
+        <h1>Players</h1>
+        <ul id="playerlist">
+            {% for player in lobby.players %}
+                <li>{{ player.username|title }}</li>
+            {% endfor %}
+        </ul>
 
         <button type="button" id="startgamebutton" class=
-        "{% if user.get_profile.index != 0 %}invisible{% endif %}">
+        "{% if user.get_profile.index != 0 or lobby.size == 1 %}invisible{% endif %}">
             Start Game
         </button>
+        {% if lobby.game_stage == 1 %}
+            <div id="loadmaplist"></div>
+        {% else %}
+            <div id="loadgame"></div>
+        {% endif %}
+    </div>
 {% endblock %}

@@ -11,9 +11,9 @@ class Engine():
 
         for i, player in enumerate(players):
             health = []
-            for i in range(START_HEALTH):
+            for j in range(START_HEALTH):
                 health.append(1)
-            for i in range(MAX_HEALTH - START_HEALTH):
+            for j in range(MAX_HEALTH - START_HEALTH):
                 health.append(0)
 
             self.players.append(Player(
@@ -21,8 +21,8 @@ class Engine():
                 index=i,
                 lives=MAX_LIVES,
                 health=health,
-                spawn=course.spawn[i],
-                orientation=orientation,
+                archive=course.spawn[i],
+                orientation=0, #orientation,
             ))
             self.players[-1].spawn()
 
@@ -81,7 +81,7 @@ class Player():
             setattr(self, k, v)
 
     def spawn(self):
-        self.coords = self.spawn
+        self.coords = self.archive
 
 if __name__ == "__main__":
 #    game = Engine(None, ["Sam", "Matt"])

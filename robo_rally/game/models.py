@@ -3,6 +3,8 @@ from django.core.exceptions import ValidationError
 from django.contrib.auth.models import User
 from django.db import models
 from django.utils.timezone import utc
+from robo_rally.courses.models import Course
+from robo_rally.game.engine import Engine
 
 LOBBY = 0
 PICK_MAP = 1
@@ -13,6 +15,7 @@ class Lobby(models.Model):
 
     # for game stage, 0=lobby, 1=pick map, 2=in game
     game_stage = models.IntegerField(default=LOBBY)
+    games = {}
 
     def players(self):
         return User.objects.filter(profile__lobby=self.id).order_by('profile__index')
@@ -63,6 +66,16 @@ class Lobby(models.Model):
         for player in self.players():
             if player.get_profile().is_old():
                 player.get_profile().leave_lobby()
+
+    def start_game(self, course):
+        # self.game_stage = IN_GAME
+        print self.__class__.games
+        self.__class__.games[self.name] = Engine( # class variable (hopefully)
+            Course.objects.get(filename=course),
+            self.players(),
+        )
+        self.save()
+
 
     def __repr__(self):
         return self.name

@@ -6,9 +6,13 @@ document.ready = function() {
     window.socket.send(username);
 
     window.socket.on("message", function (data) {
-        console.log(data.data.action, data.data.user, data.data.text);
+        console.log("receiving", data.data.action, data.data.user, data.data.text);
         functions[data.data.action](data.data)
     });
+
+    if ($("#loadmaplist").length) {
+        gotoPickMap(undefined);
+    }
 
     $("#startgamebutton").click(function() {
         send("goto_pickmap", "");
@@ -20,7 +24,6 @@ var toTitleCase = function (str) {
 }
 
 var checkLeader = function (data) {
-    console.log($("ul#playerlist li"));
     if (data.text == username.toLowerCase() && $("ul#playerlist li").length > 1) {
         $("#startgamebutton").removeClass("invisible");
     } else {
@@ -44,8 +47,10 @@ var removePlayer = function (data) {
 }
 
 var gotoPickMap = function (data) {
-    alert("TODO: load the map");
-    // TODO: load the map
+    $("#playerlist").appendTo($("#content"));
+    $("#dynamic_element").load("/pickmap/" + $("#playerlist li").length, function () {
+        initMagicTable();
+    });
 }
 
 var functions = {
@@ -66,6 +71,6 @@ var send = function (action, msg) {
     $.post(url + "/send/", data, "json");
 }
 
-setInterval(function() {
+setInterval(function() { // ping every 10 seconds
    send("ping", "");
 }, 10000);
