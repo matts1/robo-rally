@@ -86,7 +86,10 @@ class Lobby(models.Model):
     def remove_empty_lobbies(cls):
         used = set(User.objects.values_list('profile__lobby', flat=True))
         used = used - set([None])
-        cls.objects.exclude(id__in=used).delete()
+        for obj in cls.objects.exclude(id__in=used):
+            if obj.name in Lobby.games:
+                del Lobby.games[obj]
+            obj.delete()
 
     @classmethod
     def joinable(cls, name):

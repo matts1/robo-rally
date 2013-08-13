@@ -21,11 +21,13 @@
         </ul>
 
         <button type="button" id="startgamebutton" class=
-        "{% if user.get_profile.index != 0 or lobby.size == 1 %}invisible{% endif %}">
+        "{% if user.get_profile.index != 0 or lobby.size == 1 or lobby.game_state != 0 %}invisible{% endif %}">
             Start Game
         </button>
         {% if lobby.game_stage == 1 %}
             <div id="loadmaplist"></div>
+        {% elif lobby.game_stage == 2 %}
+            <div id="gamerunning"></div>
         {% else %}
             <div id="loadgame"></div>
         {% endif %}

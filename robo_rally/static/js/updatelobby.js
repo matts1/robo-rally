@@ -14,6 +14,10 @@ document.ready = function() {
         gotoPickMap(undefined);
     }
 
+    if ($("#gamerunning").length) {
+        startGame(undefined);
+    }
+
     $("#startgamebutton").click(function() {
         send("goto_pickmap", "");
     });
@@ -54,8 +58,11 @@ var gotoPickMap = function (data) {
 }
 
 var startGame = function (data) {
+    if ($("#dynamic_element #playerlist").length) {
+        $("#dynamic_element #playerlist").appendTo($("#content"));
+    }
     $("#dynamic_element").load("/playgame/", function () {
-        loadBoard("a", "b"); // change these arguments
+        loadBoard($("#boarddisplay"), $("#boarddisplay").attr("data-filename"));
     });
 }
 
