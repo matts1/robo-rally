@@ -53,10 +53,17 @@ var gotoPickMap = function (data) {
     });
 }
 
+var startGame = function (data) {
+    $("#dynamic_element").load("/playgame/", function () {
+        loadBoard("a", "b"); // change these arguments
+    });
+}
+
 var functions = {
     "adduser": addPlayer,
     "deleteuser": removePlayer,
     "goto_pickmap": gotoPickMap,
+    "startgame": startGame,
 }
 
 var send = function (action, msg) {

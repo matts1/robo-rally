@@ -21,7 +21,7 @@ class LobbiesView(FormView):
 
 class JoinLobbyView(RedirectView):
     permanent = False
-    url = reverse_lazy("currentlobby")
+    url = reverse_lazy('currentlobby')
     def get(self, request, *args, **kwargs):
         self.user = request.user
         return super(JoinLobbyView, self).get(request, *args, **kwargs)
@@ -35,7 +35,7 @@ class CurrentLobbyView(TemplateView):
     def get(self, request, *args, **kwargs):
         self.profile = request.user.get_profile()
         if self.profile.lobby is None:
-            return HttpResponseRedirect(reverse_lazy("lobbies"))
+            return HttpResponseRedirect(reverse_lazy('lobbies'))
         else:
             return super(CurrentLobbyView, self).get(request, *args, **kwargs)
 
@@ -44,4 +44,20 @@ class CurrentLobbyView(TemplateView):
         self.profile.ping()
         context.update(lobby=self.profile.lobby)
         context.update(async_url=settings.ASYNC_BACKEND_URL)
+        return context
+
+class GameView(TemplateView):
+    template_name = 'game/gameview.html'
+    def get(self, request, *args, **kwargs):
+        self.user = request.user
+        self.profile = request.user.get_profile()
+        if self.profile.lobby is None or self.profile.lobby.get_game() is None:
+            return HttpResponseRedirect('/')
+        else:
+            return super(GameView, self).get(request, *args, **kwargs)
+
+    def get_context_data(self, **kwargs):
+        context = super(GameView, self).get_context_data(**kwargs)
+        self.profile.ping()
+        context.update(game=self.profile.lobby.get_game())
         return context

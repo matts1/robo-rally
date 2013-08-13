@@ -191,7 +191,10 @@ ALWAYS_ALLOWED_URLS = set([
 ])
 
 # ASYNC stuff
-ASYNC_BACKEND_URL = 'http://localhost:8001'
+if DEBUG:
+    ASYNC_BACKEND_URL = 'http://127.0.0.1:8001'
+else:
+    raise ValueError('Please define an asynchronous backend URL which everyone can connect on')
 
 NONE = 0
 NON_SELF = 1

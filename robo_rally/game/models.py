@@ -68,14 +68,16 @@ class Lobby(models.Model):
                 player.get_profile().leave_lobby()
 
     def start_game(self, course):
-        # self.game_stage = IN_GAME
-        print self.__class__.games
-        self.__class__.games[self.name] = Engine( # class variable (hopefully)
+        self.game_stage = IN_GAME
+        Lobby.games[self.name] = Engine( # class variable (hopefully)
             Course.objects.get(filename=course),
             self.players(),
         )
         self.save()
 
+    def get_game(self):
+        print Lobby.games
+        return Lobby.games.get(self.name)
 
     def __repr__(self):
         return self.name
