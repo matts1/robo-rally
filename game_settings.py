@@ -1,4 +1,4 @@
-# MUST MATCH THE INDEXES IN THE LIST "INDEXES_TO_FILES"
+# MUST MATCH THE INDEXES IN THE LIST 'INDEXES_TO_FILES'
 BLANK = 8
 WALL = 25
 LASER1 = 22
@@ -17,52 +17,52 @@ HAMMER_AND_WRENCH = 11
 
 
 SQUARE_SIDES = {
-    "b": BLANK,
-    "w": WALL,
-    "l": LASER1,
-    "d": LASER2,
-    "t": LASER3,
-    "p": PUSHER135,
-    "v": PUSHER24
+    'b': BLANK,
+    'w': WALL,
+    'l': LASER1,
+    'd': LASER2,
+    't': LASER3,
+    'p': PUSHER135,
+    'v': PUSHER24
 }
 
 SQUARE_CONTENTS = {
-    "p": PIT,
-    "f": FLOOR,
-    "g": GREEN_GEAR,
-    "o": RED_GEAR,
-    "c": CONVEYER1,
-    "x": CONVEYER2,
-    "r": REPAIR,
-    "h": HAMMER_AND_WRENCH
+    'p': PIT,
+    'f': FLOOR,
+    'g': GREEN_GEAR,
+    'o': RED_GEAR,
+    'c': CONVEYER1,
+    'x': CONVEYER2,
+    'r': REPAIR,
+    'h': HAMMER_AND_WRENCH
 }
 
 DIRECTIONS = {
-    "n": 0,
-    "e": 1,
-    "s": 2,
-    "w": 3
+    'n': 0,
+    'e': 1,
+    's': 2,
+    'w': 3
 }
 
 FILES = {
-    FLOOR: "floor",
-    PIT: "pit",
-    CONVEYER1: "singleconveyer",
-    CONVEYER2: "doubleconveyer",
-    GREEN_GEAR: "greengear",
-    RED_GEAR: "redgear",
-    REPAIR: "repair",
-    HAMMER_AND_WRENCH: "hammerwrench",
-    BLANK: "empty",
-    WALL: "wall",
-    LASER1: "singlelaser",
-    LASER2: "doublelaser",
-    LASER3: "triplelaser",
-    PUSHER135: "triplepusher",
-    PUSHER24: "doublepusher",
+    FLOOR: 'floor',
+    PIT: 'pit',
+    CONVEYER1: 'singleconveyer',
+    CONVEYER2: 'doubleconveyer',
+    GREEN_GEAR: 'greengear',
+    RED_GEAR: 'redgear',
+    REPAIR: 'repair',
+    HAMMER_AND_WRENCH: 'hammerwrench',
+    BLANK: 'empty',
+    WALL: 'wall',
+    LASER1: 'singlelaser',
+    LASER2: 'doublelaser',
+    LASER3: 'triplelaser',
+    PUSHER135: 'triplepusher',
+    PUSHER24: 'doublepusher',
 }
 
-INDEXES_TO_FILES = """doubleconveyerconvergeanticlockwise.png
+INDEXES_TO_FILES = '''doubleconveyerconvergeanticlockwise.png
 doubleconveyerconvergeclockwise.png
 doubleconveyerconverge.png
 doubleconveyerstraight.png
@@ -87,20 +87,20 @@ singleconveyerturnclockwise.png
 singlelaser.png
 triplelaser.png
 triplepusher.png
-wall.png""".split("\n")
+wall.png'''.split('\n')
 
 FILES_TO_INDEXES = dict([x[::-1] for x in enumerate(INDEXES_TO_FILES)])
 
 TIMEOUT = 20
 
 # GAME SETTINGS
-BACKUP = -1,
-MOVE1 = 1,
-MOVE2 = 2,
-MOVE3 = 3,
-UTURN = 4,
-ROTLEFT = 5,
-ROTRIGHT = 6,
+BACKUP = 'Back Up',
+MOVE1 = 'Move 1',
+MOVE2 = 'Move 2',
+MOVE3 = 'Move 3',
+UTURN = 'U-Turn',
+ROTLEFT = 'Rotate Left',
+ROTRIGHT = 'Rotate Right',
 
 # player attributes
 START_HEALTH = 9

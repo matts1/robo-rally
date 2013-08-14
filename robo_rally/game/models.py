@@ -13,9 +13,8 @@ IN_GAME = 2
 class Lobby(models.Model):
     name = models.TextField(unique=True)
 
-    # for game stage, 0=lobby, 1=pick map, 2=in game
     game_stage = models.IntegerField(default=LOBBY)
-    games = {}
+    games = {} # games is a class variable, and should NOT be accessed with self
 
     def players(self):
         return User.objects.filter(profile__lobby=self.id).order_by('profile__index')
@@ -69,14 +68,19 @@ class Lobby(models.Model):
 
     def start_game(self, course):
         self.game_stage = IN_GAME
-        Lobby.games[self.name] = Engine( # class variable (hopefully)
+        Lobby.games[self.name] = Engine(
             Course.objects.get(filename=course),
             self.players(),
         )
         self.save()
 
     def get_game(self):
-        print Lobby.games
+        if self.game_stage == IN_GAME and self.name not in Lobby.games:
+            raise ValueError(
+                "As you reloaded the web server,"
+                "the game was deleted, but the lobby stayed."
+                "Please recreate the lobby to recreate the game"
+            )
         return Lobby.games.get(self.name)
 
     def __repr__(self):
