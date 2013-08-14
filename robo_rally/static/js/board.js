@@ -28,7 +28,7 @@ var FILES = [
 ]
 SIDES = [[0, 0], [1, 0], [0, 1], [0, 0]];
 
-function loadBoard(obj, url) {
+function loadTableRowBoard(obj, url) {
     obj = $(obj);
     obj.toggleClass("rot180");
     tr = obj.parent().parent();
@@ -36,9 +36,17 @@ function loadBoard(obj, url) {
         tr.next().toggleClass("invisible");
         return;
     }
-    overlay = $("<tr><td class='boardinfo'colspan='5'><div class='boarddisplay'></div></td></tr>");
+    overlay = $("<tr><td class='boardinfo'colspan='5'>"+
+        "<div class='description'></div>"+
+        "<div class='boarddisplay'></div>"+
+        "<div class='rules'></div>"+
+    "</td></tr>");
     obj.parent().parent().after(overlay);
     overlay = $("td", overlay);
+    loadBoard(overlay, url);
+};
+
+function loadBoard(obj, url) {
     $.get(url, {}, function(data) {
         data = $(data);
         var fields = [
@@ -47,11 +55,12 @@ function loadBoard(obj, url) {
         ];
         for (var i = 0; i < fields.length; i++) {
             var field = fields[i];
-            overlay.append("<div class='" + field + "'></div>");
-            $($("." + field, overlay)[0]).html($("." + field, data).html());
+            if ($("." + field, obj).length > 0) {
+                $($("." + field, obj)[0]).html($("." + field, data).html());
+            }
         }
         window.specials = {};
-        drawBoard($(".boarddisplay", overlay), $(".board", data), $(".spawn", data), $(".flags", data));
+        drawBoard($(".boarddisplay", obj), $(".board", data), $(".spawn", data), $(".flags", data));
     });
 };
 
@@ -64,7 +73,6 @@ function drawBoard(display, board, spawn, flags) {
     var squareSize = Math.min(displayWidth / boardWidth, 46);
     window.squareSize = squareSize;
     display.css("height", squareSize * boardHeight);
-    console.log(boardHeight);
     for (var y = 0; y < boardHeight; y++) {
         var row = $(board.children()[y]);
         for (var x = 0; x < boardWidth; x++) {

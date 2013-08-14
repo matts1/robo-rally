@@ -1,13 +1,9 @@
 <script src="/static/js/board.js"></script>
-<div id="boarddisplay" data-boarddisplay="{{ game.filename }}">
+<div id="boarddisplay" data-filename="{{ game.filename }}">
     <div class="name"></div>
+    <div class="boarddisplay"></div>
     <div class="description"></div>
     <div class="rules"></div>
-    <div class="length"></div>
-    <div class="difficulty"></div>
-    <div class="minplayers"></div>
-    <div class="maxplayers"></div>
-    <div class="numflags"></div>
 </div>
 {% for player in game.players %}
     TODO: SCORESHEET
