@@ -2,10 +2,16 @@
  https://kuler.adobe.com/create/color-wheel/?base=2&rule=Analogous&selected=1&name=My%20Kuler%20Theme&mode=rgb&rgbvalues=0.54,0.07574046678257211,0.5214192501177083,0.1411764705882353,0.5019607843137255,0.9803921568627451,0.14719671437105217,0.76,0.20258007391251204,0.92,0.7683701087286746,0.23452887922212104,0.98,0.21829229990295232,0.1507359734005666
 */
 
-body, html {
+html {
+    height: 100%;
+}
+
+body {
     background-color: #646464;
     padding: 0;
-    min-height: 100%;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
 }
 
 #content {
@@ -54,6 +60,63 @@ table#magictable {
     width: 600px;
     box-shadow: 0px 2px 15px #000;
     border-radius: 10px;
+}
+
+div.spacer {
+    height: 30px;
+}
+
+.character_sheet {
+    width: 950px;
+    padding: 10px 0;
+    background-color: #FA3826;
+}
+
+.cards {
+    width: 950px;
+    padding: 10px 0;
+    background-color: #26C234;
+}
+
+div.lives {
+    margin: 10px auto;
+    width: 160px;
+    height: 40px;
+}
+
+div.lives img {
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+}
+
+div.damage {
+    margin: 10px auto;
+    border: 0;
+    padding: 0;
+    width: 482px;
+    height: 40px;
+}
+
+div.damage img {
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+}
+
+div.program_cards, div.hand, div.option_cards {
+    margin: 0 auto;
+    width: 916px;
+}
+
+div.hand {
+    margin
+}
+
+div.program_cards img, div.hand img, div.option_cards img {
+    margin: 0 5px;
+    width: 170px;
+    height: 270px;
 }
 
 .boardinfo {
