@@ -51,7 +51,6 @@ class GameView(TemplateView):
     def get(self, request, *args, **kwargs):
         self.user = request.user
         self.profile = request.user.get_profile()
-        return super(GameView, self).get(request, *args, **kwargs) #TODO: DELETE
         if self.profile.lobby is None or self.profile.lobby.get_game() is None:
             return HttpResponseRedirect('/')
         else:
