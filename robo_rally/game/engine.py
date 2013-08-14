@@ -203,8 +203,8 @@ class Player():
     
     def in_bounds(self):
         board = self.game.board
-        return 0 <= self.x < len(board[0])
-            and 0 <= self.y < len(board)
+        return 0 <= self.x < len(board[0]) \
+            and 0 <= self.y < len(board) \
             and board[self.y][self.x].square != PIT
 
     def kill(self):
