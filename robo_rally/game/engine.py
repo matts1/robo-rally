@@ -72,7 +72,7 @@ class Engine():
             self.conveyer(normal=True)
             self.push_pushers(register)
             self.rotate_gears()
-            self.firelasers()
+            self.fire_lasers()
             for player in self.players:
                 player.reach()
 
@@ -89,12 +89,20 @@ class Engine():
         # If normal is true, normal conveyers move as well as express
 
     def push_pushers(self, register):
-        pass # push the pushers depending on the register
+        active = PUSHER135 if register % 2 else PUSHER24
+        for player in self.players:
+            for side, wall in enumerate(self.board[player.y][player.x].walls):
+                if wall == active:
+                    player.move((8 - side) % 4)
 
     def rotate_gears(self):
-        pass # rotate all the gears
+        for player in self.players:
+            if self.board[player.x][player.y].square == RED_GEAR:
+                player.rot(-1)
+            elif self.board[player.x][player.y].square == GREEN_GEAR:
+                player.rot(1)
 
-    def firelasers(self):
+    def fire_lasers(self):
         # FIRE BOARD LASERS
         for player in self.players:
             pass # FIRE PLAYER's LASERS
