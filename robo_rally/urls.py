@@ -60,5 +60,6 @@ urlpatterns = patterns('',
     url(r'^currentlobby', CurrentLobbyView.as_view(), name='currentlobby'),
     url(r'^pickmap/(?P<players>\d+)$', PickMapView.as_view(), name='maplist'),
     url(r'^courses/(?P<url>.+)$', ViewCourseView.as_view(), name='course'),
+    url(r'^playgame/', GameView.as_view(), name='game'),
     url(r'', include('robo_rally.messages.urls')),
 )

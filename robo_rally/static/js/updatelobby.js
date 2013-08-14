@@ -14,6 +14,10 @@ document.ready = function() {
         gotoPickMap(undefined);
     }
 
+    if ($("#gamerunning").length) {
+        startGame(undefined);
+    }
+
     $("#startgamebutton").click(function() {
         send("goto_pickmap", "");
     });
@@ -53,10 +57,20 @@ var gotoPickMap = function (data) {
     });
 }
 
+var startGame = function (data) {
+    if ($("#dynamic_element #playerlist").length) {
+        $("#dynamic_element #playerlist").appendTo($("#content"));
+    }
+    $("#dynamic_element").load("/playgame/", function () {
+        loadBoard($("#boarddisplay"), $("#boarddisplay").attr("data-filename"));
+    });
+}
+
 var functions = {
     "adduser": addPlayer,
     "deleteuser": removePlayer,
     "goto_pickmap": gotoPickMap,
+    "startgame": startGame,
 }
 
 var send = function (action, msg) {

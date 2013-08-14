@@ -3,6 +3,7 @@ from game_settings import *
 
 class Engine():
     def __init__(self, course, players):
+        self.filename = course.filename
         self.board = course.board
         self.spawn = course.spawn
         self.flags = course.flags

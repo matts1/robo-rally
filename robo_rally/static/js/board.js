@@ -64,6 +64,7 @@ function drawBoard(display, board, spawn, flags) {
     var squareSize = Math.min(displayWidth / boardWidth, 46);
     window.squareSize = squareSize;
     display.css("height", squareSize * boardHeight);
+    console.log(boardHeight);
     for (var y = 0; y < boardHeight; y++) {
         var row = $(board.children()[y]);
         for (var x = 0; x < boardWidth; x++) {
