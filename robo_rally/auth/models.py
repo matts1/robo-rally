@@ -35,3 +35,8 @@ class UserProfile(models.Model):
     def is_old(self):
         assert self.last_ping is not None
         return self.last_ping + timedelta(seconds=20) < datetime.utcnow().replace(tzinfo=utc)
+
+    def get_game_player(self):
+        for player in self.lobby.games[self.lobby.name].players:
+            if self.user == player.user:
+                return player

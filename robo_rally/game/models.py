@@ -71,16 +71,16 @@ class Lobby(models.Model):
         Lobby.games[self.name] = Engine(
             Course.objects.get(filename=course),
             self.players(),
+            self,
         )
         self.save()
 
     def get_game(self):
         if self.game_stage == IN_GAME and self.name not in Lobby.games:
-            raise ValueError(
-                "As you reloaded the web server,"
-                "the game was deleted, but the lobby stayed."
-                "Please recreate the lobby to recreate the game"
-            )
+            print 'As you reloaded the web server, '\
+                'the game was deleted, but the lobby stayed. '\
+                'The game is being recreated with a new map'
+            self.start_game('courses/007.rrc')
         return Lobby.games.get(self.name)
 
     def __repr__(self):
@@ -98,4 +98,4 @@ class Lobby(models.Model):
     @classmethod
     def joinable(cls, name):
         if cls.objects.filter(name=name.title()).exclude(game_stage=LOBBY):
-            raise ValidationError("The lobby exists, but is not joinable currently")
+            raise ValidationError('The lobby exists, but is not joinable currently')

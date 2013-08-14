@@ -1,3 +1,4 @@
+{% load range %}
 <link rel="stylesheet" href="/static/css/normalise.css">
 <link rel="stylesheet" href="/static/css/style.css">
 <script src="/static/js/board.js"></script>
@@ -7,44 +8,44 @@
     <div class="description"></div>
     <div class="rules"></div>
 </div>
+
 <div class="character_sheet">
     <div class="bio">
         ROBOT_NAME
         ROBOT_DESCRIPTION
     </div>
     <div class="lives">
-        <img src="/static/images/sheet/life.jpg"/>
-        <img src="/static/images/sheet/life.jpg"/>
-        <img src="/static/images/sheet/life.jpg"/>
+        {% for i in player.lives|range %}
+            <img src="/static/images/sheet/life.jpg"/>
+        {% endfor %}
     </div>
     <div class="damage">
-        <img src="/static/images/sheet/damage.jpg"/>
-        <img src="/static/images/sheet/damage.jpg"/>
-        <img src="/static/images/sheet/damage.jpg"/>
-        <img src="/static/images/sheet/damage.jpg"/>
-        <img src="/static/images/sheet/damage.jpg"/>
-        <img src="/static/images/sheet/damage.jpg"/>
-        <img src="/static/images/sheet/damage.jpg"/>
-        <img src="/static/images/sheet/damage.jpg"/>
-        <img src="/static/images/sheet/damage.jpg"/>
+        {% for health in player.health %}
+            {% if health %}
+                <img src="/static/images/sheet/health.jpg"/>
+            {% else %}
+                <img src="/static/images/sheet/damage.jpg"/>
+            {% endif %}
+        {% endfor %}
     </div>
     <div class="spacer"></div>
     <div class="program_cards">
-        <img src="/static/images/cards/move1.jpg"/>
-        <img src="/static/images/cards/move2.jpg"/>
-        <img src="/static/images/cards/move3.jpg"/>
-        <img src="/static/images/cards/move4.jpg"/>
-        <img src="/static/images/cards/move5.jpg"/>
+        {% for card in player.program_cards %}
+            {{ card.priority }}
+            <img src="/static/images/cards/{{ card.card }}.jpg" class="program_card"/>
+        {% endfor %}
     </div>
 </div>
 <div class="cards">
     <div class="hand">
-        <img src="/static/images/cards/move1.jpg"/>
-        <img src="/static/images/cards/move2.jpg"/>
-        <img src="/static/images/cards/move3.jpg"/>
-        <img src="/static/images/cards/move4.jpg"/>
+        {% for card in player.hand %}
+            {{ card.priority }}
+            <img src="/static/images/cards/{{ card.card }}.jpg" class="program_card"/>
+        {% endfor %}
     </div>
     <div class="option_cards">
-        <img src="/static/images/cards/fire_control.jpg"/>
+        {% for option in player.option_cards %}
+            <img src="/static/images/cards/{{ option }}.jpg"/>
+        {% endfor %}
     </div>
 </div>

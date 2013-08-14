@@ -59,5 +59,8 @@ class GameView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super(GameView, self).get_context_data(**kwargs)
         self.profile.ping()
-        context.update(game=self.profile.lobby.get_game())
+        context.update(
+            game=self.profile.lobby.get_game(),
+            player=self.profile.get_game_player(),
+        )
         return context

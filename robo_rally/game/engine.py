@@ -3,7 +3,7 @@ import random
 from game_settings import *
 
 class Engine():
-    def __init__(self, course, players):
+    def __init__(self, course, players, lobby):
         self.filename = course.filename
         self.board = course.board
         self.spawn = course.spawn
@@ -13,7 +13,7 @@ class Engine():
 
         for i, player in enumerate(players):
             self.players.append(Player(
-                player=player,
+                user=player,
                 index=i,
                 lives=MAX_LIVES, # should we play with bonuses
                 health=[1] * MAX_HEALTH,
@@ -23,11 +23,8 @@ class Engine():
             ))
             self.players[-1].spawn()
 
-        self.notifications = []
-
-        # Start game here
-        while self.game_over() is None:
-            self.move()
+        self.text = []
+        self.actions = []
 
     def game_over(self):
         for player in self.players:
@@ -63,6 +60,9 @@ class Engine():
             if not player.alive:
                 player.spawn()
         self.deal()
+
+        while not all([p.confirmed for p in self.players]):
+            pass
         # TODO: LET USERS ARRANGE PROGRAM CARDS HERE AND DO OTHER INPUT
 
         for register in range(5):
@@ -114,8 +114,14 @@ class Engine():
             player.deal(self.deck[-player.num_cards():])
             self.deck = self.deck[:-player.num_cards()]
 
+    def add_notification(self, action, text, flush=False):
+        self.actions.append(action)
+        self.text.append(text)
+        if flush:
+            self.flush_notifications()
+
     def flush_notifications(self):
-        pass # flush all the notifications into messages
+        self.lobby.message(None, '\n'.join(self.actions), '\n'.join(self.text))
 
 class Card():
     def __init__(self, priority):
@@ -147,8 +153,10 @@ class Card():
 
 class Player():
     def __init__(self, **kwargs):
+        self.confirmed = False
         self.virtual = False
         self.flag = 0
+        self.cards = None
         self.x = self.y = None
         # set everything from kwargs as attributes
         for k, v in kwargs.items():
@@ -188,6 +196,12 @@ class Player():
             self.rot(2)
         else:
             raise ValueError("Player card was %s. Should have been a proper move" % card.card)
+
+    def program_cards(self):
+        return [] if self.cards is None else self.cards[:5]
+
+    def hand(self):
+        return [] if self.cards is None else self.cards[5:]
 
     def num_cards(self):
         return 9 - self.health.count(0)
