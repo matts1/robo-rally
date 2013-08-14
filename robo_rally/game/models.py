@@ -88,7 +88,7 @@ class Lobby(models.Model):
         used = used - set([None])
         for obj in cls.objects.exclude(id__in=used):
             if obj.name in Lobby.games:
-                del Lobby.games[obj]
+                del Lobby.games[obj.name]
             obj.delete()
 
     @classmethod

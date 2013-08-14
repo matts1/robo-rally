@@ -7,7 +7,10 @@ document.ready = function() {
 
     window.socket.on("message", function (data) {
         console.log("receiving", data.data.action, data.data.user, data.data.text);
-        functions[data.data.action](data.data)
+        data.data.text = data.data.text.split("\n");
+        for (var i = 0; i < data.data.text.length; i++) {
+            functions[data.data.action](data.data);
+        }
     });
 
     if ($("#loadmaplist").length) {

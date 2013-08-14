@@ -24,7 +24,7 @@
                 <td>{{ map.min_players }}-{{ map.max_players }}</td>
                 <td>
                     <img src="/static/images/down.png" width="20px" class="button"\
-                        onclick="loadBoard(this,'/{{ map.filename }}');"\>
+                        onclick="loadTableRowBoard(this,'/{{ map.filename }}');"\>
                 </td>
             </tr>
         {% endfor %}
