@@ -18,7 +18,7 @@ class Engine():
                 lives=MAX_LIVES, # should we play with bonuses
                 health=[1] * MAX_HEALTH,
                 archive=course.spawn[i],
-                rotation=1, # relative to up, 1 per dir
+                orientation=1, # relative to up, 1 per dir
                 game=self,
             ))
             self.players[-1].spawn()
@@ -97,9 +97,9 @@ class Engine():
 
     def rotate_gears(self):
         for player in self.players:
-            if self.board[player.x][player.y].square == RED_GEAR:
+            if self.board[player.y][player.x].square == RED_GEAR:
                 player.rot(-1)
-            elif self.board[player.x][player.y].square == GREEN_GEAR:
+            elif self.board[player.y][player.x].square == GREEN_GEAR:
                 player.rot(1)
 
     def fire_lasers(self):
@@ -148,8 +148,8 @@ class Card():
 class Player():
     def __init__(self, **kwargs):
         self.virtual = False
-        self.loc = (-1, -1)
         self.flag = 0
+        self.x = self.y = None
         # set everything from kwargs as attributes
         for k, v in kwargs.items():
             setattr(self, k, v)
@@ -161,7 +161,7 @@ class Player():
     def spawn(self):
         self.alive = True
         for player in self.game.players:
-            if player.pos() == self.archive and player != self:
+            if player != self and player.pos() == self.archive:
                 self.virtual = True
         self.x, self.y = self.archive
 
@@ -221,8 +221,8 @@ class Player():
         self.health = [1] * (MAX_HEALTH - 2) + [0, 0]
 
     def rot(self, amount):
-        self.rot += 4 + amount
-        self.rot %= 4
+        self.orientation += 4 + amount
+        self.orientation %= 4
 
     def try_heal(self, amount=1):
         if self.pos() in self.game.flags or \
