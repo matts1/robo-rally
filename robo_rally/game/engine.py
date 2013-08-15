@@ -86,8 +86,16 @@ class Engine():
                 return player
 
     def conveyer(self, normal=False):
-        pass # move the conveyers 1 space.
-        # If normal is true, normal conveyers move as well as express
+        conveyers = [CONVEYER2] + [CONVEYER1]*normal
+        for player in self.players:
+            if player.square() in conveyers:
+                exit = player.square().exit
+                player.move(exit)
+                if player.square() in conveyers:
+                    entrance = exit
+                    exit = player.square().exit
+                    if (8 - entrance) % 4 in player.square().entrances:
+                        player.rot(exit - entrance + 4)
 
     def push_pushers(self, register):
         active = PUSHER135 if register % 2 else PUSHER24
@@ -263,6 +271,10 @@ class Player():
         if self.pos() in self.game.flags or \
                 self.game.board[self.y][self.x].square in [REPAIR, HAMMER_AND_WRENCH]:
             self.archive = self.pos()
+
+    def square(self):
+        if self.alive:
+            return self.game.board[self.y][self.x]
 
 if __name__ == "__main__":
     pass
