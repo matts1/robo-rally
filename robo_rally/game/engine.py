@@ -1,4 +1,3 @@
-from copy import deepcopy
 import random
 from game_settings import *
 
@@ -25,6 +24,8 @@ class Engine():
 
         self.text = []
         self.actions = []
+
+        self.deal()
 
     def game_over(self):
         for player in self.players:
@@ -141,9 +142,20 @@ class Card():
                 self.card = cards[card]
         if self.card == ROTLEFT and priority % 20 == 0:
             self.card = ROTRIGHT
+        print self.card, ROTRIGHT
+
+        self.file = {
+            UTURN: 'uturn',
+            ROTLEFT: 'rotleft',
+            ROTRIGHT: 'rotright',
+            BACKUP: 'backup',
+            MOVE1: 'move1',
+            MOVE2: 'move2',
+            MOVE3: 'move3',
+        }[self.card]
 
     def __repr__(self):
-        return "%s (%d)" % (self.card, self.priority)
+        return '%s (%d)' % (self.card, self.priority)
 
     def __lt__(self, other):
         return self.priority < other.priority

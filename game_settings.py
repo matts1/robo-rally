@@ -94,13 +94,13 @@ FILES_TO_INDEXES = dict([x[::-1] for x in enumerate(INDEXES_TO_FILES)])
 TIMEOUT = 20
 
 # GAME SETTINGS
-BACKUP = 'Back Up',
-MOVE1 = 'Move 1',
-MOVE2 = 'Move 2',
-MOVE3 = 'Move 3',
-UTURN = 'U-Turn',
-ROTLEFT = 'Rotate Left',
-ROTRIGHT = 'Rotate Right',
+BACKUP = 'Back Up'
+MOVE1 = 'Move 1'
+MOVE2 = 'Move 2'
+MOVE3 = 'Move 3'
+UTURN = 'U-Turn'
+ROTLEFT = 'Rotate Left'
+ROTRIGHT = 'Rotate Right'
 
 # player attributes
 START_HEALTH = 9
