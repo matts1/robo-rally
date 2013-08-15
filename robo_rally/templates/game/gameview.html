@@ -16,15 +16,15 @@
     </div>
     <div class="lives">
         {% for i in player.lives|range %}
-            <img src="/static/images/sheet/life.jpg"/>
+            <img src="/static/images/sheet/life.png"/>
         {% endfor %}
     </div>
     <div class="damage">
         {% for health in player.health %}
             {% if health %}
-                <img src="/static/images/sheet/health.jpg"/>
+                <img src="/static/images/sheet/health.png"/>
             {% else %}
-                <img src="/static/images/sheet/damage.jpg"/>
+                <img src="/static/images/sheet/damage.png"/>
             {% endif %}
         {% endfor %}
     </div>
