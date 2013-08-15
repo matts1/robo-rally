@@ -3,6 +3,7 @@ from game_settings import *
 
 class Engine():
     def __init__(self, course, players, lobby):
+        self.lobby = lobby
         self.filename = course.filename
         self.board = course.board
         self.spawn = course.spawn
@@ -76,6 +77,7 @@ class Engine():
             self.fire_lasers()
             for player in self.players:
                 player.reach()
+            self.flush_notifications()
 
         for player in self.players:
             player.try_heal()
@@ -150,7 +152,6 @@ class Card():
                 self.card = cards[card]
         if self.card == ROTLEFT and priority % 20 == 0:
             self.card = ROTRIGHT
-        print self.card, ROTRIGHT
 
         self.file = {
             UTURN: 'uturn',
@@ -184,7 +185,9 @@ class Player():
 
     def deal(self, cards):
         self.cards = cards
-        # TODO: send notification
+        self.game.lobby.message(self.user, 'dealhand', ' '.join(
+            ['%s,%d' % (card.file, card.priority) for card in self.cards]
+        ))
 
     def spawn(self):
         self.alive = True
@@ -242,6 +245,8 @@ class Player():
             self.y = ny
         if not self.in_bounds():
             self.kill()
+        self.game.add_notification('move',
+                '%d %d %d %d' % (self.index, self.x, self.y, self.orientation))
     
     def in_bounds(self):
         board = self.game.board
@@ -251,12 +256,16 @@ class Player():
 
     def kill(self):
         self.alive = False
-        self.x = self.y = None
+        self.x = self.y = -1
         self.health = [1] * (MAX_HEALTH - 2) + [0, 0]
+        self.game.add_notification('move',
+                '%d %d %d %d' % (self.index, self.x, self.y, self.orientation))
 
     def rot(self, amount):
         self.orientation += 4 + amount
         self.orientation %= 4
+        self.game.add_notification('move',
+                '%d %d %d %d' % (self.index, self.x, self.y, self.orientation))
 
     def try_heal(self, amount=1):
         if self.pos() in self.game.flags or \
@@ -264,6 +273,9 @@ class Player():
             for i in range(amount):
                 if 0 in self.health:
                     self.health[self.health.index(0)] = 1
+        self.game.add_notification('health',
+                '%d %s' % (self.index, ','.join(map(str, self.health))))
+
 
     def reach(self):
         if self.pos() == self.game.flags[self.flag]:

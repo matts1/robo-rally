@@ -34,6 +34,8 @@ class Message(models.Model):
             players = self.lobby.players()
             if send_to == settings.NON_SELF and self.user in players:
                 players = players.exclude(username=self.user.username)
+            elif send_to == settings.SELF:
+                players = [self.user]
 
             if players:
                 data = {

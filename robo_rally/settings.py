@@ -199,6 +199,7 @@ else:
 NONE = 0
 NON_SELF = 1
 ALL = 2
+SELF = 3
 
 VALID_ACTIONS = {
     'adduser': NON_SELF,
@@ -206,4 +207,7 @@ VALID_ACTIONS = {
     'goto_pickmap': ALL,
     'ping': NONE,
     'startgame': ALL,
+    'dealhand': SELF,
+    'move': ALL,
+    'health': ALL,
 }
