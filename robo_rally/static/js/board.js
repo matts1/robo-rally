@@ -65,7 +65,9 @@ function loadBoard(obj, url) {
         locations = $(".loc div");
         for (var i = 0; i < locations.length; i++) {
             text = $(locations[i]).text().split(" ");
-            drawSpecial($(".boarddisplay"), window.squareSize, 2, i, parseInt(text[0]), parseInt(text[1]), parseInt(text[2]));
+            drawSpecial($(".boarddisplay"), window.squareSize,
+                parseInt(text[0]), parseInt(text[1])-1,
+                parseInt(text[2]), parseInt(text[3]), parseInt(text[4]));
         }
     });
 };
