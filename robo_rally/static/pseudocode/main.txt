@@ -1,0 +1,46 @@
+BEGIN main(board, players)
+    WHILE not gameOver()
+        turn()
+        render()
+    END WHILE
+END main
+
+BEGIN turn()
+    dealCards()
+    getActions()
+    FOR turn=1...5
+        FOR player in players
+            IF player not powered down
+                player.move()
+            END IF
+        END FOR
+        board.moveBoardElements()
+        board.shootLasers()
+        FOR player in players
+            player.shootLaser(board)
+        END FOR
+    END FOR
+END turn
+
+BEGIN gameOver()
+    IF amount of players == 1
+        RETURN only item in players
+    END IF
+    FOR player in players
+        IF player has touched all flags
+            RETURN player
+        END IF
+    END FOR
+    RETURN False
+END gameOver
+
+BEGIN dealCards()
+    FOR card=1...84
+        cards += Card(cards)
+    END FOR
+    shuffle(cards)
+    FOR player in players
+        give player first 10-player.damage cards
+        delete first 10-player.damage cards
+    END FOR
+END dealCards
