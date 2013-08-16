@@ -62,12 +62,38 @@ var gotoPickMap = function (text, player) {
     });
 }
 
+jQuery.fn.swapWith = function(to) {
+    return this.each(function() {
+        var copy_to = to.clone(true);
+        var copy_from = $(this).clone(true);
+        to.replaceWith(copy_from);
+        $(this).replaceWith(copy_to);
+    });
+};
+
 var startGame = function (text, player) {
     if ($("#dynamic_element #playerlist").length) {
         $("#dynamic_element #playerlist").appendTo($("#content"));
     }
     $("#dynamic_element").load("/playgame/", function () {
         loadBoard($("#boarddisplay"), $("#boarddisplay").attr("data-filename"));
+
+        window.selected = null;
+        $(".program_card").on("click", function() {
+            card = $(this);
+            if (window.selected == null) {
+                window.selected = card;
+            } else {
+                if (card != window.selected) {
+                    send(
+                        "swapcards",
+                        $(".program_card").index(card) + " " + $(".program_card").index(window.selected)
+                    );
+                    card.swapWith(window.selected);
+                }
+                window.selected = null;
+            }
+        });
     });
 }
 
