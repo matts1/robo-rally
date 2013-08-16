@@ -143,13 +143,13 @@ function drawBoard(display, board, spawn, flags) {
 };
 
 function drawSpecial(display, squareSize, type, objid, x, y, rot) {
+    key = (8 * type) + objid;
     if (x == -1 && y == -1) {
         if (key in window.specials) {
             window.specials[key].remove()
         }
         return;
     }
-    key = (8 * type) + objid;
     if (key in window.specials) {
         window.specials[key].remove()
     }
