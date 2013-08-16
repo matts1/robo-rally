@@ -1,0 +1,45 @@
+BEGIN Board
+    BEGIN loadTableRowBoard (object, URL):
+        IF the board is already loaded:
+            toggle board invisibility
+        ELSE
+            loadBoard()
+        ENDIF
+    END loadTableRowBoard
+
+    BEGIN loadBoard(object, url)
+        get board
+        fill divs
+
+        drawBoard()
+    END loadBoard
+
+    BEGIN drawBoard (display, board, spawn, flags):
+        clear display
+        FOR y = 0...boardHeight:
+            FOR x = 0...boardWidth:
+                display.append(image)
+                ROTATE image
+
+                FOR i = 0...4:
+                    IF side is not blank:
+                        display.append(image)
+                        ROTATE image
+
+                drawSpecial()
+    END drawBoard
+
+    BEGIN drawSpecial(display, squareSize, type, objid, x, y, rot)
+        IF object is in specials:
+            remove object from specials
+        ENDIF
+
+        IF image is a robot:
+            display.append(robot)
+        ELSEIF image is a spawnpoint:
+            display.append(spawnpoint)
+        ELSEIF image is a flag:
+            display.append(flag)
+        ENDIF
+    END drawSpecial
+END Board
