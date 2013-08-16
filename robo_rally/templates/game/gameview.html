@@ -10,10 +10,10 @@
 </div>
 
 <div class="character_sheet">
-    <div class="bio">
+    <span class="bio">
         ROBOT_NAME
-        ROBOT_DESCRIPTION
-    </div>
+    </span>
+    <button id="ready_button">Ready!</button>
     <div class="lives">
         {% for i in player.lives|range %}
             <img src="/static/images/sheet/life.png"/>

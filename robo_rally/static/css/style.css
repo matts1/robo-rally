@@ -130,6 +130,10 @@ div.program_cards img, div.hand img, div.option_cards img {
     margin: 0 auto;
 }
 
+#ready_button {
+    float: right;
+}
+
 /* Board render settings */
 .rot90 {
     -webkit-transform: rotate(90deg);

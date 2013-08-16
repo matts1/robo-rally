@@ -94,6 +94,13 @@ var startGame = function (text, player) {
                 window.selected = null;
             }
         });
+
+        $("#ready_button").on("click", function(){
+            console.log("YE BRA")
+            send(
+                "playerready", ""
+            )
+        });
     });
 }
 
