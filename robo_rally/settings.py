@@ -210,4 +210,5 @@ VALID_ACTIONS = {
     'dealhand': SELF,
     'move': ALL,
     'health': ALL,
+    'playerready':NONE
 }

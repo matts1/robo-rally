@@ -65,7 +65,6 @@ class Engine():
 
         while not all([p.confirmed for p in self.players]):
             pass
-        # TODO: LET USERS ARRANGE PROGRAM CARDS HERE AND DO OTHER INPUT
 
         for register in range(5):
             for player in sorted(self.players, key=lambda x: x.cards[register]):

@@ -26,17 +26,19 @@ def start_game(action, course, user):
         raise ValidationError('Game is already started')
     lobby.start_game(course)
 
-
 def getleader(action, text, user):
     lobby = user.get_profile.lobby
     print lobby.leader()
 
+def player_confirmed(action, text, user):
+    user.get_profile().get_game_player().confirmed = True
 
 PERFORM_FUNCTIONS = {
     'goto_pickmap': pick_map,
     'adduser': getleader,
     'deleteuser': getleader,
     'startgame': start_game,
+    'playerready': player_confirmed,
 }
 
 class MessageCreateForm(Form):

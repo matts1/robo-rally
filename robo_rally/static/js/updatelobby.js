@@ -96,7 +96,6 @@ var startGame = function (text, player) {
         });
 
         $("#ready_button").on("click", function(){
-            console.log("YE BRA")
             send(
                 "playerready", ""
             )
