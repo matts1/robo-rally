@@ -7,11 +7,9 @@ document.ready = function() {
 
     window.socket.on("message", function (data) {
         data = data.data;
-        console.log("receiving", data.action, data.user, data.text);
         data.text = data.text.split("\n");
-        data.action = data.action.split("\n");
         for (var i = 0; i < data.text.length; i++) {
-            functions[data.action[i]](data.text[i], data.user);
+            functions[data.action](data.text[i], data.user);
         }
     });
 
@@ -30,7 +28,7 @@ document.ready = function() {
 
 var toTitleCase = function (str) {
     return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
-}
+};
 
 var checkLeader = function (text) {
     console.log(text, username);
@@ -39,13 +37,13 @@ var checkLeader = function (text) {
     } else {
         $("#startgamebutton").addClass("invisible");
     }
-}
+};
 
 var addPlayer = function (text, player) {
     removePlayer(text, player);
     $("#playerlist").append("<li>" + toTitleCase(player) + "</li>");
     checkLeader(text);
-}
+};
 
 var removePlayer = function (text, player) {
     $("#playerlist li").filter(function() {
@@ -53,14 +51,14 @@ var removePlayer = function (text, player) {
     }).remove();
     // show the button if we are the new leader
     checkLeader(text);
-}
+};
 
 var gotoPickMap = function (text, player) {
     $("#playerlist").appendTo($("#content"));
     $("#dynamic_element").load("/pickmap/" + $("#playerlist li").length, function () {
         initMagicTable();
     });
-}
+};
 
 jQuery.fn.swapWith = function(to) {
     return this.each(function() {
@@ -70,6 +68,19 @@ jQuery.fn.swapWith = function(to) {
         $(this).replaceWith(copy_to);
     });
 };
+
+var move = function (text, player) {
+    console.log(text, text.split(" "))
+    moves = text.split(" ");
+    drawSpecial($(".boarddisplay"), window.squareSize, 2,
+        parseInt(moves[0]), parseInt(moves[1]),
+        parseInt(moves[2]), parseInt(moves[3])
+    );
+};
+
+var health = function (text, player) {
+    // placeholder
+}
 
 var startGame = function (text, player) {
     if ($("#dynamic_element #playerlist").length) {
@@ -101,14 +112,16 @@ var startGame = function (text, player) {
             )
         });
     });
-}
+};
 
 var functions = {
     "adduser": addPlayer,
     "deleteuser": removePlayer,
     "gotopickmap": gotoPickMap,
     "startgame": startGame,
-}
+    "move": move,
+    "health": health,
+};
 
 var send = function (action, msg) {
     data = {
@@ -120,7 +133,7 @@ var send = function (action, msg) {
         console.log("sending", action, "msg is", msg);
     }
     $.post(url + "/send/", data, "json");
-}
+};
 
 setInterval(function() { // ping every 10 seconds
    send("ping", "");

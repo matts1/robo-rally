@@ -53,7 +53,7 @@ class Lobby(models.Model):
         print 'starting game in lobby', self.name
         self.game_stage = PICK_MAP
         self.save()
-        self.message(None, 'goto_pickmap', str(self.size()))
+        self.message(None, 'gotopickmap', str(self.size()))
 
     def message(self, user, action, msg):
         # stop recursive import

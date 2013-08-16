@@ -23,8 +23,7 @@ class Engine():
             ))
             self.players[-1].spawn()
 
-        self.text = []
-        self.actions = []
+        self.actions = {}
 
         self.deal()
 
@@ -63,8 +62,9 @@ class Engine():
                 player.spawn()
         self.deal()
 
-        while not all([p.confirmed for p in self.players]):
-            pass
+    def run_move(self):
+        if not all([p.confirmed for p in self.players]):
+            return
 
         for register in range(5):
             for player in sorted(self.players, key=lambda x: x.cards[register]):
@@ -125,51 +125,17 @@ class Engine():
             self.deck = self.deck[:-player.num_cards()]
 
     def add_notification(self, action, text, flush=False):
-        self.actions.append(action)
-        self.text.append(text)
+        self.actions[action] = self.actions.get(action, []) + [text]
         if flush:
             self.flush_notifications()
 
     def flush_notifications(self):
-        self.lobby.message(None, '\n'.join(self.actions), '\n'.join(self.text))
-
-class Card():
-    def __init__(self, priority):
-        assert 10 <= priority <= 840
-        assert priority % 10 == 0
-        self.priority = priority
-        cards = {
-            10: UTURN,
-            70: ROTLEFT,
-            430: BACKUP,
-            540: MOVE1,
-            670: MOVE2,
-            790: MOVE3
-        }
-        for card in sorted(cards):
-            if priority >= card:
-                self.card = cards[card]
-        if self.card == ROTLEFT and priority % 20 == 0:
-            self.card = ROTRIGHT
-
-        self.file = {
-            UTURN: 'uturn',
-            ROTLEFT: 'rotleft',
-            ROTRIGHT: 'rotright',
-            BACKUP: 'backup',
-            MOVE1: 'move1',
-            MOVE2: 'move2',
-            MOVE3: 'move3',
-        }[self.card]
-
-    def __repr__(self):
-        return '%s (%d)' % (self.card, self.priority)
-
-    def __lt__(self, other):
-        return self.priority < other.priority
-
-    def __eq__(self, other):
-        return self.card == other
+        for action in self.actions:
+            self.lobby.message(
+                None,
+                action,
+                '\n'.join(self.actions[action]),
+            )
 
 class Player():
     def __init__(self, **kwargs):
@@ -218,6 +184,10 @@ class Player():
             self.rot(2)
         else:
             raise ValueError("Player card was %s. Should have been a proper move" % card.card)
+
+    def ready(self):
+        self.confirmed = True
+        self.game.run_move()
 
     def program_cards(self):
         return [] if self.cards is None else self.cards[:5]
@@ -290,6 +260,43 @@ class Player():
     def swapcards(self, c1, c2):
         self.cards[c1], self.cards[c2] = self.cards[c2], self.cards[c1]
 
+class Card():
+    def __init__(self, priority):
+        assert 10 <= priority <= 840
+        assert priority % 10 == 0
+        self.priority = priority
+        cards = {
+            10: UTURN,
+            70: ROTLEFT,
+            430: BACKUP,
+            540: MOVE1,
+            670: MOVE2,
+            790: MOVE3
+        }
+        for card in sorted(cards):
+            if priority >= card:
+                self.card = cards[card]
+        if self.card == ROTLEFT and priority % 20 == 0:
+            self.card = ROTRIGHT
+
+        self.file = {
+                        UTURN: 'uturn',
+                        ROTLEFT: 'rotleft',
+                        ROTRIGHT: 'rotright',
+                        BACKUP: 'backup',
+                        MOVE1: 'move1',
+                        MOVE2: 'move2',
+                        MOVE3: 'move3',
+                        }[self.card]
+
+    def __repr__(self):
+        return '%s (%d)' % (self.card, self.priority)
+
+    def __lt__(self, other):
+        return self.priority < other.priority
+
+    def __eq__(self, other):
+        return self.card == other
 
 if __name__ == "__main__":
     pass

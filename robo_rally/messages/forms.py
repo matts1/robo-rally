@@ -31,7 +31,7 @@ def getleader(action, text, user):
     print lobby.leader()
 
 def player_confirmed(action, text, user):
-    user.get_profile().get_game_player().confirmed = True
+    user.get_profile().get_game_player().ready()
     
 def swapcards(action, text, user):
     c1, c2 = map(int, text.split(' '))
