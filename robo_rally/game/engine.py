@@ -57,6 +57,7 @@ class Engine():
 
     def move(self):
         for player in self.players:
+            player.confirmed = False
             if not player.alive:
                 player.spawn()
         self.deal()
