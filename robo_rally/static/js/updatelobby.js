@@ -24,7 +24,7 @@ document.ready = function() {
     }
 
     $("#startgamebutton").click(function() {
-        send("goto_pickmap", "");
+        send("gotopickmap", "");
     });
 };
 
@@ -106,7 +106,7 @@ var startGame = function (text, player) {
 var functions = {
     "adduser": addPlayer,
     "deleteuser": removePlayer,
-    "goto_pickmap": gotoPickMap,
+    "gotopickmap": gotoPickMap,
     "startgame": startGame,
 }
 

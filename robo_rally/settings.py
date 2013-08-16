@@ -204,11 +204,12 @@ SELF = 3
 VALID_ACTIONS = {
     'adduser': NON_SELF,
     'deleteuser': NON_SELF,
-    'goto_pickmap': ALL,
+    'gotopickmap': ALL,
     'ping': NONE,
     'startgame': ALL,
     'dealhand': SELF,
     'move': ALL,
     'health': ALL,
+    'swapcards': NONE,
     'playerready':NONE
 }

@@ -287,5 +287,9 @@ class Player():
         if self.alive:
             return self.game.board[self.y][self.x]
 
+    def swapcards(self, c1, c2):
+        self.cards[c1], self.cards[c2] = self.cards[c2], self.cards[c1]
+
+
 if __name__ == "__main__":
     pass

@@ -32,12 +32,17 @@ def getleader(action, text, user):
 
 def player_confirmed(action, text, user):
     user.get_profile().get_game_player().confirmed = True
+    
+def swapcards(action, text, user):
+    c1, c2 = map(int, text.split(' '))
+    user.get_profile().get_game_player().swapcards(c1, c2)
 
 PERFORM_FUNCTIONS = {
-    'goto_pickmap': pick_map,
+    'gotopickmap': pick_map,
     'adduser': getleader,
     'deleteuser': getleader,
     'startgame': start_game,
+    'swapcards': swapcards,
     'playerready': player_confirmed,
 }
 
