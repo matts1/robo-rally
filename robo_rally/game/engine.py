@@ -81,6 +81,8 @@ class Engine():
         for player in self.players:
             player.try_heal()
 
+        self.move()
+
     def get_player(self, x, y):
         for player in self.players:
             if player.pos() == (x, y) and not player.virtual:
