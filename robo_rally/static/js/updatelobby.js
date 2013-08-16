@@ -6,8 +6,13 @@ document.ready = function() {
     window.socket.send(username);
 
     window.socket.on("message", function (data) {
-        console.log("receiving", data.data.action, data.data.user, data.data.text);
-        functions[data.data.action](data.data)
+        data = data.data;
+        console.log("receiving", data.action, data.user, data.text);
+        data.text = data.text.split("\n");
+        data.action = data.action.split("\n");
+        for (var i = 0; i < data.text.length; i++) {
+            functions[data.action[i]](data.text[i], data.user);
+        }
     });
 
     if ($("#loadmaplist").length) {
@@ -27,37 +32,37 @@ var toTitleCase = function (str) {
     return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
 
-var checkLeader = function (data) {
-    if (data.text == username.toLowerCase() && $("ul#playerlist li").length > 1) {
+var checkLeader = function (text) {
+    console.log(text, username);
+    if (text == username.toLowerCase() && $("ul#playerlist li").length > 1) {
         $("#startgamebutton").removeClass("invisible");
     } else {
         $("#startgamebutton").addClass("invisible");
     }
 }
 
-var addPlayer = function (data) {
-    player = data.user;
-    removePlayer(data);
+var addPlayer = function (text, player) {
+    removePlayer(text, player);
     $("#playerlist").append("<li>" + toTitleCase(player) + "</li>");
-    checkLeader(data);
+    checkLeader(text);
 }
 
-var removePlayer = function (data) {
+var removePlayer = function (text, player) {
     $("#playerlist li").filter(function() {
-        return data.user.toLowerCase() == $(this).text().toLowerCase();
+        return player.toLowerCase() == $(this).text().toLowerCase();
     }).remove();
     // show the button if we are the new leader
-    checkLeader(data);
+    checkLeader(text);
 }
 
-var gotoPickMap = function (data) {
+var gotoPickMap = function (text, player) {
     $("#playerlist").appendTo($("#content"));
     $("#dynamic_element").load("/pickmap/" + $("#playerlist li").length, function () {
         initMagicTable();
     });
 }
 
-var startGame = function (data) {
+var startGame = function (text, player) {
     if ($("#dynamic_element #playerlist").length) {
         $("#dynamic_element #playerlist").appendTo($("#content"));
     }
