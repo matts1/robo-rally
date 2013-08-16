@@ -200,7 +200,7 @@ class Player():
     def notify_move(self):
         self.game.add_notification(
             'move',
-            '%d %d %d %d' % (self.index, self.x, self.y, self.orientation)
+            '%d %d %d %d %d' % (self.index, 2, self.x, self.y, self.orientation)
         )
 
     def ready(self):
@@ -264,9 +264,13 @@ class Player():
     def reach(self):
         if self.pos() == self.game.flags[self.flag]:
             self.flag += 1
-        if self.pos() in self.game.flags or \
-                self.game.board[self.y][self.x].square in [REPAIR, HAMMER_AND_WRENCH]:
+        if self.pos() != self.archive and (self.pos() in self.game.flags or \
+                self.game.board[self.y][self.x].square in [REPAIR, HAMMER_AND_WRENCH]):
             self.archive = self.pos()
+            self.game.add_notification(
+                'move',
+                '%d %d %d %d %d' % (self.index, 1, self.x, self.y, 0)
+            )
 
     def square(self):
         if self.alive:

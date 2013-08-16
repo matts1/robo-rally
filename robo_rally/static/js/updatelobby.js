@@ -70,9 +70,9 @@ jQuery.fn.swapWith = function(to) {
 
 var move = function (text, player) {
     moves = text.split(" ");
-    drawSpecial($(".boarddisplay"), window.squareSize, 2,
-        parseInt(moves[0]), parseInt(moves[1]),
-        parseInt(moves[2]), parseInt(moves[3])
+    drawSpecial($(".boarddisplay"), window.squareSize, parseInt(moves[1]),
+        parseInt(moves[0]), parseInt(moves[2]),
+        parseInt(moves[3]), parseInt(moves[4])
     );
 };
 
