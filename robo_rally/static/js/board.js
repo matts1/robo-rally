@@ -61,6 +61,12 @@ function loadBoard(obj, url) {
         }
         window.specials = {};
         drawBoard($(".boarddisplay", obj), $(".board", data), $(".spawn", data), $(".flags", data));
+
+        locations = $(".loc div");
+        for (var i = 0; i < locations.length; i++) {
+            text = $(locations[i]).text().split(" ");
+            drawSpecial($(".boarddisplay"), window.squareSize, 2, i, parseInt(text[0]), parseInt(text[1]), parseInt(text[2]));
+        }
     });
 };
 
@@ -137,6 +143,12 @@ function drawBoard(display, board, spawn, flags) {
 };
 
 function drawSpecial(display, squareSize, type, objid, x, y, rot) {
+    if (x == -1 && y == -1) {
+        if (key in window.specials) {
+            window.specials[key].remove()
+        }
+        return;
+    }
     key = (8 * type) + objid;
     if (key in window.specials) {
         window.specials[key].remove()

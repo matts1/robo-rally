@@ -105,9 +105,7 @@ var startGame = function (text, player) {
         });
 
         $("#ready_button").on("click", function(){
-            send(
-                "playerready", ""
-            )
+            send("playerready", "");
         });
     });
 };

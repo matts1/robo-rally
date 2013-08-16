@@ -69,7 +69,7 @@ class Engine():
             for player in sorted(self.players, key=lambda x: x.cards[register]):
                 player.run_register(register)
             self.conveyer()
-            # self.conveyer(normal=True)
+            self.conveyer(normal=True)
             self.push_pushers(register)
             self.rotate_gears()
             self.fire_lasers()
@@ -148,6 +148,16 @@ class Player():
         # set everything from kwargs as attributes
         for k, v in kwargs.items():
             setattr(self, k, v)
+        self.robot = [
+            "hammer_bot",
+            "hulk_x90",
+            "spin_bot",
+            "squash_bot",
+            "trundle_bot",
+            "twitch",
+            "twonky",
+            "zoom_bot",
+        ][self.index]
 
     def deal(self, cards):
         self.cards = cards
@@ -157,6 +167,7 @@ class Player():
 
     def spawn(self):
         self.alive = True
+        self.orientation = 1
         for player in self.game.players:
             if player != self and player.pos() == self.archive:
                 self.virtual = True

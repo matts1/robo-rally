@@ -7,11 +7,16 @@
     <div class="boarddisplay"></div>
     <div class="description"></div>
     <div class="rules"></div>
+    <div class="loc invisible">
+        {% for player in game.players %}
+            <div>{{ player.x }} {{ player.y }} {{ player.orientation }}</div>
+        {% endfor %}
+    </div>
 </div>
 
 <div class="character_sheet">
     <span class="bio">
-        ROBOT_NAME
+        <img src="/static/images/players/{{ player.robot }}.png" class="bot_example">
     </span>
     <button id="ready_button">Ready!</button>
     <div class="lives">
