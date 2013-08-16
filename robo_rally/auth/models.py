@@ -37,6 +37,6 @@ class UserProfile(models.Model):
         return self.last_ping + timedelta(seconds=20) < datetime.utcnow().replace(tzinfo=utc)
 
     def get_game_player(self):
-        for player in self.lobby.games[self.lobby.name].players:
+        for player in self.lobby.get_game().players:
             if self.user == player.user:
                 return player

@@ -137,7 +137,6 @@ function drawBoard(display, board, spawn, flags) {
 };
 
 function drawSpecial(display, squareSize, type, objid, x, y, rot) {
-    console.log(objid, x, y, rot);
     key = (8 * type) + objid;
     if (key in window.specials) {
         window.specials[key].remove()

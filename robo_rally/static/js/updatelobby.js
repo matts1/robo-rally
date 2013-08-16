@@ -31,7 +31,6 @@ var toTitleCase = function (str) {
 };
 
 var checkLeader = function (text) {
-    console.log(text, username);
     if (text == username.toLowerCase() && $("ul#playerlist li").length > 1) {
         $("#startgamebutton").removeClass("invisible");
     } else {
@@ -70,7 +69,6 @@ jQuery.fn.swapWith = function(to) {
 };
 
 var move = function (text, player) {
-    console.log(text, text.split(" "))
     moves = text.split(" ");
     drawSpecial($(".boarddisplay"), window.squareSize, 2,
         parseInt(moves[0]), parseInt(moves[1]),
@@ -114,6 +112,16 @@ var startGame = function (text, player) {
     });
 };
 
+var deal = function (text, player) {
+    hand = text.split(" ");
+    cards = $(".program_card");
+    for (var i = 0; i < hand.length; i++) {
+        file = hand[i].split(",")[0];
+        priority = parseInt(hand[i].split(",")[1]);
+        $(cards[i]).attr("src", "/static/images/cards/" + file + ".png");
+    }
+}
+
 var functions = {
     "adduser": addPlayer,
     "deleteuser": removePlayer,
@@ -121,6 +129,7 @@ var functions = {
     "startgame": startGame,
     "move": move,
     "health": health,
+    "dealhand": deal,
 };
 
 var send = function (action, msg) {

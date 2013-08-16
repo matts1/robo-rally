@@ -3,6 +3,7 @@ from game_settings import *
 
 class Engine():
     def __init__(self, course, players, lobby):
+        self.actions = {}
         self.lobby = lobby
         self.filename = course.filename
         self.board = course.board
@@ -22,8 +23,6 @@ class Engine():
                 game=self,
             ))
             self.players[-1].spawn()
-
-        self.actions = {}
 
         self.deal()
 
@@ -70,7 +69,7 @@ class Engine():
             for player in sorted(self.players, key=lambda x: x.cards[register]):
                 player.run_register(register)
             self.conveyer()
-            self.conveyer(normal=True)
+            # self.conveyer(normal=True)
             self.push_pushers(register)
             self.rotate_gears()
             self.fire_lasers()
@@ -91,17 +90,17 @@ class Engine():
     def conveyer(self, normal=False):
         conveyers = [CONVEYER2] + [CONVEYER1]*normal
         for player in self.players:
-            if player.square() in conveyers:
+            if player.alive and player.square().square in conveyers:
                 exit = player.square().exit
                 player.move(exit)
-                if player.square() in conveyers:
+                if player.square().square in conveyers:
                     entrance = exit
                     exit = player.square().exit
                     if (8 - entrance) % 4 in player.square().entrances:
                         player.rot(exit - entrance + 4)
 
     def push_pushers(self, register):
-        active = PUSHER135 if register % 2 else PUSHER24
+        active = PUSHER24 if register % 2 else PUSHER135
         for player in self.players:
             for side, wall in enumerate(self.board[player.y][player.x].walls):
                 if wall == active:
@@ -187,6 +186,12 @@ class Player():
         else:
             raise ValueError("Player card was %s. Should have been a proper move" % card.card)
 
+    def notify_move(self):
+        self.game.add_notification(
+            'move',
+            '%d %d %d %d' % (self.index, self.x, self.y, self.orientation)
+        )
+
     def ready(self):
         self.confirmed = True
         self.game.run_move()
@@ -216,8 +221,7 @@ class Player():
             self.y = ny
         if not self.in_bounds():
             self.kill()
-        self.game.add_notification('move',
-                '%d %d %d %d' % (self.index, self.x, self.y, self.orientation))
+        self.notify_move()
     
     def in_bounds(self):
         board = self.game.board
@@ -229,14 +233,12 @@ class Player():
         self.alive = False
         self.x = self.y = -1
         self.health = [1] * (MAX_HEALTH - 2) + [0, 0]
-        self.game.add_notification('move',
-                '%d %d %d %d' % (self.index, self.x, self.y, self.orientation))
+        self.notify_move()
 
     def rot(self, amount):
         self.orientation += 4 + amount
         self.orientation %= 4
-        self.game.add_notification('move',
-                '%d %d %d %d' % (self.index, self.x, self.y, self.orientation))
+        self.notify_move()
 
     def try_heal(self, amount=1):
         if self.pos() in self.game.flags or \
