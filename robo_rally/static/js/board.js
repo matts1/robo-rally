@@ -146,14 +146,30 @@ function drawBoard(display, board, spawn, flags) {
 
 function drawSpecial(display, squareSize, type, objid, x, y, rot) {
     key = (8 * type) + objid;
-    if (x == -1 && y == -1) {
+    if (x == -1 && y == -1) { // they are dead
         if (key in window.specials) {
             window.specials[key].remove()
         }
         return;
     }
-    if (key in window.specials) {
-        window.specials[key].remove()
+    if (key in window.specials && type == 1) { // spawn, don't animate
+        window.specials[key].remove();
+    } else if (key in window.specials) {
+        img = window.specials[key];
+        new_left = (x * squareSize) + (squareSize - img.width()) / 2;
+        new_top = (y * squareSize) + (squareSize - img.height()) / 2;
+        img.stop().animate({
+            left: new_left + 'px',
+            top: new_top + 'px'},
+            {queue: true, duration: 200}
+        );
+        if (type == 2) {
+            for (var i = 0; i < 4; i++) {
+                img.removeClass("rot" + i*90);
+            }
+            img.addClass("rot" + rot * 90)
+        }
+        return;
     }
     if (type == 2) {
         var image = "players/" + [
@@ -167,6 +183,7 @@ function drawSpecial(display, squareSize, type, objid, x, y, rot) {
             "zoom_bot",
         ][objid];
         var opacity = 1;
+
     } else if (type == 1) {
         var image = "spawn/" + (objid + 1);
         var opacity = 0.3;
@@ -187,6 +204,7 @@ function drawSpecial(display, squareSize, type, objid, x, y, rot) {
         img.width(squareSize);
         squareSize = window.squareSize
         img.css("left", (x * squareSize) + (squareSize - img.width()) / 2);
+        console.log(img.css("left"))
         img.css("top", (y * squareSize) + (squareSize - img.height()) / 2);
     }
     window.specials[key] = $(img);
