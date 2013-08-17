@@ -141,6 +141,7 @@ class Engine():
                 action,
                 '\n'.join(self.actions[action]),
             )
+        self.actions = {}
 
 class Player():
     def __init__(self, **kwargs):
@@ -235,9 +236,9 @@ class Player():
         if not self.game.blocked(self.pos(), (nx, ny)):
             self.x = nx
             self.y = ny
+            self.notify_move()
         if not self.in_bounds():
             self.kill()
-        self.notify_move()
     
     def in_bounds(self):
         board = self.game.board

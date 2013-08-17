@@ -148,13 +148,14 @@ function drawSpecial(display, squareSize, type, objid, x, y, rot) {
     key = (8 * type) + objid;
     if (x == -1 && y == -1) { // they are dead
         if (key in window.specials) {
-            window.specials[key].remove()
-            console.log("die")
+            window.specials[key].remove();
+            delete window.specials[key];
         }
         return;
     }
     if (key in window.specials && type == 1) { // spawn, don't animate
         window.specials[key].remove();
+        delete window.specials[key];
     } else if (key in window.specials) {
         img = window.specials[key];
         new_left = (x * squareSize) + (squareSize - img.width()) / 2;

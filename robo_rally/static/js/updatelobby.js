@@ -70,7 +70,6 @@ jQuery.fn.swapWith = function(to) {
 };
 
 var move = function (text, player) {
-    console.log(text)
     moves = text.split(" ");
     drawSpecial($(".boarddisplay"), window.squareSize, parseInt(moves[1]),
         parseInt(moves[0]), parseInt(moves[2]),
