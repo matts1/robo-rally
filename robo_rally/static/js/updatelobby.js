@@ -88,7 +88,6 @@ var health = function (text, player) {
     damage = $(".damage img");
     for (var i = 0; i < 9; i++) {
         token = "damage"
-        console.log(i, health);
         if (i < health) {token = "health"};
         $(damage[i]).attr("src", "/static/images/sheet/" + token + ".png");
     }

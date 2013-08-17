@@ -125,18 +125,19 @@ class Engine():
                     if side in LASERS:
                         bot = self.blocked((x, y), (None, None), countbots=True, side=i)
                         if isinstance(bot, Player):
-                            print bot
                             bot.damage(LASERS.index(side) + 1)
 
         for player in self.players:
             bot = self.blocked((player.x, player.y), (None, None), countbots=True, side=player.orientation)
-            print bot
             if isinstance(bot, Player):
                 print "player shoots", bot
                 bot.damage(1)
 
     def deal(self):
         self.deck = [Card(p) for p in range(10, 850, 10)]
+        for player in self.players:
+            for card in player.locked:
+                self.deck.remove(card) # hoping this will use __eq__
         random.shuffle(self.deck)
         for player in self.players:
             player.deal(self.deck[-player.num_cards():])
@@ -163,6 +164,7 @@ class Player():
         self.flag = 0
         self.cards = None
         self.x = self.y = None
+        self.locked = [] # locked in reverse order - registers go 5 to 1
         # set everything from kwargs as attributes
         for k, v in kwargs.items():
             setattr(self, k, v)
@@ -178,7 +180,7 @@ class Player():
         ][self.index]
 
     def deal(self, cards):
-        self.cards = cards
+        self.cards = cards + self.locked_cards
         self.game.lobby.message(self.user, 'dealhand', ' '.join(
             ['%s,%d' % (card.file, card.priority) for card in self.cards]
         ))
@@ -264,6 +266,7 @@ class Player():
         self.x = self.y = -1
         self.health = MAX_HEALTH - 2
         self.lives -= 1
+        self.locked = []
         self.notify_move()
 
     def rot(self, amount):
@@ -273,12 +276,18 @@ class Player():
 
     def damage(self, amount=1):
         self.health -= amount
+        if self.health < 0:
+            self.kill()
+        elif self.health < 5:
+            self.locked.append(self.cards[self.health])
 
     def try_heal(self, amount=1):
         if self.pos() in self.game.flags or \
                 self.game.board[self.y][self.x].square in [REPAIR, HAMMER_AND_WRENCH]:
             for i in range(amount):
                 if self.health != MAX_HEALTH:
+                    if self.health < 5:
+                        self.locked.pop()
                     self.health += 1
         self.game.lobby.message(self.user, 'health', '%d %d' % (self.lives, self.health))
 
@@ -337,7 +346,7 @@ class Card():
         return self.priority < other.priority
 
     def __eq__(self, other):
-        return self.card == other
+        return self.priority == other.priority
 
 if __name__ == "__main__":
     pass
