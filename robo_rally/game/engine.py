@@ -17,7 +17,7 @@ class Engine():
                 user=player,
                 index=i,
                 lives=MAX_LIVES, # should we play with bonuses
-                health=[1] * MAX_HEALTH,
+                health=MAX_HEALTH,
                 archive=course.spawn[i],
                 orientation=1, # relative to up, 1 per dir
                 game=self,
@@ -233,7 +233,7 @@ class Player():
         return [] if self.cards is None else self.cards[5:]
 
     def num_cards(self):
-        return 9 - self.health.count(0)
+        return self.health
 
     def pos(self):
         return (self.x, self.y)
@@ -262,7 +262,8 @@ class Player():
     def kill(self):
         self.alive = False
         self.x = self.y = -1
-        self.health = [1] * (MAX_HEALTH - 2) + [0, 0]
+        self.health = MAX_HEALTH - 2
+        self.lives -= 1
         self.notify_move()
 
     def rot(self, amount):
@@ -271,18 +272,15 @@ class Player():
         self.notify_move()
 
     def damage(self, amount=1):
-        for i in range(amount):
-            health = self.health.count(1)
-            self.health = [1] * (health - 1) + [0] * (10 - health)
+        self.health -= amount
 
     def try_heal(self, amount=1):
         if self.pos() in self.game.flags or \
                 self.game.board[self.y][self.x].square in [REPAIR, HAMMER_AND_WRENCH]:
             for i in range(amount):
-                if 0 in self.health:
-                    self.health[self.health.index(0)] = 1
-        self.game.lobby.message(self.user, 'health',
-            ' '.join(map(str, self.health)))
+                if self.health != MAX_HEALTH:
+                    self.health += 1
+        self.game.lobby.message(self.user, 'health', '%d %d' % (self.lives, self.health))
 
 
     def reach(self):

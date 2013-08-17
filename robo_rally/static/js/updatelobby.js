@@ -78,11 +78,18 @@ var move = function (text, player) {
 };
 
 var health = function (text, player) {
-    text = text.split(" ");
+    stats = text.split(' ');
+    lives = parseInt(stats[0]);
+    $(".lives img").remove();
+    for (var i = 0; i < lives; i++) {
+        $(".lives").append('<img src="/static/images/sheet/life.png">');
+    }
+    health = parseInt(stats[1]);
     damage = $(".damage img");
     for (var i = 0; i < 9; i++) {
-        token = "health"
-        if (text[i] == "0") {token = "damage"};
+        token = "damage"
+        console.log(i, health);
+        if (i < health) {token = "health"};
         $(damage[i]).attr("src", "/static/images/sheet/" + token + ".png");
     }
 };

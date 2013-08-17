@@ -29,8 +29,8 @@
         {% endfor %}
     </div>
     <div class="damage">
-        {% for health in player.health %}
-            {% if health %}
+        {% for i in 9|range %}
+            {% if player.health > i %}
                 <img src="/static/images/sheet/health.png"/>
             {% else %}
                 <img src="/static/images/sheet/damage.png"/>
