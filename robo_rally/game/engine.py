@@ -130,14 +130,15 @@ class Engine():
         for player in self.players:
             bot = self.blocked((player.x, player.y), (None, None), countbots=True, side=player.orientation)
             if isinstance(bot, Player):
-                print "player shoots", bot
-                bot.damage(1)
+                bot.damage()
 
     def deal(self):
         self.deck = [Card(p) for p in range(10, 850, 10)]
         for player in self.players:
-            for card in player.locked:
-                self.deck.remove(card) # hoping this will use __eq__
+            for card in self.deck:
+                if card in player.locked:
+                    card.locked = True
+        self.deck = list(filter(lambda x: not x.locked, self.deck))
         random.shuffle(self.deck)
         for player in self.players:
             player.deal(self.deck[-player.num_cards():])
@@ -180,7 +181,7 @@ class Player():
         ][self.index]
 
     def deal(self, cards):
-        self.cards = cards + self.locked_cards
+        self.cards = cards + self.locked[::-1]
         self.game.lobby.message(self.user, 'dealhand', ' '.join(
             ['%s,%d' % (card.file, card.priority) for card in self.cards]
         ))
@@ -315,6 +316,7 @@ class Card():
         assert 10 <= priority <= 840
         assert priority % 10 == 0
         self.priority = priority
+        self.locked = False
         cards = {
             10: UTURN,
             70: ROTLEFT,
@@ -346,7 +348,10 @@ class Card():
         return self.priority < other.priority
 
     def __eq__(self, other):
-        return self.priority == other.priority
+        if isinstance(other, str):
+            return self.card == other
+        elif isinstance(other, Card):
+            return self.priority == other.priority
 
 if __name__ == "__main__":
     pass

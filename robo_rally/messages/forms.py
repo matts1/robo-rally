@@ -51,6 +51,8 @@ class MessageCreateForm(Form):
     action = CharField()
 
     def clean(self):
+        if self.user.get_profile().lobby is None:
+            raise ValidationError('Player not in lobby')
         self.user.get_profile().ping()
         self.user.get_profile().lobby.remove_old_players()
         data = self.cleaned_data
