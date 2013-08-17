@@ -137,7 +137,7 @@ var deal = function (text, player) {
     for (var i = 5; i < hand.length; i++) {
         file = hand[i].split(",")[0];
         priority = parseInt(hand[i].split(",")[1]);
-        $(".hand").append('<img src="/static/images/cards/' + priority + '.png">');
+        $(".hand").append('<img src="/static/images/cards/' + priority + '.png" class="program_card">');
     }
 }
 

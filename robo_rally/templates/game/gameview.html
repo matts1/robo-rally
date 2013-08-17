@@ -12,9 +12,6 @@
             <div>2 {{ forloop.counter }} {{ player.x }} {{ player.y }} {{ player.orientation }}</div>
             <div>1 {{ forloop.counter }} {{ player.archive.0 }} {{ player.archive.1 }} 0</div>
         {% endfor %}
-        {% for flag in game.flags %}
-            <div>0 {{ forloop.counter }} {{ flag.0 }} {{ flag.1 }} 0</div>
-        {% endfor %}
     </div>
 </div>
 

@@ -8,7 +8,7 @@ class Engine():
         self.filename = course.filename
         self.board = course.board
         self.spawn = course.spawn
-        self.flags = course.flags
+        self.flags = [tuple(flag) for flag in course.flags]
         self.rules = course.rules
         self.players = []
 
@@ -137,7 +137,6 @@ class Engine():
         for player in self.players:
             for card in self.deck:
                 if card in player.locked:
-                    print "locking card", card.priority
                     card.locked = True
         self.deck = list(filter(lambda x: not x.locked, self.deck))
         random.shuffle(self.deck)
