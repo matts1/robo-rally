@@ -163,7 +163,16 @@ function drawSpecial(display, squareSize, type, objid, x, y, rot) {
         img.stop().animate({
             left: new_left + 'px',
             top: new_top + 'px'},
-            {queue: true, duration: 200}
+            {queue: true, duration: 200, complete: function() {
+                img.stop().animate({  borderSpacing: rot * 90 }, {
+                    step: function(now,fx) {
+                        $(this).css('-webkit-transform','rotate('+now+'deg)');
+                        $(this).css('-moz-transform','rotate('+now+'deg)');
+                        $(this).css('-ms-transform','rotate('+now+'deg)');
+                        $(this).css('-o-transform','rotate('+now+'deg)');
+                        $(this).css('transform','rotate('+now+'deg)');
+                    }, queue: false, duration:'200'}, 'linear');
+            }}
         );
         if (type == 2) {
             for (var i = 0; i < 4; i++) {
