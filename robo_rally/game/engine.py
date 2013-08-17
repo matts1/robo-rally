@@ -61,6 +61,7 @@ class Engine():
             if not player.alive:
                 player.spawn()
         self.deal()
+        self.flush_notifications()
 
     def run_move(self):
         if not all([p.confirmed for p in self.players]):
@@ -173,6 +174,7 @@ class Player():
             if player != self and player.pos() == self.archive:
                 self.virtual = True
         self.x, self.y = self.archive
+        self.notify_move()
 
     def run_register(self, register):
         card = self.cards[register]
