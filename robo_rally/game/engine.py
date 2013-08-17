@@ -50,7 +50,7 @@ class Engine():
                 return True
             x1 += dx
             y1 += dy
-            if not 0 <= x1 < len(self.board[0]) and 0 <= y1 <= len(self.board):
+            if not (0 <= x1 < len(self.board[0]) and 0 <= y1 < len(self.board)):
                 return False
             if countbots and self.get_player(x1, y1) is not None:
                 return self.get_player(x1, y1)
@@ -119,20 +119,20 @@ class Engine():
                 player.rot(1)
 
     def fire_lasers(self):
-#        for y, row in enumerate(self.board):
-#            for x, square in enumerate(row):
-#                for i, side in enumerate(square.walls):
-#                    if side in LASERS:
-#                        bot = self.blocked((x, y), (None, None), countbots=True, side=i)
-#                        if isinstance(bot, Player):
-#                            print bot
-#                            bot.damage(LASERS.index(side) + 1)
+        for y, row in enumerate(self.board):
+            for x, square in enumerate(row):
+                for i, side in enumerate(square.walls):
+                    if side in LASERS:
+                        bot = self.blocked((x, y), (None, None), countbots=True, side=i)
+                        if isinstance(bot, Player):
+                            print bot
+                            bot.damage(LASERS.index(side) + 1)
 
         for player in self.players:
             bot = self.blocked((player.x, player.y), (None, None), countbots=True, side=player.orientation)
             print bot
             if isinstance(bot, Player):
-                print "player shoots" + bot
+                print "player shoots", bot
                 bot.damage(1)
 
     def deal(self):
@@ -272,7 +272,8 @@ class Player():
 
     def damage(self, amount=1):
         for i in range(amount):
-            self.health[self.health.index(0) - 1] = 0
+            health = self.health.count(1)
+            self.health = [1] * (health - 1) + [0] * (10 - health)
 
     def try_heal(self, amount=1):
         if self.pos() in self.game.flags or \
