@@ -257,6 +257,10 @@ class Player():
         self.orientation %= 4
         self.notify_move()
 
+    def damage(self, amount=1):
+        for i in range(amount):
+            self.health[self.health.index(0) - 1] = 0
+
     def try_heal(self, amount=1):
         if self.pos() in self.game.flags or \
                 self.game.board[self.y][self.x].square in [REPAIR, HAMMER_AND_WRENCH]:
