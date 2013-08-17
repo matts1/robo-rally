@@ -4,22 +4,47 @@
 {% block content %}
     <p>
         <h1>Objective</h1>
-        The objective of robo rally is to get your bot to all of the flags, in order, and to be the first to do so. You
-        can try and stop others from getting the flags by shooting the other players and by pushing them off course.
+        The objective of robo rally is to get your bot to all of the flags, in order, and to be the first to do so. It's
+        that simple... or is it...
     </p>
     <p>
         <h1>How to play</h1>
         You play by arranging your program cards in the order you want them to be executed. The first 5 program cards
         will get executed, and the rest will get discarded. Click "ready" when you have finished making your move. When
         everyone finishes making their move, the turn starts. The players with the highest priority cards will move
-        first
-    </p>
+        first. A move card will make you move that many squares in the direction you are facing, pushing any robots as
+        you go. You will, however, be stopped by walls. Rotate cards will make you rotate as shown on the card. After
+        all the robots have moved for that register, board elements move. Firstly the double conveyer moves one, then
+        both the conveyers move. Pushers then push on the appropriate turns (2 pronged pushers on 2 and 4, and 3 pronged
+        on 1, 3, and 5). Finally, gears rotate. After all these elements have moved, the board lasers, then the robot
+        lasers fire. When you get hit you take damage, which means you will get less program cards at the start of your
+        next turn. After all this happens, robots can place their respawn tokens if they are standing on top of a repair
+        station or a flag. Finally, robots have the opportunity to declare power down.
 
+        If the register was the last, then players on repair stations heal and get an option card.
+    </p>
+    <p>
+        <h1>Dying</h1>
+        You die when either you fall off the map into a pit or off the edge, or when you lose all your health.
+        When you come back, you come back with 2 damage already taken.
+    </p>
+    <p>
+        <h1>Power Down</h1>
+        Power down is a state of healing. Declaring power down means you play the next round, but the turn after, you
+        are powered down. During a round in which you are powered down, you get dealt no cards, and cannot do anything,
+        but at the start of the turn you get restored to full health. While powered down you can still take damage,
+        however.
+    </p>
     <p>
         <h1>Help (FAQs)</h1>
         <h3>How do I arrange my cards?</h3>
-            You can arrange your cards by clicking on any pair of them to swap them. When you have finished, click
-            ready
+            You can arrange your cards by clicking on any pair of them to swap them. When you have finished, click ready
+            and when everyone is ready, the game will load.
         <h3>What is a priority?</h3>
+            A card's priority is the number in the top right of the card. It indicates how to handle the situation when
+            2 robots would push each other. The higher priority always moves first
+        <h3>How do I capture flags?</h3>
+            You capture flags by being on the same spot as the flag at the end of any register, having captured the flag
+            before it.
     </p>
 {% endblock %}
