@@ -49,7 +49,7 @@ class Engine():
                 return True
             x1 += dx
             y1 += dy
-            if not 0 <= x1 < len(self.board[0]) and 0 <= y1 <= len(board):
+            if not 0 <= x1 < len(self.board[0]) and 0 <= y1 <= len(self.board):
                 return False
             if countbots and self.get_player(x1, y1) is not None:
                 return self.get_player(x1, y1)
