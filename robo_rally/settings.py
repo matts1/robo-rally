@@ -209,7 +209,7 @@ VALID_ACTIONS = {
     'startgame': ALL,
     'dealhand': SELF,
     'move': ALL,
-    'health': ALL,
+    'health': SELF,
     'swapcards': NONE,
     'playerready':NONE
 }

@@ -7,6 +7,7 @@ document.ready = function() {
 
     window.socket.on("message", function (data) {
         data = data.data;
+        console.log(data.action)
         data.text = data.text.split("\n");
         for (var i = 0; i < data.text.length; i++) {
             functions[data.action](data.text[i], data.user);
@@ -69,6 +70,7 @@ jQuery.fn.swapWith = function(to) {
 };
 
 var move = function (text, player) {
+    console.log(text)
     moves = text.split(" ");
     drawSpecial($(".boarddisplay"), window.squareSize, parseInt(moves[1]),
         parseInt(moves[0]), parseInt(moves[2]),
@@ -77,8 +79,14 @@ var move = function (text, player) {
 };
 
 var health = function (text, player) {
-    // placeholder
-}
+    text = text.split(" ");
+    damage = $(".damage img");
+    for (var i = 0; i < 9; i++) {
+        token = "health"
+        if (text[i] == "0") {token = "damage"};
+        $(damage[i]).attr("src", "/static/images/sheet/" + token + ".png");
+    }
+};
 
 var startGame = function (text, player) {
     if ($("#dynamic_element #playerlist").length) {

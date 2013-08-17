@@ -149,6 +149,7 @@ function drawSpecial(display, squareSize, type, objid, x, y, rot) {
     if (x == -1 && y == -1) { // they are dead
         if (key in window.specials) {
             window.specials[key].remove()
+            console.log("die")
         }
         return;
     }
@@ -204,7 +205,6 @@ function drawSpecial(display, squareSize, type, objid, x, y, rot) {
         img.width(squareSize);
         squareSize = window.squareSize
         img.css("left", (x * squareSize) + (squareSize - img.width()) / 2);
-        console.log(img.css("left"))
         img.css("top", (y * squareSize) + (squareSize - img.height()) / 2);
     }
     window.specials[key] = $(img);

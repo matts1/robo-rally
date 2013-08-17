@@ -101,7 +101,7 @@ class Engine():
                     entrance = exit
                     exit = player.square().exit
                     if (8 - entrance) % 4 in player.square().entrances:
-                        player.rot(exit - entrance + 4)
+                        player.rot(exit - entrance)
 
     def push_pushers(self, register):
         active = PUSHER24 if register % 2 else PUSHER135
@@ -262,8 +262,8 @@ class Player():
             for i in range(amount):
                 if 0 in self.health:
                     self.health[self.health.index(0)] = 1
-        self.game.add_notification('health',
-                '%d %s' % (self.index, ','.join(map(str, self.health))))
+        self.game.lobby.message(self.user, 'health',
+            ' '.join(map(str, self.health)))
 
 
     def reach(self):
