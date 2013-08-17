@@ -31,20 +31,21 @@ class Engine():
             if player.flag == len(self.flags):
                 return player
 
-    def blocked(self, (x1, y1), (x2, y2), countbots=False):
-        assert (x1 == x2) != (y1 == y2)
-        if x1 > x2:
-            side = 3
-        elif x1 < x2:
-            side = 1
-        elif y1 > y2:
-            side = 0
-        elif y1 < y2:
-            side = 2
+    def blocked(self, (x1, y1), (x2, y2), countbots=False, side=None):
+        assert (x1 == x2) != (y1 == y2) or (x2, y2) == (None, None)
+        if side == None:
+            if x1 > x2:
+                side = 3
+            elif x1 < x2:
+                side = 1
+            elif y1 > y2:
+                side = 0
+            elif y1 < y2:
+                side = 2
         opp = (8 - side) % 4
         dx, dy = [(0, -1), (1, 0), (0, 1), (-1, 0)][side]
 
-        while (x1, y1) != (x2, y2):
+        while (x1, y1) != (x2, y2) or (x2, y2) == (None, None):
             if self.board[y1][x1].walls[side] != BLANK:
                 return True
             x1 += dx
@@ -118,9 +119,21 @@ class Engine():
                 player.rot(1)
 
     def fire_lasers(self):
-        # FIRE BOARD LASERS
+#        for y, row in enumerate(self.board):
+#            for x, square in enumerate(row):
+#                for i, side in enumerate(square.walls):
+#                    if side in LASERS:
+#                        bot = self.blocked((x, y), (None, None), countbots=True, side=i)
+#                        if isinstance(bot, Player):
+#                            print bot
+#                            bot.damage(LASERS.index(side) + 1)
+
         for player in self.players:
-            pass # FIRE PLAYER's LASERS
+            bot = self.blocked((player.x, player.y), (None, None), countbots=True, side=player.orientation)
+            print bot
+            if isinstance(bot, Player):
+                print "player shoots" + bot
+                bot.damage(1)
 
     def deal(self):
         self.deck = [Card(p) for p in range(10, 850, 10)]
