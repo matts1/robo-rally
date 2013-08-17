@@ -47,7 +47,7 @@
 <div class="cards">
     <div class="hand">
         {% for card in player.hand %}
-            <img src="/static/images/cards/{{ card.file }}.png" alt="{{ card.card }}" class="program_card"/>
+            <img src="/static/images/cards/{{ card.priority }}.png" alt="{{ card.card }}" class="program_card"/>
         {% endfor %}
     </div>
     <div class="option_cards">
