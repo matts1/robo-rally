@@ -6,6 +6,10 @@ html {
     height: 100%;
 }
 
+nav ul li {
+    display: inline;
+}
+
 body {
     background-color: #646464;
     padding: 0;
