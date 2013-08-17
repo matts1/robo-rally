@@ -71,10 +71,12 @@ jQuery.fn.swapWith = function(to) {
 
 var move = function (text, player) {
     moves = text.split(" ");
-    drawSpecial($(".boarddisplay"), window.squareSize, parseInt(moves[1]),
-        parseInt(moves[0]), parseInt(moves[2]),
-        parseInt(moves[3]), parseInt(moves[4])
-    );
+    for (var i = 0; i < moves.length; i+=5) {
+        drawSpecial($(".boarddisplay"), window.squareSize, parseInt(moves[i + 1]),
+            parseInt(moves[i]), parseInt(moves[i + 2]),
+            parseInt(moves[i + 3]), parseInt(moves[i + 4]), (i+1)*5 == moves.length
+        );
+    }
 };
 
 var health = function (text, player) {
@@ -101,7 +103,7 @@ var startGame = function (text, player) {
         loadBoard($("#boarddisplay"), $("#boarddisplay").attr("data-filename"));
 
         window.selected = null;
-        $(".program_card").on("click", function() {
+        $("#dynamic_element").on("click", ".program_card", function() {
             card = $(this);
             if (window.selected == null) {
                 window.selected = card

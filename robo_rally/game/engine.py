@@ -197,18 +197,16 @@ class Player():
 
     def run_register(self, register):
         card = self.cards[register]
+        pushed = [self]
         if card == MOVE1:
-            self.move()
+            pushed = self.move()
         elif card == MOVE2:
-            self.move()
-            self.move()
+            pushed = self.move(dis=2)
         elif card == MOVE3:
-            self.move()
-            self.move()
-            self.move()
+            pushed = self.move(dis=3)
         elif card == BACKUP:
             self.rot(2)
-            self.move()
+            pushed = self.move()
             self.rot(2)
         elif card == ROTLEFT:
             self.rot(-1)
@@ -218,6 +216,14 @@ class Player():
             self.rot(2)
         else:
             raise ValueError("Player card was %s. Should have been a proper move" % card.card)
+
+        res = []
+        for player in pushed:
+            res.append('%d %d %d %d %d' % (self.index, 2, self.x, self.y, self.orientation))
+        self.game.add_notification(
+            'move',
+            ' '.join(res)
+        )
 
     def notify_move(self):
         self.game.add_notification(
@@ -241,20 +247,22 @@ class Player():
     def pos(self):
         return (self.x, self.y)
 
-    def move(self, direction=None):
-        if direction is None:
-            direction = self.orientation
-        dx, dy = [(0, -1), (1, 0), (0, 1), (-1, 0)][direction]
-        nx = self.x + dx
-        ny = self.y + dy
-        if self.game.get_player(nx, ny) is not None:
-            self.game.get_player(nx, ny).move(direction)
-        if not self.game.blocked(self.pos(), (nx, ny)):
-            self.x = nx
-            self.y = ny
-            self.notify_move()
-        if not self.in_bounds():
-            self.kill()
+    def move(self, direction=None, dis=1):
+        pushed = [self]
+        for i in range(dis):
+            if direction is None:
+                direction = self.orientation
+            dx, dy = [(0, -1), (1, 0), (0, 1), (-1, 0)][direction]
+            nx = self.x + dx
+            ny = self.y + dy
+            if self.game.get_player(nx, ny) is not None:
+                pushed += self.game.get_player(nx, ny).move(direction)
+            if not self.game.blocked(self.pos(), (nx, ny)):
+                self.x = nx
+                self.y = ny
+            if not self.in_bounds():
+                self.kill()
+        return pushed
     
     def in_bounds(self):
         board = self.game.board
@@ -273,7 +281,6 @@ class Player():
     def rot(self, amount):
         self.orientation += 4 + amount
         self.orientation %= 4
-        self.notify_move()
 
     def damage(self, amount=1):
         self.health -= amount

@@ -155,7 +155,7 @@ function animate (queue_pos, img, new_left, new_top, rot) {
         img.stop().animate({
         left: new_left + 'px',
         top: new_top + 'px'},
-        {queue: true, duration: 600, complete: function() {
+        {queue: false, duration: 600, complete: function() {
             window.first_queue = queue_pos + 1;
             img.stop().animate({  borderSpacing: rot * 90 }, {
                 step: function(now,fx) {
@@ -164,13 +164,18 @@ function animate (queue_pos, img, new_left, new_top, rot) {
                     $(this).css('-ms-transform','rotate('+now+'deg)');
                     $(this).css('-o-transform','rotate('+now+'deg)');
                     $(this).css('transform','rotate('+now+'deg)');
-                }, queue: true, duration:'200'}, 'linear');
+                }, queue: false, duration:'200'}, 'linear');
             }
         }, 'linear');
     }
 }
 
 function drawSpecial(display, squareSize, type, objid, x, y, rot) {
+    last = true;
+    if (arguments.length > 7) {
+        last = arguments[7];
+    }
+    console.log("last:",last, arguments.length);
     key = (8 * type) + objid;
     if (x == -1 && y == -1) { // they are dead
         if (key in window.specials) {
@@ -187,7 +192,9 @@ function drawSpecial(display, squareSize, type, objid, x, y, rot) {
         new_left = (x * squareSize) + (squareSize - img.width()) / 2;
         new_top = (y * squareSize) + (squareSize - img.height()) / 2;
         animate(window.newest_todo, img, new_left, new_top, rot);
-        window.newest_todo++;
+        if (last) {
+            window.newest_todo++;
+        }
 
         if (type == 2) {
             for (var i = 0; i < 4; i++) {
