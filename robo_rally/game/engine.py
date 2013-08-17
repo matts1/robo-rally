@@ -49,6 +49,8 @@ class Engine():
                 return True
             x1 += dx
             y1 += dy
+            if not 0 <= x1 < len(self.board[0]) and 0 <= y1 <= len(board):
+                return False
             if countbots and self.get_player(x1, y1) is not None:
                 return self.get_player(x1, y1)
             if self.board[y1][x1].walls[opp] != BLANK:
@@ -95,7 +97,7 @@ class Engine():
             if player.alive and player.square().square in conveyers:
                 exit = player.square().exit
                 player.move(exit)
-                if player.square().square in conveyers:
+                if player.square().square in [CONVEYER1, CONVEYER2]:
                     entrance = exit
                     exit = player.square().exit
                     if (8 - entrance) % 4 in player.square().entrances:
