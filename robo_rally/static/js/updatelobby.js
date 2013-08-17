@@ -98,13 +98,15 @@ var startGame = function (text, player) {
         $(".program_card").on("click", function() {
             card = $(this);
             if (window.selected == null) {
-                window.selected = card;
+                window.selected = card
+                card.addClass("program_card_border");
             } else {
                 if (card != window.selected) {
                     send(
                         "swapcards",
                         $(".program_card").index(card) + " " + $(".program_card").index(window.selected)
                     );
+                    $(".program_card_border").removeClass("program_card_border");
                     card.swapWith(window.selected);
                 }
                 window.selected = null;

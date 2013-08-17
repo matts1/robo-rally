@@ -138,6 +138,10 @@ div.program_cards img, div.hand img, div.option_cards img {
     float: right;
 }
 
+.program_card_border {
+    border: 2px solid #fff
+}
+
 /* Board render settings */
 .rot90 {
     -webkit-transform: rotate(90deg);
