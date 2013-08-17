@@ -127,11 +127,17 @@ var startGame = function (text, player) {
 
 var deal = function (text, player) {
     hand = text.split(" ");
+    $(".hand .program_card").remove();
     cards = $(".program_card");
-    for (var i = 0; i < hand.length; i++) {
+    for (var i = 0; i < 5; i++) {
         file = hand[i].split(",")[0];
         priority = parseInt(hand[i].split(",")[1]);
         $(cards[i]).attr("src", "/static/images/cards/" + priority + ".png");
+    }
+    for (var i = 5; i < hand.length; i++) {
+        file = hand[i].split(",")[0];
+        priority = parseInt(hand[i].split(",")[1]);
+        $(".hand").append('<img src="/static/images/cards/' + priority + '.png">');
     }
 }
 

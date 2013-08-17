@@ -137,6 +137,7 @@ class Engine():
         for player in self.players:
             for card in self.deck:
                 if card in player.locked:
+                    print "locking card", card.priority
                     card.locked = True
         self.deck = list(filter(lambda x: not x.locked, self.deck))
         random.shuffle(self.deck)
