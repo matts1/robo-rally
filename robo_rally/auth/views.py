@@ -1,10 +1,11 @@
+from django.contrib.sessions.models import Session
 from robo_rally.auth.forms import *
 from django.views.generic.edit import FormView
 from django.views.generic import RedirectView
 from django.core.urlresolvers import reverse_lazy
 from django.contrib import messages
 from django.contrib.auth.forms import PasswordResetForm
-from django.contrib.auth.signals import user_logged_out
+from django.contrib.auth.signals import user_logged_out, user_logged_in
 
 class FormView(FormView):
     extra_args = True
@@ -52,6 +53,16 @@ class MsgView(RedirectView):
         return reverse_lazy(kwargs['redirect'])
 
 def logout(user, **kwargs):
-    user.get_profile().leave_lobby()
+    profile = user.get_profile()
+    profile.leave_lobby()
+    profile.session = None
+    profile.save()
+
+def login(sender, user, request, **kwargs):
+    # the session still has not been created for the new user at this stage
+    for session in Session.objects.all():
+        if session.get_decoded().get('_auth_user_id') == user.id:
+            session.delete()
 
 user_logged_out.connect(logout)
+user_logged_in.connect(login)
