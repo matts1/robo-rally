@@ -140,7 +140,9 @@ class Engine():
             for x, square in enumerate(row):
                 for i, side in enumerate(square.walls):
                     if side in LASERS:
-                        bot = self.blocked((x, y), (None, None), countbots=True, side=i)
+                        bot = self.get_player(x, y)
+                        if bot is None:
+                            bot = self.blocked((x, y), (None, None), countbots=True, side=(6-i)%4)
                         if isinstance(bot, Player):
                             bot.damage(LASERS.index(side) + 1)
 
@@ -304,9 +306,10 @@ class Player():
         self.health -= amount
         if self.health < 0:
             self.kill()
-        elif self.health < 5:
-            self.locked.append(self.cards[self.health])
-            self.locked[-1].locked = True
+        for i in range(amount):
+            if 0 <= self.health < 5:
+                self.locked.append(self.cards[self.health])
+                self.locked[-1].locked = True
 
     def try_heal(self, amount=1):
         if self.pos() in self.game.flags or \
