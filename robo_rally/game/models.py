@@ -80,7 +80,7 @@ class Lobby(models.Model):
             print 'As you reloaded the web server, '\
                 'the game was deleted, but the lobby stayed. '\
                 'The game is being recreated with a new map'
-            self.start_game('courses/007.rrc')
+            self.start_game('courses/carricks_bend.rrc')
         return Lobby.games.get(self.name)
 
     def __repr__(self):

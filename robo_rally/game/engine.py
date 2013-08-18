@@ -98,7 +98,7 @@ class Engine():
             if player.alive and player.square().square in conveyers:
                 exit = player.square().exit
                 pushed = player.move(exit)
-                if player.square().square in [CONVEYER1, CONVEYER2]:
+                if player.square() is not None and player.square().square in [CONVEYER1, CONVEYER2]:
                     entrance = (exit + 2) % 4
                     exit = player.square().exit
                     if (8 - entrance) % 4 in player.square().entrances:
@@ -114,16 +114,17 @@ class Engine():
     def push_pushers(self, register):
         active = PUSHER24 if register % 2 else PUSHER135
         for player in self.players:
-            for side, wall in enumerate(self.board[player.y][player.x].walls):
-                if wall == active:
-                    pushed = player.move((8 - side) % 4)
-                    res = []
-                    for player in pushed:
-                        res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
-                    self.add_notification(
-                        'move',
-                        ' '.join(res)
-                    )
+            if player.square() is not None:
+                for side, wall in enumerate(player.square().walls):
+                    if wall == active:
+                        pushed = player.move((6 - side) % 4)
+                        res = []
+                        for player in pushed:
+                            res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
+                        self.add_notification(
+                            'move',
+                            ' '.join(res)
+                        )
 
     def rotate_gears(self):
         for player in self.players:
