@@ -99,10 +99,10 @@ class Engine():
                 exit = player.square().exit
                 pushed = player.move(exit)
                 if player.square().square in [CONVEYER1, CONVEYER2]:
-                    entrance = exit
+                    entrance = (exit + 2) % 4
                     exit = player.square().exit
                     if (8 - entrance) % 4 in player.square().entrances:
-                        player.rot(exit - entrance)
+                        player.rot(entrance - exit)
                 res = []
                 for player in pushed:
                     res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))

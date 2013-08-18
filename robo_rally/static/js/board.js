@@ -198,22 +198,25 @@ function drawSpecial(display, squareSize, type, objid, x, y, rot) {
         window.specials[key].remove();
         delete window.specials[key];
     } else if (key in window.specials) {
-        img = window.specials[key];
-        new_left = (x * squareSize) + (squareSize - img.width()) / 2;
-        new_top = (y * squareSize) + (squareSize - img.height()) / 2;
-        animate(window.newest_todo, img, new_left, new_top, rot);
-        if (last) {
-            window.newest_todo++;
-        }
-
-        if (type == 2) {
-            for (var i = 0; i < 4; i++) {
-                img.removeClass("rot" + i*90);
+        if (window.specials[key] != 1) {
+            img = window.specials[key];
+            new_left = (x * squareSize) + (squareSize - img.width()) / 2;
+            new_top = (y * squareSize) + (squareSize - img.height()) / 2;
+            animate(window.newest_todo, img, new_left, new_top, rot);
+            if (last) {
+                window.newest_todo++;
             }
-            img.addClass("rot" + rot * 90)
+
+            if (type == 2) {
+                for (var i = 0; i < 4; i++) {
+                    img.removeClass("rot" + i*90);
+                }
+                img.addClass("rot" + rot * 90)
+            }
         }
         return;
     }
+    window.specials[key] = 1;
     if (type == 2) {
         var image = "players/" + [
             "hammer_bot",
