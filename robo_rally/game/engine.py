@@ -42,7 +42,7 @@ class Engine():
                 side = 0
             elif y1 < y2:
                 side = 2
-        opp = (8 - side) % 4
+        opp = (6 - side) % 4
         dx, dy = [(0, -1), (1, 0), (0, 1), (-1, 0)][side]
 
         while (x1, y1) != (x2, y2) or (x2, y2) == (None, None):
@@ -101,8 +101,8 @@ class Engine():
                 if player.square() is not None and player.square().square in [CONVEYER1, CONVEYER2]:
                     entrance = (exit + 2) % 4
                     exit = player.square().exit
-                    if (8 - entrance) % 4 in player.square().entrances:
-                        player.rot(entrance - exit)
+                    if entrance in player.square().entrances:
+                        player.rot(2 - entrance + exit)
                 res = []
                 for player in pushed:
                     res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
