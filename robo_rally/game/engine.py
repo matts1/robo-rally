@@ -199,7 +199,7 @@ class Player():
     def deal(self, cards):
         self.cards = cards + self.locked[::-1]
         self.game.lobby.message(self.user, 'dealhand', ' '.join(
-            ['%s,%d' % (card.file, card.priority) for card in self.cards]
+            ['%s,%d,%d' % (card.file, card.priority, int(card.locked)) for card in self.cards]
         ))
 
     def spawn(self):
@@ -305,6 +305,7 @@ class Player():
             self.kill()
         elif self.health < 5:
             self.locked.append(self.cards[self.health])
+            self.locked[-1].locked = True
 
     def try_heal(self, amount=1):
         if self.pos() in self.game.flags or \
@@ -376,6 +377,3 @@ class Card():
             return self.card == other
         elif isinstance(other, Card):
             return self.priority == other.priority
-
-if __name__ == "__main__":
-    pass

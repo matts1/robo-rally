@@ -37,7 +37,8 @@
     <div class="spacer"></div>
     <div class="program_cards">
         {% for card in player.program_cards %}
-            <img src="/static/images/cards/{{ card.priority }}.png" class="program_card"/>
+            <img src="/static/images/cards/{{ card.priority }}.png"
+                 class="program_card{% if card.locked %} locked{% endif %}"/>
         {% endfor %}
     </div>
 </div>

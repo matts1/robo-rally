@@ -106,7 +106,7 @@ div.damage {
     margin: 10px auto;
     border: 0;
     padding: 0;
-    width: 482px;
+    width: 490px;
     height: 40px;
 }
 
@@ -148,6 +148,10 @@ div.program_cards img, div.hand img, div.option_cards img {
 
 .program_card_border {
     border: 2px solid #fff
+}
+
+.locked {
+    opacity: 0.6;
 }
 
 /* Board render settings */

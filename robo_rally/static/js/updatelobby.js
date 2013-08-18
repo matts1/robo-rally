@@ -105,6 +105,9 @@ var startGame = function (text, player) {
         window.selected = null;
         $("#dynamic_element").on("click", ".program_card", function() {
             card = $(this);
+            if ($(this).hasClass("locked")) {
+                return; // only perform action if not locked
+            }
             if (window.selected == null) {
                 window.selected = card
                 card.addClass("program_card_border");
@@ -134,7 +137,13 @@ var deal = function (text, player) {
     for (var i = 0; i < 5; i++) {
         file = hand[i].split(",")[0];
         priority = parseInt(hand[i].split(",")[1]);
+        locked = parseInt(hand[i].split(",")[2]);
         $(cards[i]).attr("src", "/static/images/cards/" + priority + ".png");
+        if (locked) {
+            $(cards[i]).addClass("locked");
+        } else {
+            $(cards[i]).removeClass("locked");
+        }
     }
     for (var i = 5; i < hand.length; i++) {
         file = hand[i].split(",")[0];
