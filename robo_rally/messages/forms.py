@@ -1,3 +1,4 @@
+from django.contrib.auth.models import AnonymousUser
 from django.forms import *
 from django.conf import settings
 from robo_rally.auth.forms import Form
@@ -51,6 +52,8 @@ class MessageCreateForm(Form):
     action = CharField()
 
     def clean(self):
+        if isinstance(self.user, AnonymousUser):
+            raise ValidationError('Player is not logged in')
         if self.user.get_profile().lobby is None:
             raise ValidationError('Player not in lobby')
         self.user.get_profile().ping()

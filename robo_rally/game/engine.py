@@ -22,7 +22,7 @@ class Engine():
                 orientation=1, # relative to up, 1 per dir
                 game=self,
             ))
-            self.players[-1].spawn()
+            self.players[-1].spawn(notify=False)
 
         self.deal()
 
@@ -202,14 +202,15 @@ class Player():
             ['%s,%d,%d' % (card.file, card.priority, int(card.locked)) for card in self.cards]
         ))
 
-    def spawn(self):
+    def spawn(self, notify=True):
         self.alive = True
         self.orientation = 1
         for player in self.game.players:
             if player != self and player.pos() == self.archive:
                 self.virtual = True
         self.x, self.y = self.archive
-        self.notify_move()
+        if notify:
+            self.notify_move()
 
     def run_register(self, register):
         card = self.cards[register]
@@ -234,7 +235,6 @@ class Player():
             raise ValueError("Player card was %s. Should have been a proper move" % card.card)
 
         res = []
-        print [p.user.username for p in pushed]
         for player in pushed:
             res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
         self.game.add_notification(

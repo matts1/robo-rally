@@ -49,6 +49,7 @@ function loadTableRowBoard(obj, url) {
 function loadBoard(obj, url) {
     window.first_queue = 0;
     window.newest_todo = 0;
+
     $.get(url, {}, function(data) {
         data = $(data);
         var fields = [
@@ -156,18 +157,26 @@ function animate (queue_pos, img, new_left, new_top, rot) {
         left: new_left + 'px',
         top: new_top + 'px'},
         {queue: false, duration: 600, complete: function() {
+            // console.log("rotating to", rot * 90, "from", img.getRotateAngle()[0]);
+//            img.rotate({
+//                duration: 1000,
+//                angle: img.getRotateAngle()[0],
+//                animateTo: rot * 90,
+//                callback: function () {
+//                    window.first_queue = queue_pos + 1;
+//                }
+//            });
             img.stop().animate({  borderSpacing: rot * 90 }, {
-                step: function(now,fx) {
-                    $(this).css('-webkit-transform','rotate('+now+'deg)');
-                    $(this).css('-moz-transform','rotate('+now+'deg)');
-                    $(this).css('-ms-transform','rotate('+now+'deg)');
-                    $(this).css('-o-transform','rotate('+now+'deg)');
-                    $(this).css('transform','rotate('+now+'deg)');
-                }, queue: false, duration:'200', complete: function() {
-                    window.first_queue = queue_pos + 1;
-                }});
-            }
-        });
+            step: function(now,fx) {
+                $(this).css('-webkit-transform','rotate('+now+'deg)');
+                $(this).css('-moz-transform','rotate('+now+'deg)');
+                $(this).css('-ms-transform','rotate('+now+'deg)');
+                $(this).css('-o-transform','rotate('+now+'deg)');
+                $(this).css('transform','rotate('+now+'deg)');
+            }, queue: false, duration:'300', complete: function() {
+                window.first_queue = queue_pos + 1;
+            }});
+        }});
     }
 }
 
@@ -178,11 +187,12 @@ function drawSpecial(display, squareSize, type, objid, x, y, rot) {
     }
     key = (8 * type) + objid;
     if (x == -1 && y == -1) { // they are dead
-        if (key in window.specials) {
-            window.specials[key].remove();
-            delete window.specials[key];
-        }
-        return;
+        x = y = 9001;
+//        if (key in window.specials) {
+//            window.specials[key].remove();
+//            delete window.specials[key];
+//        }
+//        return;
     }
     if (key in window.specials && type == 1) { // spawn, don't animate
         window.specials[key].remove();
