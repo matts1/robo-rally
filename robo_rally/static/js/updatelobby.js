@@ -152,6 +152,10 @@ var deal = function (text, player) {
     }
 }
 
+var newobjective = function (text, player) {
+    $(".nextflag").html(text);
+}
+
 var functions = {
     "adduser": addPlayer,
     "deleteuser": removePlayer,
@@ -160,6 +164,7 @@ var functions = {
     "move": move,
     "health": health,
     "dealhand": deal,
+    "newobjective": newobjective,
 };
 
 var send = function (action, msg) {

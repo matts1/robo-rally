@@ -184,6 +184,10 @@ div.program_cards img, div.hand img, div.option_cards img {
     position: absolute;
 }
 
+.program_card, .button {
+    cursor: pointer;
+}
+
 .side {
     z-index: 1;
     position: absolute;

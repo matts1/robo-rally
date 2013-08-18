@@ -332,6 +332,7 @@ class Player():
                 'move',
                 '%d %d %d %d %d' % (self.index, 1, self.x, self.y, 0)
             )
+            self.game.lobby.message(self.user, 'newobjective', str(self.flag+1))
 
     def square(self):
         if self.alive:

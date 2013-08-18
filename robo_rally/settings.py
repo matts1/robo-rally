@@ -211,5 +211,6 @@ VALID_ACTIONS = {
     'move': ALL,
     'health': SELF,
     'swapcards': NONE,
-    'playerready':NONE
+    'playerready':NONE,
+    'newobjective': SELF,
 }

@@ -19,6 +19,8 @@
 <div class="character_sheet">
     <span class="bio">
         <img src="/static/images/players/{{ player.robot }}.png" class="bot_example">
+        <img src="/static/images/sheet/power_down.png" class="button"/>
+        Next Objective: Flag <span class="nextflag">{{ player.flag|add:1 }}</span>
     </span>
     <button id="ready_button">Ready!</button>
     <div class="lives">
