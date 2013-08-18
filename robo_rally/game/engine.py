@@ -96,47 +96,49 @@ class Engine():
                 return player
 
     def conveyer(self, normal=False):
+        res = []
         conveyers = [CONVEYER2] + [CONVEYER1]*normal
         for player in self.players:
             if player.alive and player.square().square in conveyers:
                 exit = player.square().exit
-                pushed = player.move(exit)
+                pushed = player.move(exit, conveyers=conveyers)
                 if player.square() is not None and player.square().square in [CONVEYER1, CONVEYER2]:
                     entrance = (exit + 2) % 4
                     exit = player.square().exit
                     if entrance in player.square().entrances:
                         player.rot(2 - entrance + exit)
-                res = []
                 for player in pushed:
                     res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
-                self.add_notification(
-                    'move',
-                    ' '.join(res)
-                )
+        self.add_notification(
+            'move',
+            ' '.join(res)
+        )
 
     def push_pushers(self, register):
+        res = []
         active = PUSHER24 if register % 2 else PUSHER135
         for player in self.players:
             if player.square() is not None:
                 for side, wall in enumerate(player.square().walls):
                     if wall == active:
                         pushed = player.move((6 - side) % 4)
-                        res = []
                         for player in pushed:
                             res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
-                        self.add_notification(
-                            'move',
-                            ' '.join(res)
-                        )
+        self.add_notification(
+            'move',
+            ' '.join(res)
+        )
 
     def rotate_gears(self):
+        res = []
         for player in self.players:
             if self.board[player.y][player.x].square == RED_GEAR:
                 player.rot(-1)
-                player.notify_move()
+                res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
             elif self.board[player.y][player.x].square == GREEN_GEAR:
                 player.rot(1)
-                player.notify_move()
+                res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
+        self.add_notification('move', ' '.join(res))
 
     def fire_lasers(self):
         for y, row in enumerate(self.board):
@@ -276,7 +278,7 @@ class Player():
     def pos(self):
         return (self.x, self.y)
 
-    def move(self, direction=None, dis=1):
+    def move(self, direction=None, dis=1, conveyers=[]):
         pushed = [self]
         for i in range(dis):
             if direction is None:
@@ -285,7 +287,8 @@ class Player():
             nx = self.x + dx
             ny = self.y + dy
             if self.game.get_player(nx, ny) is not None:
-                pushed += self.game.get_player(nx, ny).move(direction)
+                if self.game.get_player(nx, ny).square().square not in conveyers:
+                    pushed += self.game.get_player(nx, ny).move(direction)
             if not self.game.blocked(self.pos(), (nx, ny)):
                 self.x = nx
                 self.y = ny
