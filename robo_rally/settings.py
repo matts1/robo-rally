@@ -213,4 +213,5 @@ VALID_ACTIONS = {
     'swapcards': NONE,
     'playerready':NONE,
     'newobjective': SELF,
+    'powerdown': NONE,
 }

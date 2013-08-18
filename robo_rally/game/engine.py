@@ -72,7 +72,8 @@ class Engine():
 
         for register in range(5):
             for player in sorted(self.players, key=lambda x: x.cards[register]):
-                player.run_register(register)
+                if player.power_down != 0:
+                    player.run_register(register)
             self.conveyer()
             self.conveyer(normal=True)
             self.push_pushers(register)
@@ -83,7 +84,14 @@ class Engine():
             self.flush_notifications()
 
         for player in self.players:
-            player.try_heal()
+            if player.power_down != 0:
+                player.try_heal()
+            player.power_down -= 1
+            if player.power_down == 0:
+                # heal
+                player.locked = []
+                player.health = MAX_HEALTH
+            self.lobby.message(player.user, 'health', '%d %d' % (player.lives, player.health))
 
         self.move()
 
@@ -147,9 +155,10 @@ class Engine():
                             bot.damage(LASERS.index(side) + 1)
 
         for player in self.players:
-            bot = self.blocked((player.x, player.y), (None, None), countbots=True, side=player.orientation)
-            if isinstance(bot, Player):
-                bot.damage()
+            if player.power_down != 0:
+                bot = self.blocked((player.x, player.y), (None, None), countbots=True, side=player.orientation)
+                if isinstance(bot, Player):
+                    bot.damage()
 
     def deal(self):
         self.deck = [Card(p) for p in range(10, 850, 10)]
@@ -160,7 +169,11 @@ class Engine():
         self.deck = list(filter(lambda x: not x.locked, self.deck))
         random.shuffle(self.deck)
         for player in self.players:
-            player.deal(self.deck[-player.num_cards():])
+            if player.power_down != 0:
+                player.deal(self.deck[-player.num_cards():])
+            else:
+                player.confirmed = True
+                self.lobby.message(player.user, 'dealhand', '')
             self.deck = self.deck[:-player.num_cards()]
 
     def add_notification(self, action, text, flush=False):
@@ -207,6 +220,7 @@ class Player():
 
     def spawn(self, notify=True):
         self.alive = True
+        self.power_down = -1
         self.orientation = 1
         for player in self.game.players:
             if player != self and player.pos() == self.archive:
@@ -259,7 +273,7 @@ class Player():
         return [] if self.cards is None else self.cards[:5]
 
     def hand(self):
-        return [] if self.cards is None else self.cards[5:]
+        return [] if self.cards is None or self.power_down == 0 else self.cards[5:]
 
     def num_cards(self):
         return self.health
@@ -319,7 +333,6 @@ class Player():
                     if self.health < 5:
                         self.locked.pop()
                     self.health += 1
-        self.game.lobby.message(self.user, 'health', '%d %d' % (self.lives, self.health))
 
 
     def reach(self):

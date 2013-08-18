@@ -127,10 +127,19 @@ var startGame = function (text, player) {
         $("#ready_button").on("click", function(){
             send("playerready", "");
         });
+
+        $("#powerdown").click(function() {
+            send("powerdown", "");
+        })
     });
 };
 
 var deal = function (text, player) {
+    if (text == "") {
+        $(".program_card").addClass("invisible");
+    } else {
+        $(".program_card").removeClass("invisible");
+    }
     hand = text.split(" ");
     $(".hand .program_card").remove();
     cards = $(".program_card");

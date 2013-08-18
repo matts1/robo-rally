@@ -19,7 +19,7 @@
 <div class="character_sheet">
     <span class="bio">
         <img src="/static/images/players/{{ player.robot }}.png" class="bot_example">
-        <img src="/static/images/sheet/power_down.png" class="button"/>
+        <img src="/static/images/sheet/power_down.png" class="button" id="powerdown"/>
         Next Objective: Flag <span class="nextflag">{{ player.flag|add:1 }}</span>
     </span>
     <button id="ready_button">Ready!</button>
@@ -41,7 +41,7 @@
     <div class="program_cards">
         {% for card in player.program_cards %}
             <img src="/static/images/cards/{{ card.priority }}.png"
-                 class="program_card{% if card.locked %} locked{% endif %}"/>
+                 class="program_card{% if card.locked %} locked{% endif %}{% if player.power_down == 0 %} invisible{% endif %}"/>
         {% endfor %}
     </div>
 </div>

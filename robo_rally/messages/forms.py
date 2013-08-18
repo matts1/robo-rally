@@ -38,6 +38,11 @@ def swapcards(action, text, user):
     c1, c2 = map(int, text.split(' '))
     user.get_profile().get_game_player().swapcards(c1, c2)
 
+def power_down(action, text, user):
+    player = user.get_profile().get_game_player()
+    if player.power_down != 0:
+        player.power_down = 1
+
 PERFORM_FUNCTIONS = {
     'gotopickmap': pick_map,
     'adduser': getleader,
@@ -45,6 +50,7 @@ PERFORM_FUNCTIONS = {
     'startgame': start_game,
     'swapcards': swapcards,
     'playerready': player_confirmed,
+    'powerdown': power_down
 }
 
 class MessageCreateForm(Form):
