@@ -156,7 +156,6 @@ function animate (queue_pos, img, new_left, new_top, rot) {
         left: new_left + 'px',
         top: new_top + 'px'},
         {queue: false, duration: 600, complete: function() {
-            window.first_queue = queue_pos + 1;
             img.stop().animate({  borderSpacing: rot * 90 }, {
                 step: function(now,fx) {
                     $(this).css('-webkit-transform','rotate('+now+'deg)');
@@ -164,9 +163,11 @@ function animate (queue_pos, img, new_left, new_top, rot) {
                     $(this).css('-ms-transform','rotate('+now+'deg)');
                     $(this).css('-o-transform','rotate('+now+'deg)');
                     $(this).css('transform','rotate('+now+'deg)');
-                }, queue: false, duration:'200'}, 'linear');
+                }, queue: false, duration:'200', complete: function() {
+                    window.first_queue = queue_pos + 1;
+                }});
             }
-        }, 'linear');
+        });
     }
 }
 
@@ -175,7 +176,6 @@ function drawSpecial(display, squareSize, type, objid, x, y, rot) {
     if (arguments.length > 7) {
         last = arguments[7];
     }
-    console.log("last:",last, arguments.length);
     key = (8 * type) + objid;
     if (x == -1 && y == -1) { // they are dead
         if (key in window.specials) {

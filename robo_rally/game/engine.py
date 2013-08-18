@@ -97,26 +97,42 @@ class Engine():
         for player in self.players:
             if player.alive and player.square().square in conveyers:
                 exit = player.square().exit
-                player.move(exit)
+                pushed = player.move(exit)
                 if player.square().square in [CONVEYER1, CONVEYER2]:
                     entrance = exit
                     exit = player.square().exit
                     if (8 - entrance) % 4 in player.square().entrances:
                         player.rot(exit - entrance)
+                res = []
+                for player in pushed:
+                    res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
+                self.add_notification(
+                    'move',
+                    ' '.join(res)
+                )
 
     def push_pushers(self, register):
         active = PUSHER24 if register % 2 else PUSHER135
         for player in self.players:
             for side, wall in enumerate(self.board[player.y][player.x].walls):
                 if wall == active:
-                    player.move((8 - side) % 4)
+                    pushed = player.move((8 - side) % 4)
+                    res = []
+                    for player in pushed:
+                        res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
+                    self.add_notification(
+                        'move',
+                        ' '.join(res)
+                    )
 
     def rotate_gears(self):
         for player in self.players:
             if self.board[player.y][player.x].square == RED_GEAR:
                 player.rot(-1)
+                player.notify_move()
             elif self.board[player.y][player.x].square == GREEN_GEAR:
                 player.rot(1)
+                player.notify_move()
 
     def fire_lasers(self):
         for y, row in enumerate(self.board):
@@ -218,8 +234,9 @@ class Player():
             raise ValueError("Player card was %s. Should have been a proper move" % card.card)
 
         res = []
+        print [p.user.username for p in pushed]
         for player in pushed:
-            res.append('%d %d %d %d %d' % (self.index, 2, self.x, self.y, self.orientation))
+            res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
         self.game.add_notification(
             'move',
             ' '.join(res)
@@ -263,7 +280,7 @@ class Player():
             if not self.in_bounds():
                 self.kill()
         return pushed
-    
+
     def in_bounds(self):
         board = self.game.board
         return 0 <= self.x < len(board[0]) \
