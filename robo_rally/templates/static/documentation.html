@@ -4,29 +4,25 @@
     <p>
         <h1>Statement Of Purpose</h1>
         This project is a website designed to allow the user to play the board game
-        <a href="http://www.wizards.com/default.asp?x=ah/prod/roborally">Robo Rally</a>
-        online with other users.<br/>
-        It is designed to run on all platforms which have a HTML5 capable web browser
-        and Javascript.<br/>
+        <a href="http://www.wizards.com/default.asp?x=ah/prod/roborally">Robo Rally</a> online with other users.<br/>
+        It is designed to run on all platforms which have a HTML5 capable web browser and Javascript.<br/>
     </p>
     <p>
         <h1>Screen And Interface Design</h1>
         <figure>
             <img src="/static/images/documentation/lobby_GUI_draft1.jpg">
             <figcaption>
-                Sam's first design for the lobbies page. The user can join various
-                lobbies from the side, and view what is happening in them in the
-                rest of the screen. In the end, this was not implemented due to time
+                Sam's first design for the lobbies page. The user can join various lobbies from the side, and view what
+                is happening in them in the rest of the screen. In the end, this was not implemented due to time
                 constraints.
             </figcaption>
         </figure>
         <figure>
             <img src="/static/images/documentation/game_GUI_draft1.jpg">
             <figcaption>
-                Sam's first design for the game screen. Board is displayed, followed
-                by the player's character sheet, followed by the other player's
-                character sheets. These will be expandable and contractable. However, this
-                is a feature we will leave till later to implement as it is not nessecary.
+                Sam's first design for the game screen. Board is displayed, followed by the player's character sheet,
+                followed by the other players' character sheets. These will be expandable and contractable. However,
+                this is a feature we will leave till later (if we do it at all) to implement as it is not nessecary.
             </figcaption>
         </figure>
     </p>
@@ -39,5 +35,136 @@
                 working on the same file.
             </figcaption>
         </figure>
+    </p>
+
+    <p>
+        <h1>Testing</h1>
+        <p>
+        We planned to use django's built in testing functionality to help us with testing our game. Unfortunately, our
+        game engine ended up being too integrated with the asynchronous websocket server for us to be able to test it -
+        It had no output functions, and few input functions. Because of this we had to do manual testing. The game's
+        bugs were easier to fix as it was usually a lot more obvious what was going wrong, as we tested small bits of
+        functionality at a time. </p><p>
+        For example, I added the functionality for pushers to push, and then we would test it. We only usually retested
+        something when we changed a function. This meant that there was not much testing neccesary for the engine.
+        However, the visualiser was another story. It was simple to test the rendering of the board in general, as I
+        could simply compare it with the images <a href="http://roborally.gamerjeff.com/archive.php">here</a> to see if
+        it rendered correctly (this was also how I tested the parser for the file format).</p><p>
+        Testing the animations was probably the hardest bit. In order to test animations we had to know exactly what the
+        robots were going to do. Unfortunately, especially at first, the animations were way too fast to see what was
+        happening in each individual turn, so we had to retry it many times before we could see it in detail, a slow and
+        tedious process.</p><p>
+        Testing the asynchronous server would be the hardest thing to test, as you have to send messages through a
+        server, and since it is networked, you don't even know that the server is receiving them. However, this only had
+        to happen once, because I wrote a module to send a message to the asynchronous server from the django server,
+        and a function to receive a message from the asynchronous server to the client, and pass it to the appropriate
+        function. Once the server just passed on all messages from the server to the client that we told it to, we never
+        touched it again, as it made testing much easier if all interaction came directly from the django server to the
+        client. Because we were only passing strings in between the servers, there were no particularly hard cases we
+        needed to test for, so we were able to pretend that the asynchronous server didn't exist.</p><p>
+        Whenever we found a bug, we would either fix it immediately locally, or put it
+        <a href="https://github.com/matts1/robo-rally/issues">here</a> (chances are, it still has a few open bugs, as we
+        probably won't have time to fix all of them).</p><p>
+        We used a lot of console.logs (equivalent of print in javascript) to output our variables, as javascript,
+        instead of chucking a NameError like in python, gives you a variable "undefined", making it a lot harder to see
+        what bugs are without printing them, as you can do operations with undefined without chucking an error (simply
+        returns undefined).</p><p>
+        Often we would expect one thing to happen, but an undefined variable would make the results very different. Here
+        are some examples of the bugs we found, how we found them, and what the solution to those bugs were (most of
+        these bugs can be seen in our commit messages, along with the fixes for them)</p>
+        <table>
+            <thead>
+                <tr>
+                    <td>Bug</td>
+                    <td>How we found it</td>
+                    <td>Reason bug occured</td>
+                    <td>Solution</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1,3,5 pushers moved on 2,4 and vice versa</td>
+                    <td>Tried to move through pushers a few times with the visualiser, realised it was wrong</td>
+                    <td>
+                        even registers activated 2,4 and odd 1,3,5. However, our registers were 0-indexed, so we had
+                        registers 0,1,2,3,4
+                    </td>
+                    <td>Inverted if statement</td>
+                </tr>
+                <tr>
+                    <td>When player falls off board, they still stay where they are in the visualiser</td>
+                    <td>Tried testing falling off the edge</td>
+                    <td>I deleted the key in the dictionary, but didn't remove the physical element from the page</td>
+                    <td>Removed the physical element befere deleting the key</td>
+                </tr>
+                <tr>
+                    <td>When player falls off the top of the board, a 500 internal server error is chucked</td>
+                    <td>Tried testing falling off the edge</td>
+                    <td>Had a &lt= instead of a &lt to check the y axis</td>
+                    <td>Made it &lt</td>
+                </tr>
+                <tr>
+                    <td>When one player pushes another off the edge, chucks a 500 internal server error</td>
+                    <td>Testing playing the game with Sam</td>
+                    <td>
+                        A function which checks whether a square is blocked tried to check if there was a wall on the
+                        inside of a square that was outside the board
+                    </td>
+                    <td>When it reaches the end of the board, it returns False (it isn't blocked)</td>
+                </tr>
+                <tr>
+                    <td>Player would loop their animations</td>
+                    <td>
+                        Sam was testing animations, and had no clue why it was looping, so we looked in the engine
+                        rather than the client.
+                    </td>
+                    <td>
+                        When I flushed the notifications to the server, I forgot to delete the old ones, so each time
+                        the notifications were flushed, it would send all the notifications from the start of the game
+                        till the current game state.
+                    </td>
+                    <td>After sending notifications, recreate the variable</td>
+                </tr>
+                <tr>
+                    <td>Clicking on a card after losing health could chuck an internal server error</td>
+                    <td>Testing playing the game (switching out cards, then just get a 500 error)</td>
+                    <td>
+                        When you lost health, you get dealt 1 less card. However, the visualiser simply switched out the
+                        image src tags, so you still kept the old image. When you got 1 less card, there was still a
+                        spare card which was out of index range of the actual cards.
+                    </td>
+                    <td>
+                        Made it remake the cards, rather than simply changing the image
+                    </td>
+                </tr>
+                <tr>
+                    <td>Animation would only go halfway sometimes</td>
+                    <td>Playing the game, and wasn't able to see the whole turn</td>
+                    <td>
+                        Because it was receiving messages asynchronously, if you had a move 1 then a back up, the client
+                        would get told to move 1, but before it finished it would back up, so you wouldn't see all of
+                        the move.
+                    </td>
+                    <td>
+                        Made asynchronous into synchronous by making it so that when the server received the message, it
+                        put it into a queue, and only when it finished moving did it get the next item in the queue.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Players were unable to capture flags or heal on them</td>
+                    <td>
+                        Was testing repair stations and flag's healing capabilities (repair stations worked, not flags)
+                    </td>
+                    <td>
+                        Flags were stored as a list [x, y] and player's position was stored as a tuple (x, y). I was
+                        doing a comparison between the 2, and because of the different data types, even when the
+                        coordinates were the same, it said they were not equal.
+                    </td>
+                    <td>
+                        Stored flags as a tuple
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </p>
 {% endblock %}
