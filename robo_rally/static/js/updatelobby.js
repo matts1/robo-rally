@@ -165,6 +165,10 @@ var newobjective = function (text, player) {
     $(".nextflag").html(text);
 }
 
+var myAlert = function (text, player) {
+    alert(text);
+}
+
 var functions = {
     "adduser": addPlayer,
     "deleteuser": removePlayer,
@@ -174,6 +178,7 @@ var functions = {
     "health": health,
     "dealhand": deal,
     "newobjective": newobjective,
+    "alert": myAlert,
 };
 
 var send = function (action, msg) {

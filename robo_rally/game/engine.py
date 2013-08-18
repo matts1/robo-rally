@@ -26,11 +26,6 @@ class Engine():
 
         self.deal()
 
-    def game_over(self):
-        for player in self.players:
-            if player.flag == len(self.flags):
-                return player
-
     def blocked(self, (x1, y1), (x2, y2), countbots=False, side=None):
         assert (x1 == x2) != (y1 == y2) or (x2, y2) == (None, None)
         if side == None:
@@ -338,6 +333,11 @@ class Player():
     def reach(self):
         if self.pos() == self.game.flags[self.flag]:
             self.flag += 1
+            if self.flag == len(self.game.flags):
+                self.game.add_notification(
+                    "alert",
+                    "%s has finished. However, you can still keep on playing." % self.user.username
+                )
         if self.pos() != self.archive and (self.pos() in self.game.flags or \
                 self.game.board[self.y][self.x].square in [REPAIR, HAMMER_AND_WRENCH]):
             self.archive = self.pos()

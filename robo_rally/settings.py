@@ -214,4 +214,5 @@ VALID_ACTIONS = {
     'playerready':NONE,
     'newobjective': SELF,
     'powerdown': NONE,
+    'alert': ALL,
 }
