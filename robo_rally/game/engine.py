@@ -243,7 +243,6 @@ class Player():
         ][self.index]
 
         # add options for testing here
-        self.get_option(RECOMPILE)
 
         self.can_recompile = RECOMPILE in self.options
 
@@ -465,8 +464,6 @@ class Player():
             self.game.deck = self.game.deck[:-self.num_cards()]
 
             self.game.lobby.message(self.user, 'health', '%d %d' % (self.lives, self.health))
-            # self.game.lobby.message(self.user, 'dealhand', '', flush=True)
-
     def square(self):
         if self.alive:
             return self.game.board[self.y][self.x]
