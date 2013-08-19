@@ -380,8 +380,8 @@ class Player():
 
         for i in range(amount):
             if ABLATIVE_COAT in self.options:
-                self.ablative_coat_health -= amount
-                if self.ablative_coat_health == 0:
+                self.ablative_coat_health -= 1
+                if self.ablative_coat_health <= 0:
                     self.delete_option(ABLATIVE_COAT)
             else:
                 self.health -= 1
