@@ -231,10 +231,13 @@ class Player():
         ][self.index]
 
         # add options for testing here
-        # self.get_option(CIRCUIT_BREAKER)
+        # self.get_option(EXTRA_MEMORY)
 
     def deal(self, cards):
         self.cards = cards + self.locked[::-1]
+        if EXTRA_MEMORY in self.options:
+            self.cards.append(self.game.deck[-1])
+            self.game.deck.pop()
         self.game.lobby.message(self.user, 'dealhand', ' '.join(
             ['%s,%d,%d' % (card.file, card.priority, int(card.locked)) for card in self.cards]
         ))
