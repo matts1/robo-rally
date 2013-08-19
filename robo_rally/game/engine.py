@@ -59,6 +59,7 @@ class Engine():
         virtual = set()
         for player in self.players:
             player.confirmed = False
+            player.can_recompile = RECOMPILE in player.options
             if not player.alive:
                 player.spawn()
             for player in self.players:
@@ -242,7 +243,9 @@ class Player():
         ][self.index]
 
         # add options for testing here
-        # self.get_option(POWER_DOWN_SHIELD)
+        self.get_option(RECOMPILE)
+
+        self.can_recompile = RECOMPILE in self.options
 
     def deal(self, cards):
         self.cards = cards + self.locked[::-1]
@@ -425,6 +428,8 @@ class Player():
                 self.game.lobby.message(self.user, 'options', '+' + OPTION_DESC[option])
             if option == ABLATIVE_COAT:
                 self.ablative_coat_health = 3
+            elif option == RECOMPILE:
+                self.can_recompile = False
 
     def delete_option(self, option):
         assert option in self.options
@@ -449,6 +454,18 @@ class Player():
                 '%d %d %d %d 0' % (self.index, 1, self.x, self.y)
             )
             self.game.lobby.message(self.user, 'newobjective', str(self.flag+1))
+
+    def recompile(self):
+        if self.can_recompile:
+            self.can_recompile = False
+            self.game.deck = self.cards + self.game.deck
+
+            self.damage()
+            self.deal(self.game.deck[-self.num_cards():])
+            self.game.deck = self.game.deck[:-self.num_cards()]
+
+            self.game.lobby.message(self.user, 'health', '%d %d' % (self.lives, self.health))
+            # self.game.lobby.message(self.user, 'dealhand', '', flush=True)
 
     def square(self):
         if self.alive:

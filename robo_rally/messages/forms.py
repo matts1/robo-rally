@@ -41,6 +41,10 @@ def power_down(action, text, user):
     if player.power_down != 0:
         player.power_down = 1
 
+def set_option(action, text, user):
+    if text == 'recompile':
+        user.get_profile().get_game_player().recompile()
+
 PERFORM_FUNCTIONS = {
     'gotopickmap': pick_map,
     'adduser': getleader,
@@ -48,7 +52,8 @@ PERFORM_FUNCTIONS = {
     'startgame': start_game,
     'swapcards': swapcards,
     'playerready': player_confirmed,
-    'powerdown': power_down
+    'powerdown': power_down,
+    'setoption': set_option,
 }
 
 class MessageCreateForm(Form):
