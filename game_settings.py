@@ -146,3 +146,16 @@ HIGH_POWERED_LASER = 23
 RAMMING_GEAR = 24
 DOUBLE_BARRELLED_LASER = 25
 POWER_DOWN_SHIELD = 26
+
+OPTION_DESC = {
+    EXTRA_MEMORY: 'Extra memory: Get an extra program card at the start of every turn',
+    MECH_ARM: 'Mechanical arm: Touch flags and repair stations from 1 square away '
+        '(vertically, horizontally, or diagonally)',
+    RAMMING_GEAR: 'Ramming gear: whenever you bump into another robot (or they bump into you) '
+        'they take a damage',
+    ABLATIVE_COAT: 'Ablative coat: This option absorbs 3 damage before you lose it',
+    SUPERIOR_ARCHIVE: 'Superior archive: When you respawn, you respawn on full health, '
+        'rather than having taken 2 damage',
+    FLYWHEEL: 'Flywheel: Your last program card is your flywheel. It is saved for the next round'
+        'as an extra card you may use.',
+}

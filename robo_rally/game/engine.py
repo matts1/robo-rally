@@ -12,6 +12,8 @@ class Engine():
         self.rules = course.rules
         self.players = []
 
+        self.options = set(OPTION_DESC)
+
         for i, player in enumerate(players):
             self.players.append(Player(
                 user=player,
@@ -82,7 +84,7 @@ class Engine():
 
         for register in range(5):
             for player in sorted(self.players, key=lambda x: x.cards[register]):
-                if player.power_down != 0:
+                if player.power_down != 0 and player.alive:
                     player.run_register(register)
             self.conveyer()
             self.conveyer(normal=True)
@@ -211,6 +213,7 @@ class Player():
         self.x = self.y = None
         self.locked = [] # locked in reverse order - registers go 5 to 1
         self.options = set()
+        self.last_pos = ''
         # set everything from kwargs as attributes
         for k, v in kwargs.items():
             setattr(self, k, v)
@@ -224,6 +227,9 @@ class Player():
             "twonky",
             "zoom_bot",
         ][self.index]
+
+        # add options for testing here
+        # self.get_option(SUPERIOR_ARCHIVE)
 
     def deal(self, cards):
         self.cards = cards + self.locked[::-1]
@@ -244,40 +250,42 @@ class Player():
             self.confirmed = True
 
     def run_register(self, register):
-        card = self.cards[register]
-        pushed = [self]
-        if card == MOVE1:
-            pushed = self.move()
-        elif card == MOVE2:
-            pushed = self.move(dis=2)
-        elif card == MOVE3:
-            pushed = self.move(dis=3)
-        elif card == BACKUP:
-            self.rot(2)
-            pushed = self.move()
-            self.rot(2)
-        elif card == ROTLEFT:
-            self.rot(-1)
-        elif card == ROTRIGHT:
-            self.rot(1)
-        elif card == UTURN:
-            self.rot(2)
-        else:
-            raise ValueError("Player card was %s. Should have been a proper move" % card.card)
+        if self.alive:
+            card = self.cards[register]
+            pushed = [self]
+            if card == MOVE1:
+                pushed = self.move()
+            elif card == MOVE2:
+                pushed = self.move(dis=2)
+            elif card == MOVE3:
+                pushed = self.move(dis=3)
+            elif card == BACKUP:
+                self.rot(2)
+                pushed = self.move()
+                self.rot(2)
+            elif card == ROTLEFT:
+                self.rot(-1)
+            elif card == ROTRIGHT:
+                self.rot(1)
+            elif card == UTURN:
+                self.rot(2)
+            else:
+                raise ValueError("Player card was %s. Should have been a proper move" % card.card)
 
-        res = []
-        for player in pushed:
-            res.append(player.notify_move(False))
-        self.game.add_notification(
-            'move',
-            ' '.join(res)
-        )
+            res = []
+            for player in pushed:
+                res.append(player.notify_move(False))
+            self.game.add_notification(
+                'move',
+                ' '.join(res)
+            )
 
     def notify_move(self, notify=True):
         opacity = 0.5 if self.virtual else 1
         move = '%d %d %d %d %d' % (self.index, 2, self.x, self.y, self.orientation)
-        if notify:
+        if notify and move != self.last_pos:
             self.game.add_notification('move', move)
+            last_pos = move
         return move
 
     def ready(self):
@@ -324,7 +332,9 @@ class Player():
     def kill(self):
         self.alive = False
         self.x = self.y = -1
-        self.health = MAX_HEALTH - 2
+        self.health = MAX_HEALTH
+        if SUPERIOR_ARCHIVE not in self.options:
+            self.damage(2)
         self.lives -= 1
         self.locked = []
         self.notify_move()
@@ -342,15 +352,34 @@ class Player():
                 self.locked.append(self.cards[self.health])
                 self.locked[-1].locked = True
 
-    def try_heal(self, amount=1):
+    def try_heal(self):
         if self.pos() in self.game.flags or \
-                self.game.board[self.y][self.x].square in [REPAIR, HAMMER_AND_WRENCH]:
-            for i in range(amount):
-                if self.health != MAX_HEALTH:
-                    if self.health < 5:
-                        self.locked.pop()
-                    self.health += 1
+                self.square().square in [REPAIR, HAMMER_AND_WRENCH]:
+            if self.health != MAX_HEALTH:
+                if self.health < 5:
+                    self.locked.pop()
+                self.health += 1
+        if self.square().square == HAMMER_AND_WRENCH:
+            self.get_option()
 
+    def option_list(self):
+        return [OPTION_DESC[option] for option in self.options]
+
+    def get_option(self, force=None):
+        option = force
+        if force is None and self.game.options:
+            option = random.choice(list(self.game.options))
+        if option is not None:
+            self.game.options.remove(option)
+            self.options.add(option)
+            if not force:
+                self.game.lobby.message(self.user, 'options', '+' + OPTION_DESC[option])
+
+    def delete_option(self, option):
+        assert option in self.options
+        self.options.remove(option)
+        self.game.options.add(option)
+        self.game.lobby.message(self.user, 'options', '-' + OPTION_DESC[option])
 
     def reach(self):
         if self.pos() == self.game.flags[self.flag]:
@@ -361,7 +390,7 @@ class Player():
                     "%s has finished. However, you can still keep on playing." % self.user.username
                 )
         if self.pos() != self.archive and (self.pos() in self.game.flags or \
-                self.game.board[self.y][self.x].square in [REPAIR, HAMMER_AND_WRENCH]):
+                self.square().square in [REPAIR, HAMMER_AND_WRENCH]):
             self.archive = self.pos()
             self.game.add_notification(
                 'move',

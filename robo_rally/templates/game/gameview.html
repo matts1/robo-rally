@@ -52,8 +52,9 @@
         {% endfor %}
     </div>
     <div class="option_cards">
-        {% for option in player.option_cards %}
-            <img src="/static/images/cards/{{ option }}.jpg"/>
+        <h3>Your Options:</h3>
+        {% for option in player.option_list %}
+            <div class="option">{{ option }}</div>
         {% endfor %}
     </div>
 </div>

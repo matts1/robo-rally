@@ -217,4 +217,5 @@ VALID_ACTIONS = {
     'alert': ALL,
     'virtual': ALL,
     'restart': ALL,
+    'options': SELF,
 }
