@@ -79,6 +79,32 @@ var move = function (text, player) {
     }
 };
 
+var setOpacity = function (key, value) {
+    if (key in window.specials) {
+        window.specials[key].css("opacity", value);
+    }
+}
+
+var virtualCaller = function (text, player) {
+    virtual(window.newest_todo, text);
+}
+
+var virtual = function (queue_pos, text) {
+    if (queue_pos > window.first_queue) {
+        setTimeout(function () {
+            virtual(queue_pos, text);
+        }, 50);
+    } else {
+        players = text.split(" ");
+        for (var i = 16; i < 24; i++) {
+            setOpacity(i, 1);
+        }
+        for (var i = 0; i < players.length; i++) {
+            setOpacity(16 + parseInt(players[i]), 0.5);
+        }
+    }
+}
+
 var health = function (text, player) {
     stats = text.split(' ');
     lives = parseInt(stats[0]);
@@ -179,6 +205,7 @@ var functions = {
     "dealhand": deal,
     "newobjective": newobjective,
     "alert": myAlert,
+    "virtual": virtualCaller,
 };
 
 var send = function (action, msg) {

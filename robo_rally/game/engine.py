@@ -18,7 +18,7 @@ class Engine():
                 index=i,
                 lives=MAX_LIVES, # should we play with bonuses
                 health=MAX_HEALTH,
-                archive=course.spawn[i],
+                archive=tuple(course.spawn[i]),
                 orientation=1, # relative to up, 1 per dir
                 game=self,
             ))
@@ -54,10 +54,20 @@ class Engine():
         return False
 
     def move(self):
+        virtual = set()
         for player in self.players:
             player.confirmed = False
             if not player.alive:
                 player.spawn()
+            for player in self.players:
+                player.virtual = False
+                for bot in self.players:
+                    if bot.pos() == player.pos() and bot != player:
+                        player.virtual = True
+                        virtual.add(player.index)
+                        print player.user.username, 'is virtual'
+
+        self.add_notification('virtual', ' '.join(map(str, virtual)))
         self.deal()
         self.flush_notifications()
 
@@ -108,7 +118,7 @@ class Engine():
                     if entrance in player.square().entrances:
                         player.rot(2 - entrance + exit)
                 for player in pushed:
-                    res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
+                    res.append(player.notify_move(False))
         self.add_notification(
             'move',
             ' '.join(res)
@@ -123,7 +133,7 @@ class Engine():
                     if wall == active:
                         pushed = player.move((6 - side) % 4)
                         for player in pushed:
-                            res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
+                            res.append(player.notify_move(False))
         self.add_notification(
             'move',
             ' '.join(res)
@@ -134,10 +144,10 @@ class Engine():
         for player in self.players:
             if self.board[player.y][player.x].square == RED_GEAR:
                 player.rot(-1)
-                res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
+                res.append(player.notify_move(False))
             elif self.board[player.y][player.x].square == GREEN_GEAR:
                 player.rot(1)
-                res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
+                res.append(player.notify_move(False))
         self.add_notification('move', ' '.join(res))
 
     def fire_lasers(self):
@@ -152,9 +162,9 @@ class Engine():
                             bot.damage(LASERS.index(side) + 1)
 
         for player in self.players:
-            if player.power_down != 0:
+            if player.power_down != 0 and not player.virtual:
                 bot = self.blocked((player.x, player.y), (None, None), countbots=True, side=player.orientation)
-                if isinstance(bot, Player):
+                if isinstance(bot, Player) and not bot.virtual:
                     bot.damage()
 
     def deal(self):
@@ -183,7 +193,7 @@ class Engine():
             self.lobby.message(
                 None,
                 action,
-                '\n'.join(self.actions[action]),
+                '\n'.join(filter(bool, self.actions[action])),
             )
         self.actions = {}
 
@@ -219,9 +229,6 @@ class Player():
         self.alive = True
         self.power_down = -1
         self.orientation = 1
-        for player in self.game.players:
-            if player != self and player.pos() == self.archive:
-                self.virtual = True
         self.x, self.y = self.archive
         if notify:
             self.notify_move()
@@ -250,17 +257,18 @@ class Player():
 
         res = []
         for player in pushed:
-            res.append('%d %d %d %d %d' % (player.index, 2, player.x, player.y, player.orientation))
+            res.append(player.notify_move(False))
         self.game.add_notification(
             'move',
             ' '.join(res)
         )
 
-    def notify_move(self):
-        self.game.add_notification(
-            'move',
-            '%d %d %d %d %d' % (self.index, 2, self.x, self.y, self.orientation)
-        )
+    def notify_move(self, notify=True):
+        opacity = 0.5 if self.virtual else 1
+        move = '%d %d %d %d %d' % (self.index, 2, self.x, self.y, self.orientation)
+        if notify:
+            self.game.add_notification('move', move)
+        return move
 
     def ready(self):
         self.confirmed = True
@@ -286,9 +294,10 @@ class Player():
             dx, dy = [(0, -1), (1, 0), (0, 1), (-1, 0)][direction]
             nx = self.x + dx
             ny = self.y + dy
-            if self.game.get_player(nx, ny) is not None:
-                if self.game.get_player(nx, ny).square().square not in conveyers:
-                    pushed += self.game.get_player(nx, ny).move(direction)
+            bot = self.game.get_player(nx, ny)
+            if not self.virtual and bot is not None:
+                if not bot.virtual and bot.square().square not in conveyers:
+                    pushed += bot.move(direction)
             if not self.game.blocked(self.pos(), (nx, ny)):
                 self.x = nx
                 self.y = ny
@@ -346,7 +355,7 @@ class Player():
             self.archive = self.pos()
             self.game.add_notification(
                 'move',
-                '%d %d %d %d %d' % (self.index, 1, self.x, self.y, 0)
+                '%d %d %d %d 0' % (self.index, 1, self.x, self.y)
             )
             self.game.lobby.message(self.user, 'newobjective', str(self.flag+1))
 

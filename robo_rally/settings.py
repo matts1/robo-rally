@@ -215,4 +215,5 @@ VALID_ACTIONS = {
     'newobjective': SELF,
     'powerdown': NONE,
     'alert': ALL,
+    'virtual': ALL,
 }
