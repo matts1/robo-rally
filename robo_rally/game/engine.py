@@ -179,6 +179,12 @@ class Engine():
     def deal(self):
         self.deck = [Card(p) for p in range(10, 850, 10)]
         for player in self.players:
+            if FLYWHEEL in player.options:
+                player.flywheel = None
+                if player.cards is not None and len(player.cards) > 5:
+                    player.flywheel = player.cards[-1]
+
+        for player in self.players:
             for card in self.deck:
                 if card in player.locked:
                     card.locked = True
@@ -231,13 +237,18 @@ class Player():
         ][self.index]
 
         # add options for testing here
-        # self.get_option(EXTRA_MEMORY)
+        self.get_option(FLYWHEEL)
 
     def deal(self, cards):
         self.cards = cards + self.locked[::-1]
+
         if EXTRA_MEMORY in self.options:
             self.cards.append(self.game.deck[-1])
             self.game.deck.pop()
+
+        if FLYWHEEL in self.options and self.flywheel is not None:
+            self.cards.append(self.flywheel)
+
         self.game.lobby.message(self.user, 'dealhand', ' '.join(
             ['%s,%d,%d' % (card.file, card.priority, int(card.locked)) for card in self.cards]
         ))
@@ -370,6 +381,7 @@ class Player():
                 self.locked[-1].locked = True
 
     def try_heal(self):
+        if not self.alive: return
         if self.pos() in self.game.flags or \
                 self.square().square in [REPAIR, HAMMER_AND_WRENCH]:
             if self.health != MAX_HEALTH:
@@ -402,6 +414,7 @@ class Player():
         self.game.lobby.message(self.user, 'options', '-' + OPTION_DESC[option])
 
     def reach(self):
+        if not self.alive: return
         if self.pos() == self.game.flags[self.flag]:
             self.flag += 1
             if self.flag == len(self.game.flags):
