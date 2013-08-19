@@ -22,7 +22,7 @@ class UserProfile(models.Model):
         if self.lobby is not None:
             if self.lobby.name in Lobby.games:
                 game = Lobby.games[self.lobby.name]
-                if len(game.players == 1):
+                if len(game.players) == 1:
                     del Lobby.games[self.lobby.name]
                 else:
                     for player in game.players:

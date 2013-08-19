@@ -229,7 +229,7 @@ class Player():
         ][self.index]
 
         # add options for testing here
-        self.get_option(ABLATIVE_COAT)
+        # self.get_option(RAMMING_GEAR)
 
     def deal(self, cards):
         self.cards = cards + self.locked[::-1]
@@ -306,6 +306,7 @@ class Player():
 
     def move(self, direction=None, dis=1, conveyers=[]):
         pushed = [self]
+        hit = None
         for i in range(dis):
             if direction is None:
                 direction = self.orientation
@@ -315,12 +316,18 @@ class Player():
             bot = self.game.get_player(nx, ny)
             if not self.virtual and bot is not None:
                 if not bot.virtual and bot.square().square not in conveyers:
+                    hit = bot
                     pushed += bot.move(direction)
             if not self.game.blocked(self.pos(), (nx, ny)):
                 self.x = nx
                 self.y = ny
             if not self.in_bounds():
                 self.kill()
+        if hit is not None:
+            if RAMMING_GEAR in hit.options:
+                self.damage()
+            if RAMMING_GEAR in self.options:
+                hit.damage()
         return pushed
 
     def in_bounds(self):
@@ -374,7 +381,7 @@ class Player():
         option = force
         if force is None and self.game.options:
             option = random.choice(list(self.game.options))
-        if option is not None:
+        if option is not None and option in self.game.options:
             self.game.options.remove(option)
             self.options.add(option)
             if not force:
