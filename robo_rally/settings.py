@@ -216,4 +216,5 @@ VALID_ACTIONS = {
     'powerdown': NONE,
     'alert': ALL,
     'virtual': ALL,
+    'restart': ALL,
 }

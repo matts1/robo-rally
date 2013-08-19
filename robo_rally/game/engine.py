@@ -67,8 +67,14 @@ class Engine():
                         virtual.add(player.index)
                         print player.user.username, 'is virtual'
 
+        if not any([player.alive for player in self.players]):
+            self.add_notification('restart', '', flush=True)
+            del self.lobby.games[self.lobby.name]
+            return # just in case it infinite loops...
+
         self.add_notification('virtual', ' '.join(map(str, virtual)))
         self.deal()
+        self.run_move()
         self.flush_notifications()
 
     def run_move(self):
@@ -227,12 +233,16 @@ class Player():
         ))
 
     def spawn(self, notify=True):
-        self.alive = True
-        self.power_down = -1
-        self.orientation = 1
-        self.x, self.y = self.archive
-        if notify:
-            self.notify_move()
+        if self.lives > 0:
+            self.alive = True
+            self.power_down = -1
+            self.orientation = 1
+            self.x, self.y = self.archive
+            if notify:
+                self.notify_move()
+        else:
+            self.power_down = 0 # ensure they don't get dealt cards
+            self.confirmed = True
 
     def run_register(self, register):
         card = self.cards[register]

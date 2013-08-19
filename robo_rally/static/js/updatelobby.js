@@ -195,6 +195,11 @@ var myAlert = function (text, player) {
     alert(text);
 }
 
+var restartGame = function (text, player) {
+    alert("Everyone died... You must all suck. Let me make a new game for you.");
+    location.reload(true);
+}
+
 var functions = {
     "adduser": addPlayer,
     "deleteuser": removePlayer,
@@ -206,6 +211,7 @@ var functions = {
     "newobjective": newobjective,
     "alert": myAlert,
     "virtual": virtualCaller,
+    "restart": restartGame,
 };
 
 var send = function (action, msg) {
