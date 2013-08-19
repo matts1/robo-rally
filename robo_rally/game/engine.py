@@ -39,7 +39,7 @@ class Engine():
                 side = 0
             elif y1 < y2:
                 side = 2
-        opp = (6 - side) % 4
+        opp = (2 + side) % 4
         dx, dy = [(0, -1), (1, 0), (0, 1), (-1, 0)][side]
 
         while (x1, y1) != (x2, y2) or (x2, y2) == (None, None):
@@ -140,7 +140,7 @@ class Engine():
             if player.square() is not None:
                 for side, wall in enumerate(player.square().walls):
                     if wall == active:
-                        pushed = player.move((6 - side) % 4)
+                        pushed = player.move((2 + side) % 4)
                         for player in pushed:
                             res.append(player.notify_move(False))
         self.add_notification(
@@ -180,8 +180,6 @@ class Engine():
                 bot = self.blocked((player.x, player.y), (None, None), countbots=True, side=(2+player.orientation) % 4)
                 if isinstance(bot, Player) and not bot.virtual:
                     bot.damage()
-
-
 
     def deal(self):
         self.deck = [Card(p) for p in range(10, 850, 10)]
@@ -344,7 +342,8 @@ class Player():
                 hit = bot
                 moved = bot.move(direction)
                 pushed += moved
-                if not moved: blocked = True
+                if not moved:
+                    blocked = True
             if not self.game.blocked(self.pos(), (nx, ny)) and not blocked:
                 self.x = nx
                 self.y = ny
