@@ -176,6 +176,13 @@ class Engine():
                 if isinstance(bot, Player) and not bot.virtual:
                     bot.damage(1 + int(DOUBLE_BARRELED_LASER in player.options))
 
+            if REAR_FIRING_LASER in player.options:
+                bot = self.blocked((player.x, player.y), (None, None), countbots=True, side=(2+player.orientation) % 4)
+                if isinstance(bot, Player) and not bot.virtual:
+                    bot.damage()
+
+
+
     def deal(self):
         self.deck = [Card(p) for p in range(10, 850, 10)]
         for player in self.players:
@@ -237,7 +244,7 @@ class Player():
         ][self.index]
 
         # add options for testing here
-        self.get_option(DOUBLE_BARRELED_LASER)
+        # self.get_option(REAR_FIRING_LASER)
 
     def deal(self, cards):
         self.cards = cards + self.locked[::-1]

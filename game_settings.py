@@ -151,7 +151,7 @@ OPTION_DESC = {
     EXTRA_MEMORY: 'Extra Memory: Get an extra program card at the start of every turn',
 #     MECH_ARM: 'Mechanical Arm: Touch flags and repair stations from 1 square away '
 #         '(vertically, horizontally, or diagonally)',
-    RAMMING_GEAR: 'Ramming Gear: whenever you bump into another robot (or they bump into you) '
+    RAMMING_GEAR: 'Ramming Gear: Whenever you bump into another robot (or they bump into you) '
         'they take a damage',
     ABLATIVE_COAT: 'Ablative Coat: This option absorbs 3 damage before you lose it',
     SUPERIOR_ARCHIVE: 'Superior Archive: When you respawn, you respawn on full health, '
@@ -159,5 +159,6 @@ OPTION_DESC = {
     FLYWHEEL: 'Flywheel: Your last program card is your flywheel. It is saved for the next round'
         'as an extra card you may use.',
     CIRCUIT_BREAKER: 'Circuit Breaker: You automatically power down when you have 3 damage taken.',
-    DOUBLE_BARRELED_LASER: 'Double Barreled laser: shoot with your normal laser twice per turn',
+    DOUBLE_BARRELED_LASER: 'Double Barreled Laser: Shoot with your normal laser twice per turn',
+    REAR_FIRING_LASER: 'Rear Firing Laser: Shoot behind you. Cannot be used with double barreled laser'
 }
