@@ -99,6 +99,8 @@ class Engine():
             if player.power_down != 0:
                 player.try_heal()
             player.power_down -= 1
+            if CIRCUIT_BREAKER in player.options and player.health <= MAX_HEALTH - 3:
+                player.power_down = 0
             if player.power_down == 0:
                 # heal
                 player.locked = []
@@ -229,7 +231,7 @@ class Player():
         ][self.index]
 
         # add options for testing here
-        # self.get_option(RAMMING_GEAR)
+        # self.get_option(CIRCUIT_BREAKER)
 
     def deal(self, cards):
         self.cards = cards + self.locked[::-1]
@@ -378,6 +380,7 @@ class Player():
         return [OPTION_DESC[option] for option in self.options]
 
     def get_option(self, force=None):
+        assert force is None or force in OPTION_DESC
         option = force
         if force is None and self.game.options:
             option = random.choice(list(self.game.options))
