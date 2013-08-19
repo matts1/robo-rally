@@ -10,8 +10,8 @@ blank starting board
 5,2 4,2 6,2 3,2 7,2 2,2 1,2 8,2 
 fbbbb fbbbb fbbbb cesbbbb
 fbbbb fbbbb fbbbb cnsbbbb
-fbbbb fbbbb fbbbb cnsbbbb
-fbbbb fbbbb hbbbb cnsbbbb
+fbbbb fbbwb fbbbb cnsbbbb
+fbbbw fbbbb hbbbb cnsbbbb
 fbbbb fbbbb hbbbb cnsbbbb
 fbbbb fbbbb fbbbb cnsbbbb
 fbbbb fbbbb fbbbb cnsbbbb
@@ -19,7 +19,7 @@ fbbbb fbbbb fbbbb cnsbbbb
 fbbbb fbbbb fbbbb obbbb
 fbbbb fbbbb fbbbb gbbbb
 fbbbb fbbbb fbbbb obbbb
-fbblb fbbbb fbbbb gbbbb
+fbbbb fbbbb fbbbb gbbbb
 endboard
 sboard: blank starting board
 newboard:

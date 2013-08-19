@@ -328,6 +328,7 @@ class Player():
         return (self.x, self.y)
 
     def move(self, direction=None, dis=1, conveyers=[]):
+        orig = self.pos()
         pushed = [self]
         hit = None
         for i in range(dis):
@@ -337,11 +338,14 @@ class Player():
             nx = self.x + dx
             ny = self.y + dy
             bot = self.game.get_player(nx, ny)
-            if not self.virtual and bot is not None:
-                if not bot.virtual and bot.square().square not in conveyers:
-                    hit = bot
-                    pushed += bot.move(direction)
-            if not self.game.blocked(self.pos(), (nx, ny)):
+            blocked = False
+            if not self.virtual and bot is not None and not bot.virtual and \
+                    bot.square().square not in conveyers:
+                hit = bot
+                moved = bot.move(direction)
+                pushed += moved
+                if not moved: blocked = True
+            if not self.game.blocked(self.pos(), (nx, ny)) and not blocked:
                 self.x = nx
                 self.y = ny
             if not self.in_bounds():
@@ -351,7 +355,10 @@ class Player():
                 self.damage()
             if RAMMING_GEAR in self.options:
                 hit.damage()
-        return pushed
+        if orig == self.pos(): # no-one moved
+            return []
+        else:
+            return pushed
 
     def in_bounds(self):
         board = self.game.board
