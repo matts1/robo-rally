@@ -160,5 +160,6 @@ OPTION_DESC = {
         'as an extra card you may use.',
     CIRCUIT_BREAKER: 'Circuit Breaker: You automatically power down when you have 3 damage taken.',
     DOUBLE_BARRELED_LASER: 'Double Barreled Laser: Shoot with your normal laser twice per turn',
-    REAR_FIRING_LASER: 'Rear Firing Laser: Shoot behind you. Cannot be used with double barreled laser'
+    REAR_FIRING_LASER: 'Rear Firing Laser: Shoot behind you. Cannot be used with double barreled laser',
+    POWER_DOWN_SHIELD: 'Power Down Shield: Protects you from up to 1 damage per source per register',
 }

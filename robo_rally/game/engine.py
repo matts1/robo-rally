@@ -244,7 +244,7 @@ class Player():
         ][self.index]
 
         # add options for testing here
-        # self.get_option(REAR_FIRING_LASER)
+        # self.get_option(POWER_DOWN_SHIELD)
 
     def deal(self, cards):
         self.cards = cards + self.locked[::-1]
@@ -374,16 +374,22 @@ class Player():
         self.orientation %= 4
 
     def damage(self, amount=1):
-        if ABLATIVE_COAT in self.options:
-            self.ablative_coat_health -= 1
-            if self.ablative_coat_health == 0:
-                self.delete_option(ABLATIVE_COAT)
-        else:
-            self.health -= amount
-        if self.health < 0:
-            self.kill()
+        assert amount > 0
+        if self.power_down == 0 and POWER_DOWN_SHIELD in self.options:
+            amount -= 1
+
         for i in range(amount):
-            if 0 <= self.health < 5:
+            if ABLATIVE_COAT in self.options:
+                self.ablative_coat_health -= amount
+                if self.ablative_coat_health == 0:
+                    self.delete_option(ABLATIVE_COAT)
+            else:
+                self.health -= 1
+
+            if self.health < 0:
+                self.kill()
+                break # don't hurt them any more. They're already dead
+            elif self.health < 5:
                 self.locked.append(self.cards[self.health])
                 self.locked[-1].locked = True
 
