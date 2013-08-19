@@ -205,6 +205,7 @@ class Player():
         self.cards = None
         self.x = self.y = None
         self.locked = [] # locked in reverse order - registers go 5 to 1
+        self.options = set()
         # set everything from kwargs as attributes
         for k, v in kwargs.items():
             setattr(self, k, v)

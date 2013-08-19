@@ -157,15 +157,6 @@ function animate (queue_pos, img, new_left, new_top, rot) {
         left: new_left + 'px',
         top: new_top + 'px'},
         {queue: false, duration: 600, complete: function() {
-            // console.log("rotating to", rot * 90, "from", img.getRotateAngle()[0]);
-//            img.rotate({
-//                duration: 1000,
-//                angle: img.getRotateAngle()[0],
-//                animateTo: rot * 90,
-//                callback: function () {
-//                    window.first_queue = queue_pos + 1;
-//                }
-//            });
             img.stop().animate({  borderSpacing: rot * 90 }, {
             step: function(now,fx) {
                 $(this).css('-webkit-transform','rotate('+now+'deg)');
@@ -205,13 +196,6 @@ function drawSpecial(display, squareSize, type, objid, x, y, rot) {
             animate(window.newest_todo, img, new_left, new_top, rot);
             if (last) {
                 window.newest_todo++;
-            }
-
-            if (type == 2) {
-                for (var i = 0; i < 4; i++) {
-                    img.removeClass("rot" + i*90);
-                }
-                img.addClass("rot" + rot * 90)
             }
         }
         return;
