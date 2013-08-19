@@ -65,7 +65,6 @@ class Engine():
                     if bot.pos() == player.pos() and bot != player:
                         player.virtual = True
                         virtual.add(player.index)
-                        print player.user.username, 'is virtual'
 
         if not any([player.alive for player in self.players]):
             self.add_notification('restart', '', flush=True)

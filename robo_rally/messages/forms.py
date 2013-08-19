@@ -9,8 +9,6 @@ from robo_rally.messages.models import Message
 def pick_map(action, text, user):
     if user.get_profile().index != 0:
         raise ValidationError('The lobby leader needs to be the one to do that')
-    if user.get_profile().lobby.size() < 2:
-        raise ValidationError('You can\'t start a game with only one person')
     if user.get_profile().lobby.game_stage != LOBBY:
         raise ValidationError("The game has already been started")
 

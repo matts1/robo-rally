@@ -20,6 +20,19 @@ class UserProfile(models.Model):
     def leave_lobby(self):
         lobby = None
         if self.lobby is not None:
+            if self.lobby.name in Lobby.games:
+                game = Lobby.games[self.lobby.name]
+                if len(game.players == 1):
+                    del Lobby.games[self.lobby.name]
+                else:
+                    for player in game.players:
+                        if player.user == self.user:
+                            player.user = None
+                            player.lives = -1
+                            player.power_down = True
+                            player.confirmed = True
+                            game.run_move()
+
             for player in self.lobby.players():
                 profile = player.get_profile()
                 if profile.index > self.index:

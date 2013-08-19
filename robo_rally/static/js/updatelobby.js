@@ -32,7 +32,7 @@ var toTitleCase = function (str) {
 };
 
 var checkLeader = function (text) {
-    if (text == username.toLowerCase() && $("ul#playerlist li").length > 1) {
+    if (text == username.toLowerCase()) {
         $("#startgamebutton").removeClass("invisible");
     } else {
         $("#startgamebutton").addClass("invisible");
@@ -55,7 +55,9 @@ var removePlayer = function (text, player) {
 
 var gotoPickMap = function (text, player) {
     $("#playerlist").appendTo($("#content"));
-    $("#dynamic_element").load("/pickmap/" + $("#playerlist li").length, function () {
+    players = $("#playerlist li").length;
+    if (players == 1) players = 2;
+    $("#dynamic_element").load("/pickmap/" + players, function () {
         initMagicTable();
     });
 };

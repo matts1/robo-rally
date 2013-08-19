@@ -36,7 +36,8 @@ class Message(models.Model):
                 players = players.exclude(username=self.user.username)
             elif send_to == settings.SELF:
                 players = [self.user]
-
+            if None in players:
+                players.remove(None)
             if players:
                 data = {
                     'user': self.user.username if self.user is not None else '',
@@ -48,7 +49,6 @@ class Message(models.Model):
 
     def save(self, *args, **kwargs):
         as_dict = self.as_dict()
-        super(Message, self).save(*args, **kwargs)
         if as_dict is not None:
             print 'Sending message', as_dict
             send_event('message-create', as_dict)
