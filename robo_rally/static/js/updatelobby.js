@@ -204,16 +204,18 @@ var restartGame = function (text, player) {
 
 var setOptions = function (text, player) {
     if (text[0] == "+") {
+        result = "You just got:\n"
         $(".option_cards").append("<div class='option'>" + text.substring(1) + "</div>");
     } else if (text[0] == "-") {
         options = $(".option_cards div");
         for (var i = 0; i < options.length; i++) {
-            console.log($(options[i]).text(), text.substring(1))
+            result = "You just lost:\n"
             if ($(options[i]).text() == text.substring(1)) {
                 $(options[i]).remove();
             }
         }
     }
+    alert(result + text.substring(1));
 }
 
 var functions = {

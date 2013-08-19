@@ -229,7 +229,7 @@ class Player():
         ][self.index]
 
         # add options for testing here
-        # self.get_option(SUPERIOR_ARCHIVE)
+        self.get_option(ABLATIVE_COAT)
 
     def deal(self, cards):
         self.cards = cards + self.locked[::-1]
@@ -344,7 +344,12 @@ class Player():
         self.orientation %= 4
 
     def damage(self, amount=1):
-        self.health -= amount
+        if ABLATIVE_COAT in self.options:
+            self.ablative_coat_health -= 1
+            if self.ablative_coat_health == 0:
+                self.delete_option(ABLATIVE_COAT)
+        else:
+            self.health -= amount
         if self.health < 0:
             self.kill()
         for i in range(amount):
@@ -374,6 +379,8 @@ class Player():
             self.options.add(option)
             if not force:
                 self.game.lobby.message(self.user, 'options', '+' + OPTION_DESC[option])
+            if option == ABLATIVE_COAT:
+                self.ablative_coat_health = 3
 
     def delete_option(self, option):
         assert option in self.options
