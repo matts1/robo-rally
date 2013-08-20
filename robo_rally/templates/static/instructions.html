@@ -3,30 +3,65 @@
 
 {% block content %}
     <p>
+        <h1>Summary</h1>
+        In Robo Rally, you draw random cards each turn, featuring instructions for the movement of your robot. Choose 5
+        of these cards to plan out your robot's moves across the course. Other robots and board elements, however, can
+        interact with your robot and screw your plans over.
+    </p>
+    <p>
         <h1>Objective</h1>
-        The objective of robo rally is to get your bot to all of the flags, in order, and to be the first to do so. It's
-        that simple... or is it...
+        The objective of robo rally is to get your bot to all of the flags, in order, and to be the first to do so.
+        Getting your robot to the flags isn't always easy, though, becaus you'll execute your maves at the same time as
+        all the other players. Robots will get in each other's way, push each other, and shoot each other. Sometimes
+        it's even a challenge to simply survive.
     </p>
     <p>
         <h1>How to play</h1>
-        You play by arranging your program cards in the order you want them to be executed. The first 5 program cards
-        will get executed, and the rest will get discarded. Click "ready" when you have finished making your move. When
-        everyone finishes making their move, the turn starts. The players with the highest priority cards will move
-        first. A move card will make you move that many squares in the direction you are facing, pushing any robots as
-        you go. You will, however, be stopped by walls. Rotate cards will make you rotate as shown on the card. After
-        all the robots have moved for that register, board elements move. Firstly the double conveyer moves one, then
-        both the conveyers move. Pushers then push on the appropriate turns (2 pronged pushers on 2 and 4, and 3 pronged
-        on 1, 3, and 5). Finally, gears rotate. After all these elements have moved, the board lasers, then the robot
-        lasers fire. When you get hit you take damage, which means you will get less program cards at the start of your
-        next turn. After all this happens, robots can place their respawn tokens if they are standing on top of a repair
-        station or a flag. Finally, robots have the opportunity to declare power down.
-
-        If the register was the last, then players on repair stations heal and get an option card.
+        The order of each turn:
+        <ol>
+            <li>The game deals the program cards to you</li>
+            <li>Arrange your program cards by clicking on pairs of program cards to swap them</li>
+            <li>
+                While you do that, you can choose to either enable or disable any options which require you to choose
+                whether to use them, such as recompile
+            </li>
+            <li>Hit ready, and when everyone is ready, the turn will start</li>
+            <li>
+                The game will run one register (single card) at a time. Within each register:
+                <ol>
+                    <li>
+                        Robots move as shown below.
+                        <img src="/static/images/screenshots/pushing.jpg" style="width:800px"/>
+                    </li>
+                    <li>
+                        Express conveyers move 1 square. If the conveyer belt turned, you turn with it, as shown below.
+                        <img src="/static/images/screenshots/conveyers.jpg" style="width:400px"/>
+                    </li>
+                    <li>Both express and normal conveyer belts move, in the same way as before.</li>
+                    <li>
+                        Pushers push if they are active. Pushers with 3 prongs are active on registers 1, 3, and 5, and
+                        pushers with 2 prongs are active on 2 and 4.
+                    </li>
+                    <li>Gears rotate you according to the direction of the arrows on the gears</li>
+                    <li>Board lasers fire. If they are blocked by a wall or another robot, they cannot hit you</li>
+                    <li>Robot lasers fire in the direction robots are facing. Same rules apply.</li>
+                    <li>
+                        Robots touch flags and place archive markers. Your archive marker is your respawn point. If you
+                        were on top of a repair station or a flag, your archive marker is placed there (number in
+                        circle).
+                    </li>
+                </ol>
+            </li>
+            <li>
+                Any robot on repair stations after the last register will be healed by 1, and any robot on a square with
+                a hammer and wrench will obtain an option card (as well as the heal).
+            </li>
+        </ol>
     </p>
     <p>
         <h1>Dying</h1>
         You die when either you fall off the map into a pit or off the edge, or when you lose all your health.
-        When you come back, you come back with 2 damage already taken.
+        When you come back, you come back with 2 damage already taken and one less life.
     </p>
     <p>
         <h1>Power Down</h1>
@@ -39,7 +74,8 @@
         <h1>Help (FAQs)</h1>
         <h3>How do I arrange my cards?</h3>
             You can arrange your cards by clicking on any pair of them to swap them. When you have finished, click ready
-            and when everyone is ready, the game will make a move.
+            and when everyone is ready, the game will make a move. However, cards will not swap when a register is
+            locked.
         <h3>What is a priority?</h3>
             A card's priority is the number in the top right of the card. It indicates how to handle the situation when
             2 robots would push each other. The higher priority always moves first
