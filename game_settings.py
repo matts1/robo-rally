@@ -162,4 +162,6 @@ OPTION_DESC = {
     DOUBLE_BARRELED_LASER: 'Double Barreled Laser: Shoot with your normal laser twice per turn',
     REAR_FIRING_LASER: 'Rear Firing Laser: Shoot behind you. Cannot be used with double barreled laser',
     POWER_DOWN_SHIELD: 'Power Down Shield: Protects you from up to 1 damage per source per register',
+    RECOMPILE: 'Recompile: Once per turn, you may discard all your program cards and get a new hand. '
+        'Your robot will then receive one damage.<button id="recompile">Recompile</button>'
 }

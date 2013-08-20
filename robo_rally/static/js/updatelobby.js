@@ -158,6 +158,10 @@ var startGame = function (text, player) {
 
         $("#powerdown").click(function() {
             send("powerdown", "");
+        });
+
+        $("#recompile").click(function () {
+            send("setoption", "recompile");
         })
 
         $(".prompt_button").on("click", function(){

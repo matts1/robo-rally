@@ -54,7 +54,7 @@
     <div class="option_cards">
         <h3>Your Options:</h3>
         {% for option in player.option_list %}
-            <div class="option">{{ option }}</div>
+            <div class="option">{{ option|safe }}</div>
         {% endfor %}
     </div>
 </div>
