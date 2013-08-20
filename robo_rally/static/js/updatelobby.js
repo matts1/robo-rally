@@ -159,6 +159,11 @@ var startGame = function (text, player) {
         $("#powerdown").click(function() {
             send("powerdown", "");
         })
+
+        $(".prompt_button").on("click", function(){
+            send("prompt", $(this).text());
+            closeOverlay();
+        });
     });
 };
 
@@ -188,6 +193,25 @@ var deal = function (text, player) {
         $(".hand").append('<img src="/static/images/cards/' + priority + '.png" class="program_card">');
     }
 }
+
+var prompt = function (text, player) {
+    text = text.split(",");
+    message = text[0];
+
+    overlay = $("#overlay");
+    box = $("div.prompt");
+
+    box.text(message);
+    for (var i = 1; i < text.length; i++) {
+        box.append('<button class="prompt_button">' + text[i] + '</button>');
+    }
+    overlay.css("visibility", "visible");
+    overlay.css("height", $(window).height() + "px");
+};
+
+var closeOverlay = function() {
+    $("#overlay").css("visibility", "hidden")
+};
 
 var newobjective = function (text, player) {
     $(".nextflag").html(text);
@@ -226,6 +250,7 @@ var functions = {
     "move": move,
     "health": health,
     "dealhand": deal,
+    "prompt":prompt,
     "newobjective": newobjective,
     "alert": myAlert,
     "virtual": virtualCaller,

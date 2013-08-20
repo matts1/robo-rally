@@ -73,6 +73,7 @@ function loadBoard(obj, url) {
                 parseInt(text[2]), parseInt(text[3]), parseInt(text[4]));
         }
     });
+    prompt("message,option1,option2");
 };
 
 function drawBoard(display, board, spawn, flags) {
@@ -169,7 +170,7 @@ function animate (queue_pos, img, new_left, new_top, rot) {
             }});
         }});
     }
-}
+};
 
 function drawSpecial(display, squareSize, type, objid, x, y, rot) {
     last = true;

@@ -212,6 +212,8 @@ VALID_ACTIONS = {
     'health': SELF,
     'swapcards': NONE,
     'playerready':NONE,
+    'prompt': SELF,
+    'playerready':NONE,
     'newobjective': SELF,
     'powerdown': NONE,
     'alert': ALL,
