@@ -1,5 +1,4 @@
 #!/bin/bash
-mkdir cards
 for i in $(seq 10 10 840); do
     text=$(printf %03d $i)
     base="base"
