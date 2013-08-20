@@ -73,7 +73,6 @@ function loadBoard(obj, url) {
                 parseInt(text[2]), parseInt(text[3]), parseInt(text[4]));
         }
     });
-    prompt("message,option1,option2");
 };
 
 function drawBoard(display, board, spawn, flags) {
