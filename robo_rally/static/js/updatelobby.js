@@ -85,11 +85,11 @@ var setOpacity = function (key, value) {
     if (key in window.specials) {
         window.specials[key].css("opacity", value);
     }
-}
+};
 
 var virtualCaller = function (text, player) {
     virtual(window.newest_todo, text);
-}
+};
 
 var virtual = function (queue_pos, text) {
     if (queue_pos > window.first_queue) {
@@ -105,7 +105,7 @@ var virtual = function (queue_pos, text) {
             setOpacity(16 + parseInt(players[i]), 0.5);
         }
     }
-}
+};
 
 var health = function (text, player) {
     stats = text.split(' ');
@@ -196,7 +196,7 @@ var deal = function (text, player) {
         priority = parseInt(hand[i].split(",")[1]);
         $(".hand").append('<img src="/static/images/cards/' + priority + '.png" class="program_card">');
     }
-}
+};
 
 var prompt = function (text, player) {
     text = text.split(",");
@@ -219,16 +219,16 @@ var closeOverlay = function() {
 
 var newobjective = function (text, player) {
     $(".nextflag").html(text);
-}
+};
 
 var myAlert = function (text, player) {
     alert(text);
-}
+};
 
 var restartGame = function (text, player) {
     alert("Everyone died... You must all suck. Let me make a new game for you.");
     location.reload(true);
-}
+};
 
 var setOptions = function (text, player) {
     if (text[0] == "+") {
@@ -244,7 +244,7 @@ var setOptions = function (text, player) {
         }
     }
     alert(result + text.substring(1));
-}
+};
 
 var functions = {
     "adduser": addPlayer,

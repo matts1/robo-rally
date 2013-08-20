@@ -1,0 +1,51 @@
+BEGIN updatelobby
+    IF page has loaded:
+        IF screen is loadmaplist:
+            gotoPickMap()
+        IF screen is gamerunning:
+            startGame()
+        IF start game button is pressed:
+            send("gotopickmap")
+
+    BEGIN move():
+        move player
+    END move
+
+    BEGIN health():
+        append lives/damage to screen
+    END health
+
+    BEGIN deal(text):
+        cards = player's cards
+        IF player has taken damage:
+            make some cards invisible
+
+        FOR i = 0...5:
+            card = cards[i]
+            append card to display
+            SET image of card
+
+    END deal
+
+    BEGIN prompt():
+        display a modal prompt
+    END prompt
+
+    BEGIN restartGame():
+        restart the game
+    END restartGame
+
+    BEGIN setOptions():
+        print what card the player got or lost
+        IF player got a card:
+            append card to display
+        ELSE IF player lost a card:
+            remove card from display
+        display the player's option cards
+    END setOptions():
+
+    BEGIN send(action, msg):
+        send action and msg to python backend
+    END send
+
+END updatelobby
